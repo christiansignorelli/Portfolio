@@ -14,8 +14,8 @@ from macro_signals.analyzer import (
 )
 
 
-SITE_TITLE = "Macro Signals Analyzer"
-SITE_TAGLINE = "Daily macro narrative from news language and market confirmation"
+SITE_TITLE = "Macro Signals Daily"
+SITE_TAGLINE = "End-of-day market wrap-up from news language and market confirmation"
 
 CSS = """
 :root {
@@ -63,6 +63,7 @@ h2 { margin: 0 0 12px; font-size: 24px; }
 .meta-row { margin-top: 22px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
 .signal-grid, .bucket-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 .market-grid { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+.explain-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 .section { margin-top: 28px; }
 .value { font-size: 28px; line-height: 1.05; margin: 0 0 8px; }
 .status {
@@ -80,6 +81,8 @@ li + li { margin-top: 8px; }
 .archive-list { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 14px; }
 .archive-card a { color: var(--ink); text-decoration: none; }
 .footer { margin-top: 36px; font-size: 13px; }
+.mini-list { margin: 10px 0 0; padding-left: 18px; color: var(--muted); }
+.mini-list li + li { margin-top: 6px; }
 @media (max-width: 720px) {
   .page { width: min(100vw - 20px, 1120px); padding-top: 16px; }
 }
@@ -113,6 +116,44 @@ def build_market_cards(market_snapshot: list[dict[str, object]]) -> str:
             )
         )
     return '<div class="market-grid">' + "".join(cards) + "</div>"
+
+
+def build_crosscheck_explainer(report: dict[str, object]) -> str:
+    unavailable = (
+        not report["market_confirmation"]
+        or "not enough market context" in str(report["market_confirmation"]).lower()
+    )
+
+    why_unavailable = (
+        "<p class='subtle'>Why it may be unavailable: the build likely ran without a valid market snapshot file, "
+        "or too few proxies were fetched to run the checks. Yes, that usually does depend on the specific run "
+        "timing and data availability when the page was generated.</p>"
+        if unavailable
+        else "<p class='subtle'>In this run, enough proxies were available to compare the language signal against market behavior.</p>"
+    )
+
+    return """
+    <div class="signal-grid explain-grid">
+      <div class="card">
+        <div class="kicker">How Cross-Check Works</div>
+        <p class="subtle">
+          The system first classifies the day's language into signals like hawkish policy,
+          cooling inflation, softening growth, or risk-off. It then asks whether a small
+          set of market proxies moved the way that narrative would normally suggest.
+        </p>
+        <ul class="mini-list">
+          <li>Hawkish policy: bonds weaker, dollar firmer.</li>
+          <li>Cooling inflation: bonds stronger.</li>
+          <li>Inflation pressure: oil up, bonds weaker.</li>
+          <li>Risk-off: equities and high-yield credit weaker.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="kicker">Availability</div>
+        {why_unavailable}
+      </div>
+    </div>
+    """.format(why_unavailable=why_unavailable)
 
 
 def build_bucket_cards(bucket_views: list[dict[str, object]]) -> str:
@@ -197,6 +238,11 @@ def build_report_section(report: dict[str, object], featured: bool = False) -> s
       </div>
 
       <div class="section">
+        <h2>Cross-Check Logic</h2>
+        {crosscheck_explainer}
+      </div>
+
+      <div class="section">
         <h2>Signal Buckets</h2>
         {bucket_cards}
       </div>
@@ -209,6 +255,7 @@ def build_report_section(report: dict[str, object], featured: bool = False) -> s
         macro_read=escape(str(report["macro_read"]).replace("Macro read: ", "")),
         market_confirmation=escape(str(report["market_confirmation"] or "No market data")),
         market_cards=build_market_cards(list(report["market_snapshot"])),
+        crosscheck_explainer=build_crosscheck_explainer(report),
         bucket_cards=build_bucket_cards(list(report["bucket_views"])),
     )
 
@@ -274,7 +321,7 @@ def render_site(reports: list[dict[str, object]]) -> str:
           <div class="card">
             <div class="kicker">Latest Date</div>
             <div class="value">{latest_date}</div>
-            <div class="subtle">Auto-generated daily report</div>
+            <div class="subtle">Auto-generated end-of-day report</div>
           </div>
           <div class="card">
             <div class="kicker">Last Build</div>
@@ -284,7 +331,7 @@ def render_site(reports: list[dict[str, object]]) -> str:
           <div class="card">
             <div class="kicker">What It Does</div>
             <div class="value">News + Market</div>
-            <div class="subtle">Reads RSS headlines, classifies macro tone, and checks price confirmation</div>
+            <div class="subtle">Reads RSS headlines, classifies macro tone, and publishes a post-close market wrap-up</div>
           </div>
         </div>
       </section>
