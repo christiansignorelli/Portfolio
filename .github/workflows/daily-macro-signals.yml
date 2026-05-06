@@ -3,7 +3,7 @@ name: Daily Macro Signals Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: "45 13 * * *"
+    - cron: "15 21 * * *"
 
 permissions:
   contents: write
