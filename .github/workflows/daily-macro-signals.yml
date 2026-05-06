@@ -1,0 +1,39 @@
+name: Daily Macro Signals Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 13 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-site:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch news
+        run: python3 macro-signals-daily/fetch_news.py
+
+      - name: Fetch market
+        run: python3 macro-signals-daily/fetch_market.py
+
+      - name: Generate site
+        run: python3 macro-signals-daily/generate_site.py --output-dir macro-signals-daily
+
+      - name: Commit updated site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add macro-signals-daily
+          git diff --staged --quiet || git commit -m "Update macro signals daily site"
+          git push
