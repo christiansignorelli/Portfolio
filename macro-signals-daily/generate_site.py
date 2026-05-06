@@ -37,7 +37,7 @@ body {
   color: var(--ink);
 }
 .page { width: min(1120px, calc(100vw - 32px)); margin: 0 auto; padding: 32px 0 72px; }
-.hero, .card, .bucket-card, .market-card, .archive-card {
+.hero, .card, .bucket-card, .market-card {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 22px;
@@ -45,7 +45,7 @@ body {
 }
 .hero { padding: 28px; }
 .card, .bucket-card { padding: 20px; }
-.market-card, .archive-card { padding: 16px; }
+.market-card { padding: 16px; }
 .eyebrow, .kicker {
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -56,7 +56,7 @@ h1 { margin: 0; font-size: clamp(34px, 6vw, 64px); line-height: 0.95; }
 h2 { margin: 0 0 12px; font-size: 24px; }
 .tagline, .subtle, .section p, .source, .footer { color: var(--muted); }
 .tagline { margin: 14px 0 0; max-width: 720px; font-size: 18px; }
-.meta-row, .signal-grid, .market-grid, .bucket-grid, .archive-list {
+.meta-row, .signal-grid, .market-grid, .bucket-grid {
   display: grid;
   gap: 16px;
 }
@@ -78,27 +78,27 @@ h2 { margin: 0 0 12px; font-size: 24px; }
 ul { margin: 12px 0 0; padding-left: 18px; }
 li + li { margin-top: 8px; }
 .headline { font-weight: 700; }
-.archive-list { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 14px; }
-.archive-card a { color: var(--ink); text-decoration: none; }
 .footer { margin-top: 36px; font-size: 13px; }
 .mini-list { margin: 10px 0 0; padding-left: 18px; color: var(--muted); }
 .mini-list li + li { margin-top: 6px; }
 .check-list {
   display: grid;
-  gap: 10px;
+  gap: 0;
   margin-top: 14px;
 }
-.check-item {
-  padding: 14px;
-  border-radius: 16px;
-  border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.68);
-}
-.check-top {
+.check-row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 10px;
+  gap: 14px;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+.check-row:first-child {
+  border-top: 0;
+}
+.check-copy {
+  max-width: 760px;
 }
 .check-label {
   font-weight: 700;
@@ -201,12 +201,12 @@ def build_market_checks(report: dict[str, object]) -> str:
         badge_class = "check-yes" if check["confirmed"] else "check-no"
         items.append(
             """
-            <div class="check-item">
-              <div class="check-top">
+            <div class="check-row">
+              <div class="check-copy">
                 <div class="check-label">{label}</div>
-                <span class="check-badge {badge_class}">{badge}</span>
+                <div class="subtle">{expected}</div>
               </div>
-              <div class="subtle">{expected}</div>
+              <span class="check-badge {badge_class}">{badge}</span>
             </div>
             """.format(
                 label=escape(str(check["label"]).title()),
@@ -246,28 +246,6 @@ def build_bucket_cards(bucket_views: list[dict[str, object]]) -> str:
             )
         )
     return '<div class="bucket-grid">' + "".join(cards) + "</div>"
-
-
-def build_archive_cards(reports: list[dict[str, object]]) -> str:
-    if len(reports) <= 1:
-        return "<p class='subtle'>The archive will fill in as daily runs accumulate.</p>"
-
-    cards = []
-    for report in reversed(reports[:-1]):
-        cards.append(
-            """
-            <div class="archive-card">
-              <a href="#report-{date}">
-                <strong>{date}</strong><br>
-                <span class="subtle">{macro_read}</span>
-              </a>
-            </div>
-            """.format(
-                date=escape(str(report["date"])),
-                macro_read=escape(str(report["macro_read"])),
-            )
-        )
-    return '<div class="archive-list">' + "".join(cards) + "</div>"
 
 
 def build_report_section(report: dict[str, object], featured: bool = False) -> str:
@@ -402,17 +380,6 @@ def render_site(reports: list[dict[str, object]]) -> str:
 
       {latest_section}
 
-      <section class="section">
-        <div class="card">
-          <div class="kicker">Report Archive</div>
-          <h2>Previous Snapshots</h2>
-          <p>Useful as a public demo of how the system would look for clients as it builds a daily history.</p>
-          {archive_cards}
-        </div>
-      </section>
-
-      {archive_sections}
-
       <footer class="footer">
         Built from public RSS feeds and free market proxies. This demo is generated automatically from the pipeline in this repository.
       </footer>
@@ -425,8 +392,6 @@ def render_site(reports: list[dict[str, object]]) -> str:
         latest_date=escape(str(latest["date"])),
         updated_at=escape(updated_at),
         latest_section=build_report_section(latest, featured=True),
-        archive_cards=build_archive_cards(reports),
-        archive_sections="".join(build_report_section(report) for report in reversed(reports[:-1])),
     )
 
 
