@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christian J. Signorelli | Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio of Christian J. Signorelli, a former U.S. Navy intelligence analyst building practical automation, AI, and data-driven workflows."
+  />
+  <style>
+    :root {
+      --bg: #efe8dd;
+      --panel: rgba(255, 251, 245, 0.82);
+      --panel-strong: #fffaf3;
+      --ink: #1f2430;
+      --muted: #5f6775;
+      --line: rgba(50, 40, 25, 0.12);
+      --accent: #0f5bd8;
+      --accent-2: #d96c1f;
+      --shadow: 0 18px 50px rgba(26, 32, 44, 0.12);
+      --radius: 24px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(15, 91, 216, 0.14), transparent 28%),
+        radial-gradient(circle at 85% 15%, rgba(217, 108, 31, 0.14), transparent 22%),
+        linear-gradient(180deg, #faf6ef 0%, var(--bg) 100%);
+      font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .page {
+      width: min(1120px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 24px 0 72px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 32px;
+      padding: 32px;
+      background: linear-gradient(145deg, rgba(255, 251, 245, 0.94), rgba(250, 243, 232, 0.88));
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto -8% -38% auto;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(15, 91, 216, 0.18), transparent 68%);
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+      letter-spacing: -0.03em;
+      margin: 0;
+    }
+
+    h1 {
+      max-width: 900px;
+      font-size: clamp(2.7rem, 6vw, 5.4rem);
+      line-height: 0.95;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 1.08rem;
+      line-height: 1.7;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.9fr;
+      gap: 22px;
+      margin-top: 28px;
+      align-items: start;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .panel-inner {
+      padding: 24px;
+    }
+
+    .meta-list,
+    .interest-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .tag {
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: rgba(15, 91, 216, 0.08);
+      border: 1px solid rgba(15, 91, 216, 0.12);
+      color: #113f8c;
+      font-size: 0.92rem;
+      font-weight: 600;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 18px;
+      border-radius: 999px;
+      font-weight: 700;
+      transition: transform 140ms ease, box-shadow 140ms ease, background 140ms ease;
+    }
+
+    .button:hover {
+      transform: translateY(-1px);
+    }
+
+    .button-primary {
+      background: linear-gradient(135deg, var(--accent), #2f77ed);
+      color: white;
+      box-shadow: 0 12px 24px rgba(15, 91, 216, 0.24);
+    }
+
+    .button-secondary {
+      background: rgba(255, 255, 255, 0.68);
+      border: 1px solid var(--line);
+      color: var(--ink);
+    }
+
+    .section {
+      margin-top: 26px;
+    }
+
+    .section-title {
+      margin-bottom: 14px;
+      font-size: 1.7rem;
+    }
+
+    .section-copy {
+      max-width: 860px;
+      color: var(--muted);
+      line-height: 1.75;
+      font-size: 1rem;
+    }
+
+    .project-card {
+      position: relative;
+      overflow: hidden;
+      margin-top: 18px;
+      border: 1px solid var(--line);
+      border-radius: 30px;
+      background:
+        linear-gradient(135deg, rgba(255,255,255,0.92), rgba(250,244,233,0.92)),
+        var(--panel-strong);
+      box-shadow: var(--shadow);
+    }
+
+    .project-card::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto auto 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 22px;
+      padding: 28px;
+    }
+
+    .project-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(217, 108, 31, 0.1);
+      color: #8d4814;
+      font-size: 0.84rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .project-copy {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+
+    .project-points {
+      margin: 18px 0 0;
+      padding-left: 18px;
+      color: var(--ink);
+      line-height: 1.7;
+    }
+
+    .project-points li + li {
+      margin-top: 8px;
+    }
+
+    .stats {
+      display: grid;
+      gap: 12px;
+    }
+
+    .stat {
+      padding: 18px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid var(--line);
+    }
+
+    .stat-label {
+      font-size: 0.76rem;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .stat-value {
+      margin-top: 8px;
+      font-size: 1.3rem;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    .about-layout {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .footer-note {
+      margin-top: 30px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid,
+      .project-grid,
+      .about-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        width: min(100vw - 18px, 1120px);
+        padding-top: 10px;
+      }
+
+      .hero,
+      .project-card,
+      .panel {
+        border-radius: 22px;
+      }
+
+      .hero {
+        padding: 22px;
+      }
+
+      .project-grid {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">Portfolio</p>
+      <h1>Christian J. Signorelli</h1>
+      <p class="lead">
+        Former U.S. Navy intelligence analyst transitioning into the civilian sector
+        with a focus on automation, AI workflows, and data-driven problem solving.
+      </p>
+
+      <div class="actions">
+        <a class="button button-primary" href="./macro-signals-daily/">View Macro Signals Daily</a>
+        <a class="button button-secondary" href="https://www.linkedin.com/in/christian-j-signorelli" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+
+      <div class="hero-grid">
+        <div class="panel">
+          <div class="panel-inner">
+            <h2 class="section-title">What I’m Building</h2>
+            <p class="section-copy">
+              I’m interested in practical systems that combine LLMs, APIs, OSINT-style
+              research workflows, and automation platforms like n8n to turn messy
+              information into actionable insights. Recently I’ve been experimenting
+              with market and news monitoring agents, AI-assisted analysis pipelines,
+              and lightweight productivity systems.
+            </p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-inner">
+            <h2 class="section-title">Current Interests</h2>
+            <div class="interest-list">
+              <span class="tag">AI agents & automation</span>
+              <span class="tag">LLM application design</span>
+              <span class="tag">OSINT & data aggregation</span>
+              <span class="tag">Python scripting</span>
+              <span class="tag">Financial/news analysis workflows</span>
+              <span class="tag">HCI & language learning tech</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Featured Project</h2>
+      <article class="project-card">
+        <div class="project-grid">
+          <div>
+            <span class="project-label">Daily Research System</span>
+            <h3 style="margin-top: 16px; font-size: 2rem;">Macro Signals Daily</h3>
+            <p class="project-copy">
+              A public-facing daily macro intelligence demo that monitors financial
+              headlines, classifies narrative shifts using a transparent rules-based
+              engine, and checks whether market proxies confirm the story. Built as a
+              lightweight alternative to expensive always-on LLM API pipelines.
+            </p>
+            <ul class="project-points">
+              <li>Reads public RSS feeds and filters for macro-relevant signals.</li>
+              <li>Scores themes like policy, inflation, growth, liquidity, and risk.</li>
+              <li>Cross-checks narrative against market proxies like SPY, TLT, UUP, USO, and HYG.</li>
+              <li>Publishes a client-friendly daily HTML brief automatically.</li>
+            </ul>
+            <div class="actions" style="margin-top: 22px;">
+              <a class="button button-primary" href="./macro-signals-daily/">Open Live Demo</a>
+            </div>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-label">Primary Stack</div>
+              <div class="stat-value">Python, RSS, GitHub Pages, HTML/CSS</div>
+            </div>
+            <div class="stat">
+              <div class="stat-label">Core Idea</div>
+              <div class="stat-value">Cheap, explainable macro signal generation without heavy LLM API cost</div>
+            </div>
+            <div class="stat">
+              <div class="stat-label">Why It Matters</div>
+              <div class="stat-value">Turns noisy financial inputs into a repeatable daily research product</div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-layout">
+        <div class="panel">
+          <div class="panel-inner">
+            <p class="section-copy">
+              My background includes intelligence analysis, targeting, workflow
+              optimization, and leading small analytical teams in high-tempo
+              environments. I enjoy learning by building and documenting projects
+              publicly as I go.
+            </p>
+            <p class="section-copy" style="margin-top: 14px;">
+              I’m especially interested in designing tools that help people process
+              information more clearly, move faster, and make better decisions under
+              uncertainty.
+            </p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-inner">
+            <h3 style="font-size: 1.45rem;">Open to Collaboration</h3>
+            <p class="section-copy" style="margin-top: 12px;">
+              Always open to collaborating, learning, and improving systems.
+            </p>
+            <div class="actions" style="margin-top: 20px;">
+              <a class="button button-secondary" href="https://www.linkedin.com/in/christian-j-signorelli" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <p class="footer-note">
+      Built to showcase practical AI workflow design, research automation, and
+      explainable signal generation.
+    </p>
+  </main>
+</body>
+</html>
