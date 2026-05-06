@@ -83,6 +83,40 @@ li + li { margin-top: 8px; }
 .footer { margin-top: 36px; font-size: 13px; }
 .mini-list { margin: 10px 0 0; padding-left: 18px; color: var(--muted); }
 .mini-list li + li { margin-top: 6px; }
+.check-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+.check-item {
+  padding: 14px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.68);
+}
+.check-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.check-label {
+  font-weight: 700;
+}
+.check-badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.check-yes {
+  background: rgba(30, 122, 70, 0.12);
+  color: #1b6c42;
+}
+.check-no {
+  background: rgba(160, 49, 49, 0.12);
+  color: #8d2c2c;
+}
 @media (max-width: 720px) {
   .page { width: min(100vw - 20px, 1120px); padding-top: 16px; }
 }
@@ -154,6 +188,34 @@ def build_crosscheck_explainer(report: dict[str, object]) -> str:
       </div>
     </div>
     """.format(why_unavailable=why_unavailable)
+
+
+def build_market_checks(report: dict[str, object]) -> str:
+    checks = list(report.get("market_checks", []))
+    if not checks:
+        return "<p class='subtle'>No detailed checks were available for this run.</p>"
+
+    items = []
+    for check in checks:
+        badge = "Confirmed" if check["confirmed"] else "Not confirmed"
+        badge_class = "check-yes" if check["confirmed"] else "check-no"
+        items.append(
+            """
+            <div class="check-item">
+              <div class="check-top">
+                <div class="check-label">{label}</div>
+                <span class="check-badge {badge_class}">{badge}</span>
+              </div>
+              <div class="subtle">{expected}</div>
+            </div>
+            """.format(
+                label=escape(str(check["label"]).title()),
+                badge_class=badge_class,
+                badge=badge,
+                expected=escape(str(check["expected"])),
+            )
+        )
+    return '<div class="check-list">' + "".join(items) + "</div>"
 
 
 def build_bucket_cards(bucket_views: list[dict[str, object]]) -> str:
@@ -228,7 +290,7 @@ def build_report_section(report: dict[str, object], featured: bool = False) -> s
         <div class="card">
           <div class="kicker">Market Check</div>
           <div class="value">{market_confirmation}</div>
-          <div class="subtle">Cross-checking narrative with rates, dollar, oil, equities and credit</div>
+          <div class="subtle">Compares the language signal with bonds, the dollar, oil, equities, and credit proxies</div>
         </div>
       </div>
 
@@ -240,6 +302,7 @@ def build_report_section(report: dict[str, object], featured: bool = False) -> s
       <div class="section">
         <h2>Cross-Check Logic</h2>
         {crosscheck_explainer}
+        {market_checks}
       </div>
 
       <div class="section">
@@ -256,6 +319,7 @@ def build_report_section(report: dict[str, object], featured: bool = False) -> s
         market_confirmation=escape(str(report["market_confirmation"] or "No market data")),
         market_cards=build_market_cards(list(report["market_snapshot"])),
         crosscheck_explainer=build_crosscheck_explainer(report),
+        market_checks=build_market_checks(report),
         bucket_cards=build_bucket_cards(list(report["bucket_views"])),
     )
 
