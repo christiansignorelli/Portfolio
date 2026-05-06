@@ -157,13 +157,18 @@ def build_crosscheck_explainer(report: dict[str, object]) -> str:
         not report["market_confirmation"]
         or "not enough market context" in str(report["market_confirmation"]).lower()
     )
+    market_snapshot = list(report.get("market_snapshot", []))
+    available_symbols = [str(item["symbol"]) for item in market_snapshot]
+    available_text = ", ".join(available_symbols) if available_symbols else "none"
 
     why_unavailable = (
-        "<p class='subtle'>Why it may be unavailable: the build likely ran without a valid market snapshot file, "
-        "or too few proxies were fetched to run the checks. Yes, that usually does depend on the specific run "
-        "timing and data availability when the page was generated.</p>"
+        "<p class='subtle'>Available market proxies in this run: "
+        f"{escape(available_text)}. The cross-check was unavailable because the build did not have enough usable "
+        "proxy data to evaluate the narrative against market behavior.</p>"
         if unavailable
-        else "<p class='subtle'>In this run, enough proxies were available to compare the language signal against market behavior.</p>"
+        else "<p class='subtle'>Available market proxies in this run: "
+        f"{escape(available_text)}. That was enough to compare the language signal against bonds, the dollar, "
+        "oil, equities, and credit behavior.</p>"
     )
 
     return """
@@ -203,15 +208,16 @@ def build_market_checks(report: dict[str, object]) -> str:
             """
             <div class="check-row">
               <div class="check-copy">
-                <div class="check-label">{label}</div>
+                <div class="check-label">{label}: {badge}</div>
                 <div class="subtle">{expected}</div>
               </div>
-              <span class="check-badge {badge_class}">{badge}</span>
+              <span class="check-badge {badge_class}">{badge_short}</span>
             </div>
             """.format(
                 label=escape(str(check["label"]).title()),
                 badge_class=badge_class,
                 badge=badge,
+                badge_short="Yes" if check["confirmed"] else "No",
                 expected=escape(str(check["expected"])),
             )
         )
