@@ -9,16 +9,16 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 1.16,
-        "return_5d": 2.89,
-        "close": 732.1312866210938
+        "return_1d": 1.07,
+        "return_5d": 2.8,
+        "close": 731.47998046875
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.81,
-        "return_5d": 0.49,
-        "close": 86.11969757080078
+        "return_1d": 0.75,
+        "return_5d": 0.43,
+        "close": 86.07019805908203
       },
       {
         "symbol": "UUP",
@@ -30,23 +30,23 @@
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -7.2,
-        "return_5d": -11.18,
-        "close": 133.78500366210938
+        "return_1d": -7.27,
+        "return_5d": -11.25,
+        "close": 133.69000244140625
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.31,
-        "return_5d": 0.05,
-        "close": 80.16999816894531
+        "return_1d": 0.28,
+        "return_5d": 0.02,
+        "close": 80.1449966430664
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 3.11,
-        "return_5d": 3.32,
-        "close": 431.2650146484375
+        "return_1d": 2.98,
+        "return_5d": 3.19,
+        "close": 430.7200927734375
       }
     ],
     "bucket_views": [
@@ -158,16 +158,16 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 1.16,
-        "return_5d": 2.89,
-        "close": 732.1312866210938
+        "return_1d": 1.07,
+        "return_5d": 2.8,
+        "close": 731.47998046875
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.81,
-        "return_5d": 0.49,
-        "close": 86.11969757080078
+        "return_1d": 0.75,
+        "return_5d": 0.43,
+        "close": 86.07019805908203
       },
       {
         "symbol": "UUP",
@@ -179,23 +179,23 @@
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -7.2,
-        "return_5d": -11.18,
-        "close": 133.78500366210938
+        "return_1d": -7.27,
+        "return_5d": -11.25,
+        "close": 133.69000244140625
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.31,
-        "return_5d": 0.05,
-        "close": 80.16999816894531
+        "return_1d": 0.28,
+        "return_5d": 0.02,
+        "close": 80.1449966430664
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 3.11,
-        "return_5d": 3.32,
-        "close": 431.2650146484375
+        "return_1d": 2.98,
+        "return_5d": 3.19,
+        "close": 430.7200927734375
       }
     ],
     "bucket_views": [
