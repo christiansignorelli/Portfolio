@@ -1,0 +1,221 @@
+[
+  {
+    "date": "2025-01-27",
+    "daily_brief": "2025-01-27: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: uncategorized.",
+    "macro_read": "Macro read: mostly mixed or neutral.",
+    "market_confirmation": "Market confirmation: not enough market context.",
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": 0.87,
+        "return_5d": 2.6,
+        "close": 730.0599975585938
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.7,
+        "return_5d": 0.38,
+        "close": 86.0250015258789
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": -0.56,
+        "return_5d": -0.96,
+        "close": 27.344999313354492
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": -7.26,
+        "return_5d": -11.23,
+        "close": 133.7100067138672
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": 0.29,
+        "return_5d": 0.03,
+        "close": 80.15499877929688
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": 3.44,
+        "return_5d": 3.66,
+        "close": 432.6700134277344
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "rates",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "U.S. Treasury Yields Fall But Direction for Long-End Yields Still Seen Upward",
+            "source": "feeds.a.dj.com",
+            "confidence": "low",
+            "summary_label": "neutral-mixed",
+            "macro_score": 8,
+            "macro_buckets": [
+              "rates"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "The Extra Reward for Owning Stocks Over Bonds Has Disappeared",
+            "source": "feeds.a.dj.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 4,
+            "macro_buckets": [
+              "rates"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
+            "source": "feeds.a.dj.com",
+            "confidence": "low",
+            "summary_label": "neutral-mixed",
+            "macro_score": 7,
+            "macro_buckets": [
+              "fx"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Natural-Gas Firm Diversified Energy Strikes Deal for Permian Basin Player",
+            "source": "feeds.a.dj.com",
+            "confidence": "low",
+            "summary_label": "neutral-mixed",
+            "macro_score": 4,
+            "macro_buckets": [
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-05-06",
+    "daily_brief": "2026-05-06: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: mostly mixed or neutral.",
+    "market_confirmation": "Market confirmation: not enough market context.",
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": 0.87,
+        "return_5d": 2.6,
+        "close": 730.0599975585938
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.7,
+        "return_5d": 0.38,
+        "close": 86.0250015258789
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": -0.56,
+        "return_5d": -0.96,
+        "close": 27.344999313354492
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": -7.26,
+        "return_5d": -11.23,
+        "close": 133.7100067138672
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": 0.29,
+        "return_5d": 0.03,
+        "close": 80.15499877929688
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": 3.44,
+        "return_5d": 3.66,
+        "close": 432.6700134277344
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "rates",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Why the U.K. may be about to rattle bond markets again",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 4,
+            "macro_buckets": [
+              "rates"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  }
+]

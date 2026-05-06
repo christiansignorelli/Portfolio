@@ -1,0 +1,62 @@
+[
+  {
+    "id": "feeds.a.dj.com-2025-01-27T10-02-00+00-00-12",
+    "source": "feeds.a.dj.com",
+    "published_at": "2025-01-27T10:02:00+00:00",
+    "title": "U.S. Treasury Yields Fall But Direction for Long-End Yields Still Seen Upward",
+    "body": "The 10-year U.S. Treasury yield fell and ING said the the long end of the Treasury curve will continue trading at higher yields even as Trump hasn\u2019t delivered anything to shock markets so far.",
+    "url": "https://www.wsj.com/articles/jgbs-consolidate-supported-by-u-s-treasurys-gains-7edccc7d?mod=rss_markets_main",
+    "macro_score": 8,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "feeds.a.dj.com-2025-01-27T14-55-00+00-00-6",
+    "source": "feeds.a.dj.com",
+    "published_at": "2025-01-27T14:55:00+00:00",
+    "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
+    "body": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S. tech stocks.",
+    "url": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
+    "macro_score": 7,
+    "macro_buckets": [
+      "fx"
+    ]
+  },
+  {
+    "id": "feeds.a.dj.com-2025-01-27T11-57-00+00-00-9",
+    "source": "feeds.a.dj.com",
+    "published_at": "2025-01-27T11:57:00+00:00",
+    "title": "Natural-Gas Firm Diversified Energy Strikes Deal for Permian Basin Player",
+    "body": "Maverick Natural Resources has operations in Texas and Oklahoma.",
+    "url": "https://www.wsj.com/articles/natural-gas-firm-diversified-energy-nears-deal-for-permian-basin-player-4c1c5ff5?mod=rss_markets_main",
+    "macro_score": 4,
+    "macro_buckets": [
+      "energy"
+    ]
+  },
+  {
+    "id": "feeds.a.dj.com-2025-01-27T06-05-00+00-00-14",
+    "source": "feeds.a.dj.com",
+    "published_at": "2025-01-27T06:05:00+00:00",
+    "title": "The Extra Reward for Owning Stocks Over Bonds Has Disappeared",
+    "body": "There is little sign of crimped demand for equities among individual investors, who remain bullish after two years of blockbuster gains.",
+    "url": "https://www.wsj.com/articles/the-extra-reward-for-owning-stocks-over-bonds-has-disappeared-c3f9c223?mod=rss_markets_main",
+    "macro_score": 4,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-05-06T14-01-00+00-00-5",
+    "source": "www.marketwatch.com",
+    "published_at": "2026-05-06T14:01:00+00:00",
+    "title": "Why the U.K. may be about to rattle bond markets again",
+    "body": "It\u2019s not just inflation concerns that have been pushing U.K. yields to multi-decade highs",
+    "url": "https://www.marketwatch.com/story/why-friday-may-see-another-spike-in-bond-market-anxiety-bcb66488?mod=mw_rss_topstories",
+    "macro_score": 4,
+    "macro_buckets": [
+      "rates"
+    ]
+  }
+]
