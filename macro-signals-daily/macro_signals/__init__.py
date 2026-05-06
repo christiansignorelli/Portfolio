@@ -1,0 +1,1 @@
+"""Macro Signals Analyzer package."""
