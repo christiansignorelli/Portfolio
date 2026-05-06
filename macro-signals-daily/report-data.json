@@ -9,44 +9,44 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 1.07,
-        "return_5d": 2.8,
-        "close": 731.47998046875
+        "return_1d": 1.03,
+        "return_5d": 2.76,
+        "close": 731.22998046875
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.75,
-        "return_5d": 0.43,
-        "close": 86.07019805908203
+        "return_1d": 0.69,
+        "return_5d": 0.37,
+        "close": 86.02040100097656
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.56,
-        "return_5d": -0.96,
-        "close": 27.344999313354492
+        "return_1d": -0.58,
+        "return_5d": -0.98,
+        "close": 27.34000015258789
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -7.27,
-        "return_5d": -11.25,
-        "close": 133.69000244140625
+        "return_1d": -7.05,
+        "return_5d": -11.04,
+        "close": 133.99929809570312
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
         "return_1d": 0.28,
-        "return_5d": 0.02,
-        "close": 80.1449966430664
+        "return_5d": 0.01,
+        "close": 80.13999938964844
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 2.98,
-        "return_5d": 3.19,
-        "close": 430.7200927734375
+        "return_1d": 2.94,
+        "return_5d": 3.16,
+        "close": 430.5799865722656
       }
     ],
     "bucket_views": [
@@ -158,44 +158,44 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 1.07,
-        "return_5d": 2.8,
-        "close": 731.47998046875
+        "return_1d": 1.03,
+        "return_5d": 2.76,
+        "close": 731.22998046875
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.75,
-        "return_5d": 0.43,
-        "close": 86.07019805908203
+        "return_1d": 0.69,
+        "return_5d": 0.37,
+        "close": 86.02040100097656
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.56,
-        "return_5d": -0.96,
-        "close": 27.344999313354492
+        "return_1d": -0.58,
+        "return_5d": -0.98,
+        "close": 27.34000015258789
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -7.27,
-        "return_5d": -11.25,
-        "close": 133.69000244140625
+        "return_1d": -7.05,
+        "return_5d": -11.04,
+        "close": 133.99929809570312
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
         "return_1d": 0.28,
-        "return_5d": 0.02,
-        "close": 80.1449966430664
+        "return_5d": 0.01,
+        "close": 80.13999938964844
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 2.98,
-        "return_5d": 3.19,
-        "close": 430.7200927734375
+        "return_1d": 2.94,
+        "return_5d": 3.16,
+        "close": 430.5799865722656
       }
     ],
     "bucket_views": [
@@ -205,7 +205,7 @@
         "score": 0,
         "documents": [
           {
-            "title": "Oil prices bounce off lows as an Iran-war peace deal may be just a \u2018structured pause\u2019",
+            "title": "Oil prices bounce off lows, as an Iran peace deal may be just a \u2018structured pause\u2019",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
@@ -248,7 +248,7 @@
         "score": 0,
         "documents": [
           {
-            "title": "Oil prices bounce off lows as an Iran-war peace deal may be just a \u2018structured pause\u2019",
+            "title": "Oil prices bounce off lows, as an Iran peace deal may be just a \u2018structured pause\u2019",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
