@@ -3,31 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Macro Signals Analyzer</title>
-    <meta name="description" content="Daily macro narrative from news language and market confirmation">
+    <title>Macro Signals Daily</title>
+    <meta name="description" content="End-of-day market wrap-up from news language and market confirmation">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <main class="page">
       <section class="hero">
         <p class="eyebrow">Macro Intelligence Demo</p>
-        <h1>Macro Signals Analyzer</h1>
-        <p class="tagline">Daily macro narrative from news language and market confirmation</p>
+        <h1>Macro Signals Daily</h1>
+        <p class="tagline">End-of-day market wrap-up from news language and market confirmation</p>
         <div class="meta-row">
           <div class="card">
             <div class="kicker">Latest Date</div>
             <div class="value">2026-05-06</div>
-            <div class="subtle">Auto-generated daily report</div>
+            <div class="subtle">Auto-generated end-of-day report</div>
           </div>
           <div class="card">
             <div class="kicker">Last Build</div>
-            <div class="value">2026-05-06 15:01 UTC</div>
+            <div class="value">2026-05-06 15:28 UTC</div>
             <div class="subtle">Published via GitHub Pages</div>
           </div>
           <div class="card">
             <div class="kicker">What It Does</div>
             <div class="value">News + Market</div>
-            <div class="subtle">Reads RSS headlines, classifies macro tone, and checks price confirmation</div>
+            <div class="subtle">Reads RSS headlines, classifies macro tone, and publishes a post-close market wrap-up</div>
           </div>
         </div>
       </section>
@@ -48,8 +48,8 @@
         </div>
         <div class="card">
           <div class="kicker">Market Check</div>
-          <div class="value">Market confirmation: confirmed across risk-on.</div>
-          <div class="subtle">Cross-checking narrative with rates, dollar, oil, equities and credit</div>
+          <div class="value">Market check: price action broadly confirms today&#x27;s risk-on narrative.</div>
+          <div class="subtle">Compares the language signal with bonds, the dollar, oil, equities, and credit proxies</div>
         </div>
       </div>
 
@@ -58,16 +58,16 @@
         <div class="market-grid">
             <div class="market-card">
               <div class="kicker">SPY</div>
-              <div class="value">+1.19%</div>
+              <div class="value">+1.16%</div>
               <div class="subtle">US equities</div>
-              <div class="subtle">5d +2.93%</div>
+              <div class="subtle">5d +2.89%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">TLT</div>
-              <div class="value">+0.79%</div>
+              <div class="value">+0.81%</div>
               <div class="subtle">Long-duration Treasuries</div>
-              <div class="subtle">5d +0.47%</div>
+              <div class="subtle">5d +0.49%</div>
             </div>
             
             <div class="market-card">
@@ -79,23 +79,58 @@
             
             <div class="market-card">
               <div class="kicker">USO</div>
-              <div class="value">-7.37%</div>
+              <div class="value">-7.20%</div>
               <div class="subtle">Oil proxy</div>
-              <div class="subtle">5d -11.34%</div>
+              <div class="subtle">5d -11.18%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">HYG</div>
-              <div class="value">+0.32%</div>
+              <div class="value">+0.31%</div>
               <div class="subtle">High yield credit</div>
-              <div class="subtle">5d +0.06%</div>
+              <div class="subtle">5d +0.05%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">GLD</div>
-              <div class="value">+3.26%</div>
+              <div class="value">+3.11%</div>
               <div class="subtle">Gold</div>
-              <div class="subtle">5d +3.47%</div>
+              <div class="subtle">5d +3.32%</div>
+            </div>
+            </div>
+      </div>
+
+      <div class="section">
+        <h2>Cross-Check Logic</h2>
+        
+    <div class="signal-grid explain-grid">
+      <div class="card">
+        <div class="kicker">How Cross-Check Works</div>
+        <p class="subtle">
+          The system first classifies the day's language into signals like hawkish policy,
+          cooling inflation, softening growth, or risk-off. It then asks whether a small
+          set of market proxies moved the way that narrative would normally suggest.
+        </p>
+        <ul class="mini-list">
+          <li>Hawkish policy: bonds weaker, dollar firmer.</li>
+          <li>Cooling inflation: bonds stronger.</li>
+          <li>Inflation pressure: oil up, bonds weaker.</li>
+          <li>Risk-off: equities and high-yield credit weaker.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="kicker">Availability</div>
+        <p class='subtle'>In this run, enough proxies were available to compare the language signal against market behavior.</p>
+      </div>
+    </div>
+    
+        <div class="check-list">
+            <div class="check-item">
+              <div class="check-top">
+                <div class="check-label">Risk-On</div>
+                <span class="check-badge check-yes">Confirmed</span>
+              </div>
+              <div class="subtle">expects equities and high-yield credit stronger</div>
             </div>
             </div>
       </div>
@@ -107,6 +142,11 @@
               <div class="status">INFLATION | neutral</div>
               <ul>
             <li>
+              <div class="headline">Oil prices bounce off lows as an Iran-war peace deal may be just a ‘structured pause’</div>
+              <div class="source">www.marketwatch.com</div>
+            </li>
+            
+            <li>
               <div class="headline">If stocks are to continue rising, energy prices need to start falling, Barclays says</div>
               <div class="source">www.marketwatch.com</div>
             </li>
@@ -116,6 +156,11 @@
             <article class="bucket-card">
               <div class="status">ENERGY | neutral</div>
               <ul>
+            <li>
+              <div class="headline">Oil prices bounce off lows as an Iran-war peace deal may be just a ‘structured pause’</div>
+              <div class="source">www.marketwatch.com</div>
+            </li>
+            
             <li>
               <div class="headline">If stocks are to continue rising, energy prices need to start falling, Barclays says</div>
               <div class="source">www.marketwatch.com</div>
@@ -179,8 +224,8 @@
         </div>
         <div class="card">
           <div class="kicker">Market Check</div>
-          <div class="value">Market confirmation: not enough market context.</div>
-          <div class="subtle">Cross-checking narrative with rates, dollar, oil, equities and credit</div>
+          <div class="value">Market check: not enough market data was available to confirm today&#x27;s narrative.</div>
+          <div class="subtle">Compares the language signal with bonds, the dollar, oil, equities, and credit proxies</div>
         </div>
       </div>
 
@@ -189,16 +234,16 @@
         <div class="market-grid">
             <div class="market-card">
               <div class="kicker">SPY</div>
-              <div class="value">+1.19%</div>
+              <div class="value">+1.16%</div>
               <div class="subtle">US equities</div>
-              <div class="subtle">5d +2.93%</div>
+              <div class="subtle">5d +2.89%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">TLT</div>
-              <div class="value">+0.79%</div>
+              <div class="value">+0.81%</div>
               <div class="subtle">Long-duration Treasuries</div>
-              <div class="subtle">5d +0.47%</div>
+              <div class="subtle">5d +0.49%</div>
             </div>
             
             <div class="market-card">
@@ -210,25 +255,52 @@
             
             <div class="market-card">
               <div class="kicker">USO</div>
-              <div class="value">-7.37%</div>
+              <div class="value">-7.20%</div>
               <div class="subtle">Oil proxy</div>
-              <div class="subtle">5d -11.34%</div>
+              <div class="subtle">5d -11.18%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">HYG</div>
-              <div class="value">+0.32%</div>
+              <div class="value">+0.31%</div>
               <div class="subtle">High yield credit</div>
-              <div class="subtle">5d +0.06%</div>
+              <div class="subtle">5d +0.05%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">GLD</div>
-              <div class="value">+3.26%</div>
+              <div class="value">+3.11%</div>
               <div class="subtle">Gold</div>
-              <div class="subtle">5d +3.47%</div>
+              <div class="subtle">5d +3.32%</div>
             </div>
             </div>
+      </div>
+
+      <div class="section">
+        <h2>Cross-Check Logic</h2>
+        
+    <div class="signal-grid explain-grid">
+      <div class="card">
+        <div class="kicker">How Cross-Check Works</div>
+        <p class="subtle">
+          The system first classifies the day's language into signals like hawkish policy,
+          cooling inflation, softening growth, or risk-off. It then asks whether a small
+          set of market proxies moved the way that narrative would normally suggest.
+        </p>
+        <ul class="mini-list">
+          <li>Hawkish policy: bonds weaker, dollar firmer.</li>
+          <li>Cooling inflation: bonds stronger.</li>
+          <li>Inflation pressure: oil up, bonds weaker.</li>
+          <li>Risk-off: equities and high-yield credit weaker.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="kicker">Availability</div>
+        <p class='subtle'>In this run, enough proxies were available to compare the language signal against market behavior.</p>
+      </div>
+    </div>
+    
+        <p class='subtle'>No detailed checks were available for this run.</p>
       </div>
 
       <div class="section">

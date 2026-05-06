@@ -44,6 +44,7 @@ h2 { margin: 0 0 12px; font-size: 24px; }
 .meta-row { margin-top: 22px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
 .signal-grid, .bucket-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 .market-grid { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+.explain-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 .section { margin-top: 28px; }
 .value { font-size: 28px; line-height: 1.05; margin: 0 0 8px; }
 .status {
@@ -61,6 +62,42 @@ li + li { margin-top: 8px; }
 .archive-list { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 14px; }
 .archive-card a { color: var(--ink); text-decoration: none; }
 .footer { margin-top: 36px; font-size: 13px; }
+.mini-list { margin: 10px 0 0; padding-left: 18px; color: var(--muted); }
+.mini-list li + li { margin-top: 6px; }
+.check-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+.check-item {
+  padding: 14px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.68);
+}
+.check-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.check-label {
+  font-weight: 700;
+}
+.check-badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.check-yes {
+  background: rgba(30, 122, 70, 0.12);
+  color: #1b6c42;
+}
+.check-no {
+  background: rgba(160, 49, 49, 0.12);
+  color: #8d2c2c;
+}
 @media (max-width: 720px) {
   .page { width: min(100vw - 20px, 1120px); padding-top: 16px; }
 }
