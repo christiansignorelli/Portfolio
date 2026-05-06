@@ -136,6 +136,13 @@ class MarketSnapshot:
     return_5d: float
 
 
+@dataclass
+class MarketCheck:
+    label: str
+    expected: str
+    confirmed: bool
+
+
 def load_documents(path: str | Path) -> list[dict[str, Any]]:
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -399,10 +406,10 @@ def summarize_market(snapshot: MarketSnapshot) -> str:
     return f"{snapshot.symbol} {sign_1d}{snapshot.return_1d:.2f}% 1d, {sign_5d}{snapshot.return_5d:.2f}% 5d"
 
 
-def assess_market_confirmation(
+def build_market_checks(
     daily_scores: dict[str, int], market_map: dict[str, MarketSnapshot]
-) -> str:
-    checks: list[tuple[str, bool]] = []
+) -> list[MarketCheck]:
+    checks: list[MarketCheck] = []
 
     tlt = market_map.get("TLT")
     spy = market_map.get("SPY")
@@ -412,44 +419,117 @@ def assess_market_confirmation(
 
     if daily_scores["policy"] > 0:
         if tlt and uup:
-            checks.append(("hawkish policy", tlt.return_1d < 0 and uup.return_1d > 0))
+            checks.append(
+                MarketCheck(
+                    label="hawkish policy",
+                    expected="expects bonds weaker and dollar firmer",
+                    confirmed=tlt.return_1d < 0 and uup.return_1d > 0,
+                )
+            )
     elif daily_scores["policy"] < 0:
         if tlt and uup:
-            checks.append(("easing policy", tlt.return_1d > 0 and uup.return_1d <= 0))
+            checks.append(
+                MarketCheck(
+                    label="easing policy",
+                    expected="expects bonds stronger and dollar flat to weaker",
+                    confirmed=tlt.return_1d > 0 and uup.return_1d <= 0,
+                )
+            )
 
     if daily_scores["inflation"] > 0:
         if uso and tlt:
-            checks.append(("inflation pressure", uso.return_1d > 0 and tlt.return_1d < 0))
+            checks.append(
+                MarketCheck(
+                    label="inflation pressure",
+                    expected="expects oil stronger and bonds weaker",
+                    confirmed=uso.return_1d > 0 and tlt.return_1d < 0,
+                )
+            )
     elif daily_scores["inflation"] < 0:
         if tlt:
-            checks.append(("cooling inflation", tlt.return_1d > 0))
+            checks.append(
+                MarketCheck(
+                    label="cooling inflation",
+                    expected="expects bonds stronger",
+                    confirmed=tlt.return_1d > 0,
+                )
+            )
 
     if daily_scores["growth"] < 0:
         if tlt and spy:
-            checks.append(("softening growth", tlt.return_1d > 0 and spy.return_1d <= 0))
+            checks.append(
+                MarketCheck(
+                    label="softening growth",
+                    expected="expects bonds stronger and equities softer",
+                    confirmed=tlt.return_1d > 0 and spy.return_1d <= 0,
+                )
+            )
     elif daily_scores["growth"] > 0:
         if spy and hyg:
-            checks.append(("firmer growth", spy.return_1d > 0 and hyg.return_1d >= 0))
+            checks.append(
+                MarketCheck(
+                    label="firmer growth",
+                    expected="expects equities and credit stronger",
+                    confirmed=spy.return_1d > 0 and hyg.return_1d >= 0,
+                )
+            )
 
     if daily_scores["risk"] > 0:
         if spy and hyg:
-            checks.append(("risk-off", spy.return_1d < 0 and hyg.return_1d < 0))
+            checks.append(
+                MarketCheck(
+                    label="risk-off",
+                    expected="expects equities and high-yield credit weaker",
+                    confirmed=spy.return_1d < 0 and hyg.return_1d < 0,
+                )
+            )
     elif daily_scores["risk"] < 0:
         if spy and hyg:
-            checks.append(("risk-on", spy.return_1d > 0 and hyg.return_1d >= 0))
+            checks.append(
+                MarketCheck(
+                    label="risk-on",
+                    expected="expects equities and high-yield credit stronger",
+                    confirmed=spy.return_1d > 0 and hyg.return_1d >= 0,
+                )
+            )
+
+    return checks
+
+
+def assess_market_confirmation(
+    daily_scores: dict[str, int], market_map: dict[str, MarketSnapshot]
+) -> tuple[str, list[MarketCheck]]:
+    checks = build_market_checks(daily_scores, market_map)
 
     if not checks:
-        return "Market confirmation: not enough market context."
+        return (
+            "Market check: not enough market data was available to confirm today's narrative.",
+            [],
+        )
 
-    hits = sum(1 for _, matched in checks if matched)
+    hits = sum(1 for check in checks if check.confirmed)
     total = len(checks)
-    labels = ", ".join(label for label, _ in checks[:3])
+    matched_labels = [check.label for check in checks if check.confirmed]
+
+    if matched_labels:
+        primary_label = matched_labels[0]
+    else:
+        primary_label = checks[0].label
 
     if hits == total:
-        return f"Market confirmation: confirmed across {labels}."
+        return (
+            f"Market check: price action broadly confirms today's {primary_label} narrative.",
+            checks,
+        )
     if hits == 0:
-        return f"Market confirmation: divergence versus {labels}."
-    return f"Market confirmation: mixed, with {hits}/{total} checks confirming."
+        return (
+            "Market check: price action is diverging from today's narrative.",
+            checks,
+        )
+    return (
+        f"Market check: mixed confirmation, with {hits} of {total} market checks aligned.",
+        checks,
+    )
 
 
 def group_documents_by_bucket(documents: list[DocumentSignal]) -> dict[str, list[DocumentSignal]]:
@@ -548,11 +628,8 @@ def build_report_data(
             "date": date,
             "daily_brief": build_daily_brief(date, daily_data),
             "macro_read": build_day_conclusion(daily_data),
-            "market_confirmation": (
-                assess_market_confirmation(daily_data["scores"], market_map)
-                if market_map
-                else None
-            ),
+            "market_confirmation": None,
+            "market_checks": [],
             "market_snapshot": [
                 {
                     "symbol": symbol,
@@ -599,6 +676,19 @@ def build_report_data(
             if debug
             else [],
         }
+        if market_map:
+            market_confirmation, market_checks = assess_market_confirmation(
+                daily_data["scores"], market_map
+            )
+            report_entry["market_confirmation"] = market_confirmation
+            report_entry["market_checks"] = [
+                {
+                    "label": check.label,
+                    "expected": check.expected,
+                    "confirmed": check.confirmed,
+                }
+                for check in market_checks
+            ]
         reports.append(report_entry)
 
     return reports
