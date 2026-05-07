@@ -1,18 +1,5 @@
 [
   {
-    "id": "www.marketwatch.com-2026-05-06T15-41-00+00-00-1",
-    "source": "www.marketwatch.com",
-    "published_at": "2026-05-06T15:41:00+00:00",
-    "title": "Oil prices bounce off lows, as an Iran peace deal may be just a \u2018structured pause\u2019",
-    "body": "Global oil prices fell by as much as 12% Wednesday, then pared nearly half of those losses as the market weighed reports of progress toward a U.S.-Iran peace deal and the potential impact on the growing crude-supply crisis in the Persian Gulf.",
-    "url": "https://www.marketwatch.com/story/oil-futures-fall-after-trump-pauses-u-s-effort-to-partially-reopen-strait-of-hormuz-936c77f9?mod=mw_rss_topstories",
-    "macro_score": 10,
-    "macro_buckets": [
-      "inflation",
-      "energy"
-    ]
-  },
-  {
     "id": "feeds.a.dj.com-2025-01-27T10-02-00+00-00-12",
     "source": "feeds.a.dj.com",
     "published_at": "2025-01-27T10:02:00+00:00",
@@ -37,31 +24,6 @@
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-05-06T14-57-00+00-00-3",
-    "source": "www.marketwatch.com",
-    "published_at": "2026-05-06T14:57:00+00:00",
-    "title": "If stocks are to continue rising, energy prices need to start falling, Barclays says",
-    "body": "Markets are displaying a dangerous degree of complacency, Barclays argues. To justify and build on recent equity market ebullience, risk appetite needs a resolution in the Middle East.",
-    "url": "https://www.marketwatch.com/story/if-stocks-are-to-continue-rising-energy-prices-need-to-start-falling-barclays-says-99ee6ab8?mod=mw_rss_topstories",
-    "macro_score": 6,
-    "macro_buckets": [
-      "inflation",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-05-06T14-38-00+00-00-5",
-    "source": "www.marketwatch.com",
-    "published_at": "2026-05-06T14:38:00+00:00",
-    "title": "Stocks are losing their edge over bonds, in an ominous sign for the market",
-    "body": "The extra return that investors receive for the additional risk of owning stocks over bonds has been fading, and that is making some on Wall Street nervous that investors might be too complacent about the stock market\u2019s recent rally.",
-    "url": "https://www.marketwatch.com/story/stocks-are-losing-their-edge-over-bonds-in-an-ominous-sign-for-the-market-481f801d?mod=mw_rss_topstories",
-    "macro_score": 5,
-    "macro_buckets": [
-      "rates"
-    ]
-  },
-  {
     "id": "feeds.a.dj.com-2025-01-27T11-57-00+00-00-9",
     "source": "feeds.a.dj.com",
     "published_at": "2025-01-27T11:57:00+00:00",
@@ -83,18 +45,6 @@
     "macro_score": 4,
     "macro_buckets": [
       "rates"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-05-06T14-16-00+00-00-7",
-    "source": "www.marketwatch.com",
-    "published_at": "2026-05-06T14:16:00+00:00",
-    "title": "These are the fastest-growing jobs for new college graduates \u2014 even in this low-hire market",
-    "body": "The post-inflation job market has been especially hard for new grads, but there are ways they can help themselves prepare for the search.",
-    "url": "https://www.marketwatch.com/story/these-are-the-fastest-growing-jobs-for-new-college-graduates-even-in-this-low-hire-market-974bf612?mod=mw_rss_topstories",
-    "macro_score": 4,
-    "macro_buckets": [
-      "labor"
     ]
   }
 ]

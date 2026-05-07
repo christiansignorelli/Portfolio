@@ -9,44 +9,44 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 1.11,
-        "return_5d": 2.84,
-        "close": 731.8200073242188
+        "return_1d": 1.39,
+        "return_5d": 3.13,
+        "close": 733.8300170898438
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.74,
-        "return_5d": 0.43,
-        "close": 86.06500244140625
+        "return_1d": 0.76,
+        "return_5d": 0.44,
+        "close": 86.08000183105469
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.56,
-        "return_5d": -0.96,
-        "close": 27.344999313354492
+        "return_1d": -0.55,
+        "return_5d": -0.94,
+        "close": 27.350000381469727
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -7.06,
-        "return_5d": -11.05,
-        "close": 133.98500061035156
+        "return_1d": -7.09,
+        "return_5d": -11.07,
+        "close": 133.9499969482422
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.29,
-        "return_5d": 0.03,
-        "close": 80.15499877929688
+        "return_1d": 0.3,
+        "return_5d": 0.04,
+        "close": 80.16000366210938
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 3.0,
-        "return_5d": 3.21,
-        "close": 430.82501220703125
+        "return_1d": 3.03,
+        "return_5d": 3.25,
+        "close": 430.9599914550781
       }
     ],
     "bucket_views": [
@@ -128,200 +128,6 @@
             "macro_score": 4,
             "macro_buckets": [
               "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      }
-    ],
-    "debug_documents": []
-  },
-  {
-    "date": "2026-05-06",
-    "daily_brief": "2026-05-06: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk slightly risk-on. Top theme: inflation.",
-    "macro_read": "Macro read: risk appetite improving.",
-    "market_confirmation": "Market check: price action broadly confirms today's risk-on narrative.",
-    "market_checks": [
-      {
-        "label": "risk-on",
-        "expected": "expects equities and high-yield credit stronger",
-        "confirmed": true
-      }
-    ],
-    "market_snapshot": [
-      {
-        "symbol": "SPY",
-        "label": "US equities",
-        "return_1d": 1.11,
-        "return_5d": 2.84,
-        "close": 731.8200073242188
-      },
-      {
-        "symbol": "TLT",
-        "label": "Long-duration Treasuries",
-        "return_1d": 0.74,
-        "return_5d": 0.43,
-        "close": 86.06500244140625
-      },
-      {
-        "symbol": "UUP",
-        "label": "US dollar proxy",
-        "return_1d": -0.56,
-        "return_5d": -0.96,
-        "close": 27.344999313354492
-      },
-      {
-        "symbol": "USO",
-        "label": "Oil proxy",
-        "return_1d": -7.06,
-        "return_5d": -11.05,
-        "close": 133.98500061035156
-      },
-      {
-        "symbol": "HYG",
-        "label": "High yield credit",
-        "return_1d": 0.29,
-        "return_5d": 0.03,
-        "close": 80.15499877929688
-      },
-      {
-        "symbol": "GLD",
-        "label": "Gold",
-        "return_1d": 3.0,
-        "return_5d": 3.21,
-        "close": 430.82501220703125
-      }
-    ],
-    "bucket_views": [
-      {
-        "name": "inflation",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "Oil prices bounce off lows, as an Iran peace deal may be just a \u2018structured pause\u2019",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 10,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "If stocks are to continue rising, energy prices need to start falling, Barclays says",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "risk-down",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": -1
-            }
-          }
-        ]
-      },
-      {
-        "name": "energy",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "Oil prices bounce off lows, as an Iran peace deal may be just a \u2018structured pause\u2019",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 10,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "If stocks are to continue rising, energy prices need to start falling, Barclays says",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "risk-down",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": -1
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "Stocks are losing their edge over bonds, in an ominous sign for the market",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 5,
-            "macro_buckets": [
-              "rates"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "labor",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "These are the fastest-growing jobs for new college graduates \u2014 even in this low-hire market",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 4,
-            "macro_buckets": [
-              "labor"
             ],
             "scores": {
               "inflation": 0,
