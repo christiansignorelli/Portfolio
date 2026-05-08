@@ -392,8 +392,29 @@ def build_day_conclusion(daily_data: dict[str, Any]) -> str:
     elif scores["liquidity"] < 0:
         signals.append("liquidity conditions improving")
 
+    visible_themes = [
+        theme
+        for theme, count in daily_data["theme_counts"].most_common()
+        if theme != "uncategorized" and count > 0
+    ]
+
+    if not daily_data["documents"]:
+        return (
+            "Macro read: no qualifying macro headlines were available from the examined feeds."
+        )
+
     if not signals:
-        return "Macro read: mostly mixed or neutral."
+        if visible_themes:
+            theme_text = ", ".join(visible_themes[:3])
+            return (
+                "Macro read: no strong daily signal. "
+                f"The examined feeds showed scattered or non-aligned language around {theme_text}, "
+                "but not enough alignment to support a confident macro view."
+            )
+        return (
+            "Macro read: no strong daily signal. "
+            "The examined feeds did not provide enough aligned macro language to support a confident interpretation."
+        )
 
     return f"Macro read: {', '.join(signals[:3])}."
 
