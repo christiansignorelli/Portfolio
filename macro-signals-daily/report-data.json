@@ -3,8 +3,11 @@
     "date": "2025-01-27",
     "daily_brief": "2025-01-27: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: uncategorized.",
     "macro_read": "Macro read: mostly mixed or neutral.",
-    "market_confirmation": "Market check: not enough market data was available to confirm today's narrative.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
+    "feed_sources": [
+      "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
+    ],
     "market_snapshot": [
       {
         "symbol": "SPY",
@@ -146,8 +149,11 @@
     "date": "2026-05-07",
     "daily_brief": "2026-05-07: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
     "macro_read": "Macro read: mostly mixed or neutral.",
-    "market_confirmation": "Market check: not enough market data was available to confirm today's narrative.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
+    "feed_sources": [
+      "https://www.marketwatch.com/rss/topstories"
+    ],
     "market_snapshot": [
       {
         "symbol": "SPY",

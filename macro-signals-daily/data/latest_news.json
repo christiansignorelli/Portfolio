@@ -2,6 +2,7 @@
   {
     "id": "feeds.a.dj.com-2025-01-27T10-02-00+00-00-12",
     "source": "feeds.a.dj.com",
+    "feed_url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
     "published_at": "2025-01-27T10:02:00+00:00",
     "title": "U.S. Treasury Yields Fall But Direction for Long-End Yields Still Seen Upward",
     "body": "The 10-year U.S. Treasury yield fell and ING said the the long end of the Treasury curve will continue trading at higher yields even as Trump hasn\u2019t delivered anything to shock markets so far.",
@@ -14,6 +15,7 @@
   {
     "id": "feeds.a.dj.com-2025-01-27T14-55-00+00-00-6",
     "source": "feeds.a.dj.com",
+    "feed_url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
     "published_at": "2025-01-27T14:55:00+00:00",
     "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
     "body": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S. tech stocks.",
@@ -24,8 +26,9 @@
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-05-07T22-41-00+00-00-5",
+    "id": "www.marketwatch.com-2026-05-07T22-41-00+00-00-8",
     "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
     "published_at": "2026-05-07T22:41:00+00:00",
     "title": "There\u2019s a new worry keeping Treasury yields and borrowing costs higher",
     "body": "Oil, the Iran war and inflation risks are putting a new floor under longer-duration Treasury yields",
@@ -36,8 +39,9 @@
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-05-07T23-34-00+00-00-1",
+    "id": "www.marketwatch.com-2026-05-07T23-34-00+00-00-5",
     "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
     "published_at": "2026-05-07T23:34:00+00:00",
     "title": "Oil futures rise after U.S., Iran trade fire; stock futures quiet after court rejects Trump\u2019s tariffs",
     "body": "Oil futures moved higher late Thursday while stock-index futures were little changed after the U.S. and Iran exchanged fire in the Persian Gulf,  and after a federal court struck down President Donald Trump\u2019s backup tariff plan.",
@@ -50,6 +54,7 @@
   {
     "id": "feeds.a.dj.com-2025-01-27T11-57-00+00-00-9",
     "source": "feeds.a.dj.com",
+    "feed_url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
     "published_at": "2025-01-27T11:57:00+00:00",
     "title": "Natural-Gas Firm Diversified Energy Strikes Deal for Permian Basin Player",
     "body": "Maverick Natural Resources has operations in Texas and Oklahoma.",
@@ -62,6 +67,7 @@
   {
     "id": "feeds.a.dj.com-2025-01-27T06-05-00+00-00-14",
     "source": "feeds.a.dj.com",
+    "feed_url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
     "published_at": "2025-01-27T06:05:00+00:00",
     "title": "The Extra Reward for Owning Stocks Over Bonds Has Disappeared",
     "body": "There is little sign of crimped demand for equities among individual investors, who remain bullish after two years of blockbuster gains.",

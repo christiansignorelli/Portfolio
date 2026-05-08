@@ -62,6 +62,20 @@ li + li { margin-top: 8px; }
 .footer { margin-top: 36px; font-size: 13px; }
 .mini-list { margin: 10px 0 0; padding-left: 18px; color: var(--muted); }
 .mini-list li + li { margin-top: 6px; }
+.source-list {
+  margin: 14px 0 0;
+  padding-left: 18px;
+}
+.source-list li + li {
+  margin-top: 8px;
+}
+.source-list a {
+  color: #114c9b;
+  text-decoration: none;
+}
+.source-list a:hover {
+  text-decoration: underline;
+}
 .check-list {
   display: grid;
   gap: 0;
