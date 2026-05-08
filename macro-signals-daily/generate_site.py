@@ -222,7 +222,10 @@ def build_crosscheck_explainer(report: dict[str, object]) -> str:
 def build_market_checks(report: dict[str, object]) -> str:
     checks = list(report.get("market_checks", []))
     if not checks:
-        return "<p class='subtle'>No detailed checks were available for this run.</p>"
+        return (
+            "<p class='subtle'>No directional market checks were run for this report. "
+            "That usually means the day's language signal was too neutral or mixed to test meaningfully.</p>"
+        )
 
     items = []
     for check in checks:
@@ -448,11 +451,6 @@ def render_site(reports: list[dict[str, object]]) -> str:
 
 def generate_site(news_path: str | Path, market_path: str | Path | None, output_dir: str | Path) -> Path:
     documents = load_documents(news_path)
-    if not documents:
-        project_root = Path(__file__).resolve().parent
-        sample_path = project_root / "data" / "sample_news.json"
-        if sample_path.exists():
-            documents = load_documents(sample_path)
     signals = [analyze_document(doc) for doc in documents]
     market_data = load_market_data(market_path)
     reports = build_report_data(signals, market_data=market_data, debug=False)
