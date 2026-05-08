@@ -14,8 +14,8 @@ import xml.etree.ElementTree as ET
 
 
 DEFAULT_FEEDS = [
-    "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
     "https://www.marketwatch.com/rss/topstories",
+    "https://www.investing.com/rss/news_14.rss",
 ]
 
 MACRO_BUCKETS = {
