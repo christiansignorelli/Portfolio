@@ -9,44 +9,44 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 1.39,
-        "return_5d": 3.13,
-        "close": 733.8300170898438
+        "return_1d": -0.31,
+        "return_5d": 1.8,
+        "close": 731.5800170898438
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.76,
-        "return_5d": 0.44,
-        "close": 86.08000183105469
+        "return_1d": -0.5,
+        "return_5d": 0.04,
+        "close": 85.6500015258789
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.55,
-        "return_5d": -0.94,
-        "close": 27.350000381469727
+        "return_1d": 0.22,
+        "return_5d": 0.18,
+        "close": 27.40999984741211
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -7.09,
-        "return_5d": -11.07,
-        "close": 133.9499969482422
+        "return_1d": 0.76,
+        "return_5d": -8.24,
+        "close": 134.97000122070312
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.3,
-        "return_5d": 0.04,
-        "close": 80.16000366210938
+        "return_1d": -0.37,
+        "return_5d": -0.65,
+        "close": 79.86000061035156
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 3.03,
-        "return_5d": 3.25,
-        "close": 430.9599914550781
+        "return_1d": 0.17,
+        "return_5d": 1.89,
+        "close": 431.67999267578125
       }
     ],
     "bucket_views": [
@@ -126,6 +126,108 @@
             "confidence": "low",
             "summary_label": "neutral-mixed",
             "macro_score": 4,
+            "macro_buckets": [
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-05-07",
+    "daily_brief": "2026-05-07: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: mostly mixed or neutral.",
+    "market_confirmation": "Market check: not enough market data was available to confirm today's narrative.",
+    "market_checks": [],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": -0.31,
+        "return_5d": 1.8,
+        "close": 731.5800170898438
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": -0.5,
+        "return_5d": 0.04,
+        "close": 85.6500015258789
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.22,
+        "return_5d": 0.18,
+        "close": 27.40999984741211
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 0.76,
+        "return_5d": -8.24,
+        "close": 134.97000122070312
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": -0.37,
+        "return_5d": -0.65,
+        "close": 79.86000061035156
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": 0.17,
+        "return_5d": 1.89,
+        "close": 431.67999267578125
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "rates",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "There\u2019s a new worry keeping Treasury yields and borrowing costs higher",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 7,
+            "macro_buckets": [
+              "rates"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Oil futures rise after U.S., Iran trade fire; stock futures quiet after court rejects Trump\u2019s tariffs",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 6,
             "macro_buckets": [
               "energy"
             ],
