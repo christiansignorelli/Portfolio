@@ -1,32 +1,21 @@
 [
   {
-    "id": "feeds.a.dj.com-2025-01-27T10-02-00+00-00-12",
-    "source": "feeds.a.dj.com",
-    "feed_url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-    "published_at": "2025-01-27T10:02:00+00:00",
-    "title": "U.S. Treasury Yields Fall But Direction for Long-End Yields Still Seen Upward",
-    "body": "The 10-year U.S. Treasury yield fell and ING said the the long end of the Treasury curve will continue trading at higher yields even as Trump hasn\u2019t delivered anything to shock markets so far.",
-    "url": "https://www.wsj.com/articles/jgbs-consolidate-supported-by-u-s-treasurys-gains-7edccc7d?mod=rss_markets_main",
-    "macro_score": 8,
+    "id": "www.investing.com-2026-05-08T01-14-30+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-08T01:14:30+00:00",
+    "title": "Argentina analysts hike up 2026 inflation, trim growth forecasts in central bank poll",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/argentina-analysts-hike-up-2026-inflation-trim-growth-forecasts-in-central-bank-poll-4670289",
+    "macro_score": 11,
     "macro_buckets": [
-      "rates"
+      "policy",
+      "inflation",
+      "growth"
     ]
   },
   {
-    "id": "feeds.a.dj.com-2025-01-27T14-55-00+00-00-6",
-    "source": "feeds.a.dj.com",
-    "feed_url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-    "published_at": "2025-01-27T14:55:00+00:00",
-    "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
-    "body": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S. tech stocks.",
-    "url": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
-    "macro_score": 7,
-    "macro_buckets": [
-      "fx"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-05-07T22-41-00+00-00-8",
+    "id": "www.marketwatch.com-2026-05-07T22-41-00+00-00-9",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
     "published_at": "2026-05-07T22:41:00+00:00",
@@ -39,10 +28,10 @@
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-05-07T23-34-00+00-00-5",
+    "id": "www.marketwatch.com-2026-05-08T00-35-00+00-00-1",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-07T23:34:00+00:00",
+    "published_at": "2026-05-08T00:35:00+00:00",
     "title": "Oil futures rise after U.S., Iran trade fire; stock futures quiet after court rejects Trump\u2019s tariffs",
     "body": "Oil futures moved higher late Thursday while stock-index futures were little changed after the U.S. and Iran exchanged fire in the Persian Gulf,  and after a federal court struck down President Donald Trump\u2019s backup tariff plan.",
     "url": "https://www.marketwatch.com/story/oil-futures-rise-after-u-s-iran-trade-fire-stock-futures-quiet-after-court-rejects-trumps-tariffs-4ee86b13?mod=mw_rss_topstories",
@@ -52,29 +41,30 @@
     ]
   },
   {
-    "id": "feeds.a.dj.com-2025-01-27T11-57-00+00-00-9",
-    "source": "feeds.a.dj.com",
-    "feed_url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-    "published_at": "2025-01-27T11:57:00+00:00",
-    "title": "Natural-Gas Firm Diversified Energy Strikes Deal for Permian Basin Player",
-    "body": "Maverick Natural Resources has operations in Texas and Oklahoma.",
-    "url": "https://www.wsj.com/articles/natural-gas-firm-diversified-energy-nears-deal-for-permian-basin-player-4c1c5ff5?mod=rss_markets_main",
-    "macro_score": 4,
+    "id": "www.investing.com-2026-05-08T01-14-30+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-08T01:14:30+00:00",
+    "title": "Japan real wages climb for third month in March, backing case for BOJ rate hike",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/japan-real-wages-climb-for-third-month-in-march-backing-case-for-boj-rate-hike-4670555",
+    "macro_score": 6,
     "macro_buckets": [
-      "energy"
+      "policy"
     ]
   },
   {
-    "id": "feeds.a.dj.com-2025-01-27T06-05-00+00-00-14",
-    "source": "feeds.a.dj.com",
-    "feed_url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-    "published_at": "2025-01-27T06:05:00+00:00",
-    "title": "The Extra Reward for Owning Stocks Over Bonds Has Disappeared",
-    "body": "There is little sign of crimped demand for equities among individual investors, who remain bullish after two years of blockbuster gains.",
-    "url": "https://www.wsj.com/articles/the-extra-reward-for-owning-stocks-over-bonds-has-disappeared-c3f9c223?mod=rss_markets_main",
-    "macro_score": 4,
+    "id": "www.investing.com-2026-05-08T01-14-30+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-08T01:14:30+00:00",
+    "title": "Fed\u2019s Williams says demand remains robust for US government debt",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-williams-says-demand-remains-robust-for-us-government-debt-4669946",
+    "macro_score": 6,
     "macro_buckets": [
-      "rates"
+      "policy",
+      "growth"
     ]
   }
 ]

@@ -1,154 +1,8 @@
 [
   {
-    "date": "2025-01-27",
-    "daily_brief": "2025-01-27: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: uncategorized.",
-    "macro_read": "Macro read: mostly mixed or neutral.",
-    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
-    "market_checks": [],
-    "feed_sources": [
-      "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
-    ],
-    "market_snapshot": [
-      {
-        "symbol": "SPY",
-        "label": "US equities",
-        "return_1d": -0.31,
-        "return_5d": 1.8,
-        "close": 731.5800170898438
-      },
-      {
-        "symbol": "TLT",
-        "label": "Long-duration Treasuries",
-        "return_1d": -0.5,
-        "return_5d": 0.04,
-        "close": 85.6500015258789
-      },
-      {
-        "symbol": "UUP",
-        "label": "US dollar proxy",
-        "return_1d": 0.22,
-        "return_5d": 0.18,
-        "close": 27.40999984741211
-      },
-      {
-        "symbol": "USO",
-        "label": "Oil proxy",
-        "return_1d": 0.76,
-        "return_5d": -8.24,
-        "close": 134.97000122070312
-      },
-      {
-        "symbol": "HYG",
-        "label": "High yield credit",
-        "return_1d": -0.37,
-        "return_5d": -0.65,
-        "close": 79.86000061035156
-      },
-      {
-        "symbol": "GLD",
-        "label": "Gold",
-        "return_1d": 0.17,
-        "return_5d": 1.89,
-        "close": 431.67999267578125
-      }
-    ],
-    "bucket_views": [
-      {
-        "name": "rates",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "U.S. Treasury Yields Fall But Direction for Long-End Yields Still Seen Upward",
-            "source": "feeds.a.dj.com",
-            "confidence": "low",
-            "summary_label": "neutral-mixed",
-            "macro_score": 8,
-            "macro_buckets": [
-              "rates"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "The Extra Reward for Owning Stocks Over Bonds Has Disappeared",
-            "source": "feeds.a.dj.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 4,
-            "macro_buckets": [
-              "rates"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "fx",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
-            "source": "feeds.a.dj.com",
-            "confidence": "low",
-            "summary_label": "neutral-mixed",
-            "macro_score": 7,
-            "macro_buckets": [
-              "fx"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "energy",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "Natural-Gas Firm Diversified Energy Strikes Deal for Permian Basin Player",
-            "source": "feeds.a.dj.com",
-            "confidence": "low",
-            "summary_label": "neutral-mixed",
-            "macro_score": 4,
-            "macro_buckets": [
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      }
-    ],
-    "debug_documents": []
-  },
-  {
     "date": "2026-05-07",
     "daily_brief": "2026-05-07: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: mostly mixed or neutral.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, risk, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
@@ -212,6 +66,195 @@
             "macro_score": 7,
             "macro_buckets": [
               "rates"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-05-08",
+    "daily_brief": "2026-05-08: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, growth, but not enough alignment to support a confident macro view.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": -0.31,
+        "return_5d": 1.8,
+        "close": 731.5800170898438
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": -0.5,
+        "return_5d": 0.04,
+        "close": 85.6500015258789
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.22,
+        "return_5d": 0.18,
+        "close": 27.40999984741211
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 0.76,
+        "return_5d": -8.24,
+        "close": 134.97000122070312
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": -0.37,
+        "return_5d": -0.65,
+        "close": 79.86000061035156
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": 0.17,
+        "return_5d": 1.89,
+        "close": 431.67999267578125
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "policy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Argentina analysts hike up 2026 inflation, trim growth forecasts in central bank poll",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 11,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Japan real wages climb for third month in March, backing case for BOJ rate hike",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Fed\u2019s Williams says demand remains robust for US government debt",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Argentina analysts hike up 2026 inflation, trim growth forecasts in central bank poll",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 11,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Fed\u2019s Williams says demand remains robust for US government debt",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Argentina analysts hike up 2026 inflation, trim growth forecasts in central bank poll",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 11,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "growth"
             ],
             "scores": {
               "inflation": 0,
