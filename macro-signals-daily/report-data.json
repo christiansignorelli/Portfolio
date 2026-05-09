@@ -1,10 +1,21 @@
 [
   {
-    "date": "2026-05-07",
-    "daily_brief": "2026-05-07: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, risk, but not enough alignment to support a confident macro view.",
-    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
-    "market_checks": [],
+    "date": "2026-05-08",
+    "daily_brief": "2026-05-08: inflation slightly down, growth neutral, policy mildly dovish, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: easing policy tone, cooling inflation.",
+    "market_confirmation": "Market check: price action broadly confirms today's easing policy narrative.",
+    "market_checks": [
+      {
+        "label": "easing policy",
+        "expected": "expects bonds stronger and dollar flat to weaker",
+        "confirmed": true
+      },
+      {
+        "label": "cooling inflation",
+        "expected": "expects bonds stronger",
+        "confirmed": true
+      }
+    ],
     "feed_sources": [
       "https://www.marketwatch.com/rss/topstories"
     ],
@@ -12,65 +23,91 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.31,
-        "return_5d": 1.8,
-        "close": 731.5800170898438
+        "return_1d": 0.83,
+        "return_5d": 2.35,
+        "close": 737.6199951171875
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.5,
-        "return_5d": 0.04,
-        "close": 85.6500015258789
+        "return_1d": 0.5,
+        "return_5d": 0.55,
+        "close": 86.08000183105469
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.22,
-        "return_5d": 0.18,
-        "close": 27.40999984741211
+        "return_1d": -0.26,
+        "return_5d": -0.26,
+        "close": 27.34000015258789
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 0.76,
-        "return_5d": -8.24,
-        "close": 134.97000122070312
+        "return_1d": -1.02,
+        "return_5d": -6.45,
+        "close": 133.58999633789062
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.37,
-        "return_5d": -0.65,
-        "close": 79.86000061035156
+        "return_1d": 0.35,
+        "return_5d": 0.1,
+        "close": 80.13999938964844
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.17,
-        "return_5d": 1.89,
-        "close": 431.67999267578125
+        "return_1d": 0.48,
+        "return_5d": 2.5,
+        "close": 433.7699890136719
       }
     ],
     "bucket_views": [
       {
-        "name": "rates",
-        "label": "neutral",
-        "score": 0,
+        "name": "policy",
+        "label": "mildly dovish",
+        "score": -1,
         "documents": [
           {
-            "title": "There\u2019s a new worry keeping Treasury yields and borrowing costs higher",
+            "title": "Kevin Warsh is right about Fed reform \u2014 but his inflation solution is a trap",
             "source": "www.marketwatch.com",
             "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 7,
+            "summary_label": "inflation-down",
+            "macro_score": 10,
             "macro_buckets": [
-              "rates"
+              "policy",
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -1,
               "growth": 0,
-              "policy": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "slightly down",
+        "score": -1,
+        "documents": [
+          {
+            "title": "Kevin Warsh is right about Fed reform \u2014 but his inflation solution is a trap",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "inflation-down",
+            "macro_score": 10,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }
@@ -81,57 +118,56 @@
     "debug_documents": []
   },
   {
-    "date": "2026-05-08",
-    "daily_brief": "2026-05-08: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, growth, but not enough alignment to support a confident macro view.",
+    "date": "2026-05-09",
+    "daily_brief": "2026-05-09: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, risk, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.31,
-        "return_5d": 1.8,
-        "close": 731.5800170898438
+        "return_1d": 0.83,
+        "return_5d": 2.35,
+        "close": 737.6199951171875
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.5,
-        "return_5d": 0.04,
-        "close": 85.6500015258789
+        "return_1d": 0.5,
+        "return_5d": 0.55,
+        "close": 86.08000183105469
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.22,
-        "return_5d": 0.18,
-        "close": 27.40999984741211
+        "return_1d": -0.26,
+        "return_5d": -0.26,
+        "close": 27.34000015258789
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 0.76,
-        "return_5d": -8.24,
-        "close": 134.97000122070312
+        "return_1d": -1.02,
+        "return_5d": -6.45,
+        "close": 133.58999633789062
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.37,
-        "return_5d": -0.65,
-        "close": 79.86000061035156
+        "return_1d": 0.35,
+        "return_5d": 0.1,
+        "close": 80.13999938964844
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.17,
-        "return_5d": 1.89,
-        "close": 431.67999267578125
+        "return_1d": 0.48,
+        "return_5d": 2.5,
+        "close": 433.7699890136719
       }
     ],
     "bucket_views": [
@@ -141,120 +177,14 @@
         "score": 0,
         "documents": [
           {
-            "title": "Argentina analysts hike up 2026 inflation, trim growth forecasts in central bank poll",
+            "title": "Geopolitical risks, oil shock cited as top worries in Fed financial stability report",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 11,
+            "macro_score": 8,
             "macro_buckets": [
               "policy",
-              "inflation",
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Japan real wages climb for third month in March, backing case for BOJ rate hike",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Fed\u2019s Williams says demand remains robust for US government debt",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "growth",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "Argentina analysts hike up 2026 inflation, trim growth forecasts in central bank poll",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 11,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Fed\u2019s Williams says demand remains robust for US government debt",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "inflation",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "Argentina analysts hike up 2026 inflation, trim growth forecasts in central bank poll",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 11,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth"
+              "energy"
             ],
             "scores": {
               "inflation": 0,
@@ -272,12 +202,13 @@
         "score": 0,
         "documents": [
           {
-            "title": "Oil futures rise after U.S., Iran trade fire; stock futures quiet after court rejects Trump\u2019s tariffs",
-            "source": "www.marketwatch.com",
+            "title": "Geopolitical risks, oil shock cited as top worries in Fed financial stability report",
+            "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 8,
             "macro_buckets": [
+              "policy",
               "energy"
             ],
             "scores": {

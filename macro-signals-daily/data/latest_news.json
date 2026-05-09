@@ -1,70 +1,30 @@
 [
   {
-    "id": "www.investing.com-2026-05-08T01-14-30+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-08T01:14:30+00:00",
-    "title": "Argentina analysts hike up 2026 inflation, trim growth forecasts in central bank poll",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/argentina-analysts-hike-up-2026-inflation-trim-growth-forecasts-in-central-bank-poll-4670289",
-    "macro_score": 11,
+    "id": "www.marketwatch.com-2026-05-08T19-47-00+00-00-10",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-05-08T19:47:00+00:00",
+    "title": "Kevin Warsh is right about Fed reform \u2014 but his inflation solution is a trap",
+    "body": "Warsh\u2019s belief that AI is a guaranteed disinflationary force could trigger premature rate cuts.",
+    "url": "https://www.marketwatch.com/story/kevin-warsh-is-right-about-fed-reform-but-his-inflation-solution-is-a-trap-eee3c403?mod=mw_rss_topstories",
+    "macro_score": 10,
     "macro_buckets": [
       "policy",
-      "inflation",
-      "growth"
+      "inflation"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-05-07T22-41-00+00-00-9",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-07T22:41:00+00:00",
-    "title": "There\u2019s a new worry keeping Treasury yields and borrowing costs higher",
-    "body": "Oil, the Iran war and inflation risks are putting a new floor under longer-duration Treasury yields",
-    "url": "https://www.marketwatch.com/story/theres-a-new-worry-keeping-treasury-yields-and-borrowing-costs-higher-d3595fe1?mod=mw_rss_topstories",
-    "macro_score": 7,
+    "id": "www.investing.com-2026-05-09T00-14-47+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-09T00:14:47+00:00",
+    "title": "Geopolitical risks, oil shock cited as top worries in Fed financial stability report",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/geopolitical-risks-oil-shock-cited-as-top-worries-in-fed-financial-stability-report-4674021",
+    "macro_score": 8,
     "macro_buckets": [
-      "rates"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-05-08T00-35-00+00-00-1",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-08T00:35:00+00:00",
-    "title": "Oil futures rise after U.S., Iran trade fire; stock futures quiet after court rejects Trump\u2019s tariffs",
-    "body": "Oil futures moved higher late Thursday while stock-index futures were little changed after the U.S. and Iran exchanged fire in the Persian Gulf,  and after a federal court struck down President Donald Trump\u2019s backup tariff plan.",
-    "url": "https://www.marketwatch.com/story/oil-futures-rise-after-u-s-iran-trade-fire-stock-futures-quiet-after-court-rejects-trumps-tariffs-4ee86b13?mod=mw_rss_topstories",
-    "macro_score": 6,
-    "macro_buckets": [
+      "policy",
       "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-08T01-14-30+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-08T01:14:30+00:00",
-    "title": "Japan real wages climb for third month in March, backing case for BOJ rate hike",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/japan-real-wages-climb-for-third-month-in-march-backing-case-for-boj-rate-hike-4670555",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-08T01-14-30+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-08T01:14:30+00:00",
-    "title": "Fed\u2019s Williams says demand remains robust for US government debt",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-williams-says-demand-remains-robust-for-us-government-debt-4669946",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
-      "growth"
     ]
   }
 ]
