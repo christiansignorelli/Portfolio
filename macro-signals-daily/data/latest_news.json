@@ -1,30 +1,28 @@
 [
   {
-    "id": "www.marketwatch.com-2026-05-08T19-47-00+00-00-10",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-08T19:47:00+00:00",
-    "title": "Kevin Warsh is right about Fed reform \u2014 but his inflation solution is a trap",
-    "body": "Warsh\u2019s belief that AI is a guaranteed disinflationary force could trigger premature rate cuts.",
-    "url": "https://www.marketwatch.com/story/kevin-warsh-is-right-about-fed-reform-but-his-inflation-solution-is-a-trap-eee3c403?mod=mw_rss_topstories",
-    "macro_score": 10,
+    "id": "www.investing.com-2026-05-09T23-33-46+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-09T23:33:46+00:00",
+    "title": "Goldman flags three key ways in which AI is boosting consumer prices",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/goldman-flags-three-key-ways-in-which-ai-is-boosting-consumer-prices-4674732",
+    "macro_score": 5,
     "macro_buckets": [
-      "policy",
       "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-05-09T00-14-47+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-09T00:14:47+00:00",
-    "title": "Geopolitical risks, oil shock cited as top worries in Fed financial stability report",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/geopolitical-risks-oil-shock-cited-as-top-worries-in-fed-financial-stability-report-4674021",
-    "macro_score": 8,
+    "id": "www.marketwatch.com-2026-05-09T19-12-00+00-00-3",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-05-09T19:12:00+00:00",
+    "title": "These are the fastest-growing jobs for new college graduates \u2014 even in this low-hire market",
+    "body": "The post-inflation job market has been especially hard for new grads, but there are ways they can help themselves prepare for the search.",
+    "url": "https://www.marketwatch.com/story/these-are-the-fastest-growing-jobs-for-new-college-graduates-even-in-this-low-hire-market-974bf612?mod=mw_rss_topstories",
+    "macro_score": 4,
     "macro_buckets": [
-      "policy",
-      "energy"
+      "labor"
     ]
   }
 ]

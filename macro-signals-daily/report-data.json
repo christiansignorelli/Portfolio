@@ -1,22 +1,12 @@
 [
   {
-    "date": "2026-05-08",
-    "daily_brief": "2026-05-08: inflation slightly down, growth neutral, policy mildly dovish, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: easing policy tone, cooling inflation.",
-    "market_confirmation": "Market check: price action broadly confirms today's easing policy narrative.",
-    "market_checks": [
-      {
-        "label": "easing policy",
-        "expected": "expects bonds stronger and dollar flat to weaker",
-        "confirmed": true
-      },
-      {
-        "label": "cooling inflation",
-        "expected": "expects bonds stronger",
-        "confirmed": true
-      }
-    ],
+    "date": "2026-05-09",
+    "daily_brief": "2026-05-09: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, but not enough alignment to support a confident macro view.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+    "market_checks": [],
     "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss",
       "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
@@ -65,126 +55,18 @@
     ],
     "bucket_views": [
       {
-        "name": "policy",
-        "label": "mildly dovish",
-        "score": -1,
-        "documents": [
-          {
-            "title": "Kevin Warsh is right about Fed reform \u2014 but his inflation solution is a trap",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "inflation-down",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
         "name": "inflation",
-        "label": "slightly down",
-        "score": -1,
-        "documents": [
-          {
-            "title": "Kevin Warsh is right about Fed reform \u2014 but his inflation solution is a trap",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "inflation-down",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      }
-    ],
-    "debug_documents": []
-  },
-  {
-    "date": "2026-05-09",
-    "daily_brief": "2026-05-09: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, risk, but not enough alignment to support a confident macro view.",
-    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
-    "market_checks": [],
-    "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
-    ],
-    "market_snapshot": [
-      {
-        "symbol": "SPY",
-        "label": "US equities",
-        "return_1d": 0.83,
-        "return_5d": 2.35,
-        "close": 737.6199951171875
-      },
-      {
-        "symbol": "TLT",
-        "label": "Long-duration Treasuries",
-        "return_1d": 0.5,
-        "return_5d": 0.55,
-        "close": 86.08000183105469
-      },
-      {
-        "symbol": "UUP",
-        "label": "US dollar proxy",
-        "return_1d": -0.26,
-        "return_5d": -0.26,
-        "close": 27.34000015258789
-      },
-      {
-        "symbol": "USO",
-        "label": "Oil proxy",
-        "return_1d": -1.02,
-        "return_5d": -6.45,
-        "close": 133.58999633789062
-      },
-      {
-        "symbol": "HYG",
-        "label": "High yield credit",
-        "return_1d": 0.35,
-        "return_5d": 0.1,
-        "close": 80.13999938964844
-      },
-      {
-        "symbol": "GLD",
-        "label": "Gold",
-        "return_1d": 0.48,
-        "return_5d": 2.5,
-        "close": 433.7699890136719
-      }
-    ],
-    "bucket_views": [
-      {
-        "name": "policy",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Geopolitical risks, oil shock cited as top worries in Fed financial stability report",
+            "title": "Goldman flags three key ways in which AI is boosting consumer prices",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 8,
+            "macro_score": 5,
             "macro_buckets": [
-              "policy",
-              "energy"
+              "inflation"
             ],
             "scores": {
               "inflation": 0,
@@ -197,19 +79,18 @@
         ]
       },
       {
-        "name": "energy",
+        "name": "labor",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Geopolitical risks, oil shock cited as top worries in Fed financial stability report",
-            "source": "www.investing.com",
+            "title": "These are the fastest-growing jobs for new college graduates \u2014 even in this low-hire market",
+            "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 8,
+            "macro_score": 4,
             "macro_buckets": [
-              "policy",
-              "energy"
+              "labor"
             ],
             "scores": {
               "inflation": 0,
