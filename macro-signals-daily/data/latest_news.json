@@ -1,28 +1,72 @@
 [
   {
-    "id": "www.investing.com-2026-05-09T23-33-46+00-00-2",
+    "id": "www.investing.com-2026-05-11T00-11-00+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-09T23:33:46+00:00",
-    "title": "Goldman flags three key ways in which AI is boosting consumer prices",
+    "published_at": "2026-05-11T00:11:00+00:00",
+    "title": "Energy inflation fuels uncertainties in a K-shaped economy",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/goldman-flags-three-key-ways-in-which-ai-is-boosting-consumer-prices-4674732",
-    "macro_score": 5,
+    "url": "https://www.investing.com/news/economy-news/energy-inflation-fuels-uncertainties-in-a-kshaped-economy-4674860",
+    "macro_score": 9,
     "macro_buckets": [
+      "inflation",
+      "growth",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-05-10T22-00-00+00-00-4",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-05-10T22:00:00+00:00",
+    "title": "Powell\u2019s legacy as Fed chair is fighting inflation and Trump. He may lose the battle against both.",
+    "body": "Jerome Powell will be remembered for how the struggles against inflation and to preserve Federal Reserve independence ultimately end.",
+    "url": "https://www.marketwatch.com/story/powells-legacy-as-fed-chair-is-fighting-inflation-and-trump-he-may-lose-the-battle-against-both-aeb32f89?mod=mw_rss_topstories",
+    "macro_score": 7,
+    "macro_buckets": [
+      "policy",
       "inflation"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-05-09T19-12-00+00-00-3",
+    "id": "www.marketwatch.com-2026-05-10T20-20-00+00-00-5",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-09T19:12:00+00:00",
-    "title": "These are the fastest-growing jobs for new college graduates \u2014 even in this low-hire market",
-    "body": "The post-inflation job market has been especially hard for new grads, but there are ways they can help themselves prepare for the search.",
-    "url": "https://www.marketwatch.com/story/these-are-the-fastest-growing-jobs-for-new-college-graduates-even-in-this-low-hire-market-974bf612?mod=mw_rss_topstories",
-    "macro_score": 4,
+    "published_at": "2026-05-10T20:20:00+00:00",
+    "title": "Introducing the \u2018NACHO\u2019 trade: How Wall Street is betting on higher oil prices and persistent inflation",
+    "body": "Wall Street is glomming on to yet another acronym inspired in part by Mexican cuisine.",
+    "url": "https://www.marketwatch.com/story/introducing-the-nacho-trade-how-wall-street-is-betting-on-higher-oil-prices-and-persistent-inflation-eb915434?mod=mw_rss_topstories",
+    "macro_score": 7,
     "macro_buckets": [
-      "labor"
+      "inflation",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-05-11T00-06-00+00-00-1",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-05-11T00:06:00+00:00",
+    "title": "U.S. stock futures fall, oil surges as Trump calls Iran\u2019s latest offer to end war \u2018totally unacceptable\u2019",
+    "body": "U.S. stock-index futures fell and oil prices rose on Sunday, after President Donald Trump called Iran\u2019s response to the latest U.S. proposal to end the war \u201ctotally unacceptable.\u201d",
+    "url": "https://www.marketwatch.com/story/u-s-stock-futures-fall-oil-surges-as-trump-calls-irans-latest-offer-to-end-war-totally-unacceptable-187e3d87?mod=mw_rss_topstories",
+    "macro_score": 6,
+    "macro_buckets": [
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-11T00-11-00+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-11T00:11:00+00:00",
+    "title": "Japan bets on Washington, BOJ for extra punch in yen battle",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/japan-bets-on-washington-boj-for-extra-punch-in-yen-battle-4674867",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "fx"
     ]
   }
 ]

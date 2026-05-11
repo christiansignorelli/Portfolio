@@ -1,12 +1,11 @@
 [
   {
-    "date": "2026-05-09",
-    "daily_brief": "2026-05-09: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, but not enough alignment to support a confident macro view.",
+    "date": "2026-05-10",
+    "daily_brief": "2026-05-10: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
       "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
@@ -60,12 +59,56 @@
         "score": 0,
         "documents": [
           {
-            "title": "Goldman flags three key ways in which AI is boosting consumer prices",
-            "source": "www.investing.com",
+            "title": "Powell\u2019s legacy as Fed chair is fighting inflation and Trump. He may lose the battle against both.",
+            "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 5,
+            "macro_score": 7,
             "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Introducing the \u2018NACHO\u2019 trade: How Wall Street is betting on higher oil prices and persistent inflation",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 7,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Powell\u2019s legacy as Fed chair is fighting inflation and Trump. He may lose the battle against both.",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 7,
+            "macro_buckets": [
+              "policy",
               "inflation"
             ],
             "scores": {
@@ -79,18 +122,197 @@
         ]
       },
       {
-        "name": "labor",
+        "name": "energy",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "These are the fastest-growing jobs for new college graduates \u2014 even in this low-hire market",
+            "title": "Introducing the \u2018NACHO\u2019 trade: How Wall Street is betting on higher oil prices and persistent inflation",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 4,
+            "macro_score": 7,
             "macro_buckets": [
-              "labor"
+              "inflation",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-05-11",
+    "daily_brief": "2026-05-11: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, but not enough alignment to support a confident macro view.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": 0.83,
+        "return_5d": 2.35,
+        "close": 737.6199951171875
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.5,
+        "return_5d": 0.55,
+        "close": 86.08000183105469
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": -0.26,
+        "return_5d": -0.26,
+        "close": 27.34000015258789
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": -1.02,
+        "return_5d": -6.45,
+        "close": 133.58999633789062
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": 0.35,
+        "return_5d": 0.1,
+        "close": 80.13999938964844
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": 0.48,
+        "return_5d": 2.5,
+        "close": 433.7699890136719
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "energy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Energy inflation fuels uncertainties in a K-shaped economy",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "growth",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "U.S. stock futures fall, oil surges as Trump calls Iran\u2019s latest offer to end war \u2018totally unacceptable\u2019",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 6,
+            "macro_buckets": [
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Energy inflation fuels uncertainties in a K-shaped economy",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "growth",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Energy inflation fuels uncertainties in a K-shaped economy",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "growth",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Japan bets on Washington, BOJ for extra punch in yen battle",
+            "source": "www.investing.com",
+            "confidence": "low",
+            "summary_label": "neutral-mixed",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "fx"
             ],
             "scores": {
               "inflation": 0,
