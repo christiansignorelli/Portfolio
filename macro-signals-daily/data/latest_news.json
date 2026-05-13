@@ -1,41 +1,44 @@
 [
   {
-    "id": "www.investing.com-2026-05-12T00-15-37+00-00-7",
+    "id": "www.investing.com-2026-05-13T08-14-08+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-12T00:15:37+00:00",
-    "title": "US issues new sanctions over Iran\u2019s oil shipments to China",
+    "published_at": "2026-05-13T08:14:08+00:00",
+    "title": "Dollar near one-week high as hot U.S. inflation fans Fed hike bets, peace talks stall",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-issues-new-sanctions-over-irans-oil-shipments-to-china-4677940",
-    "macro_score": 5,
+    "url": "https://www.investing.com/news/economy-news/dollar-near-oneweek-high-as-hot-us-inflation-fans-fed-hike-bets-peace-talks-stall-4683096",
+    "macro_score": 13,
     "macro_buckets": [
-      "energy"
+      "policy",
+      "inflation",
+      "fx"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-05-11T22-29-00+00-00-4",
+    "id": "www.investing.com-2026-05-13T08-14-08+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-13T08:14:08+00:00",
+    "title": "Thailand\u2019s central bank signals no rush to hike rates as inflation outlook improves",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/thailands-central-bank-signals-no-rush-to-hike-rates-as-inflation-outlook-improves-4683165",
+    "macro_score": 9,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-05-12T22-21-00+00-00-6",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-11T22:29:00+00:00",
-    "title": "Oil price charts produced a pattern not seen in 36 years. What happened last time?",
-    "body": "Brent crude futures charts produced a technical pattern that hasn\u2019t been seen in 36 years, and what that could mean for oil prices.",
-    "url": "https://www.marketwatch.com/story/oil-price-charts-produced-a-pattern-not-seen-in-36-years-what-happened-last-time-763cdc40?mod=mw_rss_topstories",
+    "published_at": "2026-05-12T22:21:00+00:00",
+    "title": "Here\u2019s the silver lining for stocks and 5% Treasury yields",
+    "body": "Higher rates mean higher costs for borrowers, but 5% isn\u2019t a level that\u2019s prone to sticking around in the Treasury market",
+    "url": "https://www.marketwatch.com/story/heres-the-silver-lining-for-stocks-and-5-treasury-yields-898f0be6?mod=mw_rss_topstories",
     "macro_score": 4,
     "macro_buckets": [
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-12T00-15-37+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-12T00:15:37+00:00",
-    "title": "Russia downgrades 2026 economic growth forecast to 0.4% from 1.3%, deputy PM says",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/russia-downgrades-2026-economic-growth-forecast-to-04-from-13-deputy-pm-says-4678535",
-    "macro_score": 4,
-    "macro_buckets": [
-      "growth"
+      "rates"
     ]
   }
 ]
