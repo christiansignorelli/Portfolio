@@ -1,91 +1,16 @@
 [
   {
-    "date": "2026-05-12",
-    "daily_brief": "2026-05-12: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, but not enough alignment to support a confident macro view.",
-    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
-    "market_checks": [],
-    "feed_sources": [
-      "https://www.marketwatch.com/rss/topstories"
-    ],
-    "market_snapshot": [
+    "date": "2026-05-14",
+    "daily_brief": "2026-05-14: inflation neutral, growth neutral, policy mildly hawkish, liquidity neutral, risk neutral. Top theme: uncategorized.",
+    "macro_read": "Macro read: hawkish policy tone.",
+    "market_confirmation": "Market check: price action broadly confirms today's hawkish policy narrative.",
+    "market_checks": [
       {
-        "symbol": "SPY",
-        "label": "US equities",
-        "return_1d": -0.15,
-        "return_5d": 1.99,
-        "close": 738.1799926757812
-      },
-      {
-        "symbol": "TLT",
-        "label": "Long-duration Treasuries",
-        "return_1d": -0.67,
-        "return_5d": -0.52,
-        "close": 84.98999786376953
-      },
-      {
-        "symbol": "UUP",
-        "label": "US dollar proxy",
-        "return_1d": 0.37,
-        "return_5d": -0.18,
-        "close": 27.450000762939453
-      },
-      {
-        "symbol": "USO",
-        "label": "Oil proxy",
-        "return_1d": 4.07,
-        "return_5d": 0.09,
-        "close": 144.3000030517578
-      },
-      {
-        "symbol": "HYG",
-        "label": "High yield credit",
-        "return_1d": -0.14,
-        "return_5d": -0.06,
-        "close": 79.87000274658203
-      },
-      {
-        "symbol": "GLD",
-        "label": "Gold",
-        "return_1d": -0.4,
-        "return_5d": 3.5,
-        "close": 432.92999267578125
+        "label": "hawkish policy",
+        "expected": "expects bonds weaker and dollar firmer",
+        "confirmed": true
       }
     ],
-    "bucket_views": [
-      {
-        "name": "rates",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "Here\u2019s the silver lining for stocks and 5% Treasury yields",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 4,
-            "macro_buckets": [
-              "rates"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      }
-    ],
-    "debug_documents": []
-  },
-  {
-    "date": "2026-05-13",
-    "daily_brief": "2026-05-13: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, liquidity, but not enough alignment to support a confident macro view.",
-    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
-    "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
     ],
@@ -93,62 +18,62 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.15,
-        "return_5d": 1.99,
-        "close": 738.1799926757812
+        "return_1d": 0.56,
+        "return_5d": 1.16,
+        "close": 742.3099975585938
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.67,
-        "return_5d": -0.52,
-        "close": 84.98999786376953
+        "return_1d": -0.22,
+        "return_5d": -1.49,
+        "close": 84.80000305175781
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.37,
-        "return_5d": -0.18,
-        "close": 27.450000762939453
+        "return_1d": 0.22,
+        "return_5d": 0.59,
+        "close": 27.510000228881836
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 4.07,
-        "return_5d": 0.09,
-        "close": 144.3000030517578
+        "return_1d": -1.57,
+        "return_5d": 6.04,
+        "close": 142.0399932861328
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.14,
-        "return_5d": -0.06,
-        "close": 79.87000274658203
+        "return_1d": 0.05,
+        "return_5d": -0.31,
+        "close": 79.91000366210938
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.4,
-        "return_5d": 3.5,
-        "close": 432.92999267578125
+        "return_1d": -0.56,
+        "return_5d": -0.11,
+        "close": 430.5
       }
     ],
     "bucket_views": [
       {
         "name": "policy",
-        "label": "neutral",
-        "score": 0,
+        "label": "mildly hawkish",
+        "score": 1,
         "documents": [
           {
-            "title": "Dollar near one-week high as hot U.S. inflation fans Fed hike bets, peace talks stall",
+            "title": "Analysis-Investors gird for high US Treasury yields as new Fed Chair Warsh battles inflation",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 13,
+            "macro_score": 10,
             "macro_buckets": [
               "policy",
               "inflation",
-              "fx"
+              "rates"
             ],
             "scores": {
               "inflation": 0,
@@ -159,14 +84,31 @@
             }
           },
           {
-            "title": "Thailand\u2019s central bank signals no rush to hike rates as inflation outlook improves",
+            "title": "BOJ board member Masu calls for early rate hike, joins hawkish chorus",
             "source": "www.investing.com",
             "confidence": "medium",
+            "summary_label": "policy-up",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Dollar buoyed by rate hike expectations as Trump-Xi summit underway",
+            "source": "www.investing.com",
+            "confidence": "low",
             "summary_label": "neutral-mixed",
-            "macro_score": 9,
+            "macro_score": 4,
             "macro_buckets": [
               "policy",
-              "inflation"
+              "fx"
             ],
             "scores": {
               "inflation": 0,
@@ -184,33 +126,15 @@
         "score": 0,
         "documents": [
           {
-            "title": "Dollar near one-week high as hot U.S. inflation fans Fed hike bets, peace talks stall",
+            "title": "Analysis-Investors gird for high US Treasury yields as new Fed Chair Warsh battles inflation",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 13,
+            "macro_score": 10,
             "macro_buckets": [
               "policy",
               "inflation",
-              "fx"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Thailand\u2019s central bank signals no rush to hike rates as inflation outlook improves",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
+              "rates"
             ],
             "scores": {
               "inflation": 0,
@@ -223,20 +147,44 @@
         ]
       },
       {
-        "name": "fx",
+        "name": "rates",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Dollar near one-week high as hot U.S. inflation fans Fed hike bets, peace talks stall",
+            "title": "Analysis-Investors gird for high US Treasury yields as new Fed Chair Warsh battles inflation",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 13,
+            "macro_score": 10,
             "macro_buckets": [
               "policy",
               "inflation",
-              "fx"
+              "rates"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Thai economic growth likely slowed in first quarter on tourism slump",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 4,
+            "macro_buckets": [
+              "growth"
             ],
             "scores": {
               "inflation": 0,

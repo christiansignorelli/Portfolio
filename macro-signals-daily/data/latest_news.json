@@ -1,44 +1,70 @@
 [
   {
-    "id": "www.investing.com-2026-05-13T08-14-08+00-00-4",
+    "id": "www.investing.com-2026-05-14T07-36-16+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-13T08:14:08+00:00",
-    "title": "Dollar near one-week high as hot U.S. inflation fans Fed hike bets, peace talks stall",
+    "published_at": "2026-05-14T07:36:16+00:00",
+    "title": "Analysis-Investors gird for high US Treasury yields as new Fed Chair Warsh battles inflation",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-near-oneweek-high-as-hot-us-inflation-fans-fed-hike-bets-peace-talks-stall-4683096",
-    "macro_score": 13,
+    "url": "https://www.investing.com/news/economy-news/analysisinvestors-gird-for-high-us-treasury-yields-as-new-fed-chair-warsh-battles-inflation-4687110",
+    "macro_score": 10,
     "macro_buckets": [
       "policy",
       "inflation",
-      "fx"
+      "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-05-13T08-14-08+00-00-6",
+    "id": "www.investing.com-2026-05-14T07-36-16+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-13T08:14:08+00:00",
-    "title": "Thailand\u2019s central bank signals no rush to hike rates as inflation outlook improves",
+    "published_at": "2026-05-14T07:36:16+00:00",
+    "title": "BOJ board member Masu calls for early rate hike, joins hawkish chorus",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/thailands-central-bank-signals-no-rush-to-hike-rates-as-inflation-outlook-improves-4683165",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/boj-board-member-masu-calls-for-early-rate-hike-4687104",
+    "macro_score": 6,
     "macro_buckets": [
-      "policy",
-      "inflation"
+      "policy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-05-12T22-21-00+00-00-6",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-12T22:21:00+00:00",
-    "title": "Here\u2019s the silver lining for stocks and 5% Treasury yields",
-    "body": "Higher rates mean higher costs for borrowers, but 5% isn\u2019t a level that\u2019s prone to sticking around in the Treasury market",
-    "url": "https://www.marketwatch.com/story/heres-the-silver-lining-for-stocks-and-5-treasury-yields-898f0be6?mod=mw_rss_topstories",
+    "id": "www.investing.com-2026-05-14T07-36-16+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-14T07:36:16+00:00",
+    "title": "Thai economic growth likely slowed in first quarter on tourism slump",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/thai-economic-growth-likely-slowed-in-first-quarter-on-tourism-slump-4687153",
     "macro_score": 4,
     "macro_buckets": [
-      "rates"
+      "growth"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-14T07-36-16+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-14T07:36:16+00:00",
+    "title": "Analysis-Asia Pacific banks face growing credit risks, raise provisions as Iran war drags on",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/analysisasia-pacific-banks-face-growing-credit-risks-raise-provisions-as-iran-war-drags-on-4687126",
+    "macro_score": 4,
+    "macro_buckets": [
+      "liquidity"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-14T07-36-16+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-14T07:36:16+00:00",
+    "title": "Dollar buoyed by rate hike expectations as Trump-Xi summit underway",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/dollar-boosted-by-rate-expectations-safehaven-flows-as-trump-xi-meet-4687020",
+    "macro_score": 4,
+    "macro_buckets": [
+      "policy",
+      "fx"
     ]
   }
 ]
