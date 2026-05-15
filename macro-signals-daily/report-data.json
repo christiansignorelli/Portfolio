@@ -1,139 +1,71 @@
 [
   {
     "date": "2026-05-14",
-    "daily_brief": "2026-05-14: inflation neutral, growth neutral, policy mildly hawkish, liquidity neutral, risk neutral. Top theme: uncategorized.",
-    "macro_read": "Macro read: hawkish policy tone.",
-    "market_confirmation": "Market check: price action broadly confirms today's hawkish policy narrative.",
-    "market_checks": [
-      {
-        "label": "hawkish policy",
-        "expected": "expects bonds weaker and dollar firmer",
-        "confirmed": true
-      }
-    ],
+    "daily_brief": "2026-05-14: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, but not enough alignment to support a confident macro view.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+    "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.56,
-        "return_5d": 1.16,
-        "close": 742.3099975585938
+        "return_1d": 0.79,
+        "return_5d": 2.27,
+        "close": 748.1699829101562
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.22,
-        "return_5d": -1.49,
-        "close": 84.80000305175781
+        "return_1d": 0.14,
+        "return_5d": -0.85,
+        "close": 84.91999816894531
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.22,
-        "return_5d": 0.59,
-        "close": 27.510000228881836
+        "return_1d": 0.4,
+        "return_5d": 0.77,
+        "close": 27.6200008392334
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -1.57,
-        "return_5d": 6.04,
-        "close": 142.0399932861328
+        "return_1d": 0.68,
+        "return_5d": 5.95,
+        "close": 143.0
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.05,
-        "return_5d": -0.31,
-        "close": 79.91000366210938
+        "return_1d": -0.08,
+        "return_5d": -0.01,
+        "close": 79.8499984741211
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.56,
-        "return_5d": -0.11,
-        "close": 430.5
+        "return_1d": -0.76,
+        "return_5d": -1.04,
+        "close": 427.2099914550781
       }
     ],
     "bucket_views": [
       {
         "name": "policy",
-        "label": "mildly hawkish",
-        "score": 1,
-        "documents": [
-          {
-            "title": "Analysis-Investors gird for high US Treasury yields as new Fed Chair Warsh battles inflation",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "rates"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "BOJ board member Masu calls for early rate hike, joins hawkish chorus",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "policy-up",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Dollar buoyed by rate hike expectations as Trump-Xi summit underway",
-            "source": "www.investing.com",
-            "confidence": "low",
-            "summary_label": "neutral-mixed",
-            "macro_score": 4,
-            "macro_buckets": [
-              "policy",
-              "fx"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "inflation",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Analysis-Investors gird for high US Treasury yields as new Fed Chair Warsh battles inflation",
-            "source": "www.investing.com",
+            "title": "The bond market is already hiking rates as Kevin Warsh takes over as Fed\u2019s new chair",
+            "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
             "macro_score": 10,
             "macro_buckets": [
               "policy",
-              "inflation",
               "rates"
             ],
             "scores": {
@@ -152,15 +84,130 @@
         "score": 0,
         "documents": [
           {
-            "title": "Analysis-Investors gird for high US Treasury yields as new Fed Chair Warsh battles inflation",
-            "source": "www.investing.com",
+            "title": "The bond market is already hiking rates as Kevin Warsh takes over as Fed\u2019s new chair",
+            "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
             "macro_score": 10,
             "macro_buckets": [
               "policy",
-              "inflation",
               "rates"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-05-15",
+    "daily_brief": "2026-05-15: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, liquidity, but not enough alignment to support a confident macro view.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": 0.79,
+        "return_5d": 2.27,
+        "close": 748.1699829101562
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.14,
+        "return_5d": -0.85,
+        "close": 84.91999816894531
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.4,
+        "return_5d": 0.77,
+        "close": 27.6200008392334
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 0.68,
+        "return_5d": 5.95,
+        "close": 143.0
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": -0.08,
+        "return_5d": -0.01,
+        "close": 79.8499984741211
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": -0.76,
+        "return_5d": -1.04,
+        "close": 427.2099914550781
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "policy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Fed\u2019s Barr says wrong to lower liquidity rules to shrink Fed holdings",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Peru\u2019s central bank holds benchmark interest rate at 4.25%",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 5,
+            "macro_buckets": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Fed\u2019s Williams sees no need to change rate policy right now",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 5,
+            "macro_buckets": [
+              "policy"
             ],
             "scores": {
               "inflation": 0,
@@ -173,18 +220,19 @@
         ]
       },
       {
-        "name": "growth",
+        "name": "liquidity",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Thai economic growth likely slowed in first quarter on tourism slump",
+            "title": "Fed\u2019s Barr says wrong to lower liquidity rules to shrink Fed holdings",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 4,
+            "macro_score": 6,
             "macro_buckets": [
-              "growth"
+              "policy",
+              "liquidity"
             ],
             "scores": {
               "inflation": 0,
