@@ -1,54 +1,30 @@
 [
   {
-    "id": "www.investing.com-2026-05-16T00-11-02+00-00-1",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-16T00:11:02+00:00",
-    "title": "US moves to end job protections for hundreds of health department workers",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-moves-to-end-job-protections-for-hundreds-of-health-department-workers-4693896",
-    "macro_score": 5,
-    "macro_buckets": [
-      "labor"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-05-15T20-57-00+00-00-6",
+    "id": "www.marketwatch.com-2026-05-16T17-38-00+00-00-6",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-15T20:57:00+00:00",
-    "title": "Stocks and bonds get swept up in a selloff, as Trump\u2019s China visit fails to pry open the Strait of Hormuz",
-    "body": "Fears of a 2022-style inflation problem are bubbling back up, but there\u2019s also hope for a Trump pivot on the Iran conflict.",
-    "url": "https://www.marketwatch.com/story/stocks-tumble-bond-rout-deepens-as-trumps-china-visit-fails-to-reopen-strait-of-hormuz-8501c294?mod=mw_rss_topstories",
-    "macro_score": 4,
+    "published_at": "2026-05-16T17:38:00+00:00",
+    "title": "April\u2019s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
+    "body": "Bond markets won\u2019t wait for the central bank to combat inflation.",
+    "url": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories",
+    "macro_score": 10,
     "macro_buckets": [
-      "rates"
+      "policy",
+      "inflation"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-05-15T20-18-00+00-00-8",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-15T20:18:00+00:00",
-    "title": "Your 3-6 months of emergency savings is dangerous \u2014 the new job market forces an 18-month cash cushion",
-    "body": "Artificial intelligence will displace some jobs and replace others. Here\u2019s how to make sure you\u2019re on the right side of change.",
-    "url": "https://www.marketwatch.com/story/you-now-need-18-months-of-emergency-savings-because-of-how-much-ai-is-disrupting-the-workforce-86dbac97?mod=mw_rss_topstories",
-    "macro_score": 4,
-    "macro_buckets": [
-      "labor"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-16T00-11-02+00-00-10",
+    "id": "www.investing.com-2026-05-17T00-10-48+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-16T00:11:02+00:00",
-    "title": "Gilt yields reach 28-year high as political tensions rise",
+    "published_at": "2026-05-17T00:10:48+00:00",
+    "title": "Oil prices rise as Iraq\u2019s Hormuz shipments collapse amid conflict",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/gilt-yields-reach-28year-high-as-political-tensions-rise-93CH-4693484",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/oil-prices-rise-as-iraqs-hormuz-shipments-collapse-amid-conflict-4694440",
+    "macro_score": 6,
     "macro_buckets": [
-      "rates"
+      "inflation",
+      "energy"
     ]
   }
 ]
