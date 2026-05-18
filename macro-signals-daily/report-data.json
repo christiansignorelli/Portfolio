@@ -1,12 +1,169 @@
 [
   {
-    "date": "2026-05-16",
-    "daily_brief": "2026-05-16: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, liquidity, but not enough alignment to support a confident macro view.",
+    "date": "2026-05-17",
+    "daily_brief": "2026-05-17: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, growth, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
       "https://www.marketwatch.com/rss/topstories"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": -1.2,
+        "return_5d": 0.21,
+        "close": 739.1699829101562
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": -1.48,
+        "return_5d": -2.81,
+        "close": 83.66000366210938
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.54,
+        "return_5d": 1.57,
+        "close": 27.770000457763672
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 3.66,
+        "return_5d": 10.96,
+        "close": 148.22999572753906
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": -0.49,
+        "return_5d": -0.85,
+        "close": 79.45999908447266
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": -2.32,
+        "return_5d": -3.8,
+        "close": 417.2900085449219
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "inflation",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Dow futures slip, oil prices push higher as Iran war remains stuck in stalemate",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 10,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Dow futures slip, oil prices push higher as Iran war remains stuck in stalemate",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 10,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "labor",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Your 3\u20136 months of emergency savings won\u2019t cut it \u2014 why the job market now demands an 18-month cash cushion",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 7,
+            "macro_buckets": [
+              "labor",
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Your 3\u20136 months of emergency savings won\u2019t cut it \u2014 why the job market now demands an 18-month cash cushion",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 7,
+            "macro_buckets": [
+              "labor",
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-05-18",
+    "daily_brief": "2026-05-18: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, but not enough alignment to support a confident macro view.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
@@ -59,121 +216,13 @@
         "score": 0,
         "documents": [
           {
-            "title": "April\u2019s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "inflation",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "April\u2019s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      }
-    ],
-    "debug_documents": []
-  },
-  {
-    "date": "2026-05-17",
-    "daily_brief": "2026-05-17: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, but not enough alignment to support a confident macro view.",
-    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
-    "market_checks": [],
-    "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
-    ],
-    "market_snapshot": [
-      {
-        "symbol": "SPY",
-        "label": "US equities",
-        "return_1d": -1.2,
-        "return_5d": 0.21,
-        "close": 739.1699829101562
-      },
-      {
-        "symbol": "TLT",
-        "label": "Long-duration Treasuries",
-        "return_1d": -1.48,
-        "return_5d": -2.81,
-        "close": 83.66000366210938
-      },
-      {
-        "symbol": "UUP",
-        "label": "US dollar proxy",
-        "return_1d": 0.54,
-        "return_5d": 1.57,
-        "close": 27.770000457763672
-      },
-      {
-        "symbol": "USO",
-        "label": "Oil proxy",
-        "return_1d": 3.66,
-        "return_5d": 10.96,
-        "close": 148.22999572753906
-      },
-      {
-        "symbol": "HYG",
-        "label": "High yield credit",
-        "return_1d": -0.49,
-        "return_5d": -0.85,
-        "close": 79.45999908447266
-      },
-      {
-        "symbol": "GLD",
-        "label": "Gold",
-        "return_1d": -2.32,
-        "return_5d": -3.8,
-        "close": 417.2900085449219
-      }
-    ],
-    "bucket_views": [
-      {
-        "name": "inflation",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "Oil prices rise as Iraq\u2019s Hormuz shipments collapse amid conflict",
+            "title": "Fed hikes on the radar: Are EMs prepared?",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
             "macro_score": 6,
             "macro_buckets": [
-              "inflation",
-              "energy"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
@@ -186,19 +235,18 @@
         ]
       },
       {
-        "name": "energy",
+        "name": "growth",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Oil prices rise as Iraq\u2019s Hormuz shipments collapse amid conflict",
+            "title": "Israel Q1 2026 GDP contracts 3.3% as Iran war weighs on economy",
             "source": "www.investing.com",
-            "confidence": "medium",
+            "confidence": "low",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 4,
             "macro_buckets": [
-              "inflation",
-              "energy"
+              "growth"
             ],
             "scores": {
               "inflation": 0,

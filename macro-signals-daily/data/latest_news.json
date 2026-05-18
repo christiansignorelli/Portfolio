@@ -1,30 +1,56 @@
 [
   {
-    "id": "www.marketwatch.com-2026-05-16T17-38-00+00-00-6",
+    "id": "www.marketwatch.com-2026-05-17T23-37-00+00-00-1",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-16T17:38:00+00:00",
-    "title": "April\u2019s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
-    "body": "Bond markets won\u2019t wait for the central bank to combat inflation.",
-    "url": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories",
+    "published_at": "2026-05-17T23:37:00+00:00",
+    "title": "Dow futures slip, oil prices push higher as Iran war remains stuck in stalemate",
+    "body": "U.S. stock-index futures fell and crude prices rose on Sunday, after the market\u2019s rally stalled last week as oil prices rose sharply amid the impasse in the war with Iran.",
+    "url": "https://www.marketwatch.com/story/u-s-stock-futures-slip-oil-prices-push-higher-as-iran-war-remains-stuck-in-stalemate-c3a874a5?mod=mw_rss_topstories",
     "macro_score": 10,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-17T00-10-48+00-00-5",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-17T00:10:48+00:00",
-    "title": "Oil prices rise as Iraq\u2019s Hormuz shipments collapse amid conflict",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/oil-prices-rise-as-iraqs-hormuz-shipments-collapse-amid-conflict-4694440",
-    "macro_score": 6,
     "macro_buckets": [
       "inflation",
       "energy"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-05-17T19-08-00+00-00-8",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-05-17T19:08:00+00:00",
+    "title": "Your 3\u20136 months of emergency savings won\u2019t cut it \u2014 why the job market now demands an 18-month cash cushion",
+    "body": "Artificial intelligence will displace some jobs and replace others. Here\u2019s how to make sure you\u2019re on the right side of change.",
+    "url": "https://www.marketwatch.com/story/you-now-need-18-months-of-emergency-savings-because-of-how-much-ai-is-disrupting-the-workforce-86dbac97?mod=mw_rss_topstories",
+    "macro_score": 7,
+    "macro_buckets": [
+      "labor",
+      "growth"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-18T00-14-53+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-18T00:14:53+00:00",
+    "title": "Fed hikes on the radar: Are EMs prepared?",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/fed-hikes-on-the-radar-are-ems-prepared-4694513",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-18T00-14-53+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-18T00:14:53+00:00",
+    "title": "Israel Q1 2026 GDP contracts 3.3% as Iran war weighs on economy",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/israel-q1-2026-gdp-contracts-33-as-iran-war-weighs-on-economy-4694524",
+    "macro_score": 4,
+    "macro_buckets": [
+      "growth"
     ]
   }
 ]
