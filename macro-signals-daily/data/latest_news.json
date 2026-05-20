@@ -1,98 +1,68 @@
 [
   {
-    "id": "www.marketwatch.com-2026-05-19T02-04-00+00-00-3",
+    "id": "www.marketwatch.com-2026-05-19T23-56-00+00-00-7",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-19T02:04:00+00:00",
-    "title": "The bond market has a warning for the Fed: Get serious about inflation and potential rate hikes ASAP",
-    "body": "Tough talk from the Federal Reserve about rate hikes may be needed to ease the Treasury market\u2019s rout.",
-    "url": "https://www.marketwatch.com/story/the-bond-market-has-a-warning-for-the-fed-get-serious-about-inflation-and-potential-rate-hikes-asap-f38bbdcf?mod=mw_rss_topstories",
-    "macro_score": 14,
-    "macro_buckets": [
-      "policy",
-      "inflation",
-      "rates"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-05-18T22-23-00+00-00-7",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-18T22:23:00+00:00",
-    "title": "Oil climbs as Trump warns the \u2018clock is ticking\u2019 on Iran, but there\u2019s a bigger danger lurking on the horizon",
-    "body": "Oil futures climbed on Monday, getting a boost after President Donald Trump warned that the \u201cclock is ticking\u201d on Iran, but a loss of the buffers used to cushion supply disruptions could spark the next significant move higher for prices.",
-    "url": "https://www.marketwatch.com/story/oil-climbs-as-trump-warns-the-clock-is-ticking-on-iran-but-theres-a-bigger-danger-lurking-on-the-horizon-9dfa8129?mod=mw_rss_topstories",
+    "published_at": "2026-05-19T23:56:00+00:00",
+    "title": "Are businesses passing on higher energy costs to their customers? Fed minutes may have the answer.",
+    "body": "The market is concerned about the Fed\u2019s readiness to react to high inflation.",
+    "url": "https://www.marketwatch.com/story/are-businesses-passing-on-higher-energy-costs-to-their-customers-these-fed-minutes-have-the-answer-44df2ee4?mod=mw_rss_topstories",
     "macro_score": 6,
     "macro_buckets": [
+      "policy",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-05-19T08-49-44+00-00-1",
+    "id": "www.investing.com-2026-05-20T08-44-34+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-19T08:49:44+00:00",
-    "title": "UK employers cut hiring and post fewer jobs under shadow of Iran war",
+    "published_at": "2026-05-20T08:44:34+00:00",
+    "title": "Indonesia central bank raises interest rates by more than expected",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/uk-wages-grew-by-34-in-first-three-months-of-2026-4697505",
+    "url": "https://www.investing.com/news/economy-news/indonesia-central-bank-raises-interest-rates-by-more-than-expected-4700329",
     "macro_score": 6,
     "macro_buckets": [
-      "labor"
+      "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-05-19T08-49-44+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-19T08:49:44+00:00",
-    "title": "Romania central bank lifts 2026 inflation forecast, sees July peak at 11%",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/romania-central-bank-lifts-2026-inflation-forecast-sees-july-peak-at-11-93CH-4697682",
-    "macro_score": 6,
+    "id": "www.marketwatch.com-2026-05-19T21-46-00+00-00-9",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-05-19T21:46:00+00:00",
+    "title": "These charts offer a warning: A new era of higher Treasury yields may be coming",
+    "body": "This \u201cpennant\u201d chart pattern warns that Treasury yields could be headed much higher. But an alternative scenario isn\u2019t so good either.",
+    "url": "https://www.marketwatch.com/story/these-charts-offer-a-warning-to-the-next-generation-a-new-era-of-higher-rates-may-be-coming-ee913d36?mod=mw_rss_topstories",
+    "macro_score": 5,
     "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-19T08-49-44+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-19T08:49:44+00:00",
-    "title": "Analysis-BOJ could temper its taper as bond wobbles rattle markets",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/analysisboj-could-temper-its-taper-as-bond-wobbles-rattle-markets-4697596",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
       "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-05-19T08-49-44+00-00-6",
+    "id": "www.investing.com-2026-05-20T08-44-34+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-19T08:49:44+00:00",
-    "title": "Fed\u2019s Warsh has a difficult boss and tough job ahead, says StanChart CEO Winters",
+    "published_at": "2026-05-20T08:44:34+00:00",
+    "title": "Foreign selling in Asian equities rises\u00a0as bond yields climb",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-warsh-has-a-difficult-boss-and-tough-job-ahead-says-stanchart-ceo-winters-4697651",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/foreign-selling-in-asian-equities-risesas-bond-yields-climb-4700367",
+    "macro_score": 4,
     "macro_buckets": [
-      "policy",
-      "labor"
+      "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-05-19T08-49-44+00-00-8",
+    "id": "www.investing.com-2026-05-20T08-44-34+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-19T08:49:44+00:00",
-    "title": "Japan\u2019s solid Q1 GDP faces reality check as Iran war threatens economy",
+    "published_at": "2026-05-20T08:44:34+00:00",
+    "title": "Asian stocks extend losing streak as higher yields bite, Nvidia results in focus",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/japans-economy-grew-more-than-expected-in-q1-4697304",
+    "url": "https://www.investing.com/news/economy-news/asian-stocks-fall-for-4th-day-as-higher-yields-bite-all-eyes-on-nvidia-results-4700139",
     "macro_score": 4,
     "macro_buckets": [
-      "growth"
+      "rates"
     ]
   }
 ]

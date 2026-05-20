@@ -1,143 +1,55 @@
 [
   {
-    "date": "2026-05-18",
-    "daily_brief": "2026-05-18: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk slightly risk-off. Top theme: inflation.",
-    "macro_read": "Macro read: defensive risk backdrop.",
-    "market_confirmation": "Market check: price action is diverging from today's narrative.",
-    "market_checks": [
-      {
-        "label": "risk-off",
-        "expected": "expects equities and high-yield credit weaker",
-        "confirmed": false
-      }
-    ],
-    "feed_sources": [
-      "https://www.marketwatch.com/rss/topstories"
-    ],
-    "market_snapshot": [
-      {
-        "symbol": "SPY",
-        "label": "US equities",
-        "return_1d": -0.07,
-        "return_5d": -0.09,
-        "close": 738.6500244140625
-      },
-      {
-        "symbol": "TLT",
-        "label": "Long-duration Treasuries",
-        "return_1d": -0.12,
-        "return_5d": -2.34,
-        "close": 83.55999755859375
-      },
-      {
-        "symbol": "UUP",
-        "label": "US dollar proxy",
-        "return_1d": -0.25,
-        "return_5d": 1.28,
-        "close": 27.700000762939453
-      },
-      {
-        "symbol": "USO",
-        "label": "Oil proxy",
-        "return_1d": 0.72,
-        "return_5d": 7.67,
-        "close": 149.2899932861328
-      },
-      {
-        "symbol": "HYG",
-        "label": "High yield credit",
-        "return_1d": 0.1,
-        "return_5d": -0.55,
-        "close": 79.54000091552734
-      },
-      {
-        "symbol": "GLD",
-        "label": "Gold",
-        "return_1d": 0.27,
-        "return_5d": -3.73,
-        "close": 418.42999267578125
-      }
-    ],
-    "bucket_views": [
-      {
-        "name": "energy",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "Oil climbs as Trump warns the \u2018clock is ticking\u2019 on Iran, but there\u2019s a bigger danger lurking on the horizon",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "risk-up",
-            "macro_score": 6,
-            "macro_buckets": [
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 1
-            }
-          }
-        ]
-      }
-    ],
-    "debug_documents": []
-  },
-  {
     "date": "2026-05-19",
-    "daily_brief": "2026-05-19: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, inflation, growth, but not enough alignment to support a confident macro view.",
+    "daily_brief": "2026-05-19: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
       "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.07,
-        "return_5d": -0.09,
-        "close": 738.6500244140625
+        "return_1d": -0.67,
+        "return_5d": -0.6,
+        "close": 733.72998046875
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.12,
-        "return_5d": -2.34,
-        "close": 83.55999755859375
+        "return_1d": -0.65,
+        "return_5d": -2.32,
+        "close": 83.0199966430664
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.25,
-        "return_5d": 1.28,
-        "close": 27.700000762939453
+        "return_1d": 0.32,
+        "return_5d": 1.24,
+        "close": 27.790000915527344
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 0.72,
-        "return_5d": 7.67,
-        "close": 149.2899932861328
+        "return_1d": 2.46,
+        "return_5d": 6.0,
+        "close": 152.9600067138672
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.1,
-        "return_5d": -0.55,
-        "close": 79.54000091552734
+        "return_1d": -0.24,
+        "return_5d": -0.65,
+        "close": 79.3499984741211
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.27,
-        "return_5d": -3.73,
-        "close": 418.42999267578125
+        "return_1d": -1.66,
+        "return_5d": -4.95,
+        "close": 411.5
       }
     ],
     "bucket_views": [
@@ -147,51 +59,14 @@
         "score": 0,
         "documents": [
           {
-            "title": "The bond market has a warning for the Fed: Get serious about inflation and potential rate hikes ASAP",
+            "title": "Are businesses passing on higher energy costs to their customers? Fed minutes may have the answer.",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 14,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "rates"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Romania central bank lifts 2026 inflation forecast, sees July peak at 11%",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
             "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Fed\u2019s Warsh has a difficult boss and tough job ahead, says StanChart CEO Winters",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "labor"
+              "energy"
             ],
             "scores": {
               "inflation": 0,
@@ -204,38 +79,19 @@
         ]
       },
       {
-        "name": "inflation",
+        "name": "energy",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "The bond market has a warning for the Fed: Get serious about inflation and potential rate hikes ASAP",
+            "title": "Are businesses passing on higher energy costs to their customers? Fed minutes may have the answer.",
             "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 14,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "rates"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Romania central bank lifts 2026 inflation forecast, sees July peak at 11%",
-            "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
             "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "inflation"
+              "energy"
             ],
             "scores": {
               "inflation": 0,
@@ -253,14 +109,93 @@
         "score": 0,
         "documents": [
           {
-            "title": "The bond market has a warning for the Fed: Get serious about inflation and potential rate hikes ASAP",
+            "title": "These charts offer a warning: A new era of higher Treasury yields may be coming",
             "source": "www.marketwatch.com",
-            "confidence": "medium",
+            "confidence": "low",
             "summary_label": "neutral-mixed",
-            "macro_score": 14,
+            "macro_score": 5,
             "macro_buckets": [
-              "policy",
-              "inflation",
+              "rates"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-05-20",
+    "daily_brief": "2026-05-20: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: uncategorized.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, liquidity, but not enough alignment to support a confident macro view.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": -0.67,
+        "return_5d": -0.6,
+        "close": 733.72998046875
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": -0.65,
+        "return_5d": -2.32,
+        "close": 83.0199966430664
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.32,
+        "return_5d": 1.24,
+        "close": 27.790000915527344
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 2.46,
+        "return_5d": 6.0,
+        "close": 152.9600067138672
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": -0.24,
+        "return_5d": -0.65,
+        "close": 79.3499984741211
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": -1.66,
+        "return_5d": -4.95,
+        "close": 411.5
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "rates",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Foreign selling in Asian equities rises\u00a0as bond yields climb",
+            "source": "www.investing.com",
+            "confidence": "low",
+            "summary_label": "neutral-mixed",
+            "macro_score": 4,
+            "macro_buckets": [
               "rates"
             ],
             "scores": {
@@ -272,13 +207,12 @@
             }
           },
           {
-            "title": "Analysis-BOJ could temper its taper as bond wobbles rattle markets",
+            "title": "Asian stocks extend losing streak as higher yields bite, Nvidia results in focus",
             "source": "www.investing.com",
             "confidence": "low",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 4,
             "macro_buckets": [
-              "policy",
               "rates"
             ],
             "scores": {
@@ -292,36 +226,18 @@
         ]
       },
       {
-        "name": "labor",
+        "name": "policy",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "UK employers cut hiring and post fewer jobs under shadow of Iran war",
+            "title": "Indonesia central bank raises interest rates by more than expected",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
             "macro_score": 6,
             "macro_buckets": [
-              "labor"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Fed\u2019s Warsh has a difficult boss and tough job ahead, says StanChart CEO Winters",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "labor"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
