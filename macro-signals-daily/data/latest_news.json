@@ -1,68 +1,44 @@
 [
   {
-    "id": "www.marketwatch.com-2026-05-19T23-56-00+00-00-7",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-19T23:56:00+00:00",
-    "title": "Are businesses passing on higher energy costs to their customers? Fed minutes may have the answer.",
-    "body": "The market is concerned about the Fed\u2019s readiness to react to high inflation.",
-    "url": "https://www.marketwatch.com/story/are-businesses-passing-on-higher-energy-costs-to-their-customers-these-fed-minutes-have-the-answer-44df2ee4?mod=mw_rss_topstories",
-    "macro_score": 6,
+    "id": "www.investing.com-2026-05-21T08-49-02+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-21T08:49:02+00:00",
+    "title": "BOJ policymaker calls for rate hike, warns of war-led inflation overshoot",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/bojs-koeda-calls-for-rate-hike-at-appropriate-pace-4702910",
+    "macro_score": 9,
     "macro_buckets": [
       "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-05-20T22-51-00+00-00-4",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-05-20T22:51:00+00:00",
+    "title": "Gen Z may be shying away from buying cosmetics, as higher gas prices hit spending",
+    "body": "E.l.f. Beauty says it will cut prices on some products, following tariff-related increases last year and concerns about the rising cost of gas.",
+    "url": "https://www.marketwatch.com/story/gen-z-may-be-shying-away-from-cosmetics-as-higher-gas-prices-hit-spending-9f9ccbf8?mod=mw_rss_topstories",
+    "macro_score": 6,
+    "macro_buckets": [
+      "inflation",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-05-20T08-44-34+00-00-5",
+    "id": "www.investing.com-2026-05-21T08-49-02+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-20T08:44:34+00:00",
-    "title": "Indonesia central bank raises interest rates by more than expected",
+    "published_at": "2026-05-21T08:49:02+00:00",
+    "title": "ECB\u2019s Rehn sees few signs yet of high inflation taking root",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/indonesia-central-bank-raises-interest-rates-by-more-than-expected-4700329",
+    "url": "https://www.investing.com/news/economy-news/ecbs-rehn-sees-few-signs-yet-of-high-inflation-taking-root-4702945",
     "macro_score": 6,
     "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-05-19T21-46-00+00-00-9",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-19T21:46:00+00:00",
-    "title": "These charts offer a warning: A new era of higher Treasury yields may be coming",
-    "body": "This \u201cpennant\u201d chart pattern warns that Treasury yields could be headed much higher. But an alternative scenario isn\u2019t so good either.",
-    "url": "https://www.marketwatch.com/story/these-charts-offer-a-warning-to-the-next-generation-a-new-era-of-higher-rates-may-be-coming-ee913d36?mod=mw_rss_topstories",
-    "macro_score": 5,
-    "macro_buckets": [
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-20T08-44-34+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-20T08:44:34+00:00",
-    "title": "Foreign selling in Asian equities rises\u00a0as bond yields climb",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/foreign-selling-in-asian-equities-risesas-bond-yields-climb-4700367",
-    "macro_score": 4,
-    "macro_buckets": [
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-20T08-44-34+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-20T08:44:34+00:00",
-    "title": "Asian stocks extend losing streak as higher yields bite, Nvidia results in focus",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/asian-stocks-fall-for-4th-day-as-higher-yields-bite-all-eyes-on-nvidia-results-4700139",
-    "macro_score": 4,
-    "macro_buckets": [
-      "rates"
+      "policy",
+      "inflation"
     ]
   }
 ]

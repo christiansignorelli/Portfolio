@@ -1,8 +1,8 @@
 [
   {
-    "date": "2026-05-19",
-    "daily_brief": "2026-05-19: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, but not enough alignment to support a confident macro view.",
+    "date": "2026-05-20",
+    "daily_brief": "2026-05-20: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, growth, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
@@ -12,60 +12,60 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.67,
-        "return_5d": -0.6,
-        "close": 733.72998046875
+        "return_1d": 1.02,
+        "return_5d": -0.14,
+        "close": 741.25
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.65,
-        "return_5d": -2.32,
-        "close": 83.0199966430664
+        "return_1d": 1.07,
+        "return_5d": -1.05,
+        "close": 83.91000366210938
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.32,
-        "return_5d": 1.24,
-        "close": 27.790000915527344
+        "return_1d": -0.22,
+        "return_5d": 0.8,
+        "close": 27.729999542236328
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 2.46,
-        "return_5d": 6.0,
-        "close": 152.9600067138672
+        "return_1d": -5.68,
+        "return_5d": 1.57,
+        "close": 144.27000427246094
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.24,
-        "return_5d": -0.65,
-        "close": 79.3499984741211
+        "return_1d": 0.64,
+        "return_5d": -0.06,
+        "close": 79.86000061035156
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -1.66,
-        "return_5d": -4.95,
-        "close": 411.5
+        "return_1d": 1.43,
+        "return_5d": -3.04,
+        "close": 417.3999938964844
       }
     ],
     "bucket_views": [
       {
-        "name": "policy",
+        "name": "inflation",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Are businesses passing on higher energy costs to their customers? Fed minutes may have the answer.",
+            "title": "Gen Z may be shying away from buying cosmetics, as higher gas prices hit spending",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
             "macro_score": 6,
             "macro_buckets": [
-              "policy",
+              "inflation",
               "energy"
             ],
             "scores": {
@@ -84,38 +84,14 @@
         "score": 0,
         "documents": [
           {
-            "title": "Are businesses passing on higher energy costs to their customers? Fed minutes may have the answer.",
+            "title": "Gen Z may be shying away from buying cosmetics, as higher gas prices hit spending",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
             "macro_score": 6,
             "macro_buckets": [
-              "policy",
+              "inflation",
               "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "These charts offer a warning: A new era of higher Treasury yields may be coming",
-            "source": "www.marketwatch.com",
-            "confidence": "low",
-            "summary_label": "neutral-mixed",
-            "macro_score": 5,
-            "macro_buckets": [
-              "rates"
             ],
             "scores": {
               "inflation": 0,
@@ -131,9 +107,9 @@
     "debug_documents": []
   },
   {
-    "date": "2026-05-20",
-    "daily_brief": "2026-05-20: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: uncategorized.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, liquidity, but not enough alignment to support a confident macro view.",
+    "date": "2026-05-21",
+    "daily_brief": "2026-05-21: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
@@ -143,60 +119,61 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.67,
-        "return_5d": -0.6,
-        "close": 733.72998046875
+        "return_1d": 1.02,
+        "return_5d": -0.14,
+        "close": 741.25
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.65,
-        "return_5d": -2.32,
-        "close": 83.0199966430664
+        "return_1d": 1.07,
+        "return_5d": -1.05,
+        "close": 83.91000366210938
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.32,
-        "return_5d": 1.24,
-        "close": 27.790000915527344
+        "return_1d": -0.22,
+        "return_5d": 0.8,
+        "close": 27.729999542236328
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 2.46,
-        "return_5d": 6.0,
-        "close": 152.9600067138672
+        "return_1d": -5.68,
+        "return_5d": 1.57,
+        "close": 144.27000427246094
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.24,
-        "return_5d": -0.65,
-        "close": 79.3499984741211
+        "return_1d": 0.64,
+        "return_5d": -0.06,
+        "close": 79.86000061035156
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -1.66,
-        "return_5d": -4.95,
-        "close": 411.5
+        "return_1d": 1.43,
+        "return_5d": -3.04,
+        "close": 417.3999938964844
       }
     ],
     "bucket_views": [
       {
-        "name": "rates",
+        "name": "policy",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Foreign selling in Asian equities rises\u00a0as bond yields climb",
+            "title": "BOJ policymaker calls for rate hike, warns of war-led inflation overshoot",
             "source": "www.investing.com",
-            "confidence": "low",
+            "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 4,
+            "macro_score": 9,
             "macro_buckets": [
-              "rates"
+              "policy",
+              "inflation"
             ],
             "scores": {
               "inflation": 0,
@@ -207,13 +184,14 @@
             }
           },
           {
-            "title": "Asian stocks extend losing streak as higher yields bite, Nvidia results in focus",
+            "title": "ECB\u2019s Rehn sees few signs yet of high inflation taking root",
             "source": "www.investing.com",
-            "confidence": "low",
+            "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 4,
+            "macro_score": 6,
             "macro_buckets": [
-              "rates"
+              "policy",
+              "inflation"
             ],
             "scores": {
               "inflation": 0,
@@ -226,18 +204,37 @@
         ]
       },
       {
-        "name": "policy",
+        "name": "inflation",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Indonesia central bank raises interest rates by more than expected",
+            "title": "BOJ policymaker calls for rate hike, warns of war-led inflation overshoot",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "ECB\u2019s Rehn sees few signs yet of high inflation taking root",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
             "macro_score": 6,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "inflation"
             ],
             "scores": {
               "inflation": 0,
