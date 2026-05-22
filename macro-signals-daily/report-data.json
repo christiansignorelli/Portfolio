@@ -1,8 +1,8 @@
 [
   {
-    "date": "2026-05-20",
-    "daily_brief": "2026-05-20: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, growth, but not enough alignment to support a confident macro view.",
+    "date": "2026-05-21",
+    "daily_brief": "2026-05-21: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
@@ -12,44 +12,44 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 1.02,
-        "return_5d": -0.14,
-        "close": 741.25
+        "return_1d": 0.2,
+        "return_5d": -0.73,
+        "close": 742.719970703125
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 1.07,
-        "return_5d": -1.05,
-        "close": 83.91000366210938
+        "return_1d": 0.37,
+        "return_5d": -0.82,
+        "close": 84.22000122070312
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.22,
-        "return_5d": 0.8,
+        "return_1d": 0.0,
+        "return_5d": 0.4,
         "close": 27.729999542236328
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -5.68,
-        "return_5d": 1.57,
-        "close": 144.27000427246094
+        "return_1d": -1.2,
+        "return_5d": -0.32,
+        "close": 142.5399932861328
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.64,
-        "return_5d": -0.06,
-        "close": 79.86000061035156
+        "return_1d": 0.05,
+        "return_5d": 0.06,
+        "close": 79.9000015258789
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.43,
-        "return_5d": -3.04,
-        "close": 417.3999938964844
+        "return_1d": -0.1,
+        "return_5d": -2.39,
+        "close": 416.989990234375
       }
     ],
     "bucket_views": [
@@ -59,11 +59,11 @@
         "score": 0,
         "documents": [
           {
-            "title": "Gen Z may be shying away from buying cosmetics, as higher gas prices hit spending",
+            "title": "People are putting less gas in their tanks as high prices crimp budgets, Walmart says",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 8,
             "macro_buckets": [
               "inflation",
               "energy"
@@ -84,11 +84,11 @@
         "score": 0,
         "documents": [
           {
-            "title": "Gen Z may be shying away from buying cosmetics, as higher gas prices hit spending",
+            "title": "People are putting less gas in their tanks as high prices crimp budgets, Walmart says",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 8,
             "macro_buckets": [
               "inflation",
               "energy"
@@ -107,11 +107,22 @@
     "debug_documents": []
   },
   {
-    "date": "2026-05-21",
-    "daily_brief": "2026-05-21: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, but not enough alignment to support a confident macro view.",
-    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
-    "market_checks": [],
+    "date": "2026-05-22",
+    "daily_brief": "2026-05-22: inflation slightly up, growth neutral, policy mildly dovish, liquidity neutral, risk neutral. Top theme: policy.",
+    "macro_read": "Macro read: easing policy tone, inflation pressure.",
+    "market_confirmation": "Market check: mixed confirmation, with 1 of 2 market checks aligned.",
+    "market_checks": [
+      {
+        "label": "easing policy",
+        "expected": "expects bonds stronger and dollar flat to weaker",
+        "confirmed": true
+      },
+      {
+        "label": "inflation pressure",
+        "expected": "expects oil stronger and bonds weaker",
+        "confirmed": false
+      }
+    ],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
     ],
@@ -119,54 +130,72 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 1.02,
-        "return_5d": -0.14,
-        "close": 741.25
+        "return_1d": 0.2,
+        "return_5d": -0.73,
+        "close": 742.719970703125
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 1.07,
-        "return_5d": -1.05,
-        "close": 83.91000366210938
+        "return_1d": 0.37,
+        "return_5d": -0.82,
+        "close": 84.22000122070312
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.22,
-        "return_5d": 0.8,
+        "return_1d": 0.0,
+        "return_5d": 0.4,
         "close": 27.729999542236328
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -5.68,
-        "return_5d": 1.57,
-        "close": 144.27000427246094
+        "return_1d": -1.2,
+        "return_5d": -0.32,
+        "close": 142.5399932861328
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.64,
-        "return_5d": -0.06,
-        "close": 79.86000061035156
+        "return_1d": 0.05,
+        "return_5d": 0.06,
+        "close": 79.9000015258789
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.43,
-        "return_5d": -3.04,
-        "close": 417.3999938964844
+        "return_1d": -0.1,
+        "return_5d": -2.39,
+        "close": 416.989990234375
       }
     ],
     "bucket_views": [
       {
         "name": "policy",
-        "label": "neutral",
-        "score": 0,
+        "label": "mildly dovish",
+        "score": -1,
         "documents": [
           {
-            "title": "BOJ policymaker calls for rate hike, warns of war-led inflation overshoot",
+            "title": "Nomura forecasts no Fed rate cuts in 2026 as inflation rises",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "inflation-up",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "India central bank not in favour of rate hikes to defend rupee, prioritises inflation, sources say",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
@@ -184,14 +213,13 @@
             }
           },
           {
-            "title": "ECB\u2019s Rehn sees few signs yet of high inflation taking root",
+            "title": "Philippine central bank governor says it is considering off-cycle rate hike",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
             "macro_score": 6,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
@@ -205,33 +233,33 @@
       },
       {
         "name": "inflation",
-        "label": "neutral",
-        "score": 0,
+        "label": "slightly up",
+        "score": 1,
         "documents": [
           {
-            "title": "BOJ policymaker calls for rate hike, warns of war-led inflation overshoot",
+            "title": "Nomura forecasts no Fed rate cuts in 2026 as inflation rises",
             "source": "www.investing.com",
             "confidence": "medium",
-            "summary_label": "neutral-mixed",
+            "summary_label": "inflation-up",
             "macro_score": 9,
             "macro_buckets": [
               "policy",
               "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": 1,
               "growth": 0,
-              "policy": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "title": "ECB\u2019s Rehn sees few signs yet of high inflation taking root",
+            "title": "India central bank not in favour of rate hikes to defend rupee, prioritises inflation, sources say",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 9,
             "macro_buckets": [
               "policy",
               "inflation"
