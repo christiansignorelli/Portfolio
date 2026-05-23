@@ -1,83 +1,29 @@
 [
   {
-    "id": "www.investing.com-2026-05-22T08-38-36+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-22T08:38:36+00:00",
-    "title": "India central bank not in favour of rate hikes to defend rupee, prioritises inflation, sources say",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/india-central-bank-not-in-favour-of-rate-hikes-to-defend-rupee-prioritises-inflation-sources-say-4705743",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-22T08-38-36+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-22T08:38:36+00:00",
-    "title": "Nomura forecasts no Fed rate cuts in 2026 as inflation rises",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/nomura-forecasts-no-fed-rate-cuts-in-2026-as-inflation-rises-4705740",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-05-21T21-24-00+00-00-9",
+    "id": "www.marketwatch.com-2026-05-22T20-01-00+00-00-10",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-21T21:24:00+00:00",
-    "title": "People are putting less gas in their tanks as high prices crimp budgets, Walmart says",
-    "body": "\u201cThat\u2019s an indication of stress,\u201d Walmart\u2019s CFO said, as Wall Street looks for signs of the Iran war\u2019s impact on consumers.",
-    "url": "https://www.marketwatch.com/story/walmart-sees-slowing-sales-growth-and-warns-of-a-profit-miss-in-contrast-to-rival-target-1f114fa0?mod=mw_rss_topstories",
+    "published_at": "2026-05-22T20:01:00+00:00",
+    "title": "Kevin Warsh walks into a trap where the Fed can\u2019t cut rates even if it wants to",
+    "body": "Kevin Warsh is becoming Federal Reserve chair at a pivotal moment for the U.S. economy \u2014 forcing him to be something other than the disruptor he hoped to be.",
+    "url": "https://www.marketwatch.com/story/kevin-warsh-walks-into-a-trap-where-the-fed-cant-cut-rates-even-if-it-wants-to-8475e97c?mod=mw_rss_topstories",
     "macro_score": 8,
     "macro_buckets": [
-      "inflation",
+      "policy"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-05-22T20-33-00+00-00-7",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-05-22T20:33:00+00:00",
+    "title": "The oil shock meets the Fed \u2018curse\u2019: What Kevin Warsh means for your portfolio",
+    "body": "Market downturns typically tag new central-bank leaders. And Warsh faces a tough choice between crushing demand or saving the bull market.",
+    "url": "https://www.marketwatch.com/story/the-new-fed-chair-curse-and-100-plus-oil-are-already-testing-kevin-warsh-and-the-stock-market-718b919d?mod=mw_rss_topstories",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
       "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-22T08-38-36+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-22T08:38:36+00:00",
-    "title": "JPMorgan sees Turkey central bank lift interest rates to 40% imminently",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/jpmorgan-sees-turkey-central-bank-lift-interest-rates-to-40-imminently-4705914",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-22T08-38-36+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-22T08:38:36+00:00",
-    "title": "New Zealand central bank to hold rates at 2.25% on May 27; slim majority expect Q3 hike: Reuters poll",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/new-zealand-central-bank-to-hold-rates-at-225-on-may-27-slim-majority-expect-q3-hike-reuters-poll-4705730",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-22T08-38-36+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-22T08:38:36+00:00",
-    "title": "Philippine central bank governor says it is considering off-cycle rate hike",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/philippine-central-bank-governor-says-it-is-considering-offcycle-rate-hike-4705719",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
     ]
   }
 ]
