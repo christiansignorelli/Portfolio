@@ -1,9 +1,9 @@
 [
   {
-    "id": "www.marketwatch.com-2026-05-22T20-01-00+00-00-10",
+    "id": "www.marketwatch.com-2026-05-23T18-13-00+00-00-3",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-22T20:01:00+00:00",
+    "published_at": "2026-05-23T18:13:00+00:00",
     "title": "Kevin Warsh walks into a trap where the Fed can\u2019t cut rates even if it wants to",
     "body": "Kevin Warsh is becoming Federal Reserve chair at a pivotal moment for the U.S. economy \u2014 forcing him to be something other than the disruptor he hoped to be.",
     "url": "https://www.marketwatch.com/story/kevin-warsh-walks-into-a-trap-where-the-fed-cant-cut-rates-even-if-it-wants-to-8475e97c?mod=mw_rss_topstories",
@@ -13,17 +13,17 @@
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-05-22T20-33-00+00-00-7",
+    "id": "www.marketwatch.com-2026-05-23T18-31-00+00-00-1",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-22T20:33:00+00:00",
-    "title": "The oil shock meets the Fed \u2018curse\u2019: What Kevin Warsh means for your portfolio",
-    "body": "Market downturns typically tag new central-bank leaders. And Warsh faces a tough choice between crushing demand or saving the bull market.",
-    "url": "https://www.marketwatch.com/story/the-new-fed-chair-curse-and-100-plus-oil-are-already-testing-kevin-warsh-and-the-stock-market-718b919d?mod=mw_rss_topstories",
-    "macro_score": 6,
+    "published_at": "2026-05-23T18:31:00+00:00",
+    "title": "This bond strategy can protect your portfolio even if interest rates go up",
+    "body": "A little-known investing formula shows exactly how long to hold bonds to neutralize interest-rate hikes.",
+    "url": "https://www.marketwatch.com/story/this-bond-strategy-can-protect-your-portfolio-even-if-interest-rates-go-up-9e9418cb?mod=mw_rss_topstories",
+    "macro_score": 5,
     "macro_buckets": [
       "policy",
-      "energy"
+      "rates"
     ]
   }
 ]

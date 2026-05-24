@@ -1,8 +1,8 @@
 [
   {
-    "date": "2026-05-22",
-    "daily_brief": "2026-05-22: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, inflation, growth, but not enough alignment to support a confident macro view.",
+    "date": "2026-05-23",
+    "daily_brief": "2026-05-23: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
@@ -76,14 +76,14 @@
             }
           },
           {
-            "title": "The oil shock meets the Fed \u2018curse\u2019: What Kevin Warsh means for your portfolio",
+            "title": "This bond strategy can protect your portfolio even if interest rates go up",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 5,
             "macro_buckets": [
               "policy",
-              "energy"
+              "rates"
             ],
             "scores": {
               "inflation": 0,
@@ -96,19 +96,19 @@
         ]
       },
       {
-        "name": "energy",
+        "name": "rates",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "The oil shock meets the Fed \u2018curse\u2019: What Kevin Warsh means for your portfolio",
+            "title": "This bond strategy can protect your portfolio even if interest rates go up",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 5,
             "macro_buckets": [
               "policy",
-              "energy"
+              "rates"
             ],
             "scores": {
               "inflation": 0,
