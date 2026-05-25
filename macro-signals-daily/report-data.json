@@ -59,23 +59,6 @@
         "score": 0,
         "documents": [
           {
-            "title": "Kevin Warsh walks into a trap where the Fed can\u2019t cut rates even if it wants to",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 8,
-            "macro_buckets": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
             "title": "This bond strategy can protect your portfolio even if interest rates go up",
             "source": "www.marketwatch.com",
             "confidence": "medium",
@@ -109,6 +92,155 @@
             "macro_buckets": [
               "policy",
               "rates"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-05-25",
+    "daily_brief": "2026-05-25: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, growth, risk, but not enough alignment to support a confident macro view.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": 0.39,
+        "return_5d": 0.88,
+        "close": 745.6400146484375
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.55,
+        "return_5d": 1.22,
+        "close": 84.68000030517578
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.14,
+        "return_5d": 0.0,
+        "close": 27.770000457763672
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": -1.14,
+        "return_5d": -4.93,
+        "close": 140.9199981689453
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": 0.01,
+        "return_5d": 0.57,
+        "close": 79.91000366210938
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": -0.76,
+        "return_5d": -0.83,
+        "close": 413.82000732421875
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "inflation",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Oil prices tumble as deal to end Iran war appears close, though Trump says there\u2019s no rush",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Singapore core inflation at 1.4% on year in April, lower than expected",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 5,
+            "macro_buckets": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Oil prices tumble as deal to end Iran war appears close, though Trump says there\u2019s no rush",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Singapore economy beats expectations in Q1 with 6% annual growth, risks ahead",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 4,
+            "macro_buckets": [
+              "growth"
             ],
             "scores": {
               "inflation": 0,

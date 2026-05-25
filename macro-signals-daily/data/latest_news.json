@@ -1,19 +1,20 @@
 [
   {
-    "id": "www.marketwatch.com-2026-05-23T18-13-00+00-00-3",
+    "id": "www.marketwatch.com-2026-05-25T03-05-00+00-00-5",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-23T18:13:00+00:00",
-    "title": "Kevin Warsh walks into a trap where the Fed can\u2019t cut rates even if it wants to",
-    "body": "Kevin Warsh is becoming Federal Reserve chair at a pivotal moment for the U.S. economy \u2014 forcing him to be something other than the disruptor he hoped to be.",
-    "url": "https://www.marketwatch.com/story/kevin-warsh-walks-into-a-trap-where-the-fed-cant-cut-rates-even-if-it-wants-to-8475e97c?mod=mw_rss_topstories",
-    "macro_score": 8,
+    "published_at": "2026-05-25T03:05:00+00:00",
+    "title": "Oil prices tumble as deal to end Iran war appears close, though Trump says there\u2019s no rush",
+    "body": "The U.S. appears close to reaching an agreement that would end the war with Iran and reopen the strategic Strait of Hormuz, according to reports Sunday, sending oil prices sharply lower.",
+    "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
+    "macro_score": 9,
     "macro_buckets": [
-      "policy"
+      "inflation",
+      "energy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-05-23T18-31-00+00-00-1",
+    "id": "www.marketwatch.com-2026-05-23T18-31-00+00-00-9",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
     "published_at": "2026-05-23T18:31:00+00:00",
@@ -24,6 +25,32 @@
     "macro_buckets": [
       "policy",
       "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-25T11-59-32+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-25T11:59:32+00:00",
+    "title": "Singapore core inflation at 1.4% on year in April, lower than expected",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/singapore-core-inflation-at-14-on-year-in-april-lower-than-expected-4708299",
+    "macro_score": 5,
+    "macro_buckets": [
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-25T11-59-32+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-25T11:59:32+00:00",
+    "title": "Singapore economy beats expectations in Q1 with 6% annual growth, risks ahead",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/singapore-economy-grows-6-yy-in-q1-above-advance-estimate-4708252",
+    "macro_score": 4,
+    "macro_buckets": [
+      "growth"
     ]
   }
 ]
