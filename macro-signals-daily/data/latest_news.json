@@ -1,56 +1,72 @@
 [
   {
-    "id": "www.marketwatch.com-2026-05-25T03-05-00+00-00-5",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-25T03:05:00+00:00",
-    "title": "Oil prices tumble as deal to end Iran war appears close, though Trump says there\u2019s no rush",
-    "body": "The U.S. appears close to reaching an agreement that would end the war with Iran and reopen the strategic Strait of Hormuz, according to reports Sunday, sending oil prices sharply lower.",
-    "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
-    "macro_score": 9,
+    "id": "www.investing.com-2026-05-27T08-54-32+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-27T08:54:32+00:00",
+    "title": "German economic council cuts growth forecast as energy prices bite",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/german-economic-council-cuts-growth-forecast-as-energy-prices-bite-4711380",
+    "macro_score": 10,
     "macro_buckets": [
       "inflation",
+      "growth",
       "energy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-05-23T18-31-00+00-00-9",
+    "id": "www.investing.com-2026-05-27T08-54-32+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-27T08:54:32+00:00",
+    "title": "Fed\u2019s Logan: world may need to cut use of oil and natural gas",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-logan-world-may-need-to-cut-use-of-oil-and-natural-gas-4711382",
+    "macro_score": 7,
+    "macro_buckets": [
+      "policy",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-27T08-54-32+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-27T08:54:32+00:00",
+    "title": "Iran war fallout amplifying Europe\u2019s financial vulnerabilities, ECB warns",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/iran-war-fallout-amplifying-europes-financial-vulnerabilities-ecb-warns-4711374",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-05-26T21-04-00+00-00-9",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-23T18:31:00+00:00",
-    "title": "This bond strategy can protect your portfolio even if interest rates go up",
-    "body": "A little-known investing formula shows exactly how long to hold bonds to neutralize interest-rate hikes.",
-    "url": "https://www.marketwatch.com/story/this-bond-strategy-can-protect-your-portfolio-even-if-interest-rates-go-up-9e9418cb?mod=mw_rss_topstories",
-    "macro_score": 5,
+    "published_at": "2026-05-26T21:04:00+00:00",
+    "title": "The bond market has been rocked by a violent selloff. Here\u2019s how to play it.",
+    "body": "The bond market is tied up in knots about the Iran war and inflation, as well as what the Federal Reserve under new chair Kevin Warsh might do about it.",
+    "url": "https://www.marketwatch.com/story/where-to-invest-in-bonds-right-now-after-the-markets-violent-selloff-ccad2a26?mod=mw_rss_topstories",
+    "macro_score": 4,
     "macro_buckets": [
       "policy",
       "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-05-25T11-59-32+00-00-7",
+    "id": "www.investing.com-2026-05-27T08-54-32+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-25T11:59:32+00:00",
-    "title": "Singapore core inflation at 1.4% on year in April, lower than expected",
+    "published_at": "2026-05-27T08:54:32+00:00",
+    "title": "Supply shock, debt may hurt central bank independence, ex-Fed executive says",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/singapore-core-inflation-at-14-on-year-in-april-lower-than-expected-4708299",
-    "macro_score": 5,
-    "macro_buckets": [
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-25T11-59-32+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-25T11:59:32+00:00",
-    "title": "Singapore economy beats expectations in Q1 with 6% annual growth, risks ahead",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/singapore-economy-grows-6-yy-in-q1-above-advance-estimate-4708252",
+    "url": "https://www.investing.com/news/economy-news/supply-shock-debt-may-hurt-central-bank-independence-exfed-executive-says-4711316",
     "macro_score": 4,
     "macro_buckets": [
-      "growth"
+      "policy"
     ]
   }
 ]

@@ -1,8 +1,8 @@
 [
   {
-    "date": "2026-05-23",
-    "daily_brief": "2026-05-23: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, but not enough alignment to support a confident macro view.",
+    "date": "2026-05-26",
+    "daily_brief": "2026-05-26: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
@@ -12,44 +12,44 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.39,
-        "return_5d": 0.88,
-        "close": 745.6400146484375
+        "return_1d": 0.66,
+        "return_5d": 1.62,
+        "close": 750.5900268554688
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.55,
-        "return_5d": 1.22,
-        "close": 84.68000030517578
+        "return_1d": 0.5,
+        "return_5d": 1.84,
+        "close": 85.0999984741211
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.14,
-        "return_5d": 0.0,
-        "close": 27.770000457763672
+        "return_1d": -0.07,
+        "return_5d": 0.18,
+        "close": 27.75
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -1.14,
-        "return_5d": -4.93,
-        "close": 140.9199981689453
+        "return_1d": -2.78,
+        "return_5d": -8.23,
+        "close": 137.0
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.01,
-        "return_5d": 0.57,
-        "close": 79.91000366210938
+        "return_1d": 0.34,
+        "return_5d": 0.8,
+        "close": 80.18000030517578
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.76,
-        "return_5d": -0.83,
-        "close": 413.82000732421875
+        "return_1d": 0.04,
+        "return_5d": -1.06,
+        "close": 414.0
       }
     ],
     "bucket_views": [
@@ -59,11 +59,11 @@
         "score": 0,
         "documents": [
           {
-            "title": "This bond strategy can protect your portfolio even if interest rates go up",
+            "title": "The bond market has been rocked by a violent selloff. Here\u2019s how to play it.",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 5,
+            "macro_score": 4,
             "macro_buckets": [
               "policy",
               "rates"
@@ -84,11 +84,11 @@
         "score": 0,
         "documents": [
           {
-            "title": "This bond strategy can protect your portfolio even if interest rates go up",
+            "title": "The bond market has been rocked by a violent selloff. Here\u2019s how to play it.",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 5,
+            "macro_score": 4,
             "macro_buckets": [
               "policy",
               "rates"
@@ -107,73 +107,72 @@
     "debug_documents": []
   },
   {
-    "date": "2026-05-25",
-    "daily_brief": "2026-05-25: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, growth, risk, but not enough alignment to support a confident macro view.",
+    "date": "2026-05-27",
+    "daily_brief": "2026-05-27: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, inflation, growth, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.39,
-        "return_5d": 0.88,
-        "close": 745.6400146484375
+        "return_1d": 0.66,
+        "return_5d": 1.62,
+        "close": 750.5900268554688
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.55,
-        "return_5d": 1.22,
-        "close": 84.68000030517578
+        "return_1d": 0.5,
+        "return_5d": 1.84,
+        "close": 85.0999984741211
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.14,
-        "return_5d": 0.0,
-        "close": 27.770000457763672
+        "return_1d": -0.07,
+        "return_5d": 0.18,
+        "close": 27.75
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -1.14,
-        "return_5d": -4.93,
-        "close": 140.9199981689453
+        "return_1d": -2.78,
+        "return_5d": -8.23,
+        "close": 137.0
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.01,
-        "return_5d": 0.57,
-        "close": 79.91000366210938
+        "return_1d": 0.34,
+        "return_5d": 0.8,
+        "close": 80.18000030517578
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.76,
-        "return_5d": -0.83,
-        "close": 413.82000732421875
+        "return_1d": 0.04,
+        "return_5d": -1.06,
+        "close": 414.0
       }
     ],
     "bucket_views": [
       {
-        "name": "inflation",
+        "name": "policy",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Oil prices tumble as deal to end Iran war appears close, though Trump says there\u2019s no rush",
-            "source": "www.marketwatch.com",
+            "title": "Fed\u2019s Logan: world may need to cut use of oil and natural gas",
+            "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 9,
+            "macro_score": 7,
             "macro_buckets": [
-              "inflation",
+              "policy",
               "energy"
             ],
             "scores": {
@@ -185,13 +184,31 @@
             }
           },
           {
-            "title": "Singapore core inflation at 1.4% on year in April, lower than expected",
+            "title": "Iran war fallout amplifying Europe\u2019s financial vulnerabilities, ECB warns",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 5,
+            "macro_score": 6,
             "macro_buckets": [
-              "inflation"
+              "policy",
+              "fx"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Supply shock, debt may hurt central bank independence, ex-Fed executive says",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 4,
+            "macro_buckets": [
+              "policy"
             ],
             "scores": {
               "inflation": 0,
@@ -209,13 +226,58 @@
         "score": 0,
         "documents": [
           {
-            "title": "Oil prices tumble as deal to end Iran war appears close, though Trump says there\u2019s no rush",
-            "source": "www.marketwatch.com",
+            "title": "German economic council cuts growth forecast as energy prices bite",
+            "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 9,
+            "macro_score": 10,
             "macro_buckets": [
               "inflation",
+              "growth",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Fed\u2019s Logan: world may need to cut use of oil and natural gas",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 7,
+            "macro_buckets": [
+              "policy",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "German economic council cuts growth forecast as energy prices bite",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 10,
+            "macro_buckets": [
+              "inflation",
+              "growth",
               "energy"
             ],
             "scores": {
@@ -234,13 +296,15 @@
         "score": 0,
         "documents": [
           {
-            "title": "Singapore economy beats expectations in Q1 with 6% annual growth, risks ahead",
+            "title": "German economic council cuts growth forecast as energy prices bite",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 4,
+            "macro_score": 10,
             "macro_buckets": [
-              "growth"
+              "inflation",
+              "growth",
+              "energy"
             ],
             "scores": {
               "inflation": 0,
