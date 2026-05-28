@@ -1,72 +1,84 @@
 [
   {
-    "id": "www.investing.com-2026-05-27T08-54-32+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-27T08:54:32+00:00",
-    "title": "German economic council cuts growth forecast as energy prices bite",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/german-economic-council-cuts-growth-forecast-as-energy-prices-bite-4711380",
-    "macro_score": 10,
-    "macro_buckets": [
-      "inflation",
-      "growth",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-27T08-54-32+00-00-5",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-27T08:54:32+00:00",
-    "title": "Fed\u2019s Logan: world may need to cut use of oil and natural gas",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-logan-world-may-need-to-cut-use-of-oil-and-natural-gas-4711382",
-    "macro_score": 7,
-    "macro_buckets": [
-      "policy",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-27T08-54-32+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-27T08:54:32+00:00",
-    "title": "Iran war fallout amplifying Europe\u2019s financial vulnerabilities, ECB warns",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/iran-war-fallout-amplifying-europes-financial-vulnerabilities-ecb-warns-4711374",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-05-26T21-04-00+00-00-9",
+    "id": "www.marketwatch.com-2026-05-28T09-39-00+00-00-6",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-26T21:04:00+00:00",
-    "title": "The bond market has been rocked by a violent selloff. Here\u2019s how to play it.",
-    "body": "The bond market is tied up in knots about the Iran war and inflation, as well as what the Federal Reserve under new chair Kevin Warsh might do about it.",
-    "url": "https://www.marketwatch.com/story/where-to-invest-in-bonds-right-now-after-the-markets-violent-selloff-ccad2a26?mod=mw_rss_topstories",
-    "macro_score": 4,
+    "published_at": "2026-05-28T09:39:00+00:00",
+    "title": "Oil prices rise after fresh round of strikes between U.S. and Iran, pushing peace deal into doubt",
+    "body": "West Texas Intermediate and Brent crude\u2019s front-month contracts both climbed after the U.S. launched a new set of strikes on an Iranian military site.",
+    "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-round-of-strikes-between-u-s-and-iran-pushing-peace-deal-into-doubt-4d20336b?mod=mw_rss_topstories",
+    "macro_score": 9,
+    "macro_buckets": [
+      "inflation",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-28T11-06-28+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-28T11:06:28+00:00",
+    "title": "BOJ rate hike timing secondary to economy\u2019s readiness, ex-BOJ Deputy Governor Wakatabe says",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/boj-rate-hike-timing-secondary-to-economys-readiness-exboj-deputy-governor-wakatabe-says-4713665",
+    "macro_score": 9,
     "macro_buckets": [
       "policy",
+      "growth"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-28T11-06-28+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-28T11:06:28+00:00",
+    "title": "Inflation challenges US Treasuries\u2019 traditional role in portfolios",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/inflation-challenges-us-treasuries-traditional-role-in-portfolios-4713874",
+    "macro_score": 6,
+    "macro_buckets": [
+      "inflation",
       "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-05-27T08-54-32+00-00-10",
+    "id": "www.investing.com-2026-05-28T11-06-28+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-27T08:54:32+00:00",
-    "title": "Supply shock, debt may hurt central bank independence, ex-Fed executive says",
+    "published_at": "2026-05-28T11:06:28+00:00",
+    "title": "Europe less able than US to contain crypto-bank shocks, UniCredit director says",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/supply-shock-debt-may-hurt-central-bank-independence-exfed-executive-says-4711316",
+    "url": "https://www.investing.com/news/economy-news/europe-less-able-than-us-to-contain-cryptobank-shocks-unicredit-director-says-4713801",
+    "macro_score": 4,
+    "macro_buckets": [
+      "liquidity",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-28T11-06-28+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-28T11:06:28+00:00",
+    "title": "ECB\u2019s Lagarde warns Fed independence remains under threat",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-warns-fed-independence-remains-under-threat-93CH-4713685",
     "macro_score": 4,
     "macro_buckets": [
       "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-28T11-06-28+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-28T11:06:28+00:00",
+    "title": "Exclusive-PBOC tells Chinese banks to boost May lending as credit weakness persists, sources say",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/exclusivepboc-tells-chinese-banks-to-boost-may-lending-as-credit-weakness-persists-sources-say-4713674",
+    "macro_score": 4,
+    "macro_buckets": [
+      "liquidity"
     ]
   }
 ]
