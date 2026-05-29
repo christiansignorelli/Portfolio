@@ -1,73 +1,72 @@
 [
   {
-    "date": "2026-05-28",
-    "daily_brief": "2026-05-28: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, liquidity, policy, but not enough alignment to support a confident macro view.",
+    "date": "2026-05-29",
+    "daily_brief": "2026-05-29: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, risk, inflation, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.02,
-        "return_5d": 2.28,
-        "close": 750.4600219726562
+        "return_1d": 0.55,
+        "return_5d": 1.8,
+        "close": 754.5999755859375
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.24,
-        "return_5d": 2.75,
-        "close": 85.30000305175781
+        "return_1d": 0.52,
+        "return_5d": 2.18,
+        "close": 85.73999786376953
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.0,
-        "return_5d": -0.14,
-        "close": 27.75
+        "return_1d": -0.18,
+        "return_5d": -0.11,
+        "close": 27.700000762939453
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -4.36,
-        "return_5d": -14.34,
-        "close": 131.02999877929688
+        "return_1d": -0.19,
+        "return_5d": -9.35,
+        "close": 130.77999877929688
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.06,
-        "return_5d": 0.98,
-        "close": 80.12999725341797
+        "return_1d": 0.12,
+        "return_5d": 0.46,
+        "close": 80.2300033569336
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -1.33,
-        "return_5d": -0.73,
-        "close": 408.489990234375
+        "return_1d": 1.05,
+        "return_5d": -1.11,
+        "close": 412.7699890136719
       }
     ],
     "bucket_views": [
       {
-        "name": "inflation",
+        "name": "rates",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Oil prices rise after fresh round of strikes between U.S. and Iran, pushing peace deal into doubt",
-            "source": "www.marketwatch.com",
+            "title": "Jobs report on tap for soaring US stocks as rate path, bond yields eyed as risks",
+            "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 9,
+            "macro_score": 8,
             "macro_buckets": [
-              "inflation",
-              "energy"
+              "labor",
+              "rates"
             ],
             "scores": {
               "inflation": 0,
@@ -78,13 +77,13 @@
             }
           },
           {
-            "title": "Inflation challenges US Treasuries\u2019 traditional role in portfolios",
+            "title": "Rule changes may only yield modest Fed balance sheet contraction",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
             "macro_score": 6,
             "macro_buckets": [
-              "inflation",
+              "policy",
               "rates"
             ],
             "scores": {
@@ -103,14 +102,14 @@
         "score": 0,
         "documents": [
           {
-            "title": "BOJ rate hike timing secondary to economy\u2019s readiness, ex-BOJ Deputy Governor Wakatabe says",
+            "title": "Rule changes may only yield modest Fed balance sheet contraction",
             "source": "www.investing.com",
-            "confidence": "low",
+            "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 9,
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "growth"
+              "rates"
             ],
             "scores": {
               "inflation": 0,
@@ -121,13 +120,14 @@
             }
           },
           {
-            "title": "ECB\u2019s Lagarde warns Fed independence remains under threat",
+            "title": "Fed\u2019s Schmid warns against viewing oil shock as transitory",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 4,
+            "macro_score": 6,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "energy"
             ],
             "scores": {
               "inflation": 0,
@@ -140,36 +140,19 @@
         ]
       },
       {
-        "name": "liquidity",
+        "name": "labor",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Exclusive-PBOC tells Chinese banks to boost May lending as credit weakness persists, sources say",
+            "title": "Jobs report on tap for soaring US stocks as rate path, bond yields eyed as risks",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 4,
+            "macro_score": 8,
             "macro_buckets": [
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Europe less able than US to contain crypto-bank shocks, UniCredit director says",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 4,
-            "macro_buckets": [
-              "liquidity",
-              "fx"
+              "labor",
+              "rates"
             ],
             "scores": {
               "inflation": 0,
@@ -187,13 +170,13 @@
         "score": 0,
         "documents": [
           {
-            "title": "Oil prices rise after fresh round of strikes between U.S. and Iran, pushing peace deal into doubt",
-            "source": "www.marketwatch.com",
+            "title": "Fed\u2019s Schmid warns against viewing oil shock as transitory",
+            "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 9,
+            "macro_score": 6,
             "macro_buckets": [
-              "inflation",
+              "policy",
               "energy"
             ],
             "scores": {

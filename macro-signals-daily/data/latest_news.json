@@ -1,84 +1,44 @@
 [
   {
-    "id": "www.marketwatch.com-2026-05-28T09-39-00+00-00-6",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-28T09:39:00+00:00",
-    "title": "Oil prices rise after fresh round of strikes between U.S. and Iran, pushing peace deal into doubt",
-    "body": "West Texas Intermediate and Brent crude\u2019s front-month contracts both climbed after the U.S. launched a new set of strikes on an Iranian military site.",
-    "url": "https://www.marketwatch.com/story/oil-prices-rise-after-fresh-round-of-strikes-between-u-s-and-iran-pushing-peace-deal-into-doubt-4d20336b?mod=mw_rss_topstories",
-    "macro_score": 9,
-    "macro_buckets": [
-      "inflation",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-28T11-06-28+00-00-9",
+    "id": "www.investing.com-2026-05-29T10-54-26+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-28T11:06:28+00:00",
-    "title": "BOJ rate hike timing secondary to economy\u2019s readiness, ex-BOJ Deputy Governor Wakatabe says",
+    "published_at": "2026-05-29T10:54:26+00:00",
+    "title": "Jobs report on tap for soaring US stocks as rate path, bond yields eyed as risks",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/boj-rate-hike-timing-secondary-to-economys-readiness-exboj-deputy-governor-wakatabe-says-4713665",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/jobs-report-on-tap-for-soaring-us-stocks-as-rate-path-bond-yields-eyed-as-risks-4716323",
+    "macro_score": 8,
     "macro_buckets": [
-      "policy",
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-28T11-06-28+00-00-1",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-28T11:06:28+00:00",
-    "title": "Inflation challenges US Treasuries\u2019 traditional role in portfolios",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/inflation-challenges-us-treasuries-traditional-role-in-portfolios-4713874",
-    "macro_score": 6,
-    "macro_buckets": [
-      "inflation",
+      "labor",
       "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-05-28T11-06-28+00-00-2",
+    "id": "www.investing.com-2026-05-29T10-54-26+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-28T11:06:28+00:00",
-    "title": "Europe less able than US to contain crypto-bank shocks, UniCredit director says",
+    "published_at": "2026-05-29T10:54:26+00:00",
+    "title": "Fed\u2019s Schmid warns against viewing oil shock as transitory",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/europe-less-able-than-us-to-contain-cryptobank-shocks-unicredit-director-says-4713801",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/feds-schmid-warns-against-viewing-oil-shock-as-transitory-4716380",
+    "macro_score": 6,
     "macro_buckets": [
-      "liquidity",
-      "fx"
+      "policy",
+      "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-05-28T11-06-28+00-00-7",
+    "id": "www.investing.com-2026-05-29T10-54-26+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-28T11:06:28+00:00",
-    "title": "ECB\u2019s Lagarde warns Fed independence remains under threat",
+    "published_at": "2026-05-29T10:54:26+00:00",
+    "title": "Rule changes may only yield modest Fed balance sheet contraction",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-warns-fed-independence-remains-under-threat-93CH-4713685",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/rule-changes-may-only-yield-modest-fed-balance-sheet-contraction-4716297",
+    "macro_score": 6,
     "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-28T11-06-28+00-00-8",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-28T11:06:28+00:00",
-    "title": "Exclusive-PBOC tells Chinese banks to boost May lending as credit weakness persists, sources say",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/exclusivepboc-tells-chinese-banks-to-boost-may-lending-as-credit-weakness-persists-sources-say-4713674",
-    "macro_score": 4,
-    "macro_buckets": [
-      "liquidity"
+      "policy",
+      "rates"
     ]
   }
 ]
