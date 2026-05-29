@@ -1,44 +1,57 @@
 [
   {
-    "id": "www.investing.com-2026-05-29T10-54-26+00-00-2",
+    "id": "www.investing.com-2026-05-29T22-41-08+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-29T10:54:26+00:00",
-    "title": "Jobs report on tap for soaring US stocks as rate path, bond yields eyed as risks",
+    "published_at": "2026-05-29T22:41:08+00:00",
+    "title": "Fed officials mull raising rates to curb growing inflation risk",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/jobs-report-on-tap-for-soaring-us-stocks-as-rate-path-bond-yields-eyed-as-risks-4716323",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/fed-officials-mull-raising-rates-to-curb-growing-inflation-risk-4717109",
+    "macro_score": 9,
     "macro_buckets": [
-      "labor",
-      "rates"
+      "policy",
+      "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-05-29T10-54-26+00-00-1",
+    "id": "www.investing.com-2026-05-29T22-41-08+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-29T10:54:26+00:00",
-    "title": "Fed\u2019s Schmid warns against viewing oil shock as transitory",
+    "published_at": "2026-05-29T22:41:08+00:00",
+    "title": "Why the Fed and ECB may ignore short-term oil relief from a US-Iran deal",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-schmid-warns-against-viewing-oil-shock-as-transitory-4716380",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/why-the-fed-and-ecb-may-ignore-shortterm-oil-relief-from-a-usiran-deal-4717016",
+    "macro_score": 9,
     "macro_buckets": [
       "policy",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-05-29T10-54-26+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-29T10:54:26+00:00",
-    "title": "Rule changes may only yield modest Fed balance sheet contraction",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/rule-changes-may-only-yield-modest-fed-balance-sheet-contraction-4716297",
-    "macro_score": 6,
+    "id": "www.marketwatch.com-2026-05-29T19-52-00+00-00-10",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-05-29T19:52:00+00:00",
+    "title": "Oil prices tumble nearly 20% in May \u2014 the biggest monthly drop since 2020. Here\u2019s what\u2019s next.",
+    "body": "Global oil prices tumbled over 20% in May on hopes for the U.S.-Iran peace deal.",
+    "url": "https://www.marketwatch.com/story/oil-prices-tumble-most-since-2020-in-may-without-hitting-200-a-barrel-heres-whats-next-f83b4fed?mod=mw_rss_topstories",
+    "macro_score": 8,
     "macro_buckets": [
-      "policy",
-      "rates"
+      "inflation",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-05-29T21-35-00+00-00-3",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-05-29T21:35:00+00:00",
+    "title": "Oil slides, stocks climb as Trump puts off determination on Iran proposal",
+    "body": "A White House meeting Friday ended without a decision by the U.S. president.",
+    "url": "https://www.marketwatch.com/story/oil-prices-slide-as-trump-says-the-u-s-is-close-to-an-iran-deal-8af9ece2?mod=mw_rss_topstories",
+    "macro_score": 5,
+    "macro_buckets": [
+      "energy"
     ]
   }
 ]

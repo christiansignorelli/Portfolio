@@ -1,72 +1,73 @@
 [
   {
     "date": "2026-05-29",
-    "daily_brief": "2026-05-29: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, risk, inflation, but not enough alignment to support a confident macro view.",
+    "daily_brief": "2026-05-29: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, risk, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.55,
-        "return_5d": 1.8,
-        "close": 754.5999755859375
+        "return_1d": 0.25,
+        "return_5d": 1.85,
+        "close": 756.47998046875
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.52,
-        "return_5d": 2.18,
-        "close": 85.73999786376953
+        "return_1d": 0.02,
+        "return_5d": 1.83,
+        "close": 85.76000213623047
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.18,
-        "return_5d": -0.11,
-        "close": 27.700000762939453
+        "return_1d": -0.14,
+        "return_5d": -0.25,
+        "close": 27.65999984741211
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -0.19,
-        "return_5d": -9.35,
-        "close": 130.77999877929688
+        "return_1d": -1.29,
+        "return_5d": -9.44,
+        "close": 129.08999633789062
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.12,
-        "return_5d": 0.46,
-        "close": 80.2300033569336
+        "return_1d": 0.1,
+        "return_5d": 0.51,
+        "close": 80.30999755859375
       },
       {
         "symbol": "GLD",
         "label": "Gold",
         "return_1d": 1.05,
-        "return_5d": -1.11,
-        "close": 412.7699890136719
+        "return_5d": 0.03,
+        "close": 417.1199951171875
       }
     ],
     "bucket_views": [
       {
-        "name": "rates",
+        "name": "energy",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Jobs report on tap for soaring US stocks as rate path, bond yields eyed as risks",
+            "title": "Why the Fed and ECB may ignore short-term oil relief from a US-Iran deal",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 8,
+            "macro_score": 9,
             "macro_buckets": [
-              "labor",
-              "rates"
+              "policy",
+              "energy"
             ],
             "scores": {
               "inflation": 0,
@@ -77,14 +78,31 @@
             }
           },
           {
-            "title": "Rule changes may only yield modest Fed balance sheet contraction",
-            "source": "www.investing.com",
+            "title": "Oil prices tumble nearly 20% in May \u2014 the biggest monthly drop since 2020. Here\u2019s what\u2019s next.",
+            "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 8,
             "macro_buckets": [
-              "policy",
-              "rates"
+              "inflation",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Oil slides, stocks climb as Trump puts off determination on Iran proposal",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 5,
+            "macro_buckets": [
+              "energy"
             ],
             "scores": {
               "inflation": 0,
@@ -102,29 +120,11 @@
         "score": 0,
         "documents": [
           {
-            "title": "Rule changes may only yield modest Fed balance sheet contraction",
+            "title": "Why the Fed and ECB may ignore short-term oil relief from a US-Iran deal",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "rates"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Fed\u2019s Schmid warns against viewing oil shock as transitory",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 9,
             "macro_buckets": [
               "policy",
               "energy"
@@ -136,23 +136,16 @@
               "liquidity": 0,
               "risk": 0
             }
-          }
-        ]
-      },
-      {
-        "name": "labor",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
+          },
           {
-            "title": "Jobs report on tap for soaring US stocks as rate path, bond yields eyed as risks",
+            "title": "Fed officials mull raising rates to curb growing inflation risk",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 8,
+            "macro_score": 9,
             "macro_buckets": [
-              "labor",
-              "rates"
+              "policy",
+              "inflation"
             ],
             "scores": {
               "inflation": 0,
@@ -165,18 +158,36 @@
         ]
       },
       {
-        "name": "energy",
+        "name": "inflation",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Fed\u2019s Schmid warns against viewing oil shock as transitory",
+            "title": "Fed officials mull raising rates to curb growing inflation risk",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 9,
             "macro_buckets": [
               "policy",
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Oil prices tumble nearly 20% in May \u2014 the biggest monthly drop since 2020. Here\u2019s what\u2019s next.",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 8,
+            "macro_buckets": [
+              "inflation",
               "energy"
             ],
             "scores": {
