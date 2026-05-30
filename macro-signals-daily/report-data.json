@@ -1,13 +1,12 @@
 [
   {
-    "date": "2026-05-29",
-    "daily_brief": "2026-05-29: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, risk, but not enough alignment to support a confident macro view.",
+    "date": "2026-05-30",
+    "daily_brief": "2026-05-30: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, liquidity, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
@@ -55,94 +54,16 @@
     ],
     "bucket_views": [
       {
-        "name": "energy",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "Why the Fed and ECB may ignore short-term oil relief from a US-Iran deal",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Oil prices tumble nearly 20% in May \u2014 the biggest monthly drop since 2020. Here\u2019s what\u2019s next.",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 8,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Oil slides, stocks climb as Trump puts off determination on Iran proposal",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 5,
-            "macro_buckets": [
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
         "name": "policy",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Why the Fed and ECB may ignore short-term oil relief from a US-Iran deal",
+            "title": "Inflation fight again putting central bank independence under strain, policymakers say",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Fed officials mull raising rates to curb growing inflation risk",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 9,
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
               "inflation"
@@ -163,32 +84,14 @@
         "score": 0,
         "documents": [
           {
-            "title": "Fed officials mull raising rates to curb growing inflation risk",
+            "title": "Inflation fight again putting central bank independence under strain, policymakers say",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 9,
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
               "inflation"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Oil prices tumble nearly 20% in May \u2014 the biggest monthly drop since 2020. Here\u2019s what\u2019s next.",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 8,
-            "macro_buckets": [
-              "inflation",
-              "energy"
             ],
             "scores": {
               "inflation": 0,

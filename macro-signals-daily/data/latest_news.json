@@ -1,57 +1,16 @@
 [
   {
-    "id": "www.investing.com-2026-05-29T22-41-08+00-00-7",
+    "id": "www.investing.com-2026-05-30T22-10-57+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-29T22:41:08+00:00",
-    "title": "Fed officials mull raising rates to curb growing inflation risk",
+    "published_at": "2026-05-30T22:10:57+00:00",
+    "title": "Inflation fight again putting central bank independence under strain, policymakers say",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/fed-officials-mull-raising-rates-to-curb-growing-inflation-risk-4717109",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/inflation-fight-again-putting-central-bank-independence-under-strain-policymakers-say-4717761",
+    "macro_score": 6,
     "macro_buckets": [
       "policy",
       "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-05-29T22-41-08+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-29T22:41:08+00:00",
-    "title": "Why the Fed and ECB may ignore short-term oil relief from a US-Iran deal",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/why-the-fed-and-ecb-may-ignore-shortterm-oil-relief-from-a-usiran-deal-4717016",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-05-29T19-52-00+00-00-10",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-29T19:52:00+00:00",
-    "title": "Oil prices tumble nearly 20% in May \u2014 the biggest monthly drop since 2020. Here\u2019s what\u2019s next.",
-    "body": "Global oil prices tumbled over 20% in May on hopes for the U.S.-Iran peace deal.",
-    "url": "https://www.marketwatch.com/story/oil-prices-tumble-most-since-2020-in-may-without-hitting-200-a-barrel-heres-whats-next-f83b4fed?mod=mw_rss_topstories",
-    "macro_score": 8,
-    "macro_buckets": [
-      "inflation",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-05-29T21-35-00+00-00-3",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-05-29T21:35:00+00:00",
-    "title": "Oil slides, stocks climb as Trump puts off determination on Iran proposal",
-    "body": "A White House meeting Friday ended without a decision by the U.S. president.",
-    "url": "https://www.marketwatch.com/story/oil-prices-slide-as-trump-says-the-u-s-is-close-to-an-iran-deal-8af9ece2?mod=mw_rss_topstories",
-    "macro_score": 5,
-    "macro_buckets": [
-      "energy"
     ]
   }
 ]
