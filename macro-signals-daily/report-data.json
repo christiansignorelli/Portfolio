@@ -1,10 +1,16 @@
 [
   {
-    "date": "2026-05-30",
-    "daily_brief": "2026-05-30: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, liquidity, but not enough alignment to support a confident macro view.",
-    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
-    "market_checks": [],
+    "date": "2026-05-31",
+    "daily_brief": "2026-05-31: inflation neutral, growth neutral, policy mildly hawkish, liquidity neutral, risk neutral. Top theme: policy.",
+    "macro_read": "Macro read: hawkish policy tone.",
+    "market_confirmation": "Market check: price action is diverging from today's narrative.",
+    "market_checks": [
+      {
+        "label": "hawkish policy",
+        "expected": "expects bonds weaker and dollar firmer",
+        "confirmed": false
+      }
+    ],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
     ],
@@ -55,18 +61,86 @@
     "bucket_views": [
       {
         "name": "policy",
+        "label": "mildly hawkish",
+        "score": 1,
+        "documents": [
+          {
+            "title": "UBS says bond selloff offers buying chance despite hawkish ECB rate signals",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "policy-up",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "rates"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Inflation fight again putting central bank independence under strain, policymakers say",
+            "title": "UBS says bond selloff offers buying chance despite hawkish ECB rate signals",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "policy-up",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "rates"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Jobs report on tap for soaring US stocks as rate path, bond yields eyed as risks",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 8,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "labor",
+              "rates"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "labor",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Jobs report on tap for soaring US stocks as rate path, bond yields eyed as risks",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 8,
+            "macro_buckets": [
+              "labor",
+              "rates"
             ],
             "scores": {
               "inflation": 0,
@@ -84,14 +158,14 @@
         "score": 0,
         "documents": [
           {
-            "title": "Inflation fight again putting central bank independence under strain, policymakers say",
+            "title": "EU weighs freezing Russian oil price cap as Middle East war lifts crude prices",
             "source": "www.investing.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 7,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "inflation",
+              "energy"
             ],
             "scores": {
               "inflation": 0,

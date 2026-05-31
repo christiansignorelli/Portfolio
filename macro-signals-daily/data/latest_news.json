@@ -1,16 +1,44 @@
 [
   {
-    "id": "www.investing.com-2026-05-30T22-10-57+00-00-6",
+    "id": "www.investing.com-2026-05-31T22-11-40+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-05-30T22:10:57+00:00",
-    "title": "Inflation fight again putting central bank independence under strain, policymakers say",
+    "published_at": "2026-05-31T22:11:40+00:00",
+    "title": "UBS says bond selloff offers buying chance despite hawkish ECB rate signals",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/inflation-fight-again-putting-central-bank-independence-under-strain-policymakers-say-4717761",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/ubs-says-bond-selloff-offers-buying-chance-despite-hawkish-ecb-rate-signals-4717845",
+    "macro_score": 9,
     "macro_buckets": [
       "policy",
-      "inflation"
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-31T22-11-40+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-31T22:11:40+00:00",
+    "title": "Jobs report on tap for soaring US stocks as rate path, bond yields eyed as risks",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/jobs-report-on-tap-for-soaring-us-stocks-as-rate-path-bond-yields-eyed-as-risks-4717914",
+    "macro_score": 8,
+    "macro_buckets": [
+      "labor",
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-05-31T22-11-40+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-05-31T22:11:40+00:00",
+    "title": "EU weighs freezing Russian oil price cap as Middle East war lifts crude prices",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/eu-weighs-freezing-russian-oil-price-cap-as-middle-east-war-lifts-crude-prices-4717835",
+    "macro_score": 7,
+    "macro_buckets": [
+      "inflation",
+      "energy"
     ]
   }
 ]
