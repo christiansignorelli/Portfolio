@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "www.investing.com-2026-06-02T23-06-59+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-02T23:06:59+00:00",
+    "title": "Federal Reserve chair Warsh reportedly brings in two conservative advisers",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/federal-reserve-chair-warsh-reportedly-brings-in-two-conservative-advisers-4722923",
+    "macro_score": 4,
+    "macro_buckets": [
+      "policy"
+    ]
+  }
+]

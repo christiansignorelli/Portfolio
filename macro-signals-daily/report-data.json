@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "date": "2026-06-02",
+    "daily_brief": "2026-06-02: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, but not enough alignment to support a confident macro view.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": 0.14,
+        "return_5d": 1.2,
+        "close": 759.5700073242188
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.21,
+        "return_5d": 0.65,
+        "close": 85.6500015258789
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.0,
+        "return_5d": 0.04,
+        "close": 27.760000228881836
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 1.31,
+        "return_5d": 0.2,
+        "close": 137.27000427246094
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": 0.08,
+        "return_5d": -0.35,
+        "close": 79.9000015258789
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": 0.17,
+        "return_5d": -0.5,
+        "close": 411.95001220703125
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "policy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Federal Reserve chair Warsh reportedly brings in two conservative advisers",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 4,
+            "macro_buckets": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  }
+]
