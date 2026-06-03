@@ -1,55 +1,56 @@
 [
   {
-    "date": "2026-06-02",
-    "daily_brief": "2026-06-02: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, but not enough alignment to support a confident macro view.",
+    "date": "2026-06-03",
+    "daily_brief": "2026-06-03: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, inflation, growth, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.14,
-        "return_5d": 1.2,
-        "close": 759.5700073242188
+        "return_1d": -0.7,
+        "return_5d": 0.5,
+        "close": 754.239990234375
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.21,
-        "return_5d": 0.65,
-        "close": 85.6500015258789
+        "return_1d": -0.4,
+        "return_5d": 0.01,
+        "close": 85.30999755859375
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.0,
-        "return_5d": 0.04,
-        "close": 27.760000228881836
+        "return_1d": 0.36,
+        "return_5d": 0.4,
+        "close": 27.860000610351562
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 1.31,
-        "return_5d": 0.2,
-        "close": 137.27000427246094
+        "return_1d": 2.62,
+        "return_5d": 7.5,
+        "close": 140.86000061035156
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.08,
-        "return_5d": -0.35,
-        "close": 79.9000015258789
+        "return_1d": -0.28,
+        "return_5d": -0.56,
+        "close": 79.68000030517578
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.17,
-        "return_5d": -0.5,
-        "close": 411.95001220703125
+        "return_1d": -0.99,
+        "return_5d": -0.15,
+        "close": 407.8699951171875
       }
     ],
     "bucket_views": [
@@ -59,13 +60,127 @@
         "score": 0,
         "documents": [
           {
-            "title": "Federal Reserve chair Warsh reportedly brings in two conservative advisers",
+            "title": "Fed\u2019s Bowman says banking system sound, touts regulatory reforms",
             "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "BOJ chief vows to debate \u2019pros and cons\u2019 of rate hike, signals June action",
+            "source": "www.investing.com",
+            "confidence": "low",
+            "summary_label": "neutral-mixed",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "The Fed can\u2019t protect consumers from supply shocks and price gouging \u2014 but Congress can",
+            "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
             "macro_score": 4,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "\u2018Squeezing more life out of every dollar\u2019: How inflation is forcing a new reality on American families and amplifying the economy\u2019s \u2018K shape\u2019",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "growth",
+              "fx"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "\u2018Squeezing more life out of every dollar\u2019: How inflation is forcing a new reality on American families and amplifying the economy\u2019s \u2018K shape\u2019",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "growth",
+              "fx"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "\u2018Squeezing more life out of every dollar\u2019: How inflation is forcing a new reality on American families and amplifying the economy\u2019s \u2018K shape\u2019",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "growth",
+              "fx"
             ],
             "scores": {
               "inflation": 0,
