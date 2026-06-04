@@ -1,58 +1,85 @@
 [
   {
-    "id": "www.marketwatch.com-2026-06-03T21-03-00+00-00-9",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-03T21:03:00+00:00",
-    "title": "\u2018Squeezing more life out of every dollar\u2019: How inflation is forcing a new reality on American families and amplifying the economy\u2019s \u2018K shape\u2019",
-    "body": "Higher prices are crimping spending among lower- and middle-income consumers, the Fed\u2019s beige book reports.",
-    "url": "https://www.marketwatch.com/story/squeezing-more-life-out-of-every-dollar-how-inflation-is-forcing-a-new-reality-on-american-families-and-amplifying-the-economys-k-shape-c3ba42de?mod=mw_rss_topstories",
+    "id": "www.investing.com-2026-06-04T22-42-41+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-04T22:42:41+00:00",
+    "title": "Kansas City Fed\u2019s Schmid says rate hikes may be needed to curb inflation",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/kansas-city-feds-schmid-says-rate-hikes-may-be-needed-to-curb-inflation-93CH-4727296",
     "macro_score": 9,
     "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-04T22-42-41+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-04T22:42:41+00:00",
+    "title": "Fed\u2019s Schmid says choice is between patience and rate hikes to tamp down inflation",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-schmid-says-choice-is-between-patience-and-rate-hikes-to-tamp-down-inflation-4727256",
+    "macro_score": 9,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-06-04T21-05-00+00-00-9",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-06-04T21:05:00+00:00",
+    "title": "A war-weary Treasury market faces a fresh test with Friday\u2019s jobs report",
+    "body": "The new worry on Wall Street is that investors are simply losing patience and demanding higher compensation to lend money to the U.S. government.",
+    "url": "https://www.marketwatch.com/story/a-war-weary-treasury-market-faces-a-fresh-test-with-fridays-jobs-report-73789d8a?mod=mw_rss_topstories",
+    "macro_score": 7,
+    "macro_buckets": [
+      "labor",
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-04T22-42-41+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-04T22:42:41+00:00",
+    "title": "Aussie home prices set for weakest growth in four years as rates bite",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/aussie-home-prices-set-for-weakest-growth-in-four-years-as-rates-bite-4727355",
+    "macro_score": 7,
+    "macro_buckets": [
+      "policy",
       "inflation",
-      "growth",
+      "growth"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-04T22-42-41+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-04T22:42:41+00:00",
+    "title": "Yen touches 160, dollar slips from two-month high amid Iran talks",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/dollar-clings-to-2month-high-as-gulf-hostilities-flare-yen-wobbles-near-intervention-zone-4725552",
+    "macro_score": 4,
+    "macro_buckets": [
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-06-03T23-12-20+00-00-3",
+    "id": "www.investing.com-2026-06-04T22-42-41+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-03T23:12:20+00:00",
-    "title": "BOJ chief vows to debate \u2019pros and cons\u2019 of rate hike, signals June action",
+    "published_at": "2026-06-04T22:42:41+00:00",
+    "title": "US bond funds see mixed flows as high-yield attracts cash",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/boj-chief-to-deliver-key-speech-as-pressure-mounts-for-june-rate-hike-4723214",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-03T23-12-20+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-03T23:12:20+00:00",
-    "title": "Fed\u2019s Bowman says banking system sound, touts regulatory reforms",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-bowman-says-banking-system-sound-touts-regulatory-reforms-93CH-4725269",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
-      "liquidity"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-06-03T22-14-00+00-00-3",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-03T22:14:00+00:00",
-    "title": "The Fed can\u2019t protect consumers from supply shocks and price gouging \u2014 but Congress can",
-    "body": "As global disruptions drive up Americans\u2019 grocery and gasoline prices, lawmakers need to take a stand.",
-    "url": "https://www.marketwatch.com/story/the-2-types-of-inflation-the-fed-cant-control-and-how-congress-must-protect-your-wallet-7ac2079a?mod=mw_rss_topstories",
+    "url": "https://www.investing.com/news/economy-news/us-bond-funds-see-mixed-flows-as-highyield-attracts-cash-93CH-4727267",
     "macro_score": 4,
     "macro_buckets": [
-      "policy",
-      "energy"
+      "rates"
     ]
   }
 ]
