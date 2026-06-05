@@ -1,13 +1,13 @@
 [
   {
-    "date": "2026-06-04",
-    "daily_brief": "2026-06-04: inflation neutral, growth neutral, policy dovish, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: easing policy tone.",
-    "market_confirmation": "Market check: price action broadly confirms today's easing policy narrative.",
+    "date": "2026-06-05",
+    "daily_brief": "2026-06-05: inflation neutral, growth neutral, policy mildly hawkish, liquidity neutral, risk neutral. Top theme: growth.",
+    "macro_read": "Macro read: hawkish policy tone.",
+    "market_confirmation": "Market check: price action broadly confirms today's hawkish policy narrative.",
     "market_checks": [
       {
-        "label": "easing policy",
-        "expected": "expects bonds stronger and dollar flat to weaker",
+        "label": "hawkish policy",
+        "expected": "expects bonds weaker and dollar firmer",
         "confirmed": true
       }
     ],
@@ -19,207 +19,66 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.38,
-        "return_5d": 0.33,
-        "close": 757.0900268554688
+        "return_1d": -2.58,
+        "return_5d": -2.5,
+        "close": 737.5499877929688
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.22,
-        "return_5d": -0.28,
-        "close": 85.5
+        "return_1d": -0.51,
+        "return_5d": -0.82,
+        "close": 85.05999755859375
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.07,
-        "return_5d": 0.51,
-        "close": 27.84000015258789
+        "return_1d": 0.65,
+        "return_5d": 1.3,
+        "close": 28.020000457763672
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -2.92,
-        "return_5d": 4.56,
-        "close": 136.74000549316406
+        "return_1d": -2.72,
+        "return_5d": 3.04,
+        "close": 133.02000427246094
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.19,
-        "return_5d": -0.5,
-        "close": 79.83000183105469
+        "return_1d": -0.5,
+        "return_5d": -1.1,
+        "close": 79.43000030517578
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.83,
-        "return_5d": -0.36,
-        "close": 411.2699890136719
+        "return_1d": -3.65,
+        "return_5d": -5.01,
+        "close": 396.239990234375
       }
     ],
     "bucket_views": [
       {
         "name": "policy",
-        "label": "dovish",
-        "score": -2,
+        "label": "mildly hawkish",
+        "score": 1,
         "documents": [
           {
-            "title": "Kansas City Fed\u2019s Schmid says rate hikes may be needed to curb inflation",
+            "title": "US job report strikes a hawkish note as Fed\u2019s Warsh takes the baton",
             "source": "www.investing.com",
             "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 9,
+            "summary_label": "policy-up",
+            "macro_score": 8,
             "macro_buckets": [
               "policy",
-              "inflation"
+              "labor"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Fed\u2019s Schmid says choice is between patience and rate hikes to tamp down inflation",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "policy-down",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Aussie home prices set for weakest growth in four years as rates bite",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 7,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "inflation",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "Kansas City Fed\u2019s Schmid says rate hikes may be needed to curb inflation",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Fed\u2019s Schmid says choice is between patience and rate hikes to tamp down inflation",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "policy-down",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Aussie home prices set for weakest growth in four years as rates bite",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 7,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "A war-weary Treasury market faces a fresh test with Friday\u2019s jobs report",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "policy-down",
-            "macro_score": 7,
-            "macro_buckets": [
-              "labor",
-              "rates"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "US bond funds see mixed flows as high-yield attracts cash",
-            "source": "www.investing.com",
-            "confidence": "low",
-            "summary_label": "neutral-mixed",
-            "macro_score": 4,
-            "macro_buckets": [
-              "rates"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
@@ -232,19 +91,123 @@
         "score": 0,
         "documents": [
           {
-            "title": "A war-weary Treasury market faces a fresh test with Friday\u2019s jobs report",
+            "title": "The hiring recession is over \u2014 but landing a new job is much harder than it looks",
             "source": "www.marketwatch.com",
             "confidence": "medium",
-            "summary_label": "policy-down",
-            "macro_score": 7,
+            "summary_label": "neutral-mixed",
+            "macro_score": 10,
             "macro_buckets": [
               "labor",
-              "rates"
+              "growth"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": -1,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "US job report strikes a hawkish note as Fed\u2019s Warsh takes the baton",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "policy-up",
+            "macro_score": 8,
+            "macro_buckets": [
+              "policy",
+              "labor"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Resilient US economy posts third straight month of strong job growth",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 7,
+            "macro_buckets": [
+              "labor",
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "The hiring recession is over \u2014 but landing a new job is much harder than it looks",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 10,
+            "macro_buckets": [
+              "labor",
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Resilient US economy posts third straight month of strong job growth",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 7,
+            "macro_buckets": [
+              "labor",
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "liquidity",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "FinCEN urges banks to report illegal alien employment schemes",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 6,
+            "macro_buckets": [
+              "labor",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
