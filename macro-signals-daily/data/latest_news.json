@@ -1,71 +1,16 @@
 [
   {
-    "id": "www.marketwatch.com-2026-06-05T20-53-00+00-00-9",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-05T20:53:00+00:00",
-    "title": "The hiring recession is over \u2014 but landing a new job is much harder than it looks",
-    "body": "The May jobs report blew past forecasts. Why is it taking six months to find a new job?",
-    "url": "https://www.marketwatch.com/story/the-hiring-recession-is-over-but-landing-a-new-role-is-much-harder-than-it-looks-8f7d9608?mod=mw_rss_topstories",
-    "macro_score": 10,
-    "macro_buckets": [
-      "labor",
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-05T22-22-23+00-00-6",
+    "id": "www.investing.com-2026-06-06T22-14-32+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-05T22:22:23+00:00",
-    "title": "US job report strikes a hawkish note as Fed\u2019s Warsh takes the baton",
+    "published_at": "2026-06-06T22:14:32+00:00",
+    "title": "EU looks to clean energy tax cuts to ease economic pressure - Bloomberg",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-jobs-report-for-may-will-partly-underpin-warshs-fed-debut-4728130",
-    "macro_score": 8,
-    "macro_buckets": [
-      "policy",
-      "labor"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-05T22-22-23+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-05T22:22:23+00:00",
-    "title": "Resilient US economy posts third straight month of strong job growth",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-posts-another-month-of-strong-job-gains-in-may-unemployment-rate-steady-at-43-4728562",
-    "macro_score": 7,
-    "macro_buckets": [
-      "labor",
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-05T22-22-23+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-05T22:22:23+00:00",
-    "title": "FinCEN urges banks to report illegal alien employment schemes",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/fincen-urges-banks-to-report-illegal-alien-employment-schemes-93CH-4728847",
+    "url": "https://www.investing.com/news/economy-news/eu-looks-to-clean-energy-tax-cuts-to-ease-economic-pressure--bloomberg-4729579",
     "macro_score": 6,
     "macro_buckets": [
-      "labor",
-      "liquidity"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-05T22-22-23+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-05T22:22:23+00:00",
-    "title": "Reaction roundup: Experts, analysts weigh in on May jobs report",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/reaction-roundup-experts-analysts-weigh-in-on-may-jobs-report-4729021",
-    "macro_score": 4,
-    "macro_buckets": [
-      "labor"
+      "growth",
+      "energy"
     ]
   }
 ]

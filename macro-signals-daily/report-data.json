@@ -1,19 +1,12 @@
 [
   {
-    "date": "2026-06-05",
-    "daily_brief": "2026-06-05: inflation neutral, growth neutral, policy mildly hawkish, liquidity neutral, risk neutral. Top theme: growth.",
-    "macro_read": "Macro read: hawkish policy tone.",
-    "market_confirmation": "Market check: price action broadly confirms today's hawkish policy narrative.",
-    "market_checks": [
-      {
-        "label": "hawkish policy",
-        "expected": "expects bonds weaker and dollar firmer",
-        "confirmed": true
-      }
-    ],
+    "date": "2026-06-06",
+    "daily_brief": "2026-06-06: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: uncategorized.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds did not provide enough aligned macro language to support a confident interpretation.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+    "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
@@ -61,123 +54,19 @@
     ],
     "bucket_views": [
       {
-        "name": "policy",
-        "label": "mildly hawkish",
-        "score": 1,
-        "documents": [
-          {
-            "title": "US job report strikes a hawkish note as Fed\u2019s Warsh takes the baton",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "policy-up",
-            "macro_score": 8,
-            "macro_buckets": [
-              "policy",
-              "labor"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "labor",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "The hiring recession is over \u2014 but landing a new job is much harder than it looks",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 10,
-            "macro_buckets": [
-              "labor",
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "US job report strikes a hawkish note as Fed\u2019s Warsh takes the baton",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "policy-up",
-            "macro_score": 8,
-            "macro_buckets": [
-              "policy",
-              "labor"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Resilient US economy posts third straight month of strong job growth",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 7,
-            "macro_buckets": [
-              "labor",
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
         "name": "growth",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "The hiring recession is over \u2014 but landing a new job is much harder than it looks",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 10,
-            "macro_buckets": [
-              "labor",
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Resilient US economy posts third straight month of strong job growth",
+            "title": "EU looks to clean energy tax cuts to ease economic pressure - Bloomberg",
             "source": "www.investing.com",
-            "confidence": "medium",
+            "confidence": "low",
             "summary_label": "neutral-mixed",
-            "macro_score": 7,
+            "macro_score": 6,
             "macro_buckets": [
-              "labor",
-              "growth"
+              "growth",
+              "energy"
             ],
             "scores": {
               "inflation": 0,
@@ -190,19 +79,19 @@
         ]
       },
       {
-        "name": "liquidity",
+        "name": "energy",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "FinCEN urges banks to report illegal alien employment schemes",
+            "title": "EU looks to clean energy tax cuts to ease economic pressure - Bloomberg",
             "source": "www.investing.com",
-            "confidence": "medium",
+            "confidence": "low",
             "summary_label": "neutral-mixed",
             "macro_score": 6,
             "macro_buckets": [
-              "labor",
-              "liquidity"
+              "growth",
+              "energy"
             ],
             "scores": {
               "inflation": 0,
