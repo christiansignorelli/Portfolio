@@ -1,12 +1,13 @@
 [
   {
-    "date": "2026-06-06",
-    "daily_brief": "2026-06-06: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: uncategorized.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds did not provide enough aligned macro language to support a confident interpretation.",
+    "date": "2026-06-07",
+    "daily_brief": "2026-06-07: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, growth, but not enough alignment to support a confident macro view.",
     "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
@@ -59,14 +60,31 @@
         "score": 0,
         "documents": [
           {
-            "title": "EU looks to clean energy tax cuts to ease economic pressure - Bloomberg",
+            "title": "Is the euro area facing a significant economic slowdown in 2026?",
             "source": "www.investing.com",
             "confidence": "low",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 8,
             "macro_buckets": [
               "growth",
-              "energy"
+              "fx"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Are heat pumps an underappreciated lever of power demand growth?",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 4,
+            "macro_buckets": [
+              "growth"
             ],
             "scores": {
               "inflation": 0,
@@ -79,19 +97,123 @@
         ]
       },
       {
-        "name": "energy",
+        "name": "fx",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "EU looks to clean energy tax cuts to ease economic pressure - Bloomberg",
+            "title": "Is the euro area facing a significant economic slowdown in 2026?",
             "source": "www.investing.com",
             "confidence": "low",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 8,
             "macro_buckets": [
               "growth",
+              "fx"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Case for joint European debt is compelling, ECB\u2019s Patsalides says",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "fx"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "S&P 500 companies can\u2019t stop talking about higher oil prices. But few say they\u2019ll actually hurt profits.",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 6,
+            "macro_buckets": [
+              "inflation",
               "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Is Kevin Warsh Correct About AI\u2019s Impact On Inflation And Interest Rates?",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 4,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Case for joint European debt is compelling, ECB\u2019s Patsalides says",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "fx"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Is Kevin Warsh Correct About AI\u2019s Impact On Inflation And Interest Rates?",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 4,
+            "macro_buckets": [
+              "policy",
+              "inflation"
             ],
             "scores": {
               "inflation": 0,

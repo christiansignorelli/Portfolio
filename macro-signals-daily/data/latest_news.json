@@ -1,16 +1,71 @@
 [
   {
-    "id": "www.investing.com-2026-06-06T22-14-32+00-00-7",
+    "id": "www.investing.com-2026-06-07T22-16-04+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-06T22:14:32+00:00",
-    "title": "EU looks to clean energy tax cuts to ease economic pressure - Bloomberg",
+    "published_at": "2026-06-07T22:16:04+00:00",
+    "title": "Is the euro area facing a significant economic slowdown in 2026?",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/eu-looks-to-clean-energy-tax-cuts-to-ease-economic-pressure--bloomberg-4729579",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/is-the-euro-area-facing-a-significant-economic-slowdown-in-2026-4729666",
+    "macro_score": 8,
     "macro_buckets": [
       "growth",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-06-07T19-14-00+00-00-1",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-06-07T19:14:00+00:00",
+    "title": "S&P 500 companies can\u2019t stop talking about higher oil prices. But few say they\u2019ll actually hurt profits.",
+    "body": "Only seven companies cited oil prices as a reason for cutting or not updating their profit outlooks for the year.",
+    "url": "https://www.marketwatch.com/story/s-p-500-companies-cant-stop-talking-about-higher-oil-prices-but-few-say-theyll-actually-hit-profits-c3a4e4ea?mod=mw_rss_topstories",
+    "macro_score": 6,
+    "macro_buckets": [
+      "inflation",
       "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-07T22-16-04+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-07T22:16:04+00:00",
+    "title": "Case for joint European debt is compelling, ECB\u2019s Patsalides says",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/case-for-joint-european-debt-is-compelling-ecbs-patsalides-says-4729654",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-07T22-16-04+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-07T22:16:04+00:00",
+    "title": "Is Kevin Warsh Correct About AI\u2019s Impact On Inflation And Interest Rates?",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/is-kevin-warsh-correct-about-ais-impact-on-inflation-and-interest-rates-4729683",
+    "macro_score": 4,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-07T22-16-04+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-07T22:16:04+00:00",
+    "title": "Are heat pumps an underappreciated lever of power demand growth?",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/are-heat-pumps-an-underappreciated-lever-of-power-demand-growth-4729660",
+    "macro_score": 4,
+    "macro_buckets": [
+      "growth"
     ]
   }
 ]
