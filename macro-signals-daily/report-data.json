@@ -1,1 +1,198 @@
-[]
+[
+  {
+    "date": "2026-06-10",
+    "daily_brief": "2026-06-10: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, policy, risk, but not enough alignment to support a confident macro view.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": -1.58,
+        "return_5d": -3.82,
+        "close": 725.4299926757812
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": -0.28,
+        "return_5d": -0.5,
+        "close": 84.87999725341797
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.14,
+        "return_5d": 0.68,
+        "close": 28.049999237060547
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 2.28,
+        "return_5d": -4.66,
+        "close": 134.3000030517578
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": -0.19,
+        "return_5d": -0.26,
+        "close": 79.47000122070312
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": -4.15,
+        "return_5d": -8.16,
+        "close": 374.5799865722656
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "inflation",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "ECB poised for \u2019insurance hike\u2019 as Iran war fans euro zone inflation",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 11,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "fx"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Equities drop, oil rallies with Iran-US tensions and high inflation in focus",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 8,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "\u2019I love the inflation,\u2019 Trump says as prices rise amid Iran war",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 4,
+            "macro_buckets": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "ECB poised for \u2019insurance hike\u2019 as Iran war fans euro zone inflation",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 11,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "fx"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "ECB poised for \u2019insurance hike\u2019 as Iran war fans euro zone inflation",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 11,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "fx"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Equities drop, oil rallies with Iran-US tensions and high inflation in focus",
+            "source": "www.investing.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 8,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  }
+]

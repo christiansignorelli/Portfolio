@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "id": "www.investing.com-2026-06-10T22-55-58+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-10T22:55:58+00:00",
+    "title": "ECB poised for \u2019insurance hike\u2019 as Iran war fans euro zone inflation",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/ecb-poised-for-insurance-hike-as-iran-war-fans-euro-zone-inflation-4736327",
+    "macro_score": 11,
+    "macro_buckets": [
+      "policy",
+      "inflation",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-10T22-55-58+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-10T22:55:58+00:00",
+    "title": "Equities drop, oil rallies with Iran-US tensions and high inflation in focus",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/asian-stocks-slide-oil-gains-as-middle-east-tensions-escalate-4734284",
+    "macro_score": 8,
+    "macro_buckets": [
+      "inflation",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-06-10T19-44-00+00-00-10",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-06-10T19:44:00+00:00",
+    "title": "The 4.2% inflation rate is a bummer, but the worst might be over",
+    "body": "Lower gasoline prices and fading tariff effects are likely to nudge U.S. inflation lower by the end of 2026.",
+    "url": "https://www.marketwatch.com/story/the-4-2-inflation-rate-is-a-bummer-but-the-worst-might-be-over-ef27170d?mod=mw_rss_topstories",
+    "macro_score": 4,
+    "macro_buckets": [
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-10T22-55-58+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-10T22:55:58+00:00",
+    "title": "\u2019I love the inflation,\u2019 Trump says as prices rise amid Iran war",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/i-love-the-inflation-trump-says-as-prices-rise-amid-iran-war-4735969",
+    "macro_score": 4,
+    "macro_buckets": [
+      "inflation"
+    ]
+  }
+]
