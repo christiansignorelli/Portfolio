@@ -1,57 +1,43 @@
 [
   {
-    "id": "www.investing.com-2026-06-10T22-55-58+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-10T22:55:58+00:00",
-    "title": "ECB poised for \u2019insurance hike\u2019 as Iran war fans euro zone inflation",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecb-poised-for-insurance-hike-as-iran-war-fans-euro-zone-inflation-4736327",
-    "macro_score": 11,
+    "id": "www.marketwatch.com-2026-06-11T21-59-00+00-00-2",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-06-11T21:59:00+00:00",
+    "title": "The SpaceX IPO is drawing historic demand from foreign investors. But don\u2019t expect a dollar-buying frenzy.",
+    "body": "Foreign investors are willing to bet on U.S. companies that are IPO-bound, but not on the dollar itself, according to FX analysts",
+    "url": "https://www.marketwatch.com/story/the-spacex-ipo-is-drawing-historic-demand-from-foreign-investors-but-dont-expect-a-dollar-buying-frenzy-ce66b056?mod=mw_rss_topstories",
+    "macro_score": 7,
     "macro_buckets": [
-      "policy",
-      "inflation",
+      "growth",
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-06-10T22-55-58+00-00-4",
+    "id": "www.investing.com-2026-06-11T22-56-27+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-10T22:55:58+00:00",
-    "title": "Equities drop, oil rallies with Iran-US tensions and high inflation in focus",
+    "published_at": "2026-06-11T22:56:27+00:00",
+    "title": "Australia\u2019s central bank to pause on June 16; a minority still see Q3 rate hike: Reuters poll",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/asian-stocks-slide-oil-gains-as-middle-east-tensions-escalate-4734284",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/australias-central-bank-to-pause-on-june-16-a-minority-still-see-q3-rate-hike-4738306",
+    "macro_score": 6,
     "macro_buckets": [
-      "inflation",
-      "energy"
+      "policy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-06-10T19-44-00+00-00-10",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-10T19:44:00+00:00",
-    "title": "The 4.2% inflation rate is a bummer, but the worst might be over",
-    "body": "Lower gasoline prices and fading tariff effects are likely to nudge U.S. inflation lower by the end of 2026.",
-    "url": "https://www.marketwatch.com/story/the-4-2-inflation-rate-is-a-bummer-but-the-worst-might-be-over-ef27170d?mod=mw_rss_topstories",
-    "macro_score": 4,
-    "macro_buckets": [
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-10T22-55-58+00-00-3",
+    "id": "www.investing.com-2026-06-11T22-56-27+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-10T22:55:58+00:00",
-    "title": "\u2019I love the inflation,\u2019 Trump says as prices rise amid Iran war",
+    "published_at": "2026-06-11T22:56:27+00:00",
+    "title": "World Bank cuts global growth outlook to 2.5%, warns of drop to 1.3% if war fallout spreads to markets",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/i-love-the-inflation-trump-says-as-prices-rise-amid-iran-war-4735969",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/world-bank-cuts-global-growth-outlook-to-25-warns-of-drop-to-13-if-war-fallout-spreads-to-markets-4737623",
+    "macro_score": 6,
     "macro_buckets": [
-      "inflation"
+      "growth",
+      "liquidity"
     ]
   }
 ]
