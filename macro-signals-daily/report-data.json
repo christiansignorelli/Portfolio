@@ -1,10 +1,16 @@
 [
   {
-    "date": "2026-06-11",
-    "daily_brief": "2026-06-11: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: growth.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around growth, liquidity, policy, but not enough alignment to support a confident macro view.",
-    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
-    "market_checks": [],
+    "date": "2026-06-12",
+    "daily_brief": "2026-06-12: inflation slightly up, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
+    "macro_read": "Macro read: inflation pressure.",
+    "market_confirmation": "Market check: price action is diverging from today's narrative.",
+    "market_checks": [
+      {
+        "label": "inflation pressure",
+        "expected": "expects oil stronger and bonds weaker",
+        "confirmed": false
+      }
+    ],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss",
       "https://www.marketwatch.com/rss/topstories"
@@ -13,61 +19,61 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 1.7,
-        "return_5d": -2.55,
-        "close": 737.760009765625
+        "return_1d": 0.54,
+        "return_5d": 0.57,
+        "close": 741.75
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 1.3,
-        "return_5d": 0.56,
-        "close": 85.9800033569336
+        "return_1d": -0.24,
+        "return_5d": 0.83,
+        "close": 85.7699966430664
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.36,
-        "return_5d": 0.4,
+        "return_1d": 0.0,
+        "return_5d": -0.25,
         "close": 27.950000762939453
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -4.07,
-        "return_5d": -5.78,
-        "close": 128.8300018310547
+        "return_1d": -2.64,
+        "return_5d": -5.71,
+        "close": 125.43000030517578
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.59,
-        "return_5d": 0.14,
+        "return_1d": 0.0,
+        "return_5d": 0.64,
         "close": 79.94000244140625
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 3.13,
-        "return_5d": -6.07,
-        "close": 386.32000732421875
+        "return_1d": 0.06,
+        "return_5d": -2.45,
+        "close": 386.5400085449219
       }
     ],
     "bucket_views": [
       {
-        "name": "growth",
-        "label": "neutral",
-        "score": 0,
+        "name": "inflation",
+        "label": "slightly up",
+        "score": 1,
         "documents": [
           {
-            "title": "The SpaceX IPO is drawing historic demand from foreign investors. But don\u2019t expect a dollar-buying frenzy.",
+            "title": "Global oil prices end at 3-month low after Pakistan says a U.S.-Iran peace deal has been reached",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 7,
+            "macro_score": 9,
             "macro_buckets": [
-              "growth",
-              "fx"
+              "inflation",
+              "energy"
             ],
             "scores": {
               "inflation": 0,
@@ -78,17 +84,17 @@
             }
           },
           {
-            "title": "World Bank cuts global growth outlook to 2.5%, warns of drop to 1.3% if war fallout spreads to markets",
+            "title": "Brazil\u2019s inflation accelerates in May, tops target range ahead of rate decision",
             "source": "www.investing.com",
             "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "summary_label": "inflation-up",
+            "macro_score": 4,
             "macro_buckets": [
-              "growth",
-              "liquidity"
+              "policy",
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": 1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -98,19 +104,19 @@
         ]
       },
       {
-        "name": "fx",
-        "label": "neutral",
-        "score": 0,
+        "name": "energy",
+        "label": "slightly up",
+        "score": 1,
         "documents": [
           {
-            "title": "The SpaceX IPO is drawing historic demand from foreign investors. But don\u2019t expect a dollar-buying frenzy.",
+            "title": "Global oil prices end at 3-month low after Pakistan says a U.S.-Iran peace deal has been reached",
             "source": "www.marketwatch.com",
             "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 7,
+            "macro_score": 9,
             "macro_buckets": [
-              "growth",
-              "fx"
+              "inflation",
+              "energy"
             ],
             "scores": {
               "inflation": 0,
@@ -128,16 +134,17 @@
         "score": 0,
         "documents": [
           {
-            "title": "Australia\u2019s central bank to pause on June 16; a minority still see Q3 rate hike: Reuters poll",
+            "title": "Brazil\u2019s inflation accelerates in May, tops target range ahead of rate decision",
             "source": "www.investing.com",
             "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "summary_label": "inflation-up",
+            "macro_score": 4,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": 1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -147,19 +154,18 @@
         ]
       },
       {
-        "name": "liquidity",
+        "name": "rates",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "World Bank cuts global growth outlook to 2.5%, warns of drop to 1.3% if war fallout spreads to markets",
+            "title": "Brazil sovereign yields show mixed moves in Friday trading",
             "source": "www.investing.com",
-            "confidence": "medium",
+            "confidence": "low",
             "summary_label": "neutral-mixed",
-            "macro_score": 6,
+            "macro_score": 4,
             "macro_buckets": [
-              "growth",
-              "liquidity"
+              "rates"
             ],
             "scores": {
               "inflation": 0,

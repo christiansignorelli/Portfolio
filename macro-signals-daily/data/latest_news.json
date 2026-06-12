@@ -1,43 +1,43 @@
 [
   {
-    "id": "www.marketwatch.com-2026-06-11T21-59-00+00-00-2",
+    "id": "www.marketwatch.com-2026-06-12T19-39-00+00-00-10",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-11T21:59:00+00:00",
-    "title": "The SpaceX IPO is drawing historic demand from foreign investors. But don\u2019t expect a dollar-buying frenzy.",
-    "body": "Foreign investors are willing to bet on U.S. companies that are IPO-bound, but not on the dollar itself, according to FX analysts",
-    "url": "https://www.marketwatch.com/story/the-spacex-ipo-is-drawing-historic-demand-from-foreign-investors-but-dont-expect-a-dollar-buying-frenzy-ce66b056?mod=mw_rss_topstories",
-    "macro_score": 7,
+    "published_at": "2026-06-12T19:39:00+00:00",
+    "title": "Global oil prices end at 3-month low after Pakistan says a U.S.-Iran peace deal has been reached",
+    "body": "Brent crude on Friday settled at its lowest level since the early days of the U.S.-Iran conflict. after Pakistan said a peace deal between the nations had been reached.",
+    "url": "https://www.marketwatch.com/story/oil-prices-extend-declines-on-possible-u-s-iran-peace-deal-to-reopen-strait-of-hormuz-6d2822bd?mod=mw_rss_topstories",
+    "macro_score": 9,
     "macro_buckets": [
-      "growth",
-      "fx"
+      "inflation",
+      "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-06-11T22-56-27+00-00-6",
+    "id": "www.investing.com-2026-06-12T22-44-34+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-11T22:56:27+00:00",
-    "title": "Australia\u2019s central bank to pause on June 16; a minority still see Q3 rate hike: Reuters poll",
+    "published_at": "2026-06-12T22:44:34+00:00",
+    "title": "Brazil\u2019s inflation accelerates in May, tops target range ahead of rate decision",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/australias-central-bank-to-pause-on-june-16-a-minority-still-see-q3-rate-hike-4738306",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/brazils-inflation-accelerates-in-may-tops-target-range-ahead-of-rate-decision-4739766",
+    "macro_score": 4,
     "macro_buckets": [
-      "policy"
+      "policy",
+      "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-06-11T22-56-27+00-00-9",
+    "id": "www.investing.com-2026-06-12T22-44-34+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-11T22:56:27+00:00",
-    "title": "World Bank cuts global growth outlook to 2.5%, warns of drop to 1.3% if war fallout spreads to markets",
+    "published_at": "2026-06-12T22:44:34+00:00",
+    "title": "Brazil sovereign yields show mixed moves in Friday trading",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/world-bank-cuts-global-growth-outlook-to-25-warns-of-drop-to-13-if-war-fallout-spreads-to-markets-4737623",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/brazil-sovereign-yields-show-mixed-moves-in-friday-trading-93CH-4740218",
+    "macro_score": 4,
     "macro_buckets": [
-      "growth",
-      "liquidity"
+      "rates"
     ]
   }
 ]
