@@ -1,43 +1,28 @@
 [
   {
-    "id": "www.marketwatch.com-2026-06-12T19-39-00+00-00-10",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-12T19:39:00+00:00",
-    "title": "Global oil prices end at 3-month low after Pakistan says a U.S.-Iran peace deal has been reached",
-    "body": "Brent crude on Friday settled at its lowest level since the early days of the U.S.-Iran conflict. after Pakistan said a peace deal between the nations had been reached.",
-    "url": "https://www.marketwatch.com/story/oil-prices-extend-declines-on-possible-u-s-iran-peace-deal-to-reopen-strait-of-hormuz-6d2822bd?mod=mw_rss_topstories",
-    "macro_score": 9,
+    "id": "www.investing.com-2026-06-13T22-16-51+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-13T22:16:51+00:00",
+    "title": "Why an Iran deal might not be dovish for  the Fed",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/why-an-iran-deal-might-not-be-dovish-for--the-fed-4741030",
+    "macro_score": 5,
     "macro_buckets": [
-      "inflation",
-      "energy"
+      "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-06-12T22-44-34+00-00-6",
+    "id": "www.investing.com-2026-06-13T22-16-51+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-12T22:44:34+00:00",
-    "title": "Brazil\u2019s inflation accelerates in May, tops target range ahead of rate decision",
+    "published_at": "2026-06-13T22:16:51+00:00",
+    "title": "What if AI really does disrupt 50% of all entry-level white-collar jobs?",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/brazils-inflation-accelerates-in-may-tops-target-range-ahead-of-rate-decision-4739766",
+    "url": "https://www.investing.com/news/economy-news/what-if-ai-really-does-disrupt-50-of-all-entrylevel-whitecollar-jobs-4741043",
     "macro_score": 4,
     "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-12T22-44-34+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-12T22:44:34+00:00",
-    "title": "Brazil sovereign yields show mixed moves in Friday trading",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/brazil-sovereign-yields-show-mixed-moves-in-friday-trading-93CH-4740218",
-    "macro_score": 4,
-    "macro_buckets": [
-      "rates"
+      "labor"
     ]
   }
 ]

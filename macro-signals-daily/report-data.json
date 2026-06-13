@@ -1,19 +1,18 @@
 [
   {
-    "date": "2026-06-12",
-    "daily_brief": "2026-06-12: inflation slightly up, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: inflation pressure.",
+    "date": "2026-06-13",
+    "daily_brief": "2026-06-13: inflation neutral, growth neutral, policy mildly dovish, liquidity neutral, risk neutral. Top theme: policy.",
+    "macro_read": "Macro read: easing policy tone.",
     "market_confirmation": "Market check: price action is diverging from today's narrative.",
     "market_checks": [
       {
-        "label": "inflation pressure",
-        "expected": "expects oil stronger and bonds weaker",
+        "label": "easing policy",
+        "expected": "expects bonds stronger and dollar flat to weaker",
         "confirmed": false
       }
     ],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
@@ -61,92 +60,23 @@
     ],
     "bucket_views": [
       {
-        "name": "inflation",
-        "label": "slightly up",
-        "score": 1,
-        "documents": [
-          {
-            "title": "Global oil prices end at 3-month low after Pakistan says a U.S.-Iran peace deal has been reached",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 9,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Brazil\u2019s inflation accelerates in May, tops target range ahead of rate decision",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "summary_label": "inflation-up",
-            "macro_score": 4,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "energy",
-        "label": "slightly up",
-        "score": 1,
-        "documents": [
-          {
-            "title": "Global oil prices end at 3-month low after Pakistan says a U.S.-Iran peace deal has been reached",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 9,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
         "name": "policy",
-        "label": "neutral",
-        "score": 0,
+        "label": "mildly dovish",
+        "score": -1,
         "documents": [
           {
-            "title": "Brazil\u2019s inflation accelerates in May, tops target range ahead of rate decision",
+            "title": "Why an Iran deal might not be dovish for  the Fed",
             "source": "www.investing.com",
             "confidence": "medium",
-            "summary_label": "inflation-up",
-            "macro_score": 4,
+            "summary_label": "policy-down",
+            "macro_score": 5,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "policy"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": 0,
               "growth": 0,
-              "policy": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }
@@ -154,18 +84,18 @@
         ]
       },
       {
-        "name": "rates",
+        "name": "labor",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "Brazil sovereign yields show mixed moves in Friday trading",
+            "title": "What if AI really does disrupt 50% of all entry-level white-collar jobs?",
             "source": "www.investing.com",
             "confidence": "low",
             "summary_label": "neutral-mixed",
             "macro_score": 4,
             "macro_buckets": [
-              "rates"
+              "labor"
             ],
             "scores": {
               "inflation": 0,
