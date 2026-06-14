@@ -1,18 +1,12 @@
 [
   {
-    "date": "2026-06-13",
-    "daily_brief": "2026-06-13: inflation neutral, growth neutral, policy mildly dovish, liquidity neutral, risk neutral. Top theme: policy.",
-    "macro_read": "Macro read: easing policy tone.",
-    "market_confirmation": "Market check: price action is diverging from today's narrative.",
-    "market_checks": [
-      {
-        "label": "easing policy",
-        "expected": "expects bonds stronger and dollar flat to weaker",
-        "confirmed": false
-      }
-    ],
+    "date": "2026-06-14",
+    "daily_brief": "2026-06-14: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: policy.",
+    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around policy, inflation, growth, but not enough alignment to support a confident macro view.",
+    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+    "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
@@ -61,14 +55,14 @@
     "bucket_views": [
       {
         "name": "policy",
-        "label": "mildly dovish",
-        "score": -1,
+        "label": "neutral",
+        "score": 0,
         "documents": [
           {
-            "title": "Why an Iran deal might not be dovish for  the Fed",
-            "source": "www.investing.com",
+            "title": "SpaceX shows investors still want moonshots. The Fed may test that theory this week.",
+            "source": "www.marketwatch.com",
             "confidence": "medium",
-            "summary_label": "policy-down",
+            "summary_label": "neutral-mixed",
             "macro_score": 5,
             "macro_buckets": [
               "policy"
@@ -76,7 +70,24 @@
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": -1,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "title": "Will the real Kevin Warsh please stand up? Ahead of his first Fed meeting, economists honestly don\u2019t know what to expect.",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 4,
+            "macro_buckets": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
@@ -84,18 +95,44 @@
         ]
       },
       {
-        "name": "labor",
+        "name": "inflation",
         "label": "neutral",
         "score": 0,
         "documents": [
           {
-            "title": "What if AI really does disrupt 50% of all entry-level white-collar jobs?",
-            "source": "www.investing.com",
-            "confidence": "low",
+            "title": "Stock futures soar, oil prices fall as Trump says U.S. has reached peace deal with Iran",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
             "summary_label": "neutral-mixed",
-            "macro_score": 4,
+            "macro_score": 9,
             "macro_buckets": [
-              "labor"
+              "inflation",
+              "energy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "neutral",
+        "score": 0,
+        "documents": [
+          {
+            "title": "Stock futures soar, oil prices fall as Trump says U.S. has reached peace deal with Iran",
+            "source": "www.marketwatch.com",
+            "confidence": "medium",
+            "summary_label": "neutral-mixed",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "energy"
             ],
             "scores": {
               "inflation": 0,
