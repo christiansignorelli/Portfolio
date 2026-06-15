@@ -1,12 +1,12 @@
 [
   {
-    "id": "www.marketwatch.com-2026-06-14T22-18-00+00-00-1",
+    "id": "www.marketwatch.com-2026-06-15T22-31-00+00-00-2",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-14T22:18:00+00:00",
-    "title": "Stock futures soar, oil prices fall as Trump says U.S. has reached peace deal with Iran",
-    "body": "Oil prices fell and U.S. stock-index futures jumped Sunday after President Donald Trump said the U.S. has agreed to a peace deal with Iran, apparently ending months of hostilities that shut the Strait of Hormuz and sent the global economy into an oil shock.",
-    "url": "https://www.marketwatch.com/story/trump-says-u-s-had-reached-peace-deal-with-iran-57a93e56?mod=mw_rss_topstories",
+    "published_at": "2026-06-15T22:31:00+00:00",
+    "title": "Here\u2019s when gas prices will come down if the U.S. deal to end the Iran war pans out",
+    "body": "The average retail gasoline price was just above the psychologically significant $4-per-gallon mark on Monday.",
+    "url": "https://www.marketwatch.com/story/heres-when-gas-prices-will-go-down-now-that-theres-a-deal-to-end-the-iran-war-6a482f4d?mod=mw_rss_topstories",
     "macro_score": 9,
     "macro_buckets": [
       "inflation",
@@ -14,29 +14,29 @@
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-06-14T13-00-00+00-00-7",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-14T13:00:00+00:00",
-    "title": "SpaceX shows investors still want moonshots. The Fed may test that theory this week.",
-    "body": "Higher interest rates could make the AI growth story that\u2019s been powering the bull market harder to justify.",
-    "url": "https://www.marketwatch.com/story/spacex-shows-investors-still-want-moonshots-the-fed-may-test-that-theory-this-week-d7771f3a?mod=mw_rss_topstories",
+    "id": "www.investing.com-2026-06-15T23-07-30+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-15T23:07:30+00:00",
+    "title": "Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/wall-st-futures-advance-over-1-as-markets-cheer-iran-deal-4741392",
     "macro_score": 5,
     "macro_buckets": [
-      "policy"
+      "energy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-06-14T21-00-00+00-00-2",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-14T21:00:00+00:00",
-    "title": "Will the real Kevin Warsh please stand up? Ahead of his first Fed meeting, economists honestly don\u2019t know what to expect.",
-    "body": "Perhaps the only thing that can be said with certainty about Kevin Warsh\u2019s press conference following his first meeting as Federal Reserve chair this week is that he will have a captive audience.",
-    "url": "https://www.marketwatch.com/story/will-the-real-kevin-warsh-please-stand-up-ahead-of-his-first-fed-meeting-economists-honestly-dont-know-what-to-expect-6fa95c8c?mod=mw_rss_topstories",
+    "id": "www.investing.com-2026-06-15T23-07-30+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-15T23:07:30+00:00",
+    "title": "US Treasury yields drop to one-month low on Iran deal news",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-to-onemonth-low-on-iran-deal-news-93CH-4743020",
     "macro_score": 4,
     "macro_buckets": [
-      "policy"
+      "rates"
     ]
   }
 ]
