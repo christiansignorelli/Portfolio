@@ -191,8 +191,8 @@ def build_crosscheck_explainer(report: dict[str, object]) -> str:
     else:
         why_unavailable = (
             "<p class='subtle'>Available market proxies in this run: "
-            f"{escape(available_text)}. That was enough to compare the language signal against bonds, the dollar, "
-            "oil, equities, and credit behavior.</p>"
+            f"{escape(available_text)}. Market data is retained as context, while directional confirmation is "
+            "skipped because FinBERT measures financial tone rather than macro direction.</p>"
         )
 
     return """
@@ -200,15 +200,16 @@ def build_crosscheck_explainer(report: dict[str, object]) -> str:
       <div class="card">
         <div class="kicker">How Cross-Check Works</div>
         <p class="subtle">
-          The system first classifies the day's language into signals like hawkish policy,
-          cooling inflation, softening growth, or risk-off. It then asks whether a small
-          set of market proxies moved the way that narrative would normally suggest.
+          The system now uses FinBERT to classify financial sentiment in macro-related
+          coverage. Market proxies are shown as context, but they are not treated as
+          confirmation that inflation, growth, policy, liquidity, or risk moved in a
+          specific direction.
         </p>
         <ul class="mini-list">
-          <li>Hawkish policy: bonds weaker, dollar firmer.</li>
-          <li>Cooling inflation: bonds stronger.</li>
-          <li>Inflation pressure: oil up, bonds weaker.</li>
-          <li>Risk-off: equities and high-yield credit weaker.</li>
+          <li>FinBERT positive: positive financial sentiment.</li>
+          <li>FinBERT negative: negative financial sentiment.</li>
+          <li>FinBERT neutral: neutral financial sentiment.</li>
+          <li>Theme keywords identify the macro topics mentioned in each document.</li>
         </ul>
       </div>
       <div class="card">
@@ -224,7 +225,7 @@ def build_market_checks(report: dict[str, object]) -> str:
     if not checks:
         return (
             "<p class='subtle'>No directional market checks were run for this report. "
-            "That usually means the day's language signal was too neutral or mixed to test meaningfully.</p>"
+            "FinBERT sentiment describes financial tone, not whether macro variables are rising or falling.</p>"
         )
 
     items = []
@@ -273,10 +274,16 @@ def build_bucket_cards(bucket_views: list[dict[str, object]]) -> str:
             <li>
               <div class="headline">{title}</div>
               <div class="source">{source}</div>
+              <div class="source">FinBERT: {sentiment_label} ({sentiment_confidence}) | score {score}</div>
+              <div class="source">Themes: {themes}</div>
             </li>
             """.format(
                 title=escape(str(doc["title"])),
                 source=escape(str(doc["source"])),
+                sentiment_label=escape(str(doc["sentiment_label"])),
+                sentiment_confidence=escape(f"{float(doc['sentiment_confidence']):.3f}"),
+                score=escape(str(doc["scores"].get(str(bucket["name"]), bucket["score"]))),
+                themes=escape(", ".join(doc.get("themes", [])) or "none"),
             )
             for doc in bucket["documents"]
         )

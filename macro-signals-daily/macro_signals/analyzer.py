@@ -3,96 +3,10 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 from datetime import datetime
+from functools import lru_cache
 import json
 from pathlib import Path
 from typing import Any
-
-
-SIGNAL_LEXICON = {
-    "inflation": {
-        "positive": {
-            "inflation rises",
-            "inflation accelerates",
-            "sticky prices",
-            "hot cpi",
-            "price pressures",
-            "oil jumps",
-            "wage pressures",
-        },
-        "negative": {
-            "inflation cools",
-            "disinflation",
-            "prices eased",
-            "cooling inflation",
-            "softer prices",
-        },
-    },
-    "growth": {
-        "positive": {
-            "growth accelerates",
-            "consumer demand",
-            "strong demand",
-            "hiring picks up",
-            "expansion",
-            "resilient spending",
-        },
-        "negative": {
-            "growth slows",
-            "weaker growth",
-            "demand slows",
-            "retail spending softened",
-            "softer survey data",
-            "recession risk",
-            "labor market softens",
-        },
-    },
-    "policy": {
-        "positive": {
-            "restrictive",
-            "hawkish",
-            "rates may stay high",
-            "delay easing",
-            "cautious",
-        },
-        "negative": {
-            "dovish",
-            "easing",
-            "rate cuts",
-            "policy support",
-            "patience",
-        },
-    },
-    "liquidity": {
-        "positive": {
-            "funding stress",
-            "tight liquidity",
-            "credit stress",
-            "spreads widened",
-        },
-        "negative": {
-            "liquidity improved",
-            "stress fades",
-            "spreads narrowed",
-            "funding conditions improve",
-            "stabilized",
-        },
-    },
-    "risk": {
-        "positive": {
-            "risk concerns",
-            "markets turned cautious",
-            "geopolitical tensions",
-            "defensive positioning",
-            "supply disruption",
-        },
-        "negative": {
-            "risk appetite",
-            "optimism",
-            "stocks rally",
-            "sentiment improves",
-        },
-    },
-}
 
 
 THEME_KEYWORDS = {
@@ -114,6 +28,8 @@ class DocumentSignal:
     themes: list[str]
     scores: dict[str, int]
     confidence: str
+    sentiment_label: str
+    sentiment_confidence: float
     summary_label: str
     macro_score: int
     macro_buckets: list[str]
@@ -142,6 +58,10 @@ class MarketCheck:
     label: str
     expected: str
     confirmed: bool
+
+
+class FinBERTError(RuntimeError):
+    """Raised when FinBERT sentiment analysis cannot complete."""
 
 
 def load_documents(path: str | Path) -> list[dict[str, Any]]:
@@ -176,6 +96,18 @@ def normalize_text(document: dict[str, Any]) -> str:
     )
 
 
+def prepare_finbert_text(document: dict[str, Any]) -> str:
+    title = str(document.get("title", "")).strip()
+    body = str(document.get("body", "")).strip()
+    if not title and not body:
+        return ""
+    if not body:
+        return title
+    if not title:
+        return body[:1500]
+    return f"{title}. {body[:1500]}".strip()
+
+
 def extract_date(value: str) -> str:
     dt = datetime.fromisoformat(value)
     return dt.date().isoformat()
@@ -189,49 +121,115 @@ def detect_themes(text: str) -> list[str]:
     return themes or ["uncategorized"]
 
 
-def score_theme(text: str, theme: str) -> int:
-    if theme not in SIGNAL_LEXICON:
-        return 0
+@lru_cache(maxsize=1)
+def get_finbert_pipeline() -> Any:
+    try:
+        from transformers import pipeline
+        import torch  # noqa: F401
+        import safetensors  # noqa: F401
+    except ImportError as exc:
+        raise FinBERTError(
+            "Missing dependencies for FinBERT sentiment analysis. "
+            "Install transformers, torch, and safetensors."
+        ) from exc
 
-    score = 0
-    for phrase in SIGNAL_LEXICON[theme]["positive"]:
-        if phrase in text:
-            score += 1
-    for phrase in SIGNAL_LEXICON[theme]["negative"]:
-        if phrase in text:
-            score -= 1
-    return max(-2, min(2, score))
+    try:
+        return pipeline(
+            task="sentiment-analysis",
+            model="ProsusAI/finbert",
+            tokenizer="ProsusAI/finbert",
+            device=-1,
+        )
+    except OSError as exc:
+        raise FinBERTError(
+            "FinBERT model download failure. Confirm network access and that "
+            "ProsusAI/finbert is available from Hugging Face."
+        ) from exc
+    except Exception as exc:
+        raise FinBERTError(
+            "FinBERT model load failure. Confirm the installed transformers, "
+            "torch, and safetensors versions are compatible."
+        ) from exc
 
 
-def infer_confidence(themes: list[str], scores: dict[str, int]) -> str:
-    non_zero = sum(1 for value in scores.values() if value != 0)
-    if non_zero >= 3:
+def confidence_bucket(confidence: float) -> str:
+    if confidence >= 0.85:
         return "high"
-    if non_zero >= 1 or (themes and themes != ["uncategorized"]):
+    if confidence >= 0.65:
         return "medium"
     return "low"
 
 
-def build_summary_label(scores: dict[str, int]) -> str:
-    strongest = [
-        (theme, abs(score), score)
-        for theme, score in scores.items()
-        if score != 0
-    ]
-    if not strongest:
-        return "neutral-mixed"
+def sentiment_score_from_label(label: str, confidence: float) -> int:
+    normalized_label = label.lower()
+    if normalized_label == "positive":
+        return 2 if confidence >= 0.85 else 1
+    if normalized_label == "negative":
+        return -2 if confidence >= 0.85 else -1
+    if normalized_label == "neutral":
+        return 0
+    raise FinBERTError(
+        "Inference failure: FinBERT returned an unknown sentiment label "
+        f"{label!r}."
+    )
 
-    theme, _, score = max(strongest, key=lambda item: item[1])
-    direction = "up" if score > 0 else "down"
-    return f"{theme}-{direction}"
+
+def score_sentiment(text: str) -> tuple[int, str, float]:
+    if not isinstance(text, str) or not text.strip():
+        raise FinBERTError(
+            "Invalid input for FinBERT sentiment analysis: text must be a "
+            "non-empty string."
+        )
+
+    try:
+        result = get_finbert_pipeline()(
+            text,
+            truncation=True,
+            max_length=512,
+        )
+    except FinBERTError:
+        raise
+    except ValueError as exc:
+        raise FinBERTError(
+            "Invalid input for FinBERT sentiment analysis: the supplied text "
+            "could not be processed."
+        ) from exc
+    except Exception as exc:
+        raise FinBERTError(
+            "Inference failure: FinBERT could not score the supplied text."
+        ) from exc
+
+    prediction = result[0] if isinstance(result, list) and result else result
+    if not isinstance(prediction, dict):
+        raise FinBERTError(
+            "Inference failure: FinBERT returned an unexpected result format."
+        )
+
+    try:
+        label = str(prediction["label"]).lower()
+        confidence = float(prediction["score"])
+    except (KeyError, TypeError, ValueError) as exc:
+        raise FinBERTError(
+            "Inference failure: FinBERT returned a result without a usable "
+            "label and confidence."
+        ) from exc
+
+    return sentiment_score_from_label(label, confidence), label, confidence
+
+
+def build_summary_label(sentiment_label: str) -> str:
+    return f"{sentiment_label}-financial-sentiment"
 
 
 def analyze_document(document: dict[str, Any]) -> DocumentSignal:
-    text = normalize_text(document)
-    themes = detect_themes(text)
+    theme_text = normalize_text(document)
+    themes = detect_themes(theme_text)
+    sentiment_score, sentiment_label, sentiment_confidence = score_sentiment(
+        prepare_finbert_text(document)
+    )
     scores = {
-        theme: score_theme(text, theme)
-        for theme in SIGNAL_LEXICON
+        theme: sentiment_score if theme in themes else 0
+        for theme in THEME_KEYWORDS
     }
 
     return DocumentSignal(
@@ -242,8 +240,10 @@ def analyze_document(document: dict[str, Any]) -> DocumentSignal:
         title=document.get("title", ""),
         themes=themes,
         scores=scores,
-        confidence=infer_confidence(themes, scores),
-        summary_label=build_summary_label(scores),
+        confidence=confidence_bucket(sentiment_confidence),
+        sentiment_label=sentiment_label,
+        sentiment_confidence=sentiment_confidence,
+        summary_label=build_summary_label(sentiment_label),
         macro_score=int(document.get("macro_score", 0) or 0),
         macro_buckets=list(document.get("macro_buckets", []) or []),
     )
@@ -271,48 +271,12 @@ def aggregate_by_date(signals: list[DocumentSignal]) -> dict[str, dict[str, Any]
 
 
 def describe_score(theme: str, score: int) -> str:
-    if theme == "policy":
-        if score >= 2:
-            return "hawkish"
-        if score <= -2:
-            return "dovish"
-        if score > 0:
-            return "mildly hawkish"
-        if score < 0:
-            return "mildly dovish"
-        return "neutral"
-
-    if theme == "liquidity":
-        if score >= 2:
-            return "tightening"
-        if score <= -2:
-            return "improving"
-        if score > 0:
-            return "slightly tighter"
-        if score < 0:
-            return "slightly improving"
-        return "neutral"
-
-    if theme == "risk":
-        if score >= 2:
-            return "risk-off"
-        if score <= -2:
-            return "risk-on"
-        if score > 0:
-            return "slightly risk-off"
-        if score < 0:
-            return "slightly risk-on"
-        return "neutral"
-
-    if score >= 2:
-        return "rising"
-    if score <= -2:
-        return "falling"
+    _ = theme
     if score > 0:
-        return "slightly up"
+        return "positive financial sentiment"
     if score < 0:
-        return "slightly down"
-    return "neutral"
+        return "negative financial sentiment"
+    return "neutral financial sentiment"
 
 
 def describe_bucket(bucket: str, score: int) -> str:
@@ -365,32 +329,28 @@ def build_daily_brief(date: str, daily_data: dict[str, Any]) -> str:
 
 def build_day_conclusion(daily_data: dict[str, Any]) -> str:
     scores = daily_data["scores"]
-    signals: list[str] = []
+    positive_themes = [
+        theme
+        for theme, score in scores.items()
+        if score > 0 and daily_data["theme_counts"].get(theme, 0) > 0
+    ]
+    negative_themes = [
+        theme
+        for theme, score in scores.items()
+        if score < 0 and daily_data["theme_counts"].get(theme, 0) > 0
+    ]
+    sentiment_parts: list[str] = []
 
-    if scores["policy"] > 0:
-        signals.append("hawkish policy tone")
-    elif scores["policy"] < 0:
-        signals.append("easing policy tone")
-
-    if scores["inflation"] > 0:
-        signals.append("inflation pressure")
-    elif scores["inflation"] < 0:
-        signals.append("cooling inflation")
-
-    if scores["growth"] > 0:
-        signals.append("firmer growth tone")
-    elif scores["growth"] < 0:
-        signals.append("softening growth tone")
-
-    if scores["risk"] > 0:
-        signals.append("defensive risk backdrop")
-    elif scores["risk"] < 0:
-        signals.append("risk appetite improving")
-
-    if scores["liquidity"] > 0:
-        signals.append("tighter liquidity conditions")
-    elif scores["liquidity"] < 0:
-        signals.append("liquidity conditions improving")
+    if positive_themes:
+        sentiment_parts.append(
+            "positive financial sentiment around "
+            + ", ".join(positive_themes[:3])
+        )
+    if negative_themes:
+        sentiment_parts.append(
+            "negative financial sentiment around "
+            + ", ".join(negative_themes[:3])
+        )
 
     visible_themes = [
         theme
@@ -403,20 +363,21 @@ def build_day_conclusion(daily_data: dict[str, Any]) -> str:
             "Macro read: no qualifying macro headlines were available from the examined feeds."
         )
 
-    if not signals:
+    if not sentiment_parts:
         if visible_themes:
             theme_text = ", ".join(visible_themes[:3])
             return (
                 "Macro read: no strong daily signal. "
-                f"The examined feeds showed scattered or non-aligned language around {theme_text}, "
-                "but not enough alignment to support a confident macro view."
+                f"The examined feeds mentioned {theme_text}, but FinBERT read the "
+                "financial tone as neutral or mixed."
             )
         return (
             "Macro read: no strong daily signal. "
-            "The examined feeds did not provide enough aligned macro language to support a confident interpretation."
+            "The examined feeds did not provide enough macro language for a "
+            "sentiment interpretation."
         )
 
-    return f"Macro read: {', '.join(signals[:3])}."
+    return f"Macro read: {', '.join(sentiment_parts)}."
 
 
 def build_market_map(market_data: list[MarketSnapshot]) -> dict[str, MarketSnapshot]:
@@ -432,91 +393,9 @@ def summarize_market(snapshot: MarketSnapshot) -> str:
 def build_market_checks(
     daily_scores: dict[str, int], market_map: dict[str, MarketSnapshot]
 ) -> list[MarketCheck]:
-    checks: list[MarketCheck] = []
-
-    tlt = market_map.get("TLT")
-    spy = market_map.get("SPY")
-    uso = market_map.get("USO")
-    uup = market_map.get("UUP")
-    hyg = market_map.get("HYG")
-
-    if daily_scores["policy"] > 0:
-        if tlt and uup:
-            checks.append(
-                MarketCheck(
-                    label="hawkish policy",
-                    expected="expects bonds weaker and dollar firmer",
-                    confirmed=tlt.return_1d < 0 and uup.return_1d > 0,
-                )
-            )
-    elif daily_scores["policy"] < 0:
-        if tlt and uup:
-            checks.append(
-                MarketCheck(
-                    label="easing policy",
-                    expected="expects bonds stronger and dollar flat to weaker",
-                    confirmed=tlt.return_1d > 0 and uup.return_1d <= 0,
-                )
-            )
-
-    if daily_scores["inflation"] > 0:
-        if uso and tlt:
-            checks.append(
-                MarketCheck(
-                    label="inflation pressure",
-                    expected="expects oil stronger and bonds weaker",
-                    confirmed=uso.return_1d > 0 and tlt.return_1d < 0,
-                )
-            )
-    elif daily_scores["inflation"] < 0:
-        if tlt:
-            checks.append(
-                MarketCheck(
-                    label="cooling inflation",
-                    expected="expects bonds stronger",
-                    confirmed=tlt.return_1d > 0,
-                )
-            )
-
-    if daily_scores["growth"] < 0:
-        if tlt and spy:
-            checks.append(
-                MarketCheck(
-                    label="softening growth",
-                    expected="expects bonds stronger and equities softer",
-                    confirmed=tlt.return_1d > 0 and spy.return_1d <= 0,
-                )
-            )
-    elif daily_scores["growth"] > 0:
-        if spy and hyg:
-            checks.append(
-                MarketCheck(
-                    label="firmer growth",
-                    expected="expects equities and credit stronger",
-                    confirmed=spy.return_1d > 0 and hyg.return_1d >= 0,
-                )
-            )
-
-    if daily_scores["risk"] > 0:
-        if spy and hyg:
-            checks.append(
-                MarketCheck(
-                    label="risk-off",
-                    expected="expects equities and high-yield credit weaker",
-                    confirmed=spy.return_1d < 0 and hyg.return_1d < 0,
-                )
-            )
-    elif daily_scores["risk"] < 0:
-        if spy and hyg:
-            checks.append(
-                MarketCheck(
-                    label="risk-on",
-                    expected="expects equities and high-yield credit stronger",
-                    confirmed=spy.return_1d > 0 and hyg.return_1d >= 0,
-                )
-            )
-
-    return checks
+    _ = daily_scores
+    _ = market_map
+    return []
 
 
 def assess_market_confirmation(
@@ -532,7 +411,9 @@ def assess_market_confirmation(
 
     if not checks:
         return (
-            "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+            "Market check: market data is shown as context. Directional proxy "
+            "confirmation is not run because FinBERT measures financial tone, "
+            "not whether macro variables are rising or falling.",
             [],
         )
 
@@ -630,10 +511,14 @@ def format_debug_document(signal: DocumentSignal) -> str:
         if score != 0
     ) or "all=0"
     buckets = ", ".join(signal.macro_buckets) if signal.macro_buckets else "none"
+    themes = ", ".join(signal.themes) if signal.themes else "none"
     return (
         f"- {signal.title}\n"
-        f"  source={signal.source} | confidence={signal.confidence} | "
-        f"summary={signal.summary_label} | macro_score={signal.macro_score}\n"
+        f"  source={signal.source} | finbert_label={signal.sentiment_label} | "
+        f"finbert_confidence={signal.sentiment_confidence:.3f} | "
+        f"confidence={signal.confidence} | summary={signal.summary_label} | "
+        f"macro_score={signal.macro_score}\n"
+        f"  themes={themes}\n"
         f"  buckets={buckets}\n"
         f"  scores={scores}"
     )
@@ -687,9 +572,12 @@ def build_report_data(
                             "title": signal.title,
                             "source": signal.source,
                             "confidence": signal.confidence,
+                            "sentiment_label": signal.sentiment_label,
+                            "sentiment_confidence": signal.sentiment_confidence,
                             "summary_label": signal.summary_label,
                             "macro_score": signal.macro_score,
                             "macro_buckets": signal.macro_buckets,
+                            "themes": signal.themes,
                             "scores": signal.scores,
                         }
                         for signal in bucket_view.documents[:3]
@@ -702,9 +590,12 @@ def build_report_data(
                     "title": signal.title,
                     "source": signal.source,
                     "confidence": signal.confidence,
+                    "sentiment_label": signal.sentiment_label,
+                    "sentiment_confidence": signal.sentiment_confidence,
                     "summary_label": signal.summary_label,
                     "macro_score": signal.macro_score,
                     "macro_buckets": signal.macro_buckets,
+                    "themes": signal.themes,
                     "scores": signal.scores,
                 }
                 for signal in daily_data["documents"]
@@ -759,9 +650,16 @@ def render_report(
         for bucket_view in report["bucket_views"]:
             lines.append(f"{bucket_view['name'].upper()} | {bucket_view['label']}")
             for signal in bucket_view["documents"]:
-                extra = ""
+                themes = ", ".join(signal["themes"]) or "none"
+                score = pick_bucket_score(str(bucket_view["name"]), signal["scores"])
+                extra = (
+                    f" | FinBERT={signal['sentiment_label']} "
+                    f"({float(signal['sentiment_confidence']):.3f})"
+                    f" | score={score}"
+                    f" | themes={themes}"
+                )
                 if signal["macro_score"] and debug:
-                    extra = f" | macro_score={signal['macro_score']}"
+                    extra += f" | macro_score={signal['macro_score']}"
                 lines.append(f"- {signal['title']}{extra}")
             lines.append("")
 
@@ -774,9 +672,11 @@ def render_report(
                     source=signal["source"],
                     feed_url="",
                     title=signal["title"],
-                    themes=[],
+                    themes=signal["themes"],
                     scores=signal["scores"],
                     confidence=signal["confidence"],
+                    sentiment_label=signal["sentiment_label"],
+                    sentiment_confidence=signal["sentiment_confidence"],
                     summary_label=signal["summary_label"],
                     macro_score=signal["macro_score"],
                     macro_buckets=signal["macro_buckets"],
