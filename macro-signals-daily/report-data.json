@@ -63,7 +63,7 @@
             "source": "www.investing.com",
             "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8430132865905762,
+            "sentiment_confidence": 0.8430134057998657,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
@@ -93,7 +93,7 @@
             "source": "www.investing.com",
             "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8430132865905762,
+            "sentiment_confidence": 0.8430134057998657,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
