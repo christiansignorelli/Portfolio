@@ -1,42 +1,16 @@
 [
   {
-    "id": "www.marketwatch.com-2026-06-15T22-31-00+00-00-2",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-15T22:31:00+00:00",
-    "title": "Here\u2019s when gas prices will come down if the U.S. deal to end the Iran war pans out",
-    "body": "The average retail gasoline price was just above the psychologically significant $4-per-gallon mark on Monday.",
-    "url": "https://www.marketwatch.com/story/heres-when-gas-prices-will-go-down-now-that-theres-a-deal-to-end-the-iran-war-6a482f4d?mod=mw_rss_topstories",
-    "macro_score": 9,
-    "macro_buckets": [
-      "inflation",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-15T23-07-30+00-00-3",
+    "id": "www.investing.com-2026-06-16T22-10-48+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-15T23:07:30+00:00",
-    "title": "Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide",
+    "published_at": "2026-06-16T22:10:48+00:00",
+    "title": "Dollar slips as markets wait on Warsh\u2019s Fed debut",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/wall-st-futures-advance-over-1-as-markets-cheer-iran-deal-4741392",
-    "macro_score": 5,
+    "url": "https://www.investing.com/news/economy-news/dollar-sways-near-10day-lows-as-attention-turns-to-boj-and-rba-4743690",
+    "macro_score": 6,
     "macro_buckets": [
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-15T23-07-30+00-00-5",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-15T23:07:30+00:00",
-    "title": "US Treasury yields drop to one-month low on Iran deal news",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-to-onemonth-low-on-iran-deal-news-93CH-4743020",
-    "macro_score": 4,
-    "macro_buckets": [
-      "rates"
+      "policy",
+      "fx"
     ]
   }
 ]

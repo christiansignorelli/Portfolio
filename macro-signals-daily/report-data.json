@@ -1,95 +1,82 @@
 [
   {
-    "date": "2026-06-15",
-    "daily_brief": "2026-06-15: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.",
-    "macro_read": "Macro read: no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, but not enough alignment to support a confident macro view.",
-    "market_confirmation": "Market check: no clear macro narrative was strong enough to test against market proxies today.",
+    "date": "2026-06-16",
+    "daily_brief": "2026-06-16: inflation neutral financial sentiment, growth neutral financial sentiment, policy negative financial sentiment, liquidity neutral financial sentiment, risk neutral financial sentiment. Top theme: policy.",
+    "macro_read": "Macro read: negative financial sentiment around policy.",
+    "market_confirmation": "Market check: market data is shown as context. Directional proxy confirmation is not run because FinBERT measures financial tone, not whether macro variables are rising or falling.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 1.76,
-        "return_5d": 2.11,
-        "close": 754.8300170898438
+        "return_1d": -0.6,
+        "return_5d": 1.8,
+        "close": 750.3300170898438
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.06,
-        "return_5d": 1.3,
-        "close": 85.72000122070312
+        "return_1d": 0.55,
+        "return_5d": 1.26,
+        "close": 86.19000244140625
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.07,
-        "return_5d": -0.21,
-        "close": 27.969999313354492
+        "return_1d": -0.14,
+        "return_5d": -0.29,
+        "close": 27.93000030517578
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -3.36,
-        "return_5d": -10.31,
-        "close": 121.20999908447266
+        "return_1d": -4.74,
+        "return_5d": -12.06,
+        "close": 115.47000122070312
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.13,
-        "return_5d": 0.63,
-        "close": 80.04000091552734
+        "return_1d": -0.01,
+        "return_5d": 0.51,
+        "close": 80.02999877929688
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 2.59,
-        "return_5d": -0.18,
-        "close": 396.54998779296875
+        "return_1d": 0.27,
+        "return_5d": 1.75,
+        "close": 397.6300048828125
       }
     ],
     "bucket_views": [
       {
-        "name": "energy",
-        "label": "neutral",
-        "score": 0,
+        "name": "policy",
+        "label": "negative financial sentiment",
+        "score": -1,
         "documents": [
           {
-            "title": "Here\u2019s when gas prices will come down if the U.S. deal to end the Iran war pans out",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 9,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide",
+            "title": "Dollar slips as markets wait on Warsh\u2019s Fed debut",
             "source": "www.investing.com",
             "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 5,
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8430132865905762,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
-              "energy"
+              "policy",
+              "fx"
+            ],
+            "themes": [
+              "policy"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }
@@ -97,48 +84,29 @@
         ]
       },
       {
-        "name": "inflation",
-        "label": "neutral",
+        "name": "fx",
+        "label": "neutral financial sentiment",
         "score": 0,
         "documents": [
           {
-            "title": "Here\u2019s when gas prices will come down if the U.S. deal to end the Iran war pans out",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "summary_label": "neutral-mixed",
-            "macro_score": 9,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "neutral",
-        "score": 0,
-        "documents": [
-          {
-            "title": "US Treasury yields drop to one-month low on Iran deal news",
+            "title": "Dollar slips as markets wait on Warsh\u2019s Fed debut",
             "source": "www.investing.com",
-            "confidence": "low",
-            "summary_label": "neutral-mixed",
-            "macro_score": 4,
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8430132865905762,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
-              "rates"
+              "policy",
+              "fx"
+            ],
+            "themes": [
+              "policy"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }

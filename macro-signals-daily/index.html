@@ -16,12 +16,12 @@
         <div class="meta-row">
           <div class="card">
             <div class="kicker">Latest Date</div>
-            <div class="value">2026-06-15</div>
+            <div class="value">2026-06-16</div>
             <div class="subtle">Auto-generated end-of-day report</div>
           </div>
           <div class="card">
             <div class="kicker">Last Build</div>
-            <div class="value">2026-06-15 23:07 UTC</div>
+            <div class="value">2026-06-16 22:10 UTC</div>
             <div class="subtle">Published via GitHub Pages</div>
           </div>
           <div class="card">
@@ -33,22 +33,22 @@
       </section>
 
       
-    <section class="section" id="report-2026-06-15">
+    <section class="section" id="report-2026-06-16">
       <div class="card">
         <div class="kicker">Latest Report</div>
-        <h2>2026-06-15</h2>
-        <p>2026-06-15: inflation neutral, growth neutral, policy neutral, liquidity neutral, risk neutral. Top theme: inflation.</p>
+        <h2>2026-06-16</h2>
+        <p>2026-06-16: inflation neutral financial sentiment, growth neutral financial sentiment, policy negative financial sentiment, liquidity neutral financial sentiment, risk neutral financial sentiment. Top theme: policy.</p>
       </div>
 
       <div class="signal-grid">
         <div class="card">
           <div class="kicker">Macro Read</div>
-          <div class="value">no strong daily signal. The examined feeds showed scattered or non-aligned language around inflation, but not enough alignment to support a confident macro view.</div>
+          <div class="value">negative financial sentiment around policy.</div>
           <div class="subtle">Language-derived daily interpretation</div>
         </div>
         <div class="card">
           <div class="kicker">Market Check</div>
-          <div class="value">Market check: no clear macro narrative was strong enough to test against market proxies today.</div>
+          <div class="value">Market check: market data is shown as context. Directional proxy confirmation is not run because FinBERT measures financial tone, not whether macro variables are rising or falling.</div>
           <div class="subtle">Compares the language signal with bonds, the dollar, oil, equities, and credit proxies</div>
         </div>
       </div>
@@ -58,44 +58,44 @@
         <div class="market-grid">
             <div class="market-card">
               <div class="kicker">SPY</div>
-              <div class="value">+1.76%</div>
+              <div class="value">-0.60%</div>
               <div class="subtle">US equities</div>
-              <div class="subtle">5d +2.11%</div>
+              <div class="subtle">5d +1.80%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">TLT</div>
-              <div class="value">-0.06%</div>
+              <div class="value">+0.55%</div>
               <div class="subtle">Long-duration Treasuries</div>
-              <div class="subtle">5d +1.30%</div>
+              <div class="subtle">5d +1.26%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">UUP</div>
-              <div class="value">+0.07%</div>
+              <div class="value">-0.14%</div>
               <div class="subtle">US dollar proxy</div>
-              <div class="subtle">5d -0.21%</div>
+              <div class="subtle">5d -0.29%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">USO</div>
-              <div class="value">-3.36%</div>
+              <div class="value">-4.74%</div>
               <div class="subtle">Oil proxy</div>
-              <div class="subtle">5d -10.31%</div>
+              <div class="subtle">5d -12.06%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">HYG</div>
-              <div class="value">+0.13%</div>
+              <div class="value">-0.01%</div>
               <div class="subtle">High yield credit</div>
-              <div class="subtle">5d +0.63%</div>
+              <div class="subtle">5d +0.51%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">GLD</div>
-              <div class="value">+2.59%</div>
+              <div class="value">+0.27%</div>
               <div class="subtle">Gold</div>
-              <div class="subtle">5d -0.18%</div>
+              <div class="subtle">5d +1.75%</div>
             </div>
             </div>
       </div>
@@ -107,24 +107,25 @@
       <div class="card">
         <div class="kicker">How Cross-Check Works</div>
         <p class="subtle">
-          The system first classifies the day's language into signals like hawkish policy,
-          cooling inflation, softening growth, or risk-off. It then asks whether a small
-          set of market proxies moved the way that narrative would normally suggest.
+          The system now uses FinBERT to classify financial sentiment in macro-related
+          coverage. Market proxies are shown as context, but they are not treated as
+          confirmation that inflation, growth, policy, liquidity, or risk moved in a
+          specific direction.
         </p>
         <ul class="mini-list">
-          <li>Hawkish policy: bonds weaker, dollar firmer.</li>
-          <li>Cooling inflation: bonds stronger.</li>
-          <li>Inflation pressure: oil up, bonds weaker.</li>
-          <li>Risk-off: equities and high-yield credit weaker.</li>
+          <li>FinBERT positive: positive financial sentiment.</li>
+          <li>FinBERT negative: negative financial sentiment.</li>
+          <li>FinBERT neutral: neutral financial sentiment.</li>
+          <li>Theme keywords identify the macro topics mentioned in each document.</li>
         </ul>
       </div>
       <div class="card">
         <div class="kicker">Availability</div>
-        <p class='subtle'>Available market proxies in this run: SPY, TLT, UUP, USO, HYG, GLD. Market data was available, but today's language signal was too neutral or mixed to produce a meaningful confirmation test.</p>
+        <p class='subtle'>Available market proxies in this run: SPY, TLT, UUP, USO, HYG, GLD. Market data is retained as context, while directional confirmation is skipped because FinBERT measures financial tone rather than macro direction.</p>
       </div>
     </div>
     
-        <p class='subtle'>No directional market checks were run for this report. That usually means the day's language signal was too neutral or mixed to test meaningfully.</p>
+        <p class='subtle'>No directional market checks were run for this report. FinBERT sentiment describes financial tone, not whether macro variables are rising or falling.</p>
       </div>
 
       <div class="section">
@@ -137,36 +138,25 @@
         <h2>Signal Buckets</h2>
         <div class="bucket-grid">
             <article class="bucket-card">
-              <div class="status">ENERGY | neutral</div>
+              <div class="status">POLICY | negative financial sentiment</div>
               <ul>
             <li>
-              <div class="headline">Here’s when gas prices will come down if the U.S. deal to end the Iran war pans out</div>
-              <div class="source">www.marketwatch.com</div>
-            </li>
-            
-            <li>
-              <div class="headline">Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide</div>
+              <div class="headline">Dollar slips as markets wait on Warsh’s Fed debut</div>
               <div class="source">www.investing.com</div>
+              <div class="source">FinBERT: negative (0.843) | score -1</div>
+              <div class="source">Themes: policy</div>
             </li>
             </ul>
             </article>
             
             <article class="bucket-card">
-              <div class="status">INFLATION | neutral</div>
+              <div class="status">FX | neutral financial sentiment</div>
               <ul>
             <li>
-              <div class="headline">Here’s when gas prices will come down if the U.S. deal to end the Iran war pans out</div>
-              <div class="source">www.marketwatch.com</div>
-            </li>
-            </ul>
-            </article>
-            
-            <article class="bucket-card">
-              <div class="status">RATES | neutral</div>
-              <ul>
-            <li>
-              <div class="headline">US Treasury yields drop to one-month low on Iran deal news</div>
+              <div class="headline">Dollar slips as markets wait on Warsh’s Fed debut</div>
               <div class="source">www.investing.com</div>
+              <div class="source">FinBERT: negative (0.843) | score 0</div>
+              <div class="source">Themes: policy</div>
             </li>
             </ul>
             </article>
