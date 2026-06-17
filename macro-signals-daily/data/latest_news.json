@@ -1,16 +1,124 @@
 [
   {
-    "id": "www.investing.com-2026-06-16T22-58-13+00-00-8",
+    "id": "www.marketwatch.com-2026-06-17T21-38-00+00-00-5",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-06-17T21:38:00+00:00",
+    "title": "The Fed just threw investors a curveball. Here\u2019s how stocks, bonds, gold and the dollar reacted.",
+    "body": "In his first press conference as Fed chair, Kevin Warsh took a surprisingly aggressive stance on interest rates and inflation.",
+    "url": "https://www.marketwatch.com/story/the-fed-threw-investors-a-curve-ball-on-wednesday-heres-how-stocks-bonds-gold-and-the-dollar-reacted-d0e1e3c0?mod=mw_rss_topstories",
+    "macro_score": 14,
+    "macro_buckets": [
+      "policy",
+      "rates",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-17T22-52-49+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-16T22:58:13+00:00",
-    "title": "Dollar slips as markets wait on Warsh\u2019s Fed debut",
+    "published_at": "2026-06-17T22:52:49+00:00",
+    "title": "Stocks drop, bond yields rise; Fed keeps rates steady but projects hike for later this year",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-sways-near-10day-lows-as-attention-turns-to-boj-and-rba-4743690",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/oil-slides-on-iran-supply-prospects-as-traders-wait-on-warsh-4746343",
+    "macro_score": 10,
+    "macro_buckets": [
+      "policy",
+      "rates"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-06-17T22-44-00+00-00-2",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-06-17T22:44:00+00:00",
+    "title": "Kevin Warsh launches his push to change how the Fed operates",
+    "body": "The new Federal Reserve chair rolls out five task forces that will focus on the central bank\u2019s communications, inflation frameworks and more",
+    "url": "https://www.marketwatch.com/story/warsh-launches-his-push-to-change-how-the-fed-operates-3ddd9b90?mod=mw_rss_topstories",
+    "macro_score": 8,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-17T22-52-49+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-17T22:52:49+00:00",
+    "title": "Trading Day: US stocks end lower, dollar jumps as Federal Reserve kicks off Warsh era",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/trading-day-us-stocks-end-lower-dollar-jumps-as-federal-reserve-kicks-off-warsh-era-4748464",
+    "macro_score": 7,
     "macro_buckets": [
       "policy",
       "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-17T22-52-49+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-17T22:52:49+00:00",
+    "title": "Brazil central bank cuts rates at third straight meeting",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/brazil-central-bank-cuts-rates-for-third-straight-meeting-by-25-bps-4748642",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-17T22-52-49+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-17T22:52:49+00:00",
+    "title": "BOJ deputy\u2019s brief moment at the helm reveals deeper inflation anxiety",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/analysisboj-deputys-brief-moment-at-the-helm-reveals-deeper-inflation-anxiety-4746600",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-17T22-52-49+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-17T22:52:49+00:00",
+    "title": "Warsh Fed holds rates steady. Trump says \u2019It\u2019s all right. Whatever.\u2019",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/warsh-fed-holds-rates-steady-trump-says-its-all-right-whatever-4748596",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-17T22-52-49+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-17T22:52:49+00:00",
+    "title": "Warsh kicks off Fed chief tenure with sweeping review as rates remain unchanged",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/fed-begins-warsh-era-by-keeping-rates-on-hold-sees-hike-later-this-year-4748033",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-17T22-52-49+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-17T22:52:49+00:00",
+    "title": "Wall Street sinks on bets Fed will hike rates this year",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/sp-nasdaq-futures-inch-up-ahead-of-warshs-debut-4746844",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
     ]
   }
 ]
