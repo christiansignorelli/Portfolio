@@ -1,4 +1,4 @@
-# Macro Signals Daily
+# Macro Signals Daily (In progress)
 
 Macro Signals Daily is a lightweight end-of-day macro market wrap-up. It reads public financial RSS feeds, filters for macro-relevant headlines, scores each qualifying document with FinBERT financial sentiment, pulls free market proxy data, and publishes a static HTML brief through GitHub Pages.
 
