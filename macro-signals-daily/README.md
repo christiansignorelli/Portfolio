@@ -10,14 +10,14 @@ Live demo:
 
 ## Why This Exists
 
-This project explores how far a practical macro-monitoring workflow can go without depending on an always-on LLM API. The goal is a low-cost, explainable daily research product built from public data and repeatable rules.
+This project explores how far a practical macro-monitoring workflow can go without an always-on LLM API. The goal is a low-cost, explainable daily research product built from public data and repeatable rules.
 
 It is meant to demonstrate:
 
 - automated public-data collection
 - transparent macro theme detection
 - FinBERT-based financial sentiment scoring
-- market proxy context
+- a simple news-versus-market confirmation framework
 - scheduled publishing with GitHub Actions
 - a realistic, portfolio-ready research workflow
 
@@ -27,16 +27,72 @@ It is meant to demonstrate:
 - Filters out lower-signal market noise
 - Detects themes like policy, inflation, growth, liquidity, rates, energy, FX, and risk
 - Scores each document as positive, negative, or neutral financial sentiment using `ProsusAI/finbert`
+- Aggregates the day into a single news sentiment score using unique documents only
 - Pulls market proxy data from Yahoo Finance
-- Shows market moves as context
+- Classifies the day as `risk_on`, `risk_off`, or `mixed` from a weighted proxy basket
+- Compares aggregated news tone with the market response
 - Generates `index.html`, `styles.css`, and `report-data.json`
-- Publishes a daily static report through GitHub Pages
 
-## Important Interpretation Note
+## Methodology
 
-FinBERT measures financial tone. It does not directly say whether inflation, rates, growth, liquidity, or risk are rising or falling.
+FinBERT measures financial tone. It does not directly tell us whether inflation, rates, liquidity, or growth are rising or falling.
 
-Because of that, the current design shows market proxy data as context, but does not treat market moves as directional confirmation of FinBERT sentiment. This avoids presenting a false precision signal.
+Because of that, the project does not compare sentiment directly with any single macro variable. Instead, it compares the aggregated tone of the news with a basket of risk-on and risk-off market proxies.
+
+### News Sentiment
+
+- Each analyzed document keeps its model label: `positive`, `neutral`, or `negative`
+- For the daily aggregate, labels are converted to `+1`, `0`, and `-1`
+- The project deduplicates documents before aggregation so the same headline is not counted twice
+- The daily score becomes:
+  - `positive` when the average is at least `+0.20`
+  - `negative` when the average is at most `-0.20`
+  - `neutral` otherwise
+- If fewer than 3 unique documents are available, the daily label becomes `insufficient_data`
+
+### Market Confirmation
+
+The confirmation framework compares the aggregated news tone with a weighted market basket:
+
+- `SPY` and `HYG` are the main signals
+- `TLT` and `GLD` are secondary defensive signals
+- `UUP` and `USO` are shown as context only
+
+The market regime is based on daily moves, not five-day moves.
+
+Initial weights:
+
+- `SPY`: 0.40
+- `HYG`: 0.35
+- `TLT`: 0.15
+- `GLD`: 0.10
+
+Interpretation:
+
+- Rising `SPY` or `HYG` supports `risk_on`
+- Falling `SPY` or `HYG` supports `risk_off`
+- Rising `TLT` or `GLD` leans defensive and therefore toward `risk_off`
+- Falling `TLT` or `GLD` leans toward `risk_on`
+
+Small daily moves inside `+/- 0.20%` are treated as neutral noise.
+
+### Confirmation Status
+
+The report then compares both sides:
+
+- `confirmed`
+- `divergent`
+- `unconfirmed`
+- `market_led`
+- `neutral`
+- `insufficient_data`
+
+Important:
+
+- confirmation does not imply causality
+- confirmation does not imply predictive power
+- a `divergent` result does not automatically mean the model was incorrect
+- divergence can happen because news was already priced in, the reaction was delayed, other catalysts dominated, or data was incomplete
 
 ## Data Sources
 
@@ -52,11 +108,11 @@ Market proxy data:
 Market proxies:
 
 - `SPY` for U.S. equities
-- `TLT` for long-duration Treasuries
-- `UUP` for U.S. dollar exposure
-- `USO` for oil
 - `HYG` for high-yield credit
+- `TLT` for long-duration Treasuries
 - `GLD` for gold
+- `UUP` for U.S. dollar context
+- `USO` for oil context
 
 ## Workflow
 
@@ -87,8 +143,8 @@ The workflow:
 The daily workflow updates these files inside `macro-signals-daily/`:
 
 ```text
-data/latest_news.json
 data/latest_market.json
+data/latest_news.json
 index.html
 report-data.json
 styles.css
@@ -113,50 +169,6 @@ Then open:
 macro-signals-daily/index.html
 ```
 
-## Route Migration
-
-There are two similarly named routes in the portfolio:
-
-```text
-/Portfolio/macro-signals/
-/Portfolio/macro-signals-daily/
-```
-
-`macro-signals-daily/` is the live project.
-
-`macro-signals/` was an older static demo route that contained mock/snapshot data from April 2026. It is now kept only as a redirect to `macro-signals-daily/` so old bookmarks do not show stale training/demo data.
-
-If the site ever appears to be showing `2026-04-28` or `2026-04-29`, the browser is almost certainly loading the old route or a cached GitHub Pages response. The correct live route should show the latest generated date from `macro-signals-daily/report-data.json`.
-
-Quick checks:
-
-```bash
-curl -L -s "https://christiansignorelli.github.io/Portfolio/macro-signals-daily/report-data.json" | head
-curl -L -s "https://christiansignorelli.github.io/Portfolio/macro-signals/?v=$(date +%s)" | grep -E "macro-signals-daily|2026-04"
-```
-
-Expected result:
-
-- `macro-signals-daily/report-data.json` shows the current generated report date
-- `macro-signals/` contains `macro-signals-daily` and does not serve the April snapshot
-
-## Troubleshooting
-
-If the report is stale:
-
-1. Check the latest GitHub Actions run for `Daily Macro Signals Update`
-2. Confirm `macro-signals-daily/report-data.json` changed on `main`
-3. Confirm GitHub Pages has finished publishing the latest commit
-4. Bust browser/CDN cache by appending a query string, for example `?v=timestamp`
-5. If Pages still serves an old file after the commit landed, push an empty commit to trigger a rebuild:
-
-```bash
-git commit --allow-empty -m "Trigger Pages rebuild"
-git push origin main
-```
-
-If a local checkout cannot run `git fetch`, `git commit`, or `git push` because `.git` is blocked by local filesystem permissions, use a fresh clone or run the publish commands from a normal Terminal session.
-
 ## Project Structure
 
 ```text
@@ -180,20 +192,19 @@ macro-signals-daily/
 
 ## Strengths
 
-- Very low operating cost
-- Transparent theme detection
-- FinBERT sentiment labels instead of opaque generated narratives
-- Consistent scheduled output
-- Static hosting through GitHub Pages
-- Good fit for a public-facing demo or MVP
+- very low operating cost
+- transparent rules and scoring
+- clear separation between news tone and market reaction
+- consistent scheduled output
+- static hosting through GitHub Pages
 
 ## Limitations
 
 - RSS summaries are thinner than full article text
-- Keyword theme detection can miss nuance when wording changes
+- keyword theme detection can miss nuance when wording changes
 - FinBERT measures financial sentiment, not macro direction
-- Market data is contextual and should not be treated as investment advice
-- Free data sources can occasionally fail, lag, or change response formats
+- market proxies are noisy and context-dependent
+- free data sources can occasionally fail, lag, or change response formats
 
 ## Status
 

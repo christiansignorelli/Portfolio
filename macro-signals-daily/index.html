@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Macro Signals Daily</title>
-    <meta name="description" content="End-of-day market wrap-up from news language and market confirmation">
+    <meta name="description" content="Daily macro wrap-up from public news coverage and market context">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -12,45 +12,66 @@
       <section class="hero">
         <p class="eyebrow">Macro Intelligence Demo</p>
         <h1>Macro Signals Daily</h1>
-        <p class="tagline">End-of-day market wrap-up from news language and market confirmation</p>
+        <p class="tagline">Daily macro wrap-up from public news coverage and market context</p>
         <div class="meta-row">
           <div class="card">
             <div class="kicker">Latest Date</div>
-            <div class="value">2026-06-17</div>
+            <div class="value">2026-06-16</div>
             <div class="subtle">Auto-generated end-of-day report</div>
           </div>
           <div class="card">
             <div class="kicker">Last Build</div>
-            <div class="value">2026-06-17 22:52 UTC</div>
+            <div class="value">2026-06-18 05:29 UTC</div>
             <div class="subtle">Published via GitHub Pages</div>
           </div>
           <div class="card">
             <div class="kicker">What It Does</div>
             <div class="value">News + Market</div>
-            <div class="subtle">Reads RSS headlines, classifies macro tone, and publishes a post-close market wrap-up</div>
+            <div class="subtle">Aggregates news tone, tracks market proxies, and checks whether both were aligned.</div>
           </div>
         </div>
       </section>
 
       
-    <section class="section" id="report-2026-06-17">
+    <section class="section" id="report-2026-06-16">
       <div class="card">
         <div class="kicker">Latest Report</div>
-        <h2>2026-06-17</h2>
-        <p>2026-06-17: inflation negative financial sentiment, growth neutral financial sentiment, policy negative financial sentiment, liquidity negative financial sentiment, risk neutral financial sentiment. Top theme: policy.</p>
+        <h2>2026-06-16</h2>
+        <p>2026-06-16: 1 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.</p>
       </div>
 
       <div class="signal-grid">
         <div class="card">
           <div class="kicker">Macro Read</div>
-          <div class="value">negative financial sentiment around inflation, policy, liquidity.</div>
-          <div class="subtle">Language-derived daily interpretation</div>
+          <div class="value">there was not enough unique coverage to form a reliable daily news sentiment signal.</div>
+          <div class="subtle">Daily read from the news coverage examined by the pipeline</div>
         </div>
-        <div class="card">
-          <div class="kicker">Market Check</div>
-          <div class="value">Market check: market data is shown as context. Directional proxy confirmation is not run because FinBERT measures financial tone, not whether macro variables are rising or falling.</div>
-          <div class="subtle">Compares the language signal with bonds, the dollar, oil, equities, and credit proxies</div>
-        </div>
+        
+    <div class="card">
+      <div class="kicker">News Sentiment</div>
+      <div class="value">Insufficient data</div>
+      <div class="subtle">1 unique documents analyzed</div>
+      <div class="summary-line">Positive 0.0% · Neutral 0.0% · Negative 100.0%</div>
+      <div class="summary-line">Average confidence: 84%</div>
+    </div>
+    
+        
+    <div class="card">
+      <div class="kicker">News–Market Confirmation</div>
+      <div class="status-pill status-insufficient-data">INSUFFICIENT DATA</div>
+      <div class="summary-line">News sentiment: Insufficient data</div>
+      <div class="summary-line">Market response: Risk-off</div>
+      <p class="subtle">There was not enough reliable news or market data to evaluate confirmation.</p>
+      <details>
+        <summary>How confirmation works</summary>
+        <p>
+          It compares the aggregated tone of unique news documents with a basket of
+          risk-on and risk-off proxies. SPY and HYG carry the most weight, while TLT
+          and GLD act as lighter defensive signals.
+        </p>
+      </details>
+    </div>
+    
       </div>
 
       <div class="section">
@@ -58,161 +79,91 @@
         <div class="market-grid">
             <div class="market-card">
               <div class="kicker">SPY</div>
-              <div class="value">-1.25%</div>
+              <div class="value">-0.60%</div>
               <div class="subtle">US equities</div>
-              <div class="subtle">5d +2.14%</div>
+              <div class="subtle">5d +1.80%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">TLT</div>
-              <div class="value">+0.16%</div>
+              <div class="value">+0.55%</div>
               <div class="subtle">Long-duration Treasuries</div>
-              <div class="subtle">5d +1.71%</div>
+              <div class="subtle">5d +1.26%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">UUP</div>
-              <div class="value">+0.90%</div>
+              <div class="value">-0.14%</div>
               <div class="subtle">US dollar proxy</div>
-              <div class="subtle">5d +0.46%</div>
+              <div class="subtle">5d -0.29%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">USO</div>
-              <div class="value">-1.07%</div>
+              <div class="value">-4.74%</div>
               <div class="subtle">Oil proxy</div>
-              <div class="subtle">5d -14.94%</div>
+              <div class="subtle">5d -12.06%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">HYG</div>
-              <div class="value">-0.37%</div>
+              <div class="value">-0.01%</div>
               <div class="subtle">High yield credit</div>
-              <div class="subtle">5d +0.33%</div>
+              <div class="subtle">5d +0.51%</div>
             </div>
             
             <div class="market-card">
               <div class="kicker">GLD</div>
-              <div class="value">-2.27%</div>
+              <div class="value">+0.27%</div>
               <div class="subtle">Gold</div>
-              <div class="subtle">5d +3.74%</div>
+              <div class="subtle">5d +1.75%</div>
             </div>
             </div>
       </div>
 
       <div class="section">
-        <h2>Cross-Check Logic</h2>
+        <h2>Market Context</h2>
         
-    <div class="signal-grid explain-grid">
-      <div class="card">
-        <div class="kicker">How Cross-Check Works</div>
-        <p class="subtle">
-          The system now uses FinBERT to classify financial sentiment in macro-related
-          coverage. Market proxies are shown as context, but they are not treated as
-          confirmation that inflation, growth, policy, liquidity, or risk moved in a
-          specific direction.
-        </p>
-        <ul class="mini-list">
-          <li>FinBERT positive: positive financial sentiment.</li>
-          <li>FinBERT negative: negative financial sentiment.</li>
-          <li>FinBERT neutral: neutral financial sentiment.</li>
-          <li>Theme keywords identify the macro topics mentioned in each document.</li>
-        </ul>
-      </div>
-      <div class="card">
-        <div class="kicker">Availability</div>
-        <p class='subtle'>Available market proxies in this run: SPY, TLT, UUP, USO, HYG, GLD. Market data is retained as context, while directional confirmation is skipped because FinBERT measures financial tone rather than macro direction.</p>
-      </div>
+    <div class="card">
+      <div class="kicker">Market Response</div>
+      <div class="value">Risk-off</div>
+      <div class="subtle">Score -0.65 · 4 signals used</div>
+      <p class="subtle">Primary market proxies showed a broadly risk-off response.</p>
     </div>
     
-        <p class='subtle'>No directional market checks were run for this report. FinBERT sentiment describes financial tone, not whether macro variables are rising or falling.</p>
+      </div>
+
+      <div class="section">
+        <h2>Analyzed Coverage</h2>
+        <p class="subtle">Each article appears once here, even if it touches more than one theme.</p>
+        <div class="coverage-grid">
+            <article class="story-card">
+              <div class="story-title">Dollar slips as markets wait on Warsh’s Fed debut</div>
+              <div class="source">www.investing.com</div>
+              <div class="summary-line">Sentiment: Negative · 84% confidence</div>
+              <div><span class="tag">Policy</span></div>
+            </article>
+            </div>
       </div>
 
       <div class="section">
         <h2>RSS Feeds Examined</h2>
-        <p class="subtle">These are the exact public RSS feed URLs configured for the pipeline. Not every feed will contribute a headline to every daily report.</p>
+        <p class="subtle">These are the public RSS feed URLs configured for the pipeline. Not every feed contributes a headline every day.</p>
         <ul class="source-list"><li><a href="https://www.investing.com/rss/news_14.rss" target="_blank" rel="noreferrer">https://www.investing.com/rss/news_14.rss</a></li><li><a href="https://www.marketwatch.com/rss/topstories" target="_blank" rel="noreferrer">https://www.marketwatch.com/rss/topstories</a></li></ul>
       </div>
 
       <div class="section">
-        <h2>Signal Buckets</h2>
-        <div class="bucket-grid">
-            <article class="bucket-card">
-              <div class="status">POLICY | negative financial sentiment</div>
-              <ul>
-            <li>
-              <div class="headline">The Fed just threw investors a curveball. Here’s how stocks, bonds, gold and the dollar reacted.</div>
-              <div class="source">www.marketwatch.com</div>
-              <div class="source">FinBERT: neutral (0.781) | score 0</div>
-              <div class="source">Themes: inflation, policy</div>
-            </li>
-            
-            <li>
-              <div class="headline">Stocks drop, bond yields rise; Fed keeps rates steady but projects hike for later this year</div>
-              <div class="source">www.investing.com</div>
-              <div class="source">FinBERT: negative (0.808) | score -1</div>
-              <div class="source">Themes: policy</div>
-            </li>
-            
-            <li>
-              <div class="headline">Kevin Warsh launches his push to change how the Fed operates</div>
-              <div class="source">www.marketwatch.com</div>
-              <div class="source">FinBERT: neutral (0.909) | score 0</div>
-              <div class="source">Themes: inflation, policy, liquidity</div>
-            </li>
-            </ul>
-            </article>
-            
-            <article class="bucket-card">
-              <div class="status">INFLATION | negative financial sentiment</div>
-              <ul>
-            <li>
-              <div class="headline">BOJ deputy’s brief moment at the helm reveals deeper inflation anxiety</div>
-              <div class="source">www.investing.com</div>
-              <div class="source">FinBERT: negative (0.889) | score -2</div>
-              <div class="source">Themes: inflation</div>
-            </li>
-            </ul>
-            </article>
-            
-            <article class="bucket-card">
-              <div class="status">RATES | neutral financial sentiment</div>
-              <ul>
-            <li>
-              <div class="headline">The Fed just threw investors a curveball. Here’s how stocks, bonds, gold and the dollar reacted.</div>
-              <div class="source">www.marketwatch.com</div>
-              <div class="source">FinBERT: neutral (0.781) | score 0</div>
-              <div class="source">Themes: inflation, policy</div>
-            </li>
-            
-            <li>
-              <div class="headline">Stocks drop, bond yields rise; Fed keeps rates steady but projects hike for later this year</div>
-              <div class="source">www.investing.com</div>
-              <div class="source">FinBERT: negative (0.808) | score 0</div>
-              <div class="source">Themes: policy</div>
-            </li>
-            </ul>
-            </article>
-            
-            <article class="bucket-card">
-              <div class="status">FX | neutral financial sentiment</div>
-              <ul>
-            <li>
-              <div class="headline">The Fed just threw investors a curveball. Here’s how stocks, bonds, gold and the dollar reacted.</div>
-              <div class="source">www.marketwatch.com</div>
-              <div class="source">FinBERT: neutral (0.781) | score 0</div>
-              <div class="source">Themes: inflation, policy</div>
-            </li>
-            
-            <li>
-              <div class="headline">Trading Day: US stocks end lower, dollar jumps as Federal Reserve kicks off Warsh era</div>
-              <div class="source">www.investing.com</div>
-              <div class="source">FinBERT: negative (0.948) | score 0</div>
-              <div class="source">Themes: policy</div>
-            </li>
-            </ul>
-            </article>
-            </div>
+        <h2>Method Notes</h2>
+        
+    <div class="card">
+      <div class="kicker">Methodology</div>
+      <p class="subtle">
+        News sentiment is classified with FinBERT, a financial-language model that labels
+        text as positive, neutral, or negative. The model measures financial tone; it does
+        not directly determine whether individual macroeconomic variables are rising or falling.
+      </p>
+    </div>
+    
       </div>
     </section>
     

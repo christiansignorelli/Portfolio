@@ -1,209 +1,134 @@
 [
   {
-    "date": "2026-06-17",
-    "daily_brief": "2026-06-17: inflation negative financial sentiment, growth neutral financial sentiment, policy negative financial sentiment, liquidity negative financial sentiment, risk neutral financial sentiment. Top theme: policy.",
-    "macro_read": "Macro read: negative financial sentiment around inflation, policy, liquidity.",
-    "market_confirmation": "Market check: market data is shown as context. Directional proxy confirmation is not run because FinBERT measures financial tone, not whether macro variables are rising or falling.",
+    "date": "2026-06-16",
+    "daily_brief": "2026-06-16: 1 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -1.25,
-        "return_5d": 2.14,
-        "close": 740.9600219726562
+        "return_1d": -0.6,
+        "return_5d": 1.8,
+        "close": 750.3300170898438
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.16,
-        "return_5d": 1.71,
-        "close": 86.33000183105469
+        "return_1d": 0.55,
+        "return_5d": 1.26,
+        "close": 86.19000244140625
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.9,
-        "return_5d": 0.46,
-        "close": 28.18000030517578
+        "return_1d": -0.14,
+        "return_5d": -0.29,
+        "close": 27.93000030517578
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -1.07,
-        "return_5d": -14.94,
-        "close": 114.2300033569336
+        "return_1d": -4.74,
+        "return_5d": -12.06,
+        "close": 115.47000122070312
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.37,
-        "return_5d": 0.33,
-        "close": 79.7300033569336
+        "return_1d": -0.01,
+        "return_5d": 0.51,
+        "close": 80.02999877929688
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -2.27,
-        "return_5d": 3.74,
-        "close": 388.6000061035156
+        "return_1d": 0.27,
+        "return_5d": 1.75,
+        "close": 397.6300048828125
+      }
+    ],
+    "news_sentiment": {
+      "label": "insufficient_data",
+      "score": -1.0,
+      "display_score": -1.0,
+      "unique_documents": 1,
+      "positive_pct": 0.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 100.0,
+      "average_confidence": 0.843
+    },
+    "market_regime": {
+      "label": "risk_off",
+      "score": -0.65,
+      "signals_used": 4,
+      "signals_available": 4,
+      "contributions": {
+        "SPY": -0.4,
+        "HYG": 0.0,
+        "TLT": -0.15,
+        "GLD": -0.1
+      },
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "data_quality_status": "complete"
+    },
+    "confirmation": {
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "risk_off"
+    },
+    "analyzed_coverage": [
+      {
+        "doc_id": "www.investing.com-2026-06-16T22-58-13+00-00-8",
+        "title": "Dollar slips as markets wait on Warsh\u2019s Fed debut",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/dollar-sways-near-10day-lows-as-attention-turns-to-boj-and-rba-4743690",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8430134057998657,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "fx"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": -1,
+          "liquidity": 0,
+          "risk": 0
+        }
       }
     ],
     "bucket_views": [
       {
         "name": "policy",
-        "label": "negative financial sentiment",
-        "score": -7,
+        "label": "negative news sentiment",
+        "score": -1,
         "documents": [
           {
-            "title": "The Fed just threw investors a curveball. Here\u2019s how stocks, bonds, gold and the dollar reacted.",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.7810292840003967,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 14,
-            "macro_buckets": [
-              "policy",
-              "rates",
-              "fx"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Stocks drop, bond yields rise; Fed keeps rates steady but projects hike for later this year",
+            "doc_id": "www.investing.com-2026-06-16T22-58-13+00-00-8",
+            "title": "Dollar slips as markets wait on Warsh\u2019s Fed debut",
             "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-sways-near-10day-lows-as-attention-turns-to-boj-and-rba-4743690",
             "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8082992434501648,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "rates"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Kevin Warsh launches his push to change how the Fed operates",
-            "source": "www.marketwatch.com",
-            "confidence": "high",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.9090477228164673,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "policy"
-            ],
-            "themes": [
-              "inflation",
-              "policy",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "inflation",
-        "label": "negative financial sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "title": "BOJ deputy\u2019s brief moment at the helm reveals deeper inflation anxiety",
-            "source": "www.investing.com",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8888744115829468,
+            "sentiment_confidence": 0.8430134057998657,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "neutral financial sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "title": "The Fed just threw investors a curveball. Here\u2019s how stocks, bonds, gold and the dollar reacted.",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.7810292840003967,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 14,
-            "macro_buckets": [
-              "policy",
-              "rates",
               "fx"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Stocks drop, bond yields rise; Fed keeps rates steady but projects hike for later this year",
-            "source": "www.investing.com",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8082992434501648,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "rates"
             ],
             "themes": [
               "policy"
@@ -220,42 +145,19 @@
       },
       {
         "name": "fx",
-        "label": "neutral financial sentiment",
+        "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "title": "The Fed just threw investors a curveball. Here\u2019s how stocks, bonds, gold and the dollar reacted.",
-            "source": "www.marketwatch.com",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.7810292840003967,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 14,
-            "macro_buckets": [
-              "policy",
-              "rates",
-              "fx"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "title": "Trading Day: US stocks end lower, dollar jumps as Federal Reserve kicks off Warsh era",
+            "doc_id": "www.investing.com-2026-06-16T22-58-13+00-00-8",
+            "title": "Dollar slips as markets wait on Warsh\u2019s Fed debut",
             "source": "www.investing.com",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/dollar-sways-near-10day-lows-as-attention-turns-to-boj-and-rba-4743690",
+            "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9475619792938232,
+            "sentiment_confidence": 0.8430134057998657,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
               "fx"
@@ -266,7 +168,7 @@
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": -2,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }

@@ -16,36 +16,44 @@ from macro_signals.analyzer import (
 
 
 SITE_TITLE = "Macro Signals Daily"
-SITE_TAGLINE = "End-of-day market wrap-up from news language and market confirmation"
+SITE_TAGLINE = "Daily macro wrap-up from public news coverage and market context"
 
 CSS = """
 :root {
-  --bg: #f4efe7;
-  --panel: #fffdf8;
-  --panel-strong: #f7f1e8;
+  --bg: #f5efe5;
+  --panel: #fffaf2;
+  --panel-strong: #f1e8d9;
   --ink: #1f2933;
   --muted: #5d6b78;
-  --line: #d7cfc2;
-  --shadow: 0 12px 30px rgba(31, 41, 51, 0.08);
+  --line: #dacfbf;
+  --accent: #204d74;
+  --good: #1f6b44;
+  --bad: #8f2f2d;
+  --soft: #8a6a2d;
+  --shadow: 0 14px 34px rgba(31, 41, 51, 0.08);
 }
 * { box-sizing: border-box; }
 body {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
-  background:
-    radial-gradient(circle at top left, rgba(22, 93, 255, 0.08), transparent 35%),
-    linear-gradient(180deg, #fbf7f0 0%, var(--bg) 100%);
   color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(32, 77, 116, 0.12), transparent 35%),
+    linear-gradient(180deg, #fbf8f1 0%, var(--bg) 100%);
 }
-.page { width: min(1120px, calc(100vw - 32px)); margin: 0 auto; padding: 32px 0 72px; }
-.hero, .card, .bucket-card, .market-card {
+.page {
+  width: min(1120px, calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 30px 0 72px;
+}
+.hero, .card, .market-card, .story-card {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 22px;
   box-shadow: var(--shadow);
 }
 .hero { padding: 28px; }
-.card, .bucket-card { padding: 20px; }
+.card, .story-card { padding: 20px; }
 .market-card { padding: 16px; }
 .eyebrow, .kicker {
   text-transform: uppercase;
@@ -55,85 +63,93 @@ body {
 }
 h1 { margin: 0; font-size: clamp(34px, 6vw, 64px); line-height: 0.95; }
 h2 { margin: 0 0 12px; font-size: 24px; }
-.tagline, .subtle, .section p, .source, .footer { color: var(--muted); }
-.tagline { margin: 14px 0 0; max-width: 720px; font-size: 18px; }
-.meta-row, .signal-grid, .market-grid, .bucket-grid {
+h3 { margin: 0 0 10px; font-size: 18px; }
+.tagline, .subtle, .source, .footer, details p, details li {
+  color: var(--muted);
+}
+.tagline {
+  margin: 14px 0 0;
+  max-width: 720px;
+  font-size: 18px;
+}
+.section { margin-top: 28px; }
+.meta-row, .signal-grid, .market-grid, .coverage-grid {
   display: grid;
   gap: 16px;
 }
 .meta-row { margin-top: 22px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
-.signal-grid, .bucket-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.signal-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 .market-grid { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
-.explain-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-.section { margin-top: 28px; }
-.value { font-size: 28px; line-height: 1.05; margin: 0 0 8px; }
-.status {
+.coverage-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.value {
+  font-size: 28px;
+  line-height: 1.05;
+  margin: 0 0 8px;
+}
+.summary-line {
+  font-size: 15px;
+  color: var(--ink);
+  margin-top: 6px;
+}
+.status-pill, .tag {
   display: inline-flex;
-  padding: 6px 12px;
+  align-items: center;
   border-radius: 999px;
+}
+.status-pill {
+  padding: 6px 12px;
   font-size: 13px;
   font-weight: 700;
-  background: var(--panel-strong);
   margin-bottom: 12px;
+  background: var(--panel-strong);
 }
-ul { margin: 12px 0 0; padding-left: 18px; }
-li + li { margin-top: 8px; }
-.headline { font-weight: 700; }
-.footer { margin-top: 36px; font-size: 13px; }
-.mini-list { margin: 10px 0 0; padding-left: 18px; color: var(--muted); }
-.mini-list li + li { margin-top: 6px; }
-.source-list {
-  margin: 14px 0 0;
+.tag {
+  margin: 6px 8px 0 0;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: var(--accent);
+  background: rgba(32, 77, 116, 0.08);
+}
+.status-confirmed { color: var(--good); background: rgba(31, 107, 68, 0.12); }
+.status-divergent { color: var(--bad); background: rgba(143, 47, 45, 0.12); }
+.status-unconfirmed, .status-market-led, .status-neutral, .status-insufficient-data {
+  color: var(--soft);
+  background: rgba(138, 106, 45, 0.12);
+}
+.story-card ul, .source-list {
+  margin: 12px 0 0;
   padding-left: 18px;
 }
-.source-list li + li {
-  margin-top: 8px;
-}
+.source-list li + li { margin-top: 8px; }
 .source-list a {
   color: #114c9b;
   text-decoration: none;
 }
-.source-list a:hover {
-  text-decoration: underline;
+.source-list a:hover { text-decoration: underline; }
+.story-title {
+  font-size: 18px;
+  line-height: 1.25;
+  margin-bottom: 8px;
 }
-.check-list {
-  display: grid;
-  gap: 0;
+.footer {
+  margin-top: 36px;
+  font-size: 13px;
+}
+details {
   margin-top: 14px;
-}
-.check-row {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 14px;
-  padding: 12px 0;
+  padding-top: 12px;
   border-top: 1px solid var(--line);
 }
-.check-row:first-child {
-  border-top: 0;
-}
-.check-copy {
-  max-width: 760px;
-}
-.check-label {
+summary {
+  cursor: pointer;
+  color: var(--accent);
   font-weight: 700;
-}
-.check-badge {
-  padding: 4px 10px;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 700;
-}
-.check-yes {
-  background: rgba(30, 122, 70, 0.12);
-  color: #1b6c42;
-}
-.check-no {
-  background: rgba(160, 49, 49, 0.12);
-  color: #8d2c2c;
 }
 @media (max-width: 720px) {
-  .page { width: min(100vw - 20px, 1120px); padding-top: 16px; }
+  .page {
+    width: min(100vw - 20px, 1120px);
+    padding-top: 16px;
+  }
 }
 """
 
@@ -141,6 +157,28 @@ li + li { margin-top: 8px; }
 def format_pct(value: float) -> str:
     sign = "+" if value > 0 else ""
     return f"{sign}{value:.2f}%"
+
+
+def format_sentiment_label(label: str) -> str:
+    return {
+        "positive": "Positive",
+        "negative": "Negative",
+        "neutral": "Neutral",
+        "insufficient_data": "Insufficient data",
+    }.get(label, label.replace("_", " ").title())
+
+
+def format_market_label(label: str) -> str:
+    return {
+        "risk_on": "Risk-on",
+        "risk_off": "Risk-off",
+        "mixed": "Mixed",
+        "insufficient_data": "Insufficient data",
+    }.get(label, label.replace("_", " ").title())
+
+
+def format_status_class(status: str) -> str:
+    return "status-" + status.replace("_", "-")
 
 
 def build_market_cards(market_snapshot: list[dict[str, object]]) -> str:
@@ -167,91 +205,6 @@ def build_market_cards(market_snapshot: list[dict[str, object]]) -> str:
     return '<div class="market-grid">' + "".join(cards) + "</div>"
 
 
-def build_crosscheck_explainer(report: dict[str, object]) -> str:
-    market_confirmation = str(report.get("market_confirmation") or "")
-    unavailable = (
-        "no market data" in market_confirmation.lower()
-        or "no clear macro narrative" in market_confirmation.lower()
-    )
-    market_snapshot = list(report.get("market_snapshot", []))
-    available_symbols = [str(item["symbol"]) for item in market_snapshot]
-    available_text = ", ".join(available_symbols) if available_symbols else "none"
-
-    if "no market data" in market_confirmation.lower():
-        why_unavailable = (
-            "<p class='subtle'>Available market proxies in this run: "
-            f"{escape(available_text)}. The cross-check could not run because usable market data was missing.</p>"
-        )
-    elif "no clear macro narrative" in market_confirmation.lower():
-        why_unavailable = (
-            "<p class='subtle'>Available market proxies in this run: "
-            f"{escape(available_text)}. Market data was available, but today's language signal was too neutral or mixed "
-            "to produce a meaningful confirmation test.</p>"
-        )
-    else:
-        why_unavailable = (
-            "<p class='subtle'>Available market proxies in this run: "
-            f"{escape(available_text)}. Market data is retained as context, while directional confirmation is "
-            "skipped because FinBERT measures financial tone rather than macro direction.</p>"
-        )
-
-    return """
-    <div class="signal-grid explain-grid">
-      <div class="card">
-        <div class="kicker">How Cross-Check Works</div>
-        <p class="subtle">
-          The system now uses FinBERT to classify financial sentiment in macro-related
-          coverage. Market proxies are shown as context, but they are not treated as
-          confirmation that inflation, growth, policy, liquidity, or risk moved in a
-          specific direction.
-        </p>
-        <ul class="mini-list">
-          <li>FinBERT positive: positive financial sentiment.</li>
-          <li>FinBERT negative: negative financial sentiment.</li>
-          <li>FinBERT neutral: neutral financial sentiment.</li>
-          <li>Theme keywords identify the macro topics mentioned in each document.</li>
-        </ul>
-      </div>
-      <div class="card">
-        <div class="kicker">Availability</div>
-        {why_unavailable}
-      </div>
-    </div>
-    """.format(why_unavailable=why_unavailable)
-
-
-def build_market_checks(report: dict[str, object]) -> str:
-    checks = list(report.get("market_checks", []))
-    if not checks:
-        return (
-            "<p class='subtle'>No directional market checks were run for this report. "
-            "FinBERT sentiment describes financial tone, not whether macro variables are rising or falling.</p>"
-        )
-
-    items = []
-    for check in checks:
-        badge = "Confirmed" if check["confirmed"] else "Not confirmed"
-        badge_class = "check-yes" if check["confirmed"] else "check-no"
-        items.append(
-            """
-            <div class="check-row">
-              <div class="check-copy">
-                <div class="check-label">{label}: {badge}</div>
-                <div class="subtle">{expected}</div>
-              </div>
-              <span class="check-badge {badge_class}">{badge_short}</span>
-            </div>
-            """.format(
-                label=escape(str(check["label"]).title()),
-                badge_class=badge_class,
-                badge=badge,
-                badge_short="Yes" if check["confirmed"] else "No",
-                expected=escape(str(check["expected"])),
-            )
-        )
-    return '<div class="check-list">' + "".join(items) + "</div>"
-
-
 def build_feed_sources(report: dict[str, object]) -> str:
     feeds = sorted(set(DEFAULT_FEEDS) | set(report.get("feed_sources", [])))
     if not feeds:
@@ -266,40 +219,117 @@ def build_feed_sources(report: dict[str, object]) -> str:
     return '<ul class="source-list">' + "".join(items) + "</ul>"
 
 
-def build_bucket_cards(bucket_views: list[dict[str, object]]) -> str:
+def build_confirmation_card(report: dict[str, object]) -> str:
+    confirmation = dict(report.get("confirmation", {}))
+    news_sentiment = dict(report.get("news_sentiment", {}))
+    market_regime = dict(report.get("market_regime", {}))
+    status = str(confirmation.get("status", "insufficient_data"))
+
+    return """
+    <div class="card">
+      <div class="kicker">News–Market Confirmation</div>
+      <div class="status-pill {status_class}">{status_label}</div>
+      <div class="summary-line">News sentiment: {news_label}</div>
+      <div class="summary-line">Market response: {market_label}</div>
+      <p class="subtle">{explanation}</p>
+      <details>
+        <summary>How confirmation works</summary>
+        <p>
+          It compares the aggregated tone of unique news documents with a basket of
+          risk-on and risk-off proxies. SPY and HYG carry the most weight, while TLT
+          and GLD act as lighter defensive signals.
+        </p>
+      </details>
+    </div>
+    """.format(
+        status_class=escape(format_status_class(status)),
+        status_label=escape(str(confirmation.get("label", "Insufficient data")).upper()),
+        news_label=escape(format_sentiment_label(str(news_sentiment.get("label", "insufficient_data")))),
+        market_label=escape(format_market_label(str(market_regime.get("label", "insufficient_data")))),
+        explanation=escape(str(confirmation.get("explanation", ""))),
+    )
+
+
+def build_news_sentiment_card(report: dict[str, object]) -> str:
+    sentiment = dict(report.get("news_sentiment", {}))
+    confidence_pct = round(float(sentiment.get("average_confidence", 0.0)) * 100)
+    return """
+    <div class="card">
+      <div class="kicker">News Sentiment</div>
+      <div class="value">{label}</div>
+      <div class="subtle">{documents} unique documents analyzed</div>
+      <div class="summary-line">Positive {positive_pct}% · Neutral {neutral_pct}% · Negative {negative_pct}%</div>
+      <div class="summary-line">Average confidence: {confidence_pct}%</div>
+    </div>
+    """.format(
+        label=escape(format_sentiment_label(str(sentiment.get("label", "insufficient_data")))),
+        documents=int(sentiment.get("unique_documents", 0)),
+        positive_pct=float(sentiment.get("positive_pct", 0.0)),
+        neutral_pct=float(sentiment.get("neutral_pct", 0.0)),
+        negative_pct=float(sentiment.get("negative_pct", 0.0)),
+        confidence_pct=confidence_pct,
+    )
+
+
+def build_market_regime_card(report: dict[str, object]) -> str:
+    regime = dict(report.get("market_regime", {}))
+    return """
+    <div class="card">
+      <div class="kicker">Market Response</div>
+      <div class="value">{label}</div>
+      <div class="subtle">Score {score:+.2f} · {signals_used} signals used</div>
+      <p class="subtle">{explanation}</p>
+    </div>
+    """.format(
+        label=escape(format_market_label(str(regime.get("label", "insufficient_data")))),
+        score=float(regime.get("score", 0.0)),
+        signals_used=int(regime.get("signals_used", 0)),
+        explanation=escape(str(regime.get("explanation", ""))),
+    )
+
+
+def build_coverage_cards(report: dict[str, object]) -> str:
+    coverage = list(report.get("analyzed_coverage", []))
+    if not coverage:
+        return "<p class='subtle'>No qualifying headlines were available for this report.</p>"
+
     cards = []
-    for bucket in bucket_views:
-        headlines = "".join(
-            """
-            <li>
-              <div class="headline">{title}</div>
-              <div class="source">{source}</div>
-              <div class="source">FinBERT: {sentiment_label} ({sentiment_confidence}) | score {score}</div>
-              <div class="source">Themes: {themes}</div>
-            </li>
-            """.format(
-                title=escape(str(doc["title"])),
-                source=escape(str(doc["source"])),
-                sentiment_label=escape(str(doc["sentiment_label"])),
-                sentiment_confidence=escape(f"{float(doc['sentiment_confidence']):.3f}"),
-                score=escape(str(doc["scores"].get(str(bucket["name"]), bucket["score"]))),
-                themes=escape(", ".join(doc.get("themes", [])) or "none"),
-            )
-            for doc in bucket["documents"]
+    for item in coverage:
+        confidence_pct = round(float(item.get("sentiment_confidence", 0.0)) * 100)
+        tags = "".join(
+            f'<span class="tag">{escape(str(theme).title())}</span>'
+            for theme in item.get("themes", [])
         )
         cards.append(
             """
-            <article class="bucket-card">
-              <div class="status">{name} | {label}</div>
-              <ul>{headlines}</ul>
+            <article class="story-card">
+              <div class="story-title">{title}</div>
+              <div class="source">{source}</div>
+              <div class="summary-line">Sentiment: {sentiment} · {confidence}% confidence</div>
+              <div>{tags}</div>
             </article>
             """.format(
-                name=escape(str(bucket["name"])).upper(),
-                label=escape(str(bucket["label"])),
-                headlines=headlines,
+                title=escape(str(item.get("title", ""))),
+                source=escape(str(item.get("source", "unknown"))),
+                sentiment=escape(format_sentiment_label(str(item.get("sentiment_label", "neutral")))),
+                confidence=confidence_pct,
+                tags=tags or '<span class="tag">Uncategorized</span>',
             )
         )
-    return '<div class="bucket-grid">' + "".join(cards) + "</div>"
+    return '<div class="coverage-grid">' + "".join(cards) + "</div>"
+
+
+def build_methodology_card() -> str:
+    return """
+    <div class="card">
+      <div class="kicker">Methodology</div>
+      <p class="subtle">
+        News sentiment is classified with FinBERT, a financial-language model that labels
+        text as positive, neutral, or negative. The model measures financial tone; it does
+        not directly determine whether individual macroeconomic variables are rising or falling.
+      </p>
+    </div>
+    """
 
 
 def build_report_section(report: dict[str, object], featured: bool = False) -> str:
@@ -317,13 +347,10 @@ def build_report_section(report: dict[str, object], featured: bool = False) -> s
         <div class="card">
           <div class="kicker">Macro Read</div>
           <div class="value">{macro_read}</div>
-          <div class="subtle">Language-derived daily interpretation</div>
+          <div class="subtle">Daily read from the news coverage examined by the pipeline</div>
         </div>
-        <div class="card">
-          <div class="kicker">Market Check</div>
-          <div class="value">{market_confirmation}</div>
-          <div class="subtle">Compares the language signal with bonds, the dollar, oil, equities, and credit proxies</div>
-        </div>
+        {news_sentiment_card}
+        {confirmation_card}
       </div>
 
       <div class="section">
@@ -332,20 +359,25 @@ def build_report_section(report: dict[str, object], featured: bool = False) -> s
       </div>
 
       <div class="section">
-        <h2>Cross-Check Logic</h2>
-        {crosscheck_explainer}
-        {market_checks}
+        <h2>Market Context</h2>
+        {market_regime_card}
+      </div>
+
+      <div class="section">
+        <h2>Analyzed Coverage</h2>
+        <p class="subtle">Each article appears once here, even if it touches more than one theme.</p>
+        {coverage_cards}
       </div>
 
       <div class="section">
         <h2>RSS Feeds Examined</h2>
-        <p class="subtle">These are the exact public RSS feed URLs configured for the pipeline. Not every feed will contribute a headline to every daily report.</p>
+        <p class="subtle">These are the public RSS feed URLs configured for the pipeline. Not every feed contributes a headline every day.</p>
         {feed_sources}
       </div>
 
       <div class="section">
-        <h2>Signal Buckets</h2>
-        {bucket_cards}
+        <h2>Method Notes</h2>
+        {methodology_card}
       </div>
     </section>
     """.format(
@@ -354,18 +386,19 @@ def build_report_section(report: dict[str, object], featured: bool = False) -> s
         date=escape(str(report["date"])),
         daily_brief=escape(str(report["daily_brief"])),
         macro_read=escape(str(report["macro_read"]).replace("Macro read: ", "")),
-        market_confirmation=escape(str(report["market_confirmation"] or "No market data")),
-        market_cards=build_market_cards(list(report["market_snapshot"])),
-        crosscheck_explainer=build_crosscheck_explainer(report),
-        market_checks=build_market_checks(report),
+        news_sentiment_card=build_news_sentiment_card(report),
+        confirmation_card=build_confirmation_card(report),
+        market_cards=build_market_cards(list(report.get("market_snapshot", []))),
+        market_regime_card=build_market_regime_card(report),
+        coverage_cards=build_coverage_cards(report),
         feed_sources=build_feed_sources(report),
-        bucket_cards=build_bucket_cards(list(report["bucket_views"])),
+        methodology_card=build_methodology_card(),
     )
 
 
 def render_site(reports: list[dict[str, object]]) -> str:
+    updated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     if not reports:
-        updated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
         return """<!DOCTYPE html>
 <html lang="en">
   <head>
@@ -394,6 +427,9 @@ def render_site(reports: list[dict[str, object]]) -> str:
           </div>
         </div>
       </section>
+      <section class="section">
+        {methodology_card}
+      </section>
     </main>
   </body>
 </html>
@@ -401,10 +437,10 @@ def render_site(reports: list[dict[str, object]]) -> str:
             site_title=escape(SITE_TITLE),
             tagline=escape(SITE_TAGLINE),
             updated_at=escape(updated_at),
+            methodology_card=build_methodology_card(),
         )
 
     latest = reports[-1]
-    updated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     return """<!DOCTYPE html>
 <html lang="en">
   <head>
@@ -434,7 +470,7 @@ def render_site(reports: list[dict[str, object]]) -> str:
           <div class="card">
             <div class="kicker">What It Does</div>
             <div class="value">News + Market</div>
-            <div class="subtle">Reads RSS headlines, classifies macro tone, and publishes a post-close market wrap-up</div>
+            <div class="subtle">Aggregates news tone, tracks market proxies, and checks whether both were aligned.</div>
           </div>
         </div>
       </section>

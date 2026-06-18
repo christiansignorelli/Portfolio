@@ -1,11 +1,12 @@
 from __future__ import annotations
 
 from collections import Counter, defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import datetime
 from functools import lru_cache
 import json
 from pathlib import Path
+import re
 from typing import Any
 
 
@@ -17,6 +18,30 @@ THEME_KEYWORDS = {
     "risk": {"risk", "geopolitical", "tensions", "cautious", "defensive"},
 }
 
+MIN_UNIQUE_DOCUMENTS = 3
+MARKET_MOVE_THRESHOLD = 0.20
+NEWS_SENTIMENT_POSITIVE_THRESHOLD = 0.20
+NEWS_SENTIMENT_NEGATIVE_THRESHOLD = -0.20
+MARKET_REGIME_POSITIVE_THRESHOLD = 0.25
+MARKET_REGIME_NEGATIVE_THRESHOLD = -0.25
+MARKET_REGIME_WEIGHTS = {
+    "SPY": 0.40,
+    "HYG": 0.35,
+    "TLT": 0.15,
+    "GLD": 0.10,
+}
+PRIMARY_MARKET_SIGNALS = {"SPY", "HYG"}
+MARKET_SNAPSHOT_ORDER = ("SPY", "TLT", "UUP", "USO", "HYG", "GLD")
+NEWS_LABEL_TO_DIRECTION = {"positive": 1.0, "neutral": 0.0, "negative": -1.0}
+CONFIRMATION_LABELS = {
+    "confirmed": "Confirmed",
+    "divergent": "Divergent",
+    "unconfirmed": "Unconfirmed",
+    "market_led": "Market-led",
+    "neutral": "Neutral",
+    "insufficient_data": "Insufficient data",
+}
+
 
 @dataclass
 class DocumentSignal:
@@ -24,7 +49,9 @@ class DocumentSignal:
     date: str
     source: str
     feed_url: str
+    url: str
     title: str
+    unique_key: str
     themes: list[str]
     scores: dict[str, int]
     confidence: str
@@ -51,13 +78,6 @@ class MarketSnapshot:
     close: float
     return_1d: float
     return_5d: float
-
-
-@dataclass
-class MarketCheck:
-    label: str
-    expected: str
-    confirmed: bool
 
 
 class FinBERTError(RuntimeError):
@@ -221,6 +241,22 @@ def build_summary_label(sentiment_label: str) -> str:
     return f"{sentiment_label}-financial-sentiment"
 
 
+def normalize_identifier(value: str) -> str:
+    return re.sub(r"\s+", " ", str(value).strip().lower())
+
+
+def build_document_unique_key(
+    title: str,
+    url: str,
+    doc_id: str,
+) -> str:
+    normalized_title = normalize_identifier(title)
+    normalized_url = normalize_identifier(url)
+    if normalized_title or normalized_url:
+        return f"{normalized_title}|{normalized_url}"
+    return normalize_identifier(doc_id)
+
+
 def analyze_document(document: dict[str, Any]) -> DocumentSignal:
     theme_text = normalize_text(document)
     themes = detect_themes(theme_text)
@@ -231,13 +267,18 @@ def analyze_document(document: dict[str, Any]) -> DocumentSignal:
         theme: sentiment_score if theme in themes else 0
         for theme in THEME_KEYWORDS
     }
+    title = str(document.get("title", ""))
+    url = str(document.get("url", ""))
+    doc_id = str(document.get("id", ""))
 
     return DocumentSignal(
-        doc_id=document["id"],
+        doc_id=doc_id,
         date=extract_date(document["published_at"]),
         source=document.get("source", "unknown"),
         feed_url=document.get("feed_url", ""),
-        title=document.get("title", ""),
+        url=url,
+        title=title,
+        unique_key=build_document_unique_key(title, url, doc_id),
         themes=themes,
         scores=scores,
         confidence=confidence_bucket(sentiment_confidence),
@@ -249,23 +290,73 @@ def analyze_document(document: dict[str, Any]) -> DocumentSignal:
     )
 
 
-def aggregate_by_date(signals: list[DocumentSignal]) -> dict[str, dict[str, Any]]:
-    grouped: dict[str, dict[str, Any]] = {}
+def merge_document_signals(
+    left: DocumentSignal,
+    right: DocumentSignal,
+) -> DocumentSignal:
+    merged_scores = dict(left.scores)
+    for theme, score in right.scores.items():
+        if abs(score) > abs(merged_scores.get(theme, 0)):
+            merged_scores[theme] = score
 
+    merged_themes = sorted(set(left.themes) | set(right.themes))
+    merged_buckets = sorted(set(left.macro_buckets) | set(right.macro_buckets))
+    preferred = left
+    if right.sentiment_confidence > left.sentiment_confidence:
+        preferred = right
+
+    return replace(
+        preferred,
+        unique_key=left.unique_key,
+        themes=merged_themes or ["uncategorized"],
+        scores=merged_scores,
+        macro_score=max(left.macro_score, right.macro_score),
+        macro_buckets=merged_buckets,
+        source=preferred.source or left.source or right.source,
+        feed_url=preferred.feed_url or left.feed_url or right.feed_url,
+        url=preferred.url or left.url or right.url,
+        title=preferred.title or left.title or right.title,
+    )
+
+
+def dedupe_signals(signals: list[DocumentSignal]) -> list[DocumentSignal]:
+    unique_by_key: dict[str, DocumentSignal] = {}
     for signal in signals:
-        bucket = grouped.setdefault(
-            signal.date,
-            {
-                "scores": defaultdict(int),
-                "theme_counts": Counter(),
-                "documents": [],
-            },
-        )
-        for theme, score in signal.scores.items():
-            bucket["scores"][theme] += score
-        for theme in signal.themes:
-            bucket["theme_counts"][theme] += 1
-        bucket["documents"].append(signal)
+        existing = unique_by_key.get(signal.unique_key)
+        if existing is None:
+            unique_by_key[signal.unique_key] = signal
+        else:
+            unique_by_key[signal.unique_key] = merge_document_signals(existing, signal)
+
+    return sorted(
+        unique_by_key.values(),
+        key=lambda signal: (signal.macro_score, signal.sentiment_confidence, signal.title),
+        reverse=True,
+    )
+
+
+def aggregate_by_date(signals: list[DocumentSignal]) -> dict[str, dict[str, Any]]:
+    grouped_raw: dict[str, list[DocumentSignal]] = defaultdict(list)
+    for signal in signals:
+        grouped_raw[signal.date].append(signal)
+
+    grouped: dict[str, dict[str, Any]] = {}
+    for date, day_signals in grouped_raw.items():
+        unique_documents = dedupe_signals(day_signals)
+        daily_scores: defaultdict[str, int] = defaultdict(int)
+        theme_counts: Counter[str] = Counter()
+
+        for signal in unique_documents:
+            for theme, score in signal.scores.items():
+                daily_scores[theme] += score
+            for theme in signal.themes:
+                theme_counts[theme] += 1
+
+        grouped[date] = {
+            "scores": daily_scores,
+            "theme_counts": theme_counts,
+            "documents": unique_documents,
+        }
 
     return grouped
 
@@ -273,10 +364,10 @@ def aggregate_by_date(signals: list[DocumentSignal]) -> dict[str, dict[str, Any]
 def describe_score(theme: str, score: int) -> str:
     _ = theme
     if score > 0:
-        return "positive financial sentiment"
+        return "positive news sentiment"
     if score < 0:
-        return "negative financial sentiment"
-    return "neutral financial sentiment"
+        return "negative news sentiment"
+    return "neutral news sentiment"
 
 
 def describe_bucket(bucket: str, score: int) -> str:
@@ -291,7 +382,7 @@ def describe_bucket(bucket: str, score: int) -> str:
         "fx": describe_score("risk", score),
         "risk": describe_score("risk", score),
     }
-    return bucket_map.get(bucket, "neutral")
+    return bucket_map.get(bucket, "neutral news sentiment")
 
 
 def pick_bucket_score(bucket: str, scores: dict[str, int]) -> int:
@@ -306,145 +397,268 @@ def pick_bucket_score(bucket: str, scores: dict[str, int]) -> int:
         "fx": "risk",
         "risk": "risk",
     }
-    return scores[mapping.get(bucket, "risk")]
+    return scores.get(mapping.get(bucket, "risk"), 0)
 
 
 def build_daily_brief(date: str, daily_data: dict[str, Any]) -> str:
-    scores = daily_data["scores"]
-    inflation = describe_score("inflation", scores["inflation"])
-    growth = describe_score("growth", scores["growth"])
-    policy = describe_score("policy", scores["policy"])
-    liquidity = describe_score("liquidity", scores["liquidity"])
-    risk = describe_score("risk", scores["risk"])
-
+    news_sentiment = aggregate_news_sentiment(daily_data["documents"])
     top_theme = "none"
     if daily_data["theme_counts"]:
         top_theme = daily_data["theme_counts"].most_common(1)[0][0]
 
+    if news_sentiment["label"] == "insufficient_data":
+        return (
+            f"{date}: {news_sentiment['unique_documents']} unique articles were analyzed. "
+            f"Top theme: {top_theme}. There was not enough coverage for a reliable daily sentiment read."
+        )
+
     return (
-        f"{date}: inflation {inflation}, growth {growth}, policy {policy}, "
-        f"liquidity {liquidity}, risk {risk}. Top theme: {top_theme}."
+        f"{date}: {news_sentiment['unique_documents']} unique articles were analyzed. "
+        f"News sentiment was {news_sentiment['label'].replace('_', ' ')}. Top theme: {top_theme}."
     )
 
 
 def build_day_conclusion(daily_data: dict[str, Any]) -> str:
-    scores = daily_data["scores"]
-    positive_themes = [
-        theme
-        for theme, score in scores.items()
-        if score > 0 and daily_data["theme_counts"].get(theme, 0) > 0
-    ]
-    negative_themes = [
-        theme
-        for theme, score in scores.items()
-        if score < 0 and daily_data["theme_counts"].get(theme, 0) > 0
-    ]
-    sentiment_parts: list[str] = []
+    documents = daily_data["documents"]
+    if not documents:
+        return "Macro read: no qualifying macro headlines were available from the examined feeds."
 
-    if positive_themes:
-        sentiment_parts.append(
-            "positive financial sentiment around "
-            + ", ".join(positive_themes[:3])
-        )
-    if negative_themes:
-        sentiment_parts.append(
-            "negative financial sentiment around "
-            + ", ".join(negative_themes[:3])
-        )
-
+    news_sentiment = aggregate_news_sentiment(documents)
     visible_themes = [
         theme
         for theme, count in daily_data["theme_counts"].most_common()
         if theme != "uncategorized" and count > 0
     ]
+    theme_text = ", ".join(visible_themes[:3]) if visible_themes else "macro topics"
 
-    if not daily_data["documents"]:
+    if news_sentiment["label"] == "insufficient_data":
         return (
-            "Macro read: no qualifying macro headlines were available from the examined feeds."
+            "Macro read: there was not enough unique coverage to form a reliable daily "
+            "news sentiment signal."
+        )
+    if news_sentiment["label"] == "neutral":
+        return (
+            f"Macro read: coverage across {theme_text} was broadly neutral or mixed."
         )
 
-    if not sentiment_parts:
-        if visible_themes:
-            theme_text = ", ".join(visible_themes[:3])
-            return (
-                "Macro read: no strong daily signal. "
-                f"The examined feeds mentioned {theme_text}, but FinBERT read the "
-                "financial tone as neutral or mixed."
-            )
-        return (
-            "Macro read: no strong daily signal. "
-            "The examined feeds did not provide enough macro language for a "
-            "sentiment interpretation."
-        )
-
-    return f"Macro read: {', '.join(sentiment_parts)}."
+    return (
+        f"Macro read: {theme_text.title()} coverage showed a predominantly "
+        f"{news_sentiment['label']} tone."
+    )
 
 
 def build_market_map(market_data: list[MarketSnapshot]) -> dict[str, MarketSnapshot]:
     return {snapshot.symbol: snapshot for snapshot in market_data}
 
 
-def summarize_market(snapshot: MarketSnapshot) -> str:
-    sign_1d = "+" if snapshot.return_1d > 0 else ""
-    sign_5d = "+" if snapshot.return_5d > 0 else ""
-    return f"{snapshot.symbol} {sign_1d}{snapshot.return_1d:.2f}% 1d, {sign_5d}{snapshot.return_5d:.2f}% 5d"
+def aggregate_news_sentiment(documents: list[DocumentSignal]) -> dict[str, Any]:
+    unique_documents = dedupe_signals(documents)
+    total = len(unique_documents)
 
+    if total == 0:
+        return {
+            "label": "insufficient_data",
+            "score": 0.0,
+            "display_score": 0.0,
+            "unique_documents": 0,
+            "positive_pct": 0.0,
+            "neutral_pct": 0.0,
+            "negative_pct": 0.0,
+            "average_confidence": 0.0,
+        }
 
-def build_market_checks(
-    daily_scores: dict[str, int], market_map: dict[str, MarketSnapshot]
-) -> list[MarketCheck]:
-    _ = daily_scores
-    _ = market_map
-    return []
+    sentiment_values = [
+        NEWS_LABEL_TO_DIRECTION.get(document.sentiment_label, 0.0)
+        for document in unique_documents
+    ]
+    counts = Counter(document.sentiment_label for document in unique_documents)
+    average_confidence = sum(
+        document.sentiment_confidence for document in unique_documents
+    ) / total
+    score = sum(sentiment_values) / total
 
-
-def assess_market_confirmation(
-    daily_scores: dict[str, int], market_map: dict[str, MarketSnapshot]
-) -> tuple[str, list[MarketCheck]]:
-    if not market_map:
-        return (
-            "Market check: no market data was available for this run.",
-            [],
-        )
-
-    checks = build_market_checks(daily_scores, market_map)
-
-    if not checks:
-        return (
-            "Market check: market data is shown as context. Directional proxy "
-            "confirmation is not run because FinBERT measures financial tone, "
-            "not whether macro variables are rising or falling.",
-            [],
-        )
-
-    hits = sum(1 for check in checks if check.confirmed)
-    total = len(checks)
-    matched_labels = [check.label for check in checks if check.confirmed]
-
-    if matched_labels:
-        primary_label = matched_labels[0]
+    if total < MIN_UNIQUE_DOCUMENTS:
+        label = "insufficient_data"
+    elif score >= NEWS_SENTIMENT_POSITIVE_THRESHOLD:
+        label = "positive"
+    elif score <= NEWS_SENTIMENT_NEGATIVE_THRESHOLD:
+        label = "negative"
     else:
-        primary_label = checks[0].label
+        label = "neutral"
 
-    if hits == total:
-        return (
-            f"Market check: price action broadly confirms today's {primary_label} narrative.",
-            checks,
+    return {
+        "label": label,
+        "score": score,
+        "display_score": round(score, 2),
+        "unique_documents": total,
+        "positive_pct": round((counts.get("positive", 0) / total) * 100.0, 1),
+        "neutral_pct": round((counts.get("neutral", 0) / total) * 100.0, 1),
+        "negative_pct": round((counts.get("negative", 0) / total) * 100.0, 1),
+        "average_confidence": round(average_confidence, 3),
+    }
+
+
+def classify_market_regime(market_data: list[MarketSnapshot]) -> dict[str, Any]:
+    market_map = build_market_map(market_data)
+    available_symbols = [
+        symbol for symbol in MARKET_REGIME_WEIGHTS
+        if symbol in market_map
+    ]
+    contributions = {symbol: None for symbol in MARKET_REGIME_WEIGHTS}
+
+    if not PRIMARY_MARKET_SIGNALS.issubset(set(available_symbols)):
+        missing = sorted(PRIMARY_MARKET_SIGNALS - set(available_symbols))
+        return {
+            "label": "insufficient_data",
+            "score": 0.0,
+            "signals_used": 0,
+            "signals_available": len(available_symbols),
+            "contributions": contributions,
+            "explanation": (
+                "Market confirmation needs both SPY and HYG as the primary risk proxies."
+            ),
+            "data_quality_status": "missing_primary_signals",
+            "available_tickers": available_symbols,
+            "missing_tickers": missing,
+        }
+
+    if len(available_symbols) < 2:
+        return {
+            "label": "insufficient_data",
+            "score": 0.0,
+            "signals_used": 0,
+            "signals_available": len(available_symbols),
+            "contributions": contributions,
+            "explanation": "There were not enough usable market proxies to classify the day.",
+            "data_quality_status": "insufficient_signals",
+            "available_tickers": available_symbols,
+            "missing_tickers": sorted(
+                set(MARKET_REGIME_WEIGHTS) - set(available_symbols)
+            ),
+        }
+
+    weight_total = sum(MARKET_REGIME_WEIGHTS[symbol] for symbol in available_symbols)
+    normalized_weights = {
+        symbol: MARKET_REGIME_WEIGHTS[symbol] / weight_total
+        for symbol in available_symbols
+    }
+
+    valid_signal_count = 0
+    score = 0.0
+    for symbol in available_symbols:
+        snapshot = market_map[symbol]
+        move = snapshot.return_1d
+        contribution = 0.0
+        if move > MARKET_MOVE_THRESHOLD:
+            contribution = 1.0 if symbol in {"SPY", "HYG"} else -1.0
+        elif move < -MARKET_MOVE_THRESHOLD:
+            contribution = -1.0 if symbol in {"SPY", "HYG"} else 1.0
+
+        weighted_contribution = normalized_weights[symbol] * contribution
+        contributions[symbol] = round(weighted_contribution, 4)
+        score += weighted_contribution
+        valid_signal_count += 1
+
+    missing_tickers = sorted(set(MARKET_REGIME_WEIGHTS) - set(available_symbols))
+    if valid_signal_count < 2:
+        return {
+            "label": "insufficient_data",
+            "score": 0.0,
+            "signals_used": valid_signal_count,
+            "signals_available": len(available_symbols),
+            "contributions": contributions,
+            "explanation": "There were not enough usable market proxies to classify the day.",
+            "data_quality_status": "insufficient_signals",
+            "available_tickers": available_symbols,
+            "missing_tickers": missing_tickers,
+        }
+
+    if score >= MARKET_REGIME_POSITIVE_THRESHOLD:
+        label = "risk_on"
+        explanation = "Primary market proxies showed a broadly risk-on response."
+    elif score <= MARKET_REGIME_NEGATIVE_THRESHOLD:
+        label = "risk_off"
+        explanation = "Primary market proxies showed a broadly risk-off response."
+    else:
+        label = "mixed"
+        explanation = "The major market proxies gave a mixed risk signal."
+
+    data_quality_status = "complete" if not missing_tickers else "partial"
+    return {
+        "label": label,
+        "score": score,
+        "signals_used": valid_signal_count,
+        "signals_available": len(available_symbols),
+        "contributions": contributions,
+        "explanation": explanation,
+        "data_quality_status": data_quality_status,
+        "available_tickers": available_symbols,
+        "missing_tickers": missing_tickers,
+    }
+
+
+def compare_sentiment_with_market(
+    news_sentiment: dict[str, Any],
+    market_regime: dict[str, Any],
+) -> dict[str, str]:
+    news_label = str(news_sentiment.get("label", "insufficient_data"))
+    market_label = str(market_regime.get("label", "insufficient_data"))
+
+    if "insufficient_data" in {news_label, market_label}:
+        status = "insufficient_data"
+        explanation = (
+            "There was not enough reliable news or market data to evaluate confirmation."
         )
-    if hits == 0:
-        return (
-            "Market check: price action is diverging from today's narrative.",
-            checks,
+    elif news_label == "positive" and market_label == "risk_on":
+        status = "confirmed"
+        explanation = (
+            "News sentiment and the market’s risk response moved in the same direction."
         )
-    return (
-        f"Market check: mixed confirmation, with {hits} of {total} market checks aligned.",
-        checks,
-    )
+    elif news_label == "negative" and market_label == "risk_off":
+        status = "confirmed"
+        explanation = (
+            "News sentiment and the market’s risk response moved in the same direction."
+        )
+    elif news_label == "positive" and market_label == "risk_off":
+        status = "divergent"
+        explanation = (
+            "News sentiment and the market reaction diverged. The market may have been "
+            "responding to other catalysts or information already priced in."
+        )
+    elif news_label == "negative" and market_label == "risk_on":
+        status = "divergent"
+        explanation = (
+            "News sentiment and the market reaction diverged. The market may have been "
+            "responding to other catalysts or information already priced in."
+        )
+    elif news_label in {"positive", "negative"} and market_label == "mixed":
+        status = "unconfirmed"
+        explanation = (
+            "News sentiment had a directional bias, but the broader market response was mixed."
+        )
+    elif news_label == "neutral" and market_label in {"risk_on", "risk_off"}:
+        status = "market_led"
+        explanation = (
+            "News sentiment was neutral, while markets showed a clearer directional response."
+        )
+    else:
+        status = "neutral"
+        explanation = (
+            "Both news sentiment and the broader market response were broadly neutral."
+        )
+
+    return {
+        "status": status,
+        "label": CONFIRMATION_LABELS[status],
+        "explanation": explanation,
+        "news_label": news_label,
+        "market_label": market_label,
+    }
 
 
 def group_documents_by_bucket(documents: list[DocumentSignal]) -> dict[str, list[DocumentSignal]]:
     grouped: dict[str, list[DocumentSignal]] = defaultdict(list)
-    for document in documents:
+    for document in dedupe_signals(documents):
         buckets = document.macro_buckets or [
             theme for theme in document.themes if theme != "uncategorized"
         ]
@@ -504,6 +718,23 @@ def select_priority_buckets(bucket_views: list[BucketView], limit: int = 4) -> l
     return priority[:limit]
 
 
+def serialize_document(signal: DocumentSignal) -> dict[str, Any]:
+    return {
+        "doc_id": signal.doc_id,
+        "title": signal.title,
+        "source": signal.source,
+        "url": signal.url,
+        "confidence": signal.confidence,
+        "sentiment_label": signal.sentiment_label,
+        "sentiment_confidence": signal.sentiment_confidence,
+        "summary_label": signal.summary_label,
+        "macro_score": signal.macro_score,
+        "macro_buckets": signal.macro_buckets,
+        "themes": signal.themes,
+        "scores": signal.scores,
+    }
+
+
 def format_debug_document(signal: DocumentSignal) -> str:
     scores = ", ".join(
         f"{theme}={score}"
@@ -530,24 +761,39 @@ def build_report_data(
     debug: bool = False,
 ) -> list[dict[str, Any]]:
     grouped = aggregate_by_date(signals)
-    market_map = build_market_map(market_data or [])
+    market_data = market_data or []
+    market_map = build_market_map(market_data)
+    market_regime = classify_market_regime(market_data) if market_data else {
+        "label": "insufficient_data",
+        "score": 0.0,
+        "signals_used": 0,
+        "signals_available": 0,
+        "contributions": {symbol: None for symbol in MARKET_REGIME_WEIGHTS},
+        "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+        "data_quality_status": "missing_market_data",
+        "available_tickers": [],
+        "missing_tickers": sorted(MARKET_REGIME_WEIGHTS),
+    }
     reports: list[dict[str, Any]] = []
 
     for date in sorted(grouped):
         daily_data = grouped[date]
-        bucket_views = build_bucket_views(daily_data["documents"], daily_data["scores"])
+        unique_documents = dedupe_signals(daily_data["documents"])
+        news_sentiment = aggregate_news_sentiment(unique_documents)
+        confirmation = compare_sentiment_with_market(news_sentiment, market_regime)
+        bucket_views = build_bucket_views(unique_documents, daily_data["scores"])
         selected_buckets = bucket_views if debug else select_priority_buckets(bucket_views)
 
         report_entry = {
             "date": date,
             "daily_brief": build_daily_brief(date, daily_data),
             "macro_read": build_day_conclusion(daily_data),
-            "market_confirmation": None,
+            "market_confirmation": confirmation["explanation"],
             "market_checks": [],
             "feed_sources": sorted(
                 {
                     signal.feed_url
-                    for signal in daily_data["documents"]
+                    for signal in unique_documents
                     if signal.feed_url
                 }
             ),
@@ -559,8 +805,23 @@ def build_report_data(
                     "return_5d": market_map[symbol].return_5d,
                     "close": market_map[symbol].close,
                 }
-                for symbol in ("SPY", "TLT", "UUP", "USO", "HYG", "GLD")
+                for symbol in MARKET_SNAPSHOT_ORDER
                 if symbol in market_map
+            ],
+            "news_sentiment": news_sentiment,
+            "market_regime": {
+                "label": market_regime["label"],
+                "score": round(float(market_regime["score"]), 2),
+                "signals_used": market_regime["signals_used"],
+                "signals_available": market_regime["signals_available"],
+                "contributions": market_regime["contributions"],
+                "explanation": market_regime["explanation"],
+                "data_quality_status": market_regime["data_quality_status"],
+            },
+            "confirmation": confirmation,
+            "analyzed_coverage": [
+                serialize_document(signal)
+                for signal in unique_documents
             ],
             "bucket_views": [
                 {
@@ -568,54 +829,17 @@ def build_report_data(
                     "label": bucket_view.label,
                     "score": bucket_view.score,
                     "documents": [
-                        {
-                            "title": signal.title,
-                            "source": signal.source,
-                            "confidence": signal.confidence,
-                            "sentiment_label": signal.sentiment_label,
-                            "sentiment_confidence": signal.sentiment_confidence,
-                            "summary_label": signal.summary_label,
-                            "macro_score": signal.macro_score,
-                            "macro_buckets": signal.macro_buckets,
-                            "themes": signal.themes,
-                            "scores": signal.scores,
-                        }
+                        serialize_document(signal)
                         for signal in bucket_view.documents[:3]
                     ],
                 }
                 for bucket_view in selected_buckets
             ],
             "debug_documents": [
-                {
-                    "title": signal.title,
-                    "source": signal.source,
-                    "confidence": signal.confidence,
-                    "sentiment_label": signal.sentiment_label,
-                    "sentiment_confidence": signal.sentiment_confidence,
-                    "summary_label": signal.summary_label,
-                    "macro_score": signal.macro_score,
-                    "macro_buckets": signal.macro_buckets,
-                    "themes": signal.themes,
-                    "scores": signal.scores,
-                }
-                for signal in daily_data["documents"]
-            ]
-            if debug
-            else [],
+                serialize_document(signal)
+                for signal in unique_documents
+            ] if debug else [],
         }
-        if market_map:
-            market_confirmation, market_checks = assess_market_confirmation(
-                daily_data["scores"], market_map
-            )
-            report_entry["market_confirmation"] = market_confirmation
-            report_entry["market_checks"] = [
-                {
-                    "label": check.label,
-                    "expected": check.expected,
-                    "confirmed": check.confirmed,
-                }
-                for check in market_checks
-            ]
         reports.append(report_entry)
 
     return reports
@@ -633,8 +857,19 @@ def render_report(
     for report in build_report_data(signals, market_data=market_data, debug=debug):
         lines.append(report["daily_brief"])
         lines.append(report["macro_read"])
-        if report["market_confirmation"]:
-            lines.append(report["market_confirmation"])
+        lines.append(
+            f"News sentiment: {report['news_sentiment']['label']} "
+            f"({report['news_sentiment']['display_score']:+.2f})"
+        )
+        lines.append(
+            f"Market response: {report['market_regime']['label']} "
+            f"({float(report['market_regime']['score']):+.2f})"
+        )
+        lines.append(
+            f"Confirmation: {report['confirmation']['label']} - "
+            f"{report['confirmation']['explanation']}"
+        )
+        if report["market_snapshot"]:
             lines.append(
                 "Market snapshot: "
                 + "; ".join(
@@ -642,7 +877,6 @@ def render_report(
                     f"{'+' if item['return_1d'] > 0 else ''}{item['return_1d']:.2f}% 1d, "
                     f"{'+' if item['return_5d'] > 0 else ''}{item['return_5d']:.2f}% 5d"
                     for item in report["market_snapshot"]
-                    if item["symbol"] in {"SPY", "TLT", "UUP", "USO", "HYG"}
                 )
             )
         lines.append("")
@@ -651,11 +885,9 @@ def render_report(
             lines.append(f"{bucket_view['name'].upper()} | {bucket_view['label']}")
             for signal in bucket_view["documents"]:
                 themes = ", ".join(signal["themes"]) or "none"
-                score = pick_bucket_score(str(bucket_view["name"]), signal["scores"])
                 extra = (
-                    f" | FinBERT={signal['sentiment_label']} "
+                    f" | sentiment={signal['sentiment_label']} "
                     f"({float(signal['sentiment_confidence']):.3f})"
-                    f" | score={score}"
                     f" | themes={themes}"
                 )
                 if signal["macro_score"] and debug:
@@ -667,11 +899,15 @@ def render_report(
             lines.append("Debug documents:")
             for signal in report["debug_documents"]:
                 debug_signal = DocumentSignal(
-                    doc_id="debug",
+                    doc_id=signal["doc_id"],
                     date=report["date"],
                     source=signal["source"],
                     feed_url="",
+                    url=signal["url"],
                     title=signal["title"],
+                    unique_key=build_document_unique_key(
+                        signal["title"], signal["url"], signal["doc_id"]
+                    ),
                     themes=signal["themes"],
                     scores=signal["scores"],
                     confidence=signal["confidence"],
