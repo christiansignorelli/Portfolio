@@ -324,9 +324,50 @@ def build_methodology_card() -> str:
     <div class="card">
       <div class="kicker">Methodology</div>
       <p class="subtle">
-        News sentiment is classified with FinBERT, a financial-language model that labels
-        text as positive, neutral, or negative. The model measures financial tone; it does
-        not directly determine whether individual macroeconomic variables are rising or falling.
+        This report is generated from a rules-based workflow that combines public financial
+        news with daily market proxy moves. The goal is to summarize the day in a transparent,
+        low-cost, and methodologically cautious way.
+      </p>
+      <p class="subtle">
+        1. News collection: The system gathers headlines and summaries from a small set of
+        public financial RSS feeds. Only macro-relevant coverage is kept for analysis.
+      </p>
+      <p class="subtle">
+        2. Theme detection: Each article is tagged with one or more macro themes such as
+        policy, inflation, growth, liquidity, FX, energy, or risk. Theme tags help organize
+        the coverage, but they do not determine the final daily sentiment on their own.
+      </p>
+      <p class="subtle">
+        3. News sentiment classification: News sentiment is classified with FinBERT, a
+        financial-language model that labels text as positive, neutral, or negative. The
+        model measures financial tone; it does not directly determine whether individual
+        macroeconomic variables are rising or falling.
+      </p>
+      <p class="subtle">
+        4. Daily sentiment aggregation: The daily result is based on unique documents only.
+        If the same article appears under more than one theme, it is still counted once in
+        the daily sentiment score. Individual labels are converted into a simple numerical
+        scale and averaged to produce the aggregated daily news sentiment.
+      </p>
+      <p class="subtle">
+        5. Market response classification: The market side is evaluated using a small basket
+        of daily risk proxies. SPY and HYG are the primary signals, while TLT and GLD are
+        treated as secondary defensive signals. UUP and USO are shown as context, but they
+        are not used to determine the main regime because their interpretation is more
+        conditional.
+      </p>
+      <p class="subtle">
+        6. News-market confirmation: The confirmation step compares aggregated news sentiment
+        with the market’s broader risk-on, risk-off, or mixed response. A match suggests
+        that both moved in the same general direction. A mismatch does not mean the model
+        failed: markets may be reacting to other catalysts, delayed repricing, incomplete
+        information, or news that was already priced in.
+      </p>
+      <p class="subtle">
+        7. Interpretation limits: This framework is designed for transparency, not false
+        precision. It does not claim causality, predictive power, or trading accuracy. It is
+        a structured daily read on how financial news tone and market behavior related to
+        each other on a given day.
       </p>
     </div>
     """
