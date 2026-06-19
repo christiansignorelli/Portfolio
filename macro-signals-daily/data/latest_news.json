@@ -1,57 +1,55 @@
 [
   {
-    "id": "www.investing.com-2026-06-18T23-03-56+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-18T23:03:56+00:00",
-    "title": "Dollar hits one-year high on Fed hike bets; Japan warns on yen",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-clings-to-twomonth-peak-as-fed-ratehike-bets-mount-yen-slides-4748858",
-    "macro_score": 9,
+    "id": "www.marketwatch.com-2026-06-19T16-05-00+00-00-9",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-06-19T16:05:00+00:00",
+    "title": "Oil prices face fresh wave of volatility amid conflicting reports about Strait of Hormuz reopening and ongoing regional strife",
+    "body": "A flurry of headlines on Friday point to an increasingly fragile deal between the U.S. and Iran.",
+    "url": "https://www.marketwatch.com/story/oil-prices-under-new-wave-of-pressure-amid-lingering-questions-over-a-strait-of-hormuz-reopening-c58fc9e8?mod=mw_rss_topstories",
+    "macro_score": 8,
     "macro_buckets": [
-      "policy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-18T23-03-56+00-00-8",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-18T23:03:56+00:00",
-    "title": "ECB\u2019s Escriva warns of uncertainty in baseline economic scenario",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecbs-escriva-warns-of-uncertainty-in-baseline-economic-scenario-93CH-4750499",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-18T23-03-56+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-18T23:03:56+00:00",
-    "title": "Trading Day: Stocks rally, oil hits pre-Iran-war lows as Strait of Hormuz reopens for business",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/trading-day-stocks-rally-oil-hits-preiranwar-lows-as-strait-of-hormuz-reopens-for-business-4750944",
-    "macro_score": 5,
-    "macro_buckets": [
+      "inflation",
       "energy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-06-18T21-14-00+00-00-8",
+    "id": "www.marketwatch.com-2026-06-19T17-25-00+00-00-5",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-18T21:14:00+00:00",
-    "title": "Dollar touches highest level in more than a year. Why this latest rally might be overdone.",
-    "body": "The U.S. dollar headed Thursday for its highest close in more than a year, as investors continued to digest the Federal Reserve\u2019s Wednesday meeting, which revived the possibility of further interest-rate increases.",
-    "url": "https://www.marketwatch.com/story/dollar-touches-highest-level-in-more-than-a-year-why-this-latest-rally-might-be-overdone-28194ce1?mod=mw_rss_topstories",
-    "macro_score": 4,
+    "published_at": "2026-06-19T17:25:00+00:00",
+    "title": "Warsh\u2019s new task forces give the Fed wiggle room to put off changing rates until December",
+    "body": "During his first press conference as Fed chair Wednesday, Kevin Warsh repeated one refrain in his answers to many reporters\u2019 questions: A task force is looking into it.",
+    "url": "https://www.marketwatch.com/story/warshs-task-forces-give-the-fed-wiggle-room-to-put-off-changing-rates-until-december-364fc1fc?mod=mw_rss_topstories",
+    "macro_score": 7,
     "macro_buckets": [
-      "policy",
-      "fx"
+      "policy"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-06-19T17-08-00+00-00-6",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-06-19T17:08:00+00:00",
+    "title": "Trump picked Kevin Warsh to cut rates. The new Fed chief just told us he has other plans.",
+    "body": "Here\u2019s what the central bank\u2019s hawkish agenda means for your money.",
+    "url": "https://www.marketwatch.com/story/trump-picked-kevin-warsh-to-cut-rates-the-new-fed-chief-just-told-us-he-has-other-plans-096bba56?mod=mw_rss_topstories",
+    "macro_score": 7,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-19T22-13-25+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-19T22:13:25+00:00",
+    "title": "Russian central bank trims rate by 25 bps to 14.25% amid fuel supply, budget risks",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/russian-central-bank-trims-rate-by-25-bps-to-1425-amid-fuel-supply-budget-risks-4751499",
+    "macro_score": 5,
+    "macro_buckets": [
+      "policy"
     ]
   }
 ]
