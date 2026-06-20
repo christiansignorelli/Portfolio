@@ -36,10 +36,10 @@
     {
       "symbol": "UUP",
       "label": "US dollar proxy",
-      "as_of": "2026-06-18",
-      "close": 28.299999237060547,
-      "return_1d": 0.43,
-      "return_5d": 1.25
+      "as_of": "2026-06-17",
+      "close": 28.18000030517578,
+      "return_1d": 0.9,
+      "return_5d": 0.46
     },
     {
       "symbol": "HYG",
