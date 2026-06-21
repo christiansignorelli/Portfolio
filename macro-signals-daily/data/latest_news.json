@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "www.marketwatch.com-2026-06-21T13-00-00+00-00-8",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-06-21T13:00:00+00:00",
+    "title": "This bull market isn\u2019t going to end because of Fed rate hikes under Warsh",
+    "body": "Warsh may hope the threat of rate hikes is enough. But stocks might gain ground if he does, and past rate-hike cycles can be a guide.",
+    "url": "https://www.marketwatch.com/story/this-bull-market-isnt-going-to-end-because-of-fed-rate-hikes-under-warsh-8f63fa85?mod=mw_rss_topstories",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-21T22-23-16+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-21T22:23:16+00:00",
+    "title": "France faces economic slack as structural shifts weigh on demand- Citi",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/france-faces-economic-slack-as-structural-shifts-weigh-on-demand-citi-4751681",
+    "macro_score": 4,
+    "macro_buckets": [
+      "growth"
+    ]
+  }
+]

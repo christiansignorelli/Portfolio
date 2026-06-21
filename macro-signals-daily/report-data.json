@@ -1,1 +1,203 @@
-[]
+[
+  {
+    "date": "2026-06-21",
+    "daily_brief": "2026-06-21: 2 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": 0.78,
+        "return_5d": 1.22,
+        "close": 746.739990234375
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.49,
+        "return_5d": 0.9,
+        "close": 86.75
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.43,
+        "return_5d": 1.25,
+        "close": 28.299999237060547
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 0.56,
+        "return_5d": -10.84,
+        "close": 114.87000274658203
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": 0.35,
+        "return_5d": 0.09,
+        "close": 80.01000213623047
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": -0.38,
+        "return_5d": 0.21,
+        "close": 387.1199951171875
+      }
+    ],
+    "news_sentiment": {
+      "label": "insufficient_data",
+      "score": -0.5,
+      "display_score": -0.5,
+      "unique_documents": 2,
+      "positive_pct": 0.0,
+      "neutral_pct": 50.0,
+      "negative_pct": 50.0,
+      "average_confidence": 0.791
+    },
+    "market_regime": {
+      "label": "risk_on",
+      "score": 0.7,
+      "signals_used": 4,
+      "signals_available": 4,
+      "contributions": {
+        "SPY": 0.4,
+        "HYG": 0.35,
+        "TLT": -0.15,
+        "GLD": 0.1
+      },
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "data_quality_status": "complete"
+    },
+    "confirmation": {
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "risk_on"
+    },
+    "analyzed_coverage": [
+      {
+        "doc_id": "www.marketwatch.com-2026-06-21T13-00-00+00-00-8",
+        "title": "This bull market isn\u2019t going to end because of Fed rate hikes under Warsh",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/this-bull-market-isnt-going-to-end-because-of-fed-rate-hikes-under-warsh-8f63fa85?mod=mw_rss_topstories",
+        "confidence": "low",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.6316056251525879,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-06-21T22-23-16+00-00-1",
+        "title": "France faces economic slack as structural shifts weigh on demand- Citi",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/france-faces-economic-slack-as-structural-shifts-weigh-on-demand-citi-4751681",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9495029449462891,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "growth"
+        ],
+        "themes": [
+          "growth"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": -2,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "growth",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-06-21T22-23-16+00-00-1",
+            "title": "France faces economic slack as structural shifts weigh on demand- Citi",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/france-faces-economic-slack-as-structural-shifts-weigh-on-demand-citi-4751681",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9495029449462891,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "growth"
+            ],
+            "themes": [
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": -2,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-06-21T13-00-00+00-00-8",
+            "title": "This bull market isn\u2019t going to end because of Fed rate hikes under Warsh",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/this-bull-market-isnt-going-to-end-because-of-fed-rate-hikes-under-warsh-8f63fa85?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.6316056251525879,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  }
+]
