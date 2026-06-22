@@ -1,28 +1,57 @@
 [
   {
-    "id": "www.marketwatch.com-2026-06-21T13-00-00+00-00-8",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-21T13:00:00+00:00",
-    "title": "This bull market isn\u2019t going to end because of Fed rate hikes under Warsh",
-    "body": "Warsh may hope the threat of rate hikes is enough. But stocks might gain ground if he does, and past rate-hike cycles can be a guide.",
-    "url": "https://www.marketwatch.com/story/this-bull-market-isnt-going-to-end-because-of-fed-rate-hikes-under-warsh-8f63fa85?mod=mw_rss_topstories",
-    "macro_score": 6,
+    "id": "www.investing.com-2026-06-22T22-54-38+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-22T22:54:38+00:00",
+    "title": "Fed\u2019s Goolsbee says labor market stable, inflation going the wrong way",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-labor-market-stable-inflation-going-the-wrong-way-4754153",
+    "macro_score": 11,
     "macro_buckets": [
-      "policy"
+      "policy",
+      "inflation",
+      "labor"
     ]
   },
   {
-    "id": "www.investing.com-2026-06-21T22-23-16+00-00-1",
+    "id": "www.investing.com-2026-06-22T22-54-38+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-21T22:23:16+00:00",
-    "title": "France faces economic slack as structural shifts weigh on demand- Citi",
+    "published_at": "2026-06-22T22:54:38+00:00",
+    "title": "Japan\u2019s Katayama, US Treasury\u2019s Bessent hold online talks to discuss yen, TBS reports",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/france-faces-economic-slack-as-structural-shifts-weigh-on-demand-citi-4751681",
+    "url": "https://www.investing.com/news/economy-news/japans-katayama-us-treasurys-bessent-hold-online-talks-to-discuss-yen-tbs-reports-4754200",
+    "macro_score": 6,
+    "macro_buckets": [
+      "rates",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-22T22-54-38+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-22T22:54:38+00:00",
+    "title": "Stocks flat, oil falls as rate worries offset Iran talks optimism",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/stocks-slip-in-asia-oil-up-on-peace-doubts-4751702",
+    "macro_score": 5,
+    "macro_buckets": [
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-22T22-54-38+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-22T22:54:38+00:00",
+    "title": "Japan\u2019s FX messaging keeps markets on edge over yen intervention risk",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/japans-fx-messaging-keeps-markets-on-edge-over-yen-intervention-risk-4751963",
     "macro_score": 4,
     "macro_buckets": [
-      "growth"
+      "fx"
     ]
   }
 ]
