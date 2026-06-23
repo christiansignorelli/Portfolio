@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-06-22",
-    "daily_brief": "2026-06-22: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Growth, Policy coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment had a directional bias, but the broader market response was mixed.",
+    "date": "2026-06-23",
+    "daily_brief": "2026-06-23: 2 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
@@ -12,119 +12,115 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.31,
-        "return_5d": 0.36,
-        "close": 744.3900146484375
+        "return_1d": -1.45,
+        "return_5d": -2.82,
+        "close": 733.5800170898438
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.76,
-        "return_5d": 0.37,
-        "close": 86.08999633789062
+        "return_1d": 0.13,
+        "return_5d": 0.56,
+        "close": 86.19999694824219
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.21,
-        "return_5d": 1.47,
-        "close": 28.360000610351562
+        "return_1d": 0.32,
+        "return_5d": 1.72,
+        "close": 28.450000762939453
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -1.9,
-        "return_5d": -10.16,
-        "close": 112.69000244140625
+        "return_1d": -1.27,
+        "return_5d": -8.21,
+        "close": 111.26000213623047
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
         "return_1d": -0.09,
-        "return_5d": 0.0,
-        "close": 79.94000244140625
+        "return_5d": -0.21,
+        "close": 79.87000274658203
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.65,
-        "return_5d": -0.5,
-        "close": 384.5899963378906
+        "return_1d": -1.89,
+        "return_5d": -4.85,
+        "close": 377.32000732421875
       }
     ],
     "news_sentiment": {
-      "label": "negative",
-      "score": -0.75,
-      "display_score": -0.75,
-      "unique_documents": 4,
-      "positive_pct": 0.0,
-      "neutral_pct": 25.0,
-      "negative_pct": 75.0,
-      "average_confidence": 0.836
+      "label": "insufficient_data",
+      "score": 0.5,
+      "display_score": 0.5,
+      "unique_documents": 2,
+      "positive_pct": 50.0,
+      "neutral_pct": 50.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.82
     },
     "market_regime": {
-      "label": "mixed",
-      "score": -0.15,
+      "label": "risk_off",
+      "score": -0.3,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
         "SPY": -0.4,
         "HYG": 0.0,
-        "TLT": 0.15,
+        "TLT": 0.0,
         "GLD": 0.1
       },
-      "explanation": "The major market proxies gave a mixed risk signal.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "unconfirmed",
-      "label": "Unconfirmed",
-      "explanation": "News sentiment had a directional bias, but the broader market response was mixed.",
-      "news_label": "negative",
-      "market_label": "mixed"
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-06-22T22-54-38+00-00-5",
-        "title": "Fed\u2019s Goolsbee says labor market stable, inflation going the wrong way",
+        "doc_id": "www.investing.com-2026-06-23T22-22-58+00-00-8",
+        "title": "Dollar climbs to 13-month high on Fed hike bets, safe-haven bid",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-labor-market-stable-inflation-going-the-wrong-way-4754153",
+        "url": "https://www.investing.com/news/economy-news/dollar-firms-on-hawkish-fed-bets-oil-rebound-yen-near-40year-low-4754589",
         "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8660962581634521,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 11,
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.8682681918144226,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 8,
         "macro_buckets": [
           "policy",
-          "inflation",
-          "labor"
+          "fx"
         ],
         "themes": [
-          "inflation",
-          "growth",
           "policy"
         ],
         "scores": {
-          "inflation": -2,
-          "growth": -2,
-          "policy": -2,
+          "inflation": 0,
+          "growth": 0,
+          "policy": 2,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-06-22T22-54-38+00-00-4",
-        "title": "Japan\u2019s Katayama, US Treasury\u2019s Bessent hold online talks to discuss yen, TBS reports",
+        "doc_id": "www.investing.com-2026-06-23T22-22-58+00-00-9",
+        "title": "Mexico issues $6.3bn in bonds to refinance shorter-term debt",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/japans-katayama-us-treasurys-bessent-hold-online-talks-to-discuss-yen-tbs-reports-4754200",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/mexico-issues-63bn-in-bonds-to-refinance-shorterterm-debt-93CH-4756263",
+        "confidence": "medium",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.9220612645149231,
+        "sentiment_confidence": 0.7712691426277161,
         "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
+        "macro_score": 4,
         "macro_buckets": [
-          "rates",
-          "fx"
+          "rates"
         ],
         "themes": [
           "uncategorized"
@@ -136,86 +132,35 @@
           "liquidity": 0,
           "risk": 0
         }
-      },
-      {
-        "doc_id": "www.investing.com-2026-06-22T22-54-38+00-00-9",
-        "title": "Stocks flat, oil falls as rate worries offset Iran talks optimism",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/stocks-slip-in-asia-oil-up-on-peace-doubts-4751702",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8808902502059937,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-06-22T22-54-38+00-00-3",
-        "title": "Japan\u2019s FX messaging keeps markets on edge over yen intervention risk",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/japans-fx-messaging-keeps-markets-on-edge-over-yen-intervention-risk-4751963",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.6737434267997742,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "fx"
-        ],
-        "themes": [
-          "risk"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": -1
-        }
       }
     ],
     "bucket_views": [
       {
-        "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -4,
+        "name": "policy",
+        "label": "positive news sentiment",
+        "score": 2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-06-22T22-54-38+00-00-5",
-            "title": "Fed\u2019s Goolsbee says labor market stable, inflation going the wrong way",
+            "doc_id": "www.investing.com-2026-06-23T22-22-58+00-00-8",
+            "title": "Dollar climbs to 13-month high on Fed hike bets, safe-haven bid",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-labor-market-stable-inflation-going-the-wrong-way-4754153",
+            "url": "https://www.investing.com/news/economy-news/dollar-firms-on-hawkish-fed-bets-oil-rebound-yen-near-40year-low-4754589",
             "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8660962581634521,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 11,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8682681918144226,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 8,
             "macro_buckets": [
               "policy",
-              "inflation",
-              "labor"
+              "fx"
             ],
             "themes": [
-              "inflation",
-              "growth",
               "policy"
             ],
             "scores": {
-              "inflation": -2,
-              "growth": -2,
-              "policy": -2,
+              "inflation": 0,
+              "growth": 0,
+              "policy": 2,
               "liquidity": 0,
               "risk": 0
             }
@@ -223,100 +168,62 @@
         ]
       },
       {
-        "name": "energy",
-        "label": "negative news sentiment",
-        "score": -4,
+        "name": "fx",
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-06-22T22-54-38+00-00-9",
-            "title": "Stocks flat, oil falls as rate worries offset Iran talks optimism",
+            "doc_id": "www.investing.com-2026-06-23T22-22-58+00-00-8",
+            "title": "Dollar climbs to 13-month high on Fed hike bets, safe-haven bid",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/stocks-slip-in-asia-oil-up-on-peace-doubts-4751702",
+            "url": "https://www.investing.com/news/economy-news/dollar-firms-on-hawkish-fed-bets-oil-rebound-yen-near-40year-low-4754589",
             "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8808902502059937,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 5,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8682681918144226,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 8,
             "macro_buckets": [
-              "energy"
+              "policy",
+              "fx"
             ],
             "themes": [
-              "inflation"
+              "policy"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 0,
+              "growth": 0,
+              "policy": 2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-06-23T22-22-58+00-00-9",
+            "title": "Mexico issues $6.3bn in bonds to refinance shorter-term debt",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/mexico-issues-63bn-in-bonds-to-refinance-shorterterm-debt-93CH-4756263",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7712691426277161,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "rates"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "policy",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-06-22T22-54-38+00-00-5",
-            "title": "Fed\u2019s Goolsbee says labor market stable, inflation going the wrong way",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-labor-market-stable-inflation-going-the-wrong-way-4754153",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8660962581634521,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 11,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "labor"
-            ],
-            "themes": [
-              "inflation",
-              "growth",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": -2,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "labor",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-06-22T22-54-38+00-00-5",
-            "title": "Fed\u2019s Goolsbee says labor market stable, inflation going the wrong way",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-labor-market-stable-inflation-going-the-wrong-way-4754153",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8660962581634521,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 11,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "labor"
-            ],
-            "themes": [
-              "inflation",
-              "growth",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": -2,
-              "policy": -2,
               "liquidity": 0,
               "risk": 0
             }

@@ -1,57 +1,29 @@
 [
   {
-    "id": "www.investing.com-2026-06-22T22-54-38+00-00-5",
+    "id": "www.investing.com-2026-06-23T22-22-58+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-22T22:54:38+00:00",
-    "title": "Fed\u2019s Goolsbee says labor market stable, inflation going the wrong way",
+    "published_at": "2026-06-23T22:22:58+00:00",
+    "title": "Dollar climbs to 13-month high on Fed hike bets, safe-haven bid",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-labor-market-stable-inflation-going-the-wrong-way-4754153",
-    "macro_score": 11,
+    "url": "https://www.investing.com/news/economy-news/dollar-firms-on-hawkish-fed-bets-oil-rebound-yen-near-40year-low-4754589",
+    "macro_score": 8,
     "macro_buckets": [
       "policy",
-      "inflation",
-      "labor"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-22T22-54-38+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-22T22:54:38+00:00",
-    "title": "Japan\u2019s Katayama, US Treasury\u2019s Bessent hold online talks to discuss yen, TBS reports",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/japans-katayama-us-treasurys-bessent-hold-online-talks-to-discuss-yen-tbs-reports-4754200",
-    "macro_score": 6,
-    "macro_buckets": [
-      "rates",
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-06-22T22-54-38+00-00-9",
+    "id": "www.investing.com-2026-06-23T22-22-58+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-22T22:54:38+00:00",
-    "title": "Stocks flat, oil falls as rate worries offset Iran talks optimism",
+    "published_at": "2026-06-23T22:22:58+00:00",
+    "title": "Mexico issues $6.3bn in bonds to refinance shorter-term debt",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/stocks-slip-in-asia-oil-up-on-peace-doubts-4751702",
-    "macro_score": 5,
-    "macro_buckets": [
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-22T22-54-38+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-22T22:54:38+00:00",
-    "title": "Japan\u2019s FX messaging keeps markets on edge over yen intervention risk",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/japans-fx-messaging-keeps-markets-on-edge-over-yen-intervention-risk-4751963",
+    "url": "https://www.investing.com/news/economy-news/mexico-issues-63bn-in-bonds-to-refinance-shorterterm-debt-93CH-4756263",
     "macro_score": 4,
     "macro_buckets": [
-      "fx"
+      "rates"
     ]
   }
 ]
