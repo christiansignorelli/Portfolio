@@ -1,99 +1,100 @@
 [
   {
-    "date": "2026-06-23",
-    "daily_brief": "2026-06-23: 2 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
-    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
-    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "date": "2026-06-24",
+    "daily_brief": "2026-06-24: 5 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Inflation, Growth coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment had a directional bias, but the broader market response was mixed.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -1.45,
-        "return_5d": -2.82,
-        "close": 733.5800170898438
+        "return_1d": -0.05,
+        "return_5d": -2.28,
+        "close": 733.239990234375
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.13,
-        "return_5d": 0.56,
-        "close": 86.19999694824219
+        "return_1d": 1.37,
+        "return_5d": 1.38,
+        "close": 87.37999725341797
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.32,
-        "return_5d": 1.72,
-        "close": 28.450000762939453
+        "return_1d": 0.28,
+        "return_5d": 2.15,
+        "close": 28.530000686645508
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -1.27,
-        "return_5d": -8.21,
-        "close": 111.26000213623047
+        "return_1d": -4.47,
+        "return_5d": -7.95,
+        "close": 106.29000091552734
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.09,
-        "return_5d": -0.21,
-        "close": 79.87000274658203
+        "return_1d": -0.03,
+        "return_5d": -0.22,
+        "close": 79.8499984741211
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -1.89,
-        "return_5d": -4.85,
-        "close": 377.32000732421875
+        "return_1d": -3.02,
+        "return_5d": -7.97,
+        "close": 365.9200134277344
       }
     ],
     "news_sentiment": {
-      "label": "insufficient_data",
-      "score": 0.5,
-      "display_score": 0.5,
-      "unique_documents": 2,
-      "positive_pct": 50.0,
-      "neutral_pct": 50.0,
-      "negative_pct": 0.0,
-      "average_confidence": 0.82
+      "label": "negative",
+      "score": -0.4,
+      "display_score": -0.4,
+      "unique_documents": 5,
+      "positive_pct": 20.0,
+      "neutral_pct": 20.0,
+      "negative_pct": 60.0,
+      "average_confidence": 0.765
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.3,
+      "label": "mixed",
+      "score": -0.05,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
+        "SPY": 0.0,
         "HYG": 0.0,
-        "TLT": 0.0,
+        "TLT": -0.15,
         "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "The major market proxies gave a mixed risk signal.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "insufficient_data",
-      "label": "Insufficient data",
-      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
-      "news_label": "insufficient_data",
-      "market_label": "risk_off"
+      "status": "unconfirmed",
+      "label": "Unconfirmed",
+      "explanation": "News sentiment had a directional bias, but the broader market response was mixed.",
+      "news_label": "negative",
+      "market_label": "mixed"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-06-23T22-22-58+00-00-8",
-        "title": "Dollar climbs to 13-month high on Fed hike bets, safe-haven bid",
+        "doc_id": "www.investing.com-2026-06-24T22-39-14+00-00-5",
+        "title": "US dollar strengthens to 13-month high on Fed rate hike expectations",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-firms-on-hawkish-fed-bets-oil-rebound-yen-near-40year-low-4754589",
+        "url": "https://www.investing.com/news/economy-news/dollar-at-13month-high-as-rate-hike-bets-stock-rout-boost-demand-4757230",
         "confidence": "high",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.8682681918144226,
+        "sentiment_confidence": 0.8661577701568604,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 8,
+        "macro_score": 9,
         "macro_buckets": [
           "policy",
           "fx"
@@ -110,14 +111,67 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-06-23T22-22-58+00-00-9",
-        "title": "Mexico issues $6.3bn in bonds to refinance shorter-term debt",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/mexico-issues-63bn-in-bonds-to-refinance-shorterterm-debt-93CH-4756263",
-        "confidence": "medium",
+        "doc_id": "www.marketwatch.com-2026-06-24T21-25-00+00-00-5",
+        "title": "Gas prices aren\u2019t falling fast enough for Trump. Here\u2019s when drivers can expect more relief.",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/gas-prices-arent-falling-fast-enough-for-trump-heres-when-drivers-can-expect-more-relief-57db7038?mod=mw_rss_topstories",
+        "confidence": "high",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.7712691426277161,
+        "sentiment_confidence": 0.8740689158439636,
         "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "inflation",
+          "energy"
+        ],
+        "themes": [
+          "inflation",
+          "growth"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-06-24T22-39-14+00-00-7",
+        "title": "Economists see El Ni\u00f1o lifting Brazil inflation, central bank survey shows",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/economists-see-el-nino-lifting-brazil-inflation-central-bank-survey-shows-4758814",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.6642112135887146,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": -1,
+          "liquidity": -1,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-06-24T22-39-14+00-00-10",
+        "title": "UK gilt yields hit three-month low amid global bond rally",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/uk-gilt-yields-hit-threemonth-low-amid-global-bond-rally-93CH-4758702",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.950352668762207,
+        "summary_label": "negative-financial-sentiment",
         "macro_score": 4,
         "macro_buckets": [
           "rates"
@@ -132,24 +186,49 @@
           "liquidity": 0,
           "risk": 0
         }
+      },
+      {
+        "doc_id": "www.investing.com-2026-06-24T22-39-14+00-00-6",
+        "title": "Bank of Canada rejects recession label despite weak growth",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/bank-of-canada-rejects-recession-label-despite-weak-growth-93CH-4758855",
+        "confidence": "low",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.4704214632511139,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "growth"
+        ],
+        "themes": [
+          "growth",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": -1,
+          "policy": 0,
+          "liquidity": -1,
+          "risk": 0
+        }
       }
     ],
     "bucket_views": [
       {
         "name": "policy",
         "label": "positive news sentiment",
-        "score": 2,
+        "score": 1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-06-23T22-22-58+00-00-8",
-            "title": "Dollar climbs to 13-month high on Fed hike bets, safe-haven bid",
+            "doc_id": "www.investing.com-2026-06-24T22-39-14+00-00-5",
+            "title": "US dollar strengthens to 13-month high on Fed rate hike expectations",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-firms-on-hawkish-fed-bets-oil-rebound-yen-near-40year-low-4754589",
+            "url": "https://www.investing.com/news/economy-news/dollar-at-13month-high-as-rate-hike-bets-stock-rout-boost-demand-4757230",
             "confidence": "high",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.8682681918144226,
+            "sentiment_confidence": 0.8661577701568604,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 8,
+            "macro_score": 9,
             "macro_buckets": [
               "policy",
               "fx"
@@ -164,35 +243,123 @@
               "liquidity": 0,
               "risk": 0
             }
+          },
+          {
+            "doc_id": "www.investing.com-2026-06-24T22-39-14+00-00-7",
+            "title": "Economists see El Ni\u00f1o lifting Brazil inflation, central bank survey shows",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/economists-see-el-nino-lifting-brazil-inflation-central-bank-survey-shows-4758814",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.6642112135887146,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": -1,
+              "risk": 0
+            }
           }
         ]
       },
       {
-        "name": "fx",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "name": "inflation",
+        "label": "negative news sentiment",
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-06-23T22-22-58+00-00-8",
-            "title": "Dollar climbs to 13-month high on Fed hike bets, safe-haven bid",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-firms-on-hawkish-fed-bets-oil-rebound-yen-near-40year-low-4754589",
+            "doc_id": "www.marketwatch.com-2026-06-24T21-25-00+00-00-5",
+            "title": "Gas prices aren\u2019t falling fast enough for Trump. Here\u2019s when drivers can expect more relief.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/gas-prices-arent-falling-fast-enough-for-trump-heres-when-drivers-can-expect-more-relief-57db7038?mod=mw_rss_topstories",
             "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8682681918144226,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 8,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.8740689158439636,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
-              "policy",
-              "fx"
+              "inflation",
+              "energy"
             ],
             "themes": [
-              "policy"
+              "inflation",
+              "growth"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 2,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-06-24T22-39-14+00-00-7",
+            "title": "Economists see El Ni\u00f1o lifting Brazil inflation, central bank survey shows",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/economists-see-el-nino-lifting-brazil-inflation-central-bank-survey-shows-4758814",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.6642112135887146,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": -1,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "negative news sentiment",
+        "score": -1,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-06-24T21-25-00+00-00-5",
+            "title": "Gas prices aren\u2019t falling fast enough for Trump. Here\u2019s when drivers can expect more relief.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/gas-prices-arent-falling-fast-enough-for-trump-heres-when-drivers-can-expect-more-relief-57db7038?mod=mw_rss_topstories",
+            "confidence": "high",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.8740689158439636,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "themes": [
+              "inflation",
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
@@ -201,18 +368,18 @@
       },
       {
         "name": "rates",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "label": "negative news sentiment",
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-06-23T22-22-58+00-00-9",
-            "title": "Mexico issues $6.3bn in bonds to refinance shorter-term debt",
+            "doc_id": "www.investing.com-2026-06-24T22-39-14+00-00-10",
+            "title": "UK gilt yields hit three-month low amid global bond rally",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/mexico-issues-63bn-in-bonds-to-refinance-shorterterm-debt-93CH-4756263",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.7712691426277161,
-            "summary_label": "neutral-financial-sentiment",
+            "url": "https://www.investing.com/news/economy-news/uk-gilt-yields-hit-threemonth-low-amid-global-bond-rally-93CH-4758702",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.950352668762207,
+            "summary_label": "negative-financial-sentiment",
             "macro_score": 4,
             "macro_buckets": [
               "rates"

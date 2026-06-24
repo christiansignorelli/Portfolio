@@ -1,26 +1,67 @@
 [
   {
-    "id": "www.investing.com-2026-06-23T22-22-58+00-00-8",
+    "id": "www.investing.com-2026-06-24T22-39-14+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-23T22:22:58+00:00",
-    "title": "Dollar climbs to 13-month high on Fed hike bets, safe-haven bid",
+    "published_at": "2026-06-24T22:39:14+00:00",
+    "title": "US dollar strengthens to 13-month high on Fed rate hike expectations",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-firms-on-hawkish-fed-bets-oil-rebound-yen-near-40year-low-4754589",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/dollar-at-13month-high-as-rate-hike-bets-stock-rout-boost-demand-4757230",
+    "macro_score": 9,
     "macro_buckets": [
       "policy",
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-06-23T22-22-58+00-00-9",
+    "id": "www.marketwatch.com-2026-06-24T21-25-00+00-00-5",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-06-24T21:25:00+00:00",
+    "title": "Gas prices aren\u2019t falling fast enough for Trump. Here\u2019s when drivers can expect more relief.",
+    "body": "President Trump is demanding the DOJ look into why gas prices aren\u2019t falling faster at the pump. Here are four practical factors at play.",
+    "url": "https://www.marketwatch.com/story/gas-prices-arent-falling-fast-enough-for-trump-heres-when-drivers-can-expect-more-relief-57db7038?mod=mw_rss_topstories",
+    "macro_score": 6,
+    "macro_buckets": [
+      "inflation",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-24T22-39-14+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-23T22:22:58+00:00",
-    "title": "Mexico issues $6.3bn in bonds to refinance shorter-term debt",
+    "published_at": "2026-06-24T22:39:14+00:00",
+    "title": "Economists see El Ni\u00f1o lifting Brazil inflation, central bank survey shows",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/mexico-issues-63bn-in-bonds-to-refinance-shorterterm-debt-93CH-4756263",
+    "url": "https://www.investing.com/news/economy-news/economists-see-el-nino-lifting-brazil-inflation-central-bank-survey-shows-4758814",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-24T22-39-14+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-24T22:39:14+00:00",
+    "title": "Bank of Canada rejects recession label despite weak growth",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/bank-of-canada-rejects-recession-label-despite-weak-growth-93CH-4758855",
+    "macro_score": 4,
+    "macro_buckets": [
+      "growth"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-24T22-39-14+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-24T22:39:14+00:00",
+    "title": "UK gilt yields hit three-month low amid global bond rally",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/uk-gilt-yields-hit-threemonth-low-amid-global-bond-rally-93CH-4758702",
     "macro_score": 4,
     "macro_buckets": [
       "rates"
