@@ -1,40 +1,54 @@
 [
   {
-    "id": "www.investing.com-2026-06-24T22-39-14+00-00-5",
+    "id": "www.investing.com-2026-06-25T22-44-31+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-24T22:39:14+00:00",
-    "title": "US dollar strengthens to 13-month high on Fed rate hike expectations",
+    "published_at": "2026-06-25T22:44:31+00:00",
+    "title": "Fed\u2019s Williams: Inflation still too high, rate policy \u2019well positioned\u2019 to lower price pressures",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-at-13month-high-as-rate-hike-bets-stock-rout-boost-demand-4757230",
+    "url": "https://www.investing.com/news/economy-news/feds-williams-inflation-still-too-high-rate-policy-well-positioned-to-lower-price-pressures-4761322",
     "macro_score": 9,
     "macro_buckets": [
       "policy",
-      "fx"
+      "inflation"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-06-24T21-25-00+00-00-5",
+    "id": "www.marketwatch.com-2026-06-25T22-29-00+00-00-1",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-24T21:25:00+00:00",
-    "title": "Gas prices aren\u2019t falling fast enough for Trump. Here\u2019s when drivers can expect more relief.",
-    "body": "President Trump is demanding the DOJ look into why gas prices aren\u2019t falling faster at the pump. Here are four practical factors at play.",
-    "url": "https://www.marketwatch.com/story/gas-prices-arent-falling-fast-enough-for-trump-heres-when-drivers-can-expect-more-relief-57db7038?mod=mw_rss_topstories",
-    "macro_score": 6,
+    "published_at": "2026-06-25T22:29:00+00:00",
+    "title": "A world rejecting OPEC controls could usher in oil below $50 a barrel",
+    "body": "Iraq\u2019s hint that it could exit OPEC is yet another source of potential tumult for the global oil market in 2026.",
+    "url": "https://www.marketwatch.com/story/a-world-rejecting-opec-controls-could-usher-in-oil-below-50-a-barrel-3d7eda1b?mod=mw_rss_topstories",
+    "macro_score": 8,
     "macro_buckets": [
-      "inflation",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-06-24T22-39-14+00-00-7",
+    "id": "www.investing.com-2026-06-25T22-44-31+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-24T22:39:14+00:00",
-    "title": "Economists see El Ni\u00f1o lifting Brazil inflation, central bank survey shows",
+    "published_at": "2026-06-25T22:44:31+00:00",
+    "title": "Dollar retreats as US inflation data eases rate hike expectations",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/economists-see-el-nino-lifting-brazil-inflation-central-bank-survey-shows-4758814",
+    "url": "https://www.investing.com/news/economy-news/dollar-rides-high-on-fed-ratehike-bets-4759575",
+    "macro_score": 7,
+    "macro_buckets": [
+      "policy",
+      "inflation",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-25T22-44-31+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-25T22:44:31+00:00",
+    "title": "Fed\u2019s Williams pushes back inflation target to 2028",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-williams-pushes-back-inflation-target-to-2028-4761329",
     "macro_score": 6,
     "macro_buckets": [
       "policy",
@@ -42,29 +56,16 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-06-24T22-39-14+00-00-6",
+    "id": "www.investing.com-2026-06-25T22-44-31+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-24T22:39:14+00:00",
-    "title": "Bank of Canada rejects recession label despite weak growth",
+    "published_at": "2026-06-25T22:44:31+00:00",
+    "title": "Mexico central bank holds key rate at 6.50% as expected",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/bank-of-canada-rejects-recession-label-despite-weak-growth-93CH-4758855",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/mexico-central-bank-holds-key-rate-at-650-as-expected-93CH-4761294",
+    "macro_score": 5,
     "macro_buckets": [
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-24T22-39-14+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-24T22:39:14+00:00",
-    "title": "UK gilt yields hit three-month low amid global bond rally",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/uk-gilt-yields-hit-threemonth-low-amid-global-bond-rally-93CH-4758702",
-    "macro_score": 4,
-    "macro_buckets": [
-      "rates"
+      "policy"
     ]
   }
 ]
