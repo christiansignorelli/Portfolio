@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-06-25",
-    "daily_brief": "2026-06-25: 5 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy, Liquidity coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment had a directional bias, but the broader market response was mixed.",
+    "date": "2026-06-26",
+    "daily_brief": "2026-06-26: 7 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss",
@@ -13,141 +13,92 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.14,
-        "return_5d": -0.9,
-        "close": 734.2999877929688
+        "return_1d": -0.72,
+        "return_5d": -2.38,
+        "close": 728.989990234375
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.03,
-        "return_5d": 1.18,
-        "close": 87.3499984741211
+        "return_1d": 0.01,
+        "return_5d": 0.7,
+        "close": 87.36000061035156
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.18,
-        "return_5d": 1.06,
-        "close": 28.479999542236328
+        "return_1d": -0.07,
+        "return_5d": 0.57,
+        "close": 28.459999084472656
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 2.84,
-        "return_5d": -4.31,
-        "close": 109.30999755859375
+        "return_1d": -3.5,
+        "return_5d": -8.17,
+        "close": 105.4800033569336
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.04,
-        "return_5d": 0.19,
-        "close": 79.87999725341797
+        "return_1d": -0.06,
+        "return_5d": -0.22,
+        "close": 79.83000183105469
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.97,
-        "return_5d": -4.93,
-        "close": 369.4599914550781
+        "return_1d": 1.13,
+        "return_5d": -3.48,
+        "close": 373.6300048828125
       }
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -0.2,
-      "display_score": -0.2,
-      "unique_documents": 5,
-      "positive_pct": 20.0,
-      "neutral_pct": 40.0,
-      "negative_pct": 40.0,
-      "average_confidence": 0.852
+      "score": -0.5714285714285714,
+      "display_score": -0.57,
+      "unique_documents": 7,
+      "positive_pct": 14.3,
+      "neutral_pct": 14.3,
+      "negative_pct": 71.4,
+      "average_confidence": 0.64
     },
     "market_regime": {
-      "label": "mixed",
-      "score": -0.1,
+      "label": "risk_off",
+      "score": -0.5,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.0,
+        "SPY": -0.4,
         "HYG": 0.0,
         "TLT": 0.0,
         "GLD": -0.1
       },
-      "explanation": "The major market proxies gave a mixed risk signal.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "unconfirmed",
-      "label": "Unconfirmed",
-      "explanation": "News sentiment had a directional bias, but the broader market response was mixed.",
+      "status": "confirmed",
+      "label": "Confirmed",
+      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
       "news_label": "negative",
-      "market_label": "mixed"
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-06-25T22-44-31+00-00-8",
-        "title": "Fed\u2019s Williams: Inflation still too high, rate policy \u2019well positioned\u2019 to lower price pressures",
+        "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-10",
+        "title": "Euro zone bond yields decline as oil prices drop",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-williams-inflation-still-too-high-rate-policy-well-positioned-to-lower-price-pressures-4761322",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.8144606351852417,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "policy",
-          "inflation"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": 1,
-          "growth": 0,
-          "policy": 1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-06-25T22-29-00+00-00-1",
-        "title": "A world rejecting OPEC controls could usher in oil below $50 a barrel",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/a-world-rejecting-opec-controls-could-usher-in-oil-below-50-a-barrel-3d7eda1b?mod=mw_rss_topstories",
+        "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-decline-as-oil-prices-drop-93CH-4763245",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9586306810379028,
+        "sentiment_confidence": 0.9677047729492188,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 8,
+        "macro_score": 13,
         "macro_buckets": [
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-06-25T22-44-31+00-00-9",
-        "title": "Dollar retreats as US inflation data eases rate hike expectations",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-rides-high-on-fed-ratehike-bets-4759575",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9151169657707214,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
-        "macro_buckets": [
-          "policy",
           "inflation",
+          "rates",
+          "energy",
           "fx"
         ],
         "themes": [
@@ -162,22 +113,97 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-06-25T22-44-31+00-00-7",
-        "title": "Fed\u2019s Williams pushes back inflation target to 2028",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-williams-pushes-back-inflation-target-to-2028-4761329",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.6467930674552917,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
+        "doc_id": "www.marketwatch.com-2026-06-26T20-38-00+00-00-6",
+        "title": "Bond yields are falling as inflation pops. The Fed\u2019s tough talk under Warsh is helping.",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.6733884215354919,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 12,
         "macro_buckets": [
           "policy",
-          "inflation"
+          "inflation",
+          "rates"
         ],
         "themes": [
           "inflation",
           "policy"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": -1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.marketwatch.com-2026-06-26T21-50-00+00-00-2",
+        "title": "U.S. confirms retaliatory strike on Iran, pulling oil prices up in after-hours trading",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/oil-heads-for-another-losing-week-but-analyst-warns-sluggish-strait-of-hormuz-traffic-could-send-it-soaring-again-80ab9ba8?mod=mw_rss_topstories",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.81524258852005,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 9,
+        "macro_buckets": [
+          "inflation",
+          "energy"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.marketwatch.com-2026-06-26T20-27-00+00-00-7",
+        "title": "Fed\u2019s Kashkari now projects one interest-rate hike this year. Here\u2019s what changed his mind.",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/feds-kashkari-projects-one-interest-rate-hike-this-year-heres-what-changed-his-mind-3a6b428c?mod=mw_rss_topstories",
+        "confidence": "low",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.5198143720626831,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 7,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": -1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-8",
+        "title": "IMF chief economist Gourinchas says global economy remains firmly \u2019dollar-centered\u2019",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/imf-chief-economist-gourinchas-says-global-economy-remains-firmly-dollarcentered-4763244",
+        "confidence": "low",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.35747256875038147,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "growth",
+          "fx"
+        ],
+        "themes": [
+          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
@@ -188,21 +214,44 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-06-25T22-44-31+00-00-10",
-        "title": "Mexico central bank holds key rate at 6.50% as expected",
+        "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-9",
+        "title": "Iraq seeks reassessment of OPEC production quotas",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/mexico-central-bank-holds-key-rate-at-650-as-expected-93CH-4761294",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/iraq-seeks-reassessment-of-opec-production-quotas-4763250",
+        "confidence": "medium",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.9227678775787354,
+        "sentiment_confidence": 0.6578776240348816,
         "summary_label": "neutral-financial-sentiment",
         "macro_score": 5,
         "macro_buckets": [
-          "policy"
+          "energy"
         ],
         "themes": [
-          "policy",
-          "liquidity"
+          "uncategorized"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.marketwatch.com-2026-06-26T20-42-00+00-00-5",
+        "title": "SpaceX\u2019s new bonds are flashing a warning sign, as investors pump the brakes on AI frenzy",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/spacexs-new-bonds-are-flashing-a-warning-sign-as-investors-pump-the-brakes-on-ai-frenzy-752ad44b?mod=mw_rss_topstories",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.4913692772388458,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "rates"
+        ],
+        "themes": [
+          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
@@ -217,47 +266,22 @@
       {
         "name": "inflation",
         "label": "negative news sentiment",
-        "score": -3,
+        "score": -4,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-06-25T22-44-31+00-00-8",
-            "title": "Fed\u2019s Williams: Inflation still too high, rate policy \u2019well positioned\u2019 to lower price pressures",
+            "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-10",
+            "title": "Euro zone bond yields decline as oil prices drop",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-williams-inflation-still-too-high-rate-policy-well-positioned-to-lower-price-pressures-4761322",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8144606351852417,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-06-25T22-44-31+00-00-9",
-            "title": "Dollar retreats as US inflation data eases rate hike expectations",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-rides-high-on-fed-ratehike-bets-4759575",
+            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-decline-as-oil-prices-drop-93CH-4763245",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9151169657707214,
+            "sentiment_confidence": 0.9677047729492188,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "macro_score": 13,
             "macro_buckets": [
-              "policy",
               "inflation",
+              "rates",
+              "energy",
               "fx"
             ],
             "themes": [
@@ -272,25 +296,51 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-06-25T22-44-31+00-00-7",
-            "title": "Fed\u2019s Williams pushes back inflation target to 2028",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-williams-pushes-back-inflation-target-to-2028-4761329",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.6467930674552917,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
+            "doc_id": "www.marketwatch.com-2026-06-26T20-38-00+00-00-6",
+            "title": "Bond yields are falling as inflation pops. The Fed\u2019s tough talk under Warsh is helping.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.6733884215354919,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 12,
             "macro_buckets": [
               "policy",
-              "inflation"
+              "inflation",
+              "rates"
             ],
             "themes": [
               "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.marketwatch.com-2026-06-26T21-50-00+00-00-2",
+            "title": "U.S. confirms retaliatory strike on Iran, pulling oil prices up in after-hours trading",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/oil-heads-for-another-losing-week-but-analyst-warns-sluggish-strait-of-hormuz-traffic-could-send-it-soaring-again-80ab9ba8?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.81524258852005,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -302,78 +352,22 @@
       {
         "name": "energy",
         "label": "negative news sentiment",
-        "score": -3,
+        "score": -4,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-06-25T22-29-00+00-00-1",
-            "title": "A world rejecting OPEC controls could usher in oil below $50 a barrel",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/a-world-rejecting-opec-controls-could-usher-in-oil-below-50-a-barrel-3d7eda1b?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-10",
+            "title": "Euro zone bond yields decline as oil prices drop",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-decline-as-oil-prices-drop-93CH-4763245",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9586306810379028,
+            "sentiment_confidence": 0.9677047729492188,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
+            "macro_score": 13,
             "macro_buckets": [
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "policy",
-        "label": "positive news sentiment",
-        "score": 1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-06-25T22-44-31+00-00-8",
-            "title": "Fed\u2019s Williams: Inflation still too high, rate policy \u2019well positioned\u2019 to lower price pressures",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-williams-inflation-still-too-high-rate-policy-well-positioned-to-lower-price-pressures-4761322",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8144606351852417,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
               "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-06-25T22-44-31+00-00-9",
-            "title": "Dollar retreats as US inflation data eases rate hike expectations",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-rides-high-on-fed-ratehike-bets-4759575",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9151169657707214,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "policy",
-              "inflation",
+              "rates",
+              "energy",
               "fx"
             ],
             "themes": [
@@ -388,22 +382,45 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-06-25T22-44-31+00-00-7",
-            "title": "Fed\u2019s Williams pushes back inflation target to 2028",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-williams-pushes-back-inflation-target-to-2028-4761329",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.6467930674552917,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
+            "doc_id": "www.marketwatch.com-2026-06-26T21-50-00+00-00-2",
+            "title": "U.S. confirms retaliatory strike on Iran, pulling oil prices up in after-hours trading",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/oil-heads-for-another-losing-week-but-analyst-warns-sluggish-strait-of-hormuz-traffic-could-send-it-soaring-again-80ab9ba8?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.81524258852005,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "inflation",
+              "energy"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-9",
+            "title": "Iraq seeks reassessment of OPEC production quotas",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/iraq-seeks-reassessment-of-opec-production-quotas-4763250",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.6578776240348816,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 5,
+            "macro_buckets": [
+              "energy"
+            ],
+            "themes": [
+              "uncategorized"
             ],
             "scores": {
               "inflation": 0,
@@ -416,23 +433,82 @@
         ]
       },
       {
-        "name": "fx",
+        "name": "policy",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-06-26T20-38-00+00-00-6",
+            "title": "Bond yields are falling as inflation pops. The Fed\u2019s tough talk under Warsh is helping.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.6733884215354919,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "rates"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.marketwatch.com-2026-06-26T20-27-00+00-00-7",
+            "title": "Fed\u2019s Kashkari now projects one interest-rate hike this year. Here\u2019s what changed his mind.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/feds-kashkari-projects-one-interest-rate-hike-this-year-heres-what-changed-his-mind-3a6b428c?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.5198143720626831,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-06-25T22-44-31+00-00-9",
-            "title": "Dollar retreats as US inflation data eases rate hike expectations",
+            "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-10",
+            "title": "Euro zone bond yields decline as oil prices drop",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-rides-high-on-fed-ratehike-bets-4759575",
+            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-decline-as-oil-prices-drop-93CH-4763245",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9151169657707214,
+            "sentiment_confidence": 0.9677047729492188,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "macro_score": 13,
             "macro_buckets": [
-              "policy",
               "inflation",
+              "rates",
+              "energy",
               "fx"
             ],
             "themes": [
@@ -440,6 +516,57 @@
             ],
             "scores": {
               "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.marketwatch.com-2026-06-26T20-38-00+00-00-6",
+            "title": "Bond yields are falling as inflation pops. The Fed\u2019s tough talk under Warsh is helping.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.6733884215354919,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "rates"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.marketwatch.com-2026-06-26T20-42-00+00-00-5",
+            "title": "SpaceX\u2019s new bonds are flashing a warning sign, as investors pump the brakes on AI frenzy",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/spacexs-new-bonds-are-flashing-a-warning-sign-as-investors-pump-the-brakes-on-ai-frenzy-752ad44b?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.4913692772388458,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "rates"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
