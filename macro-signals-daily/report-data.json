@@ -1,13 +1,12 @@
 [
   {
-    "date": "2026-06-26",
-    "daily_brief": "2026-06-26: 7 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly negative tone.",
+    "date": "2026-06-27",
+    "daily_brief": "2026-06-27: 3 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Inflation, Risk coverage showed a predominantly negative tone.",
     "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
@@ -48,20 +47,20 @@
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.13,
-        "return_5d": -3.48,
-        "close": 373.6300048828125
+        "return_1d": 0.97,
+        "return_5d": -4.93,
+        "close": 369.4599914550781
       }
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -0.5714285714285714,
-      "display_score": -0.57,
-      "unique_documents": 7,
-      "positive_pct": 14.3,
-      "neutral_pct": 14.3,
-      "negative_pct": 71.4,
-      "average_confidence": 0.64
+      "score": -0.3333333333333333,
+      "display_score": -0.33,
+      "unique_documents": 3,
+      "positive_pct": 33.3,
+      "neutral_pct": 0.0,
+      "negative_pct": 66.7,
+      "average_confidence": 0.696
     },
     "market_regime": {
       "label": "risk_off",
@@ -86,116 +85,41 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-10",
-        "title": "Euro zone bond yields decline as oil prices drop",
+        "doc_id": "www.investing.com-2026-06-27T22-15-28+00-00-3",
+        "title": "ECB\u2019s Schnabel says inflation risks remain despite easing energy prices",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-decline-as-oil-prices-drop-93CH-4763245",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9677047729492188,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 13,
-        "macro_buckets": [
-          "inflation",
-          "rates",
-          "energy",
-          "fx"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-06-26T20-38-00+00-00-6",
-        "title": "Bond yields are falling as inflation pops. The Fed\u2019s tough talk under Warsh is helping.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.6733884215354919,
-        "summary_label": "negative-financial-sentiment",
+        "url": "https://www.investing.com/news/economy-news/ecbs-schnabel-says-inflation-risks-remain-despite-easing-energy-prices-4764046",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.58348149061203,
+        "summary_label": "positive-financial-sentiment",
         "macro_score": 12,
         "macro_buckets": [
           "policy",
           "inflation",
-          "rates"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": -1,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-06-26T21-50-00+00-00-2",
-        "title": "U.S. confirms retaliatory strike on Iran, pulling oil prices up in after-hours trading",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-heads-for-another-losing-week-but-analyst-warns-sluggish-strait-of-hormuz-traffic-could-send-it-soaring-again-80ab9ba8?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.81524258852005,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "inflation",
           "energy"
         ],
         "themes": [
-          "inflation"
+          "inflation",
+          "policy",
+          "risk"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": 1,
           "growth": 0,
-          "policy": 0,
+          "policy": 1,
           "liquidity": 0,
-          "risk": 0
+          "risk": 1
         }
       },
       {
-        "doc_id": "www.marketwatch.com-2026-06-26T20-27-00+00-00-7",
-        "title": "Fed\u2019s Kashkari now projects one interest-rate hike this year. Here\u2019s what changed his mind.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/feds-kashkari-projects-one-interest-rate-hike-this-year-heres-what-changed-his-mind-3a6b428c?mod=mw_rss_topstories",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.5198143720626831,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-8",
-        "title": "IMF chief economist Gourinchas says global economy remains firmly \u2019dollar-centered\u2019",
+        "doc_id": "www.investing.com-2026-06-27T22-15-28+00-00-6",
+        "title": "Bolivia ends 15-year dollar peg in attempt to restore economic stability",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/imf-chief-economist-gourinchas-says-global-economy-remains-firmly-dollarcentered-4763244",
-        "confidence": "low",
+        "url": "https://www.investing.com/news/economy-news/bolivia-ends-15year-dollar-peg-in-attempt-to-restore-economic-stability-4763970",
+        "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.35747256875038147,
+        "sentiment_confidence": 0.7680388689041138,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
@@ -214,49 +138,25 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-9",
-        "title": "Iraq seeks reassessment of OPEC production quotas",
+        "doc_id": "www.investing.com-2026-06-27T22-15-28+00-00-7",
+        "title": "Supreme Court ruling, ECB conference likely to further frame Fed chief Warsh\u2019s early tenure",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/iraq-seeks-reassessment-of-opec-production-quotas-4763250",
+        "url": "https://www.investing.com/news/economy-news/supreme-court-ruling-ecb-conference-likely-to-further-frame-fed-chief-warshs-early-tenure-4763969",
         "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.6578776240348816,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "energy"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-06-26T20-42-00+00-00-5",
-        "title": "SpaceX\u2019s new bonds are flashing a warning sign, as investors pump the brakes on AI frenzy",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/spacexs-new-bonds-are-flashing-a-warning-sign-as-investors-pump-the-brakes-on-ai-frenzy-752ad44b?mod=mw_rss_topstories",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.4913692772388458,
-        "summary_label": "positive-financial-sentiment",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.7375514507293701,
+        "summary_label": "negative-financial-sentiment",
         "macro_score": 4,
         "macro_buckets": [
-          "rates"
+          "policy"
         ],
         "themes": [
-          "uncategorized"
+          "policy"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": 0,
+          "policy": -1,
           "liquidity": 0,
           "risk": 0
         }
@@ -265,159 +165,92 @@
     "bucket_views": [
       {
         "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -4,
+        "label": "positive news sentiment",
+        "score": 1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-10",
-            "title": "Euro zone bond yields decline as oil prices drop",
+            "doc_id": "www.investing.com-2026-06-27T22-15-28+00-00-3",
+            "title": "ECB\u2019s Schnabel says inflation risks remain despite easing energy prices",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-decline-as-oil-prices-drop-93CH-4763245",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9677047729492188,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 13,
-            "macro_buckets": [
-              "inflation",
-              "rates",
-              "energy",
-              "fx"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-06-26T20-38-00+00-00-6",
-            "title": "Bond yields are falling as inflation pops. The Fed\u2019s tough talk under Warsh is helping.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.6733884215354919,
-            "summary_label": "negative-financial-sentiment",
+            "url": "https://www.investing.com/news/economy-news/ecbs-schnabel-says-inflation-risks-remain-despite-easing-energy-prices-4764046",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.58348149061203,
+            "summary_label": "positive-financial-sentiment",
             "macro_score": 12,
             "macro_buckets": [
               "policy",
               "inflation",
-              "rates"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-06-26T21-50-00+00-00-2",
-            "title": "U.S. confirms retaliatory strike on Iran, pulling oil prices up in after-hours trading",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-heads-for-another-losing-week-but-analyst-warns-sluggish-strait-of-hormuz-traffic-could-send-it-soaring-again-80ab9ba8?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.81524258852005,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "inflation",
               "energy"
             ],
             "themes": [
-              "inflation"
+              "inflation",
+              "policy",
+              "risk"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 1,
               "growth": 0,
-              "policy": 0,
+              "policy": 1,
               "liquidity": 0,
-              "risk": 0
+              "risk": 1
             }
           }
         ]
       },
       {
         "name": "energy",
-        "label": "negative news sentiment",
-        "score": -4,
+        "label": "positive news sentiment",
+        "score": 1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-10",
-            "title": "Euro zone bond yields decline as oil prices drop",
+            "doc_id": "www.investing.com-2026-06-27T22-15-28+00-00-3",
+            "title": "ECB\u2019s Schnabel says inflation risks remain despite easing energy prices",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-decline-as-oil-prices-drop-93CH-4763245",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9677047729492188,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 13,
+            "url": "https://www.investing.com/news/economy-news/ecbs-schnabel-says-inflation-risks-remain-despite-easing-energy-prices-4764046",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.58348149061203,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 12,
             "macro_buckets": [
+              "policy",
               "inflation",
-              "rates",
-              "energy",
+              "energy"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "risk"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "positive news sentiment",
+        "score": 1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-06-27T22-15-28+00-00-6",
+            "title": "Bolivia ends 15-year dollar peg in attempt to restore economic stability",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/bolivia-ends-15year-dollar-peg-in-attempt-to-restore-economic-stability-4763970",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.7680388689041138,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "growth",
               "fx"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-06-26T21-50-00+00-00-2",
-            "title": "U.S. confirms retaliatory strike on Iran, pulling oil prices up in after-hours trading",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-heads-for-another-losing-week-but-analyst-warns-sluggish-strait-of-hormuz-traffic-could-send-it-soaring-again-80ab9ba8?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.81524258852005,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-9",
-            "title": "Iraq seeks reassessment of OPEC production quotas",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/iraq-seeks-reassessment-of-opec-production-quotas-4763250",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.6578776240348816,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 5,
-            "macro_buckets": [
-              "energy"
             ],
             "themes": [
               "uncategorized"
@@ -434,141 +267,57 @@
       },
       {
         "name": "policy",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-06-26T20-38-00+00-00-6",
-            "title": "Bond yields are falling as inflation pops. The Fed\u2019s tough talk under Warsh is helping.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.6733884215354919,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 12,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "rates"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-06-26T20-27-00+00-00-7",
-            "title": "Fed\u2019s Kashkari now projects one interest-rate hike this year. Here\u2019s what changed his mind.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/feds-kashkari-projects-one-interest-rate-hike-this-year-heres-what-changed-his-mind-3a6b428c?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5198143720626831,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "policy"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-06-26T22-23-19+00-00-10",
-            "title": "Euro zone bond yields decline as oil prices drop",
+            "doc_id": "www.investing.com-2026-06-27T22-15-28+00-00-3",
+            "title": "ECB\u2019s Schnabel says inflation risks remain despite easing energy prices",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-decline-as-oil-prices-drop-93CH-4763245",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9677047729492188,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 13,
-            "macro_buckets": [
-              "inflation",
-              "rates",
-              "energy",
-              "fx"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-06-26T20-38-00+00-00-6",
-            "title": "Bond yields are falling as inflation pops. The Fed\u2019s tough talk under Warsh is helping.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.6733884215354919,
-            "summary_label": "negative-financial-sentiment",
+            "url": "https://www.investing.com/news/economy-news/ecbs-schnabel-says-inflation-risks-remain-despite-easing-energy-prices-4764046",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.58348149061203,
+            "summary_label": "positive-financial-sentiment",
             "macro_score": 12,
             "macro_buckets": [
               "policy",
               "inflation",
-              "rates"
+              "energy"
             ],
             "themes": [
               "inflation",
-              "policy"
+              "policy",
+              "risk"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 1,
               "growth": 0,
-              "policy": -1,
+              "policy": 1,
               "liquidity": 0,
-              "risk": 0
+              "risk": 1
             }
           },
           {
-            "doc_id": "www.marketwatch.com-2026-06-26T20-42-00+00-00-5",
-            "title": "SpaceX\u2019s new bonds are flashing a warning sign, as investors pump the brakes on AI frenzy",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/spacexs-new-bonds-are-flashing-a-warning-sign-as-investors-pump-the-brakes-on-ai-frenzy-752ad44b?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.4913692772388458,
-            "summary_label": "positive-financial-sentiment",
+            "doc_id": "www.investing.com-2026-06-27T22-15-28+00-00-7",
+            "title": "Supreme Court ruling, ECB conference likely to further frame Fed chief Warsh\u2019s early tenure",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/supreme-court-ruling-ecb-conference-likely-to-further-frame-fed-chief-warshs-early-tenure-4763969",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.7375514507293701,
+            "summary_label": "negative-financial-sentiment",
             "macro_score": 4,
             "macro_buckets": [
-              "rates"
+              "policy"
             ],
             "themes": [
-              "uncategorized"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }

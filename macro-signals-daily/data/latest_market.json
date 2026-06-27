@@ -20,10 +20,10 @@
     {
       "symbol": "GLD",
       "label": "Gold",
-      "as_of": "2026-06-26",
-      "close": 373.6300048828125,
-      "return_1d": 1.13,
-      "return_5d": -3.48
+      "as_of": "2026-06-25",
+      "close": 369.4599914550781,
+      "return_1d": 0.97,
+      "return_5d": -4.93
     },
     {
       "symbol": "USO",

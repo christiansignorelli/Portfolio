@@ -1,70 +1,27 @@
 [
   {
-    "id": "www.investing.com-2026-06-26T22-23-19+00-00-10",
+    "id": "www.investing.com-2026-06-27T22-15-28+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-26T22:23:19+00:00",
-    "title": "Euro zone bond yields decline as oil prices drop",
+    "published_at": "2026-06-27T22:15:28+00:00",
+    "title": "ECB\u2019s Schnabel says inflation risks remain despite easing energy prices",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-decline-as-oil-prices-drop-93CH-4763245",
-    "macro_score": 13,
-    "macro_buckets": [
-      "inflation",
-      "rates",
-      "energy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-06-26T20-38-00+00-00-6",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-26T20:38:00+00:00",
-    "title": "Bond yields are falling as inflation pops. The Fed\u2019s tough talk under Warsh is helping.",
-    "body": "Kevin Warsh, the new Federal Reserve chair, is helping coax Treasury yields lower by talking tough on inflation.",
-    "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
+    "url": "https://www.investing.com/news/economy-news/ecbs-schnabel-says-inflation-risks-remain-despite-easing-energy-prices-4764046",
     "macro_score": 12,
     "macro_buckets": [
       "policy",
-      "inflation",
-      "rates"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-06-26T21-50-00+00-00-2",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-26T21:50:00+00:00",
-    "title": "U.S. confirms retaliatory strike on Iran, pulling oil prices up in after-hours trading",
-    "body": "Oil futures settled lower to post a third-straight weekly loss on Friday, but moved up in extended trading after the U.S. military confirmed a retaliatory strike on Iran.",
-    "url": "https://www.marketwatch.com/story/oil-heads-for-another-losing-week-but-analyst-warns-sluggish-strait-of-hormuz-traffic-could-send-it-soaring-again-80ab9ba8?mod=mw_rss_topstories",
-    "macro_score": 9,
-    "macro_buckets": [
       "inflation",
       "energy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-06-26T20-27-00+00-00-7",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-26T20:27:00+00:00",
-    "title": "Fed\u2019s Kashkari now projects one interest-rate hike this year. Here\u2019s what changed his mind.",
-    "body": "Doubts over the U.S.-Iran peace deal and the AI buildup mean a rate hike is possible, the Minneapolis Fed president says.",
-    "url": "https://www.marketwatch.com/story/feds-kashkari-projects-one-interest-rate-hike-this-year-heres-what-changed-his-mind-3a6b428c?mod=mw_rss_topstories",
-    "macro_score": 7,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-26T22-23-19+00-00-8",
+    "id": "www.investing.com-2026-06-27T22-15-28+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-26T22:23:19+00:00",
-    "title": "IMF chief economist Gourinchas says global economy remains firmly \u2019dollar-centered\u2019",
+    "published_at": "2026-06-27T22:15:28+00:00",
+    "title": "Bolivia ends 15-year dollar peg in attempt to restore economic stability",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/imf-chief-economist-gourinchas-says-global-economy-remains-firmly-dollarcentered-4763244",
+    "url": "https://www.investing.com/news/economy-news/bolivia-ends-15year-dollar-peg-in-attempt-to-restore-economic-stability-4763970",
     "macro_score": 6,
     "macro_buckets": [
       "growth",
@@ -72,29 +29,16 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-06-26T22-23-19+00-00-9",
+    "id": "www.investing.com-2026-06-27T22-15-28+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-26T22:23:19+00:00",
-    "title": "Iraq seeks reassessment of OPEC production quotas",
+    "published_at": "2026-06-27T22:15:28+00:00",
+    "title": "Supreme Court ruling, ECB conference likely to further frame Fed chief Warsh\u2019s early tenure",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/iraq-seeks-reassessment-of-opec-production-quotas-4763250",
-    "macro_score": 5,
-    "macro_buckets": [
-      "energy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-06-26T20-42-00+00-00-5",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-26T20:42:00+00:00",
-    "title": "SpaceX\u2019s new bonds are flashing a warning sign, as investors pump the brakes on AI frenzy",
-    "body": "Elon Musk\u2019s company made a splash earlier this week with a $25 billion bond deal, less than two weeks after it raised tens of billions of dollars in cash.",
-    "url": "https://www.marketwatch.com/story/spacexs-new-bonds-are-flashing-a-warning-sign-as-investors-pump-the-brakes-on-ai-frenzy-752ad44b?mod=mw_rss_topstories",
+    "url": "https://www.investing.com/news/economy-news/supreme-court-ruling-ecb-conference-likely-to-further-frame-fed-chief-warshs-early-tenure-4763969",
     "macro_score": 4,
     "macro_buckets": [
-      "rates"
+      "policy"
     ]
   }
 ]
