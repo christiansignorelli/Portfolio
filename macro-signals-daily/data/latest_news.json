@@ -1,44 +1,44 @@
 [
   {
-    "id": "www.investing.com-2026-06-27T22-15-28+00-00-3",
+    "id": "www.investing.com-2026-06-28T22-14-28+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-27T22:15:28+00:00",
-    "title": "ECB\u2019s Schnabel says inflation risks remain despite easing energy prices",
+    "published_at": "2026-06-28T22:14:28+00:00",
+    "title": "BofA raises global growth outlook, sees 75 bps Fed hikes despite easing inflation",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecbs-schnabel-says-inflation-risks-remain-despite-easing-energy-prices-4764046",
+    "url": "https://www.investing.com/news/economy-news/bofa-raises-global-growth-outlook-sees-75-bps-fed-hikes-despite-easing-inflation-4764090",
     "macro_score": 12,
     "macro_buckets": [
       "policy",
       "inflation",
-      "energy"
+      "growth"
     ]
   },
   {
-    "id": "www.investing.com-2026-06-27T22-15-28+00-00-6",
+    "id": "www.investing.com-2026-06-28T22-14-28+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-27T22:15:28+00:00",
-    "title": "Bolivia ends 15-year dollar peg in attempt to restore economic stability",
+    "published_at": "2026-06-28T22:14:28+00:00",
+    "title": "UK war bond proposal gains attention as defense funding debate intensifies",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/bolivia-ends-15year-dollar-peg-in-attempt-to-restore-economic-stability-4763970",
+    "url": "https://www.investing.com/news/economy-news/uk-war-bond-proposal-gains-attention-as-defense-funding-debate-intensifies-4764070",
     "macro_score": 6,
     "macro_buckets": [
-      "growth",
-      "fx"
+      "rates",
+      "liquidity"
     ]
   },
   {
-    "id": "www.investing.com-2026-06-27T22-15-28+00-00-7",
+    "id": "www.investing.com-2026-06-28T22-14-28+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-27T22:15:28+00:00",
-    "title": "Supreme Court ruling, ECB conference likely to further frame Fed chief Warsh\u2019s early tenure",
+    "published_at": "2026-06-28T22:14:28+00:00",
+    "title": "Jobs data, rate bets in focus as US stocks close solid first half",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/supreme-court-ruling-ecb-conference-likely-to-further-frame-fed-chief-warshs-early-tenure-4763969",
+    "url": "https://www.investing.com/news/economy-news/jobs-data-rate-bets-in-focus-as-us-stocks-close-solid-first-half-4764135",
     "macro_score": 4,
     "macro_buckets": [
-      "policy"
+      "labor"
     ]
   }
 ]
