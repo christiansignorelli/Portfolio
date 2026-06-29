@@ -1,126 +1,203 @@
 [
   {
-    "date": "2026-06-28",
-    "daily_brief": "2026-06-28: 3 unique articles were analyzed. News sentiment was positive. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Growth, Policy coverage showed a predominantly positive tone.",
-    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+    "date": "2026-06-29",
+    "daily_brief": "2026-06-29: 6 unique articles were analyzed. News sentiment was neutral. Top theme: inflation.",
+    "macro_read": "Macro read: coverage across inflation, policy, growth was broadly neutral or mixed.",
+    "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.72,
-        "return_5d": -2.38,
-        "close": 728.989990234375
+        "return_1d": 1.65,
+        "return_5d": -0.46,
+        "close": 741.0
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.01,
-        "return_5d": 0.7,
-        "close": 87.36000061035156
+        "return_1d": 0.1,
+        "return_5d": 1.58,
+        "close": 87.44999694824219
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.07,
-        "return_5d": 0.57,
-        "close": 28.459999084472656
+        "return_1d": -0.32,
+        "return_5d": 0.04,
+        "close": 28.3700008392334
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -3.5,
-        "return_5d": -8.17,
-        "close": 105.4800033569336
+        "return_1d": 1.52,
+        "return_5d": -4.98,
+        "close": 107.08000183105469
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.06,
-        "return_5d": -0.22,
-        "close": 79.83000183105469
+        "return_1d": 0.23,
+        "return_5d": 0.09,
+        "close": 80.01000213623047
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.13,
-        "return_5d": -3.48,
-        "close": 373.6300048828125
+        "return_1d": -1.35,
+        "return_5d": -4.16,
+        "close": 368.5799865722656
       }
     ],
     "news_sentiment": {
-      "label": "positive",
-      "score": 0.6666666666666666,
-      "display_score": 0.67,
-      "unique_documents": 3,
-      "positive_pct": 66.7,
-      "neutral_pct": 33.3,
-      "negative_pct": 0.0,
-      "average_confidence": 0.797
+      "label": "neutral",
+      "score": 0.16666666666666666,
+      "display_score": 0.17,
+      "unique_documents": 6,
+      "positive_pct": 33.3,
+      "neutral_pct": 50.0,
+      "negative_pct": 16.7,
+      "average_confidence": 0.79
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.5,
+      "label": "risk_on",
+      "score": 0.85,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
-        "HYG": 0.0,
+        "SPY": 0.4,
+        "HYG": 0.35,
         "TLT": 0.0,
-        "GLD": -0.1
+        "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "divergent",
-      "label": "Divergent",
-      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
-      "news_label": "positive",
-      "market_label": "risk_off"
+      "status": "market_led",
+      "label": "Market-led",
+      "explanation": "News sentiment was neutral, while markets showed a clearer directional response.",
+      "news_label": "neutral",
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-06-28T22-14-28+00-00-5",
-        "title": "BofA raises global growth outlook, sees 75 bps Fed hikes despite easing inflation",
+        "doc_id": "www.investing.com-2026-06-29T22-19-59+00-00-4",
+        "title": "Stocks and oil prices rise with eyes on Iran; yen touches 40-year low vs dollar",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/bofa-raises-global-growth-outlook-sees-75-bps-fed-hikes-despite-easing-inflation-4764090",
+        "url": "https://www.investing.com/news/economy-news/stocks-adrift-oil-up-as-usiran-halt-renewed-attacks-4764197",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9104012250900269,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 12,
+        "macro_buckets": [
+          "inflation",
+          "energy",
+          "fx"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-06-29T22-19-59+00-00-7",
+        "title": "Europe\u2019s economic resilience gives ECB greater room to move rates, Lagarde says",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/europes-economic-resilience-gives-ecb-greater-room-to-move-rates-lagarde-says-4766048",
         "confidence": "high",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.9036188125610352,
+        "sentiment_confidence": 0.8949363231658936,
         "summary_label": "positive-financial-sentiment",
         "macro_score": 12,
         "macro_buckets": [
           "policy",
-          "inflation",
-          "growth"
+          "growth",
+          "fx"
         ],
         "themes": [
-          "inflation",
-          "growth",
           "policy"
         ],
         "scores": {
-          "inflation": 2,
-          "growth": 2,
+          "inflation": 0,
+          "growth": 0,
           "policy": 2,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-06-28T22-14-28+00-00-8",
-        "title": "UK war bond proposal gains attention as defense funding debate intensifies",
+        "doc_id": "www.investing.com-2026-06-29T22-19-59+00-00-6",
+        "title": "ECB\u2019s Lagarde says euro zone shows greater economic resilience",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/uk-war-bond-proposal-gains-attention-as-defense-funding-debate-intensifies-4764070",
+        "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-euro-zone-shows-greater-economic-resilience-93CH-4766086",
         "confidence": "high",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.8910437226295471,
+        "sentiment_confidence": 0.9537235498428345,
         "summary_label": "positive-financial-sentiment",
+        "macro_score": 9,
+        "macro_buckets": [
+          "policy",
+          "growth",
+          "fx"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 2,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.marketwatch.com-2026-06-29T20-43-00+00-00-8",
+        "title": "Value stocks beat growth when inflation is high. Here are 13 stocks top newsletters are betting on now.",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/value-stocks-beat-growth-when-inflation-is-high-here-are-13-stocks-top-newsletters-are-betting-on-now-f6f4a265?mod=mw_rss_topstories",
+        "confidence": "high",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.8753854036331177,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "inflation",
+          "growth"
+        ],
+        "themes": [
+          "inflation",
+          "growth"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-06-29T22-19-59+00-00-9",
+        "title": "Banxico adds bond-buying tool to backstop liquidity after rating cuts",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/banxico-adds-bondbuying-tool-to-backstop-liquidity-after-rating-cuts-4766043",
+        "confidence": "low",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.5278286337852478,
+        "summary_label": "neutral-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
           "rates",
@@ -133,25 +210,25 @@
           "inflation": 0,
           "growth": 0,
           "policy": 0,
-          "liquidity": 2,
+          "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-06-28T22-14-28+00-00-4",
-        "title": "Jobs data, rate bets in focus as US stocks close solid first half",
+        "doc_id": "www.investing.com-2026-06-29T22-19-59+00-00-10",
+        "title": "Core PCE inflation may be revised lower on methodology changes",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/jobs-data-rate-bets-in-focus-as-us-stocks-close-solid-first-half-4764135",
+        "url": "https://www.investing.com/news/economy-news/core-pce-inflation-may-be-revised-lower-on-methodology-changes-4766041",
         "confidence": "low",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.5971319675445557,
+        "sentiment_confidence": 0.5793301463127136,
         "summary_label": "neutral-financial-sentiment",
         "macro_score": 4,
         "macro_buckets": [
-          "labor"
+          "inflation"
         ],
         "themes": [
-          "uncategorized"
+          "inflation"
         ],
         "scores": {
           "inflation": 0,
@@ -166,31 +243,55 @@
       {
         "name": "policy",
         "label": "positive news sentiment",
-        "score": 2,
+        "score": 4,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-06-28T22-14-28+00-00-5",
-            "title": "BofA raises global growth outlook, sees 75 bps Fed hikes despite easing inflation",
+            "doc_id": "www.investing.com-2026-06-29T22-19-59+00-00-7",
+            "title": "Europe\u2019s economic resilience gives ECB greater room to move rates, Lagarde says",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bofa-raises-global-growth-outlook-sees-75-bps-fed-hikes-despite-easing-inflation-4764090",
+            "url": "https://www.investing.com/news/economy-news/europes-economic-resilience-gives-ecb-greater-room-to-move-rates-lagarde-says-4766048",
             "confidence": "high",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.9036188125610352,
+            "sentiment_confidence": 0.8949363231658936,
             "summary_label": "positive-financial-sentiment",
             "macro_score": 12,
             "macro_buckets": [
               "policy",
-              "inflation",
-              "growth"
+              "growth",
+              "fx"
             ],
             "themes": [
-              "inflation",
-              "growth",
               "policy"
             ],
             "scores": {
-              "inflation": 2,
-              "growth": 2,
+              "inflation": 0,
+              "growth": 0,
+              "policy": 2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-06-29T22-19-59+00-00-6",
+            "title": "ECB\u2019s Lagarde says euro zone shows greater economic resilience",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-euro-zone-shows-greater-economic-resilience-93CH-4766086",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9537235498428345,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "growth",
+              "fx"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
               "policy": 2,
               "liquidity": 0,
               "risk": 0
@@ -200,101 +301,200 @@
       },
       {
         "name": "inflation",
-        "label": "positive news sentiment",
-        "score": 2,
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-06-28T22-14-28+00-00-5",
-            "title": "BofA raises global growth outlook, sees 75 bps Fed hikes despite easing inflation",
+            "doc_id": "www.investing.com-2026-06-29T22-19-59+00-00-4",
+            "title": "Stocks and oil prices rise with eyes on Iran; yen touches 40-year low vs dollar",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bofa-raises-global-growth-outlook-sees-75-bps-fed-hikes-despite-easing-inflation-4764090",
+            "url": "https://www.investing.com/news/economy-news/stocks-adrift-oil-up-as-usiran-halt-renewed-attacks-4764197",
             "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9036188125610352,
-            "summary_label": "positive-financial-sentiment",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9104012250900269,
+            "summary_label": "negative-financial-sentiment",
             "macro_score": 12,
             "macro_buckets": [
-              "policy",
               "inflation",
-              "growth"
+              "energy",
+              "fx"
             ],
             "themes": [
-              "inflation",
-              "growth",
-              "policy"
+              "inflation"
             ],
             "scores": {
-              "inflation": 2,
-              "growth": 2,
-              "policy": 2,
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
-          }
-        ]
-      },
-      {
-        "name": "growth",
-        "label": "positive news sentiment",
-        "score": 2,
-        "documents": [
+          },
           {
-            "doc_id": "www.investing.com-2026-06-28T22-14-28+00-00-5",
-            "title": "BofA raises global growth outlook, sees 75 bps Fed hikes despite easing inflation",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bofa-raises-global-growth-outlook-sees-75-bps-fed-hikes-despite-easing-inflation-4764090",
+            "doc_id": "www.marketwatch.com-2026-06-29T20-43-00+00-00-8",
+            "title": "Value stocks beat growth when inflation is high. Here are 13 stocks top newsletters are betting on now.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/value-stocks-beat-growth-when-inflation-is-high-here-are-13-stocks-top-newsletters-are-betting-on-now-f6f4a265?mod=mw_rss_topstories",
             "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9036188125610352,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 12,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth"
-            ],
-            "themes": [
-              "inflation",
-              "growth",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 2,
-              "growth": 2,
-              "policy": 2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "positive news sentiment",
-        "score": 2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-06-28T22-14-28+00-00-8",
-            "title": "UK war bond proposal gains attention as defense funding debate intensifies",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/uk-war-bond-proposal-gains-attention-as-defense-funding-debate-intensifies-4764070",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8910437226295471,
-            "summary_label": "positive-financial-sentiment",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.8753854036331177,
+            "summary_label": "neutral-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "rates",
-              "liquidity"
+              "inflation",
+              "growth"
             ],
             "themes": [
-              "liquidity"
+              "inflation",
+              "growth"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
               "policy": 0,
-              "liquidity": 2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-06-29T22-19-59+00-00-10",
+            "title": "Core PCE inflation may be revised lower on methodology changes",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/core-pce-inflation-may-be-revised-lower-on-methodology-changes-4766041",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.5793301463127136,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "inflation"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-06-29T22-19-59+00-00-4",
+            "title": "Stocks and oil prices rise with eyes on Iran; yen touches 40-year low vs dollar",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/stocks-adrift-oil-up-as-usiran-halt-renewed-attacks-4764197",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9104012250900269,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "inflation",
+              "energy",
+              "fx"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-06-29T22-19-59+00-00-4",
+            "title": "Stocks and oil prices rise with eyes on Iran; yen touches 40-year low vs dollar",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/stocks-adrift-oil-up-as-usiran-halt-renewed-attacks-4764197",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9104012250900269,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "inflation",
+              "energy",
+              "fx"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-06-29T22-19-59+00-00-7",
+            "title": "Europe\u2019s economic resilience gives ECB greater room to move rates, Lagarde says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/europes-economic-resilience-gives-ecb-greater-room-to-move-rates-lagarde-says-4766048",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8949363231658936,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "policy",
+              "growth",
+              "fx"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-06-29T22-19-59+00-00-6",
+            "title": "ECB\u2019s Lagarde says euro zone shows greater economic resilience",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-euro-zone-shows-greater-economic-resilience-93CH-4766086",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9537235498428345,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "growth",
+              "fx"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 2,
+              "liquidity": 0,
               "risk": 0
             }
           }

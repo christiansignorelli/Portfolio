@@ -1,27 +1,71 @@
 [
   {
-    "id": "www.investing.com-2026-06-28T22-14-28+00-00-5",
+    "id": "www.investing.com-2026-06-29T22-19-59+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-28T22:14:28+00:00",
-    "title": "BofA raises global growth outlook, sees 75 bps Fed hikes despite easing inflation",
+    "published_at": "2026-06-29T22:19:59+00:00",
+    "title": "Stocks and oil prices rise with eyes on Iran; yen touches 40-year low vs dollar",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/bofa-raises-global-growth-outlook-sees-75-bps-fed-hikes-despite-easing-inflation-4764090",
+    "url": "https://www.investing.com/news/economy-news/stocks-adrift-oil-up-as-usiran-halt-renewed-attacks-4764197",
+    "macro_score": 12,
+    "macro_buckets": [
+      "inflation",
+      "energy",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-29T22-19-59+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-29T22:19:59+00:00",
+    "title": "Europe\u2019s economic resilience gives ECB greater room to move rates, Lagarde says",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/europes-economic-resilience-gives-ecb-greater-room-to-move-rates-lagarde-says-4766048",
     "macro_score": 12,
     "macro_buckets": [
       "policy",
+      "growth",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-06-29T22-19-59+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-06-29T22:19:59+00:00",
+    "title": "ECB\u2019s Lagarde says euro zone shows greater economic resilience",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-euro-zone-shows-greater-economic-resilience-93CH-4766086",
+    "macro_score": 9,
+    "macro_buckets": [
+      "policy",
+      "growth",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-06-29T20-43-00+00-00-8",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-06-29T20:43:00+00:00",
+    "title": "Value stocks beat growth when inflation is high. Here are 13 stocks top newsletters are betting on now.",
+    "body": "Many portfolio experts are wrong about what drives value outperformance. This single metric explains why.",
+    "url": "https://www.marketwatch.com/story/value-stocks-beat-growth-when-inflation-is-high-here-are-13-stocks-top-newsletters-are-betting-on-now-f6f4a265?mod=mw_rss_topstories",
+    "macro_score": 6,
+    "macro_buckets": [
       "inflation",
       "growth"
     ]
   },
   {
-    "id": "www.investing.com-2026-06-28T22-14-28+00-00-8",
+    "id": "www.investing.com-2026-06-29T22-19-59+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-28T22:14:28+00:00",
-    "title": "UK war bond proposal gains attention as defense funding debate intensifies",
+    "published_at": "2026-06-29T22:19:59+00:00",
+    "title": "Banxico adds bond-buying tool to backstop liquidity after rating cuts",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/uk-war-bond-proposal-gains-attention-as-defense-funding-debate-intensifies-4764070",
+    "url": "https://www.investing.com/news/economy-news/banxico-adds-bondbuying-tool-to-backstop-liquidity-after-rating-cuts-4766043",
     "macro_score": 6,
     "macro_buckets": [
       "rates",
@@ -29,16 +73,16 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-06-28T22-14-28+00-00-4",
+    "id": "www.investing.com-2026-06-29T22-19-59+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-28T22:14:28+00:00",
-    "title": "Jobs data, rate bets in focus as US stocks close solid first half",
+    "published_at": "2026-06-29T22:19:59+00:00",
+    "title": "Core PCE inflation may be revised lower on methodology changes",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/jobs-data-rate-bets-in-focus-as-us-stocks-close-solid-first-half-4764135",
+    "url": "https://www.investing.com/news/economy-news/core-pce-inflation-may-be-revised-lower-on-methodology-changes-4766041",
     "macro_score": 4,
     "macro_buckets": [
-      "labor"
+      "inflation"
     ]
   }
 ]
