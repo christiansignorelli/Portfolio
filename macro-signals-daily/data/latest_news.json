@@ -1,88 +1,15 @@
 [
   {
-    "id": "www.investing.com-2026-06-29T22-19-59+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-29T22:19:59+00:00",
-    "title": "Stocks and oil prices rise with eyes on Iran; yen touches 40-year low vs dollar",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/stocks-adrift-oil-up-as-usiran-halt-renewed-attacks-4764197",
-    "macro_score": 12,
-    "macro_buckets": [
-      "inflation",
-      "energy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-29T22-19-59+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-29T22:19:59+00:00",
-    "title": "Europe\u2019s economic resilience gives ECB greater room to move rates, Lagarde says",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/europes-economic-resilience-gives-ecb-greater-room-to-move-rates-lagarde-says-4766048",
-    "macro_score": 12,
-    "macro_buckets": [
-      "policy",
-      "growth",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-29T22-19-59+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-29T22:19:59+00:00",
-    "title": "ECB\u2019s Lagarde says euro zone shows greater economic resilience",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-euro-zone-shows-greater-economic-resilience-93CH-4766086",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
-      "growth",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-06-29T20-43-00+00-00-8",
+    "id": "www.marketwatch.com-2026-06-30T21-28-00+00-00-6",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-29T20:43:00+00:00",
-    "title": "Value stocks beat growth when inflation is high. Here are 13 stocks top newsletters are betting on now.",
-    "body": "Many portfolio experts are wrong about what drives value outperformance. This single metric explains why.",
-    "url": "https://www.marketwatch.com/story/value-stocks-beat-growth-when-inflation-is-high-here-are-13-stocks-top-newsletters-are-betting-on-now-f6f4a265?mod=mw_rss_topstories",
-    "macro_score": 6,
+    "published_at": "2026-06-30T21:28:00+00:00",
+    "title": "Oil posts largest quarterly price drop in 6 years as historic supply crunch eases",
+    "body": "Workarounds to the Strait of Hormuz chokepoint and a drop in crude imports to China helped ease the impact of lost Persian Gulf oil supplies.",
+    "url": "https://www.marketwatch.com/story/oil-is-set-for-the-largest-quarterly-price-drop-in-6-years-as-historic-supply-crunch-eases-57d52bab?mod=mw_rss_topstories",
+    "macro_score": 7,
     "macro_buckets": [
-      "inflation",
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-29T22-19-59+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-29T22:19:59+00:00",
-    "title": "Banxico adds bond-buying tool to backstop liquidity after rating cuts",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/banxico-adds-bondbuying-tool-to-backstop-liquidity-after-rating-cuts-4766043",
-    "macro_score": 6,
-    "macro_buckets": [
-      "rates",
-      "liquidity"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-06-29T22-19-59+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-06-29T22:19:59+00:00",
-    "title": "Core PCE inflation may be revised lower on methodology changes",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/core-pce-inflation-may-be-revised-lower-on-methodology-changes-4766041",
-    "macro_score": 4,
-    "macro_buckets": [
-      "inflation"
+      "energy"
     ]
   }
 ]
