@@ -1,15 +1,32 @@
 [
   {
-    "id": "www.marketwatch.com-2026-06-30T21-28-00+00-00-6",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-06-30T21:28:00+00:00",
-    "title": "Oil posts largest quarterly price drop in 6 years as historic supply crunch eases",
-    "body": "Workarounds to the Strait of Hormuz chokepoint and a drop in crude imports to China helped ease the impact of lost Persian Gulf oil supplies.",
-    "url": "https://www.marketwatch.com/story/oil-is-set-for-the-largest-quarterly-price-drop-in-6-years-as-historic-supply-crunch-eases-57d52bab?mod=mw_rss_topstories",
-    "macro_score": 7,
+    "id": "www.investing.com-2026-07-01T22-39-41+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-01T22:39:41+00:00",
+    "title": "Dollar gains before US jobs report, Fed\u2019s Warsh sees improving inflation",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/yen-sinks-to-fourdecade-low-as-dollar-gets-yields-boost-4769325",
+    "macro_score": 13,
     "macro_buckets": [
-      "energy"
+      "policy",
+      "inflation",
+      "labor",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-07-01T22-39-41+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-01T22:39:41+00:00",
+    "title": "ECB\u2019s Stournaras says July rate hike not likely after inflation slows",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/ecbs-stournaras-says-july-rate-hike-not-likely-after-inflation-slows-93CH-4771200",
+    "macro_score": 9,
+    "macro_buckets": [
+      "policy",
+      "inflation"
     ]
   }
 ]

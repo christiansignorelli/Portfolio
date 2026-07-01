@@ -1,79 +1,79 @@
 [
   {
-    "date": "2026-06-30",
-    "daily_brief": "2026-06-30: 1 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "date": "2026-07-01",
+    "daily_brief": "2026-07-01: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
     "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
     "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.78,
-        "return_5d": 1.8,
-        "close": 746.77001953125
+        "return_1d": -0.14,
+        "return_5d": 1.71,
+        "close": 745.760009765625
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -1.18,
-        "return_5d": 0.26,
-        "close": 86.41999816894531
+        "return_1d": -1.04,
+        "return_5d": -2.13,
+        "close": 85.5199966430664
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.14,
+        "return_1d": 0.28,
         "return_5d": -0.14,
-        "close": 28.40999984741211
+        "close": 28.489999771118164
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -0.6,
-        "return_5d": -4.33,
-        "close": 106.44000244140625
+        "return_1d": -2.98,
+        "return_5d": -2.84,
+        "close": 103.2699966430664
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.05,
-        "return_5d": 0.13,
-        "close": 79.97000122070312
+        "return_1d": -0.48,
+        "return_5d": -0.33,
+        "close": 79.58999633789062
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.05,
-        "return_5d": -2.37,
-        "close": 368.3800048828125
+        "return_1d": 0.6,
+        "return_5d": 1.28,
+        "close": 370.6000061035156
       }
     ],
     "news_sentiment": {
       "label": "insufficient_data",
-      "score": -1.0,
-      "display_score": -1.0,
-      "unique_documents": 1,
-      "positive_pct": 0.0,
+      "score": 1.0,
+      "display_score": 1.0,
+      "unique_documents": 2,
+      "positive_pct": 100.0,
       "neutral_pct": 0.0,
-      "negative_pct": 100.0,
-      "average_confidence": 0.957
+      "negative_pct": 0.0,
+      "average_confidence": 0.747
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.55,
+      "label": "risk_off",
+      "score": -0.3,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
-        "HYG": 0.0,
+        "SPY": 0.0,
+        "HYG": -0.35,
         "TLT": 0.15,
-        "GLD": 0.0
+        "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
@@ -81,29 +81,59 @@
       "label": "Insufficient data",
       "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
       "news_label": "insufficient_data",
-      "market_label": "risk_on"
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-06-30T21-28-00+00-00-6",
-        "title": "Oil posts largest quarterly price drop in 6 years as historic supply crunch eases",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-is-set-for-the-largest-quarterly-price-drop-in-6-years-as-historic-supply-crunch-eases-57d52bab?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-07-01T22-39-41+00-00-5",
+        "title": "Dollar gains before US jobs report, Fed\u2019s Warsh sees improving inflation",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/yen-sinks-to-fourdecade-low-as-dollar-gets-yields-boost-4769325",
         "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9571073055267334,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.946985125541687,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 13,
         "macro_buckets": [
-          "energy"
+          "policy",
+          "inflation",
+          "labor",
+          "fx"
         ],
         "themes": [
-          "inflation"
+          "inflation",
+          "policy"
         ],
         "scores": {
-          "inflation": -2,
+          "inflation": 2,
           "growth": 0,
-          "policy": 0,
+          "policy": 2,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-01T22-39-41+00-00-8",
+        "title": "ECB\u2019s Stournaras says July rate hike not likely after inflation slows",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/ecbs-stournaras-says-july-rate-hike-not-likely-after-inflation-slows-93CH-4771200",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.5471429228782654,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 9,
+        "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": 1,
+          "growth": 0,
+          "policy": 1,
           "liquidity": 0,
           "risk": 0
         }
@@ -111,30 +141,191 @@
     ],
     "bucket_views": [
       {
-        "name": "energy",
-        "label": "negative news sentiment",
-        "score": -2,
+        "name": "policy",
+        "label": "positive news sentiment",
+        "score": 3,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-06-30T21-28-00+00-00-6",
-            "title": "Oil posts largest quarterly price drop in 6 years as historic supply crunch eases",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-is-set-for-the-largest-quarterly-price-drop-in-6-years-as-historic-supply-crunch-eases-57d52bab?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-07-01T22-39-41+00-00-5",
+            "title": "Dollar gains before US jobs report, Fed\u2019s Warsh sees improving inflation",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/yen-sinks-to-fourdecade-low-as-dollar-gets-yields-boost-4769325",
             "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9571073055267334,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.946985125541687,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 13,
             "macro_buckets": [
-              "energy"
+              "policy",
+              "inflation",
+              "labor",
+              "fx"
             ],
             "themes": [
-              "inflation"
+              "inflation",
+              "policy"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 2,
               "growth": 0,
-              "policy": 0,
+              "policy": 2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-01T22-39-41+00-00-8",
+            "title": "ECB\u2019s Stournaras says July rate hike not likely after inflation slows",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ecbs-stournaras-says-july-rate-hike-not-likely-after-inflation-slows-93CH-4771200",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.5471429228782654,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "positive news sentiment",
+        "score": 3,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-01T22-39-41+00-00-5",
+            "title": "Dollar gains before US jobs report, Fed\u2019s Warsh sees improving inflation",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/yen-sinks-to-fourdecade-low-as-dollar-gets-yields-boost-4769325",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.946985125541687,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 13,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "labor",
+              "fx"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 2,
+              "growth": 0,
+              "policy": 2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-01T22-39-41+00-00-8",
+            "title": "ECB\u2019s Stournaras says July rate hike not likely after inflation slows",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ecbs-stournaras-says-july-rate-hike-not-likely-after-inflation-slows-93CH-4771200",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.5471429228782654,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "labor",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-01T22-39-41+00-00-5",
+            "title": "Dollar gains before US jobs report, Fed\u2019s Warsh sees improving inflation",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/yen-sinks-to-fourdecade-low-as-dollar-gets-yields-boost-4769325",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.946985125541687,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 13,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "labor",
+              "fx"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 2,
+              "growth": 0,
+              "policy": 2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-01T22-39-41+00-00-5",
+            "title": "Dollar gains before US jobs report, Fed\u2019s Warsh sees improving inflation",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/yen-sinks-to-fourdecade-low-as-dollar-gets-yields-boost-4769325",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.946985125541687,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 13,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "labor",
+              "fx"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 2,
+              "growth": 0,
+              "policy": 2,
               "liquidity": 0,
               "risk": 0
             }
