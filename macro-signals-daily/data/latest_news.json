@@ -1,32 +1,56 @@
 [
   {
-    "id": "www.investing.com-2026-07-01T22-39-41+00-00-5",
+    "id": "www.marketwatch.com-2026-07-02T22-11-00+00-00-2",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-07-02T22:11:00+00:00",
+    "title": "Trump blasts \u2018hostile\u2019 Fed and says Warsh \u2018has to do what he has to do\u2019 on interest rates",
+    "body": "President renews vow to remove Fed\u2019s Cook",
+    "url": "https://www.marketwatch.com/story/trump-blasts-hostile-fed-and-says-warsh-has-to-do-what-he-has-to-do-on-interest-rates-60b5d16b?mod=mw_rss_topstories",
+    "macro_score": 7,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-07-02T22-18-13+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-01T22:39:41+00:00",
-    "title": "Dollar gains before US jobs report, Fed\u2019s Warsh sees improving inflation",
+    "published_at": "2026-07-02T22:18:13+00:00",
+    "title": "Dollar slides after jobs data, chipmakers weigh on stocks",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/yen-sinks-to-fourdecade-low-as-dollar-gets-yields-boost-4769325",
-    "macro_score": 13,
+    "url": "https://www.investing.com/news/economy-news/asian-shares-fall-as-chipmakers-drag-us-jobs-data-looms-4772263",
+    "macro_score": 7,
     "macro_buckets": [
-      "policy",
-      "inflation",
       "labor",
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-01T22-39-41+00-00-8",
+    "id": "www.investing.com-2026-07-02T22-18-13+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-01T22:39:41+00:00",
-    "title": "ECB\u2019s Stournaras says July rate hike not likely after inflation slows",
+    "published_at": "2026-07-02T22:18:13+00:00",
+    "title": "Analysis-Cooling US jobs data buys the Fed and stock market more time",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecbs-stournaras-says-july-rate-hike-not-likely-after-inflation-slows-93CH-4771200",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/analysiscooling-us-jobs-data-buys-the-fed-and-stock-market-more-time-4773994",
+    "macro_score": 7,
     "macro_buckets": [
       "policy",
-      "inflation"
+      "labor"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-07-02T22-18-13+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-02T22:18:13+00:00",
+    "title": "US bond funds see high-yield inflows surge in latest week",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/us-bond-funds-see-highyield-inflows-surge-in-latest-week-93CH-4773880",
+    "macro_score": 4,
+    "macro_buckets": [
+      "rates"
     ]
   }
 ]
