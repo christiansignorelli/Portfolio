@@ -1,56 +1,71 @@
 [
   {
-    "id": "www.marketwatch.com-2026-07-02T22-11-00+00-00-2",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-02T22:11:00+00:00",
-    "title": "Trump blasts \u2018hostile\u2019 Fed and says Warsh \u2018has to do what he has to do\u2019 on interest rates",
-    "body": "President renews vow to remove Fed\u2019s Cook",
-    "url": "https://www.marketwatch.com/story/trump-blasts-hostile-fed-and-says-warsh-has-to-do-what-he-has-to-do-on-interest-rates-60b5d16b?mod=mw_rss_topstories",
-    "macro_score": 7,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-02T22-18-13+00-00-2",
+    "id": "www.investing.com-2026-07-03T22-15-42+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-02T22:18:13+00:00",
-    "title": "Dollar slides after jobs data, chipmakers weigh on stocks",
+    "published_at": "2026-07-03T22:15:42+00:00",
+    "title": "Dollar set for biggest weekly drop since April after jobs data lowers Fed hike bets",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/asian-shares-fall-as-chipmakers-drag-us-jobs-data-looms-4772263",
-    "macro_score": 7,
+    "url": "https://www.investing.com/news/economy-news/dollar-heads-for-weekly-drop-as-jobs-data-dims-fed-hike-bets-4774963",
+    "macro_score": 12,
     "macro_buckets": [
+      "policy",
       "labor",
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-02T22-18-13+00-00-4",
+    "id": "www.investing.com-2026-07-03T22-15-42+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-02T22:18:13+00:00",
-    "title": "Analysis-Cooling US jobs data buys the Fed and stock market more time",
+    "published_at": "2026-07-03T22:15:42+00:00",
+    "title": "Better growth won\u2019t help European stocks, BofA says",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/analysiscooling-us-jobs-data-buys-the-fed-and-stock-market-more-time-4773994",
-    "macro_score": 7,
+    "url": "https://www.investing.com/news/economy-news/better-growth-wont-help-european-stocks-bofa-says-4775238",
+    "macro_score": 6,
     "macro_buckets": [
-      "policy",
-      "labor"
+      "growth",
+      "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-02T22-18-13+00-00-8",
+    "id": "www.investing.com-2026-07-03T22-15-42+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-02T22:18:13+00:00",
-    "title": "US bond funds see high-yield inflows surge in latest week",
+    "published_at": "2026-07-03T22:15:42+00:00",
+    "title": "ECB expected to hike rates again in September, Barclays says",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-bond-funds-see-highyield-inflows-surge-in-latest-week-93CH-4773880",
+    "url": "https://www.investing.com/news/economy-news/ecb-expected-to-hike-rates-again-in-september-barclays-says-4775199",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-07-03T22-15-42+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-03T22:15:42+00:00",
+    "title": "Barclays sees an \"extended\" interest rate hold by the Fed. Here\u2019s why.",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/barclays-sees-an-extended-interest-rate-hold-by-the-fed-heres-why-4775216",
+    "macro_score": 5,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-07-03T22-15-42+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-03T22:15:42+00:00",
+    "title": "Analysts cut Canadian dollar forecasts as USMCA uncertainty clips\u00a0rate hike chances: Reuters poll",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/analysts-cut-canadian-dollar-forecasts-as-usmca-uncertainty-clipsrate-hike-chances-4775208",
     "macro_score": 4,
     "macro_buckets": [
-      "rates"
+      "policy",
+      "fx"
     ]
   }
 ]
