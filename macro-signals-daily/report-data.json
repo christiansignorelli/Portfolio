@@ -1,12 +1,13 @@
 [
   {
-    "date": "2026-07-03",
-    "daily_brief": "2026-07-03: 5 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
-    "macro_read": "Macro read: Policy, Growth coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment had a directional bias, but the broader market response was mixed.",
+    "date": "2026-07-04",
+    "daily_brief": "2026-07-04: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
@@ -53,14 +54,14 @@
       }
     ],
     "news_sentiment": {
-      "label": "negative",
-      "score": -0.4,
-      "display_score": -0.4,
-      "unique_documents": 5,
-      "positive_pct": 20.0,
-      "neutral_pct": 20.0,
-      "negative_pct": 60.0,
-      "average_confidence": 0.844
+      "label": "insufficient_data",
+      "score": -1.0,
+      "display_score": -1.0,
+      "unique_documents": 2,
+      "positive_pct": 0.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 100.0,
+      "average_confidence": 0.947
     },
     "market_regime": {
       "label": "mixed",
@@ -77,215 +78,128 @@
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "unconfirmed",
-      "label": "Unconfirmed",
-      "explanation": "News sentiment had a directional bias, but the broader market response was mixed.",
-      "news_label": "negative",
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
       "market_label": "mixed"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-07-03T22-15-42+00-00-3",
-        "title": "Dollar set for biggest weekly drop since April after jobs data lowers Fed hike bets",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-heads-for-weekly-drop-as-jobs-data-dims-fed-hike-bets-4774963",
+        "doc_id": "www.marketwatch.com-2026-07-04T18-37-00+00-00-5",
+        "title": "Why June\u2019s jobs and inflation data are bullish for bonds",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/why-the-jobs-and-inflation-data-are-bullish-for-bonds-fcedffd2?mod=mw_rss_topstories",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9290305376052856,
+        "sentiment_confidence": 0.9597386121749878,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 12,
         "macro_buckets": [
-          "policy",
+          "inflation",
           "labor",
+          "rates"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-04T22-10-03+00-00-6",
+        "title": "BofA highlights FX intervention impact on reserves and central bank balance sheets",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/bofa-highlights-fx-intervention-impact-on-reserves-and-central-bank-balance-sheets-4775349",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9335600137710571,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
           "fx"
         ],
         "themes": [
-          "policy"
+          "policy",
+          "liquidity"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
           "policy": -2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-03T22-15-42+00-00-8",
-        "title": "ECB expected to hike rates again in September, Barclays says",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/ecb-expected-to-hike-rates-again-in-september-barclays-says-4775199",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.7758623361587524,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-03T22-15-42+00-00-4",
-        "title": "Better growth won\u2019t help European stocks, BofA says",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/better-growth-wont-help-european-stocks-bofa-says-4775238",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.7626742720603943,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "growth",
-          "fx"
-        ],
-        "themes": [
-          "growth"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": -1,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-03T22-15-42+00-00-5",
-        "title": "Barclays sees an \"extended\" interest rate hold by the Fed. Here\u2019s why.",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/barclays-sees-an-extended-interest-rate-hold-by-the-fed-heres-why-4775216",
-        "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8046674132347107,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-03T22-15-42+00-00-7",
-        "title": "Analysts cut Canadian dollar forecasts as USMCA uncertainty clips\u00a0rate hike chances: Reuters poll",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/analysts-cut-canadian-dollar-forecasts-as-usmca-uncertainty-clipsrate-hike-chances-4775208",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9464161992073059,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "policy",
-          "fx"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
+          "liquidity": -2,
           "risk": 0
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "policy",
+        "name": "inflation",
         "label": "negative news sentiment",
-        "score": -1,
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-03T22-15-42+00-00-3",
-            "title": "Dollar set for biggest weekly drop since April after jobs data lowers Fed hike bets",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-heads-for-weekly-drop-as-jobs-data-dims-fed-hike-bets-4774963",
+            "doc_id": "www.marketwatch.com-2026-07-04T18-37-00+00-00-5",
+            "title": "Why June\u2019s jobs and inflation data are bullish for bonds",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/why-the-jobs-and-inflation-data-are-bullish-for-bonds-fcedffd2?mod=mw_rss_topstories",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9290305376052856,
+            "sentiment_confidence": 0.9597386121749878,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 12,
             "macro_buckets": [
-              "policy",
+              "inflation",
               "labor",
+              "rates"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-04T22-10-03+00-00-6",
+            "title": "BofA highlights FX intervention impact on reserves and central bank balance sheets",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/bofa-highlights-fx-intervention-impact-on-reserves-and-central-bank-balance-sheets-4775349",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9335600137710571,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
               "fx"
             ],
             "themes": [
-              "policy"
+              "policy",
+              "liquidity"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
               "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-03T22-15-42+00-00-8",
-            "title": "ECB expected to hike rates again in September, Barclays says",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ecb-expected-to-hike-rates-again-in-september-barclays-says-4775199",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.7758623361587524,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-03T22-15-42+00-00-5",
-            "title": "Barclays sees an \"extended\" interest rate hold by the Fed. Here\u2019s why.",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/barclays-sees-an-extended-interest-rate-hold-by-the-fed-heres-why-4775216",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8046674132347107,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 5,
-            "macro_buckets": [
-              "policy"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
+              "liquidity": -2,
               "risk": 0
             }
           }
@@ -293,144 +207,62 @@
       },
       {
         "name": "labor",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-07-03T22-15-42+00-00-3",
-            "title": "Dollar set for biggest weekly drop since April after jobs data lowers Fed hike bets",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-heads-for-weekly-drop-as-jobs-data-dims-fed-hike-bets-4774963",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9290305376052856,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 12,
-            "macro_buckets": [
-              "policy",
-              "labor",
-              "fx"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "growth",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-07-03T22-15-42+00-00-4",
-            "title": "Better growth won\u2019t help European stocks, BofA says",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/better-growth-wont-help-european-stocks-bofa-says-4775238",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7626742720603943,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "growth",
-              "fx"
-            ],
-            "themes": [
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": -1,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "fx",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-03T22-15-42+00-00-3",
-            "title": "Dollar set for biggest weekly drop since April after jobs data lowers Fed hike bets",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-heads-for-weekly-drop-as-jobs-data-dims-fed-hike-bets-4774963",
+            "doc_id": "www.marketwatch.com-2026-07-04T18-37-00+00-00-5",
+            "title": "Why June\u2019s jobs and inflation data are bullish for bonds",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/why-the-jobs-and-inflation-data-are-bullish-for-bonds-fcedffd2?mod=mw_rss_topstories",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9290305376052856,
+            "sentiment_confidence": 0.9597386121749878,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 12,
             "macro_buckets": [
-              "policy",
+              "inflation",
               "labor",
-              "fx"
+              "rates"
             ],
             "themes": [
-              "policy"
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -2,
               "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-03T22-15-42+00-00-4",
-            "title": "Better growth won\u2019t help European stocks, BofA says",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/better-growth-wont-help-european-stocks-bofa-says-4775238",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7626742720603943,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "growth",
-              "fx"
-            ],
-            "themes": [
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": -1,
               "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
-          },
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-03T22-15-42+00-00-7",
-            "title": "Analysts cut Canadian dollar forecasts as USMCA uncertainty clips\u00a0rate hike chances: Reuters poll",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/analysts-cut-canadian-dollar-forecasts-as-usmca-uncertainty-clipsrate-hike-chances-4775208",
+            "doc_id": "www.marketwatch.com-2026-07-04T18-37-00+00-00-5",
+            "title": "Why June\u2019s jobs and inflation data are bullish for bonds",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/why-the-jobs-and-inflation-data-are-bullish-for-bonds-fcedffd2?mod=mw_rss_topstories",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9464161992073059,
+            "sentiment_confidence": 0.9597386121749878,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
+            "macro_score": 12,
             "macro_buckets": [
-              "policy",
-              "fx"
+              "inflation",
+              "labor",
+              "rates"
             ],
             "themes": [
-              "uncategorized"
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -2,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,

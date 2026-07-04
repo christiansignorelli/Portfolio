@@ -1,68 +1,28 @@
 [
   {
-    "id": "www.investing.com-2026-07-03T22-15-42+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-03T22:15:42+00:00",
-    "title": "Dollar set for biggest weekly drop since April after jobs data lowers Fed hike bets",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-heads-for-weekly-drop-as-jobs-data-dims-fed-hike-bets-4774963",
+    "id": "www.marketwatch.com-2026-07-04T18-37-00+00-00-5",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-07-04T18:37:00+00:00",
+    "title": "Why June\u2019s jobs and inflation data are bullish for bonds",
+    "body": "The new jobs report is worse than many people realize.",
+    "url": "https://www.marketwatch.com/story/why-the-jobs-and-inflation-data-are-bullish-for-bonds-fcedffd2?mod=mw_rss_topstories",
     "macro_score": 12,
     "macro_buckets": [
-      "policy",
+      "inflation",
       "labor",
-      "fx"
+      "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-03T22-15-42+00-00-4",
+    "id": "www.investing.com-2026-07-04T22-10-03+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-03T22:15:42+00:00",
-    "title": "Better growth won\u2019t help European stocks, BofA says",
+    "published_at": "2026-07-04T22:10:03+00:00",
+    "title": "BofA highlights FX intervention impact on reserves and central bank balance sheets",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/better-growth-wont-help-european-stocks-bofa-says-4775238",
+    "url": "https://www.investing.com/news/economy-news/bofa-highlights-fx-intervention-impact-on-reserves-and-central-bank-balance-sheets-4775349",
     "macro_score": 6,
-    "macro_buckets": [
-      "growth",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-03T22-15-42+00-00-8",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-03T22:15:42+00:00",
-    "title": "ECB expected to hike rates again in September, Barclays says",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecb-expected-to-hike-rates-again-in-september-barclays-says-4775199",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-03T22-15-42+00-00-5",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-03T22:15:42+00:00",
-    "title": "Barclays sees an \"extended\" interest rate hold by the Fed. Here\u2019s why.",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/barclays-sees-an-extended-interest-rate-hold-by-the-fed-heres-why-4775216",
-    "macro_score": 5,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-03T22-15-42+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-03T22:15:42+00:00",
-    "title": "Analysts cut Canadian dollar forecasts as USMCA uncertainty clips\u00a0rate hike chances: Reuters poll",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/analysts-cut-canadian-dollar-forecasts-as-usmca-uncertainty-clipsrate-hike-chances-4775208",
-    "macro_score": 4,
     "macro_buckets": [
       "policy",
       "fx"
