@@ -1,6 +1,6 @@
 [
   {
-    "id": "www.marketwatch.com-2026-07-04T18-37-00+00-00-5",
+    "id": "www.marketwatch.com-2026-07-04T18-37-00+00-00-10",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
     "published_at": "2026-07-04T18:37:00+00:00",
@@ -15,17 +15,30 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-07-04T22-10-03+00-00-6",
+    "id": "www.marketwatch.com-2026-07-05T19-55-00+00-00-1",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-07-05T19:55:00+00:00",
+    "title": "OPEC+ raises output levels again despite tumbling crude prices",
+    "body": "Major oil producers on Sunday agreed once again to modestly increase their crude production, although, as in previous months, the hike is largely symbolic until a peace deal between the U.S. and Iran sticks and the Strait of Hormuz is fully reopened to shipping traffic.",
+    "url": "https://www.marketwatch.com/story/opec-raises-output-levels-again-despite-tumbling-crude-prices-534791c8?mod=mw_rss_topstories",
+    "macro_score": 10,
+    "macro_buckets": [
+      "inflation",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-07-05T22-12-19+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-04T22:10:03+00:00",
-    "title": "BofA highlights FX intervention impact on reserves and central bank balance sheets",
+    "published_at": "2026-07-05T22:12:19+00:00",
+    "title": "OPEC+ reportedly expected to approve another oil output increase for August",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/bofa-highlights-fx-intervention-impact-on-reserves-and-central-bank-balance-sheets-4775349",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/opec-expected-to-approve-another-oil-output-increase-for-august-4775413",
+    "macro_score": 4,
     "macro_buckets": [
-      "policy",
-      "fx"
+      "energy"
     ]
   }
 ]
