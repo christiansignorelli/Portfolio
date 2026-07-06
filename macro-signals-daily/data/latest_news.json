@@ -1,44 +1,30 @@
 [
   {
-    "id": "www.marketwatch.com-2026-07-04T18-37-00+00-00-10",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-04T18:37:00+00:00",
-    "title": "Why June\u2019s jobs and inflation data are bullish for bonds",
-    "body": "The new jobs report is worse than many people realize.",
-    "url": "https://www.marketwatch.com/story/why-the-jobs-and-inflation-data-are-bullish-for-bonds-fcedffd2?mod=mw_rss_topstories",
-    "macro_score": 12,
-    "macro_buckets": [
-      "inflation",
-      "labor",
-      "rates"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-07-05T19-55-00+00-00-1",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-05T19:55:00+00:00",
-    "title": "OPEC+ raises output levels again despite tumbling crude prices",
-    "body": "Major oil producers on Sunday agreed once again to modestly increase their crude production, although, as in previous months, the hike is largely symbolic until a peace deal between the U.S. and Iran sticks and the Strait of Hormuz is fully reopened to shipping traffic.",
-    "url": "https://www.marketwatch.com/story/opec-raises-output-levels-again-despite-tumbling-crude-prices-534791c8?mod=mw_rss_topstories",
-    "macro_score": 10,
-    "macro_buckets": [
-      "inflation",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-05T22-12-19+00-00-4",
+    "id": "www.investing.com-2026-07-06T22-35-18+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-05T22:12:19+00:00",
-    "title": "OPEC+ reportedly expected to approve another oil output increase for August",
+    "published_at": "2026-07-06T22:35:18+00:00",
+    "title": "Uruguay central bank expects inflation to exceed target temporarily",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/opec-expected-to-approve-another-oil-output-increase-for-august-4775413",
+    "url": "https://www.investing.com/news/economy-news/uruguay-central-bank-expects-inflation-to-exceed-target-temporarily-93CH-4777538",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-07-06T22-35-18+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-06T22:35:18+00:00",
+    "title": "Bank of Israel cuts rates, governor sees more easing as long as inflation behaves",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/bank-of-israel-cuts-key-rate-by-25-bps-as-usiran-ceasefire-pushes-down-energy-prices-4776948",
     "macro_score": 4,
     "macro_buckets": [
-      "energy"
+      "policy",
+      "inflation"
     ]
   }
 ]
