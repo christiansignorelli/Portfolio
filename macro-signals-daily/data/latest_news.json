@@ -1,30 +1,44 @@
 [
   {
-    "id": "www.investing.com-2026-07-06T22-35-18+00-00-4",
+    "id": "www.investing.com-2026-07-07T22-21-55+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-06T22:35:18+00:00",
-    "title": "Uruguay central bank expects inflation to exceed target temporarily",
+    "published_at": "2026-07-07T22:21:55+00:00",
+    "title": "BOJ dissenter Asada needs demand-driven inflation before backing rate hike",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/uruguay-central-bank-expects-inflation-to-exceed-target-temporarily-93CH-4777538",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/exclusiveboj-dissenter-asada-needs-demanddriven-inflation-before-backing-rate-hike-4779695",
+    "macro_score": 12,
     "macro_buckets": [
       "policy",
-      "inflation"
+      "inflation",
+      "growth"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-06T22-35-18+00-00-7",
+    "id": "www.marketwatch.com-2026-07-07T22-11-00+00-00-1",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-07-07T22:11:00+00:00",
+    "title": "Crude prices rise as U.S. launches strikes on Iran shortly after cancelling its license to sell oil",
+    "body": "Oil futures climbed late Tuesday after the Treasury Department canceled a license granted on June 21 to allow for the sale of Iranian oil.",
+    "url": "https://www.marketwatch.com/story/oil-prices-rise-as-the-u-s-cancels-irans-license-to-sell-oil-030635fc?mod=mw_rss_topstories",
+    "macro_score": 10,
+    "macro_buckets": [
+      "inflation",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-07-07T22-21-55+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-06T22:35:18+00:00",
-    "title": "Bank of Israel cuts rates, governor sees more easing as long as inflation behaves",
+    "published_at": "2026-07-07T22:21:55+00:00",
+    "title": "Oil gains as US revokes license for Iranian sales after tanker attacks",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/bank-of-israel-cuts-key-rate-by-25-bps-as-usiran-ceasefire-pushes-down-energy-prices-4776948",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/oil-gains-as-us-revokes-license-for-iranian-sales-after-tanker-attacks-4779887",
+    "macro_score": 5,
     "macro_buckets": [
-      "policy",
-      "inflation"
+      "energy"
     ]
   }
 ]

@@ -1,262 +1,346 @@
 [
   {
-    "date": "2026-07-06",
-    "daily_brief": "2026-07-06: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
-    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
-    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "date": "2026-07-07",
+    "daily_brief": "2026-07-07: 3 unique articles were analyzed. News sentiment was neutral. Top theme: inflation.",
+    "macro_read": "Macro read: coverage across inflation, growth was broadly neutral or mixed.",
+    "market_confirmation": "Both news sentiment and the broader market response were broadly neutral.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.87,
-        "return_5d": 3.06,
-        "close": 751.280029296875
+        "return_1d": -0.48,
+        "return_5d": 0.91,
+        "close": 747.7100219726562
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.07,
-        "return_5d": -2.19,
-        "close": 85.44999694824219
+        "return_1d": -1.05,
+        "return_5d": -3.32,
+        "close": 84.55000305175781
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.07,
-        "return_5d": -0.49,
-        "close": 28.31999969482422
+        "return_1d": 0.28,
+        "return_5d": 0.11,
+        "close": 28.399999618530273
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 0.36,
-        "return_5d": -1.07,
-        "close": 104.3499984741211
+        "return_1d": 4.38,
+        "return_5d": 1.72,
+        "close": 108.91999816894531
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.2,
-        "return_5d": 0.05,
-        "close": 79.87000274658203
+        "return_1d": -0.14,
+        "return_5d": -0.31,
+        "close": 79.76000213623047
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.06,
-        "return_5d": 2.27,
-        "close": 382.1300048828125
+        "return_1d": -1.21,
+        "return_5d": 2.42,
+        "close": 377.489990234375
       }
     ],
     "news_sentiment": {
-      "label": "insufficient_data",
-      "score": 1.0,
-      "display_score": 1.0,
-      "unique_documents": 2,
-      "positive_pct": 100.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 0.0,
-      "average_confidence": 0.827
+      "label": "neutral",
+      "score": 0.0,
+      "display_score": 0.0,
+      "unique_documents": 3,
+      "positive_pct": 33.3,
+      "neutral_pct": 33.3,
+      "negative_pct": 33.3,
+      "average_confidence": 0.625
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.3,
+      "label": "mixed",
+      "score": -0.15,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
+        "SPY": -0.4,
         "HYG": 0.0,
-        "TLT": 0.0,
-        "GLD": -0.1
+        "TLT": 0.15,
+        "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "The major market proxies gave a mixed risk signal.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "insufficient_data",
-      "label": "Insufficient data",
-      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
-      "news_label": "insufficient_data",
-      "market_label": "risk_on"
+      "status": "neutral",
+      "label": "Neutral",
+      "explanation": "Both news sentiment and the broader market response were broadly neutral.",
+      "news_label": "neutral",
+      "market_label": "mixed"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-07-06T22-35-18+00-00-4",
-        "title": "Uruguay central bank expects inflation to exceed target temporarily",
+        "doc_id": "www.investing.com-2026-07-07T22-21-55+00-00-1",
+        "title": "BOJ dissenter Asada needs demand-driven inflation before backing rate hike",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/uruguay-central-bank-expects-inflation-to-exceed-target-temporarily-93CH-4777538",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.9154919385910034,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
+        "url": "https://www.investing.com/news/economy-news/exclusiveboj-dissenter-asada-needs-demanddriven-inflation-before-backing-rate-hike-4779695",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.7409041523933411,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 12,
         "macro_buckets": [
           "policy",
-          "inflation"
+          "inflation",
+          "growth"
         ],
         "themes": [
           "inflation",
-          "policy",
-          "liquidity"
+          "growth"
         ],
         "scores": {
-          "inflation": 2,
+          "inflation": 0,
           "growth": 0,
-          "policy": 2,
-          "liquidity": 2,
+          "policy": 0,
+          "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-06T22-35-18+00-00-7",
-        "title": "Bank of Israel cuts rates, governor sees more easing as long as inflation behaves",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/bank-of-israel-cuts-key-rate-by-25-bps-as-usiran-ceasefire-pushes-down-energy-prices-4776948",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.7387795448303223,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 4,
+        "doc_id": "www.marketwatch.com-2026-07-07T22-11-00+00-00-1",
+        "title": "Crude prices rise as U.S. launches strikes on Iran shortly after cancelling its license to sell oil",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/oil-prices-rise-as-the-u-s-cancels-irans-license-to-sell-oil-030635fc?mod=mw_rss_topstories",
+        "confidence": "low",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.6397026181221008,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 10,
         "macro_buckets": [
-          "policy",
-          "inflation"
+          "inflation",
+          "energy"
         ],
         "themes": [
-          "inflation",
-          "policy",
-          "liquidity"
+          "inflation"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-07T22-21-55+00-00-8",
+        "title": "Oil gains as US revokes license for Iranian sales after tanker attacks",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/oil-gains-as-us-revokes-license-for-iranian-sales-after-tanker-attacks-4779887",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.49419382214546204,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 5,
+        "macro_buckets": [
+          "energy"
+        ],
+        "themes": [
+          "inflation"
         ],
         "scores": {
           "inflation": 1,
           "growth": 0,
-          "policy": 1,
-          "liquidity": 1,
+          "policy": 0,
+          "liquidity": 0,
           "risk": 0
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "policy",
-        "label": "positive news sentiment",
-        "score": 3,
+        "name": "inflation",
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-06T22-35-18+00-00-4",
-            "title": "Uruguay central bank expects inflation to exceed target temporarily",
+            "doc_id": "www.investing.com-2026-07-07T22-21-55+00-00-1",
+            "title": "BOJ dissenter Asada needs demand-driven inflation before backing rate hike",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/uruguay-central-bank-expects-inflation-to-exceed-target-temporarily-93CH-4777538",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9154919385910034,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
+            "url": "https://www.investing.com/news/economy-news/exclusiveboj-dissenter-asada-needs-demanddriven-inflation-before-backing-rate-hike-4779695",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7409041523933411,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 12,
             "macro_buckets": [
               "policy",
-              "inflation"
+              "inflation",
+              "growth"
             ],
             "themes": [
               "inflation",
-              "policy",
-              "liquidity"
+              "growth"
             ],
             "scores": {
-              "inflation": 2,
+              "inflation": 0,
               "growth": 0,
-              "policy": 2,
-              "liquidity": 2,
+              "policy": 0,
+              "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-07-06T22-35-18+00-00-7",
-            "title": "Bank of Israel cuts rates, governor sees more easing as long as inflation behaves",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bank-of-israel-cuts-key-rate-by-25-bps-as-usiran-ceasefire-pushes-down-energy-prices-4776948",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.7387795448303223,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 4,
+            "doc_id": "www.marketwatch.com-2026-07-07T22-11-00+00-00-1",
+            "title": "Crude prices rise as U.S. launches strikes on Iran shortly after cancelling its license to sell oil",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/oil-prices-rise-as-the-u-s-cancels-irans-license-to-sell-oil-030635fc?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.6397026181221008,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 10,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "inflation",
+              "energy"
             ],
             "themes": [
-              "inflation",
-              "policy",
-              "liquidity"
+              "inflation"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": -1,
               "growth": 0,
-              "policy": 1,
-              "liquidity": 1,
+              "policy": 0,
+              "liquidity": 0,
               "risk": 0
             }
           }
         ]
       },
       {
-        "name": "inflation",
-        "label": "positive news sentiment",
-        "score": 3,
+        "name": "energy",
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-06T22-35-18+00-00-4",
-            "title": "Uruguay central bank expects inflation to exceed target temporarily",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/uruguay-central-bank-expects-inflation-to-exceed-target-temporarily-93CH-4777538",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9154919385910034,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
+            "doc_id": "www.marketwatch.com-2026-07-07T22-11-00+00-00-1",
+            "title": "Crude prices rise as U.S. launches strikes on Iran shortly after cancelling its license to sell oil",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/oil-prices-rise-as-the-u-s-cancels-irans-license-to-sell-oil-030635fc?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.6397026181221008,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 10,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "inflation",
+              "energy"
             ],
             "themes": [
-              "inflation",
-              "policy",
-              "liquidity"
+              "inflation"
             ],
             "scores": {
-              "inflation": 2,
+              "inflation": -1,
               "growth": 0,
-              "policy": 2,
-              "liquidity": 2,
+              "policy": 0,
+              "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-07-06T22-35-18+00-00-7",
-            "title": "Bank of Israel cuts rates, governor sees more easing as long as inflation behaves",
+            "doc_id": "www.investing.com-2026-07-07T22-21-55+00-00-8",
+            "title": "Oil gains as US revokes license for Iranian sales after tanker attacks",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bank-of-israel-cuts-key-rate-by-25-bps-as-usiran-ceasefire-pushes-down-energy-prices-4776948",
-            "confidence": "medium",
+            "url": "https://www.investing.com/news/economy-news/oil-gains-as-us-revokes-license-for-iranian-sales-after-tanker-attacks-4779887",
+            "confidence": "low",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.7387795448303223,
+            "sentiment_confidence": 0.49419382214546204,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 4,
+            "macro_score": 5,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "energy"
             ],
             "themes": [
-              "inflation",
-              "policy",
-              "liquidity"
+              "inflation"
             ],
             "scores": {
               "inflation": 1,
               "growth": 0,
-              "policy": 1,
-              "liquidity": 1,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-07T22-21-55+00-00-1",
+            "title": "BOJ dissenter Asada needs demand-driven inflation before backing rate hike",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/exclusiveboj-dissenter-asada-needs-demanddriven-inflation-before-backing-rate-hike-4779695",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7409041523933411,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "growth"
+            ],
+            "themes": [
+              "inflation",
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-07T22-21-55+00-00-1",
+            "title": "BOJ dissenter Asada needs demand-driven inflation before backing rate hike",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/exclusiveboj-dissenter-asada-needs-demanddriven-inflation-before-backing-rate-hike-4779695",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7409041523933411,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "growth"
+            ],
+            "themes": [
+              "inflation",
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
               "risk": 0
             }
           }
