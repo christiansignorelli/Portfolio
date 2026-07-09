@@ -1,125 +1,57 @@
 [
   {
-    "id": "www.marketwatch.com-2026-07-08T21-16-00+00-00-2",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-08T21:16:00+00:00",
-    "title": "Oil prices extend gains after hours as U.S. forces conduct additional strikes on Iran",
-    "body": "Oil prices settled at their highest levels in more than two weeks on Wednesday, then extended their gains in after-hours trading after the U.S. military said it launched additional strikes on Iran.",
-    "url": "https://www.marketwatch.com/story/oil-prices-jump-by-the-most-in-two-months-after-trump-suggests-u-s-iran-cease-fire-is-over-9fa7caee?mod=mw_rss_topstories",
-    "macro_score": 9,
-    "macro_buckets": [
-      "inflation",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-07-08T19-28-00+00-00-8",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-08T19:28:00+00:00",
-    "title": "Higher gas prices aren\u2019t the only way rising tensions with Iran will hit home",
-    "body": "Wall Street expects President Trump\u2019s call that the Iran cease-fire is over will hurt airlines and home builders more than it will help oil companies.",
-    "url": "https://www.marketwatch.com/story/higher-gas-prices-arent-the-only-way-rising-tensions-with-iran-will-hit-home-0a995066?mod=mw_rss_topstories",
-    "macro_score": 9,
-    "macro_buckets": [
-      "inflation",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-07-08T20-32-00+00-00-5",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-08T20:32:00+00:00",
-    "title": "The Strait of Hormuz is back under \u2018full-conflict conditions\u2019 \u2014 and energy markets are scrambling",
-    "body": "Oil prices surge as U.S. and Iran trade strikes; but even without further disruption, volatility appears here to stay for energy markets",
-    "url": "https://www.marketwatch.com/story/oil-surges-as-strait-of-hormuz-is-back-into-full-conflict-conditions-6ef59562?mod=mw_rss_topstories",
-    "macro_score": 6,
-    "macro_buckets": [
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-08T22-16-41+00-00-6",
+    "id": "www.investing.com-2026-07-09T22-43-27+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-08T22:16:41+00:00",
-    "title": "Fed policymakers\u2019 inflation concerns grew at June meeting, minutes show",
+    "published_at": "2026-07-09T22:43:27+00:00",
+    "title": "Dollar slips as labor market remains stable, US-Iran tensions flare",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/fed-policymakers-saw-inflation-concerns-mounting-at-june-meeting-minutes-show-4782177",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
+    "macro_score": 8,
     "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-07-08T21-01-00+00-00-3",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-08T21:01:00+00:00",
-    "title": "Investors haven\u2019t been this bullish on the dollar in a decade. How the buck can keep climbing.",
-    "body": "A crowded bet on a stronger U.S. dollar may depend on whether Wednesday\u2019s jump in oil prices proves lasting, as renewed Middle East tensions revive inflation concerns and bolster expectations that the Federal Reserve may need to keep policy tight.",
-    "url": "https://www.marketwatch.com/story/traders-havent-been-this-bullish-on-the-dollar-in-a-decade-how-the-buck-can-keep-climbing-2e2bb287?mod=mw_rss_topstories",
-    "macro_score": 5,
-    "macro_buckets": [
-      "policy",
-      "inflation",
+      "labor",
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-08T22-16-41+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-08T22:16:41+00:00",
-    "title": "Trading Day: War on, risk-off: Stocks drop, crude jumps as Trump calls Iran peace deal \u2019over\u2019",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/trading-day-war-on-riskoff-stocks-drop-crude-jumps-as-trump-calls-iran-peace-deal-over-4782596",
-    "macro_score": 5,
-    "macro_buckets": [
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-08T22-16-41+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-08T22:16:41+00:00",
-    "title": "Oil hits multi-week high, Wall Street slips as Iran tensions reignite",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/oil-jumps-and-bonds-dip-as-us-strikes-iran-4780549",
-    "macro_score": 5,
-    "macro_buckets": [
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-08T22-16-41+00-00-8",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-08T22:16:41+00:00",
-    "title": "Fed minutes show high uncertainty and evenly divided debate over rate outlook",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/fed-minutes-show-high-uncertainty-and-debate-over-monetary-policy-outlook-4782167",
-    "macro_score": 5,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-07-08T20-35-00+00-00-4",
+    "id": "www.marketwatch.com-2026-07-09T21-52-00+00-00-5",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-08T20:35:00+00:00",
-    "title": "This chart shows stamp prices over the years as USPS hikes postage again this weekend",
-    "body": "The new rate will go into effect on July 12, and will be the eighth price increase over the last five calendar years",
-    "url": "https://www.marketwatch.com/story/this-chart-shows-stamp-prices-over-the-years-as-usps-hikes-postage-again-this-weekend-affbb84b?mod=mw_rss_topstories",
-    "macro_score": 4,
+    "published_at": "2026-07-09T21:52:00+00:00",
+    "title": "Can Walmart help the Fed harness real-time U.S. economic data? We\u2019re about to find out.",
+    "body": "The Federal Reserve named a former Walmart CEO to a task force to develop contemporaneous data on spending, inflation and growth.",
+    "url": "https://www.marketwatch.com/story/can-walmart-help-the-fed-harness-real-time-u-s-economic-data-were-about-to-find-out-e625925a?mod=mw_rss_topstories",
+    "macro_score": 7,
     "macro_buckets": [
       "policy",
-      "inflation"
+      "growth"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-07-09T22-43-27+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-09T22:43:27+00:00",
+    "title": "War-driven inflation fears fail to shake U.S. Treasury yield outlook: Reuters poll",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/wardriven-inflation-fears-fail-to-shake-us-treasury-yield-outlook-4784716",
+    "macro_score": 7,
+    "macro_buckets": [
+      "inflation",
+      "rates"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-07-09T20-56-00+00-00-10",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-07-09T20:56:00+00:00",
+    "title": "A slower AI payoff risks tipping the economy into recession, Apollo says",
+    "body": "Growing threats from China and falling token prices may put AI financials at risk.",
+    "url": "https://www.marketwatch.com/story/a-slower-ai-payoff-risks-tipping-the-economy-into-recession-apollo-says-5d495f6c?mod=mw_rss_topstories",
+    "macro_score": 4,
+    "macro_buckets": [
+      "growth"
     ]
   }
 ]

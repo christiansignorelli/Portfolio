@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-07-08",
-    "daily_brief": "2026-07-08: 9 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Risk, Policy coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment had a directional bias, but the broader market response was mixed.",
+    "date": "2026-07-09",
+    "daily_brief": "2026-07-09: 4 unique articles were analyzed. News sentiment was negative. Top theme: growth.",
+    "macro_read": "Macro read: Growth, Inflation, Risk coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss",
@@ -13,296 +13,122 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.31,
-        "return_5d": -0.18,
-        "close": 745.4000244140625
+        "return_1d": 0.85,
+        "return_5d": 0.8,
+        "close": 751.7100219726562
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.22,
-        "return_5d": -2.38,
-        "close": 84.36000061035156
+        "return_1d": 0.15,
+        "return_5d": -1.2,
+        "close": 84.48999786376953
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.14,
-        "return_5d": -0.18,
+        "return_1d": 0.0,
+        "return_5d": -0.46,
         "close": 28.360000610351562
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 3.02,
-        "return_5d": 5.42,
-        "close": 112.20999908447266
+        "return_1d": -2.85,
+        "return_5d": 5.56,
+        "close": 109.01000213623047
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.13,
-        "return_5d": -0.39,
-        "close": 79.66000366210938
+        "return_1d": 0.11,
+        "return_5d": 0.2,
+        "close": 79.75
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.81,
-        "return_5d": 1.65,
-        "close": 374.45001220703125
+        "return_1d": 1.0,
+        "return_5d": 2.05,
+        "close": 378.17999267578125
       }
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -0.4444444444444444,
-      "display_score": -0.44,
-      "unique_documents": 9,
-      "positive_pct": 22.2,
-      "neutral_pct": 11.1,
-      "negative_pct": 66.7,
-      "average_confidence": 0.799
+      "score": -0.75,
+      "display_score": -0.75,
+      "unique_documents": 4,
+      "positive_pct": 0.0,
+      "neutral_pct": 25.0,
+      "negative_pct": 75.0,
+      "average_confidence": 0.883
     },
     "market_regime": {
-      "label": "mixed",
-      "score": -0.15,
+      "label": "risk_on",
+      "score": 0.3,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
+        "SPY": 0.4,
         "HYG": 0.0,
-        "TLT": 0.15,
-        "GLD": 0.1
+        "TLT": 0.0,
+        "GLD": -0.1
       },
-      "explanation": "The major market proxies gave a mixed risk signal.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "unconfirmed",
-      "label": "Unconfirmed",
-      "explanation": "News sentiment had a directional bias, but the broader market response was mixed.",
+      "status": "divergent",
+      "label": "Divergent",
+      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
       "news_label": "negative",
-      "market_label": "mixed"
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-07-08T19-28-00+00-00-8",
-        "title": "Higher gas prices aren\u2019t the only way rising tensions with Iran will hit home",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/higher-gas-prices-arent-the-only-way-rising-tensions-with-iran-will-hit-home-0a995066?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-07-09T22-43-27+00-00-7",
+        "title": "Dollar slips as labor market remains stable, US-Iran tensions flare",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9334220290184021,
+        "sentiment_confidence": 0.9140114784240723,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
+        "macro_score": 8,
         "macro_buckets": [
-          "inflation",
-          "energy"
-        ],
-        "themes": [
-          "inflation",
-          "risk"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": -2
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-07-08T21-16-00+00-00-2",
-        "title": "Oil prices extend gains after hours as U.S. forces conduct additional strikes on Iran",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-prices-jump-by-the-most-in-two-months-after-trump-suggests-u-s-iran-cease-fire-is-over-9fa7caee?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.7311581969261169,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "inflation",
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": 1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-07-08T20-32-00+00-00-5",
-        "title": "The Strait of Hormuz is back under \u2018full-conflict conditions\u2019 \u2014 and energy markets are scrambling",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-surges-as-strait-of-hormuz-is-back-into-full-conflict-conditions-6ef59562?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8305104970932007,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-08T22-16-41+00-00-6",
-        "title": "Fed policymakers\u2019 inflation concerns grew at June meeting, minutes show",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/fed-policymakers-saw-inflation-concerns-mounting-at-june-meeting-minutes-show-4782177",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.6054245829582214,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy",
-          "inflation"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": -1,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-08T22-16-41+00-00-3",
-        "title": "Oil hits multi-week high, Wall Street slips as Iran tensions reignite",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/oil-jumps-and-bonds-dip-as-us-strikes-iran-4780549",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8932573199272156,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "energy"
-        ],
-        "themes": [
-          "inflation",
-          "risk"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": -2
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-08T22-16-41+00-00-2",
-        "title": "Trading Day: War on, risk-off: Stocks drop, crude jumps as Trump calls Iran peace deal \u2019over\u2019",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/trading-day-war-on-riskoff-stocks-drop-crude-jumps-as-trump-calls-iran-peace-deal-over-4782596",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8459741473197937,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "energy"
-        ],
-        "themes": [
-          "risk"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": -1
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-08T22-16-41+00-00-8",
-        "title": "Fed minutes show high uncertainty and evenly divided debate over rate outlook",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/fed-minutes-show-high-uncertainty-and-debate-over-monetary-policy-outlook-4782167",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.7597984671592712,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-07-08T21-01-00+00-00-3",
-        "title": "Investors haven\u2019t been this bullish on the dollar in a decade. How the buck can keep climbing.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/traders-havent-been-this-bullish-on-the-dollar-in-a-decade-how-the-buck-can-keep-climbing-2e2bb287?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.7587023973464966,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "policy",
-          "inflation",
+          "labor",
           "fx"
         ],
         "themes": [
-          "inflation",
-          "policy",
+          "growth",
           "risk"
         ],
         "scores": {
-          "inflation": 1,
-          "growth": 0,
-          "policy": 1,
+          "inflation": 0,
+          "growth": -2,
+          "policy": 0,
           "liquidity": 0,
-          "risk": 1
+          "risk": -2
         }
       },
       {
-        "doc_id": "www.marketwatch.com-2026-07-08T20-35-00+00-00-4",
-        "title": "This chart shows stamp prices over the years as USPS hikes postage again this weekend",
+        "doc_id": "www.marketwatch.com-2026-07-09T21-52-00+00-00-5",
+        "title": "Can Walmart help the Fed harness real-time U.S. economic data? We\u2019re about to find out.",
         "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/this-chart-shows-stamp-prices-over-the-years-as-usps-hikes-postage-again-this-weekend-affbb84b?mod=mw_rss_topstories",
+        "url": "https://www.marketwatch.com/story/can-walmart-help-the-fed-harness-real-time-u-s-economic-data-were-about-to-find-out-e625925a?mod=mw_rss_topstories",
         "confidence": "medium",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8337360620498657,
+        "sentiment_confidence": 0.842682957649231,
         "summary_label": "neutral-financial-sentiment",
-        "macro_score": 4,
+        "macro_score": 7,
         "macro_buckets": [
           "policy",
-          "inflation"
+          "growth"
         ],
         "themes": [
-          "inflation"
+          "inflation",
+          "growth",
+          "policy"
         ],
         "scores": {
           "inflation": 0,
@@ -310,172 +136,150 @@
           "policy": 0,
           "liquidity": 0,
           "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-09T22-43-27+00-00-9",
+        "title": "War-driven inflation fears fail to shake U.S. Treasury yield outlook: Reuters poll",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/wardriven-inflation-fears-fail-to-shake-us-treasury-yield-outlook-4784716",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8060891628265381,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 7,
+        "macro_buckets": [
+          "inflation",
+          "rates"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.marketwatch.com-2026-07-09T20-56-00+00-00-10",
+        "title": "A slower AI payoff risks tipping the economy into recession, Apollo says",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/a-slower-ai-payoff-risks-tipping-the-economy-into-recession-apollo-says-5d495f6c?mod=mw_rss_topstories",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9693277478218079,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "growth"
+        ],
+        "themes": [
+          "inflation",
+          "growth",
+          "risk"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": -2,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": -2
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "inflation",
+        "name": "growth",
         "label": "negative news sentiment",
         "score": -4,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-08T19-28-00+00-00-8",
-            "title": "Higher gas prices aren\u2019t the only way rising tensions with Iran will hit home",
+            "doc_id": "www.marketwatch.com-2026-07-09T21-52-00+00-00-5",
+            "title": "Can Walmart help the Fed harness real-time U.S. economic data? We\u2019re about to find out.",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/higher-gas-prices-arent-the-only-way-rising-tensions-with-iran-will-hit-home-0a995066?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9334220290184021,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "url": "https://www.marketwatch.com/story/can-walmart-help-the-fed-harness-real-time-u-s-economic-data-were-about-to-find-out-e625925a?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.842682957649231,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
-              "inflation",
-              "energy"
+              "policy",
+              "growth"
             ],
             "themes": [
               "inflation",
+              "growth",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.marketwatch.com-2026-07-09T20-56-00+00-00-10",
+            "title": "A slower AI payoff risks tipping the economy into recession, Apollo says",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/a-slower-ai-payoff-risks-tipping-the-economy-into-recession-apollo-says-5d495f6c?mod=mw_rss_topstories",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9693277478218079,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "growth"
+            ],
+            "themes": [
+              "inflation",
+              "growth",
               "risk"
             ],
             "scores": {
               "inflation": -2,
-              "growth": 0,
+              "growth": -2,
               "policy": 0,
               "liquidity": 0,
               "risk": -2
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-07-08T21-16-00+00-00-2",
-            "title": "Oil prices extend gains after hours as U.S. forces conduct additional strikes on Iran",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-jump-by-the-most-in-two-months-after-trump-suggests-u-s-iran-cease-fire-is-over-9fa7caee?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.7311581969261169,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-08T22-16-41+00-00-6",
-            "title": "Fed policymakers\u2019 inflation concerns grew at June meeting, minutes show",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/fed-policymakers-saw-inflation-concerns-mounting-at-june-meeting-minutes-show-4782177",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.6054245829582214,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
             }
           }
         ]
       },
       {
-        "name": "energy",
+        "name": "labor",
         "label": "negative news sentiment",
         "score": -4,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-08T19-28-00+00-00-8",
-            "title": "Higher gas prices aren\u2019t the only way rising tensions with Iran will hit home",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/higher-gas-prices-arent-the-only-way-rising-tensions-with-iran-will-hit-home-0a995066?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-07-09T22-43-27+00-00-7",
+            "title": "Dollar slips as labor market remains stable, US-Iran tensions flare",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9334220290184021,
+            "sentiment_confidence": 0.9140114784240723,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 8,
             "macro_buckets": [
-              "inflation",
-              "energy"
+              "labor",
+              "fx"
             ],
             "themes": [
-              "inflation",
+              "growth",
               "risk"
             ],
             "scores": {
-              "inflation": -2,
-              "growth": 0,
+              "inflation": 0,
+              "growth": -2,
               "policy": 0,
               "liquidity": 0,
               "risk": -2
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-07-08T21-16-00+00-00-2",
-            "title": "Oil prices extend gains after hours as U.S. forces conduct additional strikes on Iran",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-jump-by-the-most-in-two-months-after-trump-suggests-u-s-iran-cease-fire-is-over-9fa7caee?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.7311581969261169,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-07-08T20-32-00+00-00-5",
-            "title": "The Strait of Hormuz is back under \u2018full-conflict conditions\u2019 \u2014 and energy markets are scrambling",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-surges-as-strait-of-hormuz-is-back-into-full-conflict-conditions-6ef59562?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8305104970932007,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
             }
           }
         ]
@@ -486,114 +290,59 @@
         "score": -4,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-08T21-01-00+00-00-3",
-            "title": "Investors haven\u2019t been this bullish on the dollar in a decade. How the buck can keep climbing.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/traders-havent-been-this-bullish-on-the-dollar-in-a-decade-how-the-buck-can-keep-climbing-2e2bb287?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.7587023973464966,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 5,
+            "doc_id": "www.investing.com-2026-07-09T22-43-27+00-00-7",
+            "title": "Dollar slips as labor market remains stable, US-Iran tensions flare",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9140114784240723,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 8,
             "macro_buckets": [
-              "policy",
-              "inflation",
+              "labor",
               "fx"
             ],
             "themes": [
-              "inflation",
-              "policy",
+              "growth",
               "risk"
             ],
             "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
+              "inflation": 0,
+              "growth": -2,
+              "policy": 0,
               "liquidity": 0,
-              "risk": 1
+              "risk": -2
             }
           }
         ]
       },
       {
-        "name": "policy",
+        "name": "rates",
         "label": "negative news sentiment",
-        "score": -1,
+        "score": -4,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-08T22-16-41+00-00-6",
-            "title": "Fed policymakers\u2019 inflation concerns grew at June meeting, minutes show",
+            "doc_id": "www.investing.com-2026-07-09T22-43-27+00-00-9",
+            "title": "War-driven inflation fears fail to shake U.S. Treasury yield outlook: Reuters poll",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/fed-policymakers-saw-inflation-concerns-mounting-at-june-meeting-minutes-show-4782177",
-            "confidence": "low",
+            "url": "https://www.investing.com/news/economy-news/wardriven-inflation-fears-fail-to-shake-us-treasury-yield-outlook-4784716",
+            "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.6054245829582214,
+            "sentiment_confidence": 0.8060891628265381,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "macro_score": 7,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "inflation",
+              "rates"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "inflation"
             ],
             "scores": {
               "inflation": -1,
               "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-07-08T21-01-00+00-00-3",
-            "title": "Investors haven\u2019t been this bullish on the dollar in a decade. How the buck can keep climbing.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/traders-havent-been-this-bullish-on-the-dollar-in-a-decade-how-the-buck-can-keep-climbing-2e2bb287?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.7587023973464966,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 5,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "fx"
-            ],
-            "themes": [
-              "inflation",
-              "policy",
-              "risk"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 1
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-08T22-16-41+00-00-8",
-            "title": "Fed minutes show high uncertainty and evenly divided debate over rate outlook",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/fed-minutes-show-high-uncertainty-and-debate-over-monetary-policy-outlook-4782167",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7597984671592712,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 5,
-            "macro_buckets": [
-              "policy"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
