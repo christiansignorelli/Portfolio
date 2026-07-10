@@ -1,8 +1,8 @@
 [
   {
-    "date": "2026-07-09",
-    "daily_brief": "2026-07-09: 4 unique articles were analyzed. News sentiment was negative. Top theme: growth.",
-    "macro_read": "Macro read: Growth, Inflation, Risk coverage showed a predominantly negative tone.",
+    "date": "2026-07-10",
+    "daily_brief": "2026-07-10: 6 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Inflation, Risk coverage showed a predominantly negative tone.",
     "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
@@ -13,66 +13,66 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.85,
-        "return_5d": 0.8,
-        "close": 751.7100219726562
+        "return_1d": 0.43,
+        "return_5d": 1.37,
+        "close": 754.9500122070312
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.15,
-        "return_5d": -1.2,
-        "close": 84.48999786376953
+        "return_1d": -0.02,
+        "return_5d": -1.22,
+        "close": 84.47000122070312
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.0,
-        "return_5d": -0.46,
-        "close": 28.360000610351562
+        "return_1d": 0.11,
+        "return_5d": 0.18,
+        "close": 28.389999389648438
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -2.85,
-        "return_5d": 5.56,
-        "close": 109.01000213623047
+        "return_1d": -0.28,
+        "return_5d": 4.54,
+        "close": 108.69999694824219
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.11,
-        "return_5d": 0.2,
-        "close": 79.75
+        "return_1d": -0.05,
+        "return_5d": 0.0,
+        "close": 79.70999908447266
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.0,
-        "return_5d": 2.05,
-        "close": 378.17999267578125
+        "return_1d": -0.31,
+        "return_5d": -0.3,
+        "close": 377.010009765625
       }
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -0.75,
-      "display_score": -0.75,
-      "unique_documents": 4,
+      "score": -0.6666666666666666,
+      "display_score": -0.67,
+      "unique_documents": 6,
       "positive_pct": 0.0,
-      "neutral_pct": 25.0,
-      "negative_pct": 75.0,
-      "average_confidence": 0.883
+      "neutral_pct": 33.3,
+      "negative_pct": 66.7,
+      "average_confidence": 0.778
     },
     "market_regime": {
       "label": "risk_on",
-      "score": 0.3,
+      "score": 0.5,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
         "SPY": 0.4,
         "HYG": 0.0,
         "TLT": 0.0,
-        "GLD": -0.1
+        "GLD": 0.1
       },
       "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
@@ -86,48 +86,20 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-07-09T22-43-27+00-00-7",
-        "title": "Dollar slips as labor market remains stable, US-Iran tensions flare",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9140114784240723,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 8,
-        "macro_buckets": [
-          "labor",
-          "fx"
-        ],
-        "themes": [
-          "growth",
-          "risk"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": -2,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": -2
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-07-09T21-52-00+00-00-5",
-        "title": "Can Walmart help the Fed harness real-time U.S. economic data? We\u2019re about to find out.",
+        "doc_id": "www.marketwatch.com-2026-07-10T19-02-00+00-00-9",
+        "title": "Prepare for the Fed to undo rate cuts that stabilized the economy, expert cautions",
         "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/can-walmart-help-the-fed-harness-real-time-u-s-economic-data-were-about-to-find-out-e625925a?mod=mw_rss_topstories",
-        "confidence": "medium",
+        "url": "https://www.marketwatch.com/story/prepare-for-the-fed-to-undo-rate-cuts-that-stabilized-the-economy-expert-cautions-bc36ea76?mod=mw_rss_topstories",
+        "confidence": "low",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.842682957649231,
+        "sentiment_confidence": 0.530917227268219,
         "summary_label": "neutral-financial-sentiment",
-        "macro_score": 7,
+        "macro_score": 11,
         "macro_buckets": [
           "policy",
           "growth"
         ],
         "themes": [
-          "inflation",
-          "growth",
           "policy"
         ],
         "scores": {
@@ -139,13 +111,13 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-09T22-43-27+00-00-9",
-        "title": "War-driven inflation fears fail to shake U.S. Treasury yield outlook: Reuters poll",
+        "doc_id": "www.investing.com-2026-07-10T22-14-53+00-00-2",
+        "title": "US Treasury bonds fall as Iran tensions raise inflation concerns",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/wardriven-inflation-fears-fail-to-shake-us-treasury-yield-outlook-4784716",
-        "confidence": "medium",
+        "url": "https://www.investing.com/news/economy-news/us-treasury-bonds-fall-as-iran-tensions-raise-inflation-concerns-93CH-4786976",
+        "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.8060891628265381,
+        "sentiment_confidence": 0.9332398176193237,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 7,
         "macro_buckets": [
@@ -153,10 +125,88 @@
           "rates"
         ],
         "themes": [
-          "inflation"
+          "inflation",
+          "risk"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": -2,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": -2
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-10T22-14-53+00-00-8",
+        "title": "Peru central bank warns El Ni\u00f1o raises inflation risks",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/peru-central-bank-warns-el-nino-raises-inflation-risks-93CH-4786711",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.947374701499939,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy",
+          "liquidity",
+          "risk"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": -2,
+          "liquidity": -2,
+          "risk": -2
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-10T22-14-53+00-00-7",
+        "title": "Two Polish central bankers see no rush to cut rates after summer",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/polish-ratesetter-wnorowski-says-talk-of-sept-rate-cut-premature-4785559",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.7948195934295654,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": -1,
+          "liquidity": -1,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.marketwatch.com-2026-07-10T19-30-00+00-00-7",
+        "title": "Where to put cash right now: Should you lock in at 4% \u2014 or wait for the next Fed rate decision?",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/should-you-lock-in-a-4-cd-rate-now-heres-how-to-decide-on-the-next-move-for-your-cash-41a7ef4c?mod=mw_rss_topstories",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.7474918961524963,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -164,17 +214,18 @@
         }
       },
       {
-        "doc_id": "www.marketwatch.com-2026-07-09T20-56-00+00-00-10",
-        "title": "A slower AI payoff risks tipping the economy into recession, Apollo says",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/a-slower-ai-payoff-risks-tipping-the-economy-into-recession-apollo-says-5d495f6c?mod=mw_rss_topstories",
-        "confidence": "high",
+        "doc_id": "www.investing.com-2026-07-10T22-14-53+00-00-3",
+        "title": "Wall Street climbs, oil slides as investors bet on AI growth over Middle East tensions",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/asian-stocks-surge-as-investors-look-past-middle-east-attacks-4785274",
+        "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9693277478218079,
+        "sentiment_confidence": 0.7163399457931519,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
+        "macro_score": 6,
         "macro_buckets": [
-          "growth"
+          "growth",
+          "energy"
         ],
         "themes": [
           "inflation",
@@ -182,37 +233,130 @@
           "risk"
         ],
         "scores": {
-          "inflation": -2,
-          "growth": -2,
+          "inflation": -1,
+          "growth": -1,
           "policy": 0,
           "liquidity": 0,
-          "risk": -2
+          "risk": -1
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "growth",
+        "name": "inflation",
         "label": "negative news sentiment",
-        "score": -4,
+        "score": -5,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-09T21-52-00+00-00-5",
-            "title": "Can Walmart help the Fed harness real-time U.S. economic data? We\u2019re about to find out.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/can-walmart-help-the-fed-harness-real-time-u-s-economic-data-were-about-to-find-out-e625925a?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.842682957649231,
-            "summary_label": "neutral-financial-sentiment",
+            "doc_id": "www.investing.com-2026-07-10T22-14-53+00-00-2",
+            "title": "US Treasury bonds fall as Iran tensions raise inflation concerns",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-treasury-bonds-fall-as-iran-tensions-raise-inflation-concerns-93CH-4786976",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9332398176193237,
+            "summary_label": "negative-financial-sentiment",
             "macro_score": 7,
+            "macro_buckets": [
+              "inflation",
+              "rates"
+            ],
+            "themes": [
+              "inflation",
+              "risk"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": -2
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-10T22-14-53+00-00-8",
+            "title": "Peru central bank warns El Ni\u00f1o raises inflation risks",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/peru-central-bank-warns-el-nino-raises-inflation-risks-93CH-4786711",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.947374701499939,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "liquidity",
+              "risk"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": -2,
+              "risk": -2
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "negative news sentiment",
+        "score": -5,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-10T22-14-53+00-00-3",
+            "title": "Wall Street climbs, oil slides as investors bet on AI growth over Middle East tensions",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/asian-stocks-surge-as-investors-look-past-middle-east-attacks-4785274",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.7163399457931519,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "growth",
+              "energy"
+            ],
+            "themes": [
+              "inflation",
+              "growth",
+              "risk"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": -1,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": -1
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "negative news sentiment",
+        "score": -3,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-07-10T19-02-00+00-00-9",
+            "title": "Prepare for the Fed to undo rate cuts that stabilized the economy, expert cautions",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/prepare-for-the-fed-to-undo-rate-cuts-that-stabilized-the-economy-expert-cautions-bc36ea76?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.530917227268219,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 11,
             "macro_buckets": [
               "policy",
               "growth"
             ],
             "themes": [
-              "inflation",
-              "growth",
               "policy"
             ],
             "scores": {
@@ -224,127 +368,114 @@
             }
           },
           {
-            "doc_id": "www.marketwatch.com-2026-07-09T20-56-00+00-00-10",
-            "title": "A slower AI payoff risks tipping the economy into recession, Apollo says",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/a-slower-ai-payoff-risks-tipping-the-economy-into-recession-apollo-says-5d495f6c?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-07-10T22-14-53+00-00-8",
+            "title": "Peru central bank warns El Ni\u00f1o raises inflation risks",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/peru-central-bank-warns-el-nino-raises-inflation-risks-93CH-4786711",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9693277478218079,
+            "sentiment_confidence": 0.947374701499939,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
+            "macro_score": 6,
             "macro_buckets": [
-              "growth"
+              "policy",
+              "inflation"
             ],
             "themes": [
               "inflation",
-              "growth",
+              "policy",
+              "liquidity",
               "risk"
             ],
             "scores": {
               "inflation": -2,
-              "growth": -2,
-              "policy": 0,
-              "liquidity": 0,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": -2,
               "risk": -2
             }
-          }
-        ]
-      },
-      {
-        "name": "labor",
-        "label": "negative news sentiment",
-        "score": -4,
-        "documents": [
+          },
           {
-            "doc_id": "www.investing.com-2026-07-09T22-43-27+00-00-7",
-            "title": "Dollar slips as labor market remains stable, US-Iran tensions flare",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9140114784240723,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "labor",
-              "fx"
-            ],
-            "themes": [
-              "growth",
-              "risk"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": -2,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": -2
-            }
-          }
-        ]
-      },
-      {
-        "name": "fx",
-        "label": "negative news sentiment",
-        "score": -4,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-07-09T22-43-27+00-00-7",
-            "title": "Dollar slips as labor market remains stable, US-Iran tensions flare",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9140114784240723,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "labor",
-              "fx"
-            ],
-            "themes": [
-              "growth",
-              "risk"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": -2,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": -2
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "negative news sentiment",
-        "score": -4,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-07-09T22-43-27+00-00-9",
-            "title": "War-driven inflation fears fail to shake U.S. Treasury yield outlook: Reuters poll",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/wardriven-inflation-fears-fail-to-shake-us-treasury-yield-outlook-4784716",
+            "doc_id": "www.marketwatch.com-2026-07-10T19-30-00+00-00-7",
+            "title": "Where to put cash right now: Should you lock in at 4% \u2014 or wait for the next Fed rate decision?",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/should-you-lock-in-a-4-cd-rate-now-heres-how-to-decide-on-the-next-move-for-your-cash-41a7ef4c?mod=mw_rss_topstories",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8060891628265381,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7474918961524963,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
-              "inflation",
-              "rates"
+              "policy"
             ],
             "themes": [
-              "inflation"
+              "policy"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
               "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "negative news sentiment",
+        "score": -1,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-07-10T19-02-00+00-00-9",
+            "title": "Prepare for the Fed to undo rate cuts that stabilized the economy, expert cautions",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/prepare-for-the-fed-to-undo-rate-cuts-that-stabilized-the-economy-expert-cautions-bc36ea76?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.530917227268219,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 11,
+            "macro_buckets": [
+              "policy",
+              "growth"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-10T22-14-53+00-00-3",
+            "title": "Wall Street climbs, oil slides as investors bet on AI growth over Middle East tensions",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/asian-stocks-surge-as-investors-look-past-middle-east-attacks-4785274",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.7163399457931519,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "growth",
+              "energy"
+            ],
+            "themes": [
+              "inflation",
+              "growth",
+              "risk"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": -1,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": -1
             }
           }
         ]
