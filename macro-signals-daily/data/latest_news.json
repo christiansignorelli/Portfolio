@@ -1,23 +1,9 @@
 [
   {
-    "id": "www.marketwatch.com-2026-07-10T19-02-00+00-00-9",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-10T19:02:00+00:00",
-    "title": "Prepare for the Fed to undo rate cuts that stabilized the economy, expert cautions",
-    "body": "The Federal Reserve likely will take back all the 2025 \u2018insurance cuts\u2019 or not raise interest rates at all, according to RBC Wealth Management.",
-    "url": "https://www.marketwatch.com/story/prepare-for-the-fed-to-undo-rate-cuts-that-stabilized-the-economy-expert-cautions-bc36ea76?mod=mw_rss_topstories",
-    "macro_score": 11,
-    "macro_buckets": [
-      "policy",
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-10T22-14-53+00-00-2",
+    "id": "www.investing.com-2026-07-11T22-05-45+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-10T22:14:53+00:00",
+    "published_at": "2026-07-11T22:05:45+00:00",
     "title": "US Treasury bonds fall as Iran tensions raise inflation concerns",
     "body": "",
     "url": "https://www.investing.com/news/economy-news/us-treasury-bonds-fall-as-iran-tensions-raise-inflation-concerns-93CH-4786976",
@@ -25,60 +11,6 @@
     "macro_buckets": [
       "inflation",
       "rates"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-07-10T19-30-00+00-00-7",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-10T19:30:00+00:00",
-    "title": "Where to put cash right now: Should you lock in at 4% \u2014 or wait for the next Fed rate decision?",
-    "body": "CD rates are at a standstill, but that could change after the next Fed meeting, or the one after that.",
-    "url": "https://www.marketwatch.com/story/should-you-lock-in-a-4-cd-rate-now-heres-how-to-decide-on-the-next-move-for-your-cash-41a7ef4c?mod=mw_rss_topstories",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-10T22-14-53+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-10T22:14:53+00:00",
-    "title": "Wall Street climbs, oil slides as investors bet on AI growth over Middle East tensions",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/asian-stocks-surge-as-investors-look-past-middle-east-attacks-4785274",
-    "macro_score": 6,
-    "macro_buckets": [
-      "growth",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-10T22-14-53+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-10T22:14:53+00:00",
-    "title": "Two Polish central bankers see no rush to cut rates after summer",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/polish-ratesetter-wnorowski-says-talk-of-sept-rate-cut-premature-4785559",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-10T22-14-53+00-00-8",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-10T22:14:53+00:00",
-    "title": "Peru central bank warns El Ni\u00f1o raises inflation risks",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/peru-central-bank-warns-el-nino-raises-inflation-risks-93CH-4786711",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
-      "inflation"
     ]
   }
 ]
