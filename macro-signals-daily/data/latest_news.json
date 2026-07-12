@@ -1,16 +1,1 @@
-[
-  {
-    "id": "www.investing.com-2026-07-11T22-05-45+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-11T22:05:45+00:00",
-    "title": "US Treasury bonds fall as Iran tensions raise inflation concerns",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-treasury-bonds-fall-as-iran-tensions-raise-inflation-concerns-93CH-4786976",
-    "macro_score": 7,
-    "macro_buckets": [
-      "inflation",
-      "rates"
-    ]
-  }
-]
+[]
