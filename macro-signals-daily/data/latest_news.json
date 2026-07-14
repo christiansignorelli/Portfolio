@@ -1,57 +1,30 @@
 [
   {
-    "id": "www.marketwatch.com-2026-07-13T19-43-00+00-00-9",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-13T19:43:00+00:00",
-    "title": "Global oil prices top $83 a barrel, logging biggest jump in 6 years after Trump reimposes Strait of Hormuz blockade",
-    "body": "The week is kicking off with fresh spikes for oil prices after President Donald Trump reimposed the naval blockage on the Strait of Hormuz.",
-    "url": "https://www.marketwatch.com/story/oil-prices-surge-as-much-as-5-after-iran-declares-strait-of-hormuz-is-closed-6905599b?mod=mw_rss_topstories",
-    "macro_score": 9,
+    "id": "www.investing.com-2026-07-14T22-10-59+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-14T22:10:59+00:00",
+    "title": "US Treasury yields drop as June inflation slows more than expected",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-june-inflation-slows-more-than-expected-93CH-4791504",
+    "macro_score": 7,
     "macro_buckets": [
       "inflation",
-      "energy"
+      "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-13T22-08-13+00-00-8",
+    "id": "www.investing.com-2026-07-14T22-10-59+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-13T22:08:13+00:00",
-    "title": "Senegal bondholders begin talks on potential creditor group",
+    "published_at": "2026-07-14T22:10:59+00:00",
+    "title": "Top Fed officials embrace cooler inflation reading, clamor for more",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/senegal-bondholders-begin-talks-on-potential-creditor-group-93CH-4789054",
-    "macro_score": 6,
-    "macro_buckets": [
-      "rates",
-      "liquidity"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-13T22-08-13+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-13T22:08:13+00:00",
-    "title": "Fed\u2019s Waller says another high inflation reading would be \"signal\"",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-waller-says-another-high-inflation-reading-would-be-signal-4789038",
+    "url": "https://www.investing.com/news/economy-news/top-fed-officials-embrace-cooler-inflation-reading-clamor-for-more-4791824",
     "macro_score": 6,
     "macro_buckets": [
       "policy",
       "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-13T22-08-13+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-13T22:08:13+00:00",
-    "title": "Analysis-Global pension funds pull back on FX hedges as dollar woes ease",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/analysisglobal-pension-funds-pull-back-on-fx-hedges-as-dollar-woes-ease-4787689",
-    "macro_score": 4,
-    "macro_buckets": [
-      "fx"
     ]
   }
 ]

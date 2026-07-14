@@ -1,109 +1,108 @@
 [
   {
-    "date": "2026-07-13",
-    "daily_brief": "2026-07-13: 4 unique articles were analyzed. News sentiment was neutral. Top theme: inflation.",
-    "macro_read": "Macro read: coverage across inflation, liquidity, policy was broadly neutral or mixed.",
-    "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
+    "date": "2026-07-14",
+    "daily_brief": "2026-07-14: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.77,
-        "return_5d": -0.28,
-        "close": 749.1699829101562
+        "return_1d": 0.36,
+        "return_5d": 0.55,
+        "close": 751.8300170898438
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.59,
-        "return_5d": -1.73,
-        "close": 83.97000122070312
+        "return_1d": 0.13,
+        "return_5d": -0.56,
+        "close": 84.08000183105469
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.39,
-        "return_5d": 0.64,
-        "close": 28.5
+        "return_1d": -0.39,
+        "return_5d": -0.04,
+        "close": 28.389999389648438
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 8.36,
-        "return_5d": 12.88,
-        "close": 117.79000091552734
+        "return_1d": 2.02,
+        "return_5d": 10.33,
+        "close": 120.16999816894531
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.24,
-        "return_5d": -0.44,
-        "close": 79.5199966430664
+        "return_1d": 0.2,
+        "return_5d": -0.1,
+        "close": 79.68000030517578
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -2.62,
-        "return_5d": -3.93,
-        "close": 367.1300048828125
+        "return_1d": 1.37,
+        "return_5d": -1.41,
+        "close": 372.1499938964844
       }
     ],
     "news_sentiment": {
-      "label": "neutral",
-      "score": 0.0,
-      "display_score": 0.0,
-      "unique_documents": 4,
-      "positive_pct": 25.0,
+      "label": "insufficient_data",
+      "score": -0.5,
+      "display_score": -0.5,
+      "unique_documents": 2,
+      "positive_pct": 0.0,
       "neutral_pct": 50.0,
-      "negative_pct": 25.0,
-      "average_confidence": 0.786
+      "negative_pct": 50.0,
+      "average_confidence": 0.813
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.5,
+      "label": "risk_on",
+      "score": 0.3,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
-        "HYG": -0.35,
-        "TLT": 0.15,
-        "GLD": 0.1
+        "SPY": 0.4,
+        "HYG": 0.0,
+        "TLT": 0.0,
+        "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "market_led",
-      "label": "Market-led",
-      "explanation": "News sentiment was neutral, while markets showed a clearer directional response.",
-      "news_label": "neutral",
-      "market_label": "risk_off"
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-07-13T19-43-00+00-00-9",
-        "title": "Global oil prices top $83 a barrel, logging biggest jump in 6 years after Trump reimposes Strait of Hormuz blockade",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-prices-surge-as-much-as-5-after-iran-declares-strait-of-hormuz-is-closed-6905599b?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-07-14T22-10-59+00-00-9",
+        "title": "US Treasury yields drop as June inflation slows more than expected",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-june-inflation-slows-more-than-expected-93CH-4791504",
         "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.8821017742156982,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9665166735649109,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 7,
         "macro_buckets": [
           "inflation",
-          "energy"
+          "rates"
         ],
         "themes": [
           "inflation"
         ],
         "scores": {
-          "inflation": 2,
+          "inflation": -2,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -111,38 +110,13 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-13T22-08-13+00-00-8",
-        "title": "Senegal bondholders begin talks on potential creditor group",
+        "doc_id": "www.investing.com-2026-07-14T22-10-59+00-00-3",
+        "title": "Top Fed officials embrace cooler inflation reading, clamor for more",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/senegal-bondholders-begin-talks-on-potential-creditor-group-93CH-4789054",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/top-fed-officials-embrace-cooler-inflation-reading-clamor-for-more-4791824",
+        "confidence": "medium",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.9198305606842041,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "rates",
-          "liquidity"
-        ],
-        "themes": [
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-13T22-08-13+00-00-10",
-        "title": "Fed\u2019s Waller says another high inflation reading would be \"signal\"",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-waller-says-another-high-inflation-reading-would-be-signal-4789038",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.3851885199546814,
+        "sentiment_confidence": 0.659740686416626,
         "summary_label": "neutral-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
@@ -160,57 +134,33 @@
           "liquidity": 0,
           "risk": 0
         }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-13T22-08-13+00-00-6",
-        "title": "Analysis-Global pension funds pull back on FX hedges as dollar woes ease",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/analysisglobal-pension-funds-pull-back-on-fx-hedges-as-dollar-woes-ease-4787689",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.958061158657074,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "fx"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
       }
     ],
     "bucket_views": [
       {
         "name": "inflation",
-        "label": "positive news sentiment",
-        "score": 2,
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-13T19-43-00+00-00-9",
-            "title": "Global oil prices top $83 a barrel, logging biggest jump in 6 years after Trump reimposes Strait of Hormuz blockade",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-surge-as-much-as-5-after-iran-declares-strait-of-hormuz-is-closed-6905599b?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-07-14T22-10-59+00-00-9",
+            "title": "US Treasury yields drop as June inflation slows more than expected",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-june-inflation-slows-more-than-expected-93CH-4791504",
             "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8821017742156982,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9665166735649109,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
               "inflation",
-              "energy"
+              "rates"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": 2,
+              "inflation": -2,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -218,13 +168,13 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-07-13T22-08-13+00-00-10",
-            "title": "Fed\u2019s Waller says another high inflation reading would be \"signal\"",
+            "doc_id": "www.investing.com-2026-07-14T22-10-59+00-00-3",
+            "title": "Top Fed officials embrace cooler inflation reading, clamor for more",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-waller-says-another-high-inflation-reading-would-be-signal-4789038",
-            "confidence": "low",
+            "url": "https://www.investing.com/news/economy-news/top-fed-officials-embrace-cooler-inflation-reading-clamor-for-more-4791824",
+            "confidence": "medium",
             "sentiment_label": "neutral",
-            "sentiment_confidence": 0.3851885199546814,
+            "sentiment_confidence": 0.659740686416626,
             "summary_label": "neutral-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
@@ -246,61 +196,29 @@
         ]
       },
       {
-        "name": "energy",
-        "label": "positive news sentiment",
-        "score": 2,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-07-13T19-43-00+00-00-9",
-            "title": "Global oil prices top $83 a barrel, logging biggest jump in 6 years after Trump reimposes Strait of Hormuz blockade",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-surge-as-much-as-5-after-iran-declares-strait-of-hormuz-is-closed-6905599b?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8821017742156982,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
         "name": "rates",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-13T22-08-13+00-00-8",
-            "title": "Senegal bondholders begin talks on potential creditor group",
+            "doc_id": "www.investing.com-2026-07-14T22-10-59+00-00-9",
+            "title": "US Treasury yields drop as June inflation slows more than expected",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/senegal-bondholders-begin-talks-on-potential-creditor-group-93CH-4789054",
+            "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-june-inflation-slows-more-than-expected-93CH-4791504",
             "confidence": "high",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.9198305606842041,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9665166735649109,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
-              "rates",
-              "liquidity"
+              "inflation",
+              "rates"
             ],
             "themes": [
-              "liquidity"
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -2,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -310,26 +228,27 @@
         ]
       },
       {
-        "name": "liquidity",
+        "name": "policy",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-13T22-08-13+00-00-8",
-            "title": "Senegal bondholders begin talks on potential creditor group",
+            "doc_id": "www.investing.com-2026-07-14T22-10-59+00-00-3",
+            "title": "Top Fed officials embrace cooler inflation reading, clamor for more",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/senegal-bondholders-begin-talks-on-potential-creditor-group-93CH-4789054",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/top-fed-officials-embrace-cooler-inflation-reading-clamor-for-more-4791824",
+            "confidence": "medium",
             "sentiment_label": "neutral",
-            "sentiment_confidence": 0.9198305606842041,
+            "sentiment_confidence": 0.659740686416626,
             "summary_label": "neutral-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "rates",
-              "liquidity"
+              "policy",
+              "inflation"
             ],
             "themes": [
-              "liquidity"
+              "inflation",
+              "policy"
             ],
             "scores": {
               "inflation": 0,
