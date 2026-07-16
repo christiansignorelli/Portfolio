@@ -1,8 +1,8 @@
 [
   {
-    "date": "2026-07-15",
-    "daily_brief": "2026-07-15: 7 unique articles were analyzed. News sentiment was neutral. Top theme: inflation.",
-    "macro_read": "Macro read: coverage across inflation, policy, liquidity was broadly neutral or mixed.",
+    "date": "2026-07-16",
+    "daily_brief": "2026-07-16: 3 unique articles were analyzed. News sentiment was neutral. Top theme: inflation.",
+    "macro_read": "Macro read: coverage across inflation, policy was broadly neutral or mixed.",
     "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
     "market_checks": [],
     "feed_sources": [
@@ -13,68 +13,68 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.4,
-        "return_5d": 1.26,
-        "close": 754.8099975585938
+        "return_1d": -0.54,
+        "return_5d": -0.13,
+        "close": 750.719970703125
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.19,
-        "return_5d": -0.14,
-        "close": 84.23999786376953
+        "return_1d": -0.04,
+        "return_5d": -0.33,
+        "close": 84.20999908447266
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.49,
-        "return_5d": -0.39,
-        "close": 28.25
+        "return_1d": 0.32,
+        "return_5d": -0.07,
+        "close": 28.34000015258789
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 1.01,
-        "return_5d": 8.17,
-        "close": 121.37999725341797
+        "return_1d": -1.71,
+        "return_5d": 9.44,
+        "close": 119.30000305175781
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.16,
-        "return_5d": 0.19,
-        "close": 79.80999755859375
+        "return_1d": -0.01,
+        "return_5d": 0.06,
+        "close": 79.80000305175781
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.05,
-        "return_5d": -0.56,
-        "close": 372.3500061035156
+        "return_1d": -1.98,
+        "return_5d": -3.5,
+        "close": 364.9599914550781
       }
     ],
     "news_sentiment": {
       "label": "neutral",
       "score": 0.0,
       "display_score": 0.0,
-      "unique_documents": 7,
-      "positive_pct": 42.9,
-      "neutral_pct": 14.3,
-      "negative_pct": 42.9,
-      "average_confidence": 0.833
+      "unique_documents": 3,
+      "positive_pct": 0.0,
+      "neutral_pct": 100.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.627
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.4,
+      "label": "risk_off",
+      "score": -0.3,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
+        "SPY": -0.4,
         "HYG": 0.0,
         "TLT": 0.0,
-        "GLD": 0.0
+        "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
@@ -82,147 +82,17 @@
       "label": "Market-led",
       "explanation": "News sentiment was neutral, while markets showed a clearer directional response.",
       "news_label": "neutral",
-      "market_label": "risk_on"
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-9",
-        "title": "Economic activity on the rise and inflation may be improving, Fed survey shows",
+        "doc_id": "www.investing.com-2026-07-16T22-13-55+00-00-7",
+        "title": "Fed\u2019s Schmid: Inflation is \"concerning\" and the focus of setting policy right now",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/economic-activity-on-the-rise-and-inflation-may-be-improving-fed-survey-shows-4794064",
+        "url": "https://www.investing.com/news/economy-news/feds-schmid-inflation-is-concerning-and-the-focus-of-setting-policy-right-now-4796547",
         "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.9447914958000183,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "policy",
-          "inflation",
-          "growth"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": 2,
-          "growth": 0,
-          "policy": 2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-4",
-        "title": "Fed reports economic expansion with mixed inflation signals",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/fed-reports-economic-expansion-with-mixed-inflation-signals-93CH-4794136",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.8284283876419067,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "policy",
-          "inflation",
-          "growth"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": 1,
-          "growth": 0,
-          "policy": 1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-6",
-        "title": "Dollar falls after cooling producer prices, Middle East escalation in focus",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-struggles-as-softer-inflation-dims-fed-hike-bets-4792113",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8839757442474365,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 8,
-        "macro_buckets": [
-          "inflation",
-          "fx"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-07-15T20-52-00+00-00-10",
-        "title": "The U.S. oil reserve is at a 40-year low \u2014 but the government says there\u2019s still plenty of breathing room",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/the-u-s-oil-reserve-is-at-a-40-year-low-but-the-government-says-theres-still-plenty-of-breathing-room-04ebd69c?mod=mw_rss_topstories",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.939631462097168,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-10",
-        "title": "Brazil government now expects 2026 inflation to be above central bank\u2019s target",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/brazil-government-now-expects-2026-inflation-to-be-above-central-banks-target-4794051",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.9035139083862305,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy",
-          "inflation"
-        ],
-        "themes": [
-          "inflation",
-          "policy",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 2,
-          "growth": 0,
-          "policy": 2,
-          "liquidity": 2,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-8",
-        "title": "Fed\u2019s Cook says she is prepared to act soon if inflation does not begin to slow",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-cook-says-she-is-prepared-to-act-soon-if-inflation-does-not-begin-to-slow-4793982",
-        "confidence": "medium",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.6922057271003723,
+        "sentiment_confidence": 0.8673723936080933,
         "summary_label": "neutral-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
@@ -242,14 +112,14 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-1",
-        "title": "New York Fed\u2019s Williams sees inflation peaking at 4%",
+        "doc_id": "www.investing.com-2026-07-16T22-13-55+00-00-9",
+        "title": "Fed\u2019s Schmid warns against assuming inflation is temporary",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/new-york-feds-williams-sees-inflation-peaking-at-4-4794428",
+        "url": "https://www.investing.com/news/economy-news/feds-schmid-warns-against-assuming-inflation-is-temporary-4796544",
         "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.6353409290313721,
-        "summary_label": "negative-financial-sentiment",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.5102656483650208,
+        "summary_label": "neutral-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
           "policy",
@@ -260,9 +130,34 @@
           "policy"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": 0,
           "growth": 0,
-          "policy": -1,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.marketwatch.com-2026-07-16T21-17-00+00-00-4",
+        "title": "You are missing the bond deal of the decade \u2014 and it is guaranteed to beat inflation",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/you-are-missing-the-bond-deal-of-the-decade-and-it-is-guaranteed-to-beat-inflation-0f1d6cf8?mod=mw_rss_topstories",
+        "confidence": "low",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.503585159778595,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "inflation",
+          "rates"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
           "liquidity": 0,
           "risk": 0
         }
@@ -270,73 +165,19 @@
     ],
     "bucket_views": [
       {
-        "name": "policy",
-        "label": "positive news sentiment",
-        "score": 4,
+        "name": "inflation",
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-9",
-            "title": "Economic activity on the rise and inflation may be improving, Fed survey shows",
+            "doc_id": "www.investing.com-2026-07-16T22-13-55+00-00-7",
+            "title": "Fed\u2019s Schmid: Inflation is \"concerning\" and the focus of setting policy right now",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/economic-activity-on-the-rise-and-inflation-may-be-improving-fed-survey-shows-4794064",
+            "url": "https://www.investing.com/news/economy-news/feds-schmid-inflation-is-concerning-and-the-focus-of-setting-policy-right-now-4796547",
             "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9447914958000183,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 2,
-              "growth": 0,
-              "policy": 2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-4",
-            "title": "Fed reports economic expansion with mixed inflation signals",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/fed-reports-economic-expansion-with-mixed-inflation-signals-93CH-4794136",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8284283876419067,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-10",
-            "title": "Brazil government now expects 2026 inflation to be above central bank\u2019s target",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/brazil-government-now-expects-2026-inflation-to-be-above-central-banks-target-4794051",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9035139083862305,
-            "summary_label": "positive-financial-sentiment",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.8673723936080933,
+            "summary_label": "neutral-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
               "policy",
@@ -344,97 +185,61 @@
             ],
             "themes": [
               "inflation",
-              "policy",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 2,
-              "growth": 0,
-              "policy": 2,
-              "liquidity": 2,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "inflation",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-9",
-            "title": "Economic activity on the rise and inflation may be improving, Fed survey shows",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/economic-activity-on-the-rise-and-inflation-may-be-improving-fed-survey-shows-4794064",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9447914958000183,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth"
-            ],
-            "themes": [
-              "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": 2,
+              "inflation": 0,
               "growth": 0,
-              "policy": 2,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-4",
-            "title": "Fed reports economic expansion with mixed inflation signals",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/fed-reports-economic-expansion-with-mixed-inflation-signals-93CH-4794136",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8284283876419067,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-6",
-            "title": "Dollar falls after cooling producer prices, Middle East escalation in focus",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-struggles-as-softer-inflation-dims-fed-hike-bets-4792113",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8839757442474365,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
+            "doc_id": "www.marketwatch.com-2026-07-16T21-17-00+00-00-4",
+            "title": "You are missing the bond deal of the decade \u2014 and it is guaranteed to beat inflation",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/you-are-missing-the-bond-deal-of-the-decade-and-it-is-guaranteed-to-beat-inflation-0f1d6cf8?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.503585159778595,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
               "inflation",
-              "fx"
+              "rates"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-16T22-13-55+00-00-9",
+            "title": "Fed\u2019s Schmid warns against assuming inflation is temporary",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/feds-schmid-warns-against-assuming-inflation-is-temporary-4796544",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.5102656483650208,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -444,60 +249,58 @@
         ]
       },
       {
-        "name": "growth",
+        "name": "policy",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-9",
-            "title": "Economic activity on the rise and inflation may be improving, Fed survey shows",
+            "doc_id": "www.investing.com-2026-07-16T22-13-55+00-00-7",
+            "title": "Fed\u2019s Schmid: Inflation is \"concerning\" and the focus of setting policy right now",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/economic-activity-on-the-rise-and-inflation-may-be-improving-fed-survey-shows-4794064",
+            "url": "https://www.investing.com/news/economy-news/feds-schmid-inflation-is-concerning-and-the-focus-of-setting-policy-right-now-4796547",
             "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9447914958000183,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.8673723936080933,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "inflation",
-              "growth"
+              "inflation"
             ],
             "themes": [
               "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": 2,
+              "inflation": 0,
               "growth": 0,
-              "policy": 2,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-4",
-            "title": "Fed reports economic expansion with mixed inflation signals",
+            "doc_id": "www.investing.com-2026-07-16T22-13-55+00-00-9",
+            "title": "Fed\u2019s Schmid warns against assuming inflation is temporary",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/fed-reports-economic-expansion-with-mixed-inflation-signals-93CH-4794136",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8284283876419067,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "url": "https://www.investing.com/news/economy-news/feds-schmid-warns-against-assuming-inflation-is-temporary-4796544",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.5102656483650208,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "inflation",
-              "growth"
+              "inflation"
             ],
             "themes": [
               "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": 0,
               "growth": 0,
-              "policy": 1,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
@@ -505,29 +308,29 @@
         ]
       },
       {
-        "name": "fx",
+        "name": "rates",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-15T22-12-06+00-00-6",
-            "title": "Dollar falls after cooling producer prices, Middle East escalation in focus",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-struggles-as-softer-inflation-dims-fed-hike-bets-4792113",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8839757442474365,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
+            "doc_id": "www.marketwatch.com-2026-07-16T21-17-00+00-00-4",
+            "title": "You are missing the bond deal of the decade \u2014 and it is guaranteed to beat inflation",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/you-are-missing-the-bond-deal-of-the-decade-and-it-is-guaranteed-to-beat-inflation-0f1d6cf8?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.503585159778595,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
               "inflation",
-              "fx"
+              "rates"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,

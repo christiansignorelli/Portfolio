@@ -1,83 +1,26 @@
 [
   {
-    "id": "www.investing.com-2026-07-15T22-12-06+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-15T22:12:06+00:00",
-    "title": "Fed reports economic expansion with mixed inflation signals",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/fed-reports-economic-expansion-with-mixed-inflation-signals-93CH-4794136",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
-      "inflation",
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-15T22-12-06+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-15T22:12:06+00:00",
-    "title": "Economic activity on the rise and inflation may be improving, Fed survey shows",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/economic-activity-on-the-rise-and-inflation-may-be-improving-fed-survey-shows-4794064",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
-      "inflation",
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-15T22-12-06+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-15T22:12:06+00:00",
-    "title": "Dollar falls after cooling producer prices, Middle East escalation in focus",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-struggles-as-softer-inflation-dims-fed-hike-bets-4792113",
-    "macro_score": 8,
-    "macro_buckets": [
-      "inflation",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-07-15T20-52-00+00-00-10",
+    "id": "www.marketwatch.com-2026-07-16T21-17-00+00-00-4",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-15T20:52:00+00:00",
-    "title": "The U.S. oil reserve is at a 40-year low \u2014 but the government says there\u2019s still plenty of breathing room",
-    "body": "Energy Department says operational minimum for the storage caverns is about 70 million barrels, a level far lower than oil industry estimates",
-    "url": "https://www.marketwatch.com/story/the-u-s-oil-reserve-is-at-a-40-year-low-but-the-government-says-theres-still-plenty-of-breathing-room-04ebd69c?mod=mw_rss_topstories",
+    "published_at": "2026-07-16T21:17:00+00:00",
+    "title": "You are missing the bond deal of the decade \u2014 and it is guaranteed to beat inflation",
+    "body": "TIPS are offering a rare gift \u2014 and it is time to lock in a generous payout.",
+    "url": "https://www.marketwatch.com/story/you-are-missing-the-bond-deal-of-the-decade-and-it-is-guaranteed-to-beat-inflation-0f1d6cf8?mod=mw_rss_topstories",
     "macro_score": 6,
     "macro_buckets": [
-      "energy"
+      "inflation",
+      "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-15T22-12-06+00-00-1",
+    "id": "www.investing.com-2026-07-16T22-13-55+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-15T22:12:06+00:00",
-    "title": "New York Fed\u2019s Williams sees inflation peaking at 4%",
+    "published_at": "2026-07-16T22:13:55+00:00",
+    "title": "Fed\u2019s Schmid: Inflation is \"concerning\" and the focus of setting policy right now",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/new-york-feds-williams-sees-inflation-peaking-at-4-4794428",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-15T22-12-06+00-00-8",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-15T22:12:06+00:00",
-    "title": "Fed\u2019s Cook says she is prepared to act soon if inflation does not begin to slow",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-cook-says-she-is-prepared-to-act-soon-if-inflation-does-not-begin-to-slow-4793982",
+    "url": "https://www.investing.com/news/economy-news/feds-schmid-inflation-is-concerning-and-the-focus-of-setting-policy-right-now-4796547",
     "macro_score": 6,
     "macro_buckets": [
       "policy",
@@ -85,13 +28,13 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-07-15T22-12-06+00-00-10",
+    "id": "www.investing.com-2026-07-16T22-13-55+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-15T22:12:06+00:00",
-    "title": "Brazil government now expects 2026 inflation to be above central bank\u2019s target",
+    "published_at": "2026-07-16T22:13:55+00:00",
+    "title": "Fed\u2019s Schmid warns against assuming inflation is temporary",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/brazil-government-now-expects-2026-inflation-to-be-above-central-banks-target-4794051",
+    "url": "https://www.investing.com/news/economy-news/feds-schmid-warns-against-assuming-inflation-is-temporary-4796544",
     "macro_score": 6,
     "macro_buckets": [
       "policy",
