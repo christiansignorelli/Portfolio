@@ -1,44 +1,29 @@
 [
   {
-    "id": "www.marketwatch.com-2026-07-16T21-17-00+00-00-4",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-16T21:17:00+00:00",
-    "title": "You are missing the bond deal of the decade \u2014 and it is guaranteed to beat inflation",
-    "body": "TIPS are offering a rare gift \u2014 and it is time to lock in a generous payout.",
-    "url": "https://www.marketwatch.com/story/you-are-missing-the-bond-deal-of-the-decade-and-it-is-guaranteed-to-beat-inflation-0f1d6cf8?mod=mw_rss_topstories",
+    "id": "www.investing.com-2026-07-17T22-05-16+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-17T22:05:16+00:00",
+    "title": "Dollar holds steady on safe-haven demand, ends down on the week",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/dollar-set-for-weekly-drop-as-traders-cut-wagers-on-rate-hikes-4797331",
     "macro_score": 6,
     "macro_buckets": [
-      "inflation",
-      "rates"
+      "growth",
+      "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-16T22-13-55+00-00-7",
+    "id": "www.investing.com-2026-07-17T22-05-16+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-16T22:13:55+00:00",
-    "title": "Fed\u2019s Schmid: Inflation is \"concerning\" and the focus of setting policy right now",
+    "published_at": "2026-07-17T22:05:16+00:00",
+    "title": "Fed rate-hike voices swell before July decision, rates still seen on hold",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-schmid-inflation-is-concerning-and-the-focus-of-setting-policy-right-now-4796547",
+    "url": "https://www.investing.com/news/economy-news/fed-ratehike-voices-swell-before-july-decision-rates-still-seen-on-hold-4798873",
     "macro_score": 6,
     "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-16T22-13-55+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-16T22:13:55+00:00",
-    "title": "Fed\u2019s Schmid warns against assuming inflation is temporary",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-schmid-warns-against-assuming-inflation-is-temporary-4796544",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
-      "inflation"
+      "policy"
     ]
   }
 ]

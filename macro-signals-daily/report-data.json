@@ -1,163 +1,134 @@
 [
   {
-    "date": "2026-07-16",
-    "daily_brief": "2026-07-16: 3 unique articles were analyzed. News sentiment was neutral. Top theme: inflation.",
-    "macro_read": "Macro read: coverage across inflation, policy was broadly neutral or mixed.",
-    "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
+    "date": "2026-07-17",
+    "daily_brief": "2026-07-17: 2 unique articles were analyzed. Top theme: growth. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.54,
-        "return_5d": -0.13,
-        "close": 750.719970703125
+        "return_1d": -0.99,
+        "return_5d": -1.54,
+        "close": 743.2899780273438
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.04,
-        "return_5d": -0.33,
-        "close": 84.20999908447266
+        "return_1d": 0.37,
+        "return_5d": 0.06,
+        "close": 84.5199966430664
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.32,
-        "return_5d": -0.07,
-        "close": 28.34000015258789
+        "return_1d": -0.04,
+        "return_5d": -0.21,
+        "close": 28.329999923706055
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -1.71,
-        "return_5d": 9.44,
-        "close": 119.30000305175781
+        "return_1d": 3.91,
+        "return_5d": 14.04,
+        "close": 123.95999908447266
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.01,
-        "return_5d": 0.06,
-        "close": 79.80000305175781
+        "return_1d": -0.19,
+        "return_5d": -0.08,
+        "close": 79.6500015258789
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -1.98,
-        "return_5d": -3.5,
-        "close": 364.9599914550781
+        "return_1d": 0.95,
+        "return_5d": -2.28,
+        "close": 368.4100036621094
       }
     ],
     "news_sentiment": {
-      "label": "neutral",
+      "label": "insufficient_data",
       "score": 0.0,
       "display_score": 0.0,
-      "unique_documents": 3,
-      "positive_pct": 0.0,
-      "neutral_pct": 100.0,
-      "negative_pct": 0.0,
-      "average_confidence": 0.627
+      "unique_documents": 2,
+      "positive_pct": 50.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 50.0,
+      "average_confidence": 0.689
     },
     "market_regime": {
       "label": "risk_off",
-      "score": -0.3,
+      "score": -0.65,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
         "SPY": -0.4,
         "HYG": 0.0,
-        "TLT": 0.0,
-        "GLD": 0.1
+        "TLT": -0.15,
+        "GLD": -0.1
       },
       "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "market_led",
-      "label": "Market-led",
-      "explanation": "News sentiment was neutral, while markets showed a clearer directional response.",
-      "news_label": "neutral",
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
       "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-07-16T22-13-55+00-00-7",
-        "title": "Fed\u2019s Schmid: Inflation is \"concerning\" and the focus of setting policy right now",
+        "doc_id": "www.investing.com-2026-07-17T22-05-16+00-00-4",
+        "title": "Dollar holds steady on safe-haven demand, ends down on the week",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-schmid-inflation-is-concerning-and-the-focus-of-setting-policy-right-now-4796547",
+        "url": "https://www.investing.com/news/economy-news/dollar-set-for-weekly-drop-as-traders-cut-wagers-on-rate-hikes-4797331",
         "confidence": "high",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8673723936080933,
-        "summary_label": "neutral-financial-sentiment",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9622845649719238,
+        "summary_label": "negative-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "policy",
-          "inflation"
+          "growth",
+          "fx"
         ],
         "themes": [
-          "inflation",
-          "policy"
+          "growth"
         ],
         "scores": {
           "inflation": 0,
-          "growth": 0,
+          "growth": -2,
           "policy": 0,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-16T22-13-55+00-00-9",
-        "title": "Fed\u2019s Schmid warns against assuming inflation is temporary",
+        "doc_id": "www.investing.com-2026-07-17T22-05-16+00-00-8",
+        "title": "Fed rate-hike voices swell before July decision, rates still seen on hold",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-schmid-warns-against-assuming-inflation-is-temporary-4796544",
+        "url": "https://www.investing.com/news/economy-news/fed-ratehike-voices-swell-before-july-decision-rates-still-seen-on-hold-4798873",
         "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.5102656483650208,
-        "summary_label": "neutral-financial-sentiment",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.4161141514778137,
+        "summary_label": "positive-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "policy",
-          "inflation"
+          "policy"
         ],
         "themes": [
-          "inflation",
           "policy"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-07-16T21-17-00+00-00-4",
-        "title": "You are missing the bond deal of the decade \u2014 and it is guaranteed to beat inflation",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/you-are-missing-the-bond-deal-of-the-decade-and-it-is-guaranteed-to-beat-inflation-0f1d6cf8?mod=mw_rss_topstories",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.503585159778595,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "inflation",
-          "rates"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
+          "policy": 1,
           "liquidity": 0,
           "risk": 0
         }
@@ -165,82 +136,30 @@
     ],
     "bucket_views": [
       {
-        "name": "inflation",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "name": "growth",
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-16T22-13-55+00-00-7",
-            "title": "Fed\u2019s Schmid: Inflation is \"concerning\" and the focus of setting policy right now",
+            "doc_id": "www.investing.com-2026-07-17T22-05-16+00-00-4",
+            "title": "Dollar holds steady on safe-haven demand, ends down on the week",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-schmid-inflation-is-concerning-and-the-focus-of-setting-policy-right-now-4796547",
+            "url": "https://www.investing.com/news/economy-news/dollar-set-for-weekly-drop-as-traders-cut-wagers-on-rate-hikes-4797331",
             "confidence": "high",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8673723936080933,
-            "summary_label": "neutral-financial-sentiment",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9622845649719238,
+            "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "growth",
+              "fx"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "growth"
             ],
             "scores": {
               "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-07-16T21-17-00+00-00-4",
-            "title": "You are missing the bond deal of the decade \u2014 and it is guaranteed to beat inflation",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/you-are-missing-the-bond-deal-of-the-decade-and-it-is-guaranteed-to-beat-inflation-0f1d6cf8?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.503585159778595,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "rates"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-16T22-13-55+00-00-9",
-            "title": "Fed\u2019s Schmid warns against assuming inflation is temporary",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-schmid-warns-against-assuming-inflation-is-temporary-4796544",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.5102656483650208,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
+              "growth": -2,
               "policy": 0,
               "liquidity": 0,
               "risk": 0
@@ -250,57 +169,29 @@
       },
       {
         "name": "policy",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "label": "positive news sentiment",
+        "score": 1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-16T22-13-55+00-00-7",
-            "title": "Fed\u2019s Schmid: Inflation is \"concerning\" and the focus of setting policy right now",
+            "doc_id": "www.investing.com-2026-07-17T22-05-16+00-00-8",
+            "title": "Fed rate-hike voices swell before July decision, rates still seen on hold",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-schmid-inflation-is-concerning-and-the-focus-of-setting-policy-right-now-4796547",
-            "confidence": "high",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8673723936080933,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-16T22-13-55+00-00-9",
-            "title": "Fed\u2019s Schmid warns against assuming inflation is temporary",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-schmid-warns-against-assuming-inflation-is-temporary-4796544",
+            "url": "https://www.investing.com/news/economy-news/fed-ratehike-voices-swell-before-july-decision-rates-still-seen-on-hold-4798873",
             "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.5102656483650208,
-            "summary_label": "neutral-financial-sentiment",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.4161141514778137,
+            "summary_label": "positive-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "policy"
             ],
             "themes": [
-              "inflation",
               "policy"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 0,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
@@ -308,30 +199,30 @@
         ]
       },
       {
-        "name": "rates",
+        "name": "fx",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-16T21-17-00+00-00-4",
-            "title": "You are missing the bond deal of the decade \u2014 and it is guaranteed to beat inflation",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/you-are-missing-the-bond-deal-of-the-decade-and-it-is-guaranteed-to-beat-inflation-0f1d6cf8?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.503585159778595,
-            "summary_label": "neutral-financial-sentiment",
+            "doc_id": "www.investing.com-2026-07-17T22-05-16+00-00-4",
+            "title": "Dollar holds steady on safe-haven demand, ends down on the week",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-set-for-weekly-drop-as-traders-cut-wagers-on-rate-hikes-4797331",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9622845649719238,
+            "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "inflation",
-              "rates"
+              "growth",
+              "fx"
             ],
             "themes": [
-              "inflation"
+              "growth"
             ],
             "scores": {
               "inflation": 0,
-              "growth": 0,
+              "growth": -2,
               "policy": 0,
               "liquidity": 0,
               "risk": 0
