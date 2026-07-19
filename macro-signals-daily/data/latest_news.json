@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "www.investing.com-2026-07-19T22-08-20+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-19T22:08:20+00:00",
+    "title": "Deutsche Bank sees Fed balance sheet reduction as bearish for the dollar",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/deutsche-bank-sees-fed-balance-sheet-reduction-as-bearish-for-the-dollar-4799736",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "fx"
+    ]
+  }
+]

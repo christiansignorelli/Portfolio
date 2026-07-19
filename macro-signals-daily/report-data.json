@@ -1,1 +1,184 @@
-[]
+[
+  {
+    "date": "2026-07-19",
+    "daily_brief": "2026-07-19: 1 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": -0.99,
+        "return_5d": -1.54,
+        "close": 743.2899780273438
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.37,
+        "return_5d": 0.06,
+        "close": 84.5199966430664
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": -0.04,
+        "return_5d": -0.21,
+        "close": 28.329999923706055
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 3.91,
+        "return_5d": 14.04,
+        "close": 123.95999908447266
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": -0.19,
+        "return_5d": -0.08,
+        "close": 79.6500015258789
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": 0.95,
+        "return_5d": -2.28,
+        "close": 368.4100036621094
+      }
+    ],
+    "news_sentiment": {
+      "label": "insufficient_data",
+      "score": -1.0,
+      "display_score": -1.0,
+      "unique_documents": 1,
+      "positive_pct": 0.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 100.0,
+      "average_confidence": 0.961
+    },
+    "market_regime": {
+      "label": "risk_off",
+      "score": -0.65,
+      "signals_used": 4,
+      "signals_available": 4,
+      "contributions": {
+        "SPY": -0.4,
+        "HYG": 0.0,
+        "TLT": -0.15,
+        "GLD": -0.1
+      },
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "data_quality_status": "complete"
+    },
+    "confirmation": {
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "risk_off"
+    },
+    "analyzed_coverage": [
+      {
+        "doc_id": "www.investing.com-2026-07-19T22-08-20+00-00-2",
+        "title": "Deutsche Bank sees Fed balance sheet reduction as bearish for the dollar",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/deutsche-bank-sees-fed-balance-sheet-reduction-as-bearish-for-the-dollar-4799736",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9613317847251892,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "fx"
+        ],
+        "themes": [
+          "policy",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": -2,
+          "liquidity": -2,
+          "risk": 0
+        }
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "policy",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-19T22-08-20+00-00-2",
+            "title": "Deutsche Bank sees Fed balance sheet reduction as bearish for the dollar",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/deutsche-bank-sees-fed-balance-sheet-reduction-as-bearish-for-the-dollar-4799736",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9613317847251892,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "fx"
+            ],
+            "themes": [
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": -2,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-19T22-08-20+00-00-2",
+            "title": "Deutsche Bank sees Fed balance sheet reduction as bearish for the dollar",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/deutsche-bank-sees-fed-balance-sheet-reduction-as-bearish-for-the-dollar-4799736",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9613317847251892,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "fx"
+            ],
+            "themes": [
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": -2,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  }
+]
