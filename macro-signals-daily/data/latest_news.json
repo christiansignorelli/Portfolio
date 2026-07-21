@@ -1,12 +1,12 @@
 [
   {
-    "id": "www.marketwatch.com-2026-07-20T21-11-00+00-00-4",
+    "id": "www.marketwatch.com-2026-07-21T19-42-00+00-00-9",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-20T21:11:00+00:00",
-    "title": "Global oil prices settle at one-month high despite new Iran ceasefire proposal, as blockade on Saudi Arabia by Yemen\u2019s Houthis keeps market on edge",
-    "body": "Oil prices settled at one-month highs in volatile trading on Monday as traders weighed escalating geopolitical tensions following a fresh barrage of strikes across the Middle East over the weekend against reports of a new ceasefire proposal between the U.S. and Iran.",
-    "url": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79?mod=mw_rss_topstories",
+    "published_at": "2026-07-21T19:42:00+00:00",
+    "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
+    "body": "The Iran war isn\u2019t causing your energy bill to soar. Blame Wall Street for that.",
+    "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
     "macro_score": 9,
     "macro_buckets": [
       "inflation",
@@ -14,17 +14,30 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-07-20T22-11-47+00-00-9",
+    "id": "www.investing.com-2026-07-21T22-11-36+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-20T22:11:47+00:00",
-    "title": "NY Fed survey finds highest credit application rate in nearly five years",
+    "published_at": "2026-07-21T22:11:36+00:00",
+    "title": "Treasury yields hit two-month high on Iran tensions, oil surge",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/ny-fed-survey-finds-highest-credit-application-rate-in-nearly-five-years-4801397",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/treasury-yields-hit-twomonth-high-on-iran-tensions-oil-surge-93CH-4804025",
+    "macro_score": 9,
     "macro_buckets": [
-      "policy",
-      "liquidity"
+      "rates",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-07-21T20-27-00+00-00-3",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-07-21T20:27:00+00:00",
+    "title": "Why energy stocks still look so cheap, even after their big rally this month",
+    "body": "Energy stocks are having a big month as oil prices surge on Iran war fears \u2014 but it\u2019s not solely the conflict in the Middle East that makes the sector appear attractive.",
+    "url": "https://www.marketwatch.com/story/why-energy-stocks-still-look-so-cheap-even-after-their-big-rally-this-month-7f1a298b?mod=mw_rss_topstories",
+    "macro_score": 6,
+    "macro_buckets": [
+      "energy"
     ]
   }
 ]

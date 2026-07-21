@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-07-20",
-    "daily_brief": "2026-07-20: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
-    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
-    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "date": "2026-07-21",
+    "daily_brief": "2026-07-21: 3 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Risk coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss",
@@ -13,90 +13,90 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.16,
-        "return_5d": -0.95,
-        "close": 742.0900268554688
+        "return_1d": 0.83,
+        "return_5d": -0.47,
+        "close": 748.280029296875
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.75,
-        "return_5d": -0.1,
-        "close": 83.88999938964844
+        "return_1d": -0.27,
+        "return_5d": -0.5,
+        "close": 83.66000366210938
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.21,
-        "return_5d": -0.39,
-        "close": 28.389999389648438
+        "return_1d": 0.32,
+        "return_5d": 0.32,
+        "close": 28.479999542236328
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 1.25,
-        "return_5d": 6.55,
-        "close": 125.51000213623047
+        "return_1d": 2.66,
+        "return_5d": 7.22,
+        "close": 128.85000610351562
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.04,
-        "return_5d": 0.2,
-        "close": 79.68000030517578
+        "return_1d": -0.04,
+        "return_5d": -0.04,
+        "close": 79.6500015258789
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.22,
-        "return_5d": 0.13,
-        "close": 367.6000061035156
+        "return_1d": 1.96,
+        "return_5d": 0.71,
+        "close": 374.80999755859375
       }
     ],
     "news_sentiment": {
-      "label": "insufficient_data",
-      "score": -0.5,
-      "display_score": -0.5,
-      "unique_documents": 2,
+      "label": "negative",
+      "score": -0.6666666666666666,
+      "display_score": -0.67,
+      "unique_documents": 3,
       "positive_pct": 0.0,
-      "neutral_pct": 50.0,
-      "negative_pct": 50.0,
-      "average_confidence": 0.744
+      "neutral_pct": 33.3,
+      "negative_pct": 66.7,
+      "average_confidence": 0.635
     },
     "market_regime": {
       "label": "risk_on",
-      "score": 0.25,
+      "score": 0.45,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.0,
+        "SPY": 0.4,
         "HYG": 0.0,
         "TLT": 0.15,
-        "GLD": 0.1
+        "GLD": -0.1
       },
       "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "insufficient_data",
-      "label": "Insufficient data",
-      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
-      "news_label": "insufficient_data",
+      "status": "divergent",
+      "label": "Divergent",
+      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+      "news_label": "negative",
       "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-07-20T21-11-00+00-00-4",
-        "title": "Global oil prices settle at one-month high despite new Iran ceasefire proposal, as blockade on Saudi Arabia by Yemen\u2019s Houthis keeps market on edge",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79?mod=mw_rss_topstories",
-        "confidence": "high",
+        "doc_id": "www.investing.com-2026-07-21T22-11-36+00-00-7",
+        "title": "Treasury yields hit two-month high on Iran tensions, oil surge",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/treasury-yields-hit-twomonth-high-on-iran-tensions-oil-surge-93CH-4804025",
+        "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.8855727910995483,
+        "sentiment_confidence": 0.6580306887626648,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 9,
         "macro_buckets": [
-          "inflation",
+          "rates",
           "energy"
         ],
         "themes": [
@@ -104,30 +104,53 @@
           "risk"
         ],
         "scores": {
-          "inflation": -2,
+          "inflation": -1,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
-          "risk": -2
+          "risk": -1
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-20T22-11-47+00-00-9",
-        "title": "NY Fed survey finds highest credit application rate in nearly five years",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/ny-fed-survey-finds-highest-credit-application-rate-in-nearly-five-years-4801397",
+        "doc_id": "www.marketwatch.com-2026-07-21T19-42-00+00-00-9",
+        "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
         "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.6028617024421692,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 8,
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.5901294946670532,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 9,
         "macro_buckets": [
-          "policy",
-          "liquidity"
+          "inflation",
+          "energy"
         ],
         "themes": [
-          "policy",
-          "liquidity"
+          "inflation"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.marketwatch.com-2026-07-21T20-27-00+00-00-3",
+        "title": "Why energy stocks still look so cheap, even after their big rally this month",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/why-energy-stocks-still-look-so-cheap-even-after-their-big-rally-this-month-7f1a298b?mod=mw_rss_topstories",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.6568500399589539,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "energy"
+        ],
+        "themes": [
+          "inflation"
         ],
         "scores": {
           "inflation": 0,
@@ -140,55 +163,22 @@
     ],
     "bucket_views": [
       {
-        "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-07-20T21-11-00+00-00-4",
-            "title": "Global oil prices settle at one-month high despite new Iran ceasefire proposal, as blockade on Saudi Arabia by Yemen\u2019s Houthis keeps market on edge",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8855727910995483,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "risk"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": -2
-            }
-          }
-        ]
-      },
-      {
         "name": "energy",
         "label": "negative news sentiment",
         "score": -2,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-20T21-11-00+00-00-4",
-            "title": "Global oil prices settle at one-month high despite new Iran ceasefire proposal, as blockade on Saudi Arabia by Yemen\u2019s Houthis keeps market on edge",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79?mod=mw_rss_topstories",
-            "confidence": "high",
+            "doc_id": "www.investing.com-2026-07-21T22-11-36+00-00-7",
+            "title": "Treasury yields hit two-month high on Iran tensions, oil surge",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/treasury-yields-hit-twomonth-high-on-iran-tensions-oil-surge-93CH-4804025",
+            "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8855727910995483,
+            "sentiment_confidence": 0.6580306887626648,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 9,
             "macro_buckets": [
-              "inflation",
+              "rates",
               "energy"
             ],
             "themes": [
@@ -196,37 +186,53 @@
               "risk"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": -1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
-              "risk": -2
+              "risk": -1
             }
-          }
-        ]
-      },
-      {
-        "name": "policy",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
+          },
           {
-            "doc_id": "www.investing.com-2026-07-20T22-11-47+00-00-9",
-            "title": "NY Fed survey finds highest credit application rate in nearly five years",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ny-fed-survey-finds-highest-credit-application-rate-in-nearly-five-years-4801397",
+            "doc_id": "www.marketwatch.com-2026-07-21T19-42-00+00-00-9",
+            "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
             "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.6028617024421692,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 8,
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.5901294946670532,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
-              "policy",
-              "liquidity"
+              "inflation",
+              "energy"
             ],
             "themes": [
-              "policy",
-              "liquidity"
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.marketwatch.com-2026-07-21T20-27-00+00-00-3",
+            "title": "Why energy stocks still look so cheap, even after their big rally this month",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/why-energy-stocks-still-look-so-cheap-even-after-their-big-rally-this-month-7f1a298b?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.6568500399589539,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "energy"
+            ],
+            "themes": [
+              "inflation"
             ],
             "scores": {
               "inflation": 0,
@@ -239,34 +245,66 @@
         ]
       },
       {
-        "name": "liquidity",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "name": "inflation",
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-20T22-11-47+00-00-9",
-            "title": "NY Fed survey finds highest credit application rate in nearly five years",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ny-fed-survey-finds-highest-credit-application-rate-in-nearly-five-years-4801397",
+            "doc_id": "www.marketwatch.com-2026-07-21T19-42-00+00-00-9",
+            "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
             "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.6028617024421692,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 8,
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.5901294946670532,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
-              "policy",
-              "liquidity"
+              "inflation",
+              "energy"
             ],
             "themes": [
-              "policy",
-              "liquidity"
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
               "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-21T22-11-36+00-00-7",
+            "title": "Treasury yields hit two-month high on Iran tensions, oil surge",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/treasury-yields-hit-twomonth-high-on-iran-tensions-oil-surge-93CH-4804025",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.6580306887626648,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "rates",
+              "energy"
+            ],
+            "themes": [
+              "inflation",
+              "risk"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": -1
             }
           }
         ]
