@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-07-21",
-    "daily_brief": "2026-07-21: 3 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Risk coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+    "date": "2026-07-22",
+    "daily_brief": "2026-07-22: 5 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy, Risk coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment had a directional bias, but the broader market response was mixed.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss",
@@ -13,114 +13,88 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.83,
-        "return_5d": -0.47,
-        "close": 748.280029296875
+        "return_1d": -0.12,
+        "return_5d": -0.98,
+        "close": 747.4099731445312
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.27,
-        "return_5d": -0.5,
-        "close": 83.66000366210938
+        "return_1d": -0.26,
+        "return_5d": -0.95,
+        "close": 83.44000244140625
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.32,
-        "return_5d": 0.32,
-        "close": 28.479999542236328
+        "return_1d": -0.11,
+        "return_5d": 0.71,
+        "close": 28.450000762939453
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 2.66,
-        "return_5d": 7.22,
-        "close": 128.85000610351562
+        "return_1d": 2.2,
+        "return_5d": 8.49,
+        "close": 131.67999267578125
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.04,
-        "return_5d": -0.04,
-        "close": 79.6500015258789
+        "return_1d": -0.16,
+        "return_5d": -0.36,
+        "close": 79.5199966430664
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.96,
-        "return_5d": 0.71,
-        "close": 374.80999755859375
+        "return_1d": 1.15,
+        "return_5d": 1.82,
+        "close": 379.1199951171875
       }
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -0.6666666666666666,
-      "display_score": -0.67,
-      "unique_documents": 3,
-      "positive_pct": 0.0,
-      "neutral_pct": 33.3,
-      "negative_pct": 66.7,
-      "average_confidence": 0.635
+      "score": -0.6,
+      "display_score": -0.6,
+      "unique_documents": 5,
+      "positive_pct": 20.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 80.0,
+      "average_confidence": 0.781
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.45,
+      "label": "mixed",
+      "score": 0.05,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
+        "SPY": 0.0,
         "HYG": 0.0,
         "TLT": 0.15,
         "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "The major market proxies gave a mixed risk signal.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "divergent",
-      "label": "Divergent",
-      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+      "status": "unconfirmed",
+      "label": "Unconfirmed",
+      "explanation": "News sentiment had a directional bias, but the broader market response was mixed.",
       "news_label": "negative",
-      "market_label": "risk_on"
+      "market_label": "mixed"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-07-21T22-11-36+00-00-7",
-        "title": "Treasury yields hit two-month high on Iran tensions, oil surge",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/treasury-yields-hit-twomonth-high-on-iran-tensions-oil-surge-93CH-4804025",
+        "doc_id": "www.marketwatch.com-2026-07-22T20-10-00+00-00-5",
+        "title": "Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
         "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.6580306887626648,
+        "sentiment_confidence": 0.8039538264274597,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "rates",
-          "energy"
-        ],
-        "themes": [
-          "inflation",
-          "risk"
-        ],
-        "scores": {
-          "inflation": -1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": -1
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-07-21T19-42-00+00-00-9",
-        "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.5901294946670532,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
+        "macro_score": 10,
         "macro_buckets": [
           "inflation",
           "energy"
@@ -137,20 +111,96 @@
         }
       },
       {
-        "doc_id": "www.marketwatch.com-2026-07-21T20-27-00+00-00-3",
-        "title": "Why energy stocks still look so cheap, even after their big rally this month",
+        "doc_id": "www.marketwatch.com-2026-07-22T19-30-00+00-00-10",
+        "title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
         "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/why-energy-stocks-still-look-so-cheap-even-after-their-big-rally-this-month-7f1a298b?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.6568500399589539,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
+        "url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
+        "confidence": "low",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.4971500039100647,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 9,
         "macro_buckets": [
+          "policy",
+          "rates",
+          "energy"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": -1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-22T22-16-00+00-00-4",
+        "title": "Oil prices jump on US-Iran strikes, stocks flat ahead of Big Tech results",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/asian-stocks-extend-gains-as-us-rebounds-chipmakers-lead-4804531",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9430351853370667,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 8,
+        "macro_buckets": [
+          "inflation",
           "energy"
         ],
         "themes": [
           "inflation"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-22T22-16-00+00-00-7",
+        "title": "Two-year Treasury yields hit 17-month high on Iran tensions",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/twoyear-treasury-yields-hit-17month-high-on-iran-tensions-93CH-4806796",
+        "confidence": "high",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.8621211051940918,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "rates"
+        ],
+        "themes": [
+          "risk"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 2
+        }
+      },
+      {
+        "doc_id": "www.marketwatch.com-2026-07-22T20-13-00+00-00-4",
+        "title": "The Treasury market touches a worrying milestone not seen since 2007",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/the-treasury-market-is-on-the-verge-of-a-worrying-milestone-not-seen-since-2007-81158082?mod=mw_rss_topstories",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.7990416884422302,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "rates"
+        ],
+        "themes": [
+          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
@@ -165,44 +215,18 @@
       {
         "name": "energy",
         "label": "negative news sentiment",
-        "score": -2,
+        "score": -4,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-21T22-11-36+00-00-7",
-            "title": "Treasury yields hit two-month high on Iran tensions, oil surge",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/treasury-yields-hit-twomonth-high-on-iran-tensions-oil-surge-93CH-4804025",
+            "doc_id": "www.marketwatch.com-2026-07-22T20-10-00+00-00-5",
+            "title": "Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
             "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.6580306887626648,
+            "sentiment_confidence": 0.8039538264274597,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "rates",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "risk"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": -1
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-07-21T19-42-00+00-00-9",
-            "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5901294946670532,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 10,
             "macro_buckets": [
               "inflation",
               "energy"
@@ -219,23 +243,51 @@
             }
           },
           {
-            "doc_id": "www.marketwatch.com-2026-07-21T20-27-00+00-00-3",
-            "title": "Why energy stocks still look so cheap, even after their big rally this month",
+            "doc_id": "www.marketwatch.com-2026-07-22T19-30-00+00-00-10",
+            "title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/why-energy-stocks-still-look-so-cheap-even-after-their-big-rally-this-month-7f1a298b?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.6568500399589539,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
+            "url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.4971500039100647,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
+              "policy",
+              "rates",
+              "energy"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-22T22-16-00+00-00-4",
+            "title": "Oil prices jump on US-Iran strikes, stocks flat ahead of Big Tech results",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/asian-stocks-extend-gains-as-us-rebounds-chipmakers-lead-4804531",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9430351853370667,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 8,
+            "macro_buckets": [
+              "inflation",
               "energy"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -2,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -247,18 +299,18 @@
       {
         "name": "inflation",
         "label": "negative news sentiment",
-        "score": -2,
+        "score": -4,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-21T19-42-00+00-00-9",
-            "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
+            "doc_id": "www.marketwatch.com-2026-07-22T20-10-00+00-00-5",
+            "title": "Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
-            "confidence": "low",
+            "url": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
+            "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.5901294946670532,
+            "sentiment_confidence": 0.8039538264274597,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 10,
             "macro_buckets": [
               "inflation",
               "energy"
@@ -270,6 +322,65 @@
               "inflation": -1,
               "growth": 0,
               "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-22T22-16-00+00-00-4",
+            "title": "Oil prices jump on US-Iran strikes, stocks flat ahead of Big Tech results",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/asian-stocks-extend-gains-as-us-rebounds-chipmakers-lead-4804531",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9430351853370667,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 8,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "negative news sentiment",
+        "score": -1,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-07-22T19-30-00+00-00-10",
+            "title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.4971500039100647,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "rates",
+              "energy"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }
@@ -282,29 +393,78 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-21T22-11-36+00-00-7",
-            "title": "Treasury yields hit two-month high on Iran tensions, oil surge",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/treasury-yields-hit-twomonth-high-on-iran-tensions-oil-surge-93CH-4804025",
-            "confidence": "medium",
+            "doc_id": "www.marketwatch.com-2026-07-22T19-30-00+00-00-10",
+            "title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
+            "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.6580306887626648,
+            "sentiment_confidence": 0.4971500039100647,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 9,
             "macro_buckets": [
+              "policy",
               "rates",
               "energy"
             ],
             "themes": [
               "inflation",
-              "risk"
+              "policy"
             ],
             "scores": {
               "inflation": -1,
               "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-22T22-16-00+00-00-7",
+            "title": "Two-year Treasury yields hit 17-month high on Iran tensions",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/twoyear-treasury-yields-hit-17month-high-on-iran-tensions-93CH-4806796",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8621211051940918,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "rates"
+            ],
+            "themes": [
+              "risk"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
               "policy": 0,
               "liquidity": 0,
-              "risk": -1
+              "risk": 2
+            }
+          },
+          {
+            "doc_id": "www.marketwatch.com-2026-07-22T20-13-00+00-00-4",
+            "title": "The Treasury market touches a worrying milestone not seen since 2007",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/the-treasury-market-is-on-the-verge-of-a-worrying-milestone-not-seen-since-2007-81158082?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.7990416884422302,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "rates"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
             }
           }
         ]
