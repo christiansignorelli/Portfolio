@@ -1,161 +1,108 @@
 [
   {
-    "date": "2026-07-22",
-    "daily_brief": "2026-07-22: 5 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy, Risk coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment had a directional bias, but the broader market response was mixed.",
+    "date": "2026-07-23",
+    "daily_brief": "2026-07-23: 4 unique articles were analyzed. News sentiment was positive. Top theme: uncategorized.",
+    "macro_read": "Macro read: Inflation, Policy, Liquidity coverage showed a predominantly positive tone.",
+    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.12,
-        "return_5d": -0.98,
-        "close": 747.4099731445312
+        "return_1d": -1.23,
+        "return_5d": -1.67,
+        "close": 738.1799926757812
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.26,
-        "return_5d": -0.95,
-        "close": 83.44000244140625
+        "return_1d": -0.32,
+        "return_5d": -1.24,
+        "close": 83.16999816894531
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.11,
-        "return_5d": 0.71,
-        "close": 28.450000762939453
+        "return_1d": 0.39,
+        "return_5d": 0.78,
+        "close": 28.559999465942383
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 2.2,
-        "return_5d": 8.49,
-        "close": 131.67999267578125
+        "return_1d": 5.93,
+        "return_5d": 16.92,
+        "close": 139.49000549316406
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.16,
-        "return_5d": -0.36,
-        "close": 79.5199966430664
+        "return_1d": -0.36,
+        "return_5d": -0.71,
+        "close": 79.2300033569336
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.15,
-        "return_5d": 1.82,
-        "close": 379.1199951171875
+        "return_1d": -2.0,
+        "return_5d": 1.8,
+        "close": 371.5199890136719
       }
     ],
     "news_sentiment": {
-      "label": "negative",
-      "score": -0.6,
-      "display_score": -0.6,
-      "unique_documents": 5,
-      "positive_pct": 20.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 80.0,
-      "average_confidence": 0.781
+      "label": "positive",
+      "score": 0.5,
+      "display_score": 0.5,
+      "unique_documents": 4,
+      "positive_pct": 50.0,
+      "neutral_pct": 50.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.734
     },
     "market_regime": {
-      "label": "mixed",
-      "score": 0.05,
+      "label": "risk_off",
+      "score": -0.5,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.0,
-        "HYG": 0.0,
+        "SPY": -0.4,
+        "HYG": -0.35,
         "TLT": 0.15,
-        "GLD": -0.1
+        "GLD": 0.1
       },
-      "explanation": "The major market proxies gave a mixed risk signal.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "unconfirmed",
-      "label": "Unconfirmed",
-      "explanation": "News sentiment had a directional bias, but the broader market response was mixed.",
-      "news_label": "negative",
-      "market_label": "mixed"
+      "status": "divergent",
+      "label": "Divergent",
+      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+      "news_label": "positive",
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-07-22T20-10-00+00-00-5",
-        "title": "Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-07-23T22-13-34+00-00-10",
+        "title": "Treasury yields hit 18-month high as oil surge revives rate fears",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/treasury-yields-hit-18month-high-as-oil-surge-revives-rate-fears-93CH-4809541",
         "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8039538264274597,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 10,
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.7012604475021362,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 7,
         "macro_buckets": [
-          "inflation",
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-07-22T19-30-00+00-00-10",
-        "title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.4971500039100647,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "policy",
           "rates",
           "energy"
         ],
         "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": -1,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-22T22-16-00+00-00-4",
-        "title": "Oil prices jump on US-Iran strikes, stocks flat ahead of Big Tech results",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/asian-stocks-extend-gains-as-us-rebounds-chipmakers-lead-4804531",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9430351853370667,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 8,
-        "macro_buckets": [
-          "inflation",
-          "energy"
-        ],
-        "themes": [
           "inflation"
         ],
         "scores": {
-          "inflation": -2,
+          "inflation": 1,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -163,41 +110,69 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-22T22-16-00+00-00-7",
-        "title": "Two-year Treasury yields hit 17-month high on Iran tensions",
+        "doc_id": "www.investing.com-2026-07-23T22-13-34+00-00-9",
+        "title": "U.S. bond returns trail euro and Asian peers over 1 and 5 years",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/twoyear-treasury-yields-hit-17month-high-on-iran-tensions-93CH-4806796",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/us-bond-returns-trail-euro-and-asian-peers-over-1-and-5-years-93CH-4809555",
+        "confidence": "medium",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.8621211051940918,
+        "sentiment_confidence": 0.8345420360565186,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 4,
+        "macro_score": 6,
         "macro_buckets": [
-          "rates"
+          "rates",
+          "fx"
         ],
         "themes": [
-          "risk"
+          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
-          "risk": 2
+          "risk": 0
         }
       },
       {
-        "doc_id": "www.marketwatch.com-2026-07-22T20-13-00+00-00-4",
-        "title": "The Treasury market touches a worrying milestone not seen since 2007",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/the-treasury-market-is-on-the-verge-of-a-worrying-milestone-not-seen-since-2007-81158082?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-07-23T22-13-34+00-00-5",
+        "title": "ECB will discuss raising banks\u2019 minimum reserves, Lagarde says",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/ecb-will-discuss-raising-banks-minimum-reserves-lagarde-says-4809645",
         "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.7990416884422302,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.7429545521736145,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
         "macro_buckets": [
-          "rates"
+          "policy",
+          "liquidity"
+        ],
+        "themes": [
+          "policy",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-23T22-13-34+00-00-7",
+        "title": "Malaysia launches $1.5 billion Islamic bond in dollar market",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/malaysia-launches-15-billion-islamic-bond-in-dollar-market-93CH-4809712",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.6581152677536011,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "rates",
+          "fx"
         ],
         "themes": [
           "uncategorized"
@@ -214,173 +189,30 @@
     "bucket_views": [
       {
         "name": "energy",
-        "label": "negative news sentiment",
-        "score": -4,
+        "label": "positive news sentiment",
+        "score": 1,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-22T20-10-00+00-00-5",
-            "title": "Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-07-23T22-13-34+00-00-10",
+            "title": "Treasury yields hit 18-month high as oil surge revives rate fears",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/treasury-yields-hit-18month-high-as-oil-surge-revives-rate-fears-93CH-4809541",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8039538264274597,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.7012604475021362,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-07-22T19-30-00+00-00-10",
-            "title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.4971500039100647,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
               "rates",
               "energy"
             ],
             "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-22T22-16-00+00-00-4",
-            "title": "Oil prices jump on US-Iran strikes, stocks flat ahead of Big Tech results",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asian-stocks-extend-gains-as-us-rebounds-chipmakers-lead-4804531",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9430351853370667,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 1,
               "growth": 0,
               "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -4,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-07-22T20-10-00+00-00-5",
-            "title": "Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8039538264274597,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-22T22-16-00+00-00-4",
-            "title": "Oil prices jump on US-Iran strikes, stocks flat ahead of Big Tech results",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asian-stocks-extend-gains-as-us-rebounds-chipmakers-lead-4804531",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9430351853370667,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "policy",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-07-22T19-30-00+00-00-10",
-            "title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.4971500039100647,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "rates",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }
@@ -393,71 +225,161 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-22T19-30-00+00-00-10",
-            "title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.4971500039100647,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "doc_id": "www.investing.com-2026-07-23T22-13-34+00-00-10",
+            "title": "Treasury yields hit 18-month high as oil surge revives rate fears",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/treasury-yields-hit-18month-high-as-oil-surge-revives-rate-fears-93CH-4809541",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.7012604475021362,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
-              "policy",
               "rates",
               "energy"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "inflation"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 1,
               "growth": 0,
-              "policy": -1,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-07-22T22-16-00+00-00-7",
-            "title": "Two-year Treasury yields hit 17-month high on Iran tensions",
+            "doc_id": "www.investing.com-2026-07-23T22-13-34+00-00-9",
+            "title": "U.S. bond returns trail euro and Asian peers over 1 and 5 years",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/twoyear-treasury-yields-hit-17month-high-on-iran-tensions-93CH-4806796",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/us-bond-returns-trail-euro-and-asian-peers-over-1-and-5-years-93CH-4809555",
+            "confidence": "medium",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.8621211051940918,
+            "sentiment_confidence": 0.8345420360565186,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 4,
+            "macro_score": 6,
             "macro_buckets": [
-              "rates"
+              "rates",
+              "fx"
             ],
             "themes": [
-              "risk"
+              "uncategorized"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
-              "risk": 2
+              "risk": 0
             }
           },
           {
-            "doc_id": "www.marketwatch.com-2026-07-22T20-13-00+00-00-4",
-            "title": "The Treasury market touches a worrying milestone not seen since 2007",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/the-treasury-market-is-on-the-verge-of-a-worrying-milestone-not-seen-since-2007-81158082?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-07-23T22-13-34+00-00-7",
+            "title": "Malaysia launches $1.5 billion Islamic bond in dollar market",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/malaysia-launches-15-billion-islamic-bond-in-dollar-market-93CH-4809712",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7990416884422302,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.6581152677536011,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
-              "rates"
+              "rates",
+              "fx"
             ],
             "themes": [
               "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-23T22-13-34+00-00-9",
+            "title": "U.S. bond returns trail euro and Asian peers over 1 and 5 years",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-bond-returns-trail-euro-and-asian-peers-over-1-and-5-years-93CH-4809555",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8345420360565186,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "rates",
+              "fx"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-23T22-13-34+00-00-7",
+            "title": "Malaysia launches $1.5 billion Islamic bond in dollar market",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/malaysia-launches-15-billion-islamic-bond-in-dollar-market-93CH-4809712",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.6581152677536011,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "rates",
+              "fx"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-23T22-13-34+00-00-5",
+            "title": "ECB will discuss raising banks\u2019 minimum reserves, Lagarde says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ecb-will-discuss-raising-banks-minimum-reserves-lagarde-says-4809645",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7429545521736145,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "liquidity"
+            ],
+            "themes": [
+              "policy",
+              "liquidity"
             ],
             "scores": {
               "inflation": 0,

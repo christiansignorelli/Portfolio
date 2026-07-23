@@ -1,71 +1,58 @@
 [
   {
-    "id": "www.marketwatch.com-2026-07-22T20-10-00+00-00-5",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-22T20:10:00+00:00",
-    "title": "Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war",
-    "body": "Oil prices settled at six-week highs on Wednesday after the U.S. struck Iran for the 11th night in a row and President Donald Trump warned that the U.S. will bomb Iranian bridges and power plants if Tehran fires on ships in the Strait of Hormuz.",
-    "url": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
-    "macro_score": 10,
+    "id": "www.investing.com-2026-07-23T22-13-34+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-23T22:13:34+00:00",
+    "title": "Treasury yields hit 18-month high as oil surge revives rate fears",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/treasury-yields-hit-18month-high-as-oil-surge-revives-rate-fears-93CH-4809541",
+    "macro_score": 7,
     "macro_buckets": [
-      "inflation",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-07-22T19-30-00+00-00-10",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-22T19:30:00+00:00",
-    "title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
-    "body": "Treasury yields are approaching the highest levels seen since the Iran war started in February as oil price rises and odds of a Fed rate hike narrow.",
-    "url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
       "rates",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-22T22-16-00+00-00-4",
+    "id": "www.investing.com-2026-07-23T22-13-34+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-22T22:16:00+00:00",
-    "title": "Oil prices jump on US-Iran strikes, stocks flat ahead of Big Tech results",
+    "published_at": "2026-07-23T22:13:34+00:00",
+    "title": "ECB will discuss raising banks\u2019 minimum reserves, Lagarde says",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/asian-stocks-extend-gains-as-us-rebounds-chipmakers-lead-4804531",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/ecb-will-discuss-raising-banks-minimum-reserves-lagarde-says-4809645",
+    "macro_score": 6,
     "macro_buckets": [
-      "inflation",
-      "energy"
+      "policy",
+      "liquidity"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-07-22T20-13-00+00-00-4",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-22T20:13:00+00:00",
-    "title": "The Treasury market touches a worrying milestone not seen since 2007",
-    "body": "There are a host of challenges at work as the \u2018long\u2019 30-year Treasury yield logs its longest stretch above 5% in 19 years",
-    "url": "https://www.marketwatch.com/story/the-treasury-market-is-on-the-verge-of-a-worrying-milestone-not-seen-since-2007-81158082?mod=mw_rss_topstories",
-    "macro_score": 4,
+    "id": "www.investing.com-2026-07-23T22-13-34+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-23T22:13:34+00:00",
+    "title": "Malaysia launches $1.5 billion Islamic bond in dollar market",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/malaysia-launches-15-billion-islamic-bond-in-dollar-market-93CH-4809712",
+    "macro_score": 6,
     "macro_buckets": [
-      "rates"
+      "rates",
+      "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-22T22-16-00+00-00-7",
+    "id": "www.investing.com-2026-07-23T22-13-34+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-22T22:16:00+00:00",
-    "title": "Two-year Treasury yields hit 17-month high on Iran tensions",
+    "published_at": "2026-07-23T22:13:34+00:00",
+    "title": "U.S. bond returns trail euro and Asian peers over 1 and 5 years",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/twoyear-treasury-yields-hit-17month-high-on-iran-tensions-93CH-4806796",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/us-bond-returns-trail-euro-and-asian-peers-over-1-and-5-years-93CH-4809555",
+    "macro_score": 6,
     "macro_buckets": [
-      "rates"
+      "rates",
+      "fx"
     ]
   }
 ]
