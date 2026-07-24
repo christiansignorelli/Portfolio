@@ -1,57 +1,42 @@
 [
   {
-    "id": "www.investing.com-2026-07-23T22-13-34+00-00-10",
+    "id": "www.investing.com-2026-07-24T22-17-02+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-23T22:13:34+00:00",
-    "title": "Treasury yields hit 18-month high as oil surge revives rate fears",
+    "published_at": "2026-07-24T22:17:02+00:00",
+    "title": "Stocks mixed as oil prices pause climb but yields hover near highs",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/treasury-yields-hit-18month-high-as-oil-surge-revives-rate-fears-93CH-4809541",
-    "macro_score": 7,
+    "url": "https://www.investing.com/news/economy-news/asian-stocks-skid-as-oil-spike-revives-inflation-fears-bonds-take-a-hit-4810379",
+    "macro_score": 10,
     "macro_buckets": [
+      "inflation",
       "rates",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-23T22-13-34+00-00-5",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-23T22:13:34+00:00",
-    "title": "ECB will discuss raising banks\u2019 minimum reserves, Lagarde says",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecb-will-discuss-raising-banks-minimum-reserves-lagarde-says-4809645",
-    "macro_score": 6,
+    "id": "www.marketwatch.com-2026-07-24T21-38-00+00-00-4",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-07-24T21:38:00+00:00",
+    "title": "The stock market is completely unprepared for a 6% yield on the 30-year Treasury",
+    "body": "Long-bond spike would crush stock gains and deepen bond-fund losses.",
+    "url": "https://www.marketwatch.com/story/the-30-year-treasury-yield-is-closing-in-on-5-2-a-surge-to-6-could-slam-stocks-fa9631fb?mod=mw_rss_topstories",
+    "macro_score": 4,
     "macro_buckets": [
-      "policy",
-      "liquidity"
+      "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-23T22-13-34+00-00-7",
+    "id": "www.investing.com-2026-07-24T22-17-02+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-23T22:13:34+00:00",
-    "title": "Malaysia launches $1.5 billion Islamic bond in dollar market",
+    "published_at": "2026-07-24T22:17:02+00:00",
+    "title": "Yen records biggest weekly drop in over two months, dollar climbs for the week",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/malaysia-launches-15-billion-islamic-bond-in-dollar-market-93CH-4809712",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/dollar-rides-yield-surge-as-middle-east-and-trade-wars-raise-inflation-stakes-4810359",
+    "macro_score": 4,
     "macro_buckets": [
-      "rates",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-23T22-13-34+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-23T22:13:34+00:00",
-    "title": "U.S. bond returns trail euro and Asian peers over 1 and 5 years",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-bond-returns-trail-euro-and-asian-peers-over-1-and-5-years-93CH-4809555",
-    "macro_score": 6,
-    "macro_buckets": [
-      "rates",
       "fx"
     ]
   }
