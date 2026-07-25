@@ -1,43 +1,57 @@
 [
   {
-    "id": "www.investing.com-2026-07-24T22-17-02+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-24T22:17:02+00:00",
-    "title": "Stocks mixed as oil prices pause climb but yields hover near highs",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/asian-stocks-skid-as-oil-spike-revives-inflation-fears-bonds-take-a-hit-4810379",
-    "macro_score": 10,
+    "id": "www.marketwatch.com-2026-07-25T18-34-00+00-00-7",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-07-25T18:34:00+00:00",
+    "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
+    "body": "The Iran war isn\u2019t causing your energy bill to soar. Blame Wall Street for that.",
+    "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
+    "macro_score": 9,
     "macro_buckets": [
       "inflation",
-      "rates",
       "energy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-07-24T21-38-00+00-00-4",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-24T21:38:00+00:00",
-    "title": "The stock market is completely unprepared for a 6% yield on the 30-year Treasury",
-    "body": "Long-bond spike would crush stock gains and deepen bond-fund losses.",
-    "url": "https://www.marketwatch.com/story/the-30-year-treasury-yield-is-closing-in-on-5-2-a-surge-to-6-could-slam-stocks-fa9631fb?mod=mw_rss_topstories",
-    "macro_score": 4,
+    "id": "www.investing.com-2026-07-25T22-08-13+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-25T22:08:13+00:00",
+    "title": "BofA warns oil volatility could force c. banks to abandon look-through\u2019 policy",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/bofa-warns-oil-volatility-could-force-c-banks-to-abandon-lookthrough-policy-4812808",
+    "macro_score": 6,
     "macro_buckets": [
-      "rates"
+      "energy",
+      "liquidity"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-24T22-17-02+00-00-9",
+    "id": "www.investing.com-2026-07-25T22-08-13+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-24T22:17:02+00:00",
-    "title": "Yen records biggest weekly drop in over two months, dollar climbs for the week",
+    "published_at": "2026-07-25T22:08:13+00:00",
+    "title": "Can Europe avoid a recession?",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-rides-yield-surge-as-middle-east-and-trade-wars-raise-inflation-stakes-4810359",
+    "url": "https://www.investing.com/news/economy-news/can-europe-avoid-a-recession-4812606",
+    "macro_score": 6,
+    "macro_buckets": [
+      "growth",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-07-25T22-08-13+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-25T22:08:13+00:00",
+    "title": "China economic growth set to slow in H2 as Beijing avoids broad stimulus",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/china-economic-growth-set-to-slow-in-h2-as-beijing-avoids-broad-stimulus-4812753",
     "macro_score": 4,
     "macro_buckets": [
-      "fx"
+      "growth"
     ]
   }
 ]

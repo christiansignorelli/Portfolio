@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-07-24",
-    "daily_brief": "2026-07-24: 3 unique articles were analyzed. News sentiment was negative. Top theme: uncategorized.",
-    "macro_read": "Macro read: Inflation coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment had a directional bias, but the broader market response was mixed.",
+    "date": "2026-07-25",
+    "daily_brief": "2026-07-25: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Growth, Liquidity coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss",
@@ -13,91 +13,90 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.1,
-        "return_5d": -0.59,
-        "close": 738.9299926757812
+        "return_1d": -1.23,
+        "return_5d": -1.67,
+        "close": 738.1799926757812
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.1,
-        "return_5d": -1.5,
-        "close": 83.25
+        "return_1d": -0.32,
+        "return_5d": -1.24,
+        "close": 83.16999816894531
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.07,
-        "return_5d": 0.88,
-        "close": 28.579999923706055
+        "return_1d": 0.39,
+        "return_5d": 0.78,
+        "close": 28.559999465942383
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -2.01,
-        "return_5d": 10.27,
-        "close": 136.69000244140625
+        "return_1d": 5.93,
+        "return_5d": 16.92,
+        "close": 139.49000549316406
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.0,
-        "return_5d": -0.53,
+        "return_1d": -0.36,
+        "return_5d": -0.71,
         "close": 79.2300033569336
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.1,
-        "return_5d": 0.95,
-        "close": 371.8999938964844
+        "return_1d": -2.0,
+        "return_5d": 1.8,
+        "close": 371.5199890136719
       }
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -1.0,
-      "display_score": -1.0,
-      "unique_documents": 3,
+      "score": -0.75,
+      "display_score": -0.75,
+      "unique_documents": 4,
       "positive_pct": 0.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 100.0,
-      "average_confidence": 0.87
+      "neutral_pct": 25.0,
+      "negative_pct": 75.0,
+      "average_confidence": 0.758
     },
     "market_regime": {
-      "label": "mixed",
-      "score": 0.0,
+      "label": "risk_off",
+      "score": -0.5,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.0,
-        "HYG": 0.0,
-        "TLT": 0.0,
-        "GLD": 0.0
+        "SPY": -0.4,
+        "HYG": -0.35,
+        "TLT": 0.15,
+        "GLD": 0.1
       },
-      "explanation": "The major market proxies gave a mixed risk signal.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "unconfirmed",
-      "label": "Unconfirmed",
-      "explanation": "News sentiment had a directional bias, but the broader market response was mixed.",
+      "status": "confirmed",
+      "label": "Confirmed",
+      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
       "news_label": "negative",
-      "market_label": "mixed"
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-07-24T22-17-02+00-00-3",
-        "title": "Stocks mixed as oil prices pause climb but yields hover near highs",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/asian-stocks-skid-as-oil-spike-revives-inflation-fears-bonds-take-a-hit-4810379",
-        "confidence": "medium",
+        "doc_id": "www.marketwatch.com-2026-07-25T18-34-00+00-00-7",
+        "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
+        "confidence": "low",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.7833701968193054,
+        "sentiment_confidence": 0.5901294946670532,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 10,
+        "macro_score": 9,
         "macro_buckets": [
           "inflation",
-          "rates",
           "energy"
         ],
         "themes": [
@@ -112,20 +111,47 @@
         }
       },
       {
-        "doc_id": "www.marketwatch.com-2026-07-24T21-38-00+00-00-4",
-        "title": "The stock market is completely unprepared for a 6% yield on the 30-year Treasury",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/the-30-year-treasury-yield-is-closing-in-on-5-2-a-surge-to-6-could-slam-stocks-fa9631fb?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-3",
+        "title": "BofA warns oil volatility could force c. banks to abandon look-through\u2019 policy",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/bofa-warns-oil-volatility-could-force-c-banks-to-abandon-lookthrough-policy-4812808",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9572336673736572,
+        "sentiment_confidence": 0.9497748613357544,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
+        "macro_score": 6,
         "macro_buckets": [
-          "rates"
+          "energy",
+          "liquidity"
         ],
         "themes": [
-          "uncategorized"
+          "inflation",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": -2,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-10",
+        "title": "Can Europe avoid a recession?",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/can-europe-avoid-a-recession-4812606",
+        "confidence": "low",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.5377857089042664,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "growth",
+          "fx"
+        ],
+        "themes": [
+          "growth"
         ],
         "scores": {
           "inflation": 0,
@@ -136,24 +162,24 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-24T22-17-02+00-00-9",
-        "title": "Yen records biggest weekly drop in over two months, dollar climbs for the week",
+        "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-4",
+        "title": "China economic growth set to slow in H2 as Beijing avoids broad stimulus",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-rides-yield-surge-as-middle-east-and-trade-wars-raise-inflation-stakes-4810359",
+        "url": "https://www.investing.com/news/economy-news/china-economic-growth-set-to-slow-in-h2-as-beijing-avoids-broad-stimulus-4812753",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.8685239553451538,
+        "sentiment_confidence": 0.9536216259002686,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 4,
         "macro_buckets": [
-          "fx"
+          "growth"
         ],
         "themes": [
-          "uncategorized"
+          "growth"
         ],
         "scores": {
           "inflation": 0,
-          "growth": 0,
+          "growth": -2,
           "policy": 0,
           "liquidity": 0,
           "risk": 0
@@ -162,89 +188,22 @@
     ],
     "bucket_views": [
       {
-        "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-07-24T22-17-02+00-00-3",
-            "title": "Stocks mixed as oil prices pause climb but yields hover near highs",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asian-stocks-skid-as-oil-spike-revives-inflation-fears-bonds-take-a-hit-4810379",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7833701968193054,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "inflation",
-              "rates",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
         "name": "energy",
         "label": "negative news sentiment",
-        "score": -1,
+        "score": -3,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-24T22-17-02+00-00-3",
-            "title": "Stocks mixed as oil prices pause climb but yields hover near highs",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asian-stocks-skid-as-oil-spike-revives-inflation-fears-bonds-take-a-hit-4810379",
-            "confidence": "medium",
+            "doc_id": "www.marketwatch.com-2026-07-25T18-34-00+00-00-7",
+            "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
+            "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.7833701968193054,
+            "sentiment_confidence": 0.5901294946670532,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
+            "macro_score": 9,
             "macro_buckets": [
               "inflation",
-              "rates",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-07-24T22-17-02+00-00-3",
-            "title": "Stocks mixed as oil prices pause climb but yields hover near highs",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asian-stocks-skid-as-oil-spike-revives-inflation-fears-bonds-take-a-hit-4810379",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7833701968193054,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "inflation",
-              "rates",
               "energy"
             ],
             "themes": [
@@ -259,23 +218,57 @@
             }
           },
           {
-            "doc_id": "www.marketwatch.com-2026-07-24T21-38-00+00-00-4",
-            "title": "The stock market is completely unprepared for a 6% yield on the 30-year Treasury",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/the-30-year-treasury-yield-is-closing-in-on-5-2-a-surge-to-6-could-slam-stocks-fa9631fb?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-3",
+            "title": "BofA warns oil volatility could force c. banks to abandon look-through\u2019 policy",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/bofa-warns-oil-volatility-could-force-c-banks-to-abandon-lookthrough-policy-4812808",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9572336673736572,
+            "sentiment_confidence": 0.9497748613357544,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
+            "macro_score": 6,
             "macro_buckets": [
-              "rates"
+              "energy",
+              "liquidity"
             ],
             "themes": [
-              "uncategorized"
+              "inflation",
+              "liquidity"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": -2,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "negative news sentiment",
+        "score": -3,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-07-25T18-34-00+00-00-7",
+            "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.5901294946670532,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -285,31 +278,89 @@
         ]
       },
       {
-        "name": "fx",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "name": "growth",
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-24T22-17-02+00-00-9",
-            "title": "Yen records biggest weekly drop in over two months, dollar climbs for the week",
+            "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-10",
+            "title": "Can Europe avoid a recession?",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-rides-yield-surge-as-middle-east-and-trade-wars-raise-inflation-stakes-4810359",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8685239553451538,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
+            "url": "https://www.investing.com/news/economy-news/can-europe-avoid-a-recession-4812606",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.5377857089042664,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
+              "growth",
               "fx"
             ],
             "themes": [
-              "uncategorized"
+              "growth"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-4",
+            "title": "China economic growth set to slow in H2 as Beijing avoids broad stimulus",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/china-economic-growth-set-to-slow-in-h2-as-beijing-avoids-broad-stimulus-4812753",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9536216259002686,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "growth"
+            ],
+            "themes": [
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": -2,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "liquidity",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-3",
+            "title": "BofA warns oil volatility could force c. banks to abandon look-through\u2019 policy",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/bofa-warns-oil-volatility-could-force-c-banks-to-abandon-lookthrough-policy-4812808",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9497748613357544,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "energy",
+              "liquidity"
+            ],
+            "themes": [
+              "inflation",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": -2,
               "risk": 0
             }
           }
