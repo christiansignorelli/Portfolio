@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-07-25",
-    "daily_brief": "2026-07-25: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Growth, Liquidity coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+    "date": "2026-07-26",
+    "daily_brief": "2026-07-26: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss",
@@ -54,14 +54,14 @@
       }
     ],
     "news_sentiment": {
-      "label": "negative",
-      "score": -0.75,
-      "display_score": -0.75,
-      "unique_documents": 4,
-      "positive_pct": 0.0,
-      "neutral_pct": 25.0,
-      "negative_pct": 75.0,
-      "average_confidence": 0.758
+      "label": "insufficient_data",
+      "score": 0.0,
+      "display_score": 0.0,
+      "unique_documents": 2,
+      "positive_pct": 50.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 50.0,
+      "average_confidence": 0.567
     },
     "market_regime": {
       "label": "risk_off",
@@ -78,23 +78,49 @@
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "confirmed",
-      "label": "Confirmed",
-      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
-      "news_label": "negative",
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
       "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-07-25T18-34-00+00-00-7",
-        "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
+        "doc_id": "www.marketwatch.com-2026-07-26T12-30-00+00-00-9",
+        "title": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
         "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
+        "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
         "confidence": "low",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.5901294946670532,
+        "sentiment_confidence": 0.5833006501197815,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
+        "macro_score": 11,
+        "macro_buckets": [
+          "policy",
+          "rates"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": -1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-26T22-10-41+00-00-10",
+        "title": "Will China\u2019s oil appetite be enough to support prices?",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/will-chinas-oil-appetite-be-enough-to-support-prices-4812836",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.5503829121589661,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 6,
         "macro_buckets": [
           "inflation",
           "energy"
@@ -103,83 +129,8 @@
           "inflation"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": 1,
           "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-3",
-        "title": "BofA warns oil volatility could force c. banks to abandon look-through\u2019 policy",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/bofa-warns-oil-volatility-could-force-c-banks-to-abandon-lookthrough-policy-4812808",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9497748613357544,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "energy",
-          "liquidity"
-        ],
-        "themes": [
-          "inflation",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": -2,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-10",
-        "title": "Can Europe avoid a recession?",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/can-europe-avoid-a-recession-4812606",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.5377857089042664,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "growth",
-          "fx"
-        ],
-        "themes": [
-          "growth"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-4",
-        "title": "China economic growth set to slow in H2 as Beijing avoids broad stimulus",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/china-economic-growth-set-to-slow-in-h2-as-beijing-avoids-broad-stimulus-4812753",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9536216259002686,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "growth"
-        ],
-        "themes": [
-          "growth"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": -2,
           "policy": 0,
           "liquidity": 0,
           "risk": 0
@@ -188,58 +139,66 @@
     ],
     "bucket_views": [
       {
-        "name": "energy",
+        "name": "policy",
         "label": "negative news sentiment",
-        "score": -3,
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-25T18-34-00+00-00-7",
-            "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
+            "doc_id": "www.marketwatch.com-2026-07-26T12-30-00+00-00-9",
+            "title": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
+            "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
             "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.5901294946670532,
+            "sentiment_confidence": 0.5833006501197815,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 11,
             "macro_buckets": [
-              "inflation",
-              "energy"
+              "policy",
+              "rates"
             ],
             "themes": [
-              "inflation"
+              "inflation",
+              "policy"
             ],
             "scores": {
               "inflation": -1,
               "growth": 0,
-              "policy": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }
-          },
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-3",
-            "title": "BofA warns oil volatility could force c. banks to abandon look-through\u2019 policy",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bofa-warns-oil-volatility-could-force-c-banks-to-abandon-lookthrough-policy-4812808",
-            "confidence": "high",
+            "doc_id": "www.marketwatch.com-2026-07-26T12-30-00+00-00-9",
+            "title": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
+            "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9497748613357544,
+            "sentiment_confidence": 0.5833006501197815,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "macro_score": 11,
             "macro_buckets": [
-              "energy",
-              "liquidity"
+              "policy",
+              "rates"
             ],
             "themes": [
               "inflation",
-              "liquidity"
+              "policy"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": -1,
               "growth": 0,
-              "policy": 0,
-              "liquidity": -2,
+              "policy": -1,
+              "liquidity": 0,
               "risk": 0
             }
           }
@@ -247,19 +206,19 @@
       },
       {
         "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -3,
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-25T18-34-00+00-00-7",
-            "title": "Oil prices may fall, but gasoline prices won\u2019t. Look at the trap we\u2019re in.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-07-26T22-10-41+00-00-10",
+            "title": "Will China\u2019s oil appetite be enough to support prices?",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/will-chinas-oil-appetite-be-enough-to-support-prices-4812836",
             "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5901294946670532,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.5503829121589661,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
               "inflation",
               "energy"
@@ -268,7 +227,7 @@
               "inflation"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -278,89 +237,32 @@
         ]
       },
       {
-        "name": "growth",
-        "label": "negative news sentiment",
-        "score": -2,
+        "name": "energy",
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-10",
-            "title": "Can Europe avoid a recession?",
+            "doc_id": "www.investing.com-2026-07-26T22-10-41+00-00-10",
+            "title": "Will China\u2019s oil appetite be enough to support prices?",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/can-europe-avoid-a-recession-4812606",
+            "url": "https://www.investing.com/news/economy-news/will-chinas-oil-appetite-be-enough-to-support-prices-4812836",
             "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.5377857089042664,
-            "summary_label": "neutral-financial-sentiment",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.5503829121589661,
+            "summary_label": "positive-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "growth",
-              "fx"
-            ],
-            "themes": [
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-4",
-            "title": "China economic growth set to slow in H2 as Beijing avoids broad stimulus",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/china-economic-growth-set-to-slow-in-h2-as-beijing-avoids-broad-stimulus-4812753",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9536216259002686,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
-              "growth"
-            ],
-            "themes": [
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": -2,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "liquidity",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-07-25T22-08-13+00-00-3",
-            "title": "BofA warns oil volatility could force c. banks to abandon look-through\u2019 policy",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bofa-warns-oil-volatility-could-force-c-banks-to-abandon-lookthrough-policy-4812808",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9497748613357544,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "energy",
-              "liquidity"
-            ],
-            "themes": [
               "inflation",
-              "liquidity"
+              "energy"
+            ],
+            "themes": [
+              "inflation"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 1,
               "growth": 0,
               "policy": 0,
-              "liquidity": -2,
+              "liquidity": 0,
               "risk": 0
             }
           }
