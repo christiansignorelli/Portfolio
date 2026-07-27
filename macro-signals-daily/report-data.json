@@ -1,110 +1,159 @@
 [
   {
-    "date": "2026-07-26",
-    "daily_brief": "2026-07-26: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
-    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
-    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "date": "2026-07-27",
+    "daily_brief": "2026-07-27: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -1.23,
-        "return_5d": -1.67,
-        "close": 738.1799926757812
+        "return_1d": 0.02,
+        "return_5d": -0.4,
+        "close": 739.0900268554688
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.32,
-        "return_5d": -1.24,
-        "close": 83.16999816894531
+        "return_1d": 0.6,
+        "return_5d": -0.17,
+        "close": 83.75
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.39,
-        "return_5d": 0.78,
-        "close": 28.559999465942383
+        "return_1d": 0.07,
+        "return_5d": 0.74,
+        "close": 28.600000381469727
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 5.93,
-        "return_5d": 16.92,
-        "close": 139.49000549316406
+        "return_1d": -8.73,
+        "return_5d": -0.6,
+        "close": 124.76000213623047
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.36,
-        "return_5d": -0.71,
-        "close": 79.2300033569336
+        "return_1d": 0.05,
+        "return_5d": -0.51,
+        "close": 79.2699966430664
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -2.0,
-        "return_5d": 1.8,
-        "close": 371.5199890136719
+        "return_1d": 0.73,
+        "return_5d": 1.91,
+        "close": 374.6300048828125
       }
     ],
     "news_sentiment": {
-      "label": "insufficient_data",
-      "score": 0.0,
-      "display_score": 0.0,
-      "unique_documents": 2,
-      "positive_pct": 50.0,
+      "label": "negative",
+      "score": -1.0,
+      "display_score": -1.0,
+      "unique_documents": 4,
+      "positive_pct": 0.0,
       "neutral_pct": 0.0,
-      "negative_pct": 50.0,
-      "average_confidence": 0.567
+      "negative_pct": 100.0,
+      "average_confidence": 0.681
     },
     "market_regime": {
       "label": "risk_off",
-      "score": -0.5,
+      "score": -0.25,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
-        "HYG": -0.35,
-        "TLT": 0.15,
-        "GLD": 0.1
+        "SPY": 0.0,
+        "HYG": 0.0,
+        "TLT": -0.15,
+        "GLD": -0.1
       },
       "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "insufficient_data",
-      "label": "Insufficient data",
-      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
-      "news_label": "insufficient_data",
+      "status": "confirmed",
+      "label": "Confirmed",
+      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+      "news_label": "negative",
       "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-07-26T12-30-00+00-00-9",
-        "title": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
-        "confidence": "low",
+        "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-10",
+        "title": "Euro zone bond yields drop as oil prices ease",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-ease-93CH-4814789",
+        "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.5833006501197815,
+        "sentiment_confidence": 0.9581353068351746,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 11,
+        "macro_score": 13,
         "macro_buckets": [
-          "policy",
-          "rates"
+          "inflation",
+          "rates",
+          "energy",
+          "fx"
         ],
         "themes": [
-          "inflation",
-          "policy"
+          "inflation"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-2",
+        "title": "Oil plunges, stocks \u2019n\u2019 bonds shrug",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/oil-plunges-stocks-n-bonds-shrug-4815139",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8458126187324524,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 7,
+        "macro_buckets": [
+          "rates",
+          "energy"
+        ],
+        "themes": [
+          "inflation"
         ],
         "scores": {
           "inflation": -1,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-8",
+        "title": "Trump says Fed should lower interest rates",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/trump-says-fed-should-lower-interest-rates-4814811",
+        "confidence": "low",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.5557823181152344,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
           "growth": 0,
           "policy": -1,
           "liquidity": 0,
@@ -112,26 +161,25 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-26T22-10-41+00-00-10",
-        "title": "Will China\u2019s oil appetite be enough to support prices?",
+        "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-7",
+        "title": "Trump calls for Fed to cut rates, says US should lead globally",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/will-chinas-oil-appetite-be-enough-to-support-prices-4812836",
+        "url": "https://www.investing.com/news/economy-news/trump-calls-for-fed-to-cut-rates-says-us-should-lead-globally-93CH-4814812",
         "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.5503829121589661,
-        "summary_label": "positive-financial-sentiment",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.36371904611587524,
+        "summary_label": "negative-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "inflation",
-          "energy"
+          "policy"
         ],
         "themes": [
-          "inflation"
+          "policy"
         ],
         "scores": {
-          "inflation": 1,
+          "inflation": 0,
           "growth": 0,
-          "policy": 0,
+          "policy": -1,
           "liquidity": 0,
           "risk": 0
         }
@@ -139,30 +187,145 @@
     ],
     "bucket_views": [
       {
-        "name": "policy",
+        "name": "energy",
         "label": "negative news sentiment",
-        "score": -1,
+        "score": -3,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-26T12-30-00+00-00-9",
-            "title": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
-            "confidence": "low",
+            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-10",
+            "title": "Euro zone bond yields drop as oil prices ease",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-ease-93CH-4814789",
+            "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.5833006501197815,
+            "sentiment_confidence": 0.9581353068351746,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 11,
+            "macro_score": 13,
             "macro_buckets": [
-              "policy",
-              "rates"
+              "inflation",
+              "rates",
+              "energy",
+              "fx"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-2",
+            "title": "Oil plunges, stocks \u2019n\u2019 bonds shrug",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/oil-plunges-stocks-n-bonds-shrug-4815139",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8458126187324524,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "rates",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
             ],
             "scores": {
               "inflation": -1,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "negative news sentiment",
+        "score": -3,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-10",
+            "title": "Euro zone bond yields drop as oil prices ease",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-ease-93CH-4814789",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9581353068351746,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 13,
+            "macro_buckets": [
+              "inflation",
+              "rates",
+              "energy",
+              "fx"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-8",
+            "title": "Trump says Fed should lower interest rates",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/trump-says-fed-should-lower-interest-rates-4814811",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.5557823181152344,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-7",
+            "title": "Trump calls for Fed to cut rates, says US should lead globally",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/trump-calls-for-fed-to-cut-rates-says-us-should-lead-globally-93CH-4814812",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.36371904611587524,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
               "growth": 0,
               "policy": -1,
               "liquidity": 0,
@@ -177,89 +340,51 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-26T12-30-00+00-00-9",
-            "title": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5833006501197815,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 11,
-            "macro_buckets": [
-              "policy",
-              "rates"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "inflation",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-07-26T22-10-41+00-00-10",
-            "title": "Will China\u2019s oil appetite be enough to support prices?",
+            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-10",
+            "title": "Euro zone bond yields drop as oil prices ease",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/will-chinas-oil-appetite-be-enough-to-support-prices-4812836",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.5503829121589661,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
+            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-ease-93CH-4814789",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9581353068351746,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 13,
             "macro_buckets": [
               "inflation",
-              "energy"
+              "rates",
+              "energy",
+              "fx"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": -2,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
-          }
-        ]
-      },
-      {
-        "name": "energy",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
+          },
           {
-            "doc_id": "www.investing.com-2026-07-26T22-10-41+00-00-10",
-            "title": "Will China\u2019s oil appetite be enough to support prices?",
+            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-2",
+            "title": "Oil plunges, stocks \u2019n\u2019 bonds shrug",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/will-chinas-oil-appetite-be-enough-to-support-prices-4812836",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.5503829121589661,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
+            "url": "https://www.investing.com/news/economy-news/oil-plunges-stocks-n-bonds-shrug-4815139",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8458126187324524,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
-              "inflation",
+              "rates",
               "energy"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": -1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,

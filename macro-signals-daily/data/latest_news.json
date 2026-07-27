@@ -1,30 +1,58 @@
 [
   {
-    "id": "www.marketwatch.com-2026-07-26T12-30-00+00-00-9",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-07-26T12:30:00+00:00",
-    "title": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
-    "body": "Rising Treasury yields show how \u201cenormously worried\u201d the market is about inflation \u2014 and whether the Fed will back up its tough talk with action",
-    "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
-    "macro_score": 11,
+    "id": "www.investing.com-2026-07-27T22-16-51+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-27T22:16:51+00:00",
+    "title": "Euro zone bond yields drop as oil prices ease",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-ease-93CH-4814789",
+    "macro_score": 13,
     "macro_buckets": [
-      "policy",
-      "rates"
+      "inflation",
+      "rates",
+      "energy",
+      "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-26T22-10-41+00-00-10",
+    "id": "www.investing.com-2026-07-27T22-16-51+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-26T22:10:41+00:00",
-    "title": "Will China\u2019s oil appetite be enough to support prices?",
+    "published_at": "2026-07-27T22:16:51+00:00",
+    "title": "Oil plunges, stocks \u2019n\u2019 bonds shrug",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/will-chinas-oil-appetite-be-enough-to-support-prices-4812836",
+    "url": "https://www.investing.com/news/economy-news/oil-plunges-stocks-n-bonds-shrug-4815139",
+    "macro_score": 7,
+    "macro_buckets": [
+      "rates",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-07-27T22-16-51+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-27T22:16:51+00:00",
+    "title": "Trump calls for Fed to cut rates, says US should lead globally",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/trump-calls-for-fed-to-cut-rates-says-us-should-lead-globally-93CH-4814812",
     "macro_score": 6,
     "macro_buckets": [
-      "inflation",
-      "energy"
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-07-27T22-16-51+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-07-27T22:16:51+00:00",
+    "title": "Trump says Fed should lower interest rates",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/trump-says-fed-should-lower-interest-rates-4814811",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
     ]
   }
 ]
