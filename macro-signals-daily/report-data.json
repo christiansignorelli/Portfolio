@@ -1,159 +1,137 @@
 [
   {
-    "date": "2026-07-27",
-    "daily_brief": "2026-07-27: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+    "date": "2026-07-28",
+    "daily_brief": "2026-07-28: 3 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy, Risk coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.02,
-        "return_5d": -0.4,
-        "close": 739.0900268554688
+        "return_1d": 0.24,
+        "return_5d": -0.99,
+        "close": 740.8599853515625
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.6,
-        "return_5d": -0.17,
-        "close": 83.75
+        "return_1d": 0.59,
+        "return_5d": 0.69,
+        "close": 84.23999786376953
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.07,
-        "return_5d": 0.74,
-        "close": 28.600000381469727
+        "return_1d": -0.07,
+        "return_5d": 0.35,
+        "close": 28.579999923706055
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -8.73,
-        "return_5d": -0.6,
-        "close": 124.76000213623047
+        "return_1d": -3.42,
+        "return_5d": -6.49,
+        "close": 120.48999786376953
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.05,
-        "return_5d": -0.51,
-        "close": 79.2699966430664
+        "return_1d": 0.19,
+        "return_5d": -0.33,
+        "close": 79.41999816894531
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.73,
-        "return_5d": 1.91,
-        "close": 374.6300048828125
+        "return_1d": -1.4,
+        "return_5d": -1.45,
+        "close": 369.3699951171875
       }
     ],
     "news_sentiment": {
       "label": "negative",
       "score": -1.0,
       "display_score": -1.0,
-      "unique_documents": 4,
+      "unique_documents": 3,
       "positive_pct": 0.0,
       "neutral_pct": 0.0,
       "negative_pct": 100.0,
-      "average_confidence": 0.681
+      "average_confidence": 0.652
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.25,
+      "label": "risk_on",
+      "score": 0.35,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.0,
+        "SPY": 0.4,
         "HYG": 0.0,
         "TLT": -0.15,
-        "GLD": -0.1
+        "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "confirmed",
-      "label": "Confirmed",
-      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+      "status": "divergent",
+      "label": "Divergent",
+      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
       "news_label": "negative",
-      "market_label": "risk_off"
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-10",
-        "title": "Euro zone bond yields drop as oil prices ease",
+        "doc_id": "www.investing.com-2026-07-28T22-15-54+00-00-6",
+        "title": "US Treasury yields drop as oil prices fall on Iran tensions",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-ease-93CH-4814789",
+        "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-prices-fall-on-iran-tensions-93CH-4817889",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9581353068351746,
+        "sentiment_confidence": 0.9406322240829468,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 13,
+        "macro_score": 12,
         "macro_buckets": [
           "inflation",
           "rates",
-          "energy",
-          "fx"
+          "energy"
         ],
         "themes": [
-          "inflation"
+          "inflation",
+          "risk"
         ],
         "scores": {
           "inflation": -2,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
-          "risk": 0
+          "risk": -2
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-2",
-        "title": "Oil plunges, stocks \u2019n\u2019 bonds shrug",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/oil-plunges-stocks-n-bonds-shrug-4815139",
-        "confidence": "medium",
+        "doc_id": "www.marketwatch.com-2026-07-28T20-26-00+00-00-10",
+        "title": "Forget oil. A surging El Ni\u00f1o could kill Fed rate cuts \u2014 and these stocks stand to win.",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
+        "confidence": "low",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.8458126187324524,
+        "sentiment_confidence": 0.5754342079162598,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
+        "macro_score": 9,
         "macro_buckets": [
-          "rates",
+          "policy",
           "energy"
         ],
         "themes": [
-          "inflation"
+          "inflation",
+          "policy"
         ],
         "scores": {
           "inflation": -1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-8",
-        "title": "Trump says Fed should lower interest rates",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/trump-says-fed-should-lower-interest-rates-4814811",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.5557823181152344,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
           "growth": 0,
           "policy": -1,
           "liquidity": 0,
@@ -161,17 +139,18 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-7",
-        "title": "Trump calls for Fed to cut rates, says US should lead globally",
+        "doc_id": "www.investing.com-2026-07-28T22-15-54+00-00-8",
+        "title": "Dollar eases as markets await Fed decision",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/trump-calls-for-fed-to-cut-rates-says-us-should-lead-globally-93CH-4814812",
+        "url": "https://www.investing.com/news/economy-news/dollar-hits-onemonth-high-on-lingering-chances-of-fed-hike-4815347",
         "confidence": "low",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.36371904611587524,
+        "sentiment_confidence": 0.44030195474624634,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "policy"
+          "policy",
+          "fx"
         ],
         "themes": [
           "policy"
@@ -192,53 +171,54 @@
         "score": -3,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-10",
-            "title": "Euro zone bond yields drop as oil prices ease",
+            "doc_id": "www.investing.com-2026-07-28T22-15-54+00-00-6",
+            "title": "US Treasury yields drop as oil prices fall on Iran tensions",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-ease-93CH-4814789",
+            "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-prices-fall-on-iran-tensions-93CH-4817889",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9581353068351746,
+            "sentiment_confidence": 0.9406322240829468,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 13,
+            "macro_score": 12,
             "macro_buckets": [
               "inflation",
               "rates",
-              "energy",
-              "fx"
+              "energy"
             ],
             "themes": [
-              "inflation"
+              "inflation",
+              "risk"
             ],
             "scores": {
               "inflation": -2,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
-              "risk": 0
+              "risk": -2
             }
           },
           {
-            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-2",
-            "title": "Oil plunges, stocks \u2019n\u2019 bonds shrug",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/oil-plunges-stocks-n-bonds-shrug-4815139",
-            "confidence": "medium",
+            "doc_id": "www.marketwatch.com-2026-07-28T20-26-00+00-00-10",
+            "title": "Forget oil. A surging El Ni\u00f1o could kill Fed rate cuts \u2014 and these stocks stand to win.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
+            "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8458126187324524,
+            "sentiment_confidence": 0.5754342079162598,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "macro_score": 9,
             "macro_buckets": [
-              "rates",
+              "policy",
               "energy"
             ],
             "themes": [
-              "inflation"
+              "inflation",
+              "policy"
             ],
             "scores": {
               "inflation": -1,
               "growth": 0,
-              "policy": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }
@@ -251,30 +231,30 @@
         "score": -3,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-10",
-            "title": "Euro zone bond yields drop as oil prices ease",
+            "doc_id": "www.investing.com-2026-07-28T22-15-54+00-00-6",
+            "title": "US Treasury yields drop as oil prices fall on Iran tensions",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-ease-93CH-4814789",
+            "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-prices-fall-on-iran-tensions-93CH-4817889",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9581353068351746,
+            "sentiment_confidence": 0.9406322240829468,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 13,
+            "macro_score": 12,
             "macro_buckets": [
               "inflation",
               "rates",
-              "energy",
-              "fx"
+              "energy"
             ],
             "themes": [
-              "inflation"
+              "inflation",
+              "risk"
             ],
             "scores": {
               "inflation": -2,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
-              "risk": 0
+              "risk": -2
             }
           }
         ]
@@ -285,23 +265,25 @@
         "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-8",
-            "title": "Trump says Fed should lower interest rates",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/trump-says-fed-should-lower-interest-rates-4814811",
+            "doc_id": "www.marketwatch.com-2026-07-28T20-26-00+00-00-10",
+            "title": "Forget oil. A surging El Ni\u00f1o could kill Fed rate cuts \u2014 and these stocks stand to win.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
             "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.5557823181152344,
+            "sentiment_confidence": 0.5754342079162598,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "macro_score": 9,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "energy"
             ],
             "themes": [
+              "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -1,
               "growth": 0,
               "policy": -1,
               "liquidity": 0,
@@ -309,17 +291,18 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-7",
-            "title": "Trump calls for Fed to cut rates, says US should lead globally",
+            "doc_id": "www.investing.com-2026-07-28T22-15-54+00-00-8",
+            "title": "Dollar eases as markets await Fed decision",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/trump-calls-for-fed-to-cut-rates-says-us-should-lead-globally-93CH-4814812",
+            "url": "https://www.investing.com/news/economy-news/dollar-hits-onemonth-high-on-lingering-chances-of-fed-hike-4815347",
             "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.36371904611587524,
+            "sentiment_confidence": 0.44030195474624634,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "fx"
             ],
             "themes": [
               "policy"
@@ -335,58 +318,31 @@
         ]
       },
       {
-        "name": "rates",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "name": "fx",
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-10",
-            "title": "Euro zone bond yields drop as oil prices ease",
+            "doc_id": "www.investing.com-2026-07-28T22-15-54+00-00-8",
+            "title": "Dollar eases as markets await Fed decision",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-ease-93CH-4814789",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/dollar-hits-onemonth-high-on-lingering-chances-of-fed-hike-4815347",
+            "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9581353068351746,
+            "sentiment_confidence": 0.44030195474624634,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 13,
+            "macro_score": 6,
             "macro_buckets": [
-              "inflation",
-              "rates",
-              "energy",
+              "policy",
               "fx"
             ],
             "themes": [
-              "inflation"
+              "policy"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 0,
               "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-27T22-16-51+00-00-2",
-            "title": "Oil plunges, stocks \u2019n\u2019 bonds shrug",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/oil-plunges-stocks-n-bonds-shrug-4815139",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8458126187324524,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "rates",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }

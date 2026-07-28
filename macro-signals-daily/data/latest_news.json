@@ -1,58 +1,45 @@
 [
   {
-    "id": "www.investing.com-2026-07-27T22-16-51+00-00-10",
+    "id": "www.investing.com-2026-07-28T22-15-54+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-27T22:16:51+00:00",
-    "title": "Euro zone bond yields drop as oil prices ease",
+    "published_at": "2026-07-28T22:15:54+00:00",
+    "title": "US Treasury yields drop as oil prices fall on Iran tensions",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-ease-93CH-4814789",
-    "macro_score": 13,
+    "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-prices-fall-on-iran-tensions-93CH-4817889",
+    "macro_score": 12,
     "macro_buckets": [
       "inflation",
-      "rates",
-      "energy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-07-27T22-16-51+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-27T22:16:51+00:00",
-    "title": "Oil plunges, stocks \u2019n\u2019 bonds shrug",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/oil-plunges-stocks-n-bonds-shrug-4815139",
-    "macro_score": 7,
-    "macro_buckets": [
       "rates",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-27T22-16-51+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-27T22:16:51+00:00",
-    "title": "Trump calls for Fed to cut rates, says US should lead globally",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/trump-calls-for-fed-to-cut-rates-says-us-should-lead-globally-93CH-4814812",
-    "macro_score": 6,
+    "id": "www.marketwatch.com-2026-07-28T20-26-00+00-00-10",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-07-28T20:26:00+00:00",
+    "title": "Forget oil. A surging El Ni\u00f1o could kill Fed rate cuts \u2014 and these stocks stand to win.",
+    "body": "Climate disruption could prolong inflation. Look to refiners, tanker operators and agricultural stocks.",
+    "url": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
+    "macro_score": 9,
     "macro_buckets": [
-      "policy"
+      "policy",
+      "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-07-27T22-16-51+00-00-8",
+    "id": "www.investing.com-2026-07-28T22-15-54+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-07-27T22:16:51+00:00",
-    "title": "Trump says Fed should lower interest rates",
+    "published_at": "2026-07-28T22:15:54+00:00",
+    "title": "Dollar eases as markets await Fed decision",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/trump-says-fed-should-lower-interest-rates-4814811",
+    "url": "https://www.investing.com/news/economy-news/dollar-hits-onemonth-high-on-lingering-chances-of-fed-hike-4815347",
     "macro_score": 6,
     "macro_buckets": [
-      "policy"
+      "policy",
+      "fx"
     ]
   }
 ]
