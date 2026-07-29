@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-07-28",
-    "daily_brief": "2026-07-28: 3 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy, Risk coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+    "date": "2026-07-29",
+    "daily_brief": "2026-07-29: 8 unique articles were analyzed. News sentiment was neutral. Top theme: policy.",
+    "macro_read": "Macro read: coverage across policy, inflation was broadly neutral or mixed.",
+    "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss",
@@ -13,118 +13,116 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.24,
-        "return_5d": -0.99,
-        "close": 740.8599853515625
+        "return_1d": -1.54,
+        "return_5d": -2.4,
+        "close": 729.4600219726562
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.59,
-        "return_5d": 0.69,
-        "close": 84.23999786376953
+        "return_1d": -1.65,
+        "return_5d": -0.71,
+        "close": 82.8499984741211
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.07,
-        "return_5d": 0.35,
-        "close": 28.579999923706055
+        "return_1d": -0.56,
+        "return_5d": -0.11,
+        "close": 28.420000076293945
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -3.42,
-        "return_5d": -6.49,
-        "close": 120.48999786376953
+        "return_1d": 7.32,
+        "return_5d": -1.8,
+        "close": 129.30999755859375
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.19,
-        "return_5d": -0.33,
-        "close": 79.41999816894531
+        "return_1d": -0.23,
+        "return_5d": -0.35,
+        "close": 79.23999786376953
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -1.4,
-        "return_5d": -1.45,
-        "close": 369.3699951171875
+        "return_1d": 0.46,
+        "return_5d": -2.12,
+        "close": 371.0799865722656
       }
     ],
     "news_sentiment": {
-      "label": "negative",
-      "score": -1.0,
-      "display_score": -1.0,
-      "unique_documents": 3,
-      "positive_pct": 0.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 100.0,
-      "average_confidence": 0.652
+      "label": "neutral",
+      "score": 0.125,
+      "display_score": 0.12,
+      "unique_documents": 8,
+      "positive_pct": 50.0,
+      "neutral_pct": 12.5,
+      "negative_pct": 37.5,
+      "average_confidence": 0.749
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.35,
+      "label": "risk_off",
+      "score": -0.7,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
-        "HYG": 0.0,
-        "TLT": -0.15,
-        "GLD": 0.1
+        "SPY": -0.4,
+        "HYG": -0.35,
+        "TLT": 0.15,
+        "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "divergent",
-      "label": "Divergent",
-      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
-      "news_label": "negative",
-      "market_label": "risk_on"
+      "status": "market_led",
+      "label": "Market-led",
+      "explanation": "News sentiment was neutral, while markets showed a clearer directional response.",
+      "news_label": "neutral",
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-07-28T22-15-54+00-00-6",
-        "title": "US Treasury yields drop as oil prices fall on Iran tensions",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-prices-fall-on-iran-tensions-93CH-4817889",
-        "confidence": "high",
+        "doc_id": "www.marketwatch.com-2026-07-29T21-56-00+00-00-2",
+        "title": "Stocks and bonds see wild \u2018Fed Day\u2019 swings as Wall Street\u2019s \u2018crash cushion\u2019 evaporates",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/stocks-and-bonds-see-wild-fed-day-swings-as-wall-streets-crash-cushion-evaporates-ffcbdbbc?mod=mw_rss_topstories",
+        "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9406322240829468,
+        "sentiment_confidence": 0.829394519329071,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 12,
         "macro_buckets": [
-          "inflation",
-          "rates",
-          "energy"
+          "policy",
+          "rates"
         ],
         "themes": [
-          "inflation",
-          "risk"
+          "policy"
         ],
         "scores": {
-          "inflation": -2,
+          "inflation": 0,
           "growth": 0,
-          "policy": 0,
+          "policy": -1,
           "liquidity": 0,
-          "risk": -2
+          "risk": 0
         }
       },
       {
-        "doc_id": "www.marketwatch.com-2026-07-28T20-26-00+00-00-10",
-        "title": "Forget oil. A surging El Ni\u00f1o could kill Fed rate cuts \u2014 and these stocks stand to win.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-4",
+        "title": "Warsh vows not to \u2019waver\u2019 on inflation as divided Fed leaves rates unchanged",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/uncertainty-creeps-into-feds-rate-decision-as-warsh-keeps-his-cards-hidden-4819204",
         "confidence": "low",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.5754342079162598,
+        "sentiment_confidence": 0.5863879919052124,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 9,
         "macro_buckets": [
           "policy",
-          "energy"
+          "inflation"
         ],
         "themes": [
           "inflation",
@@ -139,18 +137,43 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-28T22-15-54+00-00-8",
-        "title": "Dollar eases as markets await Fed decision",
+        "doc_id": "www.marketwatch.com-2026-07-29T21-43-00+00-00-3",
+        "title": "Bond market is calling Warsh\u2019s bluff on inflation fight as yields surge",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/bond-market-is-calling-warshs-bluff-on-inflation-fight-as-yields-surge-4700f9b5?mod=mw_rss_topstories",
+        "confidence": "medium",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.6942703127861023,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 8,
+        "macro_buckets": [
+          "inflation",
+          "rates"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": 1,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-6",
+        "title": "Fed\u2019s Warsh says no forward guidance may have driven rise in Treasury yields",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-hits-onemonth-high-on-lingering-chances-of-fed-hike-4815347",
+        "url": "https://www.investing.com/news/economy-news/fed-holds-interest-rates-steady-for-a-fifth-straight-meeting-as-mostly-expected-4821446",
         "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.44030195474624634,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.5686762928962708,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 7,
         "macro_buckets": [
           "policy",
-          "fx"
+          "rates"
         ],
         "themes": [
           "policy"
@@ -158,7 +181,107 @@
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": -1,
+          "policy": 1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-5",
+        "title": "Wall Street closes down sharply after Fed holds rates unchanged",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/sp-500-nasdaq-futures-inch-up-before-fed-decision-chip-stocks-wobble-4819267",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9597079753875732,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": -2,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-8",
+        "title": "New Fed focus on money supply might aid inflation thinking at the margins",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/new-fed-focus-on-money-supply-might-aid-inflation-thinking-at-the-margins-4819203",
+        "confidence": "high",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.9189759492874146,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": 2,
+          "growth": 0,
+          "policy": 2,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-9",
+        "title": "Fed\u2019s Warsh says there is no \u2019soft target\u2019 for inflation, only a 2% goal",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/feds-warsh-says-there-is-no-soft-target-for-inflation-only-a-2-goal-4821504",
+        "confidence": "high",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.8591917753219604,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-2",
+        "title": "Trump stands by his \u2019brilliant\u2019 Fed pick despite no rate cuts",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/trump-stands-by-his-brilliant-fed-pick-despite-no-rate-cuts-4821860",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.5785370469093323,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 1,
           "liquidity": 0,
           "risk": 0
         }
@@ -166,50 +289,23 @@
     ],
     "bucket_views": [
       {
-        "name": "energy",
-        "label": "negative news sentiment",
-        "score": -3,
+        "name": "inflation",
+        "label": "positive news sentiment",
+        "score": 2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-28T22-15-54+00-00-6",
-            "title": "US Treasury yields drop as oil prices fall on Iran tensions",
+            "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-4",
+            "title": "Warsh vows not to \u2019waver\u2019 on inflation as divided Fed leaves rates unchanged",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-prices-fall-on-iran-tensions-93CH-4817889",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9406322240829468,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 12,
-            "macro_buckets": [
-              "inflation",
-              "rates",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "risk"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": -2
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-07-28T20-26-00+00-00-10",
-            "title": "Forget oil. A surging El Ni\u00f1o could kill Fed rate cuts \u2014 and these stocks stand to win.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
+            "url": "https://www.investing.com/news/economy-news/uncertainty-creeps-into-feds-rate-decision-as-warsh-keeps-his-cards-hidden-4819204",
             "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.5754342079162598,
+            "sentiment_confidence": 0.5863879919052124,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 9,
             "macro_buckets": [
               "policy",
-              "energy"
+              "inflation"
             ],
             "themes": [
               "inflation",
@@ -222,61 +318,103 @@
               "liquidity": 0,
               "risk": 0
             }
-          }
-        ]
-      },
-      {
-        "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -3,
-        "documents": [
+          },
           {
-            "doc_id": "www.investing.com-2026-07-28T22-15-54+00-00-6",
-            "title": "US Treasury yields drop as oil prices fall on Iran tensions",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-prices-fall-on-iran-tensions-93CH-4817889",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9406322240829468,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 12,
+            "doc_id": "www.marketwatch.com-2026-07-29T21-43-00+00-00-3",
+            "title": "Bond market is calling Warsh\u2019s bluff on inflation fight as yields surge",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/bond-market-is-calling-warshs-bluff-on-inflation-fight-as-yields-surge-4700f9b5?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.6942703127861023,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 8,
             "macro_buckets": [
               "inflation",
-              "rates",
-              "energy"
+              "rates"
             ],
             "themes": [
-              "inflation",
-              "risk"
+              "inflation"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
-              "risk": -2
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-8",
+            "title": "New Fed focus on money supply might aid inflation thinking at the margins",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/new-fed-focus-on-money-supply-might-aid-inflation-thinking-at-the-margins-4819203",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9189759492874146,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 2,
+              "growth": 0,
+              "policy": 2,
+              "liquidity": 0,
+              "risk": 0
             }
           }
         ]
       },
       {
         "name": "policy",
-        "label": "negative news sentiment",
-        "score": -2,
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-28T20-26-00+00-00-10",
-            "title": "Forget oil. A surging El Ni\u00f1o could kill Fed rate cuts \u2014 and these stocks stand to win.",
+            "doc_id": "www.marketwatch.com-2026-07-29T21-56-00+00-00-2",
+            "title": "Stocks and bonds see wild \u2018Fed Day\u2019 swings as Wall Street\u2019s \u2018crash cushion\u2019 evaporates",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
+            "url": "https://www.marketwatch.com/story/stocks-and-bonds-see-wild-fed-day-swings-as-wall-streets-crash-cushion-evaporates-ffcbdbbc?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.829394519329071,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "policy",
+              "rates"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-4",
+            "title": "Warsh vows not to \u2019waver\u2019 on inflation as divided Fed leaves rates unchanged",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/uncertainty-creeps-into-feds-rate-decision-as-warsh-keeps-his-cards-hidden-4819204",
             "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.5754342079162598,
+            "sentiment_confidence": 0.5863879919052124,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 9,
             "macro_buckets": [
               "policy",
-              "energy"
+              "inflation"
             ],
             "themes": [
               "inflation",
@@ -291,18 +429,50 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-07-28T22-15-54+00-00-8",
-            "title": "Dollar eases as markets await Fed decision",
+            "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-6",
+            "title": "Fed\u2019s Warsh says no forward guidance may have driven rise in Treasury yields",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-hits-onemonth-high-on-lingering-chances-of-fed-hike-4815347",
+            "url": "https://www.investing.com/news/economy-news/fed-holds-interest-rates-steady-for-a-fifth-straight-meeting-as-mostly-expected-4821446",
             "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.44030195474624634,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.5686762928962708,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
               "policy",
-              "fx"
+              "rates"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-07-29T21-56-00+00-00-2",
+            "title": "Stocks and bonds see wild \u2018Fed Day\u2019 swings as Wall Street\u2019s \u2018crash cushion\u2019 evaporates",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/stocks-and-bonds-see-wild-fed-day-swings-as-wall-streets-crash-cushion-evaporates-ffcbdbbc?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.829394519329071,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "policy",
+              "rates"
             ],
             "themes": [
               "policy"
@@ -314,27 +484,45 @@
               "liquidity": 0,
               "risk": 0
             }
-          }
-        ]
-      },
-      {
-        "name": "fx",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
+          },
           {
-            "doc_id": "www.investing.com-2026-07-28T22-15-54+00-00-8",
-            "title": "Dollar eases as markets await Fed decision",
+            "doc_id": "www.marketwatch.com-2026-07-29T21-43-00+00-00-3",
+            "title": "Bond market is calling Warsh\u2019s bluff on inflation fight as yields surge",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/bond-market-is-calling-warshs-bluff-on-inflation-fight-as-yields-surge-4700f9b5?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.6942703127861023,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 8,
+            "macro_buckets": [
+              "inflation",
+              "rates"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-6",
+            "title": "Fed\u2019s Warsh says no forward guidance may have driven rise in Treasury yields",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-hits-onemonth-high-on-lingering-chances-of-fed-hike-4815347",
+            "url": "https://www.investing.com/news/economy-news/fed-holds-interest-rates-steady-for-a-fifth-straight-meeting-as-mostly-expected-4821446",
             "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.44030195474624634,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.5686762928962708,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
               "policy",
-              "fx"
+              "rates"
             ],
             "themes": [
               "policy"
@@ -342,7 +530,7 @@
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": -1,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
