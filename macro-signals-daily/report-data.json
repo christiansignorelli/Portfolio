@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-07-29",
-    "daily_brief": "2026-07-29: 8 unique articles were analyzed. News sentiment was neutral. Top theme: policy.",
-    "macro_read": "Macro read: coverage across policy, inflation was broadly neutral or mixed.",
-    "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
+    "date": "2026-07-30",
+    "daily_brief": "2026-07-30: 3 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Inflation coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss",
@@ -13,167 +13,91 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -1.54,
-        "return_5d": -2.4,
-        "close": 729.4600219726562
+        "return_1d": 1.68,
+        "return_5d": 0.48,
+        "close": 741.6900024414062
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -1.65,
-        "return_5d": -0.71,
-        "close": 82.8499984741211
+        "return_1d": -0.06,
+        "return_5d": -0.44,
+        "close": 82.80000305175781
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.56,
-        "return_5d": -0.11,
-        "close": 28.420000076293945
+        "return_1d": -0.99,
+        "return_5d": -1.47,
+        "close": 28.139999389648438
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 7.32,
-        "return_5d": -1.8,
-        "close": 129.30999755859375
+        "return_1d": -1.42,
+        "return_5d": -8.61,
+        "close": 127.4800033569336
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.23,
-        "return_5d": -0.35,
-        "close": 79.23999786376953
+        "return_1d": 0.29,
+        "return_5d": 0.3,
+        "close": 79.47000122070312
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.46,
-        "return_5d": -2.12,
-        "close": 371.0799865722656
+        "return_1d": 1.64,
+        "return_5d": 1.52,
+        "close": 377.1600036621094
       }
     ],
     "news_sentiment": {
-      "label": "neutral",
-      "score": 0.125,
-      "display_score": 0.12,
-      "unique_documents": 8,
-      "positive_pct": 50.0,
-      "neutral_pct": 12.5,
-      "negative_pct": 37.5,
-      "average_confidence": 0.749
+      "label": "negative",
+      "score": -0.3333333333333333,
+      "display_score": -0.33,
+      "unique_documents": 3,
+      "positive_pct": 33.3,
+      "neutral_pct": 0.0,
+      "negative_pct": 66.7,
+      "average_confidence": 0.608
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.7,
+      "label": "risk_on",
+      "score": 0.65,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
-        "HYG": -0.35,
-        "TLT": 0.15,
+        "SPY": 0.4,
+        "HYG": 0.35,
+        "TLT": 0.0,
         "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "market_led",
-      "label": "Market-led",
-      "explanation": "News sentiment was neutral, while markets showed a clearer directional response.",
-      "news_label": "neutral",
-      "market_label": "risk_off"
+      "status": "divergent",
+      "label": "Divergent",
+      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+      "news_label": "negative",
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-07-29T21-56-00+00-00-2",
-        "title": "Stocks and bonds see wild \u2018Fed Day\u2019 swings as Wall Street\u2019s \u2018crash cushion\u2019 evaporates",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/stocks-and-bonds-see-wild-fed-day-swings-as-wall-streets-crash-cushion-evaporates-ffcbdbbc?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.829394519329071,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 12,
-        "macro_buckets": [
-          "policy",
-          "rates"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-4",
-        "title": "Warsh vows not to \u2019waver\u2019 on inflation as divided Fed leaves rates unchanged",
+        "doc_id": "www.investing.com-2026-07-30T22-18-08+00-00-3",
+        "title": "BOJ to keep rates steady, deliver hawkish signal as price pressures mount",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/uncertainty-creeps-into-feds-rate-decision-as-warsh-keeps-his-cards-hidden-4819204",
+        "url": "https://www.investing.com/news/economy-news/boj-to-keep-rates-steady-deliver-hawkish-signal-as-price-pressures-mount-4826275",
         "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.5863879919052124,
-        "summary_label": "negative-financial-sentiment",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.4060869514942169,
+        "summary_label": "positive-financial-sentiment",
         "macro_score": 9,
         "macro_buckets": [
           "policy",
           "inflation"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": -1,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-07-29T21-43-00+00-00-3",
-        "title": "Bond market is calling Warsh\u2019s bluff on inflation fight as yields surge",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/bond-market-is-calling-warshs-bluff-on-inflation-fight-as-yields-surge-4700f9b5?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.6942703127861023,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 8,
-        "macro_buckets": [
-          "inflation",
-          "rates"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": 1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-6",
-        "title": "Fed\u2019s Warsh says no forward guidance may have driven rise in Treasury yields",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/fed-holds-interest-rates-steady-for-a-fifth-straight-meeting-as-mostly-expected-4821446",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.5686762928962708,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 7,
-        "macro_buckets": [
-          "policy",
-          "rates"
         ],
         "themes": [
           "policy"
@@ -187,23 +111,25 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-5",
-        "title": "Wall Street closes down sharply after Fed holds rates unchanged",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/sp-500-nasdaq-futures-inch-up-before-fed-decision-chip-stocks-wobble-4819267",
+        "doc_id": "www.marketwatch.com-2026-07-30T19-02-00+00-00-8",
+        "title": "Warsh\u2019s Wall Street cred takes a hit as investors doubt the Fed chair\u2019s inflation-fighting resolve",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/warshs-wall-street-cred-takes-a-hit-as-investors-doubt-the-fed-chairs-inflation-fighting-resolve-82be4f77?mod=mw_rss_topstories",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9597079753875732,
+        "sentiment_confidence": 0.9040034413337708,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
+        "macro_score": 7,
         "macro_buckets": [
-          "policy"
+          "policy",
+          "inflation"
         ],
         "themes": [
+          "inflation",
           "policy"
         ],
         "scores": {
-          "inflation": 0,
+          "inflation": -2,
           "growth": 0,
           "policy": -2,
           "liquidity": 0,
@@ -211,77 +137,25 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-8",
-        "title": "New Fed focus on money supply might aid inflation thinking at the margins",
+        "doc_id": "www.investing.com-2026-07-30T22-18-08+00-00-9",
+        "title": "Yen soars as analysts suspect official intervention; dollar broadly weaker",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/new-fed-focus-on-money-supply-might-aid-inflation-thinking-at-the-margins-4819203",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.9189759492874146,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
+        "url": "https://www.investing.com/news/economy-news/dollar-steadies-as-fed-holds-rates-us-strikes-iran-4822229",
+        "confidence": "low",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.5126891732215881,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
         "macro_buckets": [
-          "policy",
-          "inflation"
+          "fx"
         ],
         "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": 2,
-          "growth": 0,
-          "policy": 2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-9",
-        "title": "Fed\u2019s Warsh says there is no \u2019soft target\u2019 for inflation, only a 2% goal",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-warsh-says-there-is-no-soft-target-for-inflation-only-a-2-goal-4821504",
-        "confidence": "high",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8591917753219604,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy",
-          "inflation"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
+          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
           "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-2",
-        "title": "Trump stands by his \u2019brilliant\u2019 Fed pick despite no rate cuts",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/trump-stands-by-his-brilliant-fed-pick-despite-no-rate-cuts-4821860",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.5785370469093323,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 1,
           "liquidity": 0,
           "risk": 0
         }
@@ -290,70 +164,44 @@
     "bucket_views": [
       {
         "name": "inflation",
-        "label": "positive news sentiment",
-        "score": 2,
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-4",
-            "title": "Warsh vows not to \u2019waver\u2019 on inflation as divided Fed leaves rates unchanged",
+            "doc_id": "www.investing.com-2026-07-30T22-18-08+00-00-3",
+            "title": "BOJ to keep rates steady, deliver hawkish signal as price pressures mount",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/uncertainty-creeps-into-feds-rate-decision-as-warsh-keeps-his-cards-hidden-4819204",
+            "url": "https://www.investing.com/news/economy-news/boj-to-keep-rates-steady-deliver-hawkish-signal-as-price-pressures-mount-4826275",
             "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5863879919052124,
-            "summary_label": "negative-financial-sentiment",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.4060869514942169,
+            "summary_label": "positive-financial-sentiment",
             "macro_score": 9,
             "macro_buckets": [
               "policy",
               "inflation"
             ],
             "themes": [
-              "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 0,
               "growth": 0,
-              "policy": -1,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.marketwatch.com-2026-07-29T21-43-00+00-00-3",
-            "title": "Bond market is calling Warsh\u2019s bluff on inflation fight as yields surge",
+            "doc_id": "www.marketwatch.com-2026-07-30T19-02-00+00-00-8",
+            "title": "Warsh\u2019s Wall Street cred takes a hit as investors doubt the Fed chair\u2019s inflation-fighting resolve",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/bond-market-is-calling-warshs-bluff-on-inflation-fight-as-yields-surge-4700f9b5?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.6942703127861023,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "inflation",
-              "rates"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-8",
-            "title": "New Fed focus on money supply might aid inflation thinking at the margins",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/new-fed-focus-on-money-supply-might-aid-inflation-thinking-at-the-margins-4819203",
+            "url": "https://www.marketwatch.com/story/warshs-wall-street-cred-takes-a-hit-as-investors-doubt-the-fed-chairs-inflation-fighting-resolve-82be4f77?mod=mw_rss_topstories",
             "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9189759492874146,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9040034413337708,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
               "policy",
               "inflation"
@@ -363,9 +211,9 @@
               "policy"
             ],
             "scores": {
-              "inflation": 2,
+              "inflation": -2,
               "growth": 0,
-              "policy": 2,
+              "policy": -2,
               "liquidity": 0,
               "risk": 0
             }
@@ -374,22 +222,22 @@
       },
       {
         "name": "policy",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "label": "negative news sentiment",
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-29T21-56-00+00-00-2",
-            "title": "Stocks and bonds see wild \u2018Fed Day\u2019 swings as Wall Street\u2019s \u2018crash cushion\u2019 evaporates",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/stocks-and-bonds-see-wild-fed-day-swings-as-wall-streets-crash-cushion-evaporates-ffcbdbbc?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.829394519329071,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 12,
+            "doc_id": "www.investing.com-2026-07-30T22-18-08+00-00-3",
+            "title": "BOJ to keep rates steady, deliver hawkish signal as price pressures mount",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/boj-to-keep-rates-steady-deliver-hawkish-signal-as-price-pressures-mount-4826275",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.4060869514942169,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
               "policy",
-              "rates"
+              "inflation"
             ],
             "themes": [
               "policy"
@@ -397,21 +245,21 @@
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": -1,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-4",
-            "title": "Warsh vows not to \u2019waver\u2019 on inflation as divided Fed leaves rates unchanged",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/uncertainty-creeps-into-feds-rate-decision-as-warsh-keeps-his-cards-hidden-4819204",
-            "confidence": "low",
+            "doc_id": "www.marketwatch.com-2026-07-30T19-02-00+00-00-8",
+            "title": "Warsh\u2019s Wall Street cred takes a hit as investors doubt the Fed chair\u2019s inflation-fighting resolve",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/warshs-wall-street-cred-takes-a-hit-as-investors-doubt-the-fed-chairs-inflation-fighting-resolve-82be4f77?mod=mw_rss_topstories",
+            "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.5863879919052124,
+            "sentiment_confidence": 0.9040034413337708,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 7,
             "macro_buckets": [
               "policy",
               "inflation"
@@ -421,34 +269,9 @@
               "policy"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": -2,
               "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-6",
-            "title": "Fed\u2019s Warsh says no forward guidance may have driven rise in Treasury yields",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/fed-holds-interest-rates-steady-for-a-fifth-straight-meeting-as-mostly-expected-4821446",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.5686762928962708,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "policy",
-              "rates"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 1,
+              "policy": -2,
               "liquidity": 0,
               "risk": 0
             }
@@ -456,81 +279,30 @@
         ]
       },
       {
-        "name": "rates",
+        "name": "fx",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-07-29T21-56-00+00-00-2",
-            "title": "Stocks and bonds see wild \u2018Fed Day\u2019 swings as Wall Street\u2019s \u2018crash cushion\u2019 evaporates",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/stocks-and-bonds-see-wild-fed-day-swings-as-wall-streets-crash-cushion-evaporates-ffcbdbbc?mod=mw_rss_topstories",
-            "confidence": "medium",
+            "doc_id": "www.investing.com-2026-07-30T22-18-08+00-00-9",
+            "title": "Yen soars as analysts suspect official intervention; dollar broadly weaker",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-steadies-as-fed-holds-rates-us-strikes-iran-4822229",
+            "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.829394519329071,
+            "sentiment_confidence": 0.5126891732215881,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 12,
+            "macro_score": 4,
             "macro_buckets": [
-              "policy",
-              "rates"
+              "fx"
             ],
             "themes": [
-              "policy"
+              "uncategorized"
             ],
             "scores": {
               "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-07-29T21-43-00+00-00-3",
-            "title": "Bond market is calling Warsh\u2019s bluff on inflation fight as yields surge",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/bond-market-is-calling-warshs-bluff-on-inflation-fight-as-yields-surge-4700f9b5?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.6942703127861023,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "inflation",
-              "rates"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 1,
               "growth": 0,
               "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-07-29T22-11-45+00-00-6",
-            "title": "Fed\u2019s Warsh says no forward guidance may have driven rise in Treasury yields",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/fed-holds-interest-rates-steady-for-a-fifth-straight-meeting-as-mostly-expected-4821446",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.5686762928962708,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "policy",
-              "rates"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
