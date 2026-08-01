@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "www.investing.com-2026-08-01T22-09-55+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-01T22:09:55+00:00",
+    "title": "Treasury sell-off shows Fed must reinforce inflation credibility, Musalem says",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/treasury-selloff-shows-fed-must-reinforce-inflation-credibility-musalem-says-4829533",
+    "macro_score": 9,
+    "macro_buckets": [
+      "policy",
+      "inflation",
+      "rates"
+    ]
+  }
+]

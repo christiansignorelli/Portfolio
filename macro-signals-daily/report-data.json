@@ -1,1 +1,221 @@
-[]
+[
+  {
+    "date": "2026-08-01",
+    "daily_brief": "2026-08-01: 1 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": 0.72,
+        "return_5d": 1.1,
+        "close": 747.030029296875
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": -0.66,
+        "return_5d": -1.2,
+        "close": 82.25
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.11,
+        "return_5d": -1.43,
+        "close": 28.170000076293945
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 1.33,
+        "return_5d": -5.5,
+        "close": 129.1699981689453
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": 0.01,
+        "return_5d": 0.32,
+        "close": 79.4800033569336
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": -1.49,
+        "return_5d": -0.1,
+        "close": 371.5400085449219
+      }
+    ],
+    "news_sentiment": {
+      "label": "insufficient_data",
+      "score": 1.0,
+      "display_score": 1.0,
+      "unique_documents": 1,
+      "positive_pct": 100.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.575
+    },
+    "market_regime": {
+      "label": "risk_on",
+      "score": 0.65,
+      "signals_used": 4,
+      "signals_available": 4,
+      "contributions": {
+        "SPY": 0.4,
+        "HYG": 0.0,
+        "TLT": 0.15,
+        "GLD": 0.1
+      },
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "data_quality_status": "complete"
+    },
+    "confirmation": {
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "risk_on"
+    },
+    "analyzed_coverage": [
+      {
+        "doc_id": "www.investing.com-2026-08-01T22-09-55+00-00-9",
+        "title": "Treasury sell-off shows Fed must reinforce inflation credibility, Musalem says",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/treasury-selloff-shows-fed-must-reinforce-inflation-credibility-musalem-says-4829533",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.5750937461853027,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 9,
+        "macro_buckets": [
+          "policy",
+          "inflation",
+          "rates"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": 1,
+          "growth": 0,
+          "policy": 1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "policy",
+        "label": "positive news sentiment",
+        "score": 1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-01T22-09-55+00-00-9",
+            "title": "Treasury sell-off shows Fed must reinforce inflation credibility, Musalem says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/treasury-selloff-shows-fed-must-reinforce-inflation-credibility-musalem-says-4829533",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.5750937461853027,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "rates"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "positive news sentiment",
+        "score": 1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-01T22-09-55+00-00-9",
+            "title": "Treasury sell-off shows Fed must reinforce inflation credibility, Musalem says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/treasury-selloff-shows-fed-must-reinforce-inflation-credibility-musalem-says-4829533",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.5750937461853027,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "rates"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-01T22-09-55+00-00-9",
+            "title": "Treasury sell-off shows Fed must reinforce inflation credibility, Musalem says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/treasury-selloff-shows-fed-must-reinforce-inflation-credibility-musalem-says-4829533",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.5750937461853027,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "rates"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  }
+]
