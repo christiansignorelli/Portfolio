@@ -1,1 +1,306 @@
-[]
+[
+  {
+    "date": "2026-08-03",
+    "daily_brief": "2026-08-03: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": 1.42,
+        "return_5d": 2.51,
+        "close": 757.6699829101562
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": -0.07,
+        "return_5d": -1.86,
+        "close": 82.19000244140625
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.0,
+        "return_5d": -1.5,
+        "close": 28.170000076293945
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": -5.46,
+        "return_5d": -2.12,
+        "close": 122.12000274658203
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": -0.21,
+        "return_5d": 0.05,
+        "close": 79.30999755859375
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": 0.05,
+        "return_5d": -0.78,
+        "close": 371.7099914550781
+      }
+    ],
+    "news_sentiment": {
+      "label": "insufficient_data",
+      "score": -1.0,
+      "display_score": -1.0,
+      "unique_documents": 2,
+      "positive_pct": 0.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 100.0,
+      "average_confidence": 0.916
+    },
+    "market_regime": {
+      "label": "mixed",
+      "score": 0.05,
+      "signals_used": 4,
+      "signals_available": 4,
+      "contributions": {
+        "SPY": 0.4,
+        "HYG": -0.35,
+        "TLT": 0.0,
+        "GLD": 0.0
+      },
+      "explanation": "The major market proxies gave a mixed risk signal.",
+      "data_quality_status": "complete"
+    },
+    "confirmation": {
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "mixed"
+    },
+    "analyzed_coverage": [
+      {
+        "doc_id": "www.investing.com-2026-08-03T22-17-19+00-00-10",
+        "title": "Euro zone bond yields drop as oil prices fall on Iran talks",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-fall-on-iran-talks-93CH-4831833",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9596322178840637,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 15,
+        "macro_buckets": [
+          "inflation",
+          "rates",
+          "energy",
+          "fx"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-03T22-17-19+00-00-9",
+        "title": "Mexico analysts lower 2026 inflation forecast, raise growth outlook",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/mexico-analysts-lower-2026-inflation-forecast-raise-growth-outlook-93CH-4831857",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.872656524181366,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "inflation",
+          "growth"
+        ],
+        "themes": [
+          "inflation",
+          "growth"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": -2,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "inflation",
+        "label": "negative news sentiment",
+        "score": -4,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-03T22-17-19+00-00-10",
+            "title": "Euro zone bond yields drop as oil prices fall on Iran talks",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-fall-on-iran-talks-93CH-4831833",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9596322178840637,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 15,
+            "macro_buckets": [
+              "inflation",
+              "rates",
+              "energy",
+              "fx"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-03T22-17-19+00-00-9",
+            "title": "Mexico analysts lower 2026 inflation forecast, raise growth outlook",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/mexico-analysts-lower-2026-inflation-forecast-raise-growth-outlook-93CH-4831857",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.872656524181366,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "inflation",
+              "growth"
+            ],
+            "themes": [
+              "inflation",
+              "growth"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": -2,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "negative news sentiment",
+        "score": -4,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-03T22-17-19+00-00-10",
+            "title": "Euro zone bond yields drop as oil prices fall on Iran talks",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-fall-on-iran-talks-93CH-4831833",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9596322178840637,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 15,
+            "macro_buckets": [
+              "inflation",
+              "rates",
+              "energy",
+              "fx"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-03T22-17-19+00-00-10",
+            "title": "Euro zone bond yields drop as oil prices fall on Iran talks",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-fall-on-iran-talks-93CH-4831833",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9596322178840637,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 15,
+            "macro_buckets": [
+              "inflation",
+              "rates",
+              "energy",
+              "fx"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-03T22-17-19+00-00-9",
+            "title": "Mexico analysts lower 2026 inflation forecast, raise growth outlook",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/mexico-analysts-lower-2026-inflation-forecast-raise-growth-outlook-93CH-4831857",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.872656524181366,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "inflation",
+              "growth"
+            ],
+            "themes": [
+              "inflation",
+              "growth"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": -2,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  }
+]

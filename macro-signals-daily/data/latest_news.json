@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "www.investing.com-2026-08-03T22-17-19+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-03T22:17:19+00:00",
+    "title": "Euro zone bond yields drop as oil prices fall on Iran talks",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-drop-as-oil-prices-fall-on-iran-talks-93CH-4831833",
+    "macro_score": 15,
+    "macro_buckets": [
+      "inflation",
+      "rates",
+      "energy",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-03T22-17-19+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-03T22:17:19+00:00",
+    "title": "Mexico analysts lower 2026 inflation forecast, raise growth outlook",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/mexico-analysts-lower-2026-inflation-forecast-raise-growth-outlook-93CH-4831857",
+    "macro_score": 6,
+    "macro_buckets": [
+      "inflation",
+      "growth"
+    ]
+  }
+]
