@@ -1,150 +1,99 @@
 [
   {
-    "date": "2026-08-04",
-    "daily_brief": "2026-08-04: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy, Liquidity coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+    "date": "2026-08-05",
+    "daily_brief": "2026-08-05: 3 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Inflation, Liquidity coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 1.8,
-        "return_5d": 4.11,
-        "close": 771.3300170898438
+        "return_1d": -0.2,
+        "return_5d": 5.53,
+        "close": 769.7899780273438
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.77,
-        "return_5d": -1.69,
-        "close": 82.81999969482422
+        "return_1d": 0.22,
+        "return_5d": 0.18,
+        "close": 83.0
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.04,
-        "return_5d": -1.47,
-        "close": 28.15999984741211
+        "return_1d": -0.25,
+        "return_5d": -1.16,
+        "close": 28.09000015258789
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -5.19,
-        "return_5d": -3.91,
-        "close": 115.77999877929688
+        "return_1d": -0.78,
+        "return_5d": -11.16,
+        "close": 114.87999725341797
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.3,
-        "return_5d": 0.16,
-        "close": 79.55000305175781
+        "return_1d": -0.04,
+        "return_5d": 0.35,
+        "close": 79.5199966430664
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.66,
-        "return_5d": 1.3,
-        "close": 374.1600036621094
+        "return_1d": 4.14,
+        "return_5d": 5.0,
+        "close": 389.6400146484375
       }
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -0.25,
-      "display_score": -0.25,
-      "unique_documents": 4,
-      "positive_pct": 25.0,
-      "neutral_pct": 25.0,
-      "negative_pct": 50.0,
-      "average_confidence": 0.843
+      "score": -0.6666666666666666,
+      "display_score": -0.67,
+      "unique_documents": 3,
+      "positive_pct": 0.0,
+      "neutral_pct": 33.3,
+      "negative_pct": 66.7,
+      "average_confidence": 0.71
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.5,
+      "label": "risk_off",
+      "score": -0.25,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
-        "HYG": 0.35,
+        "SPY": 0.0,
+        "HYG": 0.0,
         "TLT": -0.15,
         "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "divergent",
-      "label": "Divergent",
-      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+      "status": "confirmed",
+      "label": "Confirmed",
+      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
       "news_label": "negative",
-      "market_label": "risk_on"
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-08-04T22-21-06+00-00-4",
-        "title": "U.S. Treasury yields drop as oil falls on Iran deal hopes",
+        "doc_id": "www.investing.com-2026-08-05T22-19-29+00-00-8",
+        "title": "Fed\u2019s Cook says ready to raise rates if inflation doesn\u2019t start easing",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-falls-on-iran-deal-hopes-93CH-4835627",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9432361125946045,
-        "summary_label": "negative-financial-sentiment",
+        "url": "https://www.investing.com/news/economy-news/feds-cook-says-ready-to-raise-rates-if-inflation-doesnt-start-easing-4839144",
+        "confidence": "low",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.45162609219551086,
+        "summary_label": "neutral-financial-sentiment",
         "macro_score": 9,
-        "macro_buckets": [
-          "rates",
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-08-04T22-21-06+00-00-8",
-        "title": "Stocks jump to records after upbeat company forecasts; oil, yen weaken",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/asia-stocks-move-higher-on-wall-street-lead-oil-steady-4832646",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.8007051944732666,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "energy",
-          "fx"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": 1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-08-04T20-26-00+00-00-8",
-        "title": "So what\u2019s the plan to bring down inflation? The new Fed chair and his White House allies say you shouldn\u2019t ask.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/bessent-defends-warsh-saying-markets-are-going-through-detox-from-too-much-fed-guidance-39dfc765?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.7299017906188965,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
         "macro_buckets": [
           "policy",
           "inflation"
@@ -154,29 +103,53 @@
           "policy"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": 0,
           "growth": 0,
-          "policy": -1,
+          "policy": 0,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-08-04T22-21-06+00-00-5",
-        "title": "Mexico\u2019s central bank likely to hold key interest rate this week: Reuters poll",
+        "doc_id": "www.investing.com-2026-08-05T22-19-29+00-00-1",
+        "title": "Brazil central bank cuts rates by 25 bps at fourth straight meeting",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/mexicos-central-bank-likely-to-hold-key-interest-rate-this-week-reuters-poll-4835595",
+        "url": "https://www.investing.com/news/economy-news/brazil-central-bank-cuts-rates-by-25-bps-at-fourth-straight-meeting-4839538",
         "confidence": "high",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8974759578704834,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 5,
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8788380026817322,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
         "macro_buckets": [
           "policy"
         ],
         "themes": [
           "policy",
           "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": -2,
+          "liquidity": -2,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-05T22-19-29+00-00-6",
+        "title": "Yen firms after landmark intervention, dollar near lows on optimism over Iran talks",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/yen-finds-footing-after-intervention-dollar-near-6week-low-on-mideast-hopes-4836329",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.7987084984779358,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "fx"
+        ],
+        "themes": [
+          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
@@ -189,29 +162,30 @@
     ],
     "bucket_views": [
       {
-        "name": "energy",
+        "name": "policy",
         "label": "negative news sentiment",
         "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-04T22-21-06+00-00-4",
-            "title": "U.S. Treasury yields drop as oil falls on Iran deal hopes",
+            "doc_id": "www.investing.com-2026-08-05T22-19-29+00-00-8",
+            "title": "Fed\u2019s Cook says ready to raise rates if inflation doesn\u2019t start easing",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-falls-on-iran-deal-hopes-93CH-4835627",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9432361125946045,
-            "summary_label": "negative-financial-sentiment",
+            "url": "https://www.investing.com/news/economy-news/feds-cook-says-ready-to-raise-rates-if-inflation-doesnt-start-easing-4839144",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.45162609219551086,
+            "summary_label": "neutral-financial-sentiment",
             "macro_score": 9,
             "macro_buckets": [
-              "rates",
-              "energy"
-            ],
-            "themes": [
+              "policy",
               "inflation"
             ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
             "scores": {
-              "inflation": -2,
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -219,27 +193,27 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-08-04T22-21-06+00-00-8",
-            "title": "Stocks jump to records after upbeat company forecasts; oil, yen weaken",
+            "doc_id": "www.investing.com-2026-08-05T22-19-29+00-00-1",
+            "title": "Brazil central bank cuts rates by 25 bps at fourth straight meeting",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asia-stocks-move-higher-on-wall-street-lead-oil-steady-4832646",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8007051944732666,
-            "summary_label": "positive-financial-sentiment",
+            "url": "https://www.investing.com/news/economy-news/brazil-central-bank-cuts-rates-by-25-bps-at-fourth-straight-meeting-4839538",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8788380026817322,
+            "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "energy",
-              "fx"
+              "policy"
             ],
             "themes": [
-              "inflation"
+              "policy",
+              "liquidity"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": 0,
               "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
+              "policy": -2,
+              "liquidity": -2,
               "risk": 0
             }
           }
@@ -247,84 +221,26 @@
       },
       {
         "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -2,
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-08-04T20-26-00+00-00-8",
-            "title": "So what\u2019s the plan to bring down inflation? The new Fed chair and his White House allies say you shouldn\u2019t ask.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/bessent-defends-warsh-saying-markets-are-going-through-detox-from-too-much-fed-guidance-39dfc765?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7299017906188965,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "policy",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-08-04T20-26-00+00-00-8",
-            "title": "So what\u2019s the plan to bring down inflation? The new Fed chair and his White House allies say you shouldn\u2019t ask.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/bessent-defends-warsh-saying-markets-are-going-through-detox-from-too-much-fed-guidance-39dfc765?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7299017906188965,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-08-04T22-21-06+00-00-5",
-            "title": "Mexico\u2019s central bank likely to hold key interest rate this week: Reuters poll",
+            "doc_id": "www.investing.com-2026-08-05T22-19-29+00-00-8",
+            "title": "Fed\u2019s Cook says ready to raise rates if inflation doesn\u2019t start easing",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/mexicos-central-bank-likely-to-hold-key-interest-rate-this-week-reuters-poll-4835595",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/feds-cook-says-ready-to-raise-rates-if-inflation-doesnt-start-easing-4839144",
+            "confidence": "low",
             "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8974759578704834,
+            "sentiment_confidence": 0.45162609219551086,
             "summary_label": "neutral-financial-sentiment",
-            "macro_score": 5,
+            "macro_score": 9,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "inflation"
             ],
             "themes": [
-              "policy",
-              "liquidity"
+              "inflation",
+              "policy"
             ],
             "scores": {
               "inflation": 0,
@@ -337,29 +253,28 @@
         ]
       },
       {
-        "name": "rates",
+        "name": "fx",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-04T22-21-06+00-00-4",
-            "title": "U.S. Treasury yields drop as oil falls on Iran deal hopes",
+            "doc_id": "www.investing.com-2026-08-05T22-19-29+00-00-6",
+            "title": "Yen firms after landmark intervention, dollar near lows on optimism over Iran talks",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-falls-on-iran-deal-hopes-93CH-4835627",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/yen-finds-footing-after-intervention-dollar-near-6week-low-on-mideast-hopes-4836329",
+            "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9432361125946045,
+            "sentiment_confidence": 0.7987084984779358,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 4,
             "macro_buckets": [
-              "rates",
-              "energy"
+              "fx"
             ],
             "themes": [
-              "inflation"
+              "uncategorized"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,

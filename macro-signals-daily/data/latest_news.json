@@ -1,57 +1,42 @@
 [
   {
-    "id": "www.investing.com-2026-08-04T22-21-06+00-00-4",
+    "id": "www.investing.com-2026-08-05T22-19-29+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-04T22:21:06+00:00",
-    "title": "U.S. Treasury yields drop as oil falls on Iran deal hopes",
+    "published_at": "2026-08-05T22:19:29+00:00",
+    "title": "Fed\u2019s Cook says ready to raise rates if inflation doesn\u2019t start easing",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-falls-on-iran-deal-hopes-93CH-4835627",
+    "url": "https://www.investing.com/news/economy-news/feds-cook-says-ready-to-raise-rates-if-inflation-doesnt-start-easing-4839144",
     "macro_score": 9,
-    "macro_buckets": [
-      "rates",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-08-04T20-26-00+00-00-8",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-08-04T20:26:00+00:00",
-    "title": "So what\u2019s the plan to bring down inflation? The new Fed chair and his White House allies say you shouldn\u2019t ask.",
-    "body": "Critics say Kevin Warsh\u2019s determination to cool prices gains isn\u2019t sufficient.",
-    "url": "https://www.marketwatch.com/story/bessent-defends-warsh-saying-markets-are-going-through-detox-from-too-much-fed-guidance-39dfc765?mod=mw_rss_topstories",
-    "macro_score": 6,
     "macro_buckets": [
       "policy",
       "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-04T22-21-06+00-00-8",
+    "id": "www.investing.com-2026-08-05T22-19-29+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-04T22:21:06+00:00",
-    "title": "Stocks jump to records after upbeat company forecasts; oil, yen weaken",
+    "published_at": "2026-08-05T22:19:29+00:00",
+    "title": "Brazil central bank cuts rates by 25 bps at fourth straight meeting",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/asia-stocks-move-higher-on-wall-street-lead-oil-steady-4832646",
+    "url": "https://www.investing.com/news/economy-news/brazil-central-bank-cuts-rates-by-25-bps-at-fourth-straight-meeting-4839538",
     "macro_score": 6,
     "macro_buckets": [
-      "energy",
-      "fx"
+      "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-04T22-21-06+00-00-5",
+    "id": "www.investing.com-2026-08-05T22-19-29+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-04T22:21:06+00:00",
-    "title": "Mexico\u2019s central bank likely to hold key interest rate this week: Reuters poll",
+    "published_at": "2026-08-05T22:19:29+00:00",
+    "title": "Yen firms after landmark intervention, dollar near lows on optimism over Iran talks",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/mexicos-central-bank-likely-to-hold-key-interest-rate-this-week-reuters-poll-4835595",
-    "macro_score": 5,
+    "url": "https://www.investing.com/news/economy-news/yen-finds-footing-after-intervention-dollar-near-6week-low-on-mideast-hopes-4836329",
+    "macro_score": 4,
     "macro_buckets": [
-      "policy"
+      "fx"
     ]
   }
 ]
