@@ -1,66 +1,67 @@
 [
   {
     "date": "2026-08-07",
-    "daily_brief": "2026-08-07: 5 unique articles were analyzed. News sentiment was neutral. Top theme: policy.",
-    "macro_read": "Macro read: coverage across policy, liquidity, inflation was broadly neutral or mixed.",
-    "market_confirmation": "Both news sentiment and the broader market response were broadly neutral.",
+    "daily_brief": "2026-08-07: 8 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Liquidity, Inflation coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment had a directional bias, but the broader market response was mixed.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.16,
-        "return_5d": 3.62,
-        "close": 768.5599975585938
+        "return_1d": 0.61,
+        "return_5d": 3.51,
+        "close": 773.260009765625
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.58,
-        "return_5d": -0.34,
-        "close": 82.5199966430664
+        "return_1d": 0.29,
+        "return_5d": 0.62,
+        "close": 82.76000213623047
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.36,
-        "return_5d": 0.18,
-        "close": 28.190000534057617
+        "return_1d": -0.43,
+        "return_5d": -0.35,
+        "close": 28.06999969482422
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 3.47,
-        "return_5d": -6.75,
-        "close": 118.87000274658203
+        "return_1d": -0.75,
+        "return_5d": -8.66,
+        "close": 117.9800033569336
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.08,
-        "return_5d": -0.01,
-        "close": 79.45999908447266
+        "return_1d": 0.19,
+        "return_5d": 0.16,
+        "close": 79.61000061035156
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.01,
-        "return_5d": 3.32,
-        "close": 389.6700134277344
+        "return_1d": 2.26,
+        "return_5d": 7.25,
+        "close": 398.4700012207031
       }
     ],
     "news_sentiment": {
-      "label": "neutral",
-      "score": 0.0,
-      "display_score": 0.0,
-      "unique_documents": 5,
-      "positive_pct": 20.0,
-      "neutral_pct": 60.0,
-      "negative_pct": 20.0,
-      "average_confidence": 0.743
+      "label": "negative",
+      "score": -0.75,
+      "display_score": -0.75,
+      "unique_documents": 8,
+      "positive_pct": 0.0,
+      "neutral_pct": 25.0,
+      "negative_pct": 75.0,
+      "average_confidence": 0.848
     },
     "market_regime": {
       "label": "mixed",
@@ -68,30 +69,107 @@
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.0,
+        "SPY": 0.4,
         "HYG": 0.0,
-        "TLT": 0.15,
-        "GLD": 0.0
+        "TLT": -0.15,
+        "GLD": -0.1
       },
       "explanation": "The major market proxies gave a mixed risk signal.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "neutral",
-      "label": "Neutral",
-      "explanation": "Both news sentiment and the broader market response were broadly neutral.",
-      "news_label": "neutral",
+      "status": "unconfirmed",
+      "label": "Unconfirmed",
+      "explanation": "News sentiment had a directional bias, but the broader market response was mixed.",
+      "news_label": "negative",
       "market_label": "mixed"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-08-07T01-02-45+00-00-8",
-        "title": "Mexico central bank holds rate at 6.5%, delays inflation target return",
+        "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-3",
+        "title": "Dollar drops as weak US jobs data pushes out Fed hike expectations",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/mexico-central-bank-holds-rate-at-650-4843968",
+        "url": "https://www.investing.com/news/economy-news/dollar-drifts-higher-as-traders-eye-iran-talks-ahead-of-us-jobs-data-4845023",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.912553608417511,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 12,
+        "macro_buckets": [
+          "policy",
+          "labor",
+          "fx"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": -2,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.marketwatch.com-2026-08-07T19-36-00+00-00-10",
+        "title": "Some of the urgency is gone for a Fed rate hike in September after a soft jobs report",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/some-of-the-urgency-is-gone-for-a-fed-rate-hike-in-september-after-the-soft-jobs-report-19bc5565?mod=mw_rss_topstories",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.7372492551803589,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 11,
+        "macro_buckets": [
+          "policy",
+          "labor"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": -1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-6",
+        "title": "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/us-rate-futures-cut-chances-of-september-rate-hike-after-jobs-data-4846500",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.7669230103492737,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 10,
+        "macro_buckets": [
+          "policy",
+          "labor"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": -1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-1",
+        "title": "Inflation data to test record-setting US stocks, Fed rate views",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/inflation-data-to-test-recordsetting-us-stocks-fed-rate-views-4845595",
         "confidence": "medium",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8489501476287842,
+        "sentiment_confidence": 0.7998455166816711,
         "summary_label": "neutral-financial-sentiment",
         "macro_score": 8,
         "macro_buckets": [
@@ -100,8 +178,7 @@
         ],
         "themes": [
           "inflation",
-          "policy",
-          "liquidity"
+          "policy"
         ],
         "scores": {
           "inflation": 0,
@@ -112,40 +189,15 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-08-07T01-02-45+00-00-5",
-        "title": "Dollar climbs versus yen as investors await US jobs data",
+        "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-10",
+        "title": "Citi sees Mexico central bank holding rates at 6.50% through 2027",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/yen-and-dollar-drift-on-iran-deal-concerns-payroll-jitters-4839968",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.49144312739372253,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 8,
-        "macro_buckets": [
-          "labor",
-          "fx"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-08-07T01-02-45+00-00-3",
-        "title": "Fed\u2019s Musalem says central bank should have hiked rates at last meeting",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-musalem-argues-against-easy-policy-just-to-bolster-productivity-4844522",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.5846220850944519,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 7,
+        "url": "https://www.investing.com/news/economy-news/citi-sees-mexico-central-bank-holding-rates-at-650-through-2027-93CH-4847171",
+        "confidence": "high",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.9168330430984497,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
         "macro_buckets": [
           "policy"
         ],
@@ -156,22 +208,47 @@
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": 1,
-          "liquidity": 1,
+          "policy": 0,
+          "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-08-07T01-02-45+00-00-10",
-        "title": "Mexico\u2019s central bank keeps benchmark rate at 6.50%",
+        "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-7",
+        "title": "China\u2019s July bank lending set to plummet amid subdued demand, seasonal slowdown",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/mexicos-central-bank-keeps-benchmark-rate-at-650-93CH-4843947",
+        "url": "https://www.investing.com/news/economy-news/chinas-july-bank-lending-set-to-plummet-amid-subdued-demand-seasonal-slowdown-4845229",
         "confidence": "high",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8987600803375244,
-        "summary_label": "neutral-financial-sentiment",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9687199592590332,
+        "summary_label": "negative-financial-sentiment",
         "macro_score": 5,
         "macro_buckets": [
+          "growth"
+        ],
+        "themes": [
+          "growth",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": -2,
+          "policy": 0,
+          "liquidity": -2,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.marketwatch.com-2026-08-07T19-47-00+00-00-8",
+        "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with allies.",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8431007266044617,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
           "policy"
         ],
         "themes": [
@@ -181,32 +258,33 @@
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
+          "policy": -1,
+          "liquidity": -1,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-08-07T01-02-45+00-00-7",
-        "title": "Trading Day: Pause before jobs",
+        "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-2",
+        "title": "Trump renews effort to fire Fed\u2019s Cook, continuing attacks on central bank",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/trading-day-pause-before-jobs-4844388",
-        "confidence": "high",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8936457633972168,
-        "summary_label": "neutral-financial-sentiment",
+        "url": "https://www.investing.com/news/economy-news/trump-moving-forward-with-attempt-to-fire-lisa-cook-after-supreme-court-ruling-abcnews-4847248",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8364512324333191,
+        "summary_label": "negative-financial-sentiment",
         "macro_score": 4,
         "macro_buckets": [
-          "labor"
+          "policy"
         ],
         "themes": [
-          "uncategorized"
+          "policy",
+          "liquidity"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
+          "policy": -1,
+          "liquidity": -1,
           "risk": 0
         }
       }
@@ -214,82 +292,82 @@
     "bucket_views": [
       {
         "name": "policy",
-        "label": "positive news sentiment",
-        "score": 1,
+        "label": "negative news sentiment",
+        "score": -6,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-07T01-02-45+00-00-8",
-            "title": "Mexico central bank holds rate at 6.5%, delays inflation target return",
+            "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-3",
+            "title": "Dollar drops as weak US jobs data pushes out Fed hike expectations",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/mexico-central-bank-holds-rate-at-650-4843968",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8489501476287842,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 8,
+            "url": "https://www.investing.com/news/economy-news/dollar-drifts-higher-as-traders-eye-iran-talks-ahead-of-us-jobs-data-4845023",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.912553608417511,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 12,
             "macro_buckets": [
               "policy",
-              "inflation"
+              "labor",
+              "fx"
             ],
             "themes": [
-              "inflation",
-              "policy",
-              "liquidity"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 0,
+              "policy": -2,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-08-07T01-02-45+00-00-3",
-            "title": "Fed\u2019s Musalem says central bank should have hiked rates at last meeting",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-musalem-argues-against-easy-policy-just-to-bolster-productivity-4844522",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.5846220850944519,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 7,
+            "doc_id": "www.marketwatch.com-2026-08-07T19-36-00+00-00-10",
+            "title": "Some of the urgency is gone for a Fed rate hike in September after a soft jobs report",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/some-of-the-urgency-is-gone-for-a-fed-rate-hike-in-september-after-the-soft-jobs-report-19bc5565?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.7372492551803589,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 11,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "labor"
             ],
             "themes": [
-              "policy",
-              "liquidity"
+              "inflation",
+              "policy"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -1,
               "growth": 0,
-              "policy": 1,
-              "liquidity": 1,
+              "policy": -1,
+              "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-08-07T01-02-45+00-00-10",
-            "title": "Mexico\u2019s central bank keeps benchmark rate at 6.50%",
+            "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-6",
+            "title": "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/mexicos-central-bank-keeps-benchmark-rate-at-650-93CH-4843947",
-            "confidence": "high",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8987600803375244,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 5,
+            "url": "https://www.investing.com/news/economy-news/us-rate-futures-cut-chances-of-september-rate-hike-after-jobs-data-4846500",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.7669230103492737,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 10,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "labor"
             ],
             "themes": [
-              "policy",
-              "liquidity"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }
@@ -298,54 +376,82 @@
       },
       {
         "name": "labor",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-07T01-02-45+00-00-5",
-            "title": "Dollar climbs versus yen as investors await US jobs data",
+            "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-3",
+            "title": "Dollar drops as weak US jobs data pushes out Fed hike expectations",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/yen-and-dollar-drift-on-iran-deal-concerns-payroll-jitters-4839968",
-            "confidence": "low",
+            "url": "https://www.investing.com/news/economy-news/dollar-drifts-higher-as-traders-eye-iran-talks-ahead-of-us-jobs-data-4845023",
+            "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.49144312739372253,
+            "sentiment_confidence": 0.912553608417511,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
+            "macro_score": 12,
             "macro_buckets": [
+              "policy",
               "labor",
               "fx"
             ],
             "themes": [
-              "uncategorized"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 0,
+              "policy": -2,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-08-07T01-02-45+00-00-7",
-            "title": "Trading Day: Pause before jobs",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/trading-day-pause-before-jobs-4844388",
-            "confidence": "high",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8936457633972168,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 4,
+            "doc_id": "www.marketwatch.com-2026-08-07T19-36-00+00-00-10",
+            "title": "Some of the urgency is gone for a Fed rate hike in September after a soft jobs report",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/some-of-the-urgency-is-gone-for-a-fed-rate-hike-in-september-after-the-soft-jobs-report-19bc5565?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.7372492551803589,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 11,
             "macro_buckets": [
+              "policy",
               "labor"
             ],
             "themes": [
-              "uncategorized"
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-6",
+            "title": "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-rate-futures-cut-chances-of-september-rate-hike-after-jobs-data-4846500",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.7669230103492737,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 10,
+            "macro_buckets": [
+              "policy",
+              "labor"
+            ],
+            "themes": [
+              "policy"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }
@@ -353,18 +459,50 @@
         ]
       },
       {
-        "name": "inflation",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "name": "growth",
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-07T01-02-45+00-00-8",
-            "title": "Mexico central bank holds rate at 6.5%, delays inflation target return",
+            "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-7",
+            "title": "China\u2019s July bank lending set to plummet amid subdued demand, seasonal slowdown",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/mexico-central-bank-holds-rate-at-650-4843968",
+            "url": "https://www.investing.com/news/economy-news/chinas-july-bank-lending-set-to-plummet-amid-subdued-demand-seasonal-slowdown-4845229",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9687199592590332,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 5,
+            "macro_buckets": [
+              "growth"
+            ],
+            "themes": [
+              "growth",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": -2,
+              "policy": 0,
+              "liquidity": -2,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "negative news sentiment",
+        "score": -1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-1",
+            "title": "Inflation data to test record-setting US stocks, Fed rate views",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/inflation-data-to-test-recordsetting-us-stocks-fed-rate-views-4845595",
             "confidence": "medium",
             "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8489501476287842,
+            "sentiment_confidence": 0.7998455166816711,
             "summary_label": "neutral-financial-sentiment",
             "macro_score": 8,
             "macro_buckets": [
@@ -373,40 +511,7 @@
             ],
             "themes": [
               "inflation",
-              "policy",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "fx",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-08-07T01-02-45+00-00-5",
-            "title": "Dollar climbs versus yen as investors await US jobs data",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/yen-and-dollar-drift-on-iran-deal-concerns-payroll-jitters-4839968",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.49144312739372253,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "labor",
-              "fx"
-            ],
-            "themes": [
-              "uncategorized"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
