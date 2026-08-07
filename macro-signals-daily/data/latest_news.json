@@ -1,42 +1,69 @@
 [
   {
-    "id": "www.investing.com-2026-08-05T22-19-29+00-00-8",
+    "id": "www.investing.com-2026-08-07T01-02-45+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-05T22:19:29+00:00",
-    "title": "Fed\u2019s Cook says ready to raise rates if inflation doesn\u2019t start easing",
+    "published_at": "2026-08-07T01:02:45+00:00",
+    "title": "Dollar climbs versus yen as investors await US jobs data",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-cook-says-ready-to-raise-rates-if-inflation-doesnt-start-easing-4839144",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/yen-and-dollar-drift-on-iran-deal-concerns-payroll-jitters-4839968",
+    "macro_score": 8,
+    "macro_buckets": [
+      "labor",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-07T01-02-45+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-07T01:02:45+00:00",
+    "title": "Mexico central bank holds rate at 6.5%, delays inflation target return",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/mexico-central-bank-holds-rate-at-650-4843968",
+    "macro_score": 8,
     "macro_buckets": [
       "policy",
       "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-05T22-19-29+00-00-1",
+    "id": "www.investing.com-2026-08-07T01-02-45+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-05T22:19:29+00:00",
-    "title": "Brazil central bank cuts rates by 25 bps at fourth straight meeting",
+    "published_at": "2026-08-07T01:02:45+00:00",
+    "title": "Fed\u2019s Musalem says central bank should have hiked rates at last meeting",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/brazil-central-bank-cuts-rates-by-25-bps-at-fourth-straight-meeting-4839538",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/feds-musalem-argues-against-easy-policy-just-to-bolster-productivity-4844522",
+    "macro_score": 7,
     "macro_buckets": [
       "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-05T22-19-29+00-00-6",
+    "id": "www.investing.com-2026-08-07T01-02-45+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-05T22:19:29+00:00",
-    "title": "Yen firms after landmark intervention, dollar near lows on optimism over Iran talks",
+    "published_at": "2026-08-07T01:02:45+00:00",
+    "title": "Mexico\u2019s central bank keeps benchmark rate at 6.50%",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/yen-finds-footing-after-intervention-dollar-near-6week-low-on-mideast-hopes-4836329",
+    "url": "https://www.investing.com/news/economy-news/mexicos-central-bank-keeps-benchmark-rate-at-650-93CH-4843947",
+    "macro_score": 5,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-07T01-02-45+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-07T01:02:45+00:00",
+    "title": "Trading Day: Pause before jobs",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/trading-day-pause-before-jobs-4844388",
     "macro_score": 4,
     "macro_buckets": [
-      "fx"
+      "labor"
     ]
   }
 ]
