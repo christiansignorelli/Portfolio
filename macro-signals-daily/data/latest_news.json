@@ -1,52 +1,9 @@
 [
   {
-    "id": "www.investing.com-2026-08-07T21-53-28+00-00-3",
+    "id": "www.investing.com-2026-08-08T21-44-25+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-07T21:53:28+00:00",
-    "title": "Dollar drops as weak US jobs data pushes out Fed hike expectations",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-drifts-higher-as-traders-eye-iran-talks-ahead-of-us-jobs-data-4845023",
-    "macro_score": 12,
-    "macro_buckets": [
-      "policy",
-      "labor",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-08-07T19-36-00+00-00-10",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-08-07T19:36:00+00:00",
-    "title": "Some of the urgency is gone for a Fed rate hike in September after a soft jobs report",
-    "body": "The chances of a hike remain, with upcoming inflation reports a key focus for Fed officials.",
-    "url": "https://www.marketwatch.com/story/some-of-the-urgency-is-gone-for-a-fed-rate-hike-in-september-after-the-soft-jobs-report-19bc5565?mod=mw_rss_topstories",
-    "macro_score": 11,
-    "macro_buckets": [
-      "policy",
-      "labor"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-07T21-53-28+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-07T21:53:28+00:00",
-    "title": "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-rate-futures-cut-chances-of-september-rate-hike-after-jobs-data-4846500",
-    "macro_score": 10,
-    "macro_buckets": [
-      "policy",
-      "labor"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-07T21-53-28+00-00-1",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-07T21:53:28+00:00",
+    "published_at": "2026-08-08T21:44:25+00:00",
     "title": "Inflation data to test record-setting US stocks, Fed rate views",
     "body": "",
     "url": "https://www.investing.com/news/economy-news/inflation-data-to-test-recordsetting-us-stocks-fed-rate-views-4845595",
@@ -57,49 +14,24 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-08-07T21-53-28+00-00-10",
+    "id": "www.investing.com-2026-08-08T21-44-25+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-07T21:53:28+00:00",
-    "title": "Citi sees Mexico central bank holding rates at 6.50% through 2027",
+    "published_at": "2026-08-08T21:44:25+00:00",
+    "title": "U.S. Senate passes short-term funding bill to avert federal shutdown before election",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/citi-sees-mexico-central-bank-holding-rates-at-650-through-2027-93CH-4847171",
+    "url": "https://www.investing.com/news/economy-news/us-senate-passes-shortterm-funding-bill-to-avert-federal-shutdown-before-election-4847626",
     "macro_score": 6,
     "macro_buckets": [
-      "policy"
+      "policy",
+      "liquidity"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-07T21-53-28+00-00-7",
+    "id": "www.investing.com-2026-08-08T21-44-25+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-07T21:53:28+00:00",
-    "title": "China\u2019s July bank lending set to plummet amid subdued demand, seasonal slowdown",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/chinas-july-bank-lending-set-to-plummet-amid-subdued-demand-seasonal-slowdown-4845229",
-    "macro_score": 5,
-    "macro_buckets": [
-      "growth"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-08-07T19-47-00+00-00-8",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-08-07T19:47:00+00:00",
-    "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with allies.",
-    "body": "Two months after he was blocked by the Supreme Court, President Donald Trump has resumed his effort to oust Federal Reserve governor Lisa Cook as part of an effort to stack the central bank\u2019s board with more allies.",
-    "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
-    "macro_score": 4,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-07T21-53-28+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-07T21:53:28+00:00",
+    "published_at": "2026-08-08T21:44:25+00:00",
     "title": "Trump renews effort to fire Fed\u2019s Cook, continuing attacks on central bank",
     "body": "",
     "url": "https://www.investing.com/news/economy-news/trump-moving-forward-with-attempt-to-fire-lisa-cook-after-supreme-court-ruling-abcnews-4847248",

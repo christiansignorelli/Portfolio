@@ -1,13 +1,12 @@
 [
   {
-    "date": "2026-08-07",
-    "daily_brief": "2026-08-07: 8 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
+    "date": "2026-08-08",
+    "daily_brief": "2026-08-08: 3 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
     "macro_read": "Macro read: Policy, Liquidity, Inflation coverage showed a predominantly negative tone.",
     "market_confirmation": "News sentiment had a directional bias, but the broader market response was mixed.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
@@ -55,13 +54,13 @@
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -0.75,
-      "display_score": -0.75,
-      "unique_documents": 8,
+      "score": -0.3333333333333333,
+      "display_score": -0.33,
+      "unique_documents": 3,
       "positive_pct": 0.0,
-      "neutral_pct": 25.0,
-      "negative_pct": 75.0,
-      "average_confidence": 0.848
+      "neutral_pct": 66.7,
+      "negative_pct": 33.3,
+      "average_confidence": 0.685
     },
     "market_regime": {
       "label": "mixed",
@@ -86,84 +85,7 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-3",
-        "title": "Dollar drops as weak US jobs data pushes out Fed hike expectations",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-drifts-higher-as-traders-eye-iran-talks-ahead-of-us-jobs-data-4845023",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.912553608417511,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 12,
-        "macro_buckets": [
-          "policy",
-          "labor",
-          "fx"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": -2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-08-07T19-36-00+00-00-10",
-        "title": "Some of the urgency is gone for a Fed rate hike in September after a soft jobs report",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/some-of-the-urgency-is-gone-for-a-fed-rate-hike-in-september-after-the-soft-jobs-report-19bc5565?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.7372492551803589,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 11,
-        "macro_buckets": [
-          "policy",
-          "labor"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": -1,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-6",
-        "title": "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-rate-futures-cut-chances-of-september-rate-hike-after-jobs-data-4846500",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.7669230103492737,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 10,
-        "macro_buckets": [
-          "policy",
-          "labor"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-1",
+        "doc_id": "www.investing.com-2026-08-08T21-44-25+00-00-10",
         "title": "Inflation data to test record-setting US stocks, Fed rate views",
         "source": "www.investing.com",
         "url": "https://www.investing.com/news/economy-news/inflation-data-to-test-recordsetting-us-stocks-fed-rate-views-4845595",
@@ -189,17 +111,18 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-10",
-        "title": "Citi sees Mexico central bank holding rates at 6.50% through 2027",
+        "doc_id": "www.investing.com-2026-08-08T21-44-25+00-00-3",
+        "title": "U.S. Senate passes short-term funding bill to avert federal shutdown before election",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/citi-sees-mexico-central-bank-holding-rates-at-650-through-2027-93CH-4847171",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/us-senate-passes-shortterm-funding-bill-to-avert-federal-shutdown-before-election-4847626",
+        "confidence": "low",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.9168330430984497,
+        "sentiment_confidence": 0.4177541732788086,
         "summary_label": "neutral-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "policy"
+          "policy",
+          "liquidity"
         ],
         "themes": [
           "policy",
@@ -214,57 +137,7 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-7",
-        "title": "China\u2019s July bank lending set to plummet amid subdued demand, seasonal slowdown",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/chinas-july-bank-lending-set-to-plummet-amid-subdued-demand-seasonal-slowdown-4845229",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9687199592590332,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "growth"
-        ],
-        "themes": [
-          "growth",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": -2,
-          "policy": 0,
-          "liquidity": -2,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-08-07T19-47-00+00-00-8",
-        "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with allies.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8431007266044617,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": -1,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-2",
+        "doc_id": "www.investing.com-2026-08-08T21-44-25+00-00-9",
         "title": "Trump renews effort to fire Fed\u2019s Cook, continuing attacks on central bank",
         "source": "www.investing.com",
         "url": "https://www.investing.com/news/economy-news/trump-moving-forward-with-attempt-to-fire-lisa-cook-after-supreme-court-ruling-abcnews-4847248",
@@ -293,198 +166,115 @@
       {
         "name": "policy",
         "label": "negative news sentiment",
-        "score": -6,
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-3",
-            "title": "Dollar drops as weak US jobs data pushes out Fed hike expectations",
+            "doc_id": "www.investing.com-2026-08-08T21-44-25+00-00-10",
+            "title": "Inflation data to test record-setting US stocks, Fed rate views",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-drifts-higher-as-traders-eye-iran-talks-ahead-of-us-jobs-data-4845023",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.912553608417511,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 12,
-            "macro_buckets": [
-              "policy",
-              "labor",
-              "fx"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-08-07T19-36-00+00-00-10",
-            "title": "Some of the urgency is gone for a Fed rate hike in September after a soft jobs report",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/some-of-the-urgency-is-gone-for-a-fed-rate-hike-in-september-after-the-soft-jobs-report-19bc5565?mod=mw_rss_topstories",
+            "url": "https://www.investing.com/news/economy-news/inflation-data-to-test-recordsetting-us-stocks-fed-rate-views-4845595",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7372492551803589,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 11,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7998455166816711,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 8,
             "macro_buckets": [
               "policy",
-              "labor"
+              "inflation"
             ],
             "themes": [
               "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 0,
               "growth": 0,
-              "policy": -1,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-6",
-            "title": "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
+            "doc_id": "www.investing.com-2026-08-08T21-44-25+00-00-3",
+            "title": "U.S. Senate passes short-term funding bill to avert federal shutdown before election",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-rate-futures-cut-chances-of-september-rate-hike-after-jobs-data-4846500",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7669230103492737,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
+            "url": "https://www.investing.com/news/economy-news/us-senate-passes-shortterm-funding-bill-to-avert-federal-shutdown-before-election-4847626",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.4177541732788086,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "labor"
+              "liquidity"
             ],
             "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "labor",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-3",
-            "title": "Dollar drops as weak US jobs data pushes out Fed hike expectations",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-drifts-higher-as-traders-eye-iran-talks-ahead-of-us-jobs-data-4845023",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.912553608417511,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 12,
-            "macro_buckets": [
               "policy",
-              "labor",
-              "fx"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-08-07T19-36-00+00-00-10",
-            "title": "Some of the urgency is gone for a Fed rate hike in September after a soft jobs report",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/some-of-the-urgency-is-gone-for-a-fed-rate-hike-in-september-after-the-soft-jobs-report-19bc5565?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7372492551803589,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 11,
-            "macro_buckets": [
-              "policy",
-              "labor"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-6",
-            "title": "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-rate-futures-cut-chances-of-september-rate-hike-after-jobs-data-4846500",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7669230103492737,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "labor"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "growth",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-7",
-            "title": "China\u2019s July bank lending set to plummet amid subdued demand, seasonal slowdown",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/chinas-july-bank-lending-set-to-plummet-amid-subdued-demand-seasonal-slowdown-4845229",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9687199592590332,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 5,
-            "macro_buckets": [
-              "growth"
-            ],
-            "themes": [
-              "growth",
               "liquidity"
             ],
             "scores": {
               "inflation": 0,
-              "growth": -2,
+              "growth": 0,
               "policy": 0,
-              "liquidity": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-08T21-44-25+00-00-9",
+            "title": "Trump renews effort to fire Fed\u2019s Cook, continuing attacks on central bank",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/trump-moving-forward-with-attempt-to-fire-lisa-cook-after-supreme-court-ruling-abcnews-4847248",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8364512324333191,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": -1,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "liquidity",
+        "label": "negative news sentiment",
+        "score": -1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-08T21-44-25+00-00-3",
+            "title": "U.S. Senate passes short-term funding bill to avert federal shutdown before election",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-senate-passes-shortterm-funding-bill-to-avert-federal-shutdown-before-election-4847626",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.4177541732788086,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "liquidity"
+            ],
+            "themes": [
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
               "risk": 0
             }
           }
@@ -492,11 +282,11 @@
       },
       {
         "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -1,
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-07T21-53-28+00-00-1",
+            "doc_id": "www.investing.com-2026-08-08T21-44-25+00-00-10",
             "title": "Inflation data to test record-setting US stocks, Fed rate views",
             "source": "www.investing.com",
             "url": "https://www.investing.com/news/economy-news/inflation-data-to-test-recordsetting-us-stocks-fed-rate-views-4845595",
