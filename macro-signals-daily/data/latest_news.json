@@ -1,12 +1,12 @@
 [
   {
-    "id": "www.investing.com-2026-08-08T21-44-25+00-00-10",
+    "id": "www.investing.com-2026-08-09T21-46-22+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-08T21:44:25+00:00",
+    "published_at": "2026-08-09T21:46:22+00:00",
     "title": "Inflation data to test record-setting US stocks, Fed rate views",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/inflation-data-to-test-recordsetting-us-stocks-fed-rate-views-4845595",
+    "url": "https://www.investing.com/news/economy-news/inflation-data-to-test-recordsetting-us-stocks-fed-rate-views-4847738",
     "macro_score": 8,
     "macro_buckets": [
       "policy",
@@ -14,30 +14,17 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-08-08T21-44-25+00-00-3",
+    "id": "www.investing.com-2026-08-09T21-46-22+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-08T21:44:25+00:00",
-    "title": "U.S. Senate passes short-term funding bill to avert federal shutdown before election",
+    "published_at": "2026-08-09T21:46:22+00:00",
+    "title": "Why the upcoming CPI report is a bigger event than last week\u2019s jobs data",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-senate-passes-shortterm-funding-bill-to-avert-federal-shutdown-before-election-4847626",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/why-the-upcoming-cpi-report-is-a-bigger-event-than-last-weeks-jobs-data-4847733",
+    "macro_score": 7,
     "macro_buckets": [
-      "policy",
-      "liquidity"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-08T21-44-25+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-08T21:44:25+00:00",
-    "title": "Trump renews effort to fire Fed\u2019s Cook, continuing attacks on central bank",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/trump-moving-forward-with-attempt-to-fire-lisa-cook-after-supreme-court-ruling-abcnews-4847248",
-    "macro_score": 4,
-    "macro_buckets": [
-      "policy"
+      "inflation",
+      "labor"
     ]
   }
 ]
