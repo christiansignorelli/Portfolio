@@ -1,28 +1,28 @@
 [
   {
-    "id": "www.marketwatch.com-2026-08-10T20-35-00+00-00-4",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-08-10T20:35:00+00:00",
-    "title": "Workers are worried, but there\u2019s no sign AI is muscling people out of their jobs on a massive scale",
-    "body": "Mark Zuckerberg says we\u2019re lucky to live in an \u201cincredible moment,\u201d but many workers are having a hard time stomaching the uncertainty.",
-    "url": "https://www.marketwatch.com/story/workers-are-worried-but-theres-no-sign-ai-is-muscling-people-out-of-their-jobs-on-a-massive-scale-8eb92638?mod=mw_rss_topstories",
-    "macro_score": 6,
+    "id": "www.investing.com-2026-08-11T22-02-10+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-11T22:02:10+00:00",
+    "title": "Oil prices continue climb on US-Iran deal doubts; stocks retreat",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/oil-prices-rise-asia-stocks-drift-amid-usiran-stalemate-4850719",
+    "macro_score": 8,
     "macro_buckets": [
-      "labor"
+      "inflation",
+      "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-10T21-56-19+00-00-8",
+    "id": "www.investing.com-2026-08-11T22-02-10+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-10T21:56:19+00:00",
-    "title": "US Treasuries fall as investors await inflation data",
+    "published_at": "2026-08-11T22:02:10+00:00",
+    "title": "US Treasury yields seen heading lower but strategists\u2019 conviction wavering",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-treasuries-fall-as-investors-await-inflation-data-93CH-4849978",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/us-treasury-yields-seen-heading-lower-but-strategists-conviction-wavering-4852492",
+    "macro_score": 4,
     "macro_buckets": [
-      "inflation",
       "rates"
     ]
   }
