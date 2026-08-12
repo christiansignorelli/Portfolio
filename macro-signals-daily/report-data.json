@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-08-11",
-    "daily_brief": "2026-08-11: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
-    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
-    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "date": "2026-08-12",
+    "daily_brief": "2026-08-12: 3 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
@@ -12,91 +12,118 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.32,
-        "return_5d": -0.1,
-        "close": 770.5599975585938
+        "return_1d": 0.25,
+        "return_5d": 0.35,
+        "close": 772.489990234375
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.16,
-        "return_5d": -0.76,
-        "close": 82.19000244140625
+        "return_1d": -0.1,
+        "return_5d": -1.07,
+        "close": 82.11000061035156
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.0,
-        "return_5d": -0.07,
-        "close": 28.139999389648438
+        "return_1d": 0.21,
+        "return_5d": 0.39,
+        "close": 28.200000762939453
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 1.34,
-        "return_5d": 10.22,
-        "close": 127.61000061035156
+        "return_1d": -0.24,
+        "return_5d": 10.81,
+        "close": 127.30000305175781
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.04,
-        "return_5d": -0.05,
-        "close": 79.51000213623047
+        "return_1d": 0.13,
+        "return_5d": 0.11,
+        "close": 79.61000061035156
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.39,
-        "return_5d": 7.16,
-        "close": 400.9599914550781
+        "return_1d": 0.99,
+        "return_5d": 3.92,
+        "close": 404.9200134277344
       }
     ],
     "news_sentiment": {
-      "label": "insufficient_data",
+      "label": "negative",
       "score": -1.0,
       "display_score": -1.0,
-      "unique_documents": 2,
+      "unique_documents": 3,
       "positive_pct": 0.0,
       "neutral_pct": 0.0,
       "negative_pct": 100.0,
-      "average_confidence": 0.878
+      "average_confidence": 0.78
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.3,
+      "label": "risk_on",
+      "score": 0.3,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
+        "SPY": 0.4,
         "HYG": 0.0,
         "TLT": 0.0,
-        "GLD": 0.1
+        "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "insufficient_data",
-      "label": "Insufficient data",
-      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
-      "news_label": "insufficient_data",
-      "market_label": "risk_off"
+      "status": "divergent",
+      "label": "Divergent",
+      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+      "news_label": "negative",
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-08-11T22-02-10+00-00-1",
-        "title": "Oil prices continue climb on US-Iran deal doubts; stocks retreat",
+        "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-6",
+        "title": "Canadian bond yields ease as U.S. inflation data weighs on Fed",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/oil-prices-rise-asia-stocks-drift-amid-usiran-stalemate-4850719",
+        "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-data-weighs-on-fed-93CH-4855890",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9104188084602356,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 10,
+        "macro_buckets": [
+          "policy",
+          "inflation",
+          "rates"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": -2,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-5",
+        "title": "Dollar gains, yen slips as US CPI meets expectations",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/dollar-subdued-as-markets-await-us-inflation-data-for-fed-clues-4853550",
         "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.8435197472572327,
+        "sentiment_confidence": 0.8330041766166687,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 8,
+        "macro_score": 7,
         "macro_buckets": [
           "inflation",
-          "energy"
+          "fx"
         ],
         "themes": [
           "inflation"
@@ -110,23 +137,24 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-08-11T22-02-10+00-00-5",
-        "title": "US Treasury yields seen heading lower but strategists\u2019 conviction wavering",
+        "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-3",
+        "title": "US consumer inflation mild in July, economy still not out of the woods",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-treasury-yields-seen-heading-lower-but-strategists-conviction-wavering-4852492",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/us-consumer-prices-increase-as-expected-in-july-4854914",
+        "confidence": "low",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9122152924537659,
+        "sentiment_confidence": 0.5964825749397278,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
+        "macro_score": 6,
         "macro_buckets": [
-          "rates"
+          "inflation",
+          "growth"
         ],
         "themes": [
-          "uncategorized"
+          "inflation"
         ],
         "scores": {
-          "inflation": 0,
+          "inflation": -1,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -138,21 +166,73 @@
       {
         "name": "inflation",
         "label": "negative news sentiment",
-        "score": -1,
+        "score": -4,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-11T22-02-10+00-00-1",
-            "title": "Oil prices continue climb on US-Iran deal doubts; stocks retreat",
+            "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-6",
+            "title": "Canadian bond yields ease as U.S. inflation data weighs on Fed",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/oil-prices-rise-asia-stocks-drift-amid-usiran-stalemate-4850719",
+            "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-data-weighs-on-fed-93CH-4855890",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9104188084602356,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 10,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "rates"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-5",
+            "title": "Dollar gains, yen slips as US CPI meets expectations",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-subdued-as-markets-await-us-inflation-data-for-fed-clues-4853550",
             "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8435197472572327,
+            "sentiment_confidence": 0.8330041766166687,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
+            "macro_score": 7,
             "macro_buckets": [
               "inflation",
-              "energy"
+              "fx"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-3",
+            "title": "US consumer inflation mild in July, economy still not out of the woods",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-consumer-prices-increase-as-expected-in-july-4854914",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.5964825749397278,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "inflation",
+              "growth"
             ],
             "themes": [
               "inflation"
@@ -168,31 +248,33 @@
         ]
       },
       {
-        "name": "energy",
+        "name": "policy",
         "label": "negative news sentiment",
-        "score": -1,
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-11T22-02-10+00-00-1",
-            "title": "Oil prices continue climb on US-Iran deal doubts; stocks retreat",
+            "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-6",
+            "title": "Canadian bond yields ease as U.S. inflation data weighs on Fed",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/oil-prices-rise-asia-stocks-drift-amid-usiran-stalemate-4850719",
-            "confidence": "medium",
+            "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-data-weighs-on-fed-93CH-4855890",
+            "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8435197472572327,
+            "sentiment_confidence": 0.9104188084602356,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
+            "macro_score": 10,
             "macro_buckets": [
+              "policy",
               "inflation",
-              "energy"
+              "rates"
             ],
             "themes": [
-              "inflation"
+              "inflation",
+              "policy"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": -2,
               "growth": 0,
-              "policy": 0,
+              "policy": -2,
               "liquidity": 0,
               "risk": 0
             }
@@ -205,23 +287,58 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-11T22-02-10+00-00-5",
-            "title": "US Treasury yields seen heading lower but strategists\u2019 conviction wavering",
+            "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-6",
+            "title": "Canadian bond yields ease as U.S. inflation data weighs on Fed",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-treasury-yields-seen-heading-lower-but-strategists-conviction-wavering-4852492",
+            "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-data-weighs-on-fed-93CH-4855890",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9122152924537659,
+            "sentiment_confidence": 0.9104188084602356,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
+            "macro_score": 10,
             "macro_buckets": [
+              "policy",
+              "inflation",
               "rates"
             ],
             "themes": [
-              "uncategorized"
+              "inflation",
+              "policy"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-5",
+            "title": "Dollar gains, yen slips as US CPI meets expectations",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-subdued-as-markets-await-us-inflation-data-for-fed-clues-4853550",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8330041766166687,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "inflation",
+              "fx"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,

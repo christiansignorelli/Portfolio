@@ -1,29 +1,45 @@
 [
   {
-    "id": "www.investing.com-2026-08-11T22-02-10+00-00-1",
+    "id": "www.investing.com-2026-08-12T22-00-47+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-11T22:02:10+00:00",
-    "title": "Oil prices continue climb on US-Iran deal doubts; stocks retreat",
+    "published_at": "2026-08-12T22:00:47+00:00",
+    "title": "Canadian bond yields ease as U.S. inflation data weighs on Fed",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/oil-prices-rise-asia-stocks-drift-amid-usiran-stalemate-4850719",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-data-weighs-on-fed-93CH-4855890",
+    "macro_score": 10,
     "macro_buckets": [
+      "policy",
       "inflation",
-      "energy"
+      "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-11T22-02-10+00-00-5",
+    "id": "www.investing.com-2026-08-12T22-00-47+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-11T22:02:10+00:00",
-    "title": "US Treasury yields seen heading lower but strategists\u2019 conviction wavering",
+    "published_at": "2026-08-12T22:00:47+00:00",
+    "title": "Dollar gains, yen slips as US CPI meets expectations",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-treasury-yields-seen-heading-lower-but-strategists-conviction-wavering-4852492",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/dollar-subdued-as-markets-await-us-inflation-data-for-fed-clues-4853550",
+    "macro_score": 7,
     "macro_buckets": [
-      "rates"
+      "inflation",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-12T22-00-47+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-12T22:00:47+00:00",
+    "title": "US consumer inflation mild in July, economy still not out of the woods",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/us-consumer-prices-increase-as-expected-in-july-4854914",
+    "macro_score": 6,
+    "macro_buckets": [
+      "inflation",
+      "growth"
     ]
   }
 ]
