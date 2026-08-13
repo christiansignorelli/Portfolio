@@ -1,8 +1,8 @@
 [
   {
-    "date": "2026-08-12",
-    "daily_brief": "2026-08-12: 3 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly negative tone.",
+    "date": "2026-08-13",
+    "daily_brief": "2026-08-13: 3 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation coverage showed a predominantly negative tone.",
     "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
@@ -12,66 +12,66 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.25,
-        "return_5d": 0.35,
-        "close": 772.489990234375
+        "return_1d": 0.7,
+        "return_5d": 1.21,
+        "close": 777.8800048828125
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.1,
-        "return_5d": -1.07,
-        "close": 82.11000061035156
+        "return_1d": 0.58,
+        "return_5d": 0.08,
+        "close": 82.58999633789062
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.21,
-        "return_5d": 0.39,
-        "close": 28.200000762939453
+        "return_1d": -0.07,
+        "return_5d": -0.04,
+        "close": 28.18000030517578
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -0.24,
-        "return_5d": 10.81,
-        "close": 127.30000305175781
+        "return_1d": -1.78,
+        "return_5d": 5.18,
+        "close": 125.02999877929688
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.13,
-        "return_5d": 0.11,
-        "close": 79.61000061035156
+        "return_1d": 0.23,
+        "return_5d": 0.42,
+        "close": 79.79000091552734
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.99,
-        "return_5d": 3.92,
-        "close": 404.9200134277344
+        "return_1d": -1.47,
+        "return_5d": 2.38,
+        "close": 398.9599914550781
       }
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -1.0,
-      "display_score": -1.0,
+      "score": -0.3333333333333333,
+      "display_score": -0.33,
       "unique_documents": 3,
-      "positive_pct": 0.0,
+      "positive_pct": 33.3,
       "neutral_pct": 0.0,
-      "negative_pct": 100.0,
-      "average_confidence": 0.78
+      "negative_pct": 66.7,
+      "average_confidence": 0.824
     },
     "market_regime": {
       "label": "risk_on",
-      "score": 0.3,
+      "score": 0.7,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
         "SPY": 0.4,
-        "HYG": 0.0,
-        "TLT": 0.0,
-        "GLD": -0.1
+        "HYG": 0.35,
+        "TLT": -0.15,
+        "GLD": 0.1
       },
       "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
@@ -85,51 +85,25 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-6",
-        "title": "Canadian bond yields ease as U.S. inflation data weighs on Fed",
+        "doc_id": "www.investing.com-2026-08-13T22-00-19+00-00-10",
+        "title": "Euro zone bond yields edge lower on US inflation data",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-data-weighs-on-fed-93CH-4855890",
+        "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-edge-lower-on-us-inflation-data-93CH-4858734",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9104188084602356,
+        "sentiment_confidence": 0.9350915551185608,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 10,
         "macro_buckets": [
-          "policy",
           "inflation",
-          "rates"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": -2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-5",
-        "title": "Dollar gains, yen slips as US CPI meets expectations",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-subdued-as-markets-await-us-inflation-data-for-fed-clues-4853550",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8330041766166687,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
-        "macro_buckets": [
-          "inflation",
+          "rates",
           "fx"
         ],
         "themes": [
           "inflation"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": -2,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -137,18 +111,43 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-3",
-        "title": "US consumer inflation mild in July, economy still not out of the woods",
+        "doc_id": "www.investing.com-2026-08-13T22-00-19+00-00-4",
+        "title": "Canadian bond yields ease as U.S. inflation cools",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-consumer-prices-increase-as-expected-in-july-4854914",
-        "confidence": "low",
+        "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-cools-93CH-4859018",
+        "confidence": "medium",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.7151868939399719,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 7,
+        "macro_buckets": [
+          "inflation",
+          "rates"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": 1,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-13T22-00-19+00-00-9",
+        "title": "European shares subdued ahead of euro zone inflation data; focus on Middle East",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/european-shares-inch-up-as-lower-crude-offsets-geopolitical-unease-4856766",
+        "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.5964825749397278,
+        "sentiment_confidence": 0.8221193552017212,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
           "inflation",
-          "growth"
+          "fx"
         ],
         "themes": [
           "inflation"
@@ -166,45 +165,69 @@
       {
         "name": "inflation",
         "label": "negative news sentiment",
-        "score": -4,
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-6",
-            "title": "Canadian bond yields ease as U.S. inflation data weighs on Fed",
+            "doc_id": "www.investing.com-2026-08-13T22-00-19+00-00-10",
+            "title": "Euro zone bond yields edge lower on US inflation data",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-data-weighs-on-fed-93CH-4855890",
+            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-edge-lower-on-us-inflation-data-93CH-4858734",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9104188084602356,
+            "sentiment_confidence": 0.9350915551185608,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 10,
             "macro_buckets": [
-              "policy",
               "inflation",
-              "rates"
+              "rates",
+              "fx"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "inflation"
             ],
             "scores": {
               "inflation": -2,
               "growth": 0,
-              "policy": -2,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-5",
-            "title": "Dollar gains, yen slips as US CPI meets expectations",
+            "doc_id": "www.investing.com-2026-08-13T22-00-19+00-00-4",
+            "title": "Canadian bond yields ease as U.S. inflation cools",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-subdued-as-markets-await-us-inflation-data-for-fed-clues-4853550",
+            "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-cools-93CH-4859018",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.7151868939399719,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "inflation",
+              "rates"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-13T22-00-19+00-00-9",
+            "title": "European shares subdued ahead of euro zone inflation data; focus on Middle East",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/european-shares-inch-up-as-lower-crude-offsets-geopolitical-unease-4856766",
             "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8330041766166687,
+            "sentiment_confidence": 0.8221193552017212,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "macro_score": 6,
             "macro_buckets": [
               "inflation",
               "fx"
@@ -219,65 +242,6 @@
               "liquidity": 0,
               "risk": 0
             }
-          },
-          {
-            "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-3",
-            "title": "US consumer inflation mild in July, economy still not out of the woods",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-consumer-prices-increase-as-expected-in-july-4854914",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5964825749397278,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "growth"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "policy",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-6",
-            "title": "Canadian bond yields ease as U.S. inflation data weighs on Fed",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-data-weighs-on-fed-93CH-4855890",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9104188084602356,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "rates"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
           }
         ]
       },
@@ -287,28 +251,52 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-6",
-            "title": "Canadian bond yields ease as U.S. inflation data weighs on Fed",
+            "doc_id": "www.investing.com-2026-08-13T22-00-19+00-00-10",
+            "title": "Euro zone bond yields edge lower on US inflation data",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-data-weighs-on-fed-93CH-4855890",
+            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-edge-lower-on-us-inflation-data-93CH-4858734",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9104188084602356,
+            "sentiment_confidence": 0.9350915551185608,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 10,
             "macro_buckets": [
-              "policy",
               "inflation",
-              "rates"
+              "rates",
+              "fx"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "inflation"
             ],
             "scores": {
               "inflation": -2,
               "growth": 0,
-              "policy": -2,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-13T22-00-19+00-00-4",
+            "title": "Canadian bond yields ease as U.S. inflation cools",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-cools-93CH-4859018",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.7151868939399719,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "inflation",
+              "rates"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
@@ -321,15 +309,41 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-12T22-00-47+00-00-5",
-            "title": "Dollar gains, yen slips as US CPI meets expectations",
+            "doc_id": "www.investing.com-2026-08-13T22-00-19+00-00-10",
+            "title": "Euro zone bond yields edge lower on US inflation data",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-subdued-as-markets-await-us-inflation-data-for-fed-clues-4853550",
+            "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-edge-lower-on-us-inflation-data-93CH-4858734",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9350915551185608,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 10,
+            "macro_buckets": [
+              "inflation",
+              "rates",
+              "fx"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-13T22-00-19+00-00-9",
+            "title": "European shares subdued ahead of euro zone inflation data; focus on Middle East",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/european-shares-inch-up-as-lower-crude-offsets-geopolitical-unease-4856766",
             "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8330041766166687,
+            "sentiment_confidence": 0.8221193552017212,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "macro_score": 6,
             "macro_buckets": [
               "inflation",
               "fx"

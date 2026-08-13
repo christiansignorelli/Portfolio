@@ -1,45 +1,45 @@
 [
   {
-    "id": "www.investing.com-2026-08-12T22-00-47+00-00-6",
+    "id": "www.investing.com-2026-08-13T22-00-19+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-12T22:00:47+00:00",
-    "title": "Canadian bond yields ease as U.S. inflation data weighs on Fed",
+    "published_at": "2026-08-13T22:00:19+00:00",
+    "title": "Euro zone bond yields edge lower on US inflation data",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-data-weighs-on-fed-93CH-4855890",
+    "url": "https://www.investing.com/news/economy-news/euro-zone-bond-yields-edge-lower-on-us-inflation-data-93CH-4858734",
     "macro_score": 10,
     "macro_buckets": [
-      "policy",
+      "inflation",
+      "rates",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-13T22-00-19+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-13T22:00:19+00:00",
+    "title": "Canadian bond yields ease as U.S. inflation cools",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/canadian-bond-yields-ease-as-us-inflation-cools-93CH-4859018",
+    "macro_score": 7,
+    "macro_buckets": [
       "inflation",
       "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-12T22-00-47+00-00-5",
+    "id": "www.investing.com-2026-08-13T22-00-19+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-12T22:00:47+00:00",
-    "title": "Dollar gains, yen slips as US CPI meets expectations",
+    "published_at": "2026-08-13T22:00:19+00:00",
+    "title": "European shares subdued ahead of euro zone inflation data; focus on Middle East",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-subdued-as-markets-await-us-inflation-data-for-fed-clues-4853550",
-    "macro_score": 7,
-    "macro_buckets": [
-      "inflation",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-12T22-00-47+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-12T22:00:47+00:00",
-    "title": "US consumer inflation mild in July, economy still not out of the woods",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-consumer-prices-increase-as-expected-in-july-4854914",
+    "url": "https://www.investing.com/news/economy-news/european-shares-inch-up-as-lower-crude-offsets-geopolitical-unease-4856766",
     "macro_score": 6,
     "macro_buckets": [
       "inflation",
-      "growth"
+      "fx"
     ]
   }
 ]
