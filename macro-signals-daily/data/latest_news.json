@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": "www.marketwatch.com-2026-08-16T13-00-00+00-00-5",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-08-16T13:00:00+00:00",
+    "title": "Here\u2019s the real reason oil prices aren\u2019t moving higher",
+    "body": "Oil prices are not higher largely because the world does not want as much oil as it used to \u2014 and that\u2019s arguably the more troubling story.",
+    "url": "https://www.marketwatch.com/story/heres-the-real-reason-oil-prices-arent-moving-higher-256afdbc?mod=mw_rss_topstories",
+    "macro_score": 6,
+    "macro_buckets": [
+      "inflation",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-16T21-33-38+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-16T21:33:38+00:00",
+    "title": "Morgan Stanley says disinflation is here, but risks to 2027 rate outlook remain",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/morgan-stanley-says-disinflation-is-here-but-risks-to-2027-rate-outlook-remain-4862000",
+    "macro_score": 5,
+    "macro_buckets": [
+      "inflation"
+    ]
+  }
+]

@@ -1,1 +1,232 @@
-[]
+[
+  {
+    "date": "2026-08-16",
+    "daily_brief": "2026-08-16: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": -0.2,
+        "return_5d": 0.4,
+        "close": 776.3400268554688
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": -0.67,
+        "return_5d": -0.87,
+        "close": 82.04000091552734
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": -0.25,
+        "return_5d": 0.14,
+        "close": 28.110000610351562
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 1.26,
+        "return_5d": 7.31,
+        "close": 126.5999984741211
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": -0.1,
+        "return_5d": 0.13,
+        "close": 79.70999908447266
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": 0.63,
+        "return_5d": 0.76,
+        "close": 401.4800109863281
+      }
+    ],
+    "news_sentiment": {
+      "label": "insufficient_data",
+      "score": -1.0,
+      "display_score": -1.0,
+      "unique_documents": 2,
+      "positive_pct": 0.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 100.0,
+      "average_confidence": 0.615
+    },
+    "market_regime": {
+      "label": "mixed",
+      "score": 0.05,
+      "signals_used": 4,
+      "signals_available": 4,
+      "contributions": {
+        "SPY": 0.0,
+        "HYG": 0.0,
+        "TLT": 0.15,
+        "GLD": -0.1
+      },
+      "explanation": "The major market proxies gave a mixed risk signal.",
+      "data_quality_status": "complete"
+    },
+    "confirmation": {
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "mixed"
+    },
+    "analyzed_coverage": [
+      {
+        "doc_id": "www.marketwatch.com-2026-08-16T13-00-00+00-00-5",
+        "title": "Here\u2019s the real reason oil prices aren\u2019t moving higher",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/heres-the-real-reason-oil-prices-arent-moving-higher-256afdbc?mod=mw_rss_topstories",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.6513423323631287,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "inflation",
+          "energy"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-16T21-33-38+00-00-2",
+        "title": "Morgan Stanley says disinflation is here, but risks to 2027 rate outlook remain",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/morgan-stanley-says-disinflation-is-here-but-risks-to-2027-rate-outlook-remain-4862000",
+        "confidence": "low",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.578051745891571,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 5,
+        "macro_buckets": [
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "risk"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": -1
+        }
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "inflation",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-08-16T13-00-00+00-00-5",
+            "title": "Here\u2019s the real reason oil prices aren\u2019t moving higher",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/heres-the-real-reason-oil-prices-arent-moving-higher-256afdbc?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.6513423323631287,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-16T21-33-38+00-00-2",
+            "title": "Morgan Stanley says disinflation is here, but risks to 2027 rate outlook remain",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/morgan-stanley-says-disinflation-is-here-but-risks-to-2027-rate-outlook-remain-4862000",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.578051745891571,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 5,
+            "macro_buckets": [
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "risk"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": -1
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-08-16T13-00-00+00-00-5",
+            "title": "Here\u2019s the real reason oil prices aren\u2019t moving higher",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/heres-the-real-reason-oil-prices-arent-moving-higher-256afdbc?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.6513423323631287,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  }
+]
