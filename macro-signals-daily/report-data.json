@@ -1,98 +1,147 @@
 [
   {
-    "date": "2026-08-16",
-    "daily_brief": "2026-08-16: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
-    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
-    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "date": "2026-08-17",
+    "daily_brief": "2026-08-17: 6 unique articles were analyzed. News sentiment was negative. Top theme: uncategorized.",
+    "macro_read": "Macro read: Policy, Inflation coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.2,
-        "return_5d": 0.4,
-        "close": 776.3400268554688
+        "return_1d": -0.47,
+        "return_5d": -0.05,
+        "close": 772.6699829101562
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.67,
+        "return_1d": -0.84,
         "return_5d": -0.87,
-        "close": 82.04000091552734
+        "close": 81.3499984741211
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.25,
-        "return_5d": 0.14,
-        "close": 28.110000610351562
+        "return_1d": -0.04,
+        "return_5d": -0.14,
+        "close": 28.100000381469727
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 1.26,
-        "return_5d": 7.31,
-        "close": 126.5999984741211
+        "return_1d": 2.91,
+        "return_5d": 3.47,
+        "close": 130.2899932861328
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.1,
-        "return_5d": 0.13,
-        "close": 79.70999908447266
+        "return_1d": -0.13,
+        "return_5d": 0.16,
+        "close": 79.61000061035156
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.63,
-        "return_5d": 0.76,
-        "close": 401.4800109863281
+        "return_1d": 1.0,
+        "return_5d": 0.73,
+        "close": 405.489990234375
       }
     ],
     "news_sentiment": {
-      "label": "insufficient_data",
-      "score": -1.0,
-      "display_score": -1.0,
-      "unique_documents": 2,
-      "positive_pct": 0.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 100.0,
-      "average_confidence": 0.615
+      "label": "negative",
+      "score": -0.3333333333333333,
+      "display_score": -0.33,
+      "unique_documents": 6,
+      "positive_pct": 16.7,
+      "neutral_pct": 33.3,
+      "negative_pct": 50.0,
+      "average_confidence": 0.869
     },
     "market_regime": {
-      "label": "mixed",
-      "score": 0.05,
+      "label": "risk_off",
+      "score": -0.35,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.0,
+        "SPY": -0.4,
         "HYG": 0.0,
         "TLT": 0.15,
         "GLD": -0.1
       },
-      "explanation": "The major market proxies gave a mixed risk signal.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "insufficient_data",
-      "label": "Insufficient data",
-      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
-      "news_label": "insufficient_data",
-      "market_label": "mixed"
+      "status": "confirmed",
+      "label": "Confirmed",
+      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+      "news_label": "negative",
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-08-16T13-00-00+00-00-5",
-        "title": "Here\u2019s the real reason oil prices aren\u2019t moving higher",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/heres-the-real-reason-oil-prices-arent-moving-higher-256afdbc?mod=mw_rss_topstories",
-        "confidence": "medium",
+        "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-5",
+        "title": "Stocks, dollar fall after weak data; yields rise",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/asian-shares-mark-time-as-gulf-war-keeps-oil-prices-up-4862057",
+        "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.6513423323631287,
+        "sentiment_confidence": 0.962833821773529,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 7,
+        "macro_buckets": [
+          "rates",
+          "fx"
+        ],
+        "themes": [
+          "uncategorized"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-10",
+        "title": "Fed policy stance keeps Treasury yields high, says Citadel Securities",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/fed-policy-stance-keeps-treasury-yields-high-says-citadel-securities-4863708",
+        "confidence": "medium",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.7736626267433167,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 7,
+        "macro_buckets": [
+          "policy",
+          "rates"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-4",
+        "title": "Wall Street indexes slip as oil prices rise, retail results awaited",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/nasdaq-futures-gain-as-tech-stocks-climb-4862660",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9553034901618958,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
@@ -103,7 +152,7 @@
           "inflation"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": -2,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -111,28 +160,76 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-08-16T21-33-38+00-00-2",
-        "title": "Morgan Stanley says disinflation is here, but risks to 2027 rate outlook remain",
+        "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-1",
+        "title": "Dollar edges lower against euro as markets trim rate hike bets",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/morgan-stanley-says-disinflation-is-here-but-risks-to-2027-rate-outlook-remain-4862000",
-        "confidence": "low",
+        "url": "https://www.investing.com/news/economy-news/yen-edges-up-as-traders-push-back-fed-rate-hike-bets-4862043",
+        "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.578051745891571,
+        "sentiment_confidence": 0.9043562412261963,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 5,
         "macro_buckets": [
-          "inflation"
+          "policy",
+          "fx"
         ],
         "themes": [
-          "inflation",
-          "risk"
+          "uncategorized"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": 0,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
-          "risk": -1
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-8",
+        "title": "One neutral rate estimate suggests Fed\u2019s policy stance is accommodative, paper says",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/one-neutral-rate-estimate-suggests-feds-policy-stance-is-accommodative-paper-says-4863762",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.6843215823173523,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 5,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-2",
+        "title": "Trading Day: Bonds play the blues",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/trading-day-bonds-play-the-blues-4863991",
+        "confidence": "high",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.9343436360359192,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "rates"
+        ],
+        "themes": [
+          "uncategorized"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
         }
       }
     ],
@@ -143,13 +240,13 @@
         "score": -2,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-08-16T13-00-00+00-00-5",
-            "title": "Here\u2019s the real reason oil prices aren\u2019t moving higher",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/heres-the-real-reason-oil-prices-arent-moving-higher-256afdbc?mod=mw_rss_topstories",
-            "confidence": "medium",
+            "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-4",
+            "title": "Wall Street indexes slip as oil prices rise, retail results awaited",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/nasdaq-futures-gain-as-tech-stocks-climb-4862660",
+            "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.6513423323631287,
+            "sentiment_confidence": 0.9553034901618958,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
@@ -160,36 +257,11 @@
               "inflation"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": -2,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
               "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-08-16T21-33-38+00-00-2",
-            "title": "Morgan Stanley says disinflation is here, but risks to 2027 rate outlook remain",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/morgan-stanley-says-disinflation-is-here-but-risks-to-2027-rate-outlook-remain-4862000",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.578051745891571,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 5,
-            "macro_buckets": [
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "risk"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": -1
             }
           }
         ]
@@ -200,13 +272,13 @@
         "score": -2,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-08-16T13-00-00+00-00-5",
-            "title": "Here\u2019s the real reason oil prices aren\u2019t moving higher",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/heres-the-real-reason-oil-prices-arent-moving-higher-256afdbc?mod=mw_rss_topstories",
-            "confidence": "medium",
+            "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-4",
+            "title": "Wall Street indexes slip as oil prices rise, retail results awaited",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/nasdaq-futures-gain-as-tech-stocks-climb-4862660",
+            "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.6513423323631287,
+            "sentiment_confidence": 0.9553034901618958,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
@@ -217,7 +289,169 @@
               "inflation"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "positive news sentiment",
+        "score": 1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-10",
+            "title": "Fed policy stance keeps Treasury yields high, says Citadel Securities",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/fed-policy-stance-keeps-treasury-yields-high-says-citadel-securities-4863708",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.7736626267433167,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "policy",
+              "rates"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-1",
+            "title": "Dollar edges lower against euro as markets trim rate hike bets",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/yen-edges-up-as-traders-push-back-fed-rate-hike-bets-4862043",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9043562412261963,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 5,
+            "macro_buckets": [
+              "policy",
+              "fx"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-8",
+            "title": "One neutral rate estimate suggests Fed\u2019s policy stance is accommodative, paper says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/one-neutral-rate-estimate-suggests-feds-policy-stance-is-accommodative-paper-says-4863762",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.6843215823173523,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 5,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-5",
+            "title": "Stocks, dollar fall after weak data; yields rise",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/asian-shares-mark-time-as-gulf-war-keeps-oil-prices-up-4862057",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.962833821773529,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "rates",
+              "fx"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-10",
+            "title": "Fed policy stance keeps Treasury yields high, says Citadel Securities",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/fed-policy-stance-keeps-treasury-yields-high-says-citadel-securities-4863708",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.7736626267433167,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "policy",
+              "rates"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-17T21-38-03+00-00-2",
+            "title": "Trading Day: Bonds play the blues",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/trading-day-bonds-play-the-blues-4863991",
+            "confidence": "high",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.9343436360359192,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "rates"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
