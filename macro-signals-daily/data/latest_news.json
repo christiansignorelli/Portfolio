@@ -1,81 +1,38 @@
 [
   {
-    "id": "www.investing.com-2026-08-17T21-38-03+00-00-5",
+    "id": "www.investing.com-2026-08-18T21-36-48+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-17T21:38:03+00:00",
-    "title": "Stocks, dollar fall after weak data; yields rise",
+    "published_at": "2026-08-18T21:36:48+00:00",
+    "title": "Venezuela sends half its oil production to US refineries, Haustveit says",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/asian-shares-mark-time-as-gulf-war-keeps-oil-prices-up-4862057",
-    "macro_score": 7,
+    "url": "https://www.investing.com/news/economy-news/venezuela-sends-half-its-oil-production-to-us-refineries-haustveit-says-93CH-4865912",
+    "macro_score": 5,
     "macro_buckets": [
-      "rates",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-17T21-38-03+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-17T21:38:03+00:00",
-    "title": "Fed policy stance keeps Treasury yields high, says Citadel Securities",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/fed-policy-stance-keeps-treasury-yields-high-says-citadel-securities-4863708",
-    "macro_score": 7,
-    "macro_buckets": [
-      "policy",
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-17T21-38-03+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-17T21:38:03+00:00",
-    "title": "Wall Street indexes slip as oil prices rise, retail results awaited",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/nasdaq-futures-gain-as-tech-stocks-climb-4862660",
-    "macro_score": 6,
-    "macro_buckets": [
-      "inflation",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-17T21-38-03+00-00-1",
+    "id": "www.investing.com-2026-08-18T21-36-48+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-17T21:38:03+00:00",
-    "title": "Dollar edges lower against euro as markets trim rate hike bets",
+    "published_at": "2026-08-18T21:36:48+00:00",
+    "title": "Trading Day: Bonds slam stocks",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/yen-edges-up-as-traders-push-back-fed-rate-hike-bets-4862043",
-    "macro_score": 5,
+    "url": "https://www.investing.com/news/economy-news/trading-day-bonds-slam-stocks-4866135",
+    "macro_score": 4,
     "macro_buckets": [
-      "policy",
-      "fx"
+      "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-17T21-38-03+00-00-8",
+    "id": "www.investing.com-2026-08-18T21-36-48+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-17T21:38:03+00:00",
-    "title": "One neutral rate estimate suggests Fed\u2019s policy stance is accommodative, paper says",
+    "published_at": "2026-08-18T21:36:48+00:00",
+    "title": "Explainer-Treasury yields are rising - why does it matter?",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/one-neutral-rate-estimate-suggests-feds-policy-stance-is-accommodative-paper-says-4863762",
-    "macro_score": 5,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-17T21-38-03+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-17T21:38:03+00:00",
-    "title": "Trading Day: Bonds play the blues",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/trading-day-bonds-play-the-blues-4863991",
+    "url": "https://www.investing.com/news/economy-news/explainertreasury-yields-are-rising--why-does-it-matter-4865923",
     "macro_score": 4,
     "macro_buckets": [
       "rates"
