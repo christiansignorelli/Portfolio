@@ -1,38 +1,54 @@
 [
   {
-    "id": "www.investing.com-2026-08-18T21-36-48+00-00-6",
+    "id": "www.investing.com-2026-08-19T21-38-11+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-18T21:36:48+00:00",
-    "title": "Venezuela sends half its oil production to US refineries, Haustveit says",
+    "published_at": "2026-08-19T21:38:11+00:00",
+    "title": "Many policymakers see rate hikes likely if inflation does not fall - Fed minutes",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/venezuela-sends-half-its-oil-production-to-us-refineries-haustveit-says-93CH-4865912",
-    "macro_score": 5,
+    "url": "https://www.investing.com/news/economy-news/many-policymakers-see-rate-hikes-likely-if-inflation-does-not-fall--fed-minutes-4868004",
+    "macro_score": 9,
     "macro_buckets": [
-      "energy"
+      "policy",
+      "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-18T21-36-48+00-00-1",
+    "id": "www.investing.com-2026-08-19T21-38-11+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-18T21:36:48+00:00",
-    "title": "Trading Day: Bonds slam stocks",
+    "published_at": "2026-08-19T21:38:11+00:00",
+    "title": "US yields drop after Treasury offers liquidity support",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/trading-day-bonds-slam-stocks-4866135",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/us-yields-head-lower-after-treasury-offers-liquidity-support-4867802",
+    "macro_score": 7,
     "macro_buckets": [
-      "rates"
+      "rates",
+      "liquidity"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-18T21-36-48+00-00-4",
+    "id": "www.investing.com-2026-08-19T21-38-11+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-18T21:36:48+00:00",
-    "title": "Explainer-Treasury yields are rising - why does it matter?",
+    "published_at": "2026-08-19T21:38:11+00:00",
+    "title": "Fed policymakers\u2019 inflation concerns increased at July meeting, minutes show",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/explainertreasury-yields-are-rising--why-does-it-matter-4865923",
+    "url": "https://www.investing.com/news/economy-news/fed-policymakers-inflation-concerns-increased-at-july-meeting-minutes-show-4868029",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-08-19T21-10-00+00-00-2",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-08-19T21:10:00+00:00",
+    "title": "Why the Treasury market\u2019s newfound calm could break down in September",
+    "body": "A brutal summer stretch for the U.S. Treasury market risks getting worse come September, right as many of the world\u2019s largest companies plan to unleash a new wave of bond issuance.",
+    "url": "https://www.marketwatch.com/story/treasury-market-reprieve-could-be-fleeting-with-deluge-of-corporate-bond-issuance-due-in-september-33cfaacd?mod=mw_rss_topstories",
     "macro_score": 4,
     "macro_buckets": [
       "rates"

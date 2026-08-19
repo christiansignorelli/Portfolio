@@ -1,105 +1,101 @@
 [
   {
-    "date": "2026-08-18",
-    "daily_brief": "2026-08-18: 3 unique articles were analyzed. News sentiment was neutral. Top theme: uncategorized.",
-    "macro_read": "Macro read: coverage across inflation was broadly neutral or mixed.",
-    "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
+    "date": "2026-08-19",
+    "daily_brief": "2026-08-19: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy, Liquidity coverage showed a predominantly negative tone.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
-        "symbol": "SPY",
-        "label": "US equities",
-        "return_1d": -0.68,
-        "return_5d": -0.4,
-        "close": 767.4500122070312
-      },
-      {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.38,
-        "return_5d": -0.64,
-        "close": 81.66000366210938
+        "return_1d": 1.67,
+        "return_5d": 1.11,
+        "close": 83.0199966430664
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.14,
-        "return_5d": 0.0,
-        "close": 28.139999389648438
+        "return_1d": -0.92,
+        "return_5d": -1.13,
+        "close": 27.8799991607666
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 0.28,
-        "return_5d": 2.39,
-        "close": 130.66000366210938
+        "return_1d": 0.19,
+        "return_5d": 2.84,
+        "close": 130.91000366210938
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.1,
-        "return_5d": 0.03,
-        "close": 79.52999877929688
+        "return_1d": 0.23,
+        "return_5d": 0.13,
+        "close": 79.70999908447266
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -1.71,
-        "return_5d": -0.6,
-        "close": 398.54998779296875
+        "return_1d": 3.84,
+        "return_5d": 2.2,
+        "close": 413.8399963378906
       }
     ],
     "news_sentiment": {
-      "label": "neutral",
-      "score": 0.0,
-      "display_score": 0.0,
-      "unique_documents": 3,
+      "label": "negative",
+      "score": -0.75,
+      "display_score": -0.75,
+      "unique_documents": 4,
       "positive_pct": 0.0,
-      "neutral_pct": 100.0,
-      "negative_pct": 0.0,
-      "average_confidence": 0.846
+      "neutral_pct": 25.0,
+      "negative_pct": 75.0,
+      "average_confidence": 0.792
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.45,
-      "signals_used": 4,
-      "signals_available": 4,
+      "label": "insufficient_data",
+      "score": 0.0,
+      "signals_used": 0,
+      "signals_available": 3,
       "contributions": {
-        "SPY": -0.4,
-        "HYG": 0.0,
-        "TLT": -0.15,
-        "GLD": 0.1
+        "SPY": null,
+        "HYG": null,
+        "TLT": null,
+        "GLD": null
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
-      "data_quality_status": "complete"
+      "explanation": "Market confirmation needs both SPY and HYG as the primary risk proxies.",
+      "data_quality_status": "missing_primary_signals"
     },
     "confirmation": {
-      "status": "market_led",
-      "label": "Market-led",
-      "explanation": "News sentiment was neutral, while markets showed a clearer directional response.",
-      "news_label": "neutral",
-      "market_label": "risk_off"
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "negative",
+      "market_label": "insufficient_data"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-08-18T21-36-48+00-00-6",
-        "title": "Venezuela sends half its oil production to US refineries, Haustveit says",
+        "doc_id": "www.investing.com-2026-08-19T21-38-11+00-00-8",
+        "title": "Many policymakers see rate hikes likely if inflation does not fall - Fed minutes",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/venezuela-sends-half-its-oil-production-to-us-refineries-haustveit-says-93CH-4865912",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/many-policymakers-see-rate-hikes-likely-if-inflation-does-not-fall--fed-minutes-4868004",
+        "confidence": "low",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.907006561756134,
+        "sentiment_confidence": 0.5872140526771545,
         "summary_label": "neutral-financial-sentiment",
-        "macro_score": 5,
+        "macro_score": 9,
         "macro_buckets": [
-          "energy"
-        ],
-        "themes": [
+          "policy",
           "inflation"
         ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
         "scores": {
           "inflation": 0,
           "growth": 0,
@@ -109,75 +105,136 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-08-18T21-36-48+00-00-1",
-        "title": "Trading Day: Bonds slam stocks",
+        "doc_id": "www.investing.com-2026-08-19T21-38-11+00-00-6",
+        "title": "US yields drop after Treasury offers liquidity support",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/trading-day-bonds-slam-stocks-4866135",
+        "url": "https://www.investing.com/news/economy-news/us-yields-head-lower-after-treasury-offers-liquidity-support-4867802",
         "confidence": "high",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.897343635559082,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 4,
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9031925201416016,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 7,
         "macro_buckets": [
-          "rates"
+          "rates",
+          "liquidity"
         ],
         "themes": [
-          "uncategorized"
+          "liquidity"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
           "policy": 0,
+          "liquidity": -2,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-19T21-38-11+00-00-7",
+        "title": "Fed policymakers\u2019 inflation concerns increased at July meeting, minutes show",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/fed-policymakers-inflation-concerns-increased-at-july-meeting-minutes-show-4868029",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.7254700064659119,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": -1,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-08-18T21-36-48+00-00-4",
-        "title": "Explainer-Treasury yields are rising - why does it matter?",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/explainertreasury-yields-are-rising--why-does-it-matter-4865923",
-        "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.7322820425033569,
-        "summary_label": "neutral-financial-sentiment",
+        "doc_id": "www.marketwatch.com-2026-08-19T21-10-00+00-00-2",
+        "title": "Why the Treasury market\u2019s newfound calm could break down in September",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/treasury-market-reprieve-could-be-fleeting-with-deluge-of-corporate-bond-issuance-due-in-september-33cfaacd?mod=mw_rss_topstories",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9504489302635193,
+        "summary_label": "negative-financial-sentiment",
         "macro_score": 4,
         "macro_buckets": [
           "rates"
         ],
         "themes": [
-          "uncategorized"
+          "risk"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
-          "risk": 0
+          "risk": -2
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "rates",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "name": "liquidity",
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-18T21-36-48+00-00-1",
-            "title": "Trading Day: Bonds slam stocks",
+            "doc_id": "www.investing.com-2026-08-19T21-38-11+00-00-6",
+            "title": "US yields drop after Treasury offers liquidity support",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/trading-day-bonds-slam-stocks-4866135",
+            "url": "https://www.investing.com/news/economy-news/us-yields-head-lower-after-treasury-offers-liquidity-support-4867802",
             "confidence": "high",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.897343635559082,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 4,
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9031925201416016,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
-              "rates"
+              "rates",
+              "liquidity"
             ],
             "themes": [
-              "uncategorized"
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": -2,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "negative news sentiment",
+        "score": -1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-19T21-38-11+00-00-8",
+            "title": "Many policymakers see rate hikes likely if inflation does not fall - Fed minutes",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/many-policymakers-see-rate-hikes-likely-if-inflation-does-not-fall--fed-minutes-4868004",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.5872140526771545,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
             ],
             "scores": {
               "inflation": 0,
@@ -188,20 +245,55 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-08-18T21-36-48+00-00-4",
-            "title": "Explainer-Treasury yields are rising - why does it matter?",
+            "doc_id": "www.investing.com-2026-08-19T21-38-11+00-00-7",
+            "title": "Fed policymakers\u2019 inflation concerns increased at July meeting, minutes show",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/explainertreasury-yields-are-rising--why-does-it-matter-4865923",
+            "url": "https://www.investing.com/news/economy-news/fed-policymakers-inflation-concerns-increased-at-july-meeting-minutes-show-4868029",
             "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.7322820425033569,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 4,
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.7254700064659119,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
-              "rates"
+              "policy",
+              "inflation"
             ],
             "themes": [
-              "uncategorized"
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "negative news sentiment",
+        "score": -1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-19T21-38-11+00-00-8",
+            "title": "Many policymakers see rate hikes likely if inflation does not fall - Fed minutes",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/many-policymakers-see-rate-hikes-likely-if-inflation-does-not-fall--fed-minutes-4868004",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.5872140526771545,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
             ],
             "scores": {
               "inflation": 0,
@@ -210,36 +302,87 @@
               "liquidity": 0,
               "risk": 0
             }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-19T21-38-11+00-00-7",
+            "title": "Fed policymakers\u2019 inflation concerns increased at July meeting, minutes show",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/fed-policymakers-inflation-concerns-increased-at-july-meeting-minutes-show-4868029",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.7254700064659119,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
           }
         ]
       },
       {
-        "name": "energy",
+        "name": "rates",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-18T21-36-48+00-00-6",
-            "title": "Venezuela sends half its oil production to US refineries, Haustveit says",
+            "doc_id": "www.investing.com-2026-08-19T21-38-11+00-00-6",
+            "title": "US yields drop after Treasury offers liquidity support",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/venezuela-sends-half-its-oil-production-to-us-refineries-haustveit-says-93CH-4865912",
+            "url": "https://www.investing.com/news/economy-news/us-yields-head-lower-after-treasury-offers-liquidity-support-4867802",
             "confidence": "high",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.907006561756134,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 5,
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9031925201416016,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
-              "energy"
+              "rates",
+              "liquidity"
             ],
             "themes": [
-              "inflation"
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": -2,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.marketwatch.com-2026-08-19T21-10-00+00-00-2",
+            "title": "Why the Treasury market\u2019s newfound calm could break down in September",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/treasury-market-reprieve-could-be-fleeting-with-deluge-of-corporate-bond-issuance-due-in-september-33cfaacd?mod=mw_rss_topstories",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9504489302635193,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "rates"
+            ],
+            "themes": [
+              "risk"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
-              "risk": 0
+              "risk": -2
             }
           }
         ]
