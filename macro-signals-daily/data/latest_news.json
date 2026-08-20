@@ -1,54 +1,52 @@
 [
   {
-    "id": "www.investing.com-2026-08-19T21-38-11+00-00-8",
+    "id": "www.investing.com-2026-08-20T21-40-31+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-19T21:38:11+00:00",
-    "title": "Many policymakers see rate hikes likely if inflation does not fall - Fed minutes",
+    "published_at": "2026-08-20T21:40:31+00:00",
+    "title": "Dollar rebounds from losses sparked by Treasury buyback plan",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/many-policymakers-see-rate-hikes-likely-if-inflation-does-not-fall--fed-minutes-4868004",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-19T21-38-11+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-19T21:38:11+00:00",
-    "title": "US yields drop after Treasury offers liquidity support",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-yields-head-lower-after-treasury-offers-liquidity-support-4867802",
-    "macro_score": 7,
-    "macro_buckets": [
-      "rates",
-      "liquidity"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-19T21-38-11+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-19T21:38:11+00:00",
-    "title": "Fed policymakers\u2019 inflation concerns increased at July meeting, minutes show",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/fed-policymakers-inflation-concerns-increased-at-july-meeting-minutes-show-4868029",
+    "url": "https://www.investing.com/news/economy-news/dollar-hugs-threemonth-lows-as-treasury-seeks-to-sooth-the-bond-market-4868503",
     "macro_score": 6,
     "macro_buckets": [
-      "policy",
-      "inflation"
+      "rates",
+      "fx"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-08-19T21-10-00+00-00-2",
+    "id": "www.investing.com-2026-08-20T21-40-31+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-20T21:40:31+00:00",
+    "title": "Mexico central bank signals prolonged pause in rates",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/mexico-central-bank-signals-more-rate-holds-ahead-4870182",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-08-20T19-06-00+00-00-4",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-08-19T21:10:00+00:00",
-    "title": "Why the Treasury market\u2019s newfound calm could break down in September",
-    "body": "A brutal summer stretch for the U.S. Treasury market risks getting worse come September, right as many of the world\u2019s largest companies plan to unleash a new wave of bond issuance.",
-    "url": "https://www.marketwatch.com/story/treasury-market-reprieve-could-be-fleeting-with-deluge-of-corporate-bond-issuance-due-in-september-33cfaacd?mod=mw_rss_topstories",
+    "published_at": "2026-08-20T19:06:00+00:00",
+    "title": "The bond market is going to burst the stock-market bubble",
+    "body": "Rising yields threaten everything, especially  overextended equities.",
+    "url": "https://www.marketwatch.com/story/the-bond-market-is-going-to-burst-the-stock-market-bubble-1c6f0971?mod=mw_rss_topstories",
+    "macro_score": 4,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-20T21-40-31+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-20T21:40:31+00:00",
+    "title": "Bond relief ebbs, stocks mixed as investors question Treasury\u2019s rescue efforts",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/bonds-steady-after-us-treasury-comes-to-the-rescue-4868552",
     "macro_score": 4,
     "macro_buckets": [
       "rates"
