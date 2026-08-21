@@ -1,184 +1,110 @@
 [
   {
-    "date": "2026-08-20",
-    "daily_brief": "2026-08-20: 4 unique articles were analyzed. News sentiment was negative. Top theme: uncategorized.",
-    "macro_read": "Macro read: Policy, Liquidity coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+    "date": "2026-08-21",
+    "daily_brief": "2026-08-21: 1 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
       "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.84,
-        "return_5d": -1.96,
-        "close": 762.5999755859375
+        "return_1d": 0.41,
+        "return_5d": -1.37,
+        "close": 765.719970703125
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.82,
-        "return_5d": -0.3,
-        "close": 82.33999633789062
+        "return_1d": -0.35,
+        "return_5d": 0.01,
+        "close": 82.05000305175781
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.11,
-        "return_5d": -0.96,
-        "close": 27.90999984741211
+        "return_1d": -0.04,
+        "return_5d": -0.75,
+        "close": 27.899999618530273
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 2.77,
-        "return_5d": 7.61,
-        "close": 134.5399932861328
+        "return_1d": 0.07,
+        "return_5d": 6.35,
+        "close": 134.63999938964844
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.19,
-        "return_5d": -0.29,
-        "close": 79.55999755859375
+        "return_1d": 0.06,
+        "return_5d": -0.13,
+        "close": 79.61000061035156
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.34,
-        "return_5d": 4.09,
-        "close": 415.260009765625
+        "return_1d": 1.95,
+        "return_5d": 5.45,
+        "close": 423.3599853515625
       }
     ],
     "news_sentiment": {
-      "label": "negative",
+      "label": "insufficient_data",
       "score": -1.0,
       "display_score": -1.0,
-      "unique_documents": 4,
+      "unique_documents": 1,
       "positive_pct": 0.0,
       "neutral_pct": 0.0,
       "negative_pct": 100.0,
-      "average_confidence": 0.871
+      "average_confidence": 0.842
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.35,
+      "label": "risk_on",
+      "score": 0.45,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
+        "SPY": 0.4,
         "HYG": 0.0,
         "TLT": 0.15,
         "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "confirmed",
-      "label": "Confirmed",
-      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
-      "news_label": "negative",
-      "market_label": "risk_off"
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-08-20T21-40-31+00-00-10",
-        "title": "Mexico central bank signals prolonged pause in rates",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/mexico-central-bank-signals-more-rate-holds-ahead-4870182",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8801110982894897,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": -2,
-          "liquidity": -2,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-08-20T21-40-31+00-00-4",
-        "title": "Dollar rebounds from losses sparked by Treasury buyback plan",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-hugs-threemonth-lows-as-treasury-seeks-to-sooth-the-bond-market-4868503",
+        "doc_id": "www.marketwatch.com-2026-08-21T20-11-00+00-00-6",
+        "title": "Here\u2019s how Bessent\u2019s newly activist Treasury Department is undercutting the Fed\u2019s Warsh",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
         "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.8429213762283325,
+        "sentiment_confidence": 0.8422080874443054,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
+        "macro_score": 9,
         "macro_buckets": [
-          "rates",
-          "fx"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-08-20T19-06-00+00-00-4",
-        "title": "The bond market is going to burst the stock-market bubble",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/the-bond-market-is-going-to-burst-the-stock-market-bubble-1c6f0971?mod=mw_rss_topstories",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8823607563972473,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
+          "policy",
           "rates"
         ],
         "themes": [
-          "uncategorized"
+          "policy"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-08-20T21-40-31+00-00-2",
-        "title": "Bond relief ebbs, stocks mixed as investors question Treasury\u2019s rescue efforts",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/bonds-steady-after-us-treasury-comes-to-the-rescue-4868552",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.878190815448761,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "rates"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
+          "policy": -1,
           "liquidity": 0,
           "risk": 0
         }
@@ -188,30 +114,30 @@
       {
         "name": "policy",
         "label": "negative news sentiment",
-        "score": -2,
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-20T21-40-31+00-00-10",
-            "title": "Mexico central bank signals prolonged pause in rates",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/mexico-central-bank-signals-more-rate-holds-ahead-4870182",
-            "confidence": "high",
+            "doc_id": "www.marketwatch.com-2026-08-21T20-11-00+00-00-6",
+            "title": "Here\u2019s how Bessent\u2019s newly activist Treasury Department is undercutting the Fed\u2019s Warsh",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
+            "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8801110982894897,
+            "sentiment_confidence": 0.8422080874443054,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "macro_score": 9,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "rates"
             ],
             "themes": [
-              "policy",
-              "liquidity"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": -2,
-              "liquidity": -2,
+              "policy": -1,
+              "liquidity": 0,
               "risk": 0
             }
           }
@@ -223,106 +149,26 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-20T21-40-31+00-00-4",
-            "title": "Dollar rebounds from losses sparked by Treasury buyback plan",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-hugs-threemonth-lows-as-treasury-seeks-to-sooth-the-bond-market-4868503",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8429213762283325,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "rates",
-              "fx"
-            ],
-            "themes": [
-              "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-08-20T19-06-00+00-00-4",
-            "title": "The bond market is going to burst the stock-market bubble",
+            "doc_id": "www.marketwatch.com-2026-08-21T20-11-00+00-00-6",
+            "title": "Here\u2019s how Bessent\u2019s newly activist Treasury Department is undercutting the Fed\u2019s Warsh",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/the-bond-market-is-going-to-burst-the-stock-market-bubble-1c6f0971?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8823607563972473,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
-              "rates"
-            ],
-            "themes": [
-              "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-08-20T21-40-31+00-00-2",
-            "title": "Bond relief ebbs, stocks mixed as investors question Treasury\u2019s rescue efforts",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bonds-steady-after-us-treasury-comes-to-the-rescue-4868552",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.878190815448761,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
-              "rates"
-            ],
-            "themes": [
-              "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "fx",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-08-20T21-40-31+00-00-4",
-            "title": "Dollar rebounds from losses sparked by Treasury buyback plan",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-hugs-threemonth-lows-as-treasury-seeks-to-sooth-the-bond-market-4868503",
+            "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
             "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8429213762283325,
+            "sentiment_confidence": 0.8422080874443054,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "macro_score": 9,
             "macro_buckets": [
-              "rates",
-              "fx"
+              "policy",
+              "rates"
             ],
             "themes": [
-              "uncategorized"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }
