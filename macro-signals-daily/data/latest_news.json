@@ -1,16 +1,29 @@
 [
   {
-    "id": "www.marketwatch.com-2026-08-21T20-11-00+00-00-6",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-08-21T20:11:00+00:00",
-    "title": "Here\u2019s how Bessent\u2019s newly activist Treasury Department is undercutting the Fed\u2019s Warsh",
-    "body": "The surprising move this week by Treasury Secretary Scott Bessent to intervene in Treasury markets to lower the cost of government debt undercuts the credibility of Federal Reserve Chairman Kevin Warsh to make interest-rate policy, experts said.",
-    "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
-    "macro_score": 9,
+    "id": "www.investing.com-2026-08-22T21-34-28+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-22T21:34:28+00:00",
+    "title": "Where are central banks keeping their gold?",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/where-are-central-banks-keeping-their-gold-4872312",
+    "macro_score": 6,
     "macro_buckets": [
       "policy",
-      "rates"
+      "liquidity"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-22T21-34-28+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-22T21:34:28+00:00",
+    "title": "Iran lets Iraqi oil tankers pass Hormuz as Trump claims \"total control\"",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/us-iran-trade-warnings-as-new-sanctions-loom-and-hormuz-oil-flows-stall-4872251",
+    "macro_score": 5,
+    "macro_buckets": [
+      "energy"
     ]
   }
 ]

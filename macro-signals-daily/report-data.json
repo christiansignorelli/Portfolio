@@ -1,12 +1,12 @@
 [
   {
-    "date": "2026-08-21",
-    "daily_brief": "2026-08-21: 1 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
+    "date": "2026-08-22",
+    "daily_brief": "2026-08-22: 2 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
     "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
     "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
@@ -54,13 +54,13 @@
     ],
     "news_sentiment": {
       "label": "insufficient_data",
-      "score": -1.0,
-      "display_score": -1.0,
-      "unique_documents": 1,
+      "score": 0.0,
+      "display_score": 0.0,
+      "unique_documents": 2,
       "positive_pct": 0.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 100.0,
-      "average_confidence": 0.842
+      "neutral_pct": 100.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.749
     },
     "market_regime": {
       "label": "risk_on",
@@ -85,26 +85,51 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-08-21T20-11-00+00-00-6",
-        "title": "Here\u2019s how Bessent\u2019s newly activist Treasury Department is undercutting the Fed\u2019s Warsh",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-08-22T21-34-28+00-00-4",
+        "title": "Where are central banks keeping their gold?",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/where-are-central-banks-keeping-their-gold-4872312",
         "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8422080874443054,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.7403063774108887,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
         "macro_buckets": [
           "policy",
-          "rates"
+          "liquidity"
         ],
         "themes": [
-          "policy"
+          "policy",
+          "liquidity"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": -1,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-22T21-34-28+00-00-1",
+        "title": "Iran lets Iraqi oil tankers pass Hormuz as Trump claims \"total control\"",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/us-iran-trade-warnings-as-new-sanctions-loom-and-hormuz-oil-flows-stall-4872251",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.7574163675308228,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 5,
+        "macro_buckets": [
+          "energy"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
           "liquidity": 0,
           "risk": 0
         }
@@ -113,30 +138,31 @@
     "bucket_views": [
       {
         "name": "policy",
-        "label": "negative news sentiment",
-        "score": -1,
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-08-21T20-11-00+00-00-6",
-            "title": "Here\u2019s how Bessent\u2019s newly activist Treasury Department is undercutting the Fed\u2019s Warsh",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-08-22T21-34-28+00-00-4",
+            "title": "Where are central banks keeping their gold?",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/where-are-central-banks-keeping-their-gold-4872312",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8422080874443054,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7403063774108887,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "rates"
+              "liquidity"
             ],
             "themes": [
-              "policy"
+              "policy",
+              "liquidity"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": -1,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
@@ -144,31 +170,63 @@
         ]
       },
       {
-        "name": "rates",
+        "name": "liquidity",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-08-21T20-11-00+00-00-6",
-            "title": "Here\u2019s how Bessent\u2019s newly activist Treasury Department is undercutting the Fed\u2019s Warsh",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-08-22T21-34-28+00-00-4",
+            "title": "Where are central banks keeping their gold?",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/where-are-central-banks-keeping-their-gold-4872312",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8422080874443054,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7403063774108887,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "rates"
+              "liquidity"
             ],
             "themes": [
-              "policy"
+              "policy",
+              "liquidity"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": -1,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-22T21-34-28+00-00-1",
+            "title": "Iran lets Iraqi oil tankers pass Hormuz as Trump claims \"total control\"",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-iran-trade-warnings-as-new-sanctions-loom-and-hormuz-oil-flows-stall-4872251",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7574163675308228,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 5,
+            "macro_buckets": [
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
