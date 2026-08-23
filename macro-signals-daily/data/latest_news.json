@@ -1,9 +1,23 @@
 [
   {
-    "id": "www.investing.com-2026-08-22T21-34-28+00-00-4",
+    "id": "www.investing.com-2026-08-23T21-35-00+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-22T21:34:28+00:00",
+    "published_at": "2026-08-23T21:35:00+00:00",
+    "title": "Fed\u2019s Kashkari says rising Treasury yields not a concern",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-kashkari-says-rising-treasury-yields-not-a-concern-4872467",
+    "macro_score": 7,
+    "macro_buckets": [
+      "policy",
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-23T21-35-00+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-23T21:35:00+00:00",
     "title": "Where are central banks keeping their gold?",
     "body": "",
     "url": "https://www.investing.com/news/economy-news/where-are-central-banks-keeping-their-gold-4872312",
@@ -14,10 +28,23 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-08-22T21-34-28+00-00-1",
+    "id": "www.marketwatch.com-2026-08-23T12-00-00+00-00-8",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-08-23T12:00:00+00:00",
+    "title": "The Treasury\u2019s bond-market intervention isn\u2019t working. So what comes next?",
+    "body": "You can\u2019t just sweep $40 trillion in U.S. national debt under a rug and forget about it \u2014 or so the bond market appears to be telling Treasury Secretary Scott Bessent.",
+    "url": "https://www.marketwatch.com/story/the-treasurys-bond-market-intervention-isnt-working-so-what-comes-next-ba5e132a?mod=mw_rss_topstories",
+    "macro_score": 5,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-23T21-35-00+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-22T21:34:28+00:00",
+    "published_at": "2026-08-23T21:35:00+00:00",
     "title": "Iran lets Iraqi oil tankers pass Hormuz as Trump claims \"total control\"",
     "body": "",
     "url": "https://www.investing.com/news/economy-news/us-iran-trade-warnings-as-new-sanctions-loom-and-hormuz-oil-flows-stall-4872251",
