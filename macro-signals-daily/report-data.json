@@ -1,183 +1,108 @@
 [
   {
-    "date": "2026-08-23",
-    "daily_brief": "2026-08-23: 4 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
-    "macro_read": "Macro read: Policy, Liquidity, Inflation coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+    "date": "2026-08-24",
+    "daily_brief": "2026-08-24: 1 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
       "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.41,
-        "return_5d": -1.37,
-        "close": 765.719970703125
+        "return_1d": -0.29,
+        "return_5d": -1.19,
+        "close": 763.469970703125
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.35,
-        "return_5d": 0.01,
-        "close": 82.05000305175781
+        "return_1d": 0.62,
+        "return_5d": 1.49,
+        "close": 82.55999755859375
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.04,
-        "return_5d": -0.75,
-        "close": 27.899999618530273
+        "return_1d": 0.22,
+        "return_5d": -0.5,
+        "close": 27.959999084472656
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 0.07,
-        "return_5d": 6.35,
-        "close": 134.63999938964844
+        "return_1d": -1.8,
+        "return_5d": 1.47,
+        "close": 132.2100067138672
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.06,
-        "return_5d": -0.13,
-        "close": 79.61000061035156
+        "return_1d": 0.11,
+        "return_5d": 0.11,
+        "close": 79.69999694824219
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.95,
-        "return_5d": 5.45,
-        "close": 423.3599853515625
+        "return_1d": 0.79,
+        "return_5d": 5.23,
+        "close": 426.69000244140625
       }
     ],
     "news_sentiment": {
-      "label": "negative",
-      "score": -0.25,
-      "display_score": -0.25,
-      "unique_documents": 4,
+      "label": "insufficient_data",
+      "score": -1.0,
+      "display_score": -1.0,
+      "unique_documents": 1,
       "positive_pct": 0.0,
-      "neutral_pct": 75.0,
-      "negative_pct": 25.0,
-      "average_confidence": 0.703
+      "neutral_pct": 0.0,
+      "negative_pct": 100.0,
+      "average_confidence": 0.942
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.45,
+      "label": "risk_off",
+      "score": -0.65,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
+        "SPY": -0.4,
         "HYG": 0.0,
-        "TLT": 0.15,
+        "TLT": -0.15,
         "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "divergent",
-      "label": "Divergent",
-      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
-      "news_label": "negative",
-      "market_label": "risk_on"
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-08-23T21-35-00+00-00-2",
-        "title": "Fed\u2019s Kashkari says rising Treasury yields not a concern",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-kashkari-says-rising-treasury-yields-not-a-concern-4872467",
-        "confidence": "medium",
+        "doc_id": "www.marketwatch.com-2026-08-24T19-40-00+00-00-6",
+        "title": "Bessent\u2019s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
+        "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.6815245151519775,
+        "sentiment_confidence": 0.9419477581977844,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
+        "macro_score": 9,
         "macro_buckets": [
-          "policy",
-          "rates"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-08-23T21-35-00+00-00-8",
-        "title": "Where are central banks keeping their gold?",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/where-are-central-banks-keeping-their-gold-4872312",
-        "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.7403066754341125,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy",
-          "liquidity"
-        ],
-        "themes": [
-          "policy",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-08-23T21-35-00+00-00-5",
-        "title": "Iran lets Iraqi oil tankers pass Hormuz as Trump claims \"total control\"",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-iran-trade-warnings-as-new-sanctions-loom-and-hormuz-oil-flows-stall-4872251",
-        "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.7574145197868347,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
+          "inflation",
           "energy"
         ],
         "themes": [
           "inflation"
         ],
         "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-08-23T12-00-00+00-00-8",
-        "title": "The Treasury\u2019s bond-market intervention isn\u2019t working. So what comes next?",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/the-treasurys-bond-market-intervention-isnt-working-so-what-comes-next-ba5e132a?mod=mw_rss_topstories",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.633202075958252,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "rates"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
+          "inflation": -2,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -187,144 +112,29 @@
     ],
     "bucket_views": [
       {
-        "name": "policy",
+        "name": "inflation",
         "label": "negative news sentiment",
-        "score": -1,
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-23T21-35-00+00-00-2",
-            "title": "Fed\u2019s Kashkari says rising Treasury yields not a concern",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-kashkari-says-rising-treasury-yields-not-a-concern-4872467",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.6815245151519775,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "policy",
-              "rates"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-08-23T21-35-00+00-00-8",
-            "title": "Where are central banks keeping their gold?",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/where-are-central-banks-keeping-their-gold-4872312",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.7403066754341125,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "liquidity"
-            ],
-            "themes": [
-              "policy",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-08-23T21-35-00+00-00-2",
-            "title": "Fed\u2019s Kashkari says rising Treasury yields not a concern",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-kashkari-says-rising-treasury-yields-not-a-concern-4872467",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.6815245151519775,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "policy",
-              "rates"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-08-23T12-00-00+00-00-8",
-            "title": "The Treasury\u2019s bond-market intervention isn\u2019t working. So what comes next?",
+            "doc_id": "www.marketwatch.com-2026-08-24T19-40-00+00-00-6",
+            "title": "Bessent\u2019s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/the-treasurys-bond-market-intervention-isnt-working-so-what-comes-next-ba5e132a?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.633202075958252,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 5,
+            "url": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9419477581977844,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
-              "rates"
+              "inflation",
+              "energy"
             ],
             "themes": [
-              "uncategorized"
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "liquidity",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-08-23T21-35-00+00-00-8",
-            "title": "Where are central banks keeping their gold?",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/where-are-central-banks-keeping-their-gold-4872312",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.7403066754341125,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "liquidity"
-            ],
-            "themes": [
-              "policy",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
+              "inflation": -2,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -335,27 +145,28 @@
       },
       {
         "name": "energy",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-23T21-35-00+00-00-5",
-            "title": "Iran lets Iraqi oil tankers pass Hormuz as Trump claims \"total control\"",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-iran-trade-warnings-as-new-sanctions-loom-and-hormuz-oil-flows-stall-4872251",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.7574145197868347,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 5,
+            "doc_id": "www.marketwatch.com-2026-08-24T19-40-00+00-00-6",
+            "title": "Bessent\u2019s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9419477581977844,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
+              "inflation",
               "energy"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -2,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
