@@ -1,16 +1,83 @@
 [
   {
-    "id": "www.marketwatch.com-2026-08-24T19-40-00+00-00-6",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-08-24T19:40:00+00:00",
-    "title": "Bessent\u2019s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
-    "body": "What matters more for oil prices is how hard U.S. sanctions hit China, Iran\u2019s biggest oil buyer, and whether Beijing pushes back.",
-    "url": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
-    "macro_score": 9,
+    "id": "www.investing.com-2026-08-25T21-41-16+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-25T21:41:16+00:00",
+    "title": "Trading Day: Oil, yields slide",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/oil-yields-slide-4875984",
+    "macro_score": 7,
     "macro_buckets": [
-      "inflation",
+      "rates",
       "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-25T21-41-16+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-25T21:41:16+00:00",
+    "title": "Treasury yields fall as oil drops, buyback debate continues",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/treasury-yields-fall-as-oil-drops-buyback-debate-continues-93CH-4875867",
+    "macro_score": 7,
+    "macro_buckets": [
+      "rates",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-25T21-41-16+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-25T21:41:16+00:00",
+    "title": "ECB set to raise rates in September amid Iran war concerns",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/ecb-set-to-raise-rates-in-september-amid-iran-war-concerns-93CH-4875865",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-25T21-41-16+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-25T21:41:16+00:00",
+    "title": "ECB set for September rate hike with no appetite to signal more, sources say",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/ecb-set-for-september-rate-hike-with-no-appetite-to-signal-more-sources-say-4875861",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-25T21-41-16+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-25T21:41:16+00:00",
+    "title": "Dollar edges lower as Iran sanctions, Treasury buybacks weighed",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/dollar-struggles-for-traction-as-markets-weigh-iran-sanctions-treasury-buybacks-4874390",
+    "macro_score": 6,
+    "macro_buckets": [
+      "rates",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-25T21-41-16+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-25T21:41:16+00:00",
+    "title": "Four Fed bank boards wanted rate hike, minutes show",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/four-fed-bank-boards-wanted-rate-hike-minutes-show-4875819",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
     ]
   }
 ]

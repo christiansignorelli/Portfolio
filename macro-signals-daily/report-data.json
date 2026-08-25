@@ -1,101 +1,101 @@
 [
   {
-    "date": "2026-08-24",
-    "daily_brief": "2026-08-24: 1 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
-    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
-    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "date": "2026-08-25",
+    "daily_brief": "2026-08-25: 6 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Inflation, Liquidity coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.29,
-        "return_5d": -1.19,
-        "close": 763.469970703125
+        "return_1d": 0.32,
+        "return_5d": -0.2,
+        "close": 765.9099731445312
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.62,
-        "return_5d": 1.49,
-        "close": 82.55999755859375
+        "return_1d": 1.1,
+        "return_5d": 2.22,
+        "close": 83.47000122070312
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.22,
-        "return_5d": -0.5,
-        "close": 27.959999084472656
+        "return_1d": -0.07,
+        "return_5d": -0.71,
+        "close": 27.940000534057617
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -1.8,
-        "return_5d": 1.47,
-        "close": 132.2100067138672
+        "return_1d": -4.58,
+        "return_5d": -3.45,
+        "close": 126.1500015258789
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.11,
-        "return_5d": 0.11,
-        "close": 79.69999694824219
+        "return_1d": 0.28,
+        "return_5d": 0.49,
+        "close": 79.91999816894531
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.79,
-        "return_5d": 5.23,
-        "close": 426.69000244140625
+        "return_1d": 0.32,
+        "return_5d": 7.41,
+        "close": 428.07000732421875
       }
     ],
     "news_sentiment": {
-      "label": "insufficient_data",
-      "score": -1.0,
-      "display_score": -1.0,
-      "unique_documents": 1,
-      "positive_pct": 0.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 100.0,
-      "average_confidence": 0.942
+      "label": "negative",
+      "score": -0.3333333333333333,
+      "display_score": -0.33,
+      "unique_documents": 6,
+      "positive_pct": 16.7,
+      "neutral_pct": 33.3,
+      "negative_pct": 50.0,
+      "average_confidence": 0.763
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.65,
+      "label": "risk_on",
+      "score": 0.5,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
-        "HYG": 0.0,
+        "SPY": 0.4,
+        "HYG": 0.35,
         "TLT": -0.15,
         "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "insufficient_data",
-      "label": "Insufficient data",
-      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
-      "news_label": "insufficient_data",
-      "market_label": "risk_off"
+      "status": "divergent",
+      "label": "Divergent",
+      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+      "news_label": "negative",
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-08-24T19-40-00+00-00-6",
-        "title": "Bessent\u2019s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-1",
+        "title": "Trading Day: Oil, yields slide",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/oil-yields-slide-4875984",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9419477581977844,
+        "sentiment_confidence": 0.9575653076171875,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
+        "macro_score": 7,
         "macro_buckets": [
-          "inflation",
+          "rates",
           "energy"
         ],
         "themes": [
@@ -108,26 +108,174 @@
           "liquidity": 0,
           "risk": 0
         }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-4",
+        "title": "Treasury yields fall as oil drops, buyback debate continues",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/treasury-yields-fall-as-oil-drops-buyback-debate-continues-93CH-4875867",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9465644955635071,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 7,
+        "macro_buckets": [
+          "rates",
+          "energy"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-8",
+        "title": "Dollar edges lower as Iran sanctions, Treasury buybacks weighed",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/dollar-struggles-for-traction-as-markets-weigh-iran-sanctions-treasury-buybacks-4874390",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9347962141036987,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "rates",
+          "fx"
+        ],
+        "themes": [
+          "uncategorized"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-9",
+        "title": "Four Fed bank boards wanted rate hike, minutes show",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/four-fed-bank-boards-wanted-rate-hike-minutes-show-4875819",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.6689630746841431,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-6",
+        "title": "ECB set for September rate hike with no appetite to signal more, sources say",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/ecb-set-for-september-rate-hike-with-no-appetite-to-signal-more-sources-say-4875861",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.6611608266830444,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-5",
+        "title": "ECB set to raise rates in September amid Iran war concerns",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/ecb-set-to-raise-rates-in-september-amid-iran-war-concerns-93CH-4875865",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.4060278534889221,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 1,
+          "liquidity": 0,
+          "risk": 0
+        }
       }
     ],
     "bucket_views": [
       {
-        "name": "inflation",
+        "name": "energy",
         "label": "negative news sentiment",
-        "score": -2,
+        "score": -4,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-08-24T19-40-00+00-00-6",
-            "title": "Bessent\u2019s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-4",
+            "title": "Treasury yields fall as oil drops, buyback debate continues",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/treasury-yields-fall-as-oil-drops-buyback-debate-continues-93CH-4875867",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9419477581977844,
+            "sentiment_confidence": 0.9465644955635071,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 7,
             "macro_buckets": [
-              "inflation",
+              "rates",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-1",
+            "title": "Trading Day: Oil, yields slide",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/oil-yields-slide-4875984",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9575653076171875,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "rates",
               "energy"
             ],
             "themes": [
@@ -144,22 +292,102 @@
         ]
       },
       {
-        "name": "energy",
-        "label": "negative news sentiment",
-        "score": -2,
+        "name": "policy",
+        "label": "positive news sentiment",
+        "score": 1,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-08-24T19-40-00+00-00-6",
-            "title": "Bessent\u2019s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-9",
+            "title": "Four Fed bank boards wanted rate hike, minutes show",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/four-fed-bank-boards-wanted-rate-hike-minutes-show-4875819",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.6689630746841431,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-5",
+            "title": "ECB set to raise rates in September amid Iran war concerns",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ecb-set-to-raise-rates-in-september-amid-iran-war-concerns-93CH-4875865",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.4060278534889221,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-6",
+            "title": "ECB set for September rate hike with no appetite to signal more, sources say",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ecb-set-for-september-rate-hike-with-no-appetite-to-signal-more-sources-say-4875861",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.6611608266830444,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-4",
+            "title": "Treasury yields fall as oil drops, buyback debate continues",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/treasury-yields-fall-as-oil-drops-buyback-debate-continues-93CH-4875867",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9419477581977844,
+            "sentiment_confidence": 0.9465644955635071,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 7,
             "macro_buckets": [
-              "inflation",
+              "rates",
               "energy"
             ],
             "themes": [
@@ -167,6 +395,88 @@
             ],
             "scores": {
               "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-1",
+            "title": "Trading Day: Oil, yields slide",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/oil-yields-slide-4875984",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9575653076171875,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "rates",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-8",
+            "title": "Dollar edges lower as Iran sanctions, Treasury buybacks weighed",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-struggles-for-traction-as-markets-weigh-iran-sanctions-treasury-buybacks-4874390",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9347962141036987,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "rates",
+              "fx"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-25T21-41-16+00-00-8",
+            "title": "Dollar edges lower as Iran sanctions, Treasury buybacks weighed",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-struggles-for-traction-as-markets-weigh-iran-sanctions-treasury-buybacks-4874390",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9347962141036987,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "rates",
+              "fx"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
