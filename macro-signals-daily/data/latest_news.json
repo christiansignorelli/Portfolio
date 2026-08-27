@@ -1,83 +1,57 @@
 [
   {
-    "id": "www.investing.com-2026-08-25T21-41-16+00-00-1",
+    "id": "www.investing.com-2026-08-27T00-46-54+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-25T21:41:16+00:00",
-    "title": "Trading Day: Oil, yields slide",
+    "published_at": "2026-08-27T00:46:54+00:00",
+    "title": "Dollar near eight-day high as US data lifts Fed hike bets",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/oil-yields-slide-4875984",
-    "macro_score": 7,
+    "url": "https://www.investing.com/news/economy-news/dollar-near-eightday-high-as-us-data-lifts-fed-hike-bets-4878113",
+    "macro_score": 8,
     "macro_buckets": [
-      "rates",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-25T21-41-16+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-25T21:41:16+00:00",
-    "title": "Treasury yields fall as oil drops, buyback debate continues",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/treasury-yields-fall-as-oil-drops-buyback-debate-continues-93CH-4875867",
-    "macro_score": 7,
-    "macro_buckets": [
-      "rates",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-25T21-41-16+00-00-5",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-25T21:41:16+00:00",
-    "title": "ECB set to raise rates in September amid Iran war concerns",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecb-set-to-raise-rates-in-september-amid-iran-war-concerns-93CH-4875865",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-25T21-41-16+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-25T21:41:16+00:00",
-    "title": "ECB set for September rate hike with no appetite to signal more, sources say",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecb-set-for-september-rate-hike-with-no-appetite-to-signal-more-sources-say-4875861",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-25T21-41-16+00-00-8",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-25T21:41:16+00:00",
-    "title": "Dollar edges lower as Iran sanctions, Treasury buybacks weighed",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-struggles-for-traction-as-markets-weigh-iran-sanctions-treasury-buybacks-4874390",
-    "macro_score": 6,
-    "macro_buckets": [
-      "rates",
+      "policy",
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-25T21-41-16+00-00-9",
+    "id": "www.investing.com-2026-08-27T00-46-54+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-25T21:41:16+00:00",
-    "title": "Four Fed bank boards wanted rate hike, minutes show",
+    "published_at": "2026-08-27T00:46:54+00:00",
+    "title": "Colombia central bank sees inflation approaching 3% target by mid-2028",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/four-fed-bank-boards-wanted-rate-hike-minutes-show-4875819",
+    "url": "https://www.investing.com/news/economy-news/colombia-central-bank-sees-inflation-approaching-3-target-by-mid2028-4878099",
     "macro_score": 6,
     "macro_buckets": [
-      "policy"
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-27T00-46-54+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-27T00:46:54+00:00",
+    "title": "Trading Day: Hot inflation cools sentiment",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/trading-day-hot-inflation-cools-sentiment-4877978",
+    "macro_score": 5,
+    "macro_buckets": [
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-27T00-46-54+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-27T00:46:54+00:00",
+    "title": "Three of Australia\u2019s four major banks forecast another rate hike this year",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/three-of-australias-four-major-banks-forecast-another-rate-hike-this-year-4878112",
+    "macro_score": 4,
+    "macro_buckets": [
+      "policy",
+      "liquidity"
     ]
   }
 ]
