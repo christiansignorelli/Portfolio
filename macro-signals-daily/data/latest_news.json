@@ -1,57 +1,16 @@
 [
   {
-    "id": "www.investing.com-2026-08-27T00-46-54+00-00-1",
+    "id": "www.investing.com-2026-08-28T05-22-14+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-27T00:46:54+00:00",
-    "title": "Dollar near eight-day high as US data lifts Fed hike bets",
+    "published_at": "2026-08-28T05:22:14+00:00",
+    "title": "Tokyo core inflation accelerates in August, nears BOJ target",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-near-eightday-high-as-us-data-lifts-fed-hike-bets-4878113",
-    "macro_score": 8,
-    "macro_buckets": [
-      "policy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-27T00-46-54+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-27T00:46:54+00:00",
-    "title": "Colombia central bank sees inflation approaching 3% target by mid-2028",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/colombia-central-bank-sees-inflation-approaching-3-target-by-mid2028-4878099",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-accelerates-in-august-nears-boj-target-4880359",
+    "macro_score": 11,
     "macro_buckets": [
       "policy",
       "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-27T00-46-54+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-27T00:46:54+00:00",
-    "title": "Trading Day: Hot inflation cools sentiment",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/trading-day-hot-inflation-cools-sentiment-4877978",
-    "macro_score": 5,
-    "macro_buckets": [
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-27T00-46-54+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-27T00:46:54+00:00",
-    "title": "Three of Australia\u2019s four major banks forecast another rate hike this year",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/three-of-australias-four-major-banks-forecast-another-rate-hike-this-year-4878112",
-    "macro_score": 4,
-    "macro_buckets": [
-      "policy",
-      "liquidity"
     ]
   }
 ]
