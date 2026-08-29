@@ -1,85 +1,43 @@
 [
   {
-    "id": "www.investing.com-2026-08-29T03-09-56+00-00-5",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-29T03:09:56+00:00",
-    "title": "Warsh signals Fed may need to hike rates if above-target inflation persists",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/will-warshs-jackson-hole-speech-be-a-course-correction-or-detour-4880496",
-    "macro_score": 9,
+    "id": "www.marketwatch.com-2026-08-29T12-00-00+00-00-7",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-08-29T12:00:00+00:00",
+    "title": "Where are all the new jobs? Hiring slows again \u2014 and it probably won\u2019t speed up soon.",
+    "body": "The U.S. labor market seemed to be on upswing after a surge in new employment early this year \u2014 but a summer slowdown in hiring and fewer help-wanted ads suggest it won\u2019t get any easier to find a job.",
+    "url": "https://www.marketwatch.com/story/where-are-all-the-new-jobs-hiring-slows-again-and-it-probably-wont-speed-up-soon-66920f1d?mod=mw_rss_topstories",
+    "macro_score": 8,
     "macro_buckets": [
-      "policy",
-      "inflation"
+      "labor"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-29T03-09-56+00-00-7",
+    "id": "www.investing.com-2026-08-29T23-16-48+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-29T03:09:56+00:00",
-    "title": "ECB\u2019s Kocher says European economy gaining momentum - Bloomberg",
+    "published_at": "2026-08-29T23:16:48+00:00",
+    "title": "US Treasury\u2019s Bessent warns yen volatility risks spillover to global markets",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecbs-kocher-says-european-economy-gaining-momentum--bloomberg-93CH-4881762",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/us-treasurys-bessent-warns-yen-volatility-risks-spillover-to-global-markets-4881990",
+    "macro_score": 6,
     "macro_buckets": [
-      "policy",
-      "growth",
+      "rates",
       "fx"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-08-28T20-10-00+00-00-8",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-08-28T20:10:00+00:00",
-    "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
-    "body": "Kevin Warsh passed another big test as a new Federal Reserve chairman on Friday: He said the central bank still has work to do on inflation, and the bond market took him at his word.",
-    "url": "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories",
-    "macro_score": 7,
-    "macro_buckets": [
-      "policy",
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-29T03-09-56+00-00-8",
+    "id": "www.investing.com-2026-08-29T23-16-48+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-29T03:09:56+00:00",
-    "title": "Analysis-Investors heartened by Warsh inflation talk, still uncertain about Fed action",
+    "published_at": "2026-08-29T23:16:48+00:00",
+    "title": "Goldman draws 3 lessons from economic research on U.S. inflation expectations",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/analysisinvestors-heartened-by-warsh-inflation-talk-still-uncertain-about-fed-action-4881760",
+    "url": "https://www.investing.com/news/economy-news/goldman-draws-3-lessons-from-economic-research-on-us-inflation-expectations-4881977",
     "macro_score": 6,
     "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-29T03-09-56+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-29T03:09:56+00:00",
-    "title": "Trump says U.S. secures control of over 65 billion barrels of Venezuelan oil",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/trump-says-us-secures-control-of-over-65-billion-barrels-of-venezuelan-oil-4881873",
-    "macro_score": 5,
-    "macro_buckets": [
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-29T03-09-56+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-29T03:09:56+00:00",
-    "title": "Jobs report, Broadcom results pose next hurdles for stock market rally",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/jobs-report-broadcom-results-pose-next-hurdles-for-stock-market-rally-4880854",
-    "macro_score": 4,
-    "macro_buckets": [
-      "labor"
+      "inflation",
+      "growth"
     ]
   }
 ]
