@@ -6,74 +6,74 @@
     "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.66,
-        "return_5d": 1.11,
-        "close": 771.0999755859375
+        "return_1d": -0.23,
+        "return_5d": 0.47,
+        "close": 769.3499755859375
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.2,
-        "return_5d": 0.96,
-        "close": 83.12999725341797
+        "return_1d": -0.3,
+        "return_5d": 1.01,
+        "close": 82.87999725341797
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.0,
-        "return_5d": 0.39,
-        "close": 28.020000457763672
+        "return_1d": 0.57,
+        "return_5d": 1.0,
+        "close": 28.18000030517578
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 2.09,
-        "return_5d": -3.37,
-        "close": 130.00999450683594
+        "return_1d": -0.24,
+        "return_5d": -3.67,
+        "close": 129.6999969482422
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.04,
-        "return_5d": 0.39,
-        "close": 79.87000274658203
+        "return_1d": -0.16,
+        "return_5d": 0.16,
+        "close": 79.73999786376953
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.3,
-        "return_5d": 1.77,
-        "close": 422.6000061035156
+        "return_1d": -3.24,
+        "return_5d": -3.42,
+        "close": 408.8900146484375
       }
     ],
     "news_sentiment": {
       "label": "insufficient_data",
-      "score": 1.0,
-      "display_score": 1.0,
+      "score": 0.0,
+      "display_score": 0.0,
       "unique_documents": 1,
-      "positive_pct": 100.0,
-      "neutral_pct": 0.0,
+      "positive_pct": 0.0,
+      "neutral_pct": 100.0,
       "negative_pct": 0.0,
-      "average_confidence": 0.744
+      "average_confidence": 0.703
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.3,
+      "label": "mixed",
+      "score": -0.15,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
+        "SPY": -0.4,
         "HYG": 0.0,
-        "TLT": 0.0,
-        "GLD": -0.1
+        "TLT": 0.15,
+        "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "The major market proxies gave a mixed risk signal.",
       "data_quality_status": "complete"
     },
     "confirmation": {
@@ -81,19 +81,256 @@
       "label": "Insufficient data",
       "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
       "news_label": "insufficient_data",
-      "market_label": "risk_on"
+      "market_label": "mixed"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-08-28T05-22-14+00-00-4",
-        "title": "Tokyo core inflation accelerates in August, nears BOJ target",
+        "doc_id": "www.marketwatch.com-2026-08-28T20-10-00+00-00-8",
+        "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.7034095525741577,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 7,
+        "macro_buckets": [
+          "policy",
+          "rates"
+        ],
+        "themes": [
+          "inflation",
+          "policy",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "policy",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-08-28T20-10-00+00-00-8",
+            "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7034095525741577,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "policy",
+              "rates"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-08-28T20-10-00+00-00-8",
+            "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7034095525741577,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "policy",
+              "rates"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-08-29",
+    "daily_brief": "2026-08-29: 5 unique articles were analyzed. News sentiment was neutral. Top theme: policy.",
+    "macro_read": "Macro read: coverage across policy, inflation was broadly neutral or mixed.",
+    "market_confirmation": "Both news sentiment and the broader market response were broadly neutral.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": -0.23,
+        "return_5d": 0.47,
+        "close": 769.3499755859375
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": -0.3,
+        "return_5d": 1.01,
+        "close": 82.87999725341797
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.57,
+        "return_5d": 1.0,
+        "close": 28.18000030517578
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": -0.24,
+        "return_5d": -3.67,
+        "close": 129.6999969482422
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": -0.16,
+        "return_5d": 0.16,
+        "close": 79.73999786376953
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": -3.24,
+        "return_5d": -3.42,
+        "close": 408.8900146484375
+      }
+    ],
+    "news_sentiment": {
+      "label": "neutral",
+      "score": 0.0,
+      "display_score": 0.0,
+      "unique_documents": 5,
+      "positive_pct": 40.0,
+      "neutral_pct": 20.0,
+      "negative_pct": 40.0,
+      "average_confidence": 0.714
+    },
+    "market_regime": {
+      "label": "mixed",
+      "score": -0.15,
+      "signals_used": 4,
+      "signals_available": 4,
+      "contributions": {
+        "SPY": -0.4,
+        "HYG": 0.0,
+        "TLT": 0.15,
+        "GLD": 0.1
+      },
+      "explanation": "The major market proxies gave a mixed risk signal.",
+      "data_quality_status": "complete"
+    },
+    "confirmation": {
+      "status": "neutral",
+      "label": "Neutral",
+      "explanation": "Both news sentiment and the broader market response were broadly neutral.",
+      "news_label": "neutral",
+      "market_label": "mixed"
+    },
+    "analyzed_coverage": [
+      {
+        "doc_id": "www.investing.com-2026-08-29T03-09-56+00-00-7",
+        "title": "ECB\u2019s Kocher says European economy gaining momentum - Bloomberg",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-accelerates-in-august-nears-boj-target-4880359",
+        "url": "https://www.investing.com/news/economy-news/ecbs-kocher-says-european-economy-gaining-momentum--bloomberg-93CH-4881762",
+        "confidence": "high",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.9004172682762146,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 9,
+        "macro_buckets": [
+          "policy",
+          "growth",
+          "fx"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 2,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-29T03-09-56+00-00-5",
+        "title": "Warsh signals Fed may need to hike rates if above-target inflation persists",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/will-warshs-jackson-hole-speech-be-a-course-correction-or-detour-4880496",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8730550408363342,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 9,
+        "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": -2,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-29T03-09-56+00-00-8",
+        "title": "Analysis-Investors heartened by Warsh inflation talk, still uncertain about Fed action",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/analysisinvestors-heartened-by-warsh-inflation-talk-still-uncertain-about-fed-action-4881760",
         "confidence": "medium",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.7437073588371277,
+        "sentiment_confidence": 0.7031699419021606,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 11,
+        "macro_score": 6,
         "macro_buckets": [
           "policy",
           "inflation"
@@ -109,6 +346,54 @@
           "liquidity": 0,
           "risk": 0
         }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-29T03-09-56+00-00-4",
+        "title": "Trump says U.S. secures control of over 65 billion barrels of Venezuelan oil",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/trump-says-us-secures-control-of-over-65-billion-barrels-of-venezuelan-oil-4881873",
+        "confidence": "low",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.580851674079895,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 5,
+        "macro_buckets": [
+          "energy"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-29T03-09-56+00-00-3",
+        "title": "Jobs report, Broadcom results pose next hurdles for stock market rally",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/jobs-report-broadcom-results-pose-next-hurdles-for-stock-market-rally-4880854",
+        "confidence": "low",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.511890172958374,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "labor"
+        ],
+        "themes": [
+          "uncategorized"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
       }
     ],
     "bucket_views": [
@@ -118,15 +403,67 @@
         "score": 1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-28T05-22-14+00-00-4",
-            "title": "Tokyo core inflation accelerates in August, nears BOJ target",
+            "doc_id": "www.investing.com-2026-08-29T03-09-56+00-00-5",
+            "title": "Warsh signals Fed may need to hike rates if above-target inflation persists",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-accelerates-in-august-nears-boj-target-4880359",
+            "url": "https://www.investing.com/news/economy-news/will-warshs-jackson-hole-speech-be-a-course-correction-or-detour-4880496",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8730550408363342,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-29T03-09-56+00-00-7",
+            "title": "ECB\u2019s Kocher says European economy gaining momentum - Bloomberg",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ecbs-kocher-says-european-economy-gaining-momentum--bloomberg-93CH-4881762",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9004172682762146,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "growth",
+              "fx"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-29T03-09-56+00-00-8",
+            "title": "Analysis-Investors heartened by Warsh inflation talk, still uncertain about Fed action",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/analysisinvestors-heartened-by-warsh-inflation-talk-still-uncertain-about-fed-action-4881760",
             "confidence": "medium",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.7437073588371277,
+            "sentiment_confidence": 0.7031699419021606,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 11,
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
               "inflation"
@@ -147,19 +484,45 @@
       },
       {
         "name": "inflation",
-        "label": "positive news sentiment",
-        "score": 1,
+        "label": "negative news sentiment",
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-28T05-22-14+00-00-4",
-            "title": "Tokyo core inflation accelerates in August, nears BOJ target",
+            "doc_id": "www.investing.com-2026-08-29T03-09-56+00-00-5",
+            "title": "Warsh signals Fed may need to hike rates if above-target inflation persists",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-accelerates-in-august-nears-boj-target-4880359",
+            "url": "https://www.investing.com/news/economy-news/will-warshs-jackson-hole-speech-be-a-course-correction-or-detour-4880496",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8730550408363342,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-08-29T03-09-56+00-00-8",
+            "title": "Analysis-Investors heartened by Warsh inflation talk, still uncertain about Fed action",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/analysisinvestors-heartened-by-warsh-inflation-talk-still-uncertain-about-fed-action-4881760",
             "confidence": "medium",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.7437073588371277,
+            "sentiment_confidence": 0.7031699419021606,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 11,
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
               "inflation"
@@ -172,6 +535,70 @@
               "inflation": 1,
               "growth": 0,
               "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "negative news sentiment",
+        "score": -1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-29T03-09-56+00-00-4",
+            "title": "Trump says U.S. secures control of over 65 billion barrels of Venezuelan oil",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/trump-says-us-secures-control-of-over-65-billion-barrels-of-venezuelan-oil-4881873",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.580851674079895,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 5,
+            "macro_buckets": [
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-29T03-09-56+00-00-7",
+            "title": "ECB\u2019s Kocher says European economy gaining momentum - Bloomberg",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ecbs-kocher-says-european-economy-gaining-momentum--bloomberg-93CH-4881762",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9004172682762146,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "growth",
+              "fx"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 2,
               "liquidity": 0,
               "risk": 0
             }

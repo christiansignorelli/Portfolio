@@ -1,16 +1,85 @@
 [
   {
-    "id": "www.investing.com-2026-08-28T05-22-14+00-00-4",
+    "id": "www.investing.com-2026-08-29T03-09-56+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-28T05:22:14+00:00",
-    "title": "Tokyo core inflation accelerates in August, nears BOJ target",
+    "published_at": "2026-08-29T03:09:56+00:00",
+    "title": "Warsh signals Fed may need to hike rates if above-target inflation persists",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-accelerates-in-august-nears-boj-target-4880359",
-    "macro_score": 11,
+    "url": "https://www.investing.com/news/economy-news/will-warshs-jackson-hole-speech-be-a-course-correction-or-detour-4880496",
+    "macro_score": 9,
     "macro_buckets": [
       "policy",
       "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-29T03-09-56+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-29T03:09:56+00:00",
+    "title": "ECB\u2019s Kocher says European economy gaining momentum - Bloomberg",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/ecbs-kocher-says-european-economy-gaining-momentum--bloomberg-93CH-4881762",
+    "macro_score": 9,
+    "macro_buckets": [
+      "policy",
+      "growth",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-08-28T20-10-00+00-00-8",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-08-28T20:10:00+00:00",
+    "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
+    "body": "Kevin Warsh passed another big test as a new Federal Reserve chairman on Friday: He said the central bank still has work to do on inflation, and the bond market took him at his word.",
+    "url": "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories",
+    "macro_score": 7,
+    "macro_buckets": [
+      "policy",
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-29T03-09-56+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-29T03:09:56+00:00",
+    "title": "Analysis-Investors heartened by Warsh inflation talk, still uncertain about Fed action",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/analysisinvestors-heartened-by-warsh-inflation-talk-still-uncertain-about-fed-action-4881760",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-29T03-09-56+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-29T03:09:56+00:00",
+    "title": "Trump says U.S. secures control of over 65 billion barrels of Venezuelan oil",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/trump-says-us-secures-control-of-over-65-billion-barrels-of-venezuelan-oil-4881873",
+    "macro_score": 5,
+    "macro_buckets": [
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-08-29T03-09-56+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-08-29T03:09:56+00:00",
+    "title": "Jobs report, Broadcom results pose next hurdles for stock market rally",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/jobs-report-broadcom-results-pose-next-hurdles-for-stock-market-rally-4880854",
+    "macro_score": 4,
+    "macro_buckets": [
+      "labor"
     ]
   }
 ]
