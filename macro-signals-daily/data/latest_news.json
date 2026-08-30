@@ -1,43 +1,29 @@
 [
   {
-    "id": "www.marketwatch.com-2026-08-29T12-00-00+00-00-7",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-08-29T12:00:00+00:00",
-    "title": "Where are all the new jobs? Hiring slows again \u2014 and it probably won\u2019t speed up soon.",
-    "body": "The U.S. labor market seemed to be on upswing after a surge in new employment early this year \u2014 but a summer slowdown in hiring and fewer help-wanted ads suggest it won\u2019t get any easier to find a job.",
-    "url": "https://www.marketwatch.com/story/where-are-all-the-new-jobs-hiring-slows-again-and-it-probably-wont-speed-up-soon-66920f1d?mod=mw_rss_topstories",
-    "macro_score": 8,
-    "macro_buckets": [
-      "labor"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-08-29T23-16-48+00-00-6",
+    "id": "www.investing.com-2026-08-30T23-28-22+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-29T23:16:48+00:00",
-    "title": "US Treasury\u2019s Bessent warns yen volatility risks spillover to global markets",
+    "published_at": "2026-08-30T23:28:22+00:00",
+    "title": "European central bankers fear more U.S. policy turbulence, Reuters reports",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-treasurys-bessent-warns-yen-volatility-risks-spillover-to-global-markets-4881990",
+    "url": "https://www.investing.com/news/economy-news/european-central-bankers-fear-more-us-policy-turbulence-reuters-reports-4882021",
     "macro_score": 6,
     "macro_buckets": [
-      "rates",
+      "policy",
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-29T23-16-48+00-00-9",
+    "id": "www.investing.com-2026-08-30T23-28-22+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-29T23:16:48+00:00",
-    "title": "Goldman draws 3 lessons from economic research on U.S. inflation expectations",
+    "published_at": "2026-08-30T23:28:22+00:00",
+    "title": "Jobs report, Broadcom results pose next hurdles for stock market rally",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/goldman-draws-3-lessons-from-economic-research-on-us-inflation-expectations-4881977",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/jobs-report-broadcom-results-pose-next-hurdles-for-stock-market-rally-4882045",
+    "macro_score": 4,
     "macro_buckets": [
-      "inflation",
-      "growth"
+      "labor"
     ]
   }
 ]

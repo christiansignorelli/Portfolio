@@ -1,13 +1,12 @@
 [
   {
-    "date": "2026-08-29",
-    "daily_brief": "2026-08-29: 3 unique articles were analyzed. News sentiment was negative. Top theme: growth.",
-    "macro_read": "Macro read: Growth, Inflation, Risk coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment had a directional bias, but the broader market response was mixed.",
+    "date": "2026-08-30",
+    "daily_brief": "2026-08-30: 2 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
@@ -54,14 +53,14 @@
       }
     ],
     "news_sentiment": {
-      "label": "negative",
-      "score": -0.6666666666666666,
-      "display_score": -0.67,
-      "unique_documents": 3,
+      "label": "insufficient_data",
+      "score": -1.0,
+      "display_score": -1.0,
+      "unique_documents": 2,
       "positive_pct": 0.0,
-      "neutral_pct": 33.3,
-      "negative_pct": 66.7,
-      "average_confidence": 0.89
+      "neutral_pct": 0.0,
+      "negative_pct": 100.0,
+      "average_confidence": 0.638
     },
     "market_regime": {
       "label": "mixed",
@@ -78,53 +77,54 @@
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "unconfirmed",
-      "label": "Unconfirmed",
-      "explanation": "News sentiment had a directional bias, but the broader market response was mixed.",
-      "news_label": "negative",
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
       "market_label": "mixed"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-08-29T12-00-00+00-00-7",
-        "title": "Where are all the new jobs? Hiring slows again \u2014 and it probably won\u2019t speed up soon.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/where-are-all-the-new-jobs-hiring-slows-again-and-it-probably-wont-speed-up-soon-66920f1d?mod=mw_rss_topstories",
-        "confidence": "high",
+        "doc_id": "www.investing.com-2026-08-30T23-28-22+00-00-10",
+        "title": "European central bankers fear more U.S. policy turbulence, Reuters reports",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/european-central-bankers-fear-more-us-policy-turbulence-reuters-reports-4882021",
+        "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9533581733703613,
+        "sentiment_confidence": 0.7640843987464905,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 8,
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "fx"
+        ],
+        "themes": [
+          "policy",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": -1,
+          "liquidity": -1,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-08-30T23-28-22+00-00-6",
+        "title": "Jobs report, Broadcom results pose next hurdles for stock market rally",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/jobs-report-broadcom-results-pose-next-hurdles-for-stock-market-rally-4882045",
+        "confidence": "low",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.511890172958374,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
         "macro_buckets": [
           "labor"
         ],
         "themes": [
-          "growth"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": -2,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-08-29T23-16-48+00-00-9",
-        "title": "Goldman draws 3 lessons from economic research on U.S. inflation expectations",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/goldman-draws-3-lessons-from-economic-research-on-us-inflation-expectations-4881977",
-        "confidence": "high",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.9274184107780457,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "inflation",
-          "growth"
-        ],
-        "themes": [
-          "inflation"
+          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
@@ -132,158 +132,103 @@
           "policy": 0,
           "liquidity": 0,
           "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-08-29T23-16-48+00-00-6",
-        "title": "US Treasury\u2019s Bessent warns yen volatility risks spillover to global markets",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-treasurys-bessent-warns-yen-volatility-risks-spillover-to-global-markets-4881990",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.7905224561691284,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "rates",
-          "fx"
-        ],
-        "themes": [
-          "risk"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": -1
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "labor",
+        "name": "policy",
         "label": "negative news sentiment",
-        "score": -2,
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-08-29T12-00-00+00-00-7",
-            "title": "Where are all the new jobs? Hiring slows again \u2014 and it probably won\u2019t speed up soon.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/where-are-all-the-new-jobs-hiring-slows-again-and-it-probably-wont-speed-up-soon-66920f1d?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9533581733703613,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "labor"
-            ],
-            "themes": [
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": -2,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "growth",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-08-29T23-16-48+00-00-9",
-            "title": "Goldman draws 3 lessons from economic research on U.S. inflation expectations",
+            "doc_id": "www.investing.com-2026-08-30T23-28-22+00-00-10",
+            "title": "European central bankers fear more U.S. policy turbulence, Reuters reports",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/goldman-draws-3-lessons-from-economic-research-on-us-inflation-expectations-4881977",
-            "confidence": "high",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.9274184107780457,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "growth"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-08-29T23-16-48+00-00-6",
-            "title": "US Treasury\u2019s Bessent warns yen volatility risks spillover to global markets",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-treasurys-bessent-warns-yen-volatility-risks-spillover-to-global-markets-4881990",
+            "url": "https://www.investing.com/news/economy-news/european-central-bankers-fear-more-us-policy-turbulence-reuters-reports-4882021",
             "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.7905224561691284,
+            "sentiment_confidence": 0.7640843987464905,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "rates",
+              "policy",
               "fx"
             ],
             "themes": [
-              "risk"
+              "policy",
+              "liquidity"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": -1
+              "policy": -1,
+              "liquidity": -1,
+              "risk": 0
             }
           }
         ]
       },
       {
         "name": "fx",
-        "label": "negative news sentiment",
-        "score": -1,
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-08-29T23-16-48+00-00-6",
-            "title": "US Treasury\u2019s Bessent warns yen volatility risks spillover to global markets",
+            "doc_id": "www.investing.com-2026-08-30T23-28-22+00-00-10",
+            "title": "European central bankers fear more U.S. policy turbulence, Reuters reports",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-treasurys-bessent-warns-yen-volatility-risks-spillover-to-global-markets-4881990",
+            "url": "https://www.investing.com/news/economy-news/european-central-bankers-fear-more-us-policy-turbulence-reuters-reports-4882021",
             "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.7905224561691284,
+            "sentiment_confidence": 0.7640843987464905,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "rates",
+              "policy",
               "fx"
             ],
             "themes": [
-              "risk"
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": -1,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "labor",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-08-30T23-28-22+00-00-6",
+            "title": "Jobs report, Broadcom results pose next hurdles for stock market rally",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/jobs-report-broadcom-results-pose-next-hurdles-for-stock-market-rally-4882045",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.511890172958374,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "labor"
+            ],
+            "themes": [
+              "uncategorized"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
-              "risk": -1
+              "risk": 0
             }
           }
         ]
