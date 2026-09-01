@@ -1,29 +1,84 @@
 [
   {
-    "id": "www.investing.com-2026-08-30T23-28-22+00-00-10",
+    "id": "www.investing.com-2026-09-01T00-37-20+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-30T23:28:22+00:00",
-    "title": "European central bankers fear more U.S. policy turbulence, Reuters reports",
+    "published_at": "2026-09-01T00:37:20+00:00",
+    "title": "Bessent expects Japan to take action to boost yen, signals BOJ rate-hike chance",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/european-central-bankers-fear-more-us-policy-turbulence-reuters-reports-4882021",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/bessent-says-he-believes-japan-will-take-action-leading-to-stronger-yen-4883043",
+    "macro_score": 9,
     "macro_buckets": [
       "policy",
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-08-30T23-28-22+00-00-6",
+    "id": "www.investing.com-2026-09-01T00-37-20+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-08-30T23:28:22+00:00",
-    "title": "Jobs report, Broadcom results pose next hurdles for stock market rally",
+    "published_at": "2026-09-01T00:37:20+00:00",
+    "title": "Dollar slips, with traders already eyeing Friday jobs data",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/jobs-report-broadcom-results-pose-next-hurdles-for-stock-market-rally-4882045",
+    "url": "https://www.investing.com/news/economy-news/dollar-near-twoweek-high-as-warsh-boosts-ratehike-bets-yen-slips-past-160-4882103",
+    "macro_score": 7,
+    "macro_buckets": [
+      "labor",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-08-31T20-55-00+00-00-10",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-08-31T20:55:00+00:00",
+    "title": "With Warsh running the Fed, should bond investors be worried?",
+    "body": "The usually drama-free investment vehicle, U.S. government debt, is now causing some concern.",
+    "url": "https://www.marketwatch.com/story/should-bond-investors-worry-with-warsh-running-the-fed-0a99c5ac?mod=mw_rss_topstories",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-01T00-37-20+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-01T00:37:20+00:00",
+    "title": "Wall Street closes lower as oil prices jump, indexes notch monthly gains",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/us-stock-index-futures-dip-as-middle-east-strikes-worsen-inflation-fears-4882344",
+    "macro_score": 6,
+    "macro_buckets": [
+      "inflation",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-08-31T20-56-00+00-00-9",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-08-31T20:56:00+00:00",
+    "title": "This maneuver is boosting oil shipments through the Strait of Hormuz",
+    "body": "Middle East oil producers are finding more ways to evade Iranian threats and push more of their product to market.",
+    "url": "https://www.marketwatch.com/story/this-maneuver-is-boosting-oil-shipments-through-the-strait-of-hormuz-070d8fa3?mod=mw_rss_topstories",
+    "macro_score": 5,
+    "macro_buckets": [
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-01T00-37-20+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-01T00:37:20+00:00",
+    "title": "Trading Day: Bonds shaken, and stirred",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/trading-day-bonds-shaken-and-stirred-4883297",
     "macro_score": 4,
     "macro_buckets": [
-      "labor"
+      "rates"
     ]
   }
 ]
