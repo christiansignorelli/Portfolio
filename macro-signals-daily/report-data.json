@@ -1,311 +1,78 @@
 [
   {
-    "date": "2026-08-31",
-    "daily_brief": "2026-08-31: 2 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
-    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
-    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "date": "2026-09-01",
+    "daily_brief": "2026-09-01: 3 unique articles were analyzed. News sentiment was negative. Top theme: uncategorized.",
+    "macro_read": "Macro read: Inflation coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss",
       "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.3,
-        "return_5d": 0.47,
-        "close": 767.0499877929688
+        "return_1d": -0.69,
+        "return_5d": -0.54,
+        "close": 761.780029296875
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.43,
-        "return_5d": -0.05,
-        "close": 82.5199966430664
+        "return_1d": -0.79,
+        "return_5d": -0.84,
+        "close": 81.87000274658203
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.21,
-        "return_5d": 0.57,
-        "close": 28.1200008392334
+        "return_1d": 0.32,
+        "return_5d": 0.89,
+        "close": 28.209999084472656
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 3.08,
-        "return_5d": 1.13,
-        "close": 133.6999969482422
+        "return_1d": 5.46,
+        "return_5d": 11.77,
+        "close": 141.0
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.09,
-        "return_5d": 0.14,
-        "close": 79.80999755859375
+        "return_1d": -0.89,
+        "return_5d": -0.75,
+        "close": 79.0999984741211
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.11,
-        "return_5d": -4.28,
-        "close": 408.4200134277344
-      }
-    ],
-    "news_sentiment": {
-      "label": "insufficient_data",
-      "score": 0.0,
-      "display_score": 0.0,
-      "unique_documents": 2,
-      "positive_pct": 50.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 50.0,
-      "average_confidence": 0.723
-    },
-    "market_regime": {
-      "label": "risk_off",
-      "score": -0.25,
-      "signals_used": 4,
-      "signals_available": 4,
-      "contributions": {
-        "SPY": -0.4,
-        "HYG": 0.0,
-        "TLT": 0.15,
-        "GLD": 0.0
-      },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
-      "data_quality_status": "complete"
-    },
-    "confirmation": {
-      "status": "insufficient_data",
-      "label": "Insufficient data",
-      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
-      "news_label": "insufficient_data",
-      "market_label": "risk_off"
-    },
-    "analyzed_coverage": [
-      {
-        "doc_id": "www.marketwatch.com-2026-08-31T20-55-00+00-00-10",
-        "title": "With Warsh running the Fed, should bond investors be worried?",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/should-bond-investors-worry-with-warsh-running-the-fed-0a99c5ac?mod=mw_rss_topstories",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.5211732983589172,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy",
-          "rates"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-08-31T20-56-00+00-00-9",
-        "title": "This maneuver is boosting oil shipments through the Strait of Hormuz",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/this-maneuver-is-boosting-oil-shipments-through-the-strait-of-hormuz-070d8fa3?mod=mw_rss_topstories",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.9243839979171753,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": 2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      }
-    ],
-    "bucket_views": [
-      {
-        "name": "energy",
-        "label": "positive news sentiment",
-        "score": 2,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-08-31T20-56-00+00-00-9",
-            "title": "This maneuver is boosting oil shipments through the Strait of Hormuz",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/this-maneuver-is-boosting-oil-shipments-through-the-strait-of-hormuz-070d8fa3?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9243839979171753,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 5,
-            "macro_buckets": [
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "policy",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-08-31T20-55-00+00-00-10",
-            "title": "With Warsh running the Fed, should bond investors be worried?",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/should-bond-investors-worry-with-warsh-running-the-fed-0a99c5ac?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5211732983589172,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "rates"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-08-31T20-55-00+00-00-10",
-            "title": "With Warsh running the Fed, should bond investors be worried?",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/should-bond-investors-worry-with-warsh-running-the-fed-0a99c5ac?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5211732983589172,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "rates"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      }
-    ],
-    "debug_documents": []
-  },
-  {
-    "date": "2026-09-01",
-    "daily_brief": "2026-09-01: 4 unique articles were analyzed. News sentiment was negative. Top theme: uncategorized.",
-    "macro_read": "Macro read: Inflation coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
-    "market_checks": [],
-    "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
-    ],
-    "market_snapshot": [
-      {
-        "symbol": "SPY",
-        "label": "US equities",
-        "return_1d": -0.3,
-        "return_5d": 0.47,
-        "close": 767.0499877929688
-      },
-      {
-        "symbol": "TLT",
-        "label": "Long-duration Treasuries",
-        "return_1d": -0.43,
-        "return_5d": -0.05,
-        "close": 82.5199966430664
-      },
-      {
-        "symbol": "UUP",
-        "label": "US dollar proxy",
-        "return_1d": -0.21,
-        "return_5d": 0.57,
-        "close": 28.1200008392334
-      },
-      {
-        "symbol": "USO",
-        "label": "Oil proxy",
-        "return_1d": 3.08,
-        "return_5d": 1.13,
-        "close": 133.6999969482422
-      },
-      {
-        "symbol": "HYG",
-        "label": "High yield credit",
-        "return_1d": 0.09,
-        "return_5d": 0.14,
-        "close": 79.80999755859375
-      },
-      {
-        "symbol": "GLD",
-        "label": "Gold",
-        "return_1d": -0.11,
-        "return_5d": -4.28,
-        "close": 408.4200134277344
+        "return_1d": -2.86,
+        "return_5d": -7.32,
+        "close": 396.75
       }
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -0.5,
-      "display_score": -0.5,
-      "unique_documents": 4,
-      "positive_pct": 25.0,
+      "score": -0.3333333333333333,
+      "display_score": -0.33,
+      "unique_documents": 3,
+      "positive_pct": 33.3,
       "neutral_pct": 0.0,
-      "negative_pct": 75.0,
-      "average_confidence": 0.898
+      "negative_pct": 66.7,
+      "average_confidence": 0.789
     },
     "market_regime": {
       "label": "risk_off",
-      "score": -0.25,
+      "score": -0.5,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
         "SPY": -0.4,
-        "HYG": 0.0,
+        "HYG": -0.35,
         "TLT": 0.15,
-        "GLD": 0.0
+        "GLD": 0.1
       },
       "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
@@ -319,65 +86,15 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-09-01T00-37-20+00-00-3",
-        "title": "Bessent expects Japan to take action to boost yen, signals BOJ rate-hike chance",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/bessent-says-he-believes-japan-will-take-action-leading-to-stronger-yen-4883043",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.9243388772010803,
-        "summary_label": "positive-financial-sentiment",
+        "doc_id": "www.marketwatch.com-2026-09-01T20-13-00+00-00-6",
+        "title": "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708?mod=mw_rss_topstories",
+        "confidence": "low",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.5687373280525208,
+        "summary_label": "negative-financial-sentiment",
         "macro_score": 9,
-        "macro_buckets": [
-          "policy",
-          "fx"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-01T00-37-20+00-00-10",
-        "title": "Dollar slips, with traders already eyeing Friday jobs data",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-near-twoweek-high-as-warsh-boosts-ratehike-bets-yen-slips-past-160-4882103",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.949722170829773,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
-        "macro_buckets": [
-          "labor",
-          "fx"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-01T00-37-20+00-00-4",
-        "title": "Wall Street closes lower as oil prices jump, indexes notch monthly gains",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-stock-index-futures-dip-as-middle-east-strikes-worsen-inflation-fears-4882344",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9501177072525024,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
         "macro_buckets": [
           "inflation",
           "energy"
@@ -386,7 +103,7 @@
           "inflation"
         ],
         "scores": {
-          "inflation": -2,
+          "inflation": -1,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -394,17 +111,42 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-01T00-37-20+00-00-5",
-        "title": "Trading Day: Bonds shaken, and stirred",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/trading-day-bonds-shaken-and-stirred-4883297",
-        "confidence": "medium",
+        "doc_id": "www.marketwatch.com-2026-09-01T20-36-00+00-00-5",
+        "title": "This could be the 10-year Treasury\u2019s tipping point into the danger zone",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/this-could-be-the-10-year-treasurys-tipping-point-into-the-danger-zone-891cd45d?mod=mw_rss_topstories",
+        "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.7673624753952026,
+        "sentiment_confidence": 0.94789057970047,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
+        "macro_score": 7,
         "macro_buckets": [
           "rates"
+        ],
+        "themes": [
+          "uncategorized"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-01T23-17-32+00-00-2",
+        "title": "Bessent urges BOJ chief to combat weak yen with \u2019decisive\u2019 monetary steps",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/bessent-meets-bojs-ueda-calls-for-sound-policy-to-avoid-currency-volatility-treasury-says-4884388",
+        "confidence": "high",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.850913405418396,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "fx"
         ],
         "themes": [
           "uncategorized"
@@ -422,18 +164,18 @@
       {
         "name": "inflation",
         "label": "negative news sentiment",
-        "score": -2,
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-01T00-37-20+00-00-4",
-            "title": "Wall Street closes lower as oil prices jump, indexes notch monthly gains",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-stock-index-futures-dip-as-middle-east-strikes-worsen-inflation-fears-4882344",
-            "confidence": "high",
+            "doc_id": "www.marketwatch.com-2026-09-01T20-13-00+00-00-6",
+            "title": "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708?mod=mw_rss_topstories",
+            "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9501177072525024,
+            "sentiment_confidence": 0.5687373280525208,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "macro_score": 9,
             "macro_buckets": [
               "inflation",
               "energy"
@@ -442,7 +184,7 @@
               "inflation"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": -1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -454,18 +196,18 @@
       {
         "name": "energy",
         "label": "negative news sentiment",
-        "score": -2,
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-01T00-37-20+00-00-4",
-            "title": "Wall Street closes lower as oil prices jump, indexes notch monthly gains",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-stock-index-futures-dip-as-middle-east-strikes-worsen-inflation-fears-4882344",
-            "confidence": "high",
+            "doc_id": "www.marketwatch.com-2026-09-01T20-13-00+00-00-6",
+            "title": "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708?mod=mw_rss_topstories",
+            "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9501177072525024,
+            "sentiment_confidence": 0.5687373280525208,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "macro_score": 9,
             "macro_buckets": [
               "inflation",
               "energy"
@@ -474,7 +216,7 @@
               "inflation"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": -1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -484,48 +226,22 @@
         ]
       },
       {
-        "name": "fx",
+        "name": "rates",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-01T00-37-20+00-00-3",
-            "title": "Bessent expects Japan to take action to boost yen, signals BOJ rate-hike chance",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bessent-says-he-believes-japan-will-take-action-leading-to-stronger-yen-4883043",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9243388772010803,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "fx"
-            ],
-            "themes": [
-              "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-01T00-37-20+00-00-10",
-            "title": "Dollar slips, with traders already eyeing Friday jobs data",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-near-twoweek-high-as-warsh-boosts-ratehike-bets-yen-slips-past-160-4882103",
+            "doc_id": "www.marketwatch.com-2026-09-01T20-36-00+00-00-5",
+            "title": "This could be the 10-year Treasury\u2019s tipping point into the danger zone",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/this-could-be-the-10-year-treasurys-tipping-point-into-the-danger-zone-891cd45d?mod=mw_rss_topstories",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.949722170829773,
+            "sentiment_confidence": 0.94789057970047,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 7,
             "macro_buckets": [
-              "labor",
-              "fx"
+              "rates"
             ],
             "themes": [
               "uncategorized"
@@ -546,15 +262,15 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-01T00-37-20+00-00-3",
-            "title": "Bessent expects Japan to take action to boost yen, signals BOJ rate-hike chance",
+            "doc_id": "www.investing.com-2026-09-01T23-17-32+00-00-2",
+            "title": "Bessent urges BOJ chief to combat weak yen with \u2019decisive\u2019 monetary steps",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bessent-says-he-believes-japan-will-take-action-leading-to-stronger-yen-4883043",
+            "url": "https://www.investing.com/news/economy-news/bessent-meets-bojs-ueda-calls-for-sound-policy-to-avoid-currency-volatility-treasury-says-4884388",
             "confidence": "high",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.9243388772010803,
+            "sentiment_confidence": 0.850913405418396,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
               "fx"

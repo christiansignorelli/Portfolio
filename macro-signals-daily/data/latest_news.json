@@ -1,84 +1,43 @@
 [
   {
-    "id": "www.investing.com-2026-09-01T00-37-20+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-01T00:37:20+00:00",
-    "title": "Bessent expects Japan to take action to boost yen, signals BOJ rate-hike chance",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/bessent-says-he-believes-japan-will-take-action-leading-to-stronger-yen-4883043",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-01T00-37-20+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-01T00:37:20+00:00",
-    "title": "Dollar slips, with traders already eyeing Friday jobs data",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-near-twoweek-high-as-warsh-boosts-ratehike-bets-yen-slips-past-160-4882103",
-    "macro_score": 7,
-    "macro_buckets": [
-      "labor",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-08-31T20-55-00+00-00-10",
+    "id": "www.marketwatch.com-2026-09-01T20-13-00+00-00-6",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-08-31T20:55:00+00:00",
-    "title": "With Warsh running the Fed, should bond investors be worried?",
-    "body": "The usually drama-free investment vehicle, U.S. government debt, is now causing some concern.",
-    "url": "https://www.marketwatch.com/story/should-bond-investors-worry-with-warsh-running-the-fed-0a99c5ac?mod=mw_rss_topstories",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-01T00-37-20+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-01T00:37:20+00:00",
-    "title": "Wall Street closes lower as oil prices jump, indexes notch monthly gains",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-stock-index-futures-dip-as-middle-east-strikes-worsen-inflation-fears-4882344",
-    "macro_score": 6,
+    "published_at": "2026-09-01T20:13:00+00:00",
+    "title": "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
+    "body": "Oil prices on Tuesday settled at their highest levels in nearly six weeks, after the U.S. military said it struck Iranian targets in the Strait of Hormuz in response to Tehran\u2019s overnight attacks on ships transiting the vital waterway.",
+    "url": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708?mod=mw_rss_topstories",
+    "macro_score": 9,
     "macro_buckets": [
       "inflation",
       "energy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-08-31T20-56-00+00-00-9",
+    "id": "www.marketwatch.com-2026-09-01T20-36-00+00-00-5",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-08-31T20:56:00+00:00",
-    "title": "This maneuver is boosting oil shipments through the Strait of Hormuz",
-    "body": "Middle East oil producers are finding more ways to evade Iranian threats and push more of their product to market.",
-    "url": "https://www.marketwatch.com/story/this-maneuver-is-boosting-oil-shipments-through-the-strait-of-hormuz-070d8fa3?mod=mw_rss_topstories",
-    "macro_score": 5,
+    "published_at": "2026-09-01T20:36:00+00:00",
+    "title": "This could be the 10-year Treasury\u2019s tipping point into the danger zone",
+    "body": "An unrelenting rout has global bond yields touching their highest levels since 2008, driving up borrowing costs for households, businesses and world governments.",
+    "url": "https://www.marketwatch.com/story/this-could-be-the-10-year-treasurys-tipping-point-into-the-danger-zone-891cd45d?mod=mw_rss_topstories",
+    "macro_score": 7,
     "macro_buckets": [
-      "energy"
+      "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-01T00-37-20+00-00-5",
+    "id": "www.investing.com-2026-09-01T23-17-32+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-01T00:37:20+00:00",
-    "title": "Trading Day: Bonds shaken, and stirred",
+    "published_at": "2026-09-01T23:17:32+00:00",
+    "title": "Bessent urges BOJ chief to combat weak yen with \u2019decisive\u2019 monetary steps",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/trading-day-bonds-shaken-and-stirred-4883297",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/bessent-meets-bojs-ueda-calls-for-sound-policy-to-avoid-currency-volatility-treasury-says-4884388",
+    "macro_score": 6,
     "macro_buckets": [
-      "rates"
+      "policy",
+      "fx"
     ]
   }
 ]
