@@ -1,42 +1,57 @@
 [
   {
-    "id": "www.marketwatch.com-2026-09-01T20-13-00+00-00-6",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-01T20:13:00+00:00",
-    "title": "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
-    "body": "Oil prices on Tuesday settled at their highest levels in nearly six weeks, after the U.S. military said it struck Iranian targets in the Strait of Hormuz in response to Tehran\u2019s overnight attacks on ships transiting the vital waterway.",
-    "url": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708?mod=mw_rss_topstories",
-    "macro_score": 9,
-    "macro_buckets": [
-      "inflation",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-09-01T20-36-00+00-00-5",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-01T20:36:00+00:00",
-    "title": "This could be the 10-year Treasury\u2019s tipping point into the danger zone",
-    "body": "An unrelenting rout has global bond yields touching their highest levels since 2008, driving up borrowing costs for households, businesses and world governments.",
-    "url": "https://www.marketwatch.com/story/this-could-be-the-10-year-treasurys-tipping-point-into-the-danger-zone-891cd45d?mod=mw_rss_topstories",
-    "macro_score": 7,
-    "macro_buckets": [
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-01T23-17-32+00-00-2",
+    "id": "www.investing.com-2026-09-02T23-20-25+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-01T23:17:32+00:00",
-    "title": "Bessent urges BOJ chief to combat weak yen with \u2019decisive\u2019 monetary steps",
+    "published_at": "2026-09-02T23:20:25+00:00",
+    "title": "Fed survey shows economic activity edged up, prices rose moderately in recent weeks",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/bessent-meets-bojs-ueda-calls-for-sound-policy-to-avoid-currency-volatility-treasury-says-4884388",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/economic-activity-edged-up-and-prices-rose-moderately-in-recent-weeks-fed-survey-shows-4886620",
+    "macro_score": 11,
     "macro_buckets": [
       "policy",
+      "inflation",
+      "growth"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-02T23-20-25+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-02T23:20:25+00:00",
+    "title": "Stocks climb and US yields ease; yen jumps against dollar",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/asian-markets-tumble-as-usiran-fighting-lifts-oil-and-bond-yields-4885230",
+    "macro_score": 8,
+    "macro_buckets": [
+      "rates",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-02T23-20-25+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-02T23:20:25+00:00",
+    "title": "Yen jumps, oil pumps",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/yen-jumps-oil-pumps-4886787",
+    "macro_score": 6,
+    "macro_buckets": [
+      "energy",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-02T23-20-25+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-02T23:20:25+00:00",
+    "title": "Yen gains sharply, dollar eases from two-week high",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/yen-gains-sharply-against-us-dollar-4886411",
+    "macro_score": 4,
+    "macro_buckets": [
       "fx"
     ]
   }

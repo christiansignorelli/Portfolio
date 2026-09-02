@@ -1,127 +1,129 @@
 [
   {
-    "date": "2026-09-01",
-    "daily_brief": "2026-09-01: 3 unique articles were analyzed. News sentiment was negative. Top theme: uncategorized.",
-    "macro_read": "Macro read: Inflation coverage showed a predominantly negative tone.",
+    "date": "2026-09-02",
+    "daily_brief": "2026-09-02: 4 unique articles were analyzed. News sentiment was positive. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly positive tone.",
     "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.69,
-        "return_5d": -0.54,
-        "close": 761.780029296875
+        "return_1d": 0.44,
+        "return_5d": -0.12,
+        "close": 765.1599731445312
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.79,
-        "return_5d": -0.84,
-        "close": 81.87000274658203
+        "return_1d": 0.1,
+        "return_5d": -1.62,
+        "close": 81.94999694824219
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.32,
-        "return_5d": 0.89,
-        "close": 28.209999084472656
+        "return_1d": -0.14,
+        "return_5d": 0.54,
+        "close": 28.170000076293945
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 5.46,
-        "return_5d": 11.77,
-        "close": 141.0
+        "return_1d": 0.11,
+        "return_5d": 10.84,
+        "close": 141.14999389648438
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.89,
-        "return_5d": -0.75,
-        "close": 79.0999984741211
+        "return_1d": 0.01,
+        "return_5d": -0.99,
+        "close": 79.11000061035156
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -2.86,
-        "return_5d": -7.32,
-        "close": 396.75
+        "return_1d": 1.52,
+        "return_5d": -4.4,
+        "close": 402.7799987792969
       }
     ],
     "news_sentiment": {
-      "label": "negative",
-      "score": -0.3333333333333333,
-      "display_score": -0.33,
-      "unique_documents": 3,
-      "positive_pct": 33.3,
+      "label": "positive",
+      "score": 1.0,
+      "display_score": 1.0,
+      "unique_documents": 4,
+      "positive_pct": 100.0,
       "neutral_pct": 0.0,
-      "negative_pct": 66.7,
-      "average_confidence": 0.789
+      "negative_pct": 0.0,
+      "average_confidence": 0.65
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.5,
+      "label": "risk_on",
+      "score": 0.3,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
-        "HYG": -0.35,
-        "TLT": 0.15,
-        "GLD": 0.1
+        "SPY": 0.4,
+        "HYG": 0.0,
+        "TLT": 0.0,
+        "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
       "status": "confirmed",
       "label": "Confirmed",
       "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
-      "news_label": "negative",
-      "market_label": "risk_off"
+      "news_label": "positive",
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-09-01T20-13-00+00-00-6",
-        "title": "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708?mod=mw_rss_topstories",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.5687373280525208,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
+        "doc_id": "www.investing.com-2026-09-02T23-20-25+00-00-6",
+        "title": "Fed survey shows economic activity edged up, prices rose moderately in recent weeks",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/economic-activity-edged-up-and-prices-rose-moderately-in-recent-weeks-fed-survey-shows-4886620",
+        "confidence": "high",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.9485015273094177,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 11,
         "macro_buckets": [
+          "policy",
           "inflation",
-          "energy"
+          "growth"
         ],
         "themes": [
-          "inflation"
+          "inflation",
+          "policy"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": 2,
           "growth": 0,
-          "policy": 0,
+          "policy": 2,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.marketwatch.com-2026-09-01T20-36-00+00-00-5",
-        "title": "This could be the 10-year Treasury\u2019s tipping point into the danger zone",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/this-could-be-the-10-year-treasurys-tipping-point-into-the-danger-zone-891cd45d?mod=mw_rss_topstories",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.94789057970047,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
+        "doc_id": "www.investing.com-2026-09-02T23-20-25+00-00-1",
+        "title": "Stocks climb and US yields ease; yen jumps against dollar",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/asian-markets-tumble-as-usiran-fighting-lifts-oil-and-bond-yields-4885230",
+        "confidence": "medium",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.6753559112548828,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 8,
         "macro_buckets": [
-          "rates"
+          "rates",
+          "fx"
         ],
         "themes": [
           "uncategorized"
@@ -135,17 +137,41 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-01T23-17-32+00-00-2",
-        "title": "Bessent urges BOJ chief to combat weak yen with \u2019decisive\u2019 monetary steps",
+        "doc_id": "www.investing.com-2026-09-02T23-20-25+00-00-3",
+        "title": "Yen jumps, oil pumps",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/bessent-meets-bojs-ueda-calls-for-sound-policy-to-avoid-currency-volatility-treasury-says-4884388",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/yen-jumps-oil-pumps-4886787",
+        "confidence": "low",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.850913405418396,
+        "sentiment_confidence": 0.46870294213294983,
         "summary_label": "positive-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "policy",
+          "energy",
+          "fx"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": 1,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-02T23-20-25+00-00-7",
+        "title": "Yen gains sharply, dollar eases from two-week high",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/yen-gains-sharply-against-us-dollar-4886411",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.5082000494003296,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
           "fx"
         ],
         "themes": [
@@ -163,30 +189,32 @@
     "bucket_views": [
       {
         "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -1,
+        "label": "positive news sentiment",
+        "score": 3,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-01T20-13-00+00-00-6",
-            "title": "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5687373280525208,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "doc_id": "www.investing.com-2026-09-02T23-20-25+00-00-6",
+            "title": "Fed survey shows economic activity edged up, prices rose moderately in recent weeks",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/economic-activity-edged-up-and-prices-rose-moderately-in-recent-weeks-fed-survey-shows-4886620",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9485015273094177,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 11,
             "macro_buckets": [
+              "policy",
               "inflation",
-              "energy"
+              "growth"
             ],
             "themes": [
-              "inflation"
+              "inflation",
+              "policy"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 2,
               "growth": 0,
-              "policy": 0,
+              "policy": 2,
               "liquidity": 0,
               "risk": 0
             }
@@ -195,28 +223,28 @@
       },
       {
         "name": "energy",
-        "label": "negative news sentiment",
-        "score": -1,
+        "label": "positive news sentiment",
+        "score": 3,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-01T20-13-00+00-00-6",
-            "title": "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-09-02T23-20-25+00-00-3",
+            "title": "Yen jumps, oil pumps",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/yen-jumps-oil-pumps-4886787",
             "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5687373280525208,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.46870294213294983,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
-              "inflation",
-              "energy"
+              "energy",
+              "fx"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -226,22 +254,57 @@
         ]
       },
       {
-        "name": "rates",
+        "name": "policy",
+        "label": "positive news sentiment",
+        "score": 2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-02T23-20-25+00-00-6",
+            "title": "Fed survey shows economic activity edged up, prices rose moderately in recent weeks",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/economic-activity-edged-up-and-prices-rose-moderately-in-recent-weeks-fed-survey-shows-4886620",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9485015273094177,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 11,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "growth"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 2,
+              "growth": 0,
+              "policy": 2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-01T20-36-00+00-00-5",
-            "title": "This could be the 10-year Treasury\u2019s tipping point into the danger zone",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/this-could-be-the-10-year-treasurys-tipping-point-into-the-danger-zone-891cd45d?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.94789057970047,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "doc_id": "www.investing.com-2026-09-02T23-20-25+00-00-1",
+            "title": "Stocks climb and US yields ease; yen jumps against dollar",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/asian-markets-tumble-as-usiran-fighting-lifts-oil-and-bond-yields-4885230",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.6753559112548828,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 8,
             "macro_buckets": [
-              "rates"
+              "rates",
+              "fx"
             ],
             "themes": [
               "uncategorized"
@@ -253,26 +316,43 @@
               "liquidity": 0,
               "risk": 0
             }
-          }
-        ]
-      },
-      {
-        "name": "policy",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
+          },
           {
-            "doc_id": "www.investing.com-2026-09-01T23-17-32+00-00-2",
-            "title": "Bessent urges BOJ chief to combat weak yen with \u2019decisive\u2019 monetary steps",
+            "doc_id": "www.investing.com-2026-09-02T23-20-25+00-00-3",
+            "title": "Yen jumps, oil pumps",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bessent-meets-bojs-ueda-calls-for-sound-policy-to-avoid-currency-volatility-treasury-says-4884388",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/yen-jumps-oil-pumps-4886787",
+            "confidence": "low",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.850913405418396,
+            "sentiment_confidence": 0.46870294213294983,
             "summary_label": "positive-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "policy",
+              "energy",
+              "fx"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-02T23-20-25+00-00-7",
+            "title": "Yen gains sharply, dollar eases from two-week high",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/yen-gains-sharply-against-us-dollar-4886411",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.5082000494003296,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
               "fx"
             ],
             "themes": [
