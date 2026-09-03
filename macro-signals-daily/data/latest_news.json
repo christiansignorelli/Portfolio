@@ -1,58 +1,43 @@
 [
   {
-    "id": "www.investing.com-2026-09-02T23-20-25+00-00-6",
+    "id": "www.investing.com-2026-09-03T23-16-22+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-02T23:20:25+00:00",
-    "title": "Fed survey shows economic activity edged up, prices rose moderately in recent weeks",
+    "published_at": "2026-09-03T23:16:22+00:00",
+    "title": "Bond yields fall, stocks rally as Fed\u2019s Waller comments curb rate hike bets",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/economic-activity-edged-up-and-prices-rose-moderately-in-recent-weeks-fed-survey-shows-4886620",
-    "macro_score": 11,
+    "url": "https://www.investing.com/news/economy-news/shares-bonds-rally-as-markets-await-signals-for-fed-rates-4886931",
+    "macro_score": 10,
     "macro_buckets": [
       "policy",
-      "inflation",
-      "growth"
+      "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-02T23-20-25+00-00-1",
+    "id": "www.investing.com-2026-09-03T23-16-22+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-02T23:20:25+00:00",
-    "title": "Stocks climb and US yields ease; yen jumps against dollar",
+    "published_at": "2026-09-03T23:16:22+00:00",
+    "title": "Yen jumps on BOJ hike bets, dollar slips on Waller comments",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/asian-markets-tumble-as-usiran-fighting-lifts-oil-and-bond-yields-4885230",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/yen-in-the-spotlight-after-sudden-jump-4886913",
+    "macro_score": 9,
     "macro_buckets": [
-      "rates",
+      "policy",
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-02T23-20-25+00-00-3",
+    "id": "www.investing.com-2026-09-03T23-16-22+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-02T23:20:25+00:00",
-    "title": "Yen jumps, oil pumps",
+    "published_at": "2026-09-03T23:16:22+00:00",
+    "title": "Trading Day: Waller cools Fed hike hoopla",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/yen-jumps-oil-pumps-4886787",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/trading-day-waller-cools-fed-hike-hoopla-4888590",
+    "macro_score": 5,
     "macro_buckets": [
-      "energy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-02T23-20-25+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-02T23:20:25+00:00",
-    "title": "Yen gains sharply, dollar eases from two-week high",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/yen-gains-sharply-against-us-dollar-4886411",
-    "macro_score": 4,
-    "macro_buckets": [
-      "fx"
+      "policy"
     ]
   }
 ]
