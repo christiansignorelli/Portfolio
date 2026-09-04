@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-09-03",
-    "daily_brief": "2026-09-03: 3 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
-    "macro_read": "Macro read: Policy coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+    "date": "2026-09-04",
+    "daily_brief": "2026-09-04: 5 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Growth, Inflation coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
@@ -12,91 +12,118 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 1.05,
-        "return_5d": 0.27,
-        "close": 773.1699829101562
+        "return_1d": -0.39,
+        "return_5d": 0.11,
+        "close": 770.1900024414062
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.15,
-        "return_5d": -1.28,
-        "close": 82.06999969482422
+        "return_1d": 0.17,
+        "return_5d": -0.81,
+        "close": 82.20999908447266
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.57,
-        "return_5d": -0.04,
-        "close": 28.010000228881836
+        "return_1d": 0.25,
+        "return_5d": -0.35,
+        "close": 28.079999923706055
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 0.67,
-        "return_5d": 9.29,
-        "close": 142.08999633789062
+        "return_1d": -0.09,
+        "return_5d": 9.45,
+        "close": 141.9600067138672
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.13,
-        "return_5d": -0.83,
-        "close": 79.20999908447266
+        "return_1d": -0.06,
+        "return_5d": -0.73,
+        "close": 79.16000366210938
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.85,
-        "return_5d": -2.93,
-        "close": 410.2200012207031
+        "return_1d": -0.84,
+        "return_5d": -0.52,
+        "close": 406.7699890136719
       }
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -0.6666666666666666,
-      "display_score": -0.67,
-      "unique_documents": 3,
-      "positive_pct": 0.0,
-      "neutral_pct": 33.3,
-      "negative_pct": 66.7,
-      "average_confidence": 0.744
+      "score": -0.2,
+      "display_score": -0.2,
+      "unique_documents": 5,
+      "positive_pct": 20.0,
+      "neutral_pct": 40.0,
+      "negative_pct": 40.0,
+      "average_confidence": 0.836
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.3,
+      "label": "risk_off",
+      "score": -0.3,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
+        "SPY": -0.4,
         "HYG": 0.0,
         "TLT": 0.0,
-        "GLD": -0.1
+        "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "divergent",
-      "label": "Divergent",
-      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+      "status": "confirmed",
+      "label": "Confirmed",
+      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
       "news_label": "negative",
-      "market_label": "risk_on"
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-09-03T23-16-22+00-00-1",
-        "title": "Bond yields fall, stocks rally as Fed\u2019s Waller comments curb rate hike bets",
+        "doc_id": "www.investing.com-2026-09-04T23-02-55+00-00-6",
+        "title": "Strong job gains signal Fed hike as Trump levels new rate-cut demand",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/shares-bonds-rally-as-markets-await-signals-for-fed-rates-4886931",
+        "url": "https://www.investing.com/news/economy-news/fed-rate-hike-back-in-focus-after-strong-jobs-report-4889758",
         "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.6825994253158569,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 10,
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.7110347151756287,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 12,
         "macro_buckets": [
           "policy",
-          "rates"
+          "labor",
+          "growth"
+        ],
+        "themes": [
+          "growth",
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 1,
+          "policy": 1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-04T23-02-55+00-00-2",
+        "title": "Wall Street ends lower as solid jobs data fuels hawkish Fed bets",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/nasdaq-sp-500-futures-climb-ahead-of-key-jobs-report-4889040",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8885752558708191,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 9,
+        "macro_buckets": [
+          "policy",
+          "labor"
         ],
         "themes": [
           "policy"
@@ -104,24 +131,49 @@
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": -1,
+          "policy": -2,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-03T23-16-22+00-00-9",
-        "title": "Yen jumps on BOJ hike bets, dollar slips on Waller comments",
+        "doc_id": "www.investing.com-2026-09-04T23-02-55+00-00-9",
+        "title": "Fed\u2019s Hammack says time to act on inflation",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/yen-in-the-spotlight-after-sudden-jump-4886913",
+        "url": "https://www.investing.com/news/economy-news/feds-hammack-says-time-to-act-on-inflation-4889871",
         "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8300080895423889,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.7649996280670166,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
         "macro_buckets": [
           "policy",
-          "fx"
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-04T23-02-55+00-00-7",
+        "title": "US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/us-nonfarm-payrolls-surge-in-august-unemployment-rate-steady-at-41-4889606",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9352514743804932,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "labor"
         ],
         "themes": [
           "uncategorized"
@@ -135,20 +187,20 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-03T23-16-22+00-00-5",
-        "title": "Trading Day: Waller cools Fed hike hoopla",
+        "doc_id": "www.investing.com-2026-09-04T23-02-55+00-00-10",
+        "title": "Reaction roundup: Experts, analysts weigh in on blockbuster jobs report",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/trading-day-waller-cools-fed-hike-hoopla-4888590",
-        "confidence": "medium",
+        "url": "https://www.investing.com/news/economy-news/reaction-roundup-experts-analysts-weigh-in-on-blockbuster-jobs-report-4889866",
+        "confidence": "high",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.7187190055847168,
+        "sentiment_confidence": 0.8814650177955627,
         "summary_label": "neutral-financial-sentiment",
-        "macro_score": 5,
+        "macro_score": 4,
         "macro_buckets": [
-          "policy"
+          "labor"
         ],
         "themes": [
-          "policy"
+          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
@@ -161,23 +213,133 @@
     ],
     "bucket_views": [
       {
+        "name": "labor",
+        "label": "positive news sentiment",
+        "score": 1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-04T23-02-55+00-00-6",
+            "title": "Strong job gains signal Fed hike as Trump levels new rate-cut demand",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/fed-rate-hike-back-in-focus-after-strong-jobs-report-4889758",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.7110347151756287,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "policy",
+              "labor",
+              "growth"
+            ],
+            "themes": [
+              "growth",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 1,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-04T23-02-55+00-00-2",
+            "title": "Wall Street ends lower as solid jobs data fuels hawkish Fed bets",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/nasdaq-sp-500-futures-climb-ahead-of-key-jobs-report-4889040",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8885752558708191,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "labor"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-04T23-02-55+00-00-7",
+            "title": "US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-nonfarm-payrolls-surge-in-august-unemployment-rate-steady-at-41-4889606",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9352514743804932,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "labor"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
         "name": "policy",
         "label": "negative news sentiment",
         "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-03T23-16-22+00-00-1",
-            "title": "Bond yields fall, stocks rally as Fed\u2019s Waller comments curb rate hike bets",
+            "doc_id": "www.investing.com-2026-09-04T23-02-55+00-00-6",
+            "title": "Strong job gains signal Fed hike as Trump levels new rate-cut demand",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/shares-bonds-rally-as-markets-await-signals-for-fed-rates-4886931",
+            "url": "https://www.investing.com/news/economy-news/fed-rate-hike-back-in-focus-after-strong-jobs-report-4889758",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.6825994253158569,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.7110347151756287,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 12,
             "macro_buckets": [
               "policy",
-              "rates"
+              "labor",
+              "growth"
+            ],
+            "themes": [
+              "growth",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 1,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-04T23-02-55+00-00-2",
+            "title": "Wall Street ends lower as solid jobs data fuels hawkish Fed bets",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/nasdaq-sp-500-futures-climb-ahead-of-key-jobs-report-4889040",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8885752558708191,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "labor"
             ],
             "themes": [
               "policy"
@@ -185,50 +347,27 @@
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": -1,
+              "policy": -2,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-09-03T23-16-22+00-00-9",
-            "title": "Yen jumps on BOJ hike bets, dollar slips on Waller comments",
+            "doc_id": "www.investing.com-2026-09-04T23-02-55+00-00-9",
+            "title": "Fed\u2019s Hammack says time to act on inflation",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/yen-in-the-spotlight-after-sudden-jump-4886913",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8300080895423889,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "fx"
-            ],
-            "themes": [
-              "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-03T23-16-22+00-00-5",
-            "title": "Trading Day: Waller cools Fed hike hoopla",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/trading-day-waller-cools-fed-hike-hoopla-4888590",
+            "url": "https://www.investing.com/news/economy-news/feds-hammack-says-time-to-act-on-inflation-4889871",
             "confidence": "medium",
             "sentiment_label": "neutral",
-            "sentiment_confidence": 0.7187190055847168,
+            "sentiment_confidence": 0.7649996280670166,
             "summary_label": "neutral-financial-sentiment",
-            "macro_score": 5,
+            "macro_score": 6,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "inflation"
             ],
             "themes": [
+              "inflation",
               "policy"
             ],
             "scores": {
@@ -242,31 +381,33 @@
         ]
       },
       {
-        "name": "rates",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "name": "growth",
+        "label": "positive news sentiment",
+        "score": 1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-03T23-16-22+00-00-1",
-            "title": "Bond yields fall, stocks rally as Fed\u2019s Waller comments curb rate hike bets",
+            "doc_id": "www.investing.com-2026-09-04T23-02-55+00-00-6",
+            "title": "Strong job gains signal Fed hike as Trump levels new rate-cut demand",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/shares-bonds-rally-as-markets-await-signals-for-fed-rates-4886931",
+            "url": "https://www.investing.com/news/economy-news/fed-rate-hike-back-in-focus-after-strong-jobs-report-4889758",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.6825994253158569,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.7110347151756287,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 12,
             "macro_buckets": [
               "policy",
-              "rates"
+              "labor",
+              "growth"
             ],
             "themes": [
+              "growth",
               "policy"
             ],
             "scores": {
               "inflation": 0,
-              "growth": 0,
-              "policy": -1,
+              "growth": 1,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
@@ -274,26 +415,27 @@
         ]
       },
       {
-        "name": "fx",
+        "name": "inflation",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-03T23-16-22+00-00-9",
-            "title": "Yen jumps on BOJ hike bets, dollar slips on Waller comments",
+            "doc_id": "www.investing.com-2026-09-04T23-02-55+00-00-9",
+            "title": "Fed\u2019s Hammack says time to act on inflation",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/yen-in-the-spotlight-after-sudden-jump-4886913",
+            "url": "https://www.investing.com/news/economy-news/feds-hammack-says-time-to-act-on-inflation-4889871",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8300080895423889,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7649996280670166,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "fx"
+              "inflation"
             ],
             "themes": [
-              "uncategorized"
+              "inflation",
+              "policy"
             ],
             "scores": {
               "inflation": 0,

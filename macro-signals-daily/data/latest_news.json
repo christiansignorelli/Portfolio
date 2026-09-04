@@ -1,43 +1,71 @@
 [
   {
-    "id": "www.investing.com-2026-09-03T23-16-22+00-00-1",
+    "id": "www.investing.com-2026-09-04T23-02-55+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-03T23:16:22+00:00",
-    "title": "Bond yields fall, stocks rally as Fed\u2019s Waller comments curb rate hike bets",
+    "published_at": "2026-09-04T23:02:55+00:00",
+    "title": "Strong job gains signal Fed hike as Trump levels new rate-cut demand",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/shares-bonds-rally-as-markets-await-signals-for-fed-rates-4886931",
-    "macro_score": 10,
+    "url": "https://www.investing.com/news/economy-news/fed-rate-hike-back-in-focus-after-strong-jobs-report-4889758",
+    "macro_score": 12,
     "macro_buckets": [
       "policy",
-      "rates"
+      "labor",
+      "growth"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-03T23-16-22+00-00-9",
+    "id": "www.investing.com-2026-09-04T23-02-55+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-03T23:16:22+00:00",
-    "title": "Yen jumps on BOJ hike bets, dollar slips on Waller comments",
+    "published_at": "2026-09-04T23:02:55+00:00",
+    "title": "Wall Street ends lower as solid jobs data fuels hawkish Fed bets",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/yen-in-the-spotlight-after-sudden-jump-4886913",
+    "url": "https://www.investing.com/news/economy-news/nasdaq-sp-500-futures-climb-ahead-of-key-jobs-report-4889040",
     "macro_score": 9,
     "macro_buckets": [
       "policy",
-      "fx"
+      "labor"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-03T23-16-22+00-00-5",
+    "id": "www.investing.com-2026-09-04T23-02-55+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-03T23:16:22+00:00",
-    "title": "Trading Day: Waller cools Fed hike hoopla",
+    "published_at": "2026-09-04T23:02:55+00:00",
+    "title": "Fed\u2019s Hammack says time to act on inflation",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/trading-day-waller-cools-fed-hike-hoopla-4888590",
-    "macro_score": 5,
+    "url": "https://www.investing.com/news/economy-news/feds-hammack-says-time-to-act-on-inflation-4889871",
+    "macro_score": 6,
     "macro_buckets": [
-      "policy"
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-04T23-02-55+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-04T23:02:55+00:00",
+    "title": "US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/us-nonfarm-payrolls-surge-in-august-unemployment-rate-steady-at-41-4889606",
+    "macro_score": 4,
+    "macro_buckets": [
+      "labor"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-04T23-02-55+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-04T23:02:55+00:00",
+    "title": "Reaction roundup: Experts, analysts weigh in on blockbuster jobs report",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/reaction-roundup-experts-analysts-weigh-in-on-blockbuster-jobs-report-4889866",
+    "macro_score": 4,
+    "macro_buckets": [
+      "labor"
     ]
   }
 ]
