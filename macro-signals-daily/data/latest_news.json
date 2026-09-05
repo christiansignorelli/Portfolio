@@ -1,71 +1,44 @@
 [
   {
-    "id": "www.investing.com-2026-09-04T23-02-55+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-04T23:02:55+00:00",
-    "title": "Strong job gains signal Fed hike as Trump levels new rate-cut demand",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/fed-rate-hike-back-in-focus-after-strong-jobs-report-4889758",
-    "macro_score": 12,
+    "id": "www.marketwatch.com-2026-09-05T16-34-00+00-00-8",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-09-05T16:34:00+00:00",
+    "title": "Jobs and Iran add to Trump\u2019s midterm headaches. Why that\u2019s good for bonds and bad for energy stocks.",
+    "body": "The president needs lower gasoline prices and mortgage rates \u2014 fast.",
+    "url": "https://www.marketwatch.com/story/jobs-and-iran-add-to-trumps-midterm-headaches-why-thats-good-for-bonds-and-bad-for-energy-stocks-551cb765?mod=mw_rss_topstories",
+    "macro_score": 14,
     "macro_buckets": [
-      "policy",
       "labor",
-      "growth"
+      "rates",
+      "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-04T23-02-55+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-04T23:02:55+00:00",
-    "title": "Wall Street ends lower as solid jobs data fuels hawkish Fed bets",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/nasdaq-sp-500-futures-climb-ahead-of-key-jobs-report-4889040",
-    "macro_score": 9,
+    "id": "www.marketwatch.com-2026-09-05T18-26-00+00-00-3",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-09-05T18:26:00+00:00",
+    "title": "Why the jobs report will actually be good for bonds",
+    "body": "Based on the chatter on Wall Street, you\u2019d think labor has never had it so good. Sadly for working Americans, this isn\u2019t actually the case.",
+    "url": "https://www.marketwatch.com/story/why-the-jobs-report-will-actually-be-good-for-bonds-eb062fda?mod=mw_rss_topstories",
+    "macro_score": 8,
     "macro_buckets": [
-      "policy",
-      "labor"
+      "labor",
+      "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-04T23-02-55+00-00-9",
+    "id": "www.investing.com-2026-09-05T22-53-11+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-04T23:02:55+00:00",
-    "title": "Fed\u2019s Hammack says time to act on inflation",
+    "published_at": "2026-09-05T22:53:11+00:00",
+    "title": "U.S. strikes three Iranian oil tankers near Kharg Island, CENTCOM says",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-hammack-says-time-to-act-on-inflation-4889871",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/irans-oil-blockade-leverage-weakens-as-us-keeps-gulf-crude-flowing-4890160",
+    "macro_score": 5,
     "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-04T23-02-55+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-04T23:02:55+00:00",
-    "title": "US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-nonfarm-payrolls-surge-in-august-unemployment-rate-steady-at-41-4889606",
-    "macro_score": 4,
-    "macro_buckets": [
-      "labor"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-04T23-02-55+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-04T23:02:55+00:00",
-    "title": "Reaction roundup: Experts, analysts weigh in on blockbuster jobs report",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/reaction-roundup-experts-analysts-weigh-in-on-blockbuster-jobs-report-4889866",
-    "macro_score": 4,
-    "macro_buckets": [
-      "labor"
+      "energy"
     ]
   }
 ]
