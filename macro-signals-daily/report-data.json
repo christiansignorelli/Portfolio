@@ -1,8 +1,8 @@
 [
   {
-    "date": "2026-09-05",
-    "daily_brief": "2026-09-05: 3 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy, Growth coverage showed a predominantly negative tone.",
+    "date": "2026-09-06",
+    "daily_brief": "2026-09-06: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy, Liquidity coverage showed a predominantly negative tone.",
     "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
@@ -55,13 +55,13 @@
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -1.0,
-      "display_score": -1.0,
-      "unique_documents": 3,
-      "positive_pct": 0.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 100.0,
-      "average_confidence": 0.691
+      "score": -0.25,
+      "display_score": -0.25,
+      "unique_documents": 4,
+      "positive_pct": 25.0,
+      "neutral_pct": 25.0,
+      "negative_pct": 50.0,
+      "average_confidence": 0.758
     },
     "market_regime": {
       "label": "risk_off",
@@ -86,67 +86,90 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-09-05T16-34-00+00-00-8",
-        "title": "Jobs and Iran add to Trump\u2019s midterm headaches. Why that\u2019s good for bonds and bad for energy stocks.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/jobs-and-iran-add-to-trumps-midterm-headaches-why-thats-good-for-bonds-and-bad-for-energy-stocks-551cb765?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-09-06T22-53-52+00-00-4",
+        "title": "Israel cuts fuel tax as gasoline prices hit record high",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/israel-cuts-fuel-tax-as-gasoline-prices-hit-record-high-93CH-4890297",
         "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.7091425061225891,
+        "sentiment_confidence": 0.6901214718818665,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 14,
+        "macro_score": 6,
         "macro_buckets": [
-          "labor",
-          "rates",
+          "inflation",
           "energy"
         ],
         "themes": [
-          "inflation",
-          "policy"
+          "inflation"
         ],
         "scores": {
           "inflation": -1,
           "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-09-05T18-26-00+00-00-3",
-        "title": "Why the jobs report will actually be good for bonds",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/why-the-jobs-report-will-actually-be-good-for-bonds-eb062fda?mod=mw_rss_topstories",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.44550737738609314,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 8,
-        "macro_buckets": [
-          "labor",
-          "rates"
-        ],
-        "themes": [
-          "growth"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": -1,
           "policy": 0,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-05T22-53-11+00-00-3",
-        "title": "U.S. strikes three Iranian oil tankers near Kharg Island, CENTCOM says",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/irans-oil-blockade-leverage-weakens-as-us-keeps-gulf-crude-flowing-4890160",
-        "confidence": "high",
+        "doc_id": "www.marketwatch.com-2026-09-06T13-00-00+00-00-7",
+        "title": "Is the U.S. losing its safe-haven status? Why global central banks are pulling gold out of New York.",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/is-the-u-s-losing-its-safe-haven-status-why-global-central-banks-are-pulling-gold-out-of-new-york-3e24d510?mod=mw_rss_topstories",
+        "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9195117354393005,
+        "sentiment_confidence": 0.6817575693130493,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 5,
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "liquidity"
+        ],
+        "themes": [
+          "policy",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": -1,
+          "liquidity": -1,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-06T22-53-52+00-00-8",
+        "title": "Turkey forecasts GDP growth to reach 5% by 2029",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/turkey-forecasts-gdp-growth-to-reach-5-by-2029-93CH-4890275",
+        "confidence": "high",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.8714478015899658,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "growth"
+        ],
+        "themes": [
+          "growth"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 2,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-06T22-53-52+00-00-6",
+        "title": "OPEC+ pauses oil output policy steady for October",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/opec-set-to-hold-oil-output-policy-steady-for-october--reuters-4890270",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.7880881428718567,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 4,
         "macro_buckets": [
           "energy"
         ],
@@ -154,7 +177,7 @@
           "inflation"
         ],
         "scores": {
-          "inflation": -2,
+          "inflation": 0,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -164,47 +187,76 @@
     ],
     "bucket_views": [
       {
-        "name": "energy",
-        "label": "negative news sentiment",
-        "score": -3,
+        "name": "growth",
+        "label": "positive news sentiment",
+        "score": 2,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-05T16-34-00+00-00-8",
-            "title": "Jobs and Iran add to Trump\u2019s midterm headaches. Why that\u2019s good for bonds and bad for energy stocks.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/jobs-and-iran-add-to-trumps-midterm-headaches-why-thats-good-for-bonds-and-bad-for-energy-stocks-551cb765?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-09-06T22-53-52+00-00-8",
+            "title": "Turkey forecasts GDP growth to reach 5% by 2029",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/turkey-forecasts-gdp-growth-to-reach-5-by-2029-93CH-4890275",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8714478015899658,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "growth"
+            ],
+            "themes": [
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 2,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "negative news sentiment",
+        "score": -1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-06T22-53-52+00-00-4",
+            "title": "Israel cuts fuel tax as gasoline prices hit record high",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/israel-cuts-fuel-tax-as-gasoline-prices-hit-record-high-93CH-4890297",
             "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.7091425061225891,
+            "sentiment_confidence": 0.6901214718818665,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 14,
+            "macro_score": 6,
             "macro_buckets": [
-              "labor",
-              "rates",
+              "inflation",
               "energy"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "inflation"
             ],
             "scores": {
               "inflation": -1,
               "growth": 0,
-              "policy": -1,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-09-05T22-53-11+00-00-3",
-            "title": "U.S. strikes three Iranian oil tankers near Kharg Island, CENTCOM says",
+            "doc_id": "www.investing.com-2026-09-06T22-53-52+00-00-6",
+            "title": "OPEC+ pauses oil output policy steady for October",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/irans-oil-blockade-leverage-weakens-as-us-keeps-gulf-crude-flowing-4890160",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9195117354393005,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 5,
+            "url": "https://www.investing.com/news/economy-news/opec-set-to-hold-oil-output-policy-steady-for-october--reuters-4890270",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7880881428718567,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 4,
             "macro_buckets": [
               "energy"
             ],
@@ -212,7 +264,7 @@
               "inflation"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -222,57 +274,30 @@
         ]
       },
       {
-        "name": "labor",
+        "name": "inflation",
         "label": "negative news sentiment",
         "score": -1,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-05T16-34-00+00-00-8",
-            "title": "Jobs and Iran add to Trump\u2019s midterm headaches. Why that\u2019s good for bonds and bad for energy stocks.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/jobs-and-iran-add-to-trumps-midterm-headaches-why-thats-good-for-bonds-and-bad-for-energy-stocks-551cb765?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-09-06T22-53-52+00-00-4",
+            "title": "Israel cuts fuel tax as gasoline prices hit record high",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/israel-cuts-fuel-tax-as-gasoline-prices-hit-record-high-93CH-4890297",
             "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.7091425061225891,
+            "sentiment_confidence": 0.6901214718818665,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 14,
+            "macro_score": 6,
             "macro_buckets": [
-              "labor",
-              "rates",
+              "inflation",
               "energy"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "inflation"
             ],
             "scores": {
               "inflation": -1,
               "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-09-05T18-26-00+00-00-3",
-            "title": "Why the jobs report will actually be good for bonds",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/why-the-jobs-report-will-actually-be-good-for-bonds-eb062fda?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.44550737738609314,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "labor",
-              "rates"
-            ],
-            "themes": [
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": -1,
               "policy": 0,
               "liquidity": 0,
               "risk": 0
@@ -281,59 +306,33 @@
         ]
       },
       {
-        "name": "rates",
+        "name": "policy",
         "label": "negative news sentiment",
         "score": -1,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-05T16-34-00+00-00-8",
-            "title": "Jobs and Iran add to Trump\u2019s midterm headaches. Why that\u2019s good for bonds and bad for energy stocks.",
+            "doc_id": "www.marketwatch.com-2026-09-06T13-00-00+00-00-7",
+            "title": "Is the U.S. losing its safe-haven status? Why global central banks are pulling gold out of New York.",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/jobs-and-iran-add-to-trumps-midterm-headaches-why-thats-good-for-bonds-and-bad-for-energy-stocks-551cb765?mod=mw_rss_topstories",
+            "url": "https://www.marketwatch.com/story/is-the-u-s-losing-its-safe-haven-status-why-global-central-banks-are-pulling-gold-out-of-new-york-3e24d510?mod=mw_rss_topstories",
             "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.7091425061225891,
+            "sentiment_confidence": 0.6817575693130493,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 14,
+            "macro_score": 6,
             "macro_buckets": [
-              "labor",
-              "rates",
-              "energy"
+              "policy",
+              "liquidity"
             ],
             "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-09-05T18-26-00+00-00-3",
-            "title": "Why the jobs report will actually be good for bonds",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/why-the-jobs-report-will-actually-be-good-for-bonds-eb062fda?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.44550737738609314,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "labor",
-              "rates"
-            ],
-            "themes": [
-              "growth"
+              "policy",
+              "liquidity"
             ],
             "scores": {
               "inflation": 0,
-              "growth": -1,
-              "policy": 0,
-              "liquidity": 0,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": -1,
               "risk": 0
             }
           }
