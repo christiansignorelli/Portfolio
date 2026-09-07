@@ -1,26 +1,55 @@
 [
   {
-    "id": "www.marketwatch.com-2026-09-06T13-00-00+00-00-7",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-06T13:00:00+00:00",
-    "title": "Is the U.S. losing its safe-haven status? Why global central banks are pulling gold out of New York.",
-    "body": "What to know about safe havens and the U.S., as the Netherlands\u2019 central bank follows France in pulling gold out of New York.",
-    "url": "https://www.marketwatch.com/story/is-the-u-s-losing-its-safe-haven-status-why-global-central-banks-are-pulling-gold-out-of-new-york-3e24d510?mod=mw_rss_topstories",
-    "macro_score": 6,
+    "id": "www.investing.com-2026-09-07T23-29-44+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-07T23:29:44+00:00",
+    "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/ubs-forecasts-two-us-fed-rate-hikes-in-2026-after-strong-jobs-report-4890561",
+    "macro_score": 10,
     "macro_buckets": [
       "policy",
-      "liquidity"
+      "labor"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-06T22-53-52+00-00-4",
+    "id": "www.investing.com-2026-09-07T23-29-44+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-06T22:53:52+00:00",
-    "title": "Israel cuts fuel tax as gasoline prices hit record high",
+    "published_at": "2026-09-07T23:29:44+00:00",
+    "title": "European shares dip as rise in oil prices weighs; Novartis slips",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/israel-cuts-fuel-tax-as-gasoline-prices-hit-record-high-93CH-4890297",
+    "url": "https://www.investing.com/news/economy-news/european-shares-dip-as-rise-in-oil-prices-weighs-novartis-slips-4890493",
+    "macro_score": 9,
+    "macro_buckets": [
+      "inflation",
+      "energy",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-07T23-29-44+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-07T23:29:44+00:00",
+    "title": "Yen surges to seven-month high; dollar drifts ahead of US inflation",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/dollar-gets-little-lift-from-boost-in-fed-hike-expectations-4890340",
+    "macro_score": 7,
+    "macro_buckets": [
+      "inflation",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-09-07T23-15-00+00-00-1",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-09-07T23:15:00+00:00",
+    "title": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
+    "body": "The West Texas Intermediate and Brent crude contracts previously rose to near-seven-week highs.",
+    "url": "https://www.marketwatch.com/story/oil-prices-hit-near-seven-week-highs-before-edging-lower-as-iran-plans-to-increase-control-of-hormuz-5070167c?mod=mw_rss_topstories",
     "macro_score": 6,
     "macro_buckets": [
       "inflation",
@@ -28,29 +57,43 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-09-06T22-53-52+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-06T22:53:52+00:00",
-    "title": "OPEC+ pauses oil output policy steady for October",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/opec-set-to-hold-oil-output-policy-steady-for-october--reuters-4890270",
-    "macro_score": 4,
+    "id": "www.marketwatch.com-2026-09-07T11-16-00+00-00-10",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-09-07T11:16:00+00:00",
+    "title": "Is the stock market open today for Labor Day? What about bond trading and mail delivery?",
+    "body": "Here\u2019s how trading hours and other services are affected by the Labor Day holiday on Monday, Sept. 7.",
+    "url": "https://www.marketwatch.com/story/is-the-stock-market-open-on-labor-day-does-the-post-office-deliver-mail-6d58fd77?mod=mw_rss_topstories",
+    "macro_score": 6,
     "macro_buckets": [
-      "energy"
+      "labor",
+      "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-06T22-53-52+00-00-8",
+    "id": "www.investing.com-2026-09-07T23-29-44+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-06T22:53:52+00:00",
-    "title": "Turkey forecasts GDP growth to reach 5% by 2029",
+    "published_at": "2026-09-07T23:29:44+00:00",
+    "title": "UBS expects the Fed to lift rates twice before the end of the year. Here\u2019s why.",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/turkey-forecasts-gdp-growth-to-reach-5-by-2029-93CH-4890275",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/ubs-expects-the-fed-to-lift-rates-twice-before-the-end-of-the-year-heres-why-4890628",
+    "macro_score": 6,
     "macro_buckets": [
-      "growth"
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-07T23-29-44+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-07T23:29:44+00:00",
+    "title": "Iran\u2019s parliament speaker warns of strikes against U.S. energy firms",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/irans-parliament-speaker-warns-of-strikes-against-us-energy-firms-4890591",
+    "macro_score": 5,
+    "macro_buckets": [
+      "energy"
     ]
   }
 ]
