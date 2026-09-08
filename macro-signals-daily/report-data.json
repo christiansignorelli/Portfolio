@@ -1,67 +1,66 @@
 [
   {
-    "date": "2026-09-07",
-    "daily_brief": "2026-09-07: 7 unique articles were analyzed. News sentiment was neutral. Top theme: inflation.",
-    "macro_read": "Macro read: coverage across inflation, policy, growth was broadly neutral or mixed.",
-    "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
+    "date": "2026-09-08",
+    "daily_brief": "2026-09-08: 1 unique articles were analyzed. Top theme: uncategorized. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.39,
-        "return_5d": 0.11,
-        "close": 770.1900024414062
+        "return_1d": -0.55,
+        "return_5d": -0.14,
+        "close": 765.9600219726562
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.17,
-        "return_5d": -0.81,
-        "close": 82.20999908447266
+        "return_1d": -0.01,
+        "return_5d": -0.39,
+        "close": 82.19999694824219
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.25,
-        "return_5d": -0.35,
-        "close": 28.079999923706055
+        "return_1d": -0.32,
+        "return_5d": -0.46,
+        "close": 27.989999771118164
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -0.09,
-        "return_5d": 9.45,
-        "close": 141.9600067138672
+        "return_1d": 2.87,
+        "return_5d": 9.22,
+        "close": 146.02999877929688
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.06,
-        "return_5d": -0.73,
-        "close": 79.16000366210938
+        "return_1d": -0.05,
+        "return_5d": -0.86,
+        "close": 79.12000274658203
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.84,
-        "return_5d": -0.52,
-        "close": 406.7699890136719
+        "return_1d": -1.73,
+        "return_5d": -2.13,
+        "close": 399.7200012207031
       }
     ],
     "news_sentiment": {
-      "label": "neutral",
-      "score": 0.14285714285714285,
-      "display_score": 0.14,
-      "unique_documents": 7,
-      "positive_pct": 42.9,
-      "neutral_pct": 28.6,
-      "negative_pct": 28.6,
-      "average_confidence": 0.764
+      "label": "insufficient_data",
+      "score": 1.0,
+      "display_score": 1.0,
+      "unique_documents": 1,
+      "positive_pct": 100.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.65
     },
     "market_regime": {
       "label": "risk_off",
@@ -78,175 +77,25 @@
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "market_led",
-      "label": "Market-led",
-      "explanation": "News sentiment was neutral, while markets showed a clearer directional response.",
-      "news_label": "neutral",
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
       "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-09-07T23-29-44+00-00-6",
-        "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report",
+        "doc_id": "www.investing.com-2026-09-08T23-23-18+00-00-9",
+        "title": "Yen hovers near seven-month high, dollar steadies",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/ubs-forecasts-two-us-fed-rate-hikes-in-2026-after-strong-jobs-report-4890561",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.8989330530166626,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 10,
-        "macro_buckets": [
-          "policy",
-          "labor"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-07T23-29-44+00-00-10",
-        "title": "European shares dip as rise in oil prices weighs; Novartis slips",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/european-shares-dip-as-rise-in-oil-prices-weighs-novartis-slips-4890493",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.937774121761322,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "inflation",
-          "energy",
-          "fx"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-07T23-29-44+00-00-1",
-        "title": "Yen surges to seven-month high; dollar drifts ahead of US inflation",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-gets-little-lift-from-boost-in-fed-hike-expectations-4890340",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.486558198928833,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 7,
-        "macro_buckets": [
-          "inflation",
-          "fx"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": 1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-07T23-29-44+00-00-3",
-        "title": "UBS expects the Fed to lift rates twice before the end of the year. Here\u2019s why.",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/ubs-expects-the-fed-to-lift-rates-twice-before-the-end-of-the-year-heres-why-4890628",
-        "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8456565737724304,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-09-07T23-15-00+00-00-1",
-        "title": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-prices-hit-near-seven-week-highs-before-edging-lower-as-iran-plans-to-increase-control-of-hormuz-5070167c?mod=mw_rss_topstories",
+        "url": "https://www.investing.com/news/economy-news/yen-extends-rally-to-new-sevenmonth-high-dollar-subdued-ahead-of-cpi-4890756",
         "confidence": "medium",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.6836181282997131,
+        "sentiment_confidence": 0.6501543521881104,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
+        "macro_score": 4,
         "macro_buckets": [
-          "inflation",
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": 1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-09-07T11-16-00+00-00-10",
-        "title": "Is the stock market open today for Labor Day? What about bond trading and mail delivery?",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/is-the-stock-market-open-on-labor-day-does-the-post-office-deliver-mail-6d58fd77?mod=mw_rss_topstories",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.5541785955429077,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "labor",
-          "rates"
-        ],
-        "themes": [
-          "growth"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-07T23-29-44+00-00-5",
-        "title": "Iran\u2019s parliament speaker warns of strikes against U.S. energy firms",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/irans-parliament-speaker-warns-of-strikes-against-us-energy-firms-4890591",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9415005445480347,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "energy"
+          "fx"
         ],
         "themes": [
           "uncategorized"
@@ -262,272 +111,25 @@
     ],
     "bucket_views": [
       {
-        "name": "policy",
-        "label": "positive news sentiment",
-        "score": 2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-07T23-29-44+00-00-6",
-            "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ubs-forecasts-two-us-fed-rate-hikes-in-2026-after-strong-jobs-report-4890561",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8989330530166626,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "labor"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-07T23-29-44+00-00-3",
-            "title": "UBS expects the Fed to lift rates twice before the end of the year. Here\u2019s why.",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ubs-expects-the-fed-to-lift-rates-twice-before-the-end-of-the-year-heres-why-4890628",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8456565737724304,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "inflation",
+        "name": "fx",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-07T23-29-44+00-00-10",
-            "title": "European shares dip as rise in oil prices weighs; Novartis slips",
+            "doc_id": "www.investing.com-2026-09-08T23-23-18+00-00-9",
+            "title": "Yen hovers near seven-month high, dollar steadies",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/european-shares-dip-as-rise-in-oil-prices-weighs-novartis-slips-4890493",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.937774121761322,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "inflation",
-              "energy",
-              "fx"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-07T23-29-44+00-00-1",
-            "title": "Yen surges to seven-month high; dollar drifts ahead of US inflation",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-gets-little-lift-from-boost-in-fed-hike-expectations-4890340",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.486558198928833,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "inflation",
-              "fx"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-09-07T23-15-00+00-00-1",
-            "title": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-hit-near-seven-week-highs-before-edging-lower-as-iran-plans-to-increase-control-of-hormuz-5070167c?mod=mw_rss_topstories",
+            "url": "https://www.investing.com/news/economy-news/yen-extends-rally-to-new-sevenmonth-high-dollar-subdued-ahead-of-cpi-4890756",
             "confidence": "medium",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.6836181282997131,
+            "sentiment_confidence": 0.6501543521881104,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
+            "macro_score": 4,
             "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "energy",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-07T23-29-44+00-00-10",
-            "title": "European shares dip as rise in oil prices weighs; Novartis slips",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/european-shares-dip-as-rise-in-oil-prices-weighs-novartis-slips-4890493",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.937774121761322,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "inflation",
-              "energy",
               "fx"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-09-07T23-15-00+00-00-1",
-            "title": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-hit-near-seven-week-highs-before-edging-lower-as-iran-plans-to-increase-control-of-hormuz-5070167c?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.6836181282997131,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-07T23-29-44+00-00-5",
-            "title": "Iran\u2019s parliament speaker warns of strikes against U.S. energy firms",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/irans-parliament-speaker-warns-of-strikes-against-us-energy-firms-4890591",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9415005445480347,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 5,
-            "macro_buckets": [
-              "energy"
             ],
             "themes": [
               "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "labor",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-07T23-29-44+00-00-6",
-            "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ubs-forecasts-two-us-fed-rate-hikes-in-2026-after-strong-jobs-report-4890561",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8989330530166626,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "labor"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-09-07T11-16-00+00-00-10",
-            "title": "Is the stock market open today for Labor Day? What about bond trading and mail delivery?",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/is-the-stock-market-open-on-labor-day-does-the-post-office-deliver-mail-6d58fd77?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.5541785955429077,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "labor",
-              "rates"
-            ],
-            "themes": [
-              "growth"
             ],
             "scores": {
               "inflation": 0,
