@@ -1,8 +1,8 @@
 [
   {
-    "date": "2026-09-09",
-    "daily_brief": "2026-09-09: 10 unique articles were analyzed. News sentiment was neutral. Top theme: inflation.",
-    "macro_read": "Macro read: coverage across inflation, policy, liquidity was broadly neutral or mixed.",
+    "date": "2026-09-10",
+    "daily_brief": "2026-09-10: 7 unique articles were analyzed. News sentiment was neutral. Top theme: inflation.",
+    "macro_read": "Macro read: coverage across inflation, liquidity, policy was broadly neutral or mixed.",
     "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
     "market_checks": [],
     "feed_sources": [
@@ -13,66 +13,66 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.46,
-        "return_5d": 0.08,
-        "close": 762.4000244140625
+        "return_1d": -0.6,
+        "return_5d": -0.96,
+        "close": 757.8300170898438
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.57,
-        "return_5d": -0.17,
-        "close": 81.7300033569336
+        "return_1d": -1.16,
+        "return_5d": -1.43,
+        "close": 80.77999877929688
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.04,
-        "return_5d": -0.82,
-        "close": 27.979999542236328
+        "return_1d": 0.18,
+        "return_5d": -0.5,
+        "close": 28.030000686645508
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 2.7,
-        "return_5d": 6.36,
-        "close": 149.97000122070312
+        "return_1d": 5.61,
+        "return_5d": 12.21,
+        "close": 158.3800048828125
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.18,
-        "return_5d": -0.15,
-        "close": 78.9800033569336
+        "return_1d": -0.46,
+        "return_5d": -0.62,
+        "close": 78.62000274658203
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.91,
-        "return_5d": 1.66,
-        "close": 403.3500061035156
+        "return_1d": -1.73,
+        "return_5d": -1.59,
+        "close": 396.3599853515625
       }
     ],
     "news_sentiment": {
       "label": "neutral",
-      "score": 0.0,
-      "display_score": 0.0,
-      "unique_documents": 10,
-      "positive_pct": 40.0,
-      "neutral_pct": 20.0,
-      "negative_pct": 40.0,
-      "average_confidence": 0.766
+      "score": -0.14285714285714285,
+      "display_score": -0.14,
+      "unique_documents": 7,
+      "positive_pct": 28.6,
+      "neutral_pct": 28.6,
+      "negative_pct": 42.9,
+      "average_confidence": 0.878
     },
     "market_regime": {
       "label": "risk_off",
-      "score": -0.35,
+      "score": -0.5,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
         "SPY": -0.4,
-        "HYG": 0.0,
+        "HYG": -0.35,
         "TLT": 0.15,
-        "GLD": -0.1
+        "GLD": 0.1
       },
       "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
@@ -86,97 +86,18 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-09-09T20-36-00+00-00-8",
-        "title": "Oil\u2019s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/brent-crude-reaches-100-as-war-in-iran-intensifies-b73832e2?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-3",
+        "title": "S&P 500 ends down as Treasury yields rise and traders fret about inflation",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/wall-st-set-for-lower-open-after-hotterthanexpected-producer-inflation-data-4896053",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9482674598693848,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 10,
-        "macro_buckets": [
-          "policy",
-          "inflation",
-          "energy"
-        ],
-        "themes": [
-          "inflation",
-          "policy",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": -2,
-          "liquidity": -2,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-10",
-        "title": "US natural gas supply and demand to hit record highs in 2026",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-natural-gas-supply-and-demand-to-hit-record-highs-in-2026-93CH-4894288",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.8832175731658936,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 8,
-        "macro_buckets": [
-          "growth",
-          "energy"
-        ],
-        "themes": [
-          "growth"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 2,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-2",
-        "title": "ECB set to hike as Iran war fuels fresh inflation fears",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/ecb-set-to-hike-as-iran-war-fuels-fresh-inflation-fears-4894677",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.5498608350753784,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 8,
-        "macro_buckets": [
-          "policy",
-          "inflation"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": -1,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-1",
-        "title": "Dollar trades near 7-month low against yen as oil settles above $100",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/yen-stands-tall-as-dollar-wobbles-oils-run-towards-100-chills-sentiment-4892667",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9235513806343079,
+        "sentiment_confidence": 0.9381880760192871,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 7,
         "macro_buckets": [
-          "energy",
-          "fx"
+          "inflation",
+          "rates"
         ],
         "themes": [
           "inflation"
@@ -190,25 +111,24 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-8",
-        "title": "US\u00a0regulator says credit scoring firm FICO increasing prices for borrowers",
+        "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-4",
+        "title": "US Treasury buys back $5.2bn in bonds to support liquidity",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/usregulator-says-credit-scoring-firm-fico-increasing-prices-for-borrowers-4894166",
+        "url": "https://www.investing.com/news/economy-news/us-treasury-buys-back-52bn-in-bonds-to-support-liquidity-93CH-4896760",
         "confidence": "high",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.89396071434021,
+        "sentiment_confidence": 0.9215996265411377,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
+        "macro_score": 7,
         "macro_buckets": [
-          "inflation",
+          "rates",
           "liquidity"
         ],
         "themes": [
-          "inflation",
           "liquidity"
         ],
         "scores": {
-          "inflation": 2,
+          "inflation": 0,
           "growth": 0,
           "policy": 0,
           "liquidity": 2,
@@ -216,94 +136,69 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-3",
-        "title": "BOJ to raise rates to 1.25% this month, reach 1.75% faster than expected: Reuters poll",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/boj-to-raise-rates-to-125-this-month-reach-175-faster-than-expected-reuters-poll-4894676",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.6337287425994873,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
+        "doc_id": "www.marketwatch.com-2026-09-10T20-24-00+00-00-10",
+        "title": "Treasury yields surge after Bessent\u2019s beefed-up buyback operation fails to calm market",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8941627740859985,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 7,
         "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-5",
-        "title": "10-year yields highest since 2023",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/10year-yields-highest-since-2023-4894582",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.5159850716590881,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
+          "policy",
           "rates"
         ],
         "themes": [
-          "uncategorized"
+          "policy"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": 0,
+          "policy": -2,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-7",
-        "title": "S&P 500 ends down as oil tops $100 per barrel",
+        "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-5",
+        "title": "Druckenmiller says US interest rates too low, criticizes Fed - FT",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/wall-st-futures-muted-as-oil-tops-100-for-first-time-since-july-4892997",
+        "url": "https://www.investing.com/news/economy-news/druckenmiller-says-us-interest-rates-too-low-criticizes-fed--ft-93CH-4896700",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9413946866989136,
+        "sentiment_confidence": 0.8685975670814514,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 5,
+        "macro_score": 6,
         "macro_buckets": [
-          "energy"
+          "policy"
         ],
         "themes": [
-          "inflation"
+          "policy"
         ],
         "scores": {
-          "inflation": -2,
+          "inflation": 0,
           "growth": 0,
-          "policy": 0,
+          "policy": -2,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.marketwatch.com-2026-09-09T22-51-00+00-00-1",
-        "title": "Diesel prices hit another record high. If you\u2019re shocked, wait until you see your grocery bill.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/diesel-prices-hit-another-record-high-if-youre-shocked-wait-until-you-see-your-grocery-bill-afee7076?mod=mw_rss_topstories",
-        "confidence": "medium",
+        "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-7",
+        "title": "Nubank launches US high-yield savings account, credit cards, remittances",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/nubank-launches-highyield-savings-account-credit-cards-remittances-in-the-us-4896505",
+        "confidence": "high",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.7892171740531921,
+        "sentiment_confidence": 0.8585301637649536,
         "summary_label": "neutral-financial-sentiment",
-        "macro_score": 4,
+        "macro_score": 6,
         "macro_buckets": [
-          "policy",
-          "inflation"
+          "rates",
+          "liquidity"
         ],
         "themes": [
-          "inflation",
-          "policy",
           "liquidity"
         ],
         "scores": {
@@ -315,14 +210,39 @@
         }
       },
       {
-        "doc_id": "www.marketwatch.com-2026-09-09T20-27-00+00-00-9",
-        "title": "You should always have energy stocks in your 401(k). Yes, even when oil is at $100.",
+        "doc_id": "www.marketwatch.com-2026-09-10T22-54-00+00-00-1",
+        "title": "All the ways record-high diesel and rising gas prices are about to make your life more expensive \u2014 from commuting to grocery shopping",
         "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-at-100-why-you-should-always-have-energy-stocks-in-your-401-k-b82798f1?mod=mw_rss_topstories",
-        "confidence": "low",
+        "url": "https://www.marketwatch.com/story/all-the-ways-record-high-diesel-and-rising-gas-prices-are-about-to-make-your-life-more-expensive-from-commuting-to-grocery-shopping-2083fec3?mod=mw_rss_topstories",
+        "confidence": "medium",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.5764790177345276,
+        "sentiment_confidence": 0.734728217124939,
         "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "inflation",
+          "energy"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-10",
+        "title": "Italy moves to increase domestic oil and gas output",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/italy-moves-to-increase-domestic-oil-and-gas-output-93CH-4896588",
+        "confidence": "high",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.932691216468811,
+        "summary_label": "positive-financial-sentiment",
         "macro_score": 4,
         "macro_buckets": [
           "energy"
@@ -331,7 +251,7 @@
           "inflation"
         ],
         "scores": {
-          "inflation": 0,
+          "inflation": 2,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -341,76 +261,186 @@
     ],
     "bucket_views": [
       {
-        "name": "energy",
+        "name": "policy",
         "label": "negative news sentiment",
-        "score": -5,
+        "score": -4,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-09T20-36-00+00-00-8",
-            "title": "Oil\u2019s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
+            "doc_id": "www.marketwatch.com-2026-09-10T20-24-00+00-00-10",
+            "title": "Treasury yields surge after Bessent\u2019s beefed-up buyback operation fails to calm market",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/brent-crude-reaches-100-as-war-in-iran-intensifies-b73832e2?mod=mw_rss_topstories",
+            "url": "https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9482674598693848,
+            "sentiment_confidence": 0.8941627740859985,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
+            "macro_score": 7,
             "macro_buckets": [
               "policy",
-              "inflation",
-              "energy"
+              "rates"
             ],
             "themes": [
-              "inflation",
-              "policy",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": -2,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-10",
-            "title": "US natural gas supply and demand to hit record highs in 2026",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-natural-gas-supply-and-demand-to-hit-record-highs-in-2026-93CH-4894288",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8832175731658936,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "growth",
-              "energy"
-            ],
-            "themes": [
-              "growth"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
-              "growth": 2,
-              "policy": 0,
+              "growth": 0,
+              "policy": -2,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-1",
-            "title": "Dollar trades near 7-month low against yen as oil settles above $100",
+            "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-5",
+            "title": "Druckenmiller says US interest rates too low, criticizes Fed - FT",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/yen-stands-tall-as-dollar-wobbles-oils-run-towards-100-chills-sentiment-4892667",
+            "url": "https://www.investing.com/news/economy-news/druckenmiller-says-us-interest-rates-too-low-criticizes-fed--ft-93CH-4896700",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9235513806343079,
+            "sentiment_confidence": 0.8685975670814514,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "liquidity",
+        "label": "positive news sentiment",
+        "score": 2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-4",
+            "title": "US Treasury buys back $5.2bn in bonds to support liquidity",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-treasury-buys-back-52bn-in-bonds-to-support-liquidity-93CH-4896760",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9215996265411377,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "rates",
+              "liquidity"
+            ],
+            "themes": [
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 2,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-7",
+            "title": "Nubank launches US high-yield savings account, credit cards, remittances",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/nubank-launches-highyield-savings-account-credit-cards-remittances-in-the-us-4896505",
+            "confidence": "high",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.8585301637649536,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "rates",
+              "liquidity"
+            ],
+            "themes": [
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-4",
+            "title": "US Treasury buys back $5.2bn in bonds to support liquidity",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-treasury-buys-back-52bn-in-bonds-to-support-liquidity-93CH-4896760",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9215996265411377,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "rates",
+              "liquidity"
+            ],
+            "themes": [
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 2,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.marketwatch.com-2026-09-10T20-24-00+00-00-10",
+            "title": "Treasury yields surge after Bessent\u2019s beefed-up buyback operation fails to calm market",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8941627740859985,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 7,
             "macro_buckets": [
-              "energy",
-              "fx"
+              "policy",
+              "rates"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-3",
+            "title": "S&P 500 ends down as Treasury yields rise and traders fret about inflation",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/wall-st-set-for-lower-open-after-hotterthanexpected-producer-inflation-data-4896053",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9381880760192871,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "inflation",
+              "rates"
             ],
             "themes": [
               "inflation"
@@ -427,201 +457,54 @@
       },
       {
         "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -5,
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-09T20-36-00+00-00-8",
-            "title": "Oil\u2019s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/brent-crude-reaches-100-as-war-in-iran-intensifies-b73832e2?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-3",
+            "title": "S&P 500 ends down as Treasury yields rise and traders fret about inflation",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/wall-st-set-for-lower-open-after-hotterthanexpected-producer-inflation-data-4896053",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9482674598693848,
+            "sentiment_confidence": 0.9381880760192871,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
+            "macro_score": 7,
             "macro_buckets": [
-              "policy",
               "inflation",
-              "energy"
+              "rates"
             ],
             "themes": [
-              "inflation",
-              "policy",
-              "liquidity"
+              "inflation"
             ],
             "scores": {
               "inflation": -2,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": -2,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-2",
-            "title": "ECB set to hike as Iran war fuels fresh inflation fears",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ecb-set-to-hike-as-iran-war-fuels-fresh-inflation-fears-4894677",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5498608350753784,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-8",
-            "title": "US\u00a0regulator says credit scoring firm FICO increasing prices for borrowers",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/usregulator-says-credit-scoring-firm-fico-increasing-prices-for-borrowers-4894166",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.89396071434021,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "liquidity"
-            ],
-            "themes": [
-              "inflation",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 2,
               "growth": 0,
               "policy": 0,
-              "liquidity": 2,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "policy",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-09-09T20-36-00+00-00-8",
-            "title": "Oil\u2019s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/brent-crude-reaches-100-as-war-in-iran-intensifies-b73832e2?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9482674598693848,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "policy",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": -2,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-2",
-            "title": "ECB set to hike as Iran war fuels fresh inflation fears",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ecb-set-to-hike-as-iran-war-fuels-fresh-inflation-fears-4894677",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5498608350753784,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-3",
-            "title": "BOJ to raise rates to 1.25% this month, reach 1.75% faster than expected: Reuters poll",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/boj-to-raise-rates-to-125-this-month-reach-175-faster-than-expected-reuters-poll-4894676",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.6337287425994873,
-            "summary_label": "positive-financial-sentiment",
+            "doc_id": "www.marketwatch.com-2026-09-10T22-54-00+00-00-1",
+            "title": "All the ways record-high diesel and rising gas prices are about to make your life more expensive \u2014 from commuting to grocery shopping",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/all-the-ways-record-high-diesel-and-rising-gas-prices-are-about-to-make-your-life-more-expensive-from-commuting-to-grocery-shopping-2083fec3?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.734728217124939,
+            "summary_label": "neutral-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "policy"
+              "inflation",
+              "energy"
             ],
             "themes": [
-              "policy"
+              "inflation"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "growth",
-        "label": "positive news sentiment",
-        "score": 2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-09T23-13-14+00-00-10",
-            "title": "US natural gas supply and demand to hit record highs in 2026",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-natural-gas-supply-and-demand-to-hit-record-highs-in-2026-93CH-4894288",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8832175731658936,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "growth",
-              "energy"
-            ],
-            "themes": [
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 2,
               "policy": 0,
               "liquidity": 0,
               "risk": 0

@@ -1,136 +1,95 @@
 [
   {
-    "id": "www.marketwatch.com-2026-09-09T20-36-00+00-00-8",
+    "id": "www.marketwatch.com-2026-09-10T20-24-00+00-00-10",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-09T20:36:00+00:00",
-    "title": "Oil\u2019s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
-    "body": "A prolonged oil shock could keep consumer prices elevated and complicate the path for central banks already navigating a difficult policy environment.",
-    "url": "https://www.marketwatch.com/story/brent-crude-reaches-100-as-war-in-iran-intensifies-b73832e2?mod=mw_rss_topstories",
-    "macro_score": 10,
+    "published_at": "2026-09-10T20:24:00+00:00",
+    "title": "Treasury yields surge after Bessent\u2019s beefed-up buyback operation fails to calm market",
+    "body": "The Treasury market\u2019s painful rout intensified Thursday, after an underwhelming auction of 30-year U.S. government debt and Treasury Secretary Scott Bessent\u2019s first beefed-up buyback operation.",
+    "url": "https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories",
+    "macro_score": 7,
     "macro_buckets": [
       "policy",
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-10T23-08-55+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-10T23:08:55+00:00",
+    "title": "S&P 500 ends down as Treasury yields rise and traders fret about inflation",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/wall-st-set-for-lower-open-after-hotterthanexpected-producer-inflation-data-4896053",
+    "macro_score": 7,
+    "macro_buckets": [
+      "inflation",
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-10T23-08-55+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-10T23:08:55+00:00",
+    "title": "US Treasury buys back $5.2bn in bonds to support liquidity",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/us-treasury-buys-back-52bn-in-bonds-to-support-liquidity-93CH-4896760",
+    "macro_score": 7,
+    "macro_buckets": [
+      "rates",
+      "liquidity"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-09-10T22-54-00+00-00-1",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-09-10T22:54:00+00:00",
+    "title": "All the ways record-high diesel and rising gas prices are about to make your life more expensive \u2014 from commuting to grocery shopping",
+    "body": "\u201cDiesel touches everything in the economy,\u201d one analyst says.",
+    "url": "https://www.marketwatch.com/story/all-the-ways-record-high-diesel-and-rising-gas-prices-are-about-to-make-your-life-more-expensive-from-commuting-to-grocery-shopping-2083fec3?mod=mw_rss_topstories",
+    "macro_score": 6,
+    "macro_buckets": [
       "inflation",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-09T23-13-14+00-00-2",
+    "id": "www.investing.com-2026-09-10T23-08-55+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-09T23:13:14+00:00",
-    "title": "ECB set to hike as Iran war fuels fresh inflation fears",
+    "published_at": "2026-09-10T23:08:55+00:00",
+    "title": "Druckenmiller says US interest rates too low, criticizes Fed - FT",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecb-set-to-hike-as-iran-war-fuels-fresh-inflation-fears-4894677",
-    "macro_score": 8,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-09T23-13-14+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-09T23:13:14+00:00",
-    "title": "US natural gas supply and demand to hit record highs in 2026",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-natural-gas-supply-and-demand-to-hit-record-highs-in-2026-93CH-4894288",
-    "macro_score": 8,
-    "macro_buckets": [
-      "growth",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-09T23-13-14+00-00-1",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-09T23:13:14+00:00",
-    "title": "Dollar trades near 7-month low against yen as oil settles above $100",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/yen-stands-tall-as-dollar-wobbles-oils-run-towards-100-chills-sentiment-4892667",
-    "macro_score": 7,
-    "macro_buckets": [
-      "energy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-09T23-13-14+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-09T23:13:14+00:00",
-    "title": "BOJ to raise rates to 1.25% this month, reach 1.75% faster than expected: Reuters poll",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/boj-to-raise-rates-to-125-this-month-reach-175-faster-than-expected-reuters-poll-4894676",
+    "url": "https://www.investing.com/news/economy-news/druckenmiller-says-us-interest-rates-too-low-criticizes-fed--ft-93CH-4896700",
     "macro_score": 6,
     "macro_buckets": [
       "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-09T23-13-14+00-00-5",
+    "id": "www.investing.com-2026-09-10T23-08-55+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-09T23:13:14+00:00",
-    "title": "10-year yields highest since 2023",
+    "published_at": "2026-09-10T23:08:55+00:00",
+    "title": "Nubank launches US high-yield savings account, credit cards, remittances",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/10year-yields-highest-since-2023-4894582",
+    "url": "https://www.investing.com/news/economy-news/nubank-launches-highyield-savings-account-credit-cards-remittances-in-the-us-4896505",
     "macro_score": 6,
     "macro_buckets": [
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-09T23-13-14+00-00-8",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-09T23:13:14+00:00",
-    "title": "US\u00a0regulator says credit scoring firm FICO increasing prices for borrowers",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/usregulator-says-credit-scoring-firm-fico-increasing-prices-for-borrowers-4894166",
-    "macro_score": 6,
-    "macro_buckets": [
-      "inflation",
+      "rates",
       "liquidity"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-09T23-13-14+00-00-7",
+    "id": "www.investing.com-2026-09-10T23-08-55+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-09T23:13:14+00:00",
-    "title": "S&P 500 ends down as oil tops $100 per barrel",
+    "published_at": "2026-09-10T23:08:55+00:00",
+    "title": "Italy moves to increase domestic oil and gas output",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/wall-st-futures-muted-as-oil-tops-100-for-first-time-since-july-4892997",
-    "macro_score": 5,
-    "macro_buckets": [
-      "energy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-09-09T22-51-00+00-00-1",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-09T22:51:00+00:00",
-    "title": "Diesel prices hit another record high. If you\u2019re shocked, wait until you see your grocery bill.",
-    "body": "The most important price in America is one most drivers never pay \u2014 and it reaches the CPI, the Fed and the European Central Bank in the same week.",
-    "url": "https://www.marketwatch.com/story/diesel-prices-hit-another-record-high-if-youre-shocked-wait-until-you-see-your-grocery-bill-afee7076?mod=mw_rss_topstories",
-    "macro_score": 4,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-09-09T20-27-00+00-00-9",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-09T20:27:00+00:00",
-    "title": "You should always have energy stocks in your 401(k). Yes, even when oil is at $100.",
-    "body": "Energy and resource stocks have zigged while the market has zagged.",
-    "url": "https://www.marketwatch.com/story/oil-at-100-why-you-should-always-have-energy-stocks-in-your-401-k-b82798f1?mod=mw_rss_topstories",
+    "url": "https://www.investing.com/news/economy-news/italy-moves-to-increase-domestic-oil-and-gas-output-93CH-4896588",
     "macro_score": 4,
     "macro_buckets": [
       "energy"
