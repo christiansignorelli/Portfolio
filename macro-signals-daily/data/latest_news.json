@@ -1,98 +1,57 @@
 [
   {
-    "id": "www.marketwatch.com-2026-09-10T20-24-00+00-00-10",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-10T20:24:00+00:00",
-    "title": "Treasury yields surge after Bessent\u2019s beefed-up buyback operation fails to calm market",
-    "body": "The Treasury market\u2019s painful rout intensified Thursday, after an underwhelming auction of 30-year U.S. government debt and Treasury Secretary Scott Bessent\u2019s first beefed-up buyback operation.",
-    "url": "https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories",
-    "macro_score": 7,
+    "id": "www.investing.com-2026-09-11T23-15-05+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-11T23:15:05+00:00",
+    "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/us-consumer-inflation-picks-up-in-august-4897901",
+    "macro_score": 11,
     "macro_buckets": [
       "policy",
-      "rates"
+      "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-10T23-08-55+00-00-3",
+    "id": "www.investing.com-2026-09-11T23-15-05+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-10T23:08:55+00:00",
-    "title": "S&P 500 ends down as Treasury yields rise and traders fret about inflation",
+    "published_at": "2026-09-11T23:15:05+00:00",
+    "title": "Investors brace for possible rate hike at uncertain Fed meeting",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/wall-st-set-for-lower-open-after-hotterthanexpected-producer-inflation-data-4896053",
-    "macro_score": 7,
-    "macro_buckets": [
-      "inflation",
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-10T23-08-55+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-10T23:08:55+00:00",
-    "title": "US Treasury buys back $5.2bn in bonds to support liquidity",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-treasury-buys-back-52bn-in-bonds-to-support-liquidity-93CH-4896760",
-    "macro_score": 7,
-    "macro_buckets": [
-      "rates",
-      "liquidity"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-09-10T22-54-00+00-00-1",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-10T22:54:00+00:00",
-    "title": "All the ways record-high diesel and rising gas prices are about to make your life more expensive \u2014 from commuting to grocery shopping",
-    "body": "\u201cDiesel touches everything in the economy,\u201d one analyst says.",
-    "url": "https://www.marketwatch.com/story/all-the-ways-record-high-diesel-and-rising-gas-prices-are-about-to-make-your-life-more-expensive-from-commuting-to-grocery-shopping-2083fec3?mod=mw_rss_topstories",
-    "macro_score": 6,
-    "macro_buckets": [
-      "inflation",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-10T23-08-55+00-00-5",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-10T23:08:55+00:00",
-    "title": "Druckenmiller says US interest rates too low, criticizes Fed - FT",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/druckenmiller-says-us-interest-rates-too-low-criticizes-fed--ft-93CH-4896700",
+    "url": "https://www.investing.com/news/economy-news/investors-brace-for-possible-rate-hike-at-uncertain-fed-meeting-4897503",
     "macro_score": 6,
     "macro_buckets": [
       "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-10T23-08-55+00-00-7",
+    "id": "www.investing.com-2026-09-11T23-15-05+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-10T23:08:55+00:00",
-    "title": "Nubank launches US high-yield savings account, credit cards, remittances",
+    "published_at": "2026-09-11T23:15:05+00:00",
+    "title": "Wall Street jumps, oil lower ahead of Fed vote next week",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/nubank-launches-highyield-savings-account-credit-cards-remittances-in-the-us-4896505",
+    "url": "https://www.investing.com/news/economy-news/global-bonds-fall-as-surging-oil-prices-inflame-inflation-risks-4897139",
     "macro_score": 6,
     "macro_buckets": [
-      "rates",
-      "liquidity"
+      "policy",
+      "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-10T23-08-55+00-00-10",
+    "id": "www.investing.com-2026-09-11T23-15-05+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-10T23:08:55+00:00",
-    "title": "Italy moves to increase domestic oil and gas output",
+    "published_at": "2026-09-11T23:15:05+00:00",
+    "title": "European stocks rise, but log sharp weekly loss as inflation fears linger",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/italy-moves-to-increase-domestic-oil-and-gas-output-93CH-4896588",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/european-stocks-rise-but-head-for-sharp-weekly-declines-4897312",
+    "macro_score": 6,
     "macro_buckets": [
-      "energy"
+      "inflation",
+      "fx"
     ]
   }
 ]

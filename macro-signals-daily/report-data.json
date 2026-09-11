@@ -1,103 +1,128 @@
 [
   {
-    "date": "2026-09-10",
-    "daily_brief": "2026-09-10: 7 unique articles were analyzed. News sentiment was neutral. Top theme: inflation.",
-    "macro_read": "Macro read: coverage across inflation, liquidity, policy was broadly neutral or mixed.",
-    "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
+    "date": "2026-09-11",
+    "daily_brief": "2026-09-11: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.6,
-        "return_5d": -0.96,
-        "close": 757.8300170898438
+        "return_1d": 0.85,
+        "return_5d": -1.15,
+        "close": 764.2899780273438
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -1.16,
-        "return_5d": -1.43,
-        "close": 80.77999877929688
+        "return_1d": 0.11,
+        "return_5d": -1.46,
+        "close": 80.87000274658203
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.18,
-        "return_5d": -0.5,
-        "close": 28.030000686645508
+        "return_1d": 0.14,
+        "return_5d": 0.21,
+        "close": 28.06999969482422
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 5.61,
-        "return_5d": 12.21,
-        "close": 158.3800048828125
+        "return_1d": -2.2,
+        "return_5d": 9.02,
+        "close": 154.89999389648438
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.46,
-        "return_5d": -0.62,
-        "close": 78.62000274658203
+        "return_1d": -0.03,
+        "return_5d": -0.77,
+        "close": 78.5999984741211
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -1.73,
-        "return_5d": -1.59,
-        "close": 396.3599853515625
+        "return_1d": 0.61,
+        "return_5d": -2.79,
+        "close": 398.7699890136719
       }
     ],
     "news_sentiment": {
-      "label": "neutral",
-      "score": -0.14285714285714285,
-      "display_score": -0.14,
-      "unique_documents": 7,
-      "positive_pct": 28.6,
-      "neutral_pct": 28.6,
-      "negative_pct": 42.9,
-      "average_confidence": 0.878
+      "label": "negative",
+      "score": -0.5,
+      "display_score": -0.5,
+      "unique_documents": 4,
+      "positive_pct": 25.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 75.0,
+      "average_confidence": 0.794
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.5,
+      "label": "risk_on",
+      "score": 0.3,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
-        "HYG": -0.35,
-        "TLT": 0.15,
-        "GLD": 0.1
+        "SPY": 0.4,
+        "HYG": 0.0,
+        "TLT": 0.0,
+        "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "market_led",
-      "label": "Market-led",
-      "explanation": "News sentiment was neutral, while markets showed a clearer directional response.",
-      "news_label": "neutral",
-      "market_label": "risk_off"
+      "status": "divergent",
+      "label": "Divergent",
+      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+      "news_label": "negative",
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-3",
-        "title": "S&P 500 ends down as Treasury yields rise and traders fret about inflation",
+        "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-2",
+        "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/wall-st-set-for-lower-open-after-hotterthanexpected-producer-inflation-data-4896053",
+        "url": "https://www.investing.com/news/economy-news/us-consumer-inflation-picks-up-in-august-4897901",
+        "confidence": "high",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.865106999874115,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 11,
+        "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": 2,
+          "growth": 0,
+          "policy": 2,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-10",
+        "title": "European stocks rise, but log sharp weekly loss as inflation fears linger",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/european-stocks-rise-but-head-for-sharp-weekly-declines-4897312",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9381880760192871,
+        "sentiment_confidence": 0.9684241414070129,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
+        "macro_score": 6,
         "macro_buckets": [
           "inflation",
-          "rates"
+          "fx"
         ],
         "themes": [
           "inflation"
@@ -111,49 +136,25 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-4",
-        "title": "US Treasury buys back $5.2bn in bonds to support liquidity",
+        "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-6",
+        "title": "Wall Street jumps, oil lower ahead of Fed vote next week",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-treasury-buys-back-52bn-in-bonds-to-support-liquidity-93CH-4896760",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.9215996265411377,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 7,
-        "macro_buckets": [
-          "rates",
-          "liquidity"
-        ],
-        "themes": [
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 2,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-09-10T20-24-00+00-00-10",
-        "title": "Treasury yields surge after Bessent\u2019s beefed-up buyback operation fails to calm market",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories",
+        "url": "https://www.investing.com/news/economy-news/global-bonds-fall-as-surging-oil-prices-inflame-inflation-risks-4897139",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.8941627740859985,
+        "sentiment_confidence": 0.9061298966407776,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
+        "macro_score": 6,
         "macro_buckets": [
           "policy",
-          "rates"
+          "energy"
         ],
         "themes": [
+          "inflation",
           "policy"
         ],
         "scores": {
-          "inflation": 0,
+          "inflation": -2,
           "growth": 0,
           "policy": -2,
           "liquidity": 0,
@@ -161,13 +162,13 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-5",
-        "title": "Druckenmiller says US interest rates too low, criticizes Fed - FT",
+        "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-1",
+        "title": "Investors brace for possible rate hike at uncertain Fed meeting",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/druckenmiller-says-us-interest-rates-too-low-criticizes-fed--ft-93CH-4896700",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/investors-brace-for-possible-rate-hike-at-uncertain-fed-meeting-4897503",
+        "confidence": "low",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.8685975670814514,
+        "sentiment_confidence": 0.4364771842956543,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
@@ -179,81 +180,7 @@
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": -2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-7",
-        "title": "Nubank launches US high-yield savings account, credit cards, remittances",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/nubank-launches-highyield-savings-account-credit-cards-remittances-in-the-us-4896505",
-        "confidence": "high",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8585301637649536,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "rates",
-          "liquidity"
-        ],
-        "themes": [
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-09-10T22-54-00+00-00-1",
-        "title": "All the ways record-high diesel and rising gas prices are about to make your life more expensive \u2014 from commuting to grocery shopping",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/all-the-ways-record-high-diesel-and-rising-gas-prices-are-about-to-make-your-life-more-expensive-from-commuting-to-grocery-shopping-2083fec3?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.734728217124939,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "inflation",
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-10",
-        "title": "Italy moves to increase domestic oil and gas output",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/italy-moves-to-increase-domestic-oil-and-gas-output-93CH-4896588",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.932691216468811,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": 2,
-          "growth": 0,
-          "policy": 0,
+          "policy": -1,
           "liquidity": 0,
           "risk": 0
         }
@@ -261,218 +188,49 @@
     ],
     "bucket_views": [
       {
-        "name": "policy",
-        "label": "negative news sentiment",
-        "score": -4,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-09-10T20-24-00+00-00-10",
-            "title": "Treasury yields surge after Bessent\u2019s beefed-up buyback operation fails to calm market",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8941627740859985,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "policy",
-              "rates"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-5",
-            "title": "Druckenmiller says US interest rates too low, criticizes Fed - FT",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/druckenmiller-says-us-interest-rates-too-low-criticizes-fed--ft-93CH-4896700",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8685975670814514,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "liquidity",
-        "label": "positive news sentiment",
-        "score": 2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-4",
-            "title": "US Treasury buys back $5.2bn in bonds to support liquidity",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-treasury-buys-back-52bn-in-bonds-to-support-liquidity-93CH-4896760",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9215996265411377,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "rates",
-              "liquidity"
-            ],
-            "themes": [
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 2,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-7",
-            "title": "Nubank launches US high-yield savings account, credit cards, remittances",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/nubank-launches-highyield-savings-account-credit-cards-remittances-in-the-us-4896505",
-            "confidence": "high",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8585301637649536,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "rates",
-              "liquidity"
-            ],
-            "themes": [
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-4",
-            "title": "US Treasury buys back $5.2bn in bonds to support liquidity",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-treasury-buys-back-52bn-in-bonds-to-support-liquidity-93CH-4896760",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9215996265411377,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "rates",
-              "liquidity"
-            ],
-            "themes": [
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 2,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-09-10T20-24-00+00-00-10",
-            "title": "Treasury yields surge after Bessent\u2019s beefed-up buyback operation fails to calm market",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8941627740859985,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "policy",
-              "rates"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-3",
-            "title": "S&P 500 ends down as Treasury yields rise and traders fret about inflation",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/wall-st-set-for-lower-open-after-hotterthanexpected-producer-inflation-data-4896053",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9381880760192871,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "inflation",
-              "rates"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
         "name": "inflation",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-10T23-08-55+00-00-3",
-            "title": "S&P 500 ends down as Treasury yields rise and traders fret about inflation",
+            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-2",
+            "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/wall-st-set-for-lower-open-after-hotterthanexpected-producer-inflation-data-4896053",
+            "url": "https://www.investing.com/news/economy-news/us-consumer-inflation-picks-up-in-august-4897901",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.865106999874115,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 11,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 2,
+              "growth": 0,
+              "policy": 2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-10",
+            "title": "European stocks rise, but log sharp weekly loss as inflation fears linger",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/european-stocks-rise-but-head-for-sharp-weekly-declines-4897312",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9381880760192871,
+            "sentiment_confidence": 0.9684241414070129,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "macro_score": 6,
             "macro_buckets": [
               "inflation",
-              "rates"
+              "fx"
             ],
             "themes": [
               "inflation"
@@ -484,26 +242,149 @@
               "liquidity": 0,
               "risk": 0
             }
-          },
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-10T22-54-00+00-00-1",
-            "title": "All the ways record-high diesel and rising gas prices are about to make your life more expensive \u2014 from commuting to grocery shopping",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/all-the-ways-record-high-diesel-and-rising-gas-prices-are-about-to-make-your-life-more-expensive-from-commuting-to-grocery-shopping-2083fec3?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.734728217124939,
-            "summary_label": "neutral-financial-sentiment",
+            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-6",
+            "title": "Wall Street jumps, oil lower ahead of Fed vote next week",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/global-bonds-fall-as-surging-oil-prices-inflame-inflation-risks-4897139",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9061298966407776,
+            "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "inflation",
+              "policy",
               "energy"
             ],
             "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "negative news sentiment",
+        "score": -1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-2",
+            "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-consumer-inflation-picks-up-in-august-4897901",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.865106999874115,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 11,
+            "macro_buckets": [
+              "policy",
               "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 2,
+              "growth": 0,
+              "policy": 2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-6",
+            "title": "Wall Street jumps, oil lower ahead of Fed vote next week",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/global-bonds-fall-as-surging-oil-prices-inflame-inflation-risks-4897139",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9061298966407776,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "energy"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-1",
+            "title": "Investors brace for possible rate hike at uncertain Fed meeting",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/investors-brace-for-possible-rate-hike-at-uncertain-fed-meeting-4897503",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.4364771842956543,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
+              "policy"
             ],
             "scores": {
               "inflation": 0,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-10",
+            "title": "European stocks rise, but log sharp weekly loss as inflation fears linger",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/european-stocks-rise-but-head-for-sharp-weekly-declines-4897312",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9684241414070129,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "inflation",
+              "fx"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
