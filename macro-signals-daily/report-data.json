@@ -1,9 +1,154 @@
 [
   {
     "date": "2026-09-11",
-    "daily_brief": "2026-09-11: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+    "daily_brief": "2026-09-11: 1 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.marketwatch.com/rss/topstories"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": 0.85,
+        "return_5d": -1.15,
+        "close": 764.2899780273438
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.11,
+        "return_5d": -1.46,
+        "close": 80.87000274658203
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.14,
+        "return_5d": 0.21,
+        "close": 28.06999969482422
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": -2.2,
+        "return_5d": 9.02,
+        "close": 154.89999389648438
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": -0.03,
+        "return_5d": -0.77,
+        "close": 78.5999984741211
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": 0.61,
+        "return_5d": -2.79,
+        "close": 398.7699890136719
+      }
+    ],
+    "news_sentiment": {
+      "label": "insufficient_data",
+      "score": 0.0,
+      "display_score": 0.0,
+      "unique_documents": 1,
+      "positive_pct": 0.0,
+      "neutral_pct": 100.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.728
+    },
+    "market_regime": {
+      "label": "risk_on",
+      "score": 0.3,
+      "signals_used": 4,
+      "signals_available": 4,
+      "contributions": {
+        "SPY": 0.4,
+        "HYG": 0.0,
+        "TLT": 0.0,
+        "GLD": -0.1
+      },
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "data_quality_status": "complete"
+    },
+    "confirmation": {
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "risk_on"
+    },
+    "analyzed_coverage": [
+      {
+        "doc_id": "www.marketwatch.com-2026-09-11T23-54-00+00-00-7",
+        "title": "The Fed could raise interest rates three times. Here\u2019s where the market could face the stiffest test.",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.7275930643081665,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 7,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "policy",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-09-11T23-54-00+00-00-7",
+            "title": "The Fed could raise interest rates three times. Here\u2019s where the market could face the stiffest test.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7275930643081665,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-09-12",
+    "daily_brief": "2026-09-12: 2 unique articles were analyzed. Top theme: uncategorized. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
@@ -53,14 +198,14 @@
       }
     ],
     "news_sentiment": {
-      "label": "negative",
-      "score": -0.5,
-      "display_score": -0.5,
-      "unique_documents": 4,
-      "positive_pct": 25.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 75.0,
-      "average_confidence": 0.794
+      "label": "insufficient_data",
+      "score": 0.5,
+      "display_score": 0.5,
+      "unique_documents": 2,
+      "positive_pct": 50.0,
+      "neutral_pct": 50.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.9
     },
     "market_regime": {
       "label": "risk_on",
@@ -77,58 +222,32 @@
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "divergent",
-      "label": "Divergent",
-      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
-      "news_label": "negative",
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
       "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-2",
-        "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
+        "doc_id": "www.investing.com-2026-09-12T23-02-25+00-00-5",
+        "title": "How Europeans save \u2014 and why it matters for the economy",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-consumer-inflation-picks-up-in-august-4897901",
+        "url": "https://www.investing.com/news/economy-news/how-europeans-save-matters-for-the-broader-economy-4898637",
         "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.865106999874115,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 11,
-        "macro_buckets": [
-          "policy",
-          "inflation"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": 2,
-          "growth": 0,
-          "policy": 2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-10",
-        "title": "European stocks rise, but log sharp weekly loss as inflation fears linger",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/european-stocks-rise-but-head-for-sharp-weekly-declines-4897312",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9684241414070129,
-        "summary_label": "negative-financial-sentiment",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.9084692597389221,
+        "summary_label": "neutral-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "inflation",
+          "growth",
           "fx"
         ],
         "themes": [
-          "inflation"
+          "uncategorized"
         ],
         "scores": {
-          "inflation": -2,
+          "inflation": 0,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -136,40 +255,14 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-6",
-        "title": "Wall Street jumps, oil lower ahead of Fed vote next week",
+        "doc_id": "www.investing.com-2026-09-12T23-02-25+00-00-4",
+        "title": "Citi sees Fed delivering \"a dovish hike\" next week",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/global-bonds-fall-as-surging-oil-prices-inflame-inflation-risks-4897139",
+        "url": "https://www.investing.com/news/economy-news/citi-sees-fed-delivering-a-dovish-hike-next-week-4898646",
         "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9061298966407776,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy",
-          "energy"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": -2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-1",
-        "title": "Investors brace for possible rate hike at uncertain Fed meeting",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/investors-brace-for-possible-rate-hike-at-uncertain-fed-meeting-4897503",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.4364771842956543,
-        "summary_label": "negative-financial-sentiment",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.891650915145874,
+        "summary_label": "positive-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
           "policy"
@@ -180,7 +273,7 @@
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": -1,
+          "policy": 2,
           "liquidity": 0,
           "risk": 0
         }
@@ -188,162 +281,19 @@
     ],
     "bucket_views": [
       {
-        "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-2",
-            "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-consumer-inflation-picks-up-in-august-4897901",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.865106999874115,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 11,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 2,
-              "growth": 0,
-              "policy": 2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-10",
-            "title": "European stocks rise, but log sharp weekly loss as inflation fears linger",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/european-stocks-rise-but-head-for-sharp-weekly-declines-4897312",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9684241414070129,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "fx"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "energy",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-6",
-            "title": "Wall Street jumps, oil lower ahead of Fed vote next week",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/global-bonds-fall-as-surging-oil-prices-inflame-inflation-risks-4897139",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9061298966407776,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
         "name": "policy",
-        "label": "negative news sentiment",
-        "score": -1,
+        "label": "positive news sentiment",
+        "score": 2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-2",
-            "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
+            "doc_id": "www.investing.com-2026-09-12T23-02-25+00-00-4",
+            "title": "Citi sees Fed delivering \"a dovish hike\" next week",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-consumer-inflation-picks-up-in-august-4897901",
+            "url": "https://www.investing.com/news/economy-news/citi-sees-fed-delivering-a-dovish-hike-next-week-4898646",
             "confidence": "high",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.865106999874115,
+            "sentiment_confidence": 0.891650915145874,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 11,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 2,
-              "growth": 0,
-              "policy": 2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-6",
-            "title": "Wall Street jumps, oil lower ahead of Fed vote next week",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/global-bonds-fall-as-surging-oil-prices-inflame-inflation-risks-4897139",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9061298966407776,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-1",
-            "title": "Investors brace for possible rate hike at uncertain Fed meeting",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/investors-brace-for-possible-rate-hike-at-uncertain-fed-meeting-4897503",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.4364771842956543,
-            "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
               "policy"
@@ -354,7 +304,39 @@
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": -1,
+              "policy": 2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-12T23-02-25+00-00-5",
+            "title": "How Europeans save \u2014 and why it matters for the economy",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/how-europeans-save-matters-for-the-broader-economy-4898637",
+            "confidence": "high",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.9084692597389221,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "growth",
+              "fx"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
@@ -367,24 +349,24 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-11T23-15-05+00-00-10",
-            "title": "European stocks rise, but log sharp weekly loss as inflation fears linger",
+            "doc_id": "www.investing.com-2026-09-12T23-02-25+00-00-5",
+            "title": "How Europeans save \u2014 and why it matters for the economy",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/european-stocks-rise-but-head-for-sharp-weekly-declines-4897312",
+            "url": "https://www.investing.com/news/economy-news/how-europeans-save-matters-for-the-broader-economy-4898637",
             "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9684241414070129,
-            "summary_label": "negative-financial-sentiment",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.9084692597389221,
+            "summary_label": "neutral-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "inflation",
+              "growth",
               "fx"
             ],
             "themes": [
-              "inflation"
+              "uncategorized"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,

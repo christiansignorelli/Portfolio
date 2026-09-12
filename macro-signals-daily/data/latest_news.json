@@ -1,56 +1,41 @@
 [
   {
-    "id": "www.investing.com-2026-09-11T23-15-05+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-11T23:15:05+00:00",
-    "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-consumer-inflation-picks-up-in-august-4897901",
-    "macro_score": 11,
+    "id": "www.marketwatch.com-2026-09-11T23-54-00+00-00-7",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-09-11T23:54:00+00:00",
+    "title": "The Fed could raise interest rates three times. Here\u2019s where the market could face the stiffest test.",
+    "body": "Economists note that the Fed historically has not been content to raise rates only once.",
+    "url": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
+    "macro_score": 7,
     "macro_buckets": [
-      "policy",
-      "inflation"
+      "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-11T23-15-05+00-00-1",
+    "id": "www.investing.com-2026-09-12T23-02-25+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-11T23:15:05+00:00",
-    "title": "Investors brace for possible rate hike at uncertain Fed meeting",
+    "published_at": "2026-09-12T23:02:25+00:00",
+    "title": "Citi sees Fed delivering \"a dovish hike\" next week",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/investors-brace-for-possible-rate-hike-at-uncertain-fed-meeting-4897503",
+    "url": "https://www.investing.com/news/economy-news/citi-sees-fed-delivering-a-dovish-hike-next-week-4898646",
     "macro_score": 6,
     "macro_buckets": [
       "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-11T23-15-05+00-00-6",
+    "id": "www.investing.com-2026-09-12T23-02-25+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-11T23:15:05+00:00",
-    "title": "Wall Street jumps, oil lower ahead of Fed vote next week",
+    "published_at": "2026-09-12T23:02:25+00:00",
+    "title": "How Europeans save \u2014 and why it matters for the economy",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/global-bonds-fall-as-surging-oil-prices-inflame-inflation-risks-4897139",
+    "url": "https://www.investing.com/news/economy-news/how-europeans-save-matters-for-the-broader-economy-4898637",
     "macro_score": 6,
     "macro_buckets": [
-      "policy",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-11T23-15-05+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-11T23:15:05+00:00",
-    "title": "European stocks rise, but log sharp weekly loss as inflation fears linger",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/european-stocks-rise-but-head-for-sharp-weekly-declines-4897312",
-    "macro_score": 6,
-    "macro_buckets": [
-      "inflation",
+      "growth",
       "fx"
     ]
   }
