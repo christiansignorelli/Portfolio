@@ -1,42 +1,59 @@
 [
   {
-    "id": "www.marketwatch.com-2026-09-11T23-54-00+00-00-7",
+    "id": "www.marketwatch.com-2026-09-13T19-00-00+00-00-8",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-11T23:54:00+00:00",
-    "title": "The Fed could raise interest rates three times. Here\u2019s where the market could face the stiffest test.",
-    "body": "Economists note that the Fed historically has not been content to raise rates only once.",
-    "url": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
-    "macro_score": 7,
+    "published_at": "2026-09-13T19:00:00+00:00",
+    "title": "Fed rate hikes won\u2019t bring down gas prices. Why the bond market is pushing for them anyway.",
+    "body": "The 10-year Treasury yield is sitting on the doorstep of 5%, and that\u2019s a warning sign for stocks.",
+    "url": "https://www.marketwatch.com/story/fed-rate-hikes-wont-bring-down-gas-prices-why-the-bond-market-is-pushing-for-them-anyway-98f2c7e3?mod=mw_rss_topstories",
+    "macro_score": 18,
     "macro_buckets": [
-      "policy"
+      "policy",
+      "inflation",
+      "rates",
+      "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-12T23-02-25+00-00-4",
+    "id": "www.investing.com-2026-09-13T23-08-13+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-12T23:02:25+00:00",
-    "title": "Citi sees Fed delivering \"a dovish hike\" next week",
+    "published_at": "2026-09-13T23:08:13+00:00",
+    "title": "Central banks should favor market inflation expectations when setting policy - UBS",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/citi-sees-fed-delivering-a-dovish-hike-next-week-4898646",
+    "url": "https://www.investing.com/news/economy-news/central-banks-should-favor-market-inflation-expectations-when-setting-policy--ubs-4898740",
+    "macro_score": 9,
+    "macro_buckets": [
+      "policy",
+      "inflation",
+      "liquidity"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-13T23-08-13+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-13T23:08:13+00:00",
+    "title": "Investors brace for possible rate hike at uncertain Fed meeting",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/investors-brace-for-possible-rate-hike-at-uncertain-fed-meeting-4898733",
     "macro_score": 6,
     "macro_buckets": [
       "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-12T23-02-25+00-00-5",
+    "id": "www.investing.com-2026-09-13T23-08-13+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-12T23:02:25+00:00",
-    "title": "How Europeans save \u2014 and why it matters for the economy",
+    "published_at": "2026-09-13T23:08:13+00:00",
+    "title": "Will Secretary Scott Bessent fire his bazooka to avert yields climbing above 5%?",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/how-europeans-save-matters-for-the-broader-economy-4898637",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/will-secretary-scott-bessent-fire-his-bazooka-to-avert-yields-climbing-above-5-4898743",
+    "macro_score": 4,
     "macro_buckets": [
-      "growth",
-      "fx"
+      "rates"
     ]
   }
 ]
