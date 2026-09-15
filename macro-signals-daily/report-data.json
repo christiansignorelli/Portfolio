@@ -1,8 +1,8 @@
 [
   {
-    "date": "2026-09-14",
-    "daily_brief": "2026-09-14: 5 unique articles were analyzed. News sentiment was positive. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly positive tone.",
+    "date": "2026-09-15",
+    "daily_brief": "2026-09-15: 4 unique articles were analyzed. News sentiment was positive. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy, Liquidity coverage showed a predominantly positive tone.",
     "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
@@ -13,66 +13,66 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.45,
-        "return_5d": -1.21,
-        "close": 760.8800048828125
+        "return_1d": -0.46,
+        "return_5d": -1.12,
+        "close": 757.3900146484375
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.07,
-        "return_5d": -1.56,
-        "close": 80.93000030517578
+        "return_1d": -0.27,
+        "return_5d": -1.81,
+        "close": 80.70999908447266
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.36,
-        "return_5d": 0.32,
-        "close": 28.170000076293945
+        "return_1d": 0.18,
+        "return_5d": 0.82,
+        "close": 28.219999313354492
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 1.14,
-        "return_5d": 10.36,
-        "close": 156.66000366210938
+        "return_1d": 3.32,
+        "return_5d": 10.84,
+        "close": 161.86000061035156
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.09,
-        "return_5d": -0.8,
-        "close": 78.52999877929688
+        "return_1d": -0.19,
+        "return_5d": -0.94,
+        "close": 78.37999725341797
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -1.49,
-        "return_5d": -3.42,
-        "close": 392.8399963378906
+        "return_1d": 0.33,
+        "return_5d": -1.39,
+        "close": 394.1499938964844
       }
     ],
     "news_sentiment": {
       "label": "positive",
-      "score": 0.4,
-      "display_score": 0.4,
-      "unique_documents": 5,
-      "positive_pct": 60.0,
-      "neutral_pct": 20.0,
-      "negative_pct": 20.0,
-      "average_confidence": 0.805
+      "score": 0.5,
+      "display_score": 0.5,
+      "unique_documents": 4,
+      "positive_pct": 50.0,
+      "neutral_pct": 50.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.586
     },
     "market_regime": {
       "label": "risk_off",
-      "score": -0.3,
+      "score": -0.35,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
         "SPY": -0.4,
         "HYG": 0.0,
-        "TLT": 0.0,
-        "GLD": 0.1
+        "TLT": 0.15,
+        "GLD": -0.1
       },
       "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
@@ -86,73 +86,72 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-09-14T20-47-00+00-00-8",
-        "title": "10-year Treasury yield hits 5% as oil prices jump and Fed meeting looms",
+        "doc_id": "www.marketwatch.com-2026-09-15T21-34-00+00-00-5",
+        "title": "How the Iran war is transforming the relationship between stocks, bonds and oil",
         "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/10-year-treasury-yield-tops-5-for-the-first-time-since-2007-as-bond-market-selloff-deepens-14c81f75?mod=mw_rss_topstories",
+        "url": "https://www.marketwatch.com/story/2-charts-showing-how-oil-is-becoming-the-global-markets-biggest-wild-card-ec273da8?mod=mw_rss_topstories",
         "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.64190274477005,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 17,
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.574609637260437,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 11,
         "macro_buckets": [
-          "policy",
-          "inflation",
           "rates",
           "energy"
         ],
         "themes": [
-          "inflation",
-          "policy"
+          "inflation"
         ],
         "scores": {
-          "inflation": 1,
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.marketwatch.com-2026-09-15T20-47-00+00-00-8",
+        "title": "Why a Federal Reserve rate hike could be a \u2018rare win\u2019 for your retirement money",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/why-a-federal-reserve-rate-hike-could-be-a-rare-win-for-your-retirement-money-3ae337df?mod=mw_rss_topstories",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.5891798138618469,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 8,
+        "macro_buckets": [
+          "policy",
+          "rates"
+        ],
+        "themes": [
+          "policy",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
           "growth": 0,
           "policy": 1,
-          "liquidity": 0,
+          "liquidity": 1,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.marketwatch.com-2026-09-14T21-31-00+00-00-3",
-        "title": "The oil market is sending an increasingly loud warning about gas prices at the pump",
+        "doc_id": "www.marketwatch.com-2026-09-15T21-00-00+00-00-7",
+        "title": "Inflation killed the penny. Now it\u2019s coming for your dollar.",
         "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/the-oil-market-is-sending-an-increasingly-loud-warning-about-gas-prices-at-the-pump-18177588?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8381223082542419,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 10,
+        "url": "https://www.marketwatch.com/story/inflation-killed-the-penny-now-its-coming-for-your-dollar-78336cd8?mod=mw_rss_topstories",
+        "confidence": "low",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.6429229378700256,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
         "macro_buckets": [
           "inflation",
-          "energy"
+          "fx"
         ],
         "themes": [
           "inflation"
-        ],
-        "scores": {
-          "inflation": -1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-14T23-52-27+00-00-5",
-        "title": "US 10-year yields reach 5%, highest since 2023",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-10year-yields-reach-5-highest-since-2023-4899925",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.930425226688385,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "rates"
-        ],
-        "themes": [
-          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
@@ -163,49 +162,24 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-14T23-52-27+00-00-9",
-        "title": "US export ban unlikely to lower energy prices, Burgum says",
+        "doc_id": "www.investing.com-2026-09-15T23-34-00+00-00-5",
+        "title": "Argentina submits 2027 budget bill to Congress, foresees 4% GDP growth",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-export-ban-unlikely-to-lower-energy-prices-burgum-says-93CH-4900530",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/argentina-submits-2027-budget-bill-to-congress-foresees-4-gdp-growth-4902554",
+        "confidence": "low",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.8640012741088867,
+        "sentiment_confidence": 0.5359131693840027,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "inflation",
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": 2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-14T23-52-27+00-00-3",
-        "title": "Explainer-US Treasury yields are rising - why does it matter?",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/explainerus-treasury-yields-are-rising--why-does-it-matter-4899965",
-        "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.7523751258850098,
-        "summary_label": "neutral-financial-sentiment",
         "macro_score": 4,
         "macro_buckets": [
-          "rates"
+          "growth"
         ],
         "themes": [
-          "uncategorized"
+          "growth"
         ],
         "scores": {
           "inflation": 0,
-          "growth": 0,
+          "growth": 1,
           "policy": 0,
           "liquidity": 0,
           "risk": 0
@@ -214,57 +188,29 @@
     ],
     "bucket_views": [
       {
-        "name": "inflation",
+        "name": "rates",
         "label": "positive news sentiment",
-        "score": 2,
+        "score": 1,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-14T20-47-00+00-00-8",
-            "title": "10-year Treasury yield hits 5% as oil prices jump and Fed meeting looms",
+            "doc_id": "www.marketwatch.com-2026-09-15T21-34-00+00-00-5",
+            "title": "How the Iran war is transforming the relationship between stocks, bonds and oil",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/10-year-treasury-yield-tops-5-for-the-first-time-since-2007-as-bond-market-selloff-deepens-14c81f75?mod=mw_rss_topstories",
+            "url": "https://www.marketwatch.com/story/2-charts-showing-how-oil-is-becoming-the-global-markets-biggest-wild-card-ec273da8?mod=mw_rss_topstories",
             "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.64190274477005,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 17,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.574609637260437,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 11,
             "macro_buckets": [
-              "policy",
-              "inflation",
               "rates",
               "energy"
             ],
             "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-09-14T21-31-00+00-00-3",
-            "title": "The oil market is sending an increasingly loud warning about gas prices at the pump",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/the-oil-market-is-sending-an-increasingly-loud-warning-about-gas-prices-at-the-pump-18177588?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8381223082542419,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -272,112 +218,28 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-09-14T23-52-27+00-00-9",
-            "title": "US export ban unlikely to lower energy prices, Burgum says",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-export-ban-unlikely-to-lower-energy-prices-burgum-says-93CH-4900530",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8640012741088867,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "energy",
-        "label": "positive news sentiment",
-        "score": 2,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-09-14T20-47-00+00-00-8",
-            "title": "10-year Treasury yield hits 5% as oil prices jump and Fed meeting looms",
+            "doc_id": "www.marketwatch.com-2026-09-15T20-47-00+00-00-8",
+            "title": "Why a Federal Reserve rate hike could be a \u2018rare win\u2019 for your retirement money",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/10-year-treasury-yield-tops-5-for-the-first-time-since-2007-as-bond-market-selloff-deepens-14c81f75?mod=mw_rss_topstories",
+            "url": "https://www.marketwatch.com/story/why-a-federal-reserve-rate-hike-could-be-a-rare-win-for-your-retirement-money-3ae337df?mod=mw_rss_topstories",
             "confidence": "low",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.64190274477005,
+            "sentiment_confidence": 0.5891798138618469,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 17,
+            "macro_score": 8,
             "macro_buckets": [
               "policy",
-              "inflation",
-              "rates",
-              "energy"
+              "rates"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "policy",
+              "liquidity"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": 0,
               "growth": 0,
               "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-09-14T21-31-00+00-00-3",
-            "title": "The oil market is sending an increasingly loud warning about gas prices at the pump",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/the-oil-market-is-sending-an-increasingly-loud-warning-about-gas-prices-at-the-pump-18177588?mod=mw_rss_topstories",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8381223082542419,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-14T23-52-27+00-00-9",
-            "title": "US export ban unlikely to lower energy prices, Burgum says",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-export-ban-unlikely-to-lower-energy-prices-burgum-says-93CH-4900530",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8640012741088867,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
+              "liquidity": 1,
               "risk": 0
             }
           }
@@ -389,29 +251,58 @@
         "score": 1,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-14T20-47-00+00-00-8",
-            "title": "10-year Treasury yield hits 5% as oil prices jump and Fed meeting looms",
+            "doc_id": "www.marketwatch.com-2026-09-15T20-47-00+00-00-8",
+            "title": "Why a Federal Reserve rate hike could be a \u2018rare win\u2019 for your retirement money",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/10-year-treasury-yield-tops-5-for-the-first-time-since-2007-as-bond-market-selloff-deepens-14c81f75?mod=mw_rss_topstories",
+            "url": "https://www.marketwatch.com/story/why-a-federal-reserve-rate-hike-could-be-a-rare-win-for-your-retirement-money-3ae337df?mod=mw_rss_topstories",
             "confidence": "low",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.64190274477005,
+            "sentiment_confidence": 0.5891798138618469,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 17,
+            "macro_score": 8,
             "macro_buckets": [
               "policy",
-              "inflation",
-              "rates",
-              "energy"
+              "rates"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "policy",
+              "liquidity"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": 0,
               "growth": 0,
               "policy": 1,
+              "liquidity": 1,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "positive news sentiment",
+        "score": 1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-15T23-34-00+00-00-5",
+            "title": "Argentina submits 2027 budget bill to Congress, foresees 4% GDP growth",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/argentina-submits-2027-budget-bill-to-congress-foresees-4-gdp-growth-4902554",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.5359131693840027,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "growth"
+            ],
+            "themes": [
+              "growth"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 1,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
@@ -419,77 +310,26 @@
         ]
       },
       {
-        "name": "rates",
+        "name": "energy",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-14T20-47-00+00-00-8",
-            "title": "10-year Treasury yield hits 5% as oil prices jump and Fed meeting looms",
+            "doc_id": "www.marketwatch.com-2026-09-15T21-34-00+00-00-5",
+            "title": "How the Iran war is transforming the relationship between stocks, bonds and oil",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/10-year-treasury-yield-tops-5-for-the-first-time-since-2007-as-bond-market-selloff-deepens-14c81f75?mod=mw_rss_topstories",
+            "url": "https://www.marketwatch.com/story/2-charts-showing-how-oil-is-becoming-the-global-markets-biggest-wild-card-ec273da8?mod=mw_rss_topstories",
             "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.64190274477005,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 17,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.574609637260437,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 11,
             "macro_buckets": [
-              "policy",
-              "inflation",
               "rates",
               "energy"
             ],
             "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-14T23-52-27+00-00-5",
-            "title": "US 10-year yields reach 5%, highest since 2023",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-10year-yields-reach-5-highest-since-2023-4899925",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.930425226688385,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "rates"
-            ],
-            "themes": [
-              "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-14T23-52-27+00-00-3",
-            "title": "Explainer-US Treasury yields are rising - why does it matter?",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/explainerus-treasury-yields-are-rising--why-does-it-matter-4899965",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.7523751258850098,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
-              "rates"
-            ],
-            "themes": [
-              "uncategorized"
+              "inflation"
             ],
             "scores": {
               "inflation": 0,
