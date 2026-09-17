@@ -1,122 +1,87 @@
 [
   {
-    "id": "www.marketwatch.com-2026-09-16T21-40-00+00-00-5",
+    "id": "www.investing.com-2026-09-17T23-33-22+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-17T23:33:22+00:00",
+    "title": "Dollar pauses after Fed rally as yields, oil retreat",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/hawkish-fed-lifts-dollar-to-sevenweek-high-as-focus-turn-to-boj-4904757",
+    "macro_score": 13,
+    "macro_buckets": [
+      "policy",
+      "rates",
+      "energy",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-17T23-33-22+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-17T23:33:22+00:00",
+    "title": "U.S. Treasury yields drop as oil prices ease",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-prices-ease-93CH-4906477",
+    "macro_score": 10,
+    "macro_buckets": [
+      "inflation",
+      "rates",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-09-17T21-22-00+00-00-1",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-16T21:40:00+00:00",
-    "title": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
-    "body": "Fed Chair Kevin Warsh has sent investors a message: When it comes to tamping down inflation, he means business.",
-    "url": "https://www.marketwatch.com/story/fed-rate-hike-fails-to-calm-troubled-markets-as-dow-falls-600-points-expect-more-sharp-swings-in-stocks-and-bonds-5ffb55fe?mod=mw_rss_topstories",
-    "macro_score": 11,
+    "published_at": "2026-09-17T21:22:00+00:00",
+    "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
+    "body": "\u201cThe higher that yields go \u2014 for at least new money \u2014 it becomes more enticing to think about putting money into bonds,\u201d one strategist notes.",
+    "url": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
+    "macro_score": 8,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-17T23-33-22+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-17T23:33:22+00:00",
+    "title": "Tech leads Wall St to higher close as oil eases, Treasury yields dip",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/wall-st-futures-rise-as-fed-rate-hike-lifts-longstanding-overhang-4905088",
+    "macro_score": 7,
+    "macro_buckets": [
+      "rates",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-17T23-33-22+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-17T23:33:22+00:00",
+    "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/shares-tick-higher-as-fed-hikes-rates-dollar-jumps-with-shortterm-yields-4904754",
+    "macro_score": 7,
     "macro_buckets": [
       "policy",
       "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-16T23-39-27+00-00-3",
+    "id": "www.investing.com-2026-09-17T23-33-22+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-16T23:39:27+00:00",
-    "title": "Major US banks raise prime rate after first Fed rate hike since 2023",
+    "published_at": "2026-09-17T23:33:22+00:00",
+    "title": "Trading Day: Lower oil, yields boost stocks",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/keycorp-raises-prime-rate-after-fed-decision-4904369",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
-      "liquidity"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-09-16T22-25-00+00-00-1",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-16T22:25:00+00:00",
-    "title": "As Fed rolls out its first interest-rate hike in 3 years, market braces for more increases",
-    "body": "The Fed\u2019s policy-making committee was unanimous in its decision to hike, but forward guidance was split.",
-    "url": "https://www.marketwatch.com/story/warshs-fed-rolls-out-first-interest-rate-hike-in-3-years-with-one-more-increase-expected-cde3060d?mod=mw_rss_topstories",
+    "url": "https://www.investing.com/news/economy-news/trading-day-lower-oil-yields-boost-stocks-4906478",
     "macro_score": 7,
     "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-16T23-39-27+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-16T23:39:27+00:00",
-    "title": "Fed\u2019s Warsh lays out forces driving up bond yields",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-warsh-lays-out-forces-driving-up-bond-yields-4904580",
-    "macro_score": 7,
-    "macro_buckets": [
-      "policy",
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-16T23-39-27+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-16T23:39:27+00:00",
-    "title": "Fed policymakers forecast one more rate hike this year",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/fed-forecasts-see-latest-hike-followed-by-another-before-end-of-year-4904264",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-16T23-39-27+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-16T23:39:27+00:00",
-    "title": "Trump lashes out at Fed after Warsh backs rate hike",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/trump-says-us-interest-rates-should-be-1-or-lower-4904556",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-09-16T20-38-00+00-00-8",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-16T20:38:00+00:00",
-    "title": "Here\u2019s a sneaky way to play the Fed\u2019s rate increase",
-    "body": "But watch out for the pitfalls.",
-    "url": "https://www.marketwatch.com/story/heres-a-sneaky-way-to-play-the-feds-rate-increase-6deb072f?mod=mw_rss_topstories",
-    "macro_score": 5,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-16T23-39-27+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-16T23:39:27+00:00",
-    "title": "Brazil central bank delivers fifth straight rate cut, leaves next move open",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/brazil-central-bank-cuts-rates-for-fifth-straight-meeting-4904608",
-    "macro_score": 5,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-16T23-39-27+00-00-1",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-16T23:39:27+00:00",
-    "title": "Bank of England to hold rates but energy shock stirs talk of a hike",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/bank-of-england-to-hold-rates-but-energy-shock-stirs-talk-of-a-hike-4904677",
-    "macro_score": 4,
-    "macro_buckets": [
-      "policy",
+      "rates",
       "energy"
     ]
   }

@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-09-16",
-    "daily_brief": "2026-09-16: 9 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
-    "macro_read": "Macro read: Policy, Liquidity, Inflation coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+    "date": "2026-09-17",
+    "daily_brief": "2026-09-17: 6 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss",
@@ -13,91 +13,93 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.44,
-        "return_5d": -1.1,
-        "close": 754.0499877929688
+        "return_1d": 1.13,
+        "return_5d": 0.63,
+        "close": 762.5999755859375
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.21,
-        "return_5d": -1.04,
-        "close": 80.87999725341797
+        "return_1d": 1.11,
+        "return_5d": 1.24,
+        "close": 81.77999877929688
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.64,
-        "return_5d": 1.5,
-        "close": 28.399999618530273
+        "return_1d": -0.07,
+        "return_5d": 1.25,
+        "close": 28.3799991607666
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -3.52,
-        "return_5d": 4.13,
-        "close": 156.1699981689453
+        "return_1d": -0.55,
+        "return_5d": -1.94,
+        "close": 155.30999755859375
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.05,
-        "return_5d": -0.71,
-        "close": 78.41999816894531
+        "return_1d": 0.38,
+        "return_5d": 0.13,
+        "close": 78.72000122070312
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.61,
-        "return_5d": -2.88,
-        "close": 391.739990234375
+        "return_1d": 1.69,
+        "return_5d": 0.5,
+        "close": 398.3599853515625
       }
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -0.2222222222222222,
-      "display_score": -0.22,
-      "unique_documents": 9,
-      "positive_pct": 22.2,
-      "neutral_pct": 33.3,
-      "negative_pct": 44.4,
-      "average_confidence": 0.689
+      "score": -0.3333333333333333,
+      "display_score": -0.33,
+      "unique_documents": 6,
+      "positive_pct": 33.3,
+      "neutral_pct": 0.0,
+      "negative_pct": 66.7,
+      "average_confidence": 0.793
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.45,
+      "label": "risk_on",
+      "score": 0.5,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
-        "HYG": 0.0,
+        "SPY": 0.4,
+        "HYG": 0.35,
         "TLT": -0.15,
-        "GLD": 0.1
+        "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "confirmed",
-      "label": "Confirmed",
-      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+      "status": "divergent",
+      "label": "Divergent",
+      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
       "news_label": "negative",
-      "market_label": "risk_off"
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-09-16T21-40-00+00-00-5",
-        "title": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/fed-rate-hike-fails-to-calm-troubled-markets-as-dow-falls-600-points-expect-more-sharp-swings-in-stocks-and-bonds-5ffb55fe?mod=mw_rss_topstories",
-        "confidence": "low",
+        "doc_id": "www.investing.com-2026-09-17T23-33-22+00-00-10",
+        "title": "Dollar pauses after Fed rally as yields, oil retreat",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/hawkish-fed-lifts-dollar-to-sevenweek-high-as-focus-turn-to-boj-4904757",
+        "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.643722414970398,
+        "sentiment_confidence": 0.6504909992218018,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 11,
+        "macro_score": 13,
         "macro_buckets": [
           "policy",
-          "rates"
+          "rates",
+          "energy",
+          "fx"
         ],
         "themes": [
           "inflation",
@@ -112,64 +114,89 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-16T23-39-27+00-00-3",
-        "title": "Major US banks raise prime rate after first Fed rate hike since 2023",
+        "doc_id": "www.investing.com-2026-09-17T23-33-22+00-00-7",
+        "title": "U.S. Treasury yields drop as oil prices ease",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/keycorp-raises-prime-rate-after-fed-decision-4904369",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.7754884362220764,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "policy",
-          "liquidity"
-        ],
-        "themes": [
-          "policy",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 1,
-          "liquidity": 1,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-09-16T22-25-00+00-00-1",
-        "title": "As Fed rolls out its first interest-rate hike in 3 years, market braces for more increases",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/warshs-fed-rolls-out-first-interest-rate-hike-in-3-years-with-one-more-increase-expected-cde3060d?mod=mw_rss_topstories",
-        "confidence": "low",
+        "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-prices-ease-93CH-4906477",
+        "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.5632757544517517,
+        "sentiment_confidence": 0.9590165615081787,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
+        "macro_score": 10,
         "macro_buckets": [
-          "policy"
+          "inflation",
+          "rates",
+          "energy"
         ],
         "themes": [
-          "policy"
+          "inflation"
         ],
         "scores": {
-          "inflation": 0,
+          "inflation": -2,
           "growth": 0,
-          "policy": -1,
+          "policy": 0,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-16T23-39-27+00-00-10",
-        "title": "Fed\u2019s Warsh lays out forces driving up bond yields",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-warsh-lays-out-forces-driving-up-bond-yields-4904580",
+        "doc_id": "www.marketwatch.com-2026-09-17T21-22-00+00-00-1",
+        "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
         "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.5197839140892029,
-        "summary_label": "neutral-financial-sentiment",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.5852376222610474,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 8,
+        "macro_buckets": [
+          "rates"
+        ],
+        "themes": [
+          "uncategorized"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-17T23-33-22+00-00-8",
+        "title": "Trading Day: Lower oil, yields boost stocks",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/trading-day-lower-oil-yields-boost-stocks-4906478",
+        "confidence": "high",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.9298245906829834,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 7,
+        "macro_buckets": [
+          "rates",
+          "energy"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": 2,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-17T23-33-22+00-00-6",
+        "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/shares-tick-higher-as-fed-hikes-rates-dollar-jumps-with-shortterm-yields-4904754",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8981760740280151,
+        "summary_label": "negative-financial-sentiment",
         "macro_score": 7,
         "macro_buckets": [
           "policy",
@@ -181,131 +208,33 @@
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": 0,
+          "policy": -2,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-16T23-39-27+00-00-2",
-        "title": "Fed policymakers forecast one more rate hike this year",
+        "doc_id": "www.investing.com-2026-09-17T23-33-22+00-00-3",
+        "title": "Tech leads Wall St to higher close as oil eases, Treasury yields dip",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/fed-forecasts-see-latest-hike-followed-by-another-before-end-of-year-4904264",
+        "url": "https://www.investing.com/news/economy-news/wall-st-futures-rise-as-fed-rate-hike-lifts-longstanding-overhang-4905088",
         "confidence": "medium",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.8157532811164856,
+        "sentiment_confidence": 0.7335326075553894,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
+        "macro_score": 7,
         "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-16T23-39-27+00-00-4",
-        "title": "Trump lashes out at Fed after Warsh backs rate hike",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/trump-says-us-interest-rates-should-be-1-or-lower-4904556",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.7604677677154541,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-09-16T20-38-00+00-00-8",
-        "title": "Here\u2019s a sneaky way to play the Fed\u2019s rate increase",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/heres-a-sneaky-way-to-play-the-feds-rate-increase-6deb072f?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8341067433357239,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-16T23-39-27+00-00-7",
-        "title": "Brazil central bank delivers fifth straight rate cut, leaves next move open",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/brazil-central-bank-cuts-rates-for-fifth-straight-meeting-4904608",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.6473081111907959,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-16T23-39-27+00-00-1",
-        "title": "Bank of England to hold rates but energy shock stirs talk of a hike",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/bank-of-england-to-hold-rates-but-energy-shock-stirs-talk-of-a-hike-4904677",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.6446323394775391,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "policy",
+          "rates",
           "energy"
         ],
         "themes": [
-          "policy",
-          "liquidity"
+          "inflation"
         ],
         "scores": {
-          "inflation": 0,
+          "inflation": 1,
           "growth": 0,
-          "policy": -1,
-          "liquidity": -1,
+          "policy": 0,
+          "liquidity": 0,
           "risk": 0
         }
       }
@@ -314,21 +243,23 @@
       {
         "name": "policy",
         "label": "negative news sentiment",
-        "score": -2,
+        "score": -3,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-16T21-40-00+00-00-5",
-            "title": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/fed-rate-hike-fails-to-calm-troubled-markets-as-dow-falls-600-points-expect-more-sharp-swings-in-stocks-and-bonds-5ffb55fe?mod=mw_rss_topstories",
-            "confidence": "low",
+            "doc_id": "www.investing.com-2026-09-17T23-33-22+00-00-10",
+            "title": "Dollar pauses after Fed rally as yields, oil retreat",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/hawkish-fed-lifts-dollar-to-sevenweek-high-as-focus-turn-to-boj-4904757",
+            "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.643722414970398,
+            "sentiment_confidence": 0.6504909992218018,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 11,
+            "macro_score": 13,
             "macro_buckets": [
               "policy",
-              "rates"
+              "rates",
+              "energy",
+              "fx"
             ],
             "themes": [
               "inflation",
@@ -343,40 +274,14 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-09-16T23-39-27+00-00-3",
-            "title": "Major US banks raise prime rate after first Fed rate hike since 2023",
+            "doc_id": "www.investing.com-2026-09-17T23-33-22+00-00-6",
+            "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/keycorp-raises-prime-rate-after-fed-decision-4904369",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.7754884362220764,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "liquidity"
-            ],
-            "themes": [
-              "policy",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 1,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-16T23-39-27+00-00-10",
-            "title": "Fed\u2019s Warsh lays out forces driving up bond yields",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-warsh-lays-out-forces-driving-up-bond-yields-4904580",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.5197839140892029,
-            "summary_label": "neutral-financial-sentiment",
+            "url": "https://www.investing.com/news/economy-news/shares-tick-higher-as-fed-hikes-rates-dollar-jumps-with-shortterm-yields-4904754",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8981760740280151,
+            "summary_label": "negative-financial-sentiment",
             "macro_score": 7,
             "macro_buckets": [
               "policy",
@@ -384,6 +289,91 @@
             ],
             "themes": [
               "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-17T23-33-22+00-00-10",
+            "title": "Dollar pauses after Fed rally as yields, oil retreat",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/hawkish-fed-lifts-dollar-to-sevenweek-high-as-focus-turn-to-boj-4904757",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.6504909992218018,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 13,
+            "macro_buckets": [
+              "policy",
+              "rates",
+              "energy",
+              "fx"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-17T23-33-22+00-00-7",
+            "title": "U.S. Treasury yields drop as oil prices ease",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-prices-ease-93CH-4906477",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9590165615081787,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 10,
+            "macro_buckets": [
+              "inflation",
+              "rates",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.marketwatch.com-2026-09-17T21-22-00+00-00-1",
+            "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.5852376222610474,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 8,
+            "macro_buckets": [
+              "rates"
+            ],
+            "themes": [
+              "uncategorized"
             ],
             "scores": {
               "inflation": 0,
@@ -397,55 +387,24 @@
       },
       {
         "name": "energy",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-16T23-39-27+00-00-1",
-            "title": "Bank of England to hold rates but energy shock stirs talk of a hike",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bank-of-england-to-hold-rates-but-energy-shock-stirs-talk-of-a-hike-4904677",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.6446323394775391,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
-              "policy",
-              "energy"
-            ],
-            "themes": [
-              "policy",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": -1,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-16T21-40-00+00-00-5",
-            "title": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/fed-rate-hike-fails-to-calm-troubled-markets-as-dow-falls-600-points-expect-more-sharp-swings-in-stocks-and-bonds-5ffb55fe?mod=mw_rss_topstories",
-            "confidence": "low",
+            "doc_id": "www.investing.com-2026-09-17T23-33-22+00-00-10",
+            "title": "Dollar pauses after Fed rally as yields, oil retreat",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/hawkish-fed-lifts-dollar-to-sevenweek-high-as-focus-turn-to-boj-4904757",
+            "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.643722414970398,
+            "sentiment_confidence": 0.6504909992218018,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 11,
+            "macro_score": 13,
             "macro_buckets": [
               "policy",
-              "rates"
+              "rates",
+              "energy",
+              "fx"
             ],
             "themes": [
               "inflation",
@@ -460,24 +419,50 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-09-16T23-39-27+00-00-10",
-            "title": "Fed\u2019s Warsh lays out forces driving up bond yields",
+            "doc_id": "www.investing.com-2026-09-17T23-33-22+00-00-7",
+            "title": "U.S. Treasury yields drop as oil prices ease",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-warsh-lays-out-forces-driving-up-bond-yields-4904580",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.5197839140892029,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 7,
+            "url": "https://www.investing.com/news/economy-news/us-treasury-yields-drop-as-oil-prices-ease-93CH-4906477",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9590165615081787,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 10,
             "macro_buckets": [
-              "policy",
-              "rates"
+              "inflation",
+              "rates",
+              "energy"
             ],
             "themes": [
-              "policy"
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-17T23-33-22+00-00-8",
+            "title": "Trading Day: Lower oil, yields boost stocks",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/trading-day-lower-oil-yields-boost-stocks-4906478",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9298245906829834,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 7,
+            "macro_buckets": [
+              "rates",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 2,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -487,33 +472,35 @@
         ]
       },
       {
-        "name": "liquidity",
+        "name": "fx",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-16T23-39-27+00-00-3",
-            "title": "Major US banks raise prime rate after first Fed rate hike since 2023",
+            "doc_id": "www.investing.com-2026-09-17T23-33-22+00-00-10",
+            "title": "Dollar pauses after Fed rally as yields, oil retreat",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/keycorp-raises-prime-rate-after-fed-decision-4904369",
+            "url": "https://www.investing.com/news/economy-news/hawkish-fed-lifts-dollar-to-sevenweek-high-as-focus-turn-to-boj-4904757",
             "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.7754884362220764,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.6504909992218018,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 13,
             "macro_buckets": [
               "policy",
-              "liquidity"
+              "rates",
+              "energy",
+              "fx"
             ],
             "themes": [
-              "policy",
-              "liquidity"
+              "inflation",
+              "policy"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -1,
               "growth": 0,
-              "policy": 1,
-              "liquidity": 1,
+              "policy": -1,
+              "liquidity": 0,
               "risk": 0
             }
           }
