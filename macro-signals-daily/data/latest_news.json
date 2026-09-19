@@ -1,17 +1,58 @@
 [
   {
-    "id": "www.investing.com-2026-09-18T23-16-52+00-00-5",
+    "id": "www.investing.com-2026-09-19T22-59-26+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-18T23:16:52+00:00",
-    "title": "Global shares edge higher as central banks double down on inflation fight",
+    "published_at": "2026-09-19T22:59:26+00:00",
+    "title": "Europe\u2019s winter power prices jump as gas supply concerns grow - Bloomberg",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/stocks-rise-as-oil-dips-yen-wobbles-ahead-of-boj-4906608",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/europes-winter-power-prices-jump-as-gas-supply-concerns-grow--bloomberg-4908070",
+    "macro_score": 11,
+    "macro_buckets": [
+      "inflation",
+      "energy",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-19T22-59-26+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-19T22:59:26+00:00",
+    "title": "Citi expects hawkish Fed to slow non-AI economy",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/citi-expects-hawkish-fed-to-slow-nonai-economy-4908117",
+    "macro_score": 8,
     "macro_buckets": [
       "policy",
-      "inflation",
-      "liquidity"
+      "growth"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-19T22-59-26+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-19T22:59:26+00:00",
+    "title": "ECB should stay vigilant on inflation but avoid hasty rate moves - Stournaras",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/ecb-should-stay-vigilant-on-inflation-but-avoid-hasty-rate-moves--stournaras-4908086",
+    "macro_score": 8,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-19T22-59-26+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-19T22:59:26+00:00",
+    "title": "Why the Fed hiked into a supply shock?",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/why-the-fed-hiked-into-a-supply-shock-4908102",
+    "macro_score": 5,
+    "macro_buckets": [
+      "policy"
     ]
   }
 ]
