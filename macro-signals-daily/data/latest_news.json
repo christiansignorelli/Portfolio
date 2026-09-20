@@ -1,56 +1,56 @@
 [
   {
-    "id": "www.investing.com-2026-09-19T22-59-26+00-00-9",
+    "id": "www.investing.com-2026-09-20T23-13-56+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-19T22:59:26+00:00",
-    "title": "Europe\u2019s winter power prices jump as gas supply concerns grow - Bloomberg",
+    "published_at": "2026-09-20T23:13:56+00:00",
+    "title": "Fed\u2019s Kashkari says inflation is still too high in \u2019all aspects\u2019 of US economy, in Fox News interview",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/europes-winter-power-prices-jump-as-gas-supply-concerns-grow--bloomberg-4908070",
-    "macro_score": 11,
-    "macro_buckets": [
-      "inflation",
-      "energy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-19T22-59-26+00-00-1",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-19T22:59:26+00:00",
-    "title": "Citi expects hawkish Fed to slow non-AI economy",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/citi-expects-hawkish-fed-to-slow-nonai-economy-4908117",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/feds-kashkari-says-inflation-goes-beyond-oil-prices-according-to-fox-news-interview-4908180",
+    "macro_score": 9,
     "macro_buckets": [
       "policy",
+      "inflation",
       "growth"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-19T22-59-26+00-00-7",
+    "id": "www.marketwatch.com-2026-09-20T13-00-00+00-00-8",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-09-20T13:00:00+00:00",
+    "title": "Record diesel prices are exposing pain points in the stock market and economy",
+    "body": "A major risks now is that diesel prices stay high \u2014 and continue to put upward pressure on inflation.",
+    "url": "https://www.marketwatch.com/story/record-diesel-prices-are-exposing-pain-points-in-the-stock-market-and-economy-a2079b04?mod=mw_rss_topstories",
+    "macro_score": 7,
+    "macro_buckets": [
+      "inflation",
+      "growth"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-20T23-13-56+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-19T22:59:26+00:00",
-    "title": "ECB should stay vigilant on inflation but avoid hasty rate moves - Stournaras",
+    "published_at": "2026-09-20T23:13:56+00:00",
+    "title": "Minneapolis Fed\u2019s Kashkari says inflation remains too high",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecb-should-stay-vigilant-on-inflation-but-avoid-hasty-rate-moves--stournaras-4908086",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/minneapolis-feds-kashkari-says-inflation-remains-too-high-4908181",
+    "macro_score": 6,
     "macro_buckets": [
       "policy",
       "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-19T22-59-26+00-00-4",
+    "id": "www.investing.com-2026-09-20T23-13-56+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-19T22:59:26+00:00",
-    "title": "Why the Fed hiked into a supply shock?",
+    "published_at": "2026-09-20T23:13:56+00:00",
+    "title": "Investors focus on rate path, AI slowdown after Fed hike",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/why-the-fed-hiked-into-a-supply-shock-4908102",
-    "macro_score": 5,
+    "url": "https://www.investing.com/news/economy-news/investors-focus-on-rate-path-ai-slowdown-after-fed-hike-4908174",
+    "macro_score": 6,
     "macro_buckets": [
       "policy"
     ]
