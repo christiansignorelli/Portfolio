@@ -1,13 +1,12 @@
 [
   {
-    "date": "2026-09-20",
-    "daily_brief": "2026-09-20: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy, Risk coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+    "date": "2026-09-22",
+    "daily_brief": "2026-09-22: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
@@ -54,14 +53,14 @@
       }
     ],
     "news_sentiment": {
-      "label": "negative",
-      "score": -0.75,
-      "display_score": -0.75,
-      "unique_documents": 4,
-      "positive_pct": 0.0,
-      "neutral_pct": 25.0,
-      "negative_pct": 75.0,
-      "average_confidence": 0.776
+      "label": "insufficient_data",
+      "score": 1.0,
+      "display_score": 1.0,
+      "unique_documents": 2,
+      "positive_pct": 100.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.671
     },
     "market_regime": {
       "label": "risk_off",
@@ -78,76 +77,23 @@
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "confirmed",
-      "label": "Confirmed",
-      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
-      "news_label": "negative",
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
       "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-09-20T23-13-56+00-00-1",
-        "title": "Fed\u2019s Kashkari says inflation is still too high in \u2019all aspects\u2019 of US economy, in Fox News interview",
+        "doc_id": "www.investing.com-2026-09-22T00-05-07+00-00-9",
+        "title": "Fed\u2019s Musalem says more rate hikes likely needed to curb inflation",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-kashkari-says-inflation-goes-beyond-oil-prices-according-to-fox-news-interview-4908180",
+        "url": "https://www.investing.com/news/economy-news/feds-musalem-says-more-rate-hikes-likely-needed-to-curb-inflation-4909511",
         "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8053717017173767,
-        "summary_label": "negative-financial-sentiment",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.6733023524284363,
+        "summary_label": "positive-financial-sentiment",
         "macro_score": 9,
-        "macro_buckets": [
-          "policy",
-          "inflation",
-          "growth"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": -1,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-09-20T13-00-00+00-00-8",
-        "title": "Record diesel prices are exposing pain points in the stock market and economy",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/record-diesel-prices-are-exposing-pain-points-in-the-stock-market-and-economy-a2079b04?mod=mw_rss_topstories",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9449566602706909,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
-        "macro_buckets": [
-          "inflation",
-          "growth"
-        ],
-        "themes": [
-          "inflation",
-          "risk"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": -2
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-20T23-13-56+00-00-3",
-        "title": "Minneapolis Fed\u2019s Kashkari says inflation remains too high",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/minneapolis-feds-kashkari-says-inflation-remains-too-high-4908181",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9012725949287415,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
         "macro_buckets": [
           "policy",
           "inflation"
@@ -157,33 +103,35 @@
           "policy"
         ],
         "scores": {
-          "inflation": -2,
+          "inflation": 1,
           "growth": 0,
-          "policy": -2,
+          "policy": 1,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-20T23-13-56+00-00-7",
-        "title": "Investors focus on rate path, AI slowdown after Fed hike",
+        "doc_id": "www.investing.com-2026-09-22T00-05-07+00-00-8",
+        "title": "Exclusive-Fed\u2019s Musalem says more rate hikes likely needed to quell inflation",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/investors-focus-on-rate-path-ai-slowdown-after-fed-hike-4908174",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.45174580812454224,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
+        "url": "https://www.investing.com/news/economy-news/exclusivefeds-musalem-says-more-rate-hikes-likely-needed-to-quell-inflation-4909515",
+        "confidence": "medium",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.6696067452430725,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 9,
         "macro_buckets": [
-          "policy"
+          "policy",
+          "inflation"
         ],
         "themes": [
+          "inflation",
           "policy"
         ],
         "scores": {
-          "inflation": 0,
+          "inflation": 1,
           "growth": 0,
-          "policy": 0,
+          "policy": 1,
           "liquidity": 0,
           "risk": 0
         }
@@ -191,133 +139,20 @@
     ],
     "bucket_views": [
       {
-        "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -5,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-20T23-13-56+00-00-1",
-            "title": "Fed\u2019s Kashkari says inflation is still too high in \u2019all aspects\u2019 of US economy, in Fox News interview",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-kashkari-says-inflation-goes-beyond-oil-prices-according-to-fox-news-interview-4908180",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8053717017173767,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.marketwatch.com-2026-09-20T13-00-00+00-00-8",
-            "title": "Record diesel prices are exposing pain points in the stock market and economy",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/record-diesel-prices-are-exposing-pain-points-in-the-stock-market-and-economy-a2079b04?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9449566602706909,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "inflation",
-              "growth"
-            ],
-            "themes": [
-              "inflation",
-              "risk"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": -2
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-20T23-13-56+00-00-3",
-            "title": "Minneapolis Fed\u2019s Kashkari says inflation remains too high",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/minneapolis-feds-kashkari-says-inflation-remains-too-high-4908181",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9012725949287415,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
         "name": "policy",
-        "label": "negative news sentiment",
-        "score": -3,
+        "label": "positive news sentiment",
+        "score": 2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-20T23-13-56+00-00-1",
-            "title": "Fed\u2019s Kashkari says inflation is still too high in \u2019all aspects\u2019 of US economy, in Fox News interview",
+            "doc_id": "www.investing.com-2026-09-22T00-05-07+00-00-9",
+            "title": "Fed\u2019s Musalem says more rate hikes likely needed to curb inflation",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-kashkari-says-inflation-goes-beyond-oil-prices-according-to-fox-news-interview-4908180",
+            "url": "https://www.investing.com/news/economy-news/feds-musalem-says-more-rate-hikes-likely-needed-to-curb-inflation-4909511",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8053717017173767,
-            "summary_label": "negative-financial-sentiment",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.6733023524284363,
+            "summary_label": "positive-financial-sentiment",
             "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-20T23-13-56+00-00-3",
-            "title": "Minneapolis Fed\u2019s Kashkari says inflation remains too high",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/minneapolis-feds-kashkari-says-inflation-remains-too-high-4908181",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9012725949287415,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
             "macro_buckets": [
               "policy",
               "inflation"
@@ -327,33 +162,35 @@
               "policy"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 1,
               "growth": 0,
-              "policy": -2,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-09-20T23-13-56+00-00-7",
-            "title": "Investors focus on rate path, AI slowdown after Fed hike",
+            "doc_id": "www.investing.com-2026-09-22T00-05-07+00-00-8",
+            "title": "Exclusive-Fed\u2019s Musalem says more rate hikes likely needed to quell inflation",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/investors-focus-on-rate-path-ai-slowdown-after-fed-hike-4908174",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.45174580812454224,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
+            "url": "https://www.investing.com/news/economy-news/exclusivefeds-musalem-says-more-rate-hikes-likely-needed-to-quell-inflation-4909515",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.6696067452430725,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "inflation"
             ],
             "themes": [
+              "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": 1,
               "growth": 0,
-              "policy": 0,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
@@ -361,61 +198,60 @@
         ]
       },
       {
-        "name": "growth",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "name": "inflation",
+        "label": "positive news sentiment",
+        "score": 2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-20T23-13-56+00-00-1",
-            "title": "Fed\u2019s Kashkari says inflation is still too high in \u2019all aspects\u2019 of US economy, in Fox News interview",
+            "doc_id": "www.investing.com-2026-09-22T00-05-07+00-00-9",
+            "title": "Fed\u2019s Musalem says more rate hikes likely needed to curb inflation",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-kashkari-says-inflation-goes-beyond-oil-prices-according-to-fox-news-interview-4908180",
+            "url": "https://www.investing.com/news/economy-news/feds-musalem-says-more-rate-hikes-likely-needed-to-curb-inflation-4909511",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8053717017173767,
-            "summary_label": "negative-financial-sentiment",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.6733023524284363,
+            "summary_label": "positive-financial-sentiment",
             "macro_score": 9,
             "macro_buckets": [
               "policy",
-              "inflation",
-              "growth"
+              "inflation"
             ],
             "themes": [
               "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 1,
               "growth": 0,
-              "policy": -1,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.marketwatch.com-2026-09-20T13-00-00+00-00-8",
-            "title": "Record diesel prices are exposing pain points in the stock market and economy",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/record-diesel-prices-are-exposing-pain-points-in-the-stock-market-and-economy-a2079b04?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9449566602706909,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "doc_id": "www.investing.com-2026-09-22T00-05-07+00-00-8",
+            "title": "Exclusive-Fed\u2019s Musalem says more rate hikes likely needed to quell inflation",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/exclusivefeds-musalem-says-more-rate-hikes-likely-needed-to-quell-inflation-4909515",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.6696067452430725,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
-              "inflation",
-              "growth"
+              "policy",
+              "inflation"
             ],
             "themes": [
               "inflation",
-              "risk"
+              "policy"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 1,
               "growth": 0,
-              "policy": 0,
+              "policy": 1,
               "liquidity": 0,
-              "risk": -2
+              "risk": 0
             }
           }
         ]
