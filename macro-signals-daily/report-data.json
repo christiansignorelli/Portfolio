@@ -1,9 +1,9 @@
 [
   {
     "date": "2026-09-22",
-    "daily_brief": "2026-09-22: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
-    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
-    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "daily_brief": "2026-09-22: 4 unique articles were analyzed. News sentiment was neutral. Top theme: policy.",
+    "macro_read": "Macro read: coverage across policy, inflation, risk was broadly neutral or mixed.",
+    "market_confirmation": "Both news sentiment and the broader market response were broadly neutral.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
@@ -12,87 +12,87 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.12,
-        "return_5d": -0.34,
-        "close": 761.6900024414062
+        "return_1d": -0.02,
+        "return_5d": 2.11,
+        "close": 773.3800048828125
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.65,
-        "return_5d": 0.47,
-        "close": 81.25
+        "return_1d": -0.06,
+        "return_5d": 1.29,
+        "close": 81.75
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.04,
-        "return_5d": 1.14,
-        "close": 28.389999389648438
+        "return_1d": 0.0,
+        "return_5d": 0.92,
+        "close": 28.479999542236328
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -0.96,
-        "return_5d": -0.7,
-        "close": 153.82000732421875
+        "return_1d": -2.75,
+        "return_5d": -10.98,
+        "close": 144.0800018310547
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.24,
-        "return_5d": -0.09,
-        "close": 78.52999877929688
+        "return_1d": -0.01,
+        "return_5d": 0.37,
+        "close": 78.66999816894531
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.71,
-        "return_5d": 0.6,
-        "close": 401.1700134277344
+        "return_1d": 0.42,
+        "return_5d": 1.5,
+        "close": 400.07000732421875
       }
     ],
     "news_sentiment": {
-      "label": "insufficient_data",
-      "score": 1.0,
-      "display_score": 1.0,
-      "unique_documents": 2,
-      "positive_pct": 100.0,
+      "label": "neutral",
+      "score": 0.0,
+      "display_score": 0.0,
+      "unique_documents": 4,
+      "positive_pct": 50.0,
       "neutral_pct": 0.0,
-      "negative_pct": 0.0,
-      "average_confidence": 0.671
+      "negative_pct": 50.0,
+      "average_confidence": 0.804
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.3,
+      "label": "mixed",
+      "score": -0.1,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
         "SPY": 0.0,
-        "HYG": -0.35,
-        "TLT": 0.15,
+        "HYG": 0.0,
+        "TLT": 0.0,
         "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "The major market proxies gave a mixed risk signal.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "insufficient_data",
-      "label": "Insufficient data",
-      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
-      "news_label": "insufficient_data",
-      "market_label": "risk_off"
+      "status": "neutral",
+      "label": "Neutral",
+      "explanation": "Both news sentiment and the broader market response were broadly neutral.",
+      "news_label": "neutral",
+      "market_label": "mixed"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-09-22T00-05-07+00-00-9",
-        "title": "Fed\u2019s Musalem says more rate hikes likely needed to curb inflation",
+        "doc_id": "www.investing.com-2026-09-22T23-36-34+00-00-4",
+        "title": "Fed\u2019s Collins says she supported rate hike, warns of elevated inflation risks",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-musalem-says-more-rate-hikes-likely-needed-to-curb-inflation-4909511",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.6733023524284363,
-        "summary_label": "positive-financial-sentiment",
+        "url": "https://www.investing.com/news/economy-news/feds-collins-says-she-supported-rate-hike-warns-of-elevated-inflation-risks-4911212",
+        "confidence": "low",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.5924648642539978,
+        "summary_label": "negative-financial-sentiment",
         "macro_score": 9,
         "macro_buckets": [
           "policy",
@@ -100,10 +100,63 @@
         ],
         "themes": [
           "inflation",
+          "policy",
+          "risk"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": -1,
+          "liquidity": 0,
+          "risk": -1
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-22T23-36-34+00-00-9",
+        "title": "Turkey central bank sees disinflation continuing amid supply issues",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/turkey-central-bank-sees-disinflation-continuing-amid-supply-issues-93CH-4911548",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9462424516677856,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 8,
+        "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": -2,
+          "liquidity": -2,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-22T23-36-34+00-00-3",
+        "title": "Fed\u2019s Perli says Treasury bill purchases will adapt to evolving market conditions",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/feds-perli-says-treasury-bill-purchases-will-adapt-to-evolving-market-conditions-4911747",
+        "confidence": "medium",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.8486022353172302,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "rates"
+        ],
+        "themes": [
           "policy"
         ],
         "scores": {
-          "inflation": 1,
+          "inflation": 0,
           "growth": 0,
           "policy": 1,
           "liquidity": 0,
@@ -111,25 +164,23 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-22T00-05-07+00-00-8",
-        "title": "Exclusive-Fed\u2019s Musalem says more rate hikes likely needed to quell inflation",
+        "doc_id": "www.investing.com-2026-09-22T23-36-34+00-00-5",
+        "title": "Fed\u2019s Williams says rate-control toolkit is working well",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/exclusivefeds-musalem-says-more-rate-hikes-likely-needed-to-quell-inflation-4909515",
+        "url": "https://www.investing.com/news/economy-news/feds-williams-says-ratecontrol-toolkit-is-working-well-4911121",
         "confidence": "medium",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.6696067452430725,
+        "sentiment_confidence": 0.8305490612983704,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
+        "macro_score": 5,
         "macro_buckets": [
-          "policy",
-          "inflation"
+          "policy"
         ],
         "themes": [
-          "inflation",
           "policy"
         ],
         "scores": {
-          "inflation": 1,
+          "inflation": 0,
           "growth": 0,
           "policy": 1,
           "liquidity": 0,
@@ -139,19 +190,19 @@
     ],
     "bucket_views": [
       {
-        "name": "policy",
-        "label": "positive news sentiment",
-        "score": 2,
+        "name": "inflation",
+        "label": "negative news sentiment",
+        "score": -3,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-22T00-05-07+00-00-9",
-            "title": "Fed\u2019s Musalem says more rate hikes likely needed to curb inflation",
+            "doc_id": "www.investing.com-2026-09-22T23-36-34+00-00-4",
+            "title": "Fed\u2019s Collins says she supported rate hike, warns of elevated inflation risks",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-musalem-says-more-rate-hikes-likely-needed-to-curb-inflation-4909511",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.6733023524284363,
-            "summary_label": "positive-financial-sentiment",
+            "url": "https://www.investing.com/news/economy-news/feds-collins-says-she-supported-rate-hike-warns-of-elevated-inflation-risks-4911212",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.5924648642539978,
+            "summary_label": "negative-financial-sentiment",
             "macro_score": 9,
             "macro_buckets": [
               "policy",
@@ -159,36 +210,124 @@
             ],
             "themes": [
               "inflation",
-              "policy"
+              "policy",
+              "risk"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": -1,
               "growth": 0,
-              "policy": 1,
+              "policy": -1,
               "liquidity": 0,
+              "risk": -1
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-22T23-36-34+00-00-9",
+            "title": "Turkey central bank sees disinflation continuing amid supply issues",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/turkey-central-bank-sees-disinflation-continuing-amid-supply-issues-93CH-4911548",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9462424516677856,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 8,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": -2,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "negative news sentiment",
+        "score": -1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-22T23-36-34+00-00-4",
+            "title": "Fed\u2019s Collins says she supported rate hike, warns of elevated inflation risks",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/feds-collins-says-she-supported-rate-hike-warns-of-elevated-inflation-risks-4911212",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.5924648642539978,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "risk"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": -1
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-22T23-36-34+00-00-9",
+            "title": "Turkey central bank sees disinflation continuing amid supply issues",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/turkey-central-bank-sees-disinflation-continuing-amid-supply-issues-93CH-4911548",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9462424516677856,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 8,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": -2,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-09-22T00-05-07+00-00-8",
-            "title": "Exclusive-Fed\u2019s Musalem says more rate hikes likely needed to quell inflation",
+            "doc_id": "www.investing.com-2026-09-22T23-36-34+00-00-3",
+            "title": "Fed\u2019s Perli says Treasury bill purchases will adapt to evolving market conditions",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/exclusivefeds-musalem-says-more-rate-hikes-likely-needed-to-quell-inflation-4909515",
+            "url": "https://www.investing.com/news/economy-news/feds-perli-says-treasury-bill-purchases-will-adapt-to-evolving-market-conditions-4911747",
             "confidence": "medium",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.6696067452430725,
+            "sentiment_confidence": 0.8486022353172302,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "inflation"
+              "rates"
             ],
             "themes": [
-              "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": 0,
               "growth": 0,
               "policy": 1,
               "liquidity": 0,
@@ -198,56 +337,29 @@
         ]
       },
       {
-        "name": "inflation",
-        "label": "positive news sentiment",
-        "score": 2,
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-22T00-05-07+00-00-9",
-            "title": "Fed\u2019s Musalem says more rate hikes likely needed to curb inflation",
+            "doc_id": "www.investing.com-2026-09-22T23-36-34+00-00-3",
+            "title": "Fed\u2019s Perli says Treasury bill purchases will adapt to evolving market conditions",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-musalem-says-more-rate-hikes-likely-needed-to-curb-inflation-4909511",
+            "url": "https://www.investing.com/news/economy-news/feds-perli-says-treasury-bill-purchases-will-adapt-to-evolving-market-conditions-4911747",
             "confidence": "medium",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.6733023524284363,
+            "sentiment_confidence": 0.8486022353172302,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "inflation"
+              "rates"
             ],
             "themes": [
-              "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-22T00-05-07+00-00-8",
-            "title": "Exclusive-Fed\u2019s Musalem says more rate hikes likely needed to quell inflation",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/exclusivefeds-musalem-says-more-rate-hikes-likely-needed-to-quell-inflation-4909515",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.6696067452430725,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
+              "inflation": 0,
               "growth": 0,
               "policy": 1,
               "liquidity": 0,

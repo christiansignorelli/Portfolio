@@ -1,12 +1,12 @@
 [
   {
-    "id": "www.investing.com-2026-09-22T00-05-07+00-00-8",
+    "id": "www.investing.com-2026-09-22T23-36-34+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-22T00:05:07+00:00",
-    "title": "Exclusive-Fed\u2019s Musalem says more rate hikes likely needed to quell inflation",
+    "published_at": "2026-09-22T23:36:34+00:00",
+    "title": "Fed\u2019s Collins says she supported rate hike, warns of elevated inflation risks",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/exclusivefeds-musalem-says-more-rate-hikes-likely-needed-to-quell-inflation-4909515",
+    "url": "https://www.investing.com/news/economy-news/feds-collins-says-she-supported-rate-hike-warns-of-elevated-inflation-risks-4911212",
     "macro_score": 9,
     "macro_buckets": [
       "policy",
@@ -14,17 +14,44 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-09-22T00-05-07+00-00-9",
+    "id": "www.investing.com-2026-09-22T23-36-34+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-22T00:05:07+00:00",
-    "title": "Fed\u2019s Musalem says more rate hikes likely needed to curb inflation",
+    "published_at": "2026-09-22T23:36:34+00:00",
+    "title": "Turkey central bank sees disinflation continuing amid supply issues",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-musalem-says-more-rate-hikes-likely-needed-to-curb-inflation-4909511",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/turkey-central-bank-sees-disinflation-continuing-amid-supply-issues-93CH-4911548",
+    "macro_score": 8,
     "macro_buckets": [
       "policy",
       "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-22T23-36-34+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-22T23:36:34+00:00",
+    "title": "Fed\u2019s Perli says Treasury bill purchases will adapt to evolving market conditions",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-perli-says-treasury-bill-purchases-will-adapt-to-evolving-market-conditions-4911747",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-22T23-36-34+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-22T23:36:34+00:00",
+    "title": "Fed\u2019s Williams says rate-control toolkit is working well",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-williams-says-ratecontrol-toolkit-is-working-well-4911121",
+    "macro_score": 5,
+    "macro_buckets": [
+      "policy"
     ]
   }
 ]
