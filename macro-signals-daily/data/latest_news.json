@@ -1,57 +1,71 @@
 [
   {
-    "id": "www.investing.com-2026-09-22T23-36-34+00-00-4",
+    "id": "www.investing.com-2026-09-23T23-39-55+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-22T23:36:34+00:00",
-    "title": "Fed\u2019s Collins says she supported rate hike, warns of elevated inflation risks",
+    "published_at": "2026-09-23T23:39:55+00:00",
+    "title": "Wall Street ends down as oil prices, Treasury yields rise",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-collins-says-she-supported-rate-hike-warns-of-elevated-inflation-risks-4911212",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/wall-st-futures-steady-with-focus-on-mideast-talks-uschina-summit-4912483",
+    "macro_score": 10,
     "macro_buckets": [
-      "policy",
-      "inflation"
+      "inflation",
+      "rates",
+      "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-22T23-36-34+00-00-9",
+    "id": "www.investing.com-2026-09-23T23-39-55+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-22T23:36:34+00:00",
-    "title": "Turkey central bank sees disinflation continuing amid supply issues",
+    "published_at": "2026-09-23T23:39:55+00:00",
+    "title": "ECB not seeing any big wage response to surging inflation",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/turkey-central-bank-sees-disinflation-continuing-amid-supply-issues-93CH-4911548",
-    "macro_score": 8,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-22T23-36-34+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-22T23:36:34+00:00",
-    "title": "Fed\u2019s Perli says Treasury bill purchases will adapt to evolving market conditions",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-perli-says-treasury-bill-purchases-will-adapt-to-evolving-market-conditions-4911747",
+    "url": "https://www.investing.com/news/economy-news/ecb-not-seeing-any-big-wage-response-to-surging-inflation-4913705",
     "macro_score": 6,
     "macro_buckets": [
       "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-23T23-39-55+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-23T23:39:55+00:00",
+    "title": "Trading Day: US yields cross 5% threshold\u200b",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/trading-day-us-yields-cross-5-threshold-4914027",
+    "macro_score": 4,
+    "macro_buckets": [
       "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-22T23-36-34+00-00-5",
+    "id": "www.investing.com-2026-09-23T23-39-55+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-22T23:36:34+00:00",
-    "title": "Fed\u2019s Williams says rate-control toolkit is working well",
+    "published_at": "2026-09-23T23:39:55+00:00",
+    "title": "Analysis-As 5% Treasury yields lose shock value, investors start worrying about 6%",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-williams-says-ratecontrol-toolkit-is-working-well-4911121",
-    "macro_score": 5,
+    "url": "https://www.investing.com/news/economy-news/analysisas-5-treasury-yields-lose-shock-value-investors-start-worrying-about-6-4913678",
+    "macro_score": 4,
     "macro_buckets": [
-      "policy"
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-23T23-39-55+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-23T23:39:55+00:00",
+    "title": "Mortgage rates hit highest level since 2024, demand falls",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/mortgage-rates-hit-highest-level-since-2024-demand-falls-93CH-4913713",
+    "macro_score": 4,
+    "macro_buckets": [
+      "policy",
+      "growth"
     ]
   }
 ]
