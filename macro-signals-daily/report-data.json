@@ -1,101 +1,101 @@
 [
   {
-    "date": "2026-09-23",
-    "daily_brief": "2026-09-23: 5 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy, Growth coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+    "date": "2026-09-24",
+    "daily_brief": "2026-09-24: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
+      "https://www.investing.com/rss/news_14.rss",
+      "https://www.marketwatch.com/rss/topstories"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.72,
-        "return_5d": 1.82,
-        "close": 767.8099975585938
+        "return_1d": -0.08,
+        "return_5d": 0.6,
+        "close": 767.1799926757812
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -1.58,
-        "return_5d": -0.52,
-        "close": 80.45999908447266
+        "return_1d": -1.29,
+        "return_5d": -2.89,
+        "close": 79.41999816894531
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.6,
-        "return_5d": 1.52,
-        "close": 28.649999618530273
+        "return_1d": 0.14,
+        "return_5d": 1.02,
+        "close": 28.690000534057617
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 3.3,
-        "return_5d": -4.7,
-        "close": 148.8300018310547
+        "return_1d": 2.86,
+        "return_5d": -1.43,
+        "close": 153.08999633789062
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.74,
-        "return_5d": -0.36,
-        "close": 78.0999984741211
+        "return_1d": -0.27,
+        "return_5d": -0.68,
+        "close": 77.88999938964844
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -1.8,
-        "return_5d": 0.29,
-        "close": 392.8800048828125
+        "return_1d": -0.3,
+        "return_5d": -1.67,
+        "close": 391.69000244140625
       }
     ],
     "news_sentiment": {
-      "label": "negative",
-      "score": -0.2,
-      "display_score": -0.2,
-      "unique_documents": 5,
-      "positive_pct": 40.0,
+      "label": "insufficient_data",
+      "score": -1.0,
+      "display_score": -1.0,
+      "unique_documents": 2,
+      "positive_pct": 0.0,
       "neutral_pct": 0.0,
-      "negative_pct": 60.0,
-      "average_confidence": 0.779
+      "negative_pct": 100.0,
+      "average_confidence": 0.815
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.5,
+      "label": "mixed",
+      "score": -0.1,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
+        "SPY": 0.0,
         "HYG": -0.35,
         "TLT": 0.15,
         "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "The major market proxies gave a mixed risk signal.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "confirmed",
-      "label": "Confirmed",
-      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
-      "news_label": "negative",
-      "market_label": "risk_off"
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "mixed"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-09-23T23-39-55+00-00-4",
-        "title": "Wall Street ends down as oil prices, Treasury yields rise",
+        "doc_id": "www.investing.com-2026-09-24T23-53-20+00-00-5",
+        "title": "Oil jump sends 30-year yields to two-decade high",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/wall-st-futures-steady-with-focus-on-mideast-talks-uschina-summit-4912483",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/bond-market-selloff-rumbles-on-ahead-of-trump-and-xi-talks-4915616",
+        "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9313432574272156,
+        "sentiment_confidence": 0.7043798565864563,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 10,
+        "macro_score": 7,
         "macro_buckets": [
-          "inflation",
           "rates",
           "energy"
         ],
@@ -103,108 +103,32 @@
           "inflation"
         ],
         "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-23T23-39-55+00-00-6",
-        "title": "ECB not seeing any big wage response to surging inflation",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/ecb-not-seeing-any-big-wage-response-to-surging-inflation-4913705",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.6270555257797241,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy",
-          "inflation"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
           "inflation": -1,
           "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-23T23-39-55+00-00-3",
-        "title": "Analysis-As 5% Treasury yields lose shock value, investors start worrying about 6%",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/analysisas-5-treasury-yields-lose-shock-value-investors-start-worrying-about-6-4913678",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8913681507110596,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "rates"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
           "policy": 0,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-23T23-39-55+00-00-8",
-        "title": "Mortgage rates hit highest level since 2024, demand falls",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/mortgage-rates-hit-highest-level-since-2024-demand-falls-93CH-4913713",
+        "doc_id": "www.marketwatch.com-2026-09-24T21-23-00+00-00-8",
+        "title": "Why investors aren\u2019t buying yet another attempt by the Treasury to calm the rattled bond market",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/why-investors-arent-buying-yet-another-attempt-by-the-treasury-to-calm-the-rattled-bond-market-b168cac3?mod=mw_rss_topstories",
         "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.8720602989196777,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "policy",
-          "growth"
-        ],
-        "themes": [
-          "growth",
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 2,
-          "policy": 2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-23T23-39-55+00-00-2",
-        "title": "Trading Day: US yields cross 5% threshold\u200b",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/trading-day-us-yields-cross-5-threshold-4914027",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.5732952952384949,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 4,
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9261066317558289,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 5,
         "macro_buckets": [
           "rates"
         ],
         "themes": [
-          "uncategorized"
+          "growth"
         ],
         "scores": {
           "inflation": 0,
-          "growth": 0,
+          "growth": -2,
           "policy": 0,
           "liquidity": 0,
           "risk": 0
@@ -213,22 +137,21 @@
     ],
     "bucket_views": [
       {
-        "name": "inflation",
+        "name": "rates",
         "label": "negative news sentiment",
-        "score": -3,
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-23T23-39-55+00-00-4",
-            "title": "Wall Street ends down as oil prices, Treasury yields rise",
+            "doc_id": "www.investing.com-2026-09-24T23-53-20+00-00-5",
+            "title": "Oil jump sends 30-year yields to two-decade high",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/wall-st-futures-steady-with-focus-on-mideast-talks-uschina-summit-4912483",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/bond-market-selloff-rumbles-on-ahead-of-trump-and-xi-talks-4915616",
+            "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9313432574272156,
+            "sentiment_confidence": 0.7043798565864563,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
+            "macro_score": 7,
             "macro_buckets": [
-              "inflation",
               "rates",
               "energy"
             ],
@@ -236,7 +159,7 @@
               "inflation"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": -1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -244,27 +167,25 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-09-23T23-39-55+00-00-6",
-            "title": "ECB not seeing any big wage response to surging inflation",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ecb-not-seeing-any-big-wage-response-to-surging-inflation-4913705",
-            "confidence": "low",
+            "doc_id": "www.marketwatch.com-2026-09-24T21-23-00+00-00-8",
+            "title": "Why investors aren\u2019t buying yet another attempt by the Treasury to calm the rattled bond market",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/why-investors-arent-buying-yet-another-attempt-by-the-treasury-to-calm-the-rattled-bond-market-b168cac3?mod=mw_rss_topstories",
+            "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.6270555257797241,
+            "sentiment_confidence": 0.9261066317558289,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "macro_score": 5,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "rates"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "growth"
             ],
             "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
+              "inflation": 0,
+              "growth": -2,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
@@ -274,20 +195,19 @@
       {
         "name": "energy",
         "label": "negative news sentiment",
-        "score": -3,
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-23T23-39-55+00-00-4",
-            "title": "Wall Street ends down as oil prices, Treasury yields rise",
+            "doc_id": "www.investing.com-2026-09-24T23-53-20+00-00-5",
+            "title": "Oil jump sends 30-year yields to two-decade high",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/wall-st-futures-steady-with-focus-on-mideast-talks-uschina-summit-4912483",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/bond-market-selloff-rumbles-on-ahead-of-trump-and-xi-talks-4915616",
+            "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9313432574272156,
+            "sentiment_confidence": 0.7043798565864563,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
+            "macro_score": 7,
             "macro_buckets": [
-              "inflation",
               "rates",
               "energy"
             ],
@@ -295,123 +215,9 @@
               "inflation"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": -1,
               "growth": 0,
               "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "positive news sentiment",
-        "score": 2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-23T23-39-55+00-00-4",
-            "title": "Wall Street ends down as oil prices, Treasury yields rise",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/wall-st-futures-steady-with-focus-on-mideast-talks-uschina-summit-4912483",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9313432574272156,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "inflation",
-              "rates",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-23T23-39-55+00-00-3",
-            "title": "Analysis-As 5% Treasury yields lose shock value, investors start worrying about 6%",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/analysisas-5-treasury-yields-lose-shock-value-investors-start-worrying-about-6-4913678",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8913681507110596,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
-              "rates"
-            ],
-            "themes": [
-              "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-23T23-39-55+00-00-2",
-            "title": "Trading Day: US yields cross 5% threshold\u200b",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/trading-day-us-yields-cross-5-threshold-4914027",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.5732952952384949,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
-              "rates"
-            ],
-            "themes": [
-              "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "growth",
-        "label": "positive news sentiment",
-        "score": 2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-23T23-39-55+00-00-8",
-            "title": "Mortgage rates hit highest level since 2024, demand falls",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/mortgage-rates-hit-highest-level-since-2024-demand-falls-93CH-4913713",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8720602989196777,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
-              "policy",
-              "growth"
-            ],
-            "themes": [
-              "growth",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 2,
-              "policy": 2,
               "liquidity": 0,
               "risk": 0
             }

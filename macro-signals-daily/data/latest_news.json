@@ -1,71 +1,29 @@
 [
   {
-    "id": "www.investing.com-2026-09-23T23-39-55+00-00-4",
+    "id": "www.investing.com-2026-09-24T23-53-20+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-23T23:39:55+00:00",
-    "title": "Wall Street ends down as oil prices, Treasury yields rise",
+    "published_at": "2026-09-24T23:53:20+00:00",
+    "title": "Oil jump sends 30-year yields to two-decade high",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/wall-st-futures-steady-with-focus-on-mideast-talks-uschina-summit-4912483",
-    "macro_score": 10,
+    "url": "https://www.investing.com/news/economy-news/bond-market-selloff-rumbles-on-ahead-of-trump-and-xi-talks-4915616",
+    "macro_score": 7,
     "macro_buckets": [
-      "inflation",
       "rates",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-23T23-39-55+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-23T23:39:55+00:00",
-    "title": "ECB not seeing any big wage response to surging inflation",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecb-not-seeing-any-big-wage-response-to-surging-inflation-4913705",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-23T23-39-55+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-23T23:39:55+00:00",
-    "title": "Trading Day: US yields cross 5% threshold\u200b",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/trading-day-us-yields-cross-5-threshold-4914027",
-    "macro_score": 4,
+    "id": "www.marketwatch.com-2026-09-24T21-23-00+00-00-8",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-09-24T21:23:00+00:00",
+    "title": "Why investors aren\u2019t buying yet another attempt by the Treasury to calm the rattled bond market",
+    "body": "Back-to-back weak auctions for Treasury notes show that government repurchases haven\u2019t spurred demand for bonds.",
+    "url": "https://www.marketwatch.com/story/why-investors-arent-buying-yet-another-attempt-by-the-treasury-to-calm-the-rattled-bond-market-b168cac3?mod=mw_rss_topstories",
+    "macro_score": 5,
     "macro_buckets": [
       "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-23T23-39-55+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-23T23:39:55+00:00",
-    "title": "Analysis-As 5% Treasury yields lose shock value, investors start worrying about 6%",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/analysisas-5-treasury-yields-lose-shock-value-investors-start-worrying-about-6-4913678",
-    "macro_score": 4,
-    "macro_buckets": [
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-23T23-39-55+00-00-8",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-23T23:39:55+00:00",
-    "title": "Mortgage rates hit highest level since 2024, demand falls",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/mortgage-rates-hit-highest-level-since-2024-demand-falls-93CH-4913713",
-    "macro_score": 4,
-    "macro_buckets": [
-      "policy",
-      "growth"
     ]
   }
 ]
