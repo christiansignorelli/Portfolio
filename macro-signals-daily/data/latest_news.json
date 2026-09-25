@@ -1,29 +1,86 @@
 [
   {
-    "id": "www.investing.com-2026-09-24T23-53-20+00-00-5",
+    "id": "www.investing.com-2026-09-25T23-57-21+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-24T23:53:20+00:00",
-    "title": "Oil jump sends 30-year yields to two-decade high",
+    "published_at": "2026-09-25T23:57:21+00:00",
+    "title": "Fed\u2019s Hammack says bond yield surge not about lost inflation confidence",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/bond-market-selloff-rumbles-on-ahead-of-trump-and-xi-talks-4915616",
-    "macro_score": 7,
+    "url": "https://www.investing.com/news/economy-news/feds-hammack-says-bond-yield-surge-not-about-lost-inflation-confidence-4917980",
+    "macro_score": 10,
     "macro_buckets": [
-      "rates",
-      "energy"
+      "policy",
+      "inflation",
+      "rates"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-09-24T21-23-00+00-00-8",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-24T21:23:00+00:00",
-    "title": "Why investors aren\u2019t buying yet another attempt by the Treasury to calm the rattled bond market",
-    "body": "Back-to-back weak auctions for Treasury notes show that government repurchases haven\u2019t spurred demand for bonds.",
-    "url": "https://www.marketwatch.com/story/why-investors-arent-buying-yet-another-attempt-by-the-treasury-to-calm-the-rattled-bond-market-b168cac3?mod=mw_rss_topstories",
-    "macro_score": 5,
+    "id": "www.investing.com-2026-09-25T23-57-21+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-25T23:57:21+00:00",
+    "title": "Fed\u2019s Hammack worried inflation expectations could deteriorate",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-hammack-worried-inflation-expectations-could-deteriorate-4918170",
+    "macro_score": 8,
     "macro_buckets": [
-      "rates"
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-25T23-57-21+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-25T23:57:21+00:00",
+    "title": "Dollar dips as oil eases, yen jumps on Japan remarks",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/dollar-falls-as-oil-cools-but-set-for-weekly-gain-yen-rallies-4917368",
+    "macro_score": 7,
+    "macro_buckets": [
+      "energy",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-25T23-57-21+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-25T23:57:21+00:00",
+    "title": "Fed\u2019s Hammack says public\u2019s inflation expectations could worsen",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-hammack-says-publics-inflation-expectations-could-worsen-4917959",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-25T23-57-21+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-25T23:57:21+00:00",
+    "title": "Bill Gates demands federal AI guardrails, warns of \"a billion deaths\"",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/bill-gates-demands-federal-ai-guardrails-warns-of-a-billion-deaths-4917809",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "growth"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-25T23-57-21+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-25T23:57:21+00:00",
+    "title": "France can\u2019t count on ECB to fix debt woes, central bank chief says",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/france-cant-count-on-ecb-to-fix-debt-woes-central-bank-chief-says-4917889",
+    "macro_score": 4,
+    "macro_buckets": [
+      "policy"
     ]
   }
 ]

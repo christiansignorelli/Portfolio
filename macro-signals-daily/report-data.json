@@ -1,109 +1,110 @@
 [
   {
-    "date": "2026-09-24",
-    "daily_brief": "2026-09-24: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
-    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
-    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "date": "2026-09-25",
+    "daily_brief": "2026-09-25: 6 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Inflation, Growth coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.08,
-        "return_5d": 0.6,
-        "close": 767.1799926757812
+        "return_1d": 0.54,
+        "return_5d": 1.27,
+        "close": 771.3499755859375
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -1.29,
-        "return_5d": -2.89,
-        "close": 79.41999816894531
+        "return_1d": -0.13,
+        "return_5d": -2.38,
+        "close": 79.31999969482422
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.14,
-        "return_5d": 1.02,
-        "close": 28.690000534057617
+        "return_1d": -0.24,
+        "return_5d": 0.81,
+        "close": 28.6200008392334
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 2.86,
-        "return_5d": -1.43,
-        "close": 153.08999633789062
+        "return_1d": -3.11,
+        "return_5d": -3.57,
+        "close": 148.3300018310547
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.27,
-        "return_5d": -0.68,
-        "close": 77.88999938964844
+        "return_1d": -0.04,
+        "return_5d": -0.85,
+        "close": 77.86000061035156
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.3,
-        "return_5d": -1.67,
-        "close": 391.69000244140625
+        "return_1d": 0.44,
+        "return_5d": -1.93,
+        "close": 393.4100036621094
       }
     ],
     "news_sentiment": {
-      "label": "insufficient_data",
-      "score": -1.0,
-      "display_score": -1.0,
-      "unique_documents": 2,
+      "label": "negative",
+      "score": -0.6666666666666666,
+      "display_score": -0.67,
+      "unique_documents": 6,
       "positive_pct": 0.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 100.0,
-      "average_confidence": 0.815
+      "neutral_pct": 33.3,
+      "negative_pct": 66.7,
+      "average_confidence": 0.842
     },
     "market_regime": {
-      "label": "mixed",
-      "score": -0.1,
+      "label": "risk_on",
+      "score": 0.3,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.0,
-        "HYG": -0.35,
-        "TLT": 0.15,
-        "GLD": 0.1
+        "SPY": 0.4,
+        "HYG": 0.0,
+        "TLT": 0.0,
+        "GLD": -0.1
       },
-      "explanation": "The major market proxies gave a mixed risk signal.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "insufficient_data",
-      "label": "Insufficient data",
-      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
-      "news_label": "insufficient_data",
-      "market_label": "mixed"
+      "status": "divergent",
+      "label": "Divergent",
+      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+      "news_label": "negative",
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-09-24T23-53-20+00-00-5",
-        "title": "Oil jump sends 30-year yields to two-decade high",
+        "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-5",
+        "title": "Fed\u2019s Hammack says bond yield surge not about lost inflation confidence",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/bond-market-selloff-rumbles-on-ahead-of-trump-and-xi-talks-4915616",
+        "url": "https://www.investing.com/news/economy-news/feds-hammack-says-bond-yield-surge-not-about-lost-inflation-confidence-4917980",
         "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.7043798565864563,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.7530003190040588,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 10,
         "macro_buckets": [
-          "rates",
-          "energy"
+          "policy",
+          "inflation",
+          "rates"
         ],
         "themes": [
-          "inflation"
+          "inflation",
+          "policy"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": 0,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -111,24 +112,128 @@
         }
       },
       {
-        "doc_id": "www.marketwatch.com-2026-09-24T21-23-00+00-00-8",
-        "title": "Why investors aren\u2019t buying yet another attempt by the Treasury to calm the rattled bond market",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/why-investors-arent-buying-yet-another-attempt-by-the-treasury-to-calm-the-rattled-bond-market-b168cac3?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-1",
+        "title": "Fed\u2019s Hammack worried inflation expectations could deteriorate",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/feds-hammack-worried-inflation-expectations-could-deteriorate-4918170",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9261066317558289,
+        "sentiment_confidence": 0.9553229808807373,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 5,
+        "macro_score": 8,
         "macro_buckets": [
-          "rates"
+          "policy",
+          "inflation"
         ],
         "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": -2,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-4",
+        "title": "Dollar dips as oil eases, yen jumps on Japan remarks",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/dollar-falls-as-oil-cools-but-set-for-weekly-gain-yen-rallies-4917368",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8679298758506775,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 7,
+        "macro_buckets": [
+          "energy",
+          "fx"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-6",
+        "title": "Fed\u2019s Hammack says public\u2019s inflation expectations could worsen",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/feds-hammack-says-publics-inflation-expectations-could-worsen-4917959",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9575530290603638,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": -2,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-10",
+        "title": "Bill Gates demands federal AI guardrails, warns of \"a billion deaths\"",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/bill-gates-demands-federal-ai-guardrails-warns-of-a-billion-deaths-4917809",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.842642068862915,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
           "growth"
+        ],
+        "themes": [
+          "growth",
+          "policy"
         ],
         "scores": {
           "inflation": 0,
-          "growth": -2,
+          "growth": -1,
+          "policy": -1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-9",
+        "title": "France can\u2019t count on ECB to fix debt woes, central bank chief says",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/france-cant-count-on-ecb-to-fix-debt-woes-central-bank-chief-says-4917889",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.676724374294281,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
           "policy": 0,
           "liquidity": 0,
           "risk": 0
@@ -137,29 +242,31 @@
     ],
     "bucket_views": [
       {
-        "name": "rates",
+        "name": "inflation",
         "label": "negative news sentiment",
-        "score": -2,
+        "score": -6,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-24T23-53-20+00-00-5",
-            "title": "Oil jump sends 30-year yields to two-decade high",
+            "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-5",
+            "title": "Fed\u2019s Hammack says bond yield surge not about lost inflation confidence",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bond-market-selloff-rumbles-on-ahead-of-trump-and-xi-talks-4915616",
+            "url": "https://www.investing.com/news/economy-news/feds-hammack-says-bond-yield-surge-not-about-lost-inflation-confidence-4917980",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7043798565864563,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7530003190040588,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 10,
             "macro_buckets": [
-              "rates",
-              "energy"
+              "policy",
+              "inflation",
+              "rates"
             ],
             "themes": [
-              "inflation"
+              "inflation",
+              "policy"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -167,25 +274,53 @@
             }
           },
           {
-            "doc_id": "www.marketwatch.com-2026-09-24T21-23-00+00-00-8",
-            "title": "Why investors aren\u2019t buying yet another attempt by the Treasury to calm the rattled bond market",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/why-investors-arent-buying-yet-another-attempt-by-the-treasury-to-calm-the-rattled-bond-market-b168cac3?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-1",
+            "title": "Fed\u2019s Hammack worried inflation expectations could deteriorate",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/feds-hammack-worried-inflation-expectations-could-deteriorate-4918170",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9261066317558289,
+            "sentiment_confidence": 0.9553229808807373,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 5,
+            "macro_score": 8,
             "macro_buckets": [
-              "rates"
+              "policy",
+              "inflation"
             ],
             "themes": [
-              "growth"
+              "inflation",
+              "policy"
             ],
             "scores": {
-              "inflation": 0,
-              "growth": -2,
-              "policy": 0,
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-6",
+            "title": "Fed\u2019s Hammack says public\u2019s inflation expectations could worsen",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/feds-hammack-says-publics-inflation-expectations-could-worsen-4917959",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9575530290603638,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
               "liquidity": 0,
               "risk": 0
             }
@@ -195,27 +330,147 @@
       {
         "name": "energy",
         "label": "negative news sentiment",
-        "score": -1,
+        "score": -6,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-24T23-53-20+00-00-5",
-            "title": "Oil jump sends 30-year yields to two-decade high",
+            "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-4",
+            "title": "Dollar dips as oil eases, yen jumps on Japan remarks",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bond-market-selloff-rumbles-on-ahead-of-trump-and-xi-talks-4915616",
-            "confidence": "medium",
+            "url": "https://www.investing.com/news/economy-news/dollar-falls-as-oil-cools-but-set-for-weekly-gain-yen-rallies-4917368",
+            "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.7043798565864563,
+            "sentiment_confidence": 0.8679298758506775,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 7,
             "macro_buckets": [
-              "rates",
-              "energy"
+              "energy",
+              "fx"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "negative news sentiment",
+        "score": -5,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-5",
+            "title": "Fed\u2019s Hammack says bond yield surge not about lost inflation confidence",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/feds-hammack-says-bond-yield-surge-not-about-lost-inflation-confidence-4917980",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7530003190040588,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 10,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "rates"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-1",
+            "title": "Fed\u2019s Hammack worried inflation expectations could deteriorate",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/feds-hammack-worried-inflation-expectations-could-deteriorate-4918170",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9553229808807373,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 8,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-6",
+            "title": "Fed\u2019s Hammack says public\u2019s inflation expectations could worsen",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/feds-hammack-says-publics-inflation-expectations-could-worsen-4917959",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9575530290603638,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "negative news sentiment",
+        "score": -1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-25T23-57-21+00-00-5",
+            "title": "Fed\u2019s Hammack says bond yield surge not about lost inflation confidence",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/feds-hammack-says-bond-yield-surge-not-about-lost-inflation-confidence-4917980",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7530003190040588,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 10,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "rates"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
