@@ -1,86 +1,55 @@
 [
   {
-    "id": "www.investing.com-2026-09-25T23-57-21+00-00-5",
+    "id": "www.investing.com-2026-09-26T23-35-49+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-25T23:57:21+00:00",
-    "title": "Fed\u2019s Hammack says bond yield surge not about lost inflation confidence",
+    "published_at": "2026-09-26T23:35:49+00:00",
+    "title": "UK PM Burnham to set out economic vision as inflation, Iran war pose challenges",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-hammack-says-bond-yield-surge-not-about-lost-inflation-confidence-4917980",
-    "macro_score": 10,
+    "url": "https://www.investing.com/news/economy-news/uk-pm-burnham-to-set-out-economic-vision-as-inflation-iran-war-pose-challenges-4918506",
+    "macro_score": 6,
     "macro_buckets": [
-      "policy",
       "inflation",
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-25T23-57-21+00-00-1",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-25T23:57:21+00:00",
-    "title": "Fed\u2019s Hammack worried inflation expectations could deteriorate",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-hammack-worried-inflation-expectations-could-deteriorate-4918170",
-    "macro_score": 8,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-25T23-57-21+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-25T23:57:21+00:00",
-    "title": "Dollar dips as oil eases, yen jumps on Japan remarks",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-falls-as-oil-cools-but-set-for-weekly-gain-yen-rallies-4917368",
-    "macro_score": 7,
-    "macro_buckets": [
-      "energy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-25T23-57-21+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-25T23:57:21+00:00",
-    "title": "Fed\u2019s Hammack says public\u2019s inflation expectations could worsen",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-hammack-says-publics-inflation-expectations-could-worsen-4917959",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-25T23-57-21+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-25T23:57:21+00:00",
-    "title": "Bill Gates demands federal AI guardrails, warns of \"a billion deaths\"",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/bill-gates-demands-federal-ai-guardrails-warns-of-a-billion-deaths-4917809",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
       "growth"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-25T23-57-21+00-00-9",
+    "id": "www.marketwatch.com-2026-09-26T15-48-00+00-00-7",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-09-26T15:48:00+00:00",
+    "title": "Tax-free bond yields are in a sweet spot. Get in before it\u2019s too late.",
+    "body": "Yields on municipal bonds \u2014 adjusted for taxable-equivalent comparisons \u2014 have widened dramatically over those of corporate bonds over the past two months.",
+    "url": "https://www.marketwatch.com/story/tax-free-bond-yields-are-in-a-sweet-spot-get-in-before-its-too-late-94b8adac?mod=mw_rss_topstories",
+    "macro_score": 5,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-26T23-35-49+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-25T23:57:21+00:00",
-    "title": "France can\u2019t count on ECB to fix debt woes, central bank chief says",
+    "published_at": "2026-09-26T23:35:49+00:00",
+    "title": "Is Fed tightening a game changer for EM assets? UBS weighs in",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/france-cant-count-on-ecb-to-fix-debt-woes-central-bank-chief-says-4917889",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/is-fed-tightening-a-game-changer-for-em-assets-ubs-weighs-in-4918623",
+    "macro_score": 5,
     "macro_buckets": [
       "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-26T23-35-49+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-26T23:35:49+00:00",
+    "title": "Swiss National Bank\u2019s Schlegel watching hot weather impact on food price inflation",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/swiss-national-banks-schlegel-watching-hot-weather-impact-on-food-price-inflation-4918549",
+    "macro_score": 5,
+    "macro_buckets": [
+      "inflation"
     ]
   }
 ]
