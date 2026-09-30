@@ -1,7 +1,7 @@
 [
   {
-    "date": "2026-09-28",
-    "daily_brief": "2026-09-28: 1 unique articles were analyzed. Top theme: uncategorized. There was not enough coverage for a reliable daily sentiment read.",
+    "date": "2026-09-29",
+    "daily_brief": "2026-09-29: 1 unique articles were analyzed. Top theme: uncategorized. There was not enough coverage for a reliable daily sentiment read.",
     "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
     "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
@@ -12,68 +12,68 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.54,
-        "return_5d": 1.27,
-        "close": 771.3499755859375
+        "return_1d": -0.74,
+        "return_5d": -1.02,
+        "close": 765.6099853515625
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.13,
-        "return_5d": -2.38,
-        "close": 79.31999969482422
+        "return_1d": -0.88,
+        "return_5d": -3.89,
+        "close": 78.62000274658203
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.24,
-        "return_5d": 0.81,
-        "close": 28.6200008392334
+        "return_1d": 0.28,
+        "return_5d": 0.77,
+        "close": 28.700000762939453
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -3.11,
-        "return_5d": -3.57,
-        "close": 148.3300018310547
+        "return_1d": 1.13,
+        "return_5d": 1.25,
+        "close": 150.00999450683594
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.04,
-        "return_5d": -0.85,
-        "close": 77.86000061035156
+        "return_1d": -0.41,
+        "return_5d": -1.45,
+        "close": 77.54000091552734
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.44,
-        "return_5d": -1.93,
-        "close": 393.4100036621094
+        "return_1d": -3.94,
+        "return_5d": -5.14,
+        "close": 377.9100036621094
       }
     ],
     "news_sentiment": {
       "label": "insufficient_data",
-      "score": -1.0,
-      "display_score": -1.0,
+      "score": 1.0,
+      "display_score": 1.0,
       "unique_documents": 1,
-      "positive_pct": 0.0,
+      "positive_pct": 100.0,
       "neutral_pct": 0.0,
-      "negative_pct": 100.0,
-      "average_confidence": 0.9
+      "negative_pct": 0.0,
+      "average_confidence": 0.882
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.3,
+      "label": "risk_off",
+      "score": -0.5,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
-        "HYG": 0.0,
-        "TLT": 0.0,
-        "GLD": -0.1
+        "SPY": -0.4,
+        "HYG": -0.35,
+        "TLT": 0.15,
+        "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
@@ -81,18 +81,18 @@
       "label": "Insufficient data",
       "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
       "news_label": "insufficient_data",
-      "market_label": "risk_on"
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-09-28T20-43-00+00-00-10",
-        "title": "Bond yields move relentlessly higher, as Wall Street wonders how much more tech stocks can take",
+        "doc_id": "www.marketwatch.com-2026-09-29T21-56-00+00-00-4",
+        "title": "Hollywood\u2019s big debt deal hits a wall of higher yields as Paramount finances Warner Bros. buyout",
         "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/bond-yields-move-relentlessly-higher-as-wall-street-wonders-how-much-more-tech-stocks-can-take-dd050c39?mod=mw_rss_topstories",
+        "url": "https://www.marketwatch.com/story/hollywoods-big-debt-deal-hits-a-wall-of-higher-yields-as-paramount-finances-warner-bros-buyout-6ee6e3b8?mod=mw_rss_topstories",
         "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9000649452209473,
-        "summary_label": "negative-financial-sentiment",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.8820158243179321,
+        "summary_label": "positive-financial-sentiment",
         "macro_score": 4,
         "macro_buckets": [
           "rates"
@@ -116,14 +116,14 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-09-28T20-43-00+00-00-10",
-            "title": "Bond yields move relentlessly higher, as Wall Street wonders how much more tech stocks can take",
+            "doc_id": "www.marketwatch.com-2026-09-29T21-56-00+00-00-4",
+            "title": "Hollywood\u2019s big debt deal hits a wall of higher yields as Paramount finances Warner Bros. buyout",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/bond-yields-move-relentlessly-higher-as-wall-street-wonders-how-much-more-tech-stocks-can-take-dd050c39?mod=mw_rss_topstories",
+            "url": "https://www.marketwatch.com/story/hollywoods-big-debt-deal-hits-a-wall-of-higher-yields-as-paramount-finances-warner-bros-buyout-6ee6e3b8?mod=mw_rss_topstories",
             "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9000649452209473,
-            "summary_label": "negative-financial-sentiment",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8820158243179321,
+            "summary_label": "positive-financial-sentiment",
             "macro_score": 4,
             "macro_buckets": [
               "rates"
@@ -145,10 +145,10 @@
     "debug_documents": []
   },
   {
-    "date": "2026-09-29",
-    "daily_brief": "2026-09-29: 5 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy, Liquidity coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+    "date": "2026-09-30",
+    "daily_brief": "2026-09-30: 4 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Inflation coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
@@ -157,175 +157,97 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.54,
-        "return_5d": 1.27,
-        "close": 771.3499755859375
+        "return_1d": -0.74,
+        "return_5d": -1.02,
+        "close": 765.6099853515625
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.13,
-        "return_5d": -2.38,
-        "close": 79.31999969482422
+        "return_1d": -0.88,
+        "return_5d": -3.89,
+        "close": 78.62000274658203
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.24,
-        "return_5d": 0.81,
-        "close": 28.6200008392334
+        "return_1d": 0.28,
+        "return_5d": 0.77,
+        "close": 28.700000762939453
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -3.11,
-        "return_5d": -3.57,
-        "close": 148.3300018310547
+        "return_1d": 1.13,
+        "return_5d": 1.25,
+        "close": 150.00999450683594
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.04,
-        "return_5d": -0.85,
-        "close": 77.86000061035156
+        "return_1d": -0.41,
+        "return_5d": -1.45,
+        "close": 77.54000091552734
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.44,
-        "return_5d": -1.93,
-        "close": 393.4100036621094
+        "return_1d": -3.94,
+        "return_5d": -5.14,
+        "close": 377.9100036621094
       }
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -0.2,
-      "display_score": -0.2,
-      "unique_documents": 5,
-      "positive_pct": 40.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 60.0,
-      "average_confidence": 0.825
+      "score": -0.75,
+      "display_score": -0.75,
+      "unique_documents": 4,
+      "positive_pct": 0.0,
+      "neutral_pct": 25.0,
+      "negative_pct": 75.0,
+      "average_confidence": 0.786
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.3,
+      "label": "risk_off",
+      "score": -0.5,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
-        "HYG": 0.0,
-        "TLT": 0.0,
-        "GLD": -0.1
+        "SPY": -0.4,
+        "HYG": -0.35,
+        "TLT": 0.15,
+        "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "divergent",
-      "label": "Divergent",
-      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+      "status": "confirmed",
+      "label": "Confirmed",
+      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
       "news_label": "negative",
-      "market_label": "risk_on"
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-09-29T00-59-00+00-00-9",
-        "title": "Dollar flat as US-Iran stand-off lifts oil, yields",
+        "doc_id": "www.investing.com-2026-09-30T00-24-32+00-00-3",
+        "title": "Stocks dip, 2-year US yield falls after Fed\u2019s Williams cools rate hike bets",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-firms-as-usiran-tensions-lift-oil-hawkish-fed-bets-build-4919239",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8467897176742554,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 12,
-        "macro_buckets": [
-          "rates",
-          "energy",
-          "fx"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-29T00-59-00+00-00-3",
-        "title": "Stocks fall as higher oil prices, Treasury yields weigh",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/wall-st-futures-drop-as-oil-spikes-after-trump-rejects-iran-peace-proposal-4919715",
+        "url": "https://www.investing.com/news/economy-news/stocks-wobble-as-bonds-slump-to-monthly-loss-4921500",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9604281187057495,
+        "sentiment_confidence": 0.8855740427970886,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 10,
-        "macro_buckets": [
-          "inflation",
-          "rates",
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-29T00-59-00+00-00-5",
-        "title": "ECB eyes new currency safety nets to boost euro\u2019s global role",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/ecb-eyes-new-currency-safety-nets-to-boost-euros-global-role-4920819",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.9089323878288269,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 7,
+        "macro_score": 11,
         "macro_buckets": [
           "policy",
-          "fx"
+          "rates"
         ],
         "themes": [
           "policy"
         ],
         "scores": {
           "inflation": 0,
-          "growth": 0,
-          "policy": 2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-09-29T00-59-00+00-00-1",
-        "title": "Fed\u2019s Cook sees further inflationary pressures ahead",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-cook-sees-further-inflationary-pressures-ahead-4920948",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8801050782203674,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy",
-          "inflation"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": -2,
           "growth": 0,
           "policy": -2,
           "liquidity": 0,
@@ -333,57 +255,187 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-09-29T00-59-00+00-00-2",
-        "title": "Tether USDT aids Iran funding, Senate report says",
+        "doc_id": "www.investing.com-2026-09-30T00-24-32+00-00-10",
+        "title": "Fed\u2019s Goolsbee says prolonged inflation above target is \"playing with fire\"",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/tether-usdt-aids-iran-funding-senate-report-says-4920946",
+        "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-prolonged-inflation-above-target-is-playing-with-fire-4923305",
         "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.5288824439048767,
-        "summary_label": "positive-financial-sentiment",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.4904991090297699,
+        "summary_label": "neutral-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "liquidity",
-          "fx"
+          "policy",
+          "inflation"
         ],
         "themes": [
-          "liquidity"
+          "inflation",
+          "policy"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
           "policy": 0,
-          "liquidity": 1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-30T00-24-32+00-00-1",
+        "title": "Equities end slightly lower as bond yields hold near multi-decade highs",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/equities-dip-as-bond-yields-hold-near-multidecade-highs-4923360",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9445574283599854,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "rates"
+        ],
+        "themes": [
+          "uncategorized"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-09-30T00-24-32+00-00-4",
+        "title": "Trading Day: Stocks still in bonds\u2019 grip",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/trading-day-stocks-still-in-bonds-grip-4923623",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8231151103973389,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "rates"
+        ],
+        "themes": [
+          "uncategorized"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
           "risk": 0
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "energy",
+        "name": "policy",
         "label": "negative news sentiment",
-        "score": -5,
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-29T00-59-00+00-00-9",
-            "title": "Dollar flat as US-Iran stand-off lifts oil, yields",
+            "doc_id": "www.investing.com-2026-09-30T00-24-32+00-00-3",
+            "title": "Stocks dip, 2-year US yield falls after Fed\u2019s Williams cools rate hike bets",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-firms-as-usiran-tensions-lift-oil-hawkish-fed-bets-build-4919239",
-            "confidence": "medium",
+            "url": "https://www.investing.com/news/economy-news/stocks-wobble-as-bonds-slump-to-monthly-loss-4921500",
+            "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8467897176742554,
+            "sentiment_confidence": 0.8855740427970886,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 12,
+            "macro_score": 11,
             "macro_buckets": [
-              "rates",
-              "energy",
-              "fx"
+              "policy",
+              "rates"
             ],
             "themes": [
-              "inflation"
+              "policy"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 0,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-30T00-24-32+00-00-10",
+            "title": "Fed\u2019s Goolsbee says prolonged inflation above target is \"playing with fire\"",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-prolonged-inflation-above-target-is-playing-with-fire-4923305",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.4904991090297699,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-09-30T00-24-32+00-00-3",
+            "title": "Stocks dip, 2-year US yield falls after Fed\u2019s Williams cools rate hike bets",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/stocks-wobble-as-bonds-slump-to-monthly-loss-4921500",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8855740427970886,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 11,
+            "macro_buckets": [
+              "policy",
+              "rates"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-09-30T00-24-32+00-00-1",
+            "title": "Equities end slightly lower as bond yields hold near multi-decade highs",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/equities-dip-as-bond-yields-hold-near-multidecade-highs-4923360",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9445574283599854,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "rates"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -391,25 +443,23 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-09-29T00-59-00+00-00-3",
-            "title": "Stocks fall as higher oil prices, Treasury yields weigh",
+            "doc_id": "www.investing.com-2026-09-30T00-24-32+00-00-4",
+            "title": "Trading Day: Stocks still in bonds\u2019 grip",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/wall-st-futures-drop-as-oil-spikes-after-trump-rejects-iran-peace-proposal-4919715",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/trading-day-stocks-still-in-bonds-grip-4923623",
+            "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9604281187057495,
+            "sentiment_confidence": 0.8231151103973389,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
+            "macro_score": 4,
             "macro_buckets": [
-              "inflation",
-              "rates",
-              "energy"
+              "rates"
             ],
             "themes": [
-              "inflation"
+              "uncategorized"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -420,173 +470,32 @@
       },
       {
         "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -5,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-29T00-59-00+00-00-3",
-            "title": "Stocks fall as higher oil prices, Treasury yields weigh",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/wall-st-futures-drop-as-oil-spikes-after-trump-rejects-iran-peace-proposal-4919715",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9604281187057495,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "inflation",
-              "rates",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-29T00-59-00+00-00-1",
-            "title": "Fed\u2019s Cook sees further inflationary pressures ahead",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-cook-sees-further-inflationary-pressures-ahead-4920948",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8801050782203674,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "liquidity",
-        "label": "positive news sentiment",
-        "score": 1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-09-29T00-59-00+00-00-2",
-            "title": "Tether USDT aids Iran funding, Senate report says",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/tether-usdt-aids-iran-funding-senate-report-says-4920946",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.5288824439048767,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "liquidity",
-              "fx"
-            ],
-            "themes": [
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 1,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "fx",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-09-29T00-59-00+00-00-9",
-            "title": "Dollar flat as US-Iran stand-off lifts oil, yields",
+            "doc_id": "www.investing.com-2026-09-30T00-24-32+00-00-10",
+            "title": "Fed\u2019s Goolsbee says prolonged inflation above target is \"playing with fire\"",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-firms-as-usiran-tensions-lift-oil-hawkish-fed-bets-build-4919239",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8467897176742554,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 12,
-            "macro_buckets": [
-              "rates",
-              "energy",
-              "fx"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-29T00-59-00+00-00-5",
-            "title": "ECB eyes new currency safety nets to boost euro\u2019s global role",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ecb-eyes-new-currency-safety-nets-to-boost-euros-global-role-4920819",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9089323878288269,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 7,
+            "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-prolonged-inflation-above-target-is-playing-with-fire-4923305",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.4904991090297699,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "fx"
+              "inflation"
             ],
             "themes": [
+              "inflation",
               "policy"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-09-29T00-59-00+00-00-2",
-            "title": "Tether USDT aids Iran funding, Senate report says",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/tether-usdt-aids-iran-funding-senate-report-says-4920946",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.5288824439048767,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "liquidity",
-              "fx"
-            ],
-            "themes": [
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
               "policy": 0,
-              "liquidity": 1,
+              "liquidity": 0,
               "risk": 0
             }
           }

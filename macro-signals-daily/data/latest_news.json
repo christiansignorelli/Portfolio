@@ -1,56 +1,26 @@
 [
   {
-    "id": "www.investing.com-2026-09-29T00-59-00+00-00-9",
+    "id": "www.investing.com-2026-09-30T00-24-32+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-29T00:59:00+00:00",
-    "title": "Dollar flat as US-Iran stand-off lifts oil, yields",
+    "published_at": "2026-09-30T00:24:32+00:00",
+    "title": "Stocks dip, 2-year US yield falls after Fed\u2019s Williams cools rate hike bets",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-firms-as-usiran-tensions-lift-oil-hawkish-fed-bets-build-4919239",
-    "macro_score": 12,
-    "macro_buckets": [
-      "rates",
-      "energy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-29T00-59-00+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-29T00:59:00+00:00",
-    "title": "Stocks fall as higher oil prices, Treasury yields weigh",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/wall-st-futures-drop-as-oil-spikes-after-trump-rejects-iran-peace-proposal-4919715",
-    "macro_score": 10,
-    "macro_buckets": [
-      "inflation",
-      "rates",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-29T00-59-00+00-00-5",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-29T00:59:00+00:00",
-    "title": "ECB eyes new currency safety nets to boost euro\u2019s global role",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecb-eyes-new-currency-safety-nets-to-boost-euros-global-role-4920819",
-    "macro_score": 7,
+    "url": "https://www.investing.com/news/economy-news/stocks-wobble-as-bonds-slump-to-monthly-loss-4921500",
+    "macro_score": 11,
     "macro_buckets": [
       "policy",
-      "fx"
+      "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-29T00-59-00+00-00-1",
+    "id": "www.investing.com-2026-09-30T00-24-32+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-29T00:59:00+00:00",
-    "title": "Fed\u2019s Cook sees further inflationary pressures ahead",
+    "published_at": "2026-09-30T00:24:32+00:00",
+    "title": "Fed\u2019s Goolsbee says prolonged inflation above target is \"playing with fire\"",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-cook-sees-further-inflationary-pressures-ahead-4920948",
+    "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-prolonged-inflation-above-target-is-playing-with-fire-4923305",
     "macro_score": 6,
     "macro_buckets": [
       "policy",
@@ -58,27 +28,39 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-09-29T00-59-00+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-29T00:59:00+00:00",
-    "title": "Tether USDT aids Iran funding, Senate report says",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/tether-usdt-aids-iran-funding-senate-report-says-4920946",
-    "macro_score": 6,
+    "id": "www.marketwatch.com-2026-09-29T21-56-00+00-00-4",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-09-29T21:56:00+00:00",
+    "title": "Hollywood\u2019s big debt deal hits a wall of higher yields as Paramount finances Warner Bros. buyout",
+    "body": "The Paramount financing will be a closely watched barometer of dealmaking appetite despite rising borrowing costs in 2026.",
+    "url": "https://www.marketwatch.com/story/hollywoods-big-debt-deal-hits-a-wall-of-higher-yields-as-paramount-finances-warner-bros-buyout-6ee6e3b8?mod=mw_rss_topstories",
+    "macro_score": 4,
     "macro_buckets": [
-      "liquidity",
-      "fx"
+      "rates"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-09-28T20-43-00+00-00-10",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-28T20:43:00+00:00",
-    "title": "Bond yields move relentlessly higher, as Wall Street wonders how much more tech stocks can take",
-    "body": "Wall Street was hoping last week\u2019s bond rout was the worst of it. Monday indicated otherwise.",
-    "url": "https://www.marketwatch.com/story/bond-yields-move-relentlessly-higher-as-wall-street-wonders-how-much-more-tech-stocks-can-take-dd050c39?mod=mw_rss_topstories",
+    "id": "www.investing.com-2026-09-30T00-24-32+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-30T00:24:32+00:00",
+    "title": "Equities end slightly lower as bond yields hold near multi-decade highs",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/equities-dip-as-bond-yields-hold-near-multidecade-highs-4923360",
+    "macro_score": 4,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-09-30T00-24-32+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-09-30T00:24:32+00:00",
+    "title": "Trading Day: Stocks still in bonds\u2019 grip",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/trading-day-stocks-still-in-bonds-grip-4923623",
     "macro_score": 4,
     "macro_buckets": [
       "rates"
