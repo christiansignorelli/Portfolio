@@ -1,26 +1,53 @@
 [
   {
-    "id": "www.investing.com-2026-09-30T00-24-32+00-00-3",
+    "id": "www.investing.com-2026-10-01T00-32-25+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-30T00:24:32+00:00",
-    "title": "Stocks dip, 2-year US yield falls after Fed\u2019s Williams cools rate hike bets",
+    "published_at": "2026-10-01T00:32:25+00:00",
+    "title": "Fed\u2019s Kashkari says central bank must lower inflation pressures",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/stocks-wobble-as-bonds-slump-to-monthly-loss-4921500",
-    "macro_score": 11,
+    "url": "https://www.investing.com/news/economy-news/feds-kashkari-says-central-bank-must-lower-inflation-pressures-4926070",
+    "macro_score": 7,
     "macro_buckets": [
       "policy",
-      "rates"
+      "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-30T00-24-32+00-00-10",
+    "id": "www.investing.com-2026-10-01T00-32-25+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-30T00:24:32+00:00",
-    "title": "Fed\u2019s Goolsbee says prolonged inflation above target is \"playing with fire\"",
+    "published_at": "2026-10-01T00:32:25+00:00",
+    "title": "Bonds post worst month in years; stocks decline for September and oil gains",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-prolonged-inflation-above-target-is-playing-with-fire-4923305",
+    "url": "https://www.investing.com/news/economy-news/bonds-set-for-bruising-september-stocks-fare-better-4924015",
+    "macro_score": 7,
+    "macro_buckets": [
+      "rates",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-01T00-32-25+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-01T00:32:25+00:00",
+    "title": "BOJ debated need for more rate hikes at September meeting, summary shows",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/boj-debated-need-for-more-rate-hikes-at-september-meeting-summary-shows-4926126",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-01T00-32-25+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-01T00:32:25+00:00",
+    "title": "US inflation rises below expectations in August, gives the Fed breathing space",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/us-inflation-rises-less-than-expected-in-august-consumer-spending-surges-4925188",
     "macro_score": 6,
     "macro_buckets": [
       "policy",
@@ -28,39 +55,66 @@
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-09-29T21-56-00+00-00-4",
+    "id": "www.investing.com-2026-10-01T00-32-25+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-01T00:32:25+00:00",
+    "title": "US dollar flat against peers after softer-than-expected inflation data",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/dollar-set-for-september-rise-mainly-at-euros-expense-4923987",
+    "macro_score": 6,
+    "macro_buckets": [
+      "inflation",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-09-30T20-32-00+00-00-8",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-29T21:56:00+00:00",
-    "title": "Hollywood\u2019s big debt deal hits a wall of higher yields as Paramount finances Warner Bros. buyout",
-    "body": "The Paramount financing will be a closely watched barometer of dealmaking appetite despite rising borrowing costs in 2026.",
-    "url": "https://www.marketwatch.com/story/hollywoods-big-debt-deal-hits-a-wall-of-higher-yields-as-paramount-finances-warner-bros-buyout-6ee6e3b8?mod=mw_rss_topstories",
+    "published_at": "2026-09-30T20:32:00+00:00",
+    "title": "U.S. bond yields post biggest jump in a generation as global rout rattles investors",
+    "body": "Yields in the global bond market have risen with startling speed over the past few months, and the more than $30 trillion market for U.S. government debt certainly hasn\u2019t been immune.",
+    "url": "https://www.marketwatch.com/story/u-s-bond-yields-head-for-biggest-jump-in-a-generation-as-global-rout-rattles-investors-7dede2f2?mod=mw_rss_topstories",
+    "macro_score": 5,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-01T00-32-25+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-01T00:32:25+00:00",
+    "title": "US second-quarter GDP revised higher amid robust consumer spending",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/us-secondquarter-gdp-revised-higher-amid-robust-consumer-spending-4925263",
+    "macro_score": 5,
+    "macro_buckets": [
+      "growth"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-09-30T20-56-00+00-00-7",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-09-30T20:56:00+00:00",
+    "title": "A brutal September for bonds points to an even darker October",
+    "body": "September has been a brutal month for the bond market. If history is any guide, October might be even worse.",
+    "url": "https://www.marketwatch.com/story/a-brutal-september-for-bonds-points-to-an-even-darker-october-239d0fb5?mod=mw_rss_topstories",
     "macro_score": 4,
     "macro_buckets": [
       "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-09-30T00-24-32+00-00-1",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-30T00:24:32+00:00",
-    "title": "Equities end slightly lower as bond yields hold near multi-decade highs",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/equities-dip-as-bond-yields-hold-near-multidecade-highs-4923360",
-    "macro_score": 4,
-    "macro_buckets": [
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-09-30T00-24-32+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-09-30T00:24:32+00:00",
-    "title": "Trading Day: Stocks still in bonds\u2019 grip",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/trading-day-stocks-still-in-bonds-grip-4923623",
+    "id": "www.marketwatch.com-2026-09-30T19-42-00+00-00-9",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-09-30T19:42:00+00:00",
+    "title": "Paramount\u2019s mega debt sale reveals how higher bond yields are squeezing corporate America",
+    "body": "\u2018Over the near term, we expect supply to fall off, unless someone has to borrow,\u2019 says Invesco\u2019s Matt Brill",
+    "url": "https://www.marketwatch.com/story/paramounts-mega-debt-sale-reveals-how-higher-bond-yields-are-squeezing-corporate-america-e9694ec3?mod=mw_rss_topstories",
     "macro_score": 4,
     "macro_buckets": [
       "rates"
