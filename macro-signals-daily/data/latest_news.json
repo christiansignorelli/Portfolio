@@ -1,120 +1,119 @@
 [
   {
-    "id": "www.investing.com-2026-10-01T00-32-25+00-00-6",
+    "id": "www.investing.com-2026-10-02T00-45-09+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-01T00:32:25+00:00",
-    "title": "Fed\u2019s Kashkari says central bank must lower inflation pressures",
+    "published_at": "2026-10-02T00:45:09+00:00",
+    "title": "Tokyo core inflation rate jumps in September, bolsters case for more BOJ hikes",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-kashkari-says-central-bank-must-lower-inflation-pressures-4926070",
-    "macro_score": 7,
+    "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-jumps-in-september-bolsters-case-for-more-boj-hikes-4928698",
+    "macro_score": 11,
     "macro_buckets": [
       "policy",
       "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-01T00-32-25+00-00-8",
+    "id": "www.investing.com-2026-10-02T00-45-09+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-01T00:32:25+00:00",
-    "title": "Bonds post worst month in years; stocks decline for September and oil gains",
+    "published_at": "2026-10-02T00:45:09+00:00",
+    "title": "Fed\u2019s Logan says more rate hikes needed to curb sticky inflation",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/bonds-set-for-bruising-september-stocks-fare-better-4924015",
-    "macro_score": 7,
+    "url": "https://www.investing.com/news/economy-news/feds-logan-says-more-rate-hikes-needed-to-curb-sticky-inflation-4928700",
+    "macro_score": 11,
     "macro_buckets": [
-      "rates",
-      "energy"
+      "policy",
+      "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-01T00-32-25+00-00-2",
+    "id": "www.investing.com-2026-10-02T00-45-09+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-01T00:32:25+00:00",
-    "title": "BOJ debated need for more rate hikes at September meeting, summary shows",
+    "published_at": "2026-10-02T00:45:09+00:00",
+    "title": "Global bond selloff boosts dollar, pressures euro",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/boj-debated-need-for-more-rate-hikes-at-september-meeting-summary-shows-4926126",
+    "url": "https://www.investing.com/news/economy-news/dollar-gets-lift-from-higher-yields-4926161",
+    "macro_score": 7,
+    "macro_buckets": [
+      "rates",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-02T00-45-09+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-02T00:45:09+00:00",
+    "title": "Fed policymakers lean against October rate hike",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/fed-may-take-time-to-make-next-interest-rate-move-jefferson-says-4928035",
     "macro_score": 6,
     "macro_buckets": [
       "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-01T00-32-25+00-00-3",
+    "id": "www.investing.com-2026-10-02T00-45-09+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-01T00:32:25+00:00",
-    "title": "US inflation rises below expectations in August, gives the Fed breathing space",
+    "published_at": "2026-10-02T00:45:09+00:00",
+    "title": "Fed\u2019s Logan calls for \u201950 bps or more\u2019 in rate hikes",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-inflation-rises-less-than-expected-in-august-consumer-spending-surges-4925188",
+    "url": "https://www.investing.com/news/economy-news/feds-logan-calls-for-50-bps-or-more-in-rate-hikes-4928682",
     "macro_score": 6,
     "macro_buckets": [
-      "policy",
-      "inflation"
+      "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-01T00-32-25+00-00-10",
+    "id": "www.investing.com-2026-10-02T00-45-09+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-01T00:32:25+00:00",
-    "title": "US dollar flat against peers after softer-than-expected inflation data",
+    "published_at": "2026-10-02T00:45:09+00:00",
+    "title": "Yields fall after US 10-year hits highest since 2002; US stocks inch up",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-set-for-september-rise-mainly-at-euros-expense-4923987",
+    "url": "https://www.investing.com/news/economy-news/asian-stocks-dip-bonds-in-focus-after-torrid-september-4926176",
     "macro_score": 6,
-    "macro_buckets": [
-      "inflation",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-09-30T20-32-00+00-00-8",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-30T20:32:00+00:00",
-    "title": "U.S. bond yields post biggest jump in a generation as global rout rattles investors",
-    "body": "Yields in the global bond market have risen with startling speed over the past few months, and the more than $30 trillion market for U.S. government debt certainly hasn\u2019t been immune.",
-    "url": "https://www.marketwatch.com/story/u-s-bond-yields-head-for-biggest-jump-in-a-generation-as-global-rout-rattles-investors-7dede2f2?mod=mw_rss_topstories",
-    "macro_score": 5,
     "macro_buckets": [
       "rates"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-01T00-32-25+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-01T00:32:25+00:00",
-    "title": "US second-quarter GDP revised higher amid robust consumer spending",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-secondquarter-gdp-revised-higher-amid-robust-consumer-spending-4925263",
-    "macro_score": 5,
-    "macro_buckets": [
-      "growth"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-09-30T20-56-00+00-00-7",
+    "id": "www.marketwatch.com-2026-10-01T20-28-00+00-00-9",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-30T20:56:00+00:00",
-    "title": "A brutal September for bonds points to an even darker October",
-    "body": "September has been a brutal month for the bond market. If history is any guide, October might be even worse.",
-    "url": "https://www.marketwatch.com/story/a-brutal-september-for-bonds-points-to-an-even-darker-october-239d0fb5?mod=mw_rss_topstories",
+    "published_at": "2026-10-01T20:28:00+00:00",
+    "title": "Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market",
+    "body": "There\u2019s a tug of war going on in the U.S. Treasury market right now",
+    "url": "https://www.marketwatch.com/story/bond-yields-suddenly-retreat-from-recent-highs-as-buyers-step-back-into-the-treasury-market-e3840e3d?mod=mw_rss_topstories",
     "macro_score": 4,
     "macro_buckets": [
       "rates"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-09-30T19-42-00+00-00-9",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-09-30T19:42:00+00:00",
-    "title": "Paramount\u2019s mega debt sale reveals how higher bond yields are squeezing corporate America",
-    "body": "\u2018Over the near term, we expect supply to fall off, unless someone has to borrow,\u2019 says Invesco\u2019s Matt Brill",
-    "url": "https://www.marketwatch.com/story/paramounts-mega-debt-sale-reveals-how-higher-bond-yields-are-squeezing-corporate-america-e9694ec3?mod=mw_rss_topstories",
+    "id": "www.investing.com-2026-10-02T00-45-09+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-02T00:45:09+00:00",
+    "title": "Equities rebound to close higher as surging Treasury yields recede",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/dow-futures-hit-threemonth-low-as-yields-surge-micron-earnings-offer-support-4926657",
+    "macro_score": 4,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-02T00-45-09+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-02T00:45:09+00:00",
+    "title": "Stocks find footing as Treasury yields ease",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/stocks-find-footing-as-treasury-yields-ease-4928480",
     "macro_score": 4,
     "macro_buckets": [
       "rates"
