@@ -1,53 +1,53 @@
 {
-  "as_of": "2026-10-01",
+  "as_of": "2026-10-02",
   "snapshots": [
     {
       "symbol": "SPY",
       "label": "US equities",
-      "as_of": "2026-10-01",
-      "close": 763.989990234375,
-      "return_1d": 0.18,
-      "return_5d": -0.42
+      "as_of": "2026-10-02",
+      "close": 769.6400146484375,
+      "return_1d": 0.74,
+      "return_5d": -0.22
     },
     {
       "symbol": "TLT",
       "label": "Long-duration Treasuries",
-      "as_of": "2026-10-01",
-      "close": 77.70999908447266,
-      "return_1d": -0.09,
-      "return_5d": -2.15
+      "as_of": "2026-10-02",
+      "close": 77.4800033569336,
+      "return_1d": -0.3,
+      "return_5d": -2.32
     },
     {
       "symbol": "GLD",
       "label": "Gold",
-      "as_of": "2026-10-01",
-      "close": 382.760009765625,
-      "return_1d": 0.5,
-      "return_5d": -2.28
+      "as_of": "2026-10-02",
+      "close": 380.1400146484375,
+      "return_1d": -0.68,
+      "return_5d": -3.37
     },
     {
       "symbol": "USO",
       "label": "Oil proxy",
-      "as_of": "2026-10-01",
-      "close": 150.02000427246094,
-      "return_1d": 2.99,
-      "return_5d": -2.01
+      "as_of": "2026-10-02",
+      "close": 147.3699951171875,
+      "return_1d": -1.77,
+      "return_5d": -0.65
     },
     {
       "symbol": "UUP",
       "label": "US dollar proxy",
-      "as_of": "2026-10-01",
-      "close": 28.959999084472656,
-      "return_1d": 0.66,
+      "as_of": "2026-10-02",
+      "close": 28.889999389648438,
+      "return_1d": -0.24,
       "return_5d": 0.94
     },
     {
       "symbol": "HYG",
       "label": "High yield credit",
-      "as_of": "2026-10-01",
-      "close": 76.9000015258789,
-      "return_1d": -0.4,
-      "return_5d": -1.27
+      "as_of": "2026-10-02",
+      "close": 76.91000366210938,
+      "return_1d": 0.01,
+      "return_5d": -1.22
     }
   ]
 }
