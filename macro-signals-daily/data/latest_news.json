@@ -1,122 +1,57 @@
 [
   {
-    "id": "www.investing.com-2026-10-02T00-45-09+00-00-2",
+    "id": "www.investing.com-2026-10-03T00-27-56+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-02T00:45:09+00:00",
-    "title": "Tokyo core inflation rate jumps in September, bolsters case for more BOJ hikes",
+    "published_at": "2026-10-03T00:27:56+00:00",
+    "title": "Stocks rise after weak US jobs data but bonds resume selling",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-jumps-in-september-bolsters-case-for-more-boj-hikes-4928698",
-    "macro_score": 11,
+    "url": "https://www.investing.com/news/economy-news/asian-shares-fall-after-wild-swings-in-bonds-fx-before-us-jobs-data-4928814",
+    "macro_score": 8,
     "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-02T00-45-09+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-02T00:45:09+00:00",
-    "title": "Fed\u2019s Logan says more rate hikes needed to curb sticky inflation",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-logan-says-more-rate-hikes-needed-to-curb-sticky-inflation-4928700",
-    "macro_score": 11,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-02T00-45-09+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-02T00:45:09+00:00",
-    "title": "Global bond selloff boosts dollar, pressures euro",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-gets-lift-from-higher-yields-4926161",
-    "macro_score": 7,
-    "macro_buckets": [
-      "rates",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-02T00-45-09+00-00-1",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-02T00:45:09+00:00",
-    "title": "Fed policymakers lean against October rate hike",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/fed-may-take-time-to-make-next-interest-rate-move-jefferson-says-4928035",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-02T00-45-09+00-00-5",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-02T00:45:09+00:00",
-    "title": "Fed\u2019s Logan calls for \u201950 bps or more\u2019 in rate hikes",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-logan-calls-for-50-bps-or-more-in-rate-hikes-4928682",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-02T00-45-09+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-02T00:45:09+00:00",
-    "title": "Yields fall after US 10-year hits highest since 2002; US stocks inch up",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/asian-stocks-dip-bonds-in-focus-after-torrid-september-4926176",
-    "macro_score": 6,
-    "macro_buckets": [
+      "labor",
       "rates"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-10-01T20-28-00+00-00-9",
+    "id": "www.marketwatch.com-2026-10-02T21-54-00+00-00-4",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-01T20:28:00+00:00",
-    "title": "Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market",
-    "body": "There\u2019s a tug of war going on in the U.S. Treasury market right now",
-    "url": "https://www.marketwatch.com/story/bond-yields-suddenly-retreat-from-recent-highs-as-buyers-step-back-into-the-treasury-market-e3840e3d?mod=mw_rss_topstories",
-    "macro_score": 4,
+    "published_at": "2026-10-02T21:54:00+00:00",
+    "title": "Falling wages, soaring energy prices and inflation: It\u2019s beginning to look a lot like the 1970s",
+    "body": "Is it time to dust off the financial playbook from that dismal decade?",
+    "url": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
+    "macro_score": 7,
     "macro_buckets": [
-      "rates"
+      "inflation",
+      "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-02T00-45-09+00-00-4",
+    "id": "www.investing.com-2026-10-03T00-27-56+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-02T00:45:09+00:00",
-    "title": "Equities rebound to close higher as surging Treasury yields recede",
+    "published_at": "2026-10-03T00:27:56+00:00",
+    "title": "Equities close higher as softer jobs data quiets rate-hike expectations",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/dow-futures-hit-threemonth-low-as-yields-surge-micron-earnings-offer-support-4926657",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/wall-st-futures-gain-as-yields-oil-prices-ease-ahead-of-jobs-report-4929250",
+    "macro_score": 5,
     "macro_buckets": [
-      "rates"
+      "policy",
+      "labor"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-02T00-45-09+00-00-9",
+    "id": "www.investing.com-2026-10-03T00-27-56+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-02T00:45:09+00:00",
-    "title": "Stocks find footing as Treasury yields ease",
+    "published_at": "2026-10-03T00:27:56+00:00",
+    "title": "Dollar set for fourth weekly gain versus euro",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/stocks-find-footing-as-treasury-yields-ease-4928480",
+    "url": "https://www.investing.com/news/economy-news/dollar-at-17month-high-as-global-bond-rout-hits-euro-4928797",
     "macro_score": 4,
     "macro_buckets": [
-      "rates"
+      "fx"
     ]
   }
 ]
