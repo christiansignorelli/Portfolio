@@ -1,42 +1,32 @@
 [
   {
-    "id": "www.marketwatch.com-2026-10-04T12-00-00+00-00-7",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-04T12:00:00+00:00",
-    "title": "Fed minutes coming this week could give markets important clues about future rate hikes",
-    "body": "Minutes from the September meeting may provide extra context, as the real fed-funds rate is now surprisingly low.",
-    "url": "https://www.marketwatch.com/story/fed-minutes-coming-this-week-could-give-markets-important-clues-about-future-rate-hikes-31bfba5b?mod=mw_rss_topstories",
-    "macro_score": 7,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-10-03T23-58-00+00-00-9",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-03T23:58:00+00:00",
-    "title": "Falling wages, soaring energy prices and inflation: It\u2019s beginning to look a lot like the 1970s",
-    "body": "Is it time to dust off the financial playbook from that dismal decade?",
-    "url": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
-    "macro_score": 7,
+    "id": "www.investing.com-2026-10-06T01-45-56+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-06T01:45:56+00:00",
+    "title": "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/stocks-upbeat-dollar-wobbles-as-fed-hike-bets-recede-4930982",
+    "macro_score": 13,
     "macro_buckets": [
       "inflation",
-      "energy"
+      "rates",
+      "energy",
+      "fx"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-10-03T18-49-00+00-00-10",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-03T18:49:00+00:00",
-    "title": "These bond strategies can help you get a safe 5% return on your cash",
-    "body": "With U.S. Treasury yields on the rise, financial planners say they\u2019re seeing a growing interest in bonds, especially among investors looking to secure fixed income in retirement.",
-    "url": "https://www.marketwatch.com/story/these-bond-strategies-can-help-you-get-a-safe-5-return-on-your-cash-5fa45ccd?mod=mw_rss_topstories",
+    "id": "www.investing.com-2026-10-06T01-45-56+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-06T01:45:56+00:00",
+    "title": "IMF research shows better tax system design can raise revenue, growth without higher rates",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/imf-research-shows-better-tax-system-design-can-raise-revenue-growth-without-higher-rates-4932715",
     "macro_score": 4,
     "macro_buckets": [
-      "rates"
+      "policy",
+      "growth"
     ]
   }
 ]
