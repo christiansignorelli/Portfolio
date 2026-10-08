@@ -1,1 +1,95 @@
-[]
+[
+  {
+    "id": "www.investing.com-2026-10-08T01-00-42+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-08T01:00:42+00:00",
+    "title": "World shares, euro slide as high oil prices, fiscal worries linger",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/asia-shares-weaker-oil-up-investors-weigh-saudihouthi-escalation-4935555",
+    "macro_score": 9,
+    "macro_buckets": [
+      "inflation",
+      "energy",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-10-07T19-35-00+00-00-4",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-10-07T19:35:00+00:00",
+    "title": "Fed\u2019s minutes show no appetite for a series of interest-rate hikes",
+    "body": "September\u2019s rate hike was viewed by many officials as needed just in case inflation remains sticky.",
+    "url": "https://www.marketwatch.com/story/fed-minutes-show-no-appetite-for-a-series-of-interest-rate-hikes-8b1c6436?mod=mw_rss_topstories",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-08T01-00-42+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-08T01:00:42+00:00",
+    "title": "Fed policymakers divided over rate-hike logic in September, minutes show",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/fed-policymakers-divided-over-ratehike-logic-in-september-minutes-show-4937320",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-10-07T22-32-00+00-00-1",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-10-07T22:32:00+00:00",
+    "title": "Rising yields are quietly crashing the stock market\u2019s earlier winners of 2026",
+    "body": "Surging Treasury yields have begun to hammer parts of the stock market that might easily be overlooked, especially with the spotlight once again shining brightly on a small group of glamorous tech companies.",
+    "url": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
+    "macro_score": 5,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-10-07T20-58-00+00-00-2",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-10-07T20:58:00+00:00",
+    "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
+    "body": "Technology is the only one of the S&P 500\u2019s 11 sectors that gained since Sept. 1, as Treasury yields have climbed to multi-decade highs.",
+    "url": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
+    "macro_score": 5,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-08T01-00-42+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-08T01:00:42+00:00",
+    "title": "Wall Street ends lower, off record highs, as Treasury yields climb",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/wall-st-futures-slip-as-yields-and-oil-rebound-fed-minutes-in-focus-4936151",
+    "macro_score": 4,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-08T01-00-42+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-08T01:00:42+00:00",
+    "title": "Trading Day: Stocks, bonds in delicate dance",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/trading-day-stocks-bonds-in-delicate-dance-4937564",
+    "macro_score": 4,
+    "macro_buckets": [
+      "rates"
+    ]
+  }
+]
