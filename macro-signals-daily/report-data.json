@@ -1,101 +1,152 @@
 [
   {
-    "date": "2026-10-07",
-    "daily_brief": "2026-10-07: 3 unique articles were analyzed. News sentiment was positive. Top theme: uncategorized.",
-    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly positive tone.",
-    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+    "date": "2026-10-09",
+    "daily_brief": "2026-10-09: 4 unique articles were analyzed. News sentiment was neutral. Top theme: inflation.",
+    "macro_read": "Macro read: coverage across inflation, growth, policy was broadly neutral or mixed.",
+    "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.55,
-        "return_5d": 1.95,
-        "close": 779.0900268554688
+        "return_1d": -0.24,
+        "return_5d": 1.91,
+        "close": 777.219970703125
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.22,
-        "return_5d": -1.21,
-        "close": 77.27999877929688
+        "return_1d": -0.17,
+        "return_5d": -0.81,
+        "close": 77.1500015258789
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.31,
-        "return_5d": 0.52,
-        "close": 28.899999618530273
+        "return_1d": 0.48,
+        "return_5d": 0.94,
+        "close": 29.040000915527344
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 0.64,
-        "return_5d": 1.09,
-        "close": 144.91000366210938
+        "return_1d": -0.69,
+        "return_5d": -1.2,
+        "close": 143.91000366210938
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.38,
-        "return_5d": -0.12,
-        "close": 77.2699966430664
+        "return_1d": -0.12,
+        "return_5d": -0.04,
+        "close": 77.18000030517578
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.72,
-        "return_5d": -0.16,
-        "close": 382.2699890136719
+        "return_1d": -1.67,
+        "return_5d": -1.3,
+        "close": 375.8800048828125
       }
     ],
     "news_sentiment": {
-      "label": "positive",
-      "score": 0.3333333333333333,
-      "display_score": 0.33,
-      "unique_documents": 3,
-      "positive_pct": 66.7,
+      "label": "neutral",
+      "score": 0.0,
+      "display_score": 0.0,
+      "unique_documents": 4,
+      "positive_pct": 50.0,
       "neutral_pct": 0.0,
-      "negative_pct": 33.3,
-      "average_confidence": 0.614
+      "negative_pct": 50.0,
+      "average_confidence": 0.85
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.5,
+      "label": "risk_off",
+      "score": -0.3,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
-        "HYG": 0.35,
-        "TLT": -0.15,
-        "GLD": -0.1
+        "SPY": -0.4,
+        "HYG": 0.0,
+        "TLT": 0.0,
+        "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "confirmed",
-      "label": "Confirmed",
-      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
-      "news_label": "positive",
-      "market_label": "risk_on"
+      "status": "market_led",
+      "label": "Market-led",
+      "explanation": "News sentiment was neutral, while markets showed a clearer directional response.",
+      "news_label": "neutral",
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-10-07T19-35-00+00-00-4",
-        "title": "Fed\u2019s minutes show no appetite for a series of interest-rate hikes",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/fed-minutes-show-no-appetite-for-a-series-of-interest-rate-hikes-8b1c6436?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-10-09T01-12-34+00-00-5",
+        "title": "Shares slip as oil jumps and bond yields stay high",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/shares-slip-as-european-bond-bashing-rumbles-on-4938264",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9509264230728149,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 7,
+        "macro_buckets": [
+          "rates",
+          "energy"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-10-09T01-12-34+00-00-8",
+        "title": "US bonds rally after 30-year auction finds solid demand",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/us-bonds-fall-lifting-yields-for-2nd-day-as-oil-weighs-30year-auction-looms-4939491",
+        "confidence": "high",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.9232556819915771,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 7,
+        "macro_buckets": [
+          "rates",
+          "growth"
+        ],
+        "themes": [
+          "growth"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 2,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-10-09T01-12-34+00-00-7",
+        "title": "Fed\u2019s Musalem says tighter monetary policy needed to lower inflation",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/feds-musalem-says-lowering-inflation-will-require-more-rate-hikes-4939596",
         "confidence": "low",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.46407532691955566,
+        "sentiment_confidence": 0.5547153949737549,
         "summary_label": "positive-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "policy"
+          "policy",
+          "inflation"
         ],
         "themes": [
           "inflation",
@@ -110,41 +161,17 @@
         }
       },
       {
-        "doc_id": "www.marketwatch.com-2026-10-07T22-32-00+00-00-1",
-        "title": "Rising yields are quietly crashing the stock market\u2019s earlier winners of 2026",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
+        "doc_id": "www.investing.com-2026-10-09T01-12-34+00-00-2",
+        "title": "Exclusive-AI surveillance startup Flock Safety to cut several hundred jobs amid backlash, sources say",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/exclusiveai-surveillance-startup-flock-safety-to-cut-several-hundred-jobs-amid-backlash-sources-say-4940031",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9063648581504822,
+        "sentiment_confidence": 0.9697456359863281,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 5,
+        "macro_score": 4,
         "macro_buckets": [
-          "rates"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-10-07T20-58-00+00-00-2",
-        "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.4721396565437317,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "rates"
+          "labor"
         ],
         "themes": [
           "uncategorized"
@@ -160,84 +187,54 @@
     ],
     "bucket_views": [
       {
-        "name": "policy",
-        "label": "positive news sentiment",
-        "score": 1,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-10-07T19-35-00+00-00-4",
-            "title": "Fed\u2019s minutes show no appetite for a series of interest-rate hikes",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/fed-minutes-show-no-appetite-for-a-series-of-interest-rate-hikes-8b1c6436?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.46407532691955566,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
         "name": "rates",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "label": "positive news sentiment",
+        "score": 2,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-10-07T22-32-00+00-00-1",
-            "title": "Rising yields are quietly crashing the stock market\u2019s earlier winners of 2026",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-10-09T01-12-34+00-00-8",
+            "title": "US bonds rally after 30-year auction finds solid demand",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-bonds-fall-lifting-yields-for-2nd-day-as-oil-weighs-30year-auction-looms-4939491",
             "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9063648581504822,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 5,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9232556819915771,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
-              "rates"
+              "rates",
+              "growth"
             ],
             "themes": [
-              "uncategorized"
+              "growth"
             ],
             "scores": {
               "inflation": 0,
-              "growth": 0,
+              "growth": 2,
               "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.marketwatch.com-2026-10-07T20-58-00+00-00-2",
-            "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.4721396565437317,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 5,
+            "doc_id": "www.investing.com-2026-10-09T01-12-34+00-00-5",
+            "title": "Shares slip as oil jumps and bond yields stay high",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/shares-slip-as-european-bond-bashing-rumbles-on-4938264",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9509264230728149,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
-              "rates"
+              "rates",
+              "energy"
             ],
             "themes": [
-              "uncategorized"
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -2,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -245,220 +242,62 @@
             }
           }
         ]
-      }
-    ],
-    "debug_documents": []
-  },
-  {
-    "date": "2026-10-08",
-    "daily_brief": "2026-10-08: 4 unique articles were analyzed. News sentiment was negative. Top theme: uncategorized.",
-    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
-    "market_checks": [],
-    "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
-    ],
-    "market_snapshot": [
-      {
-        "symbol": "SPY",
-        "label": "US equities",
-        "return_1d": 0.55,
-        "return_5d": 1.95,
-        "close": 779.0900268554688
       },
       {
-        "symbol": "TLT",
-        "label": "Long-duration Treasuries",
-        "return_1d": 0.22,
-        "return_5d": -1.21,
-        "close": 77.27999877929688
-      },
-      {
-        "symbol": "UUP",
-        "label": "US dollar proxy",
-        "return_1d": -0.31,
-        "return_5d": 0.52,
-        "close": 28.899999618530273
-      },
-      {
-        "symbol": "USO",
-        "label": "Oil proxy",
-        "return_1d": 0.64,
-        "return_5d": 1.09,
-        "close": 144.91000366210938
-      },
-      {
-        "symbol": "HYG",
-        "label": "High yield credit",
-        "return_1d": 0.38,
-        "return_5d": -0.12,
-        "close": 77.2699966430664
-      },
-      {
-        "symbol": "GLD",
-        "label": "Gold",
-        "return_1d": 0.72,
-        "return_5d": -0.16,
-        "close": 382.2699890136719
-      }
-    ],
-    "news_sentiment": {
-      "label": "negative",
-      "score": -0.75,
-      "display_score": -0.75,
-      "unique_documents": 4,
-      "positive_pct": 0.0,
-      "neutral_pct": 25.0,
-      "negative_pct": 75.0,
-      "average_confidence": 0.899
-    },
-    "market_regime": {
-      "label": "risk_on",
-      "score": 0.5,
-      "signals_used": 4,
-      "signals_available": 4,
-      "contributions": {
-        "SPY": 0.4,
-        "HYG": 0.35,
-        "TLT": -0.15,
-        "GLD": -0.1
-      },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
-      "data_quality_status": "complete"
-    },
-    "confirmation": {
-      "status": "divergent",
-      "label": "Divergent",
-      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
-      "news_label": "negative",
-      "market_label": "risk_on"
-    },
-    "analyzed_coverage": [
-      {
-        "doc_id": "www.investing.com-2026-10-08T01-00-42+00-00-2",
-        "title": "World shares, euro slide as high oil prices, fiscal worries linger",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/asia-shares-weaker-oil-up-investors-weigh-saudihouthi-escalation-4935555",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9375714063644409,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "inflation",
-          "energy",
-          "fx"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-08T01-00-42+00-00-6",
-        "title": "Fed policymakers divided over rate-hike logic in September, minutes show",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/fed-policymakers-divided-over-ratehike-logic-in-september-minutes-show-4937320",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8256892561912537,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-08T01-00-42+00-00-3",
-        "title": "Wall Street ends lower, off record highs, as Treasury yields climb",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/wall-st-futures-slip-as-yields-and-oil-rebound-fed-minutes-in-focus-4936151",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9664444327354431,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "rates"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-08T01-00-42+00-00-10",
-        "title": "Trading Day: Stocks, bonds in delicate dance",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/trading-day-stocks-bonds-in-delicate-dance-4937564",
-        "confidence": "high",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8679186105728149,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "rates"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      }
-    ],
-    "bucket_views": [
-      {
-        "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -2,
+        "name": "growth",
+        "label": "positive news sentiment",
+        "score": 2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-08T01-00-42+00-00-2",
-            "title": "World shares, euro slide as high oil prices, fiscal worries linger",
+            "doc_id": "www.investing.com-2026-10-09T01-12-34+00-00-8",
+            "title": "US bonds rally after 30-year auction finds solid demand",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asia-shares-weaker-oil-up-investors-weigh-saudihouthi-escalation-4935555",
+            "url": "https://www.investing.com/news/economy-news/us-bonds-fall-lifting-yields-for-2nd-day-as-oil-weighs-30year-auction-looms-4939491",
             "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9375714063644409,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9232556819915771,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
-              "inflation",
-              "energy",
-              "fx"
+              "rates",
+              "growth"
             ],
             "themes": [
-              "inflation"
+              "growth"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 0,
+              "growth": 2,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "labor",
+        "label": "positive news sentiment",
+        "score": 2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-10-09T01-12-34+00-00-2",
+            "title": "Exclusive-AI surveillance startup Flock Safety to cut several hundred jobs amid backlash, sources say",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/exclusiveai-surveillance-startup-flock-safety-to-cut-several-hundred-jobs-amid-backlash-sources-say-4940031",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9697456359863281,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "labor"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -470,114 +309,27 @@
       {
         "name": "energy",
         "label": "negative news sentiment",
-        "score": -2,
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-08T01-00-42+00-00-2",
-            "title": "World shares, euro slide as high oil prices, fiscal worries linger",
+            "doc_id": "www.investing.com-2026-10-09T01-12-34+00-00-5",
+            "title": "Shares slip as oil jumps and bond yields stay high",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asia-shares-weaker-oil-up-investors-weigh-saudihouthi-escalation-4935555",
+            "url": "https://www.investing.com/news/economy-news/shares-slip-as-european-bond-bashing-rumbles-on-4938264",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9375714063644409,
+            "sentiment_confidence": 0.9509264230728149,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 7,
             "macro_buckets": [
-              "inflation",
-              "energy",
-              "fx"
+              "rates",
+              "energy"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
               "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "policy",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-10-08T01-00-42+00-00-6",
-            "title": "Fed policymakers divided over rate-hike logic in September, minutes show",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/fed-policymakers-divided-over-ratehike-logic-in-september-minutes-show-4937320",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8256892561912537,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-10-08T01-00-42+00-00-3",
-            "title": "Wall Street ends lower, off record highs, as Treasury yields climb",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/wall-st-futures-slip-as-yields-and-oil-rebound-fed-minutes-in-focus-4936151",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9664444327354431,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
-              "rates"
-            ],
-            "themes": [
-              "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-08T01-00-42+00-00-10",
-            "title": "Trading Day: Stocks, bonds in delicate dance",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/trading-day-stocks-bonds-in-delicate-dance-4937564",
-            "confidence": "high",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8679186105728149,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
-              "rates"
-            ],
-            "themes": [
-              "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
