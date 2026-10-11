@@ -1,30 +1,42 @@
 [
   {
-    "id": "www.investing.com-2026-10-10T00-47-02+00-00-4",
+    "id": "www.investing.com-2026-10-11T00-14-33+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-10T00:47:02+00:00",
-    "title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices",
+    "published_at": "2026-10-11T00:14:33+00:00",
+    "title": "Why are EU gas prices not higher already?",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/tech-stocks-struggle-on-ai-spending-worries-elevated-yields-4940101",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/why-are-eu-gas-prices-not-higher-already-4942043",
+    "macro_score": 6,
     "macro_buckets": [
       "inflation",
-      "rates",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-10T00-47-02+00-00-5",
+    "id": "www.marketwatch.com-2026-10-10T19-44-00+00-00-1",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-10-10T19:44:00+00:00",
+    "title": "Should I put my nest egg in a 30-year Treasury bond?",
+    "body": "Risk comes in many forms, even with \u201csafe\u201d investments.",
+    "url": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
+    "macro_score": 4,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-11T00-14-33+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-10T00:47:02+00:00",
-    "title": "Fed\u2019s Musalem says more rate hikes needed to reach 2% target",
+    "published_at": "2026-10-11T00:14:33+00:00",
+    "title": "China creates 10.52 million jobs, plans new AI and services employment measures",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-musalem-says-more-rate-hikes-needed-to-reach-2-target-93CH-4941624",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/china-creates-1052-million-jobs-plans-new-ai-and-services-employment-measures-4942031",
+    "macro_score": 4,
     "macro_buckets": [
-      "policy"
+      "labor"
     ]
   }
 ]
