@@ -85,7 +85,7 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-10-10T19-44-00+00-00-1",
+        "doc_id": "www.marketwatch.com-2026-10-10T19-44-00+00-00-9",
         "title": "Should I put my nest egg in a 30-year Treasury bond?",
         "source": "www.marketwatch.com",
         "url": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
@@ -116,7 +116,7 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-10-10T19-44-00+00-00-1",
+            "doc_id": "www.marketwatch.com-2026-10-10T19-44-00+00-00-9",
             "title": "Should I put my nest egg in a 30-year Treasury bond?",
             "source": "www.marketwatch.com",
             "url": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
@@ -146,7 +146,234 @@
   },
   {
     "date": "2026-10-11",
-    "daily_brief": "2026-10-11: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "daily_brief": "2026-10-11: 2 unique articles were analyzed. Top theme: liquidity. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.marketwatch.com/rss/topstories"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": 0.6,
+        "return_5d": 1.16,
+        "close": 778.5700073242188
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.14,
+        "return_5d": 0.65,
+        "close": 77.9800033569336
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.14,
+        "return_5d": 0.45,
+        "close": 29.020000457763672
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 0.42,
+        "return_5d": 0.56,
+        "close": 148.1999969482422
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": 0.12,
+        "return_5d": 0.42,
+        "close": 77.2300033569336
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": 1.57,
+        "return_5d": 1.17,
+        "close": 384.5799865722656
+      }
+    ],
+    "news_sentiment": {
+      "label": "insufficient_data",
+      "score": -0.5,
+      "display_score": -0.5,
+      "unique_documents": 2,
+      "positive_pct": 0.0,
+      "neutral_pct": 50.0,
+      "negative_pct": 50.0,
+      "average_confidence": 0.703
+    },
+    "market_regime": {
+      "label": "risk_on",
+      "score": 0.3,
+      "signals_used": 4,
+      "signals_available": 4,
+      "contributions": {
+        "SPY": 0.4,
+        "HYG": 0.0,
+        "TLT": 0.0,
+        "GLD": -0.1
+      },
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "data_quality_status": "complete"
+    },
+    "confirmation": {
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "risk_on"
+    },
+    "analyzed_coverage": [
+      {
+        "doc_id": "www.marketwatch.com-2026-10-11T12-00-00+00-00-8",
+        "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
+        "confidence": "low",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.5115100741386414,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 5,
+        "macro_buckets": [
+          "rates",
+          "growth"
+        ],
+        "themes": [
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": -1,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.marketwatch.com-2026-10-11T13-00-00+00-00-7",
+        "title": "The bull market is turning 4 years old \u2014 but yields could crash the party",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
+        "confidence": "high",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.8952449560165405,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "rates"
+        ],
+        "themes": [
+          "uncategorized"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-10-11T12-00-00+00-00-8",
+            "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.5115100741386414,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 5,
+            "macro_buckets": [
+              "rates",
+              "growth"
+            ],
+            "themes": [
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": -1,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.marketwatch.com-2026-10-11T13-00-00+00-00-7",
+            "title": "The bull market is turning 4 years old \u2014 but yields could crash the party",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
+            "confidence": "high",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.8952449560165405,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "rates"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-10-11T12-00-00+00-00-8",
+            "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.5115100741386414,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 5,
+            "macro_buckets": [
+              "rates",
+              "growth"
+            ],
+            "themes": [
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": -1,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-10-12",
+    "daily_brief": "2026-10-12: 1 unique articles were analyzed. Top theme: uncategorized. There was not enough coverage for a reliable daily sentiment read.",
     "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
     "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
@@ -199,13 +426,13 @@
     ],
     "news_sentiment": {
       "label": "insufficient_data",
-      "score": 0.5,
-      "display_score": 0.5,
-      "unique_documents": 2,
-      "positive_pct": 50.0,
-      "neutral_pct": 50.0,
+      "score": 0.0,
+      "display_score": 0.0,
+      "unique_documents": 1,
+      "positive_pct": 0.0,
+      "neutral_pct": 100.0,
       "negative_pct": 0.0,
-      "average_confidence": 0.641
+      "average_confidence": 0.861
     },
     "market_regime": {
       "label": "risk_on",
@@ -230,42 +457,17 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-10-11T00-14-33+00-00-8",
-        "title": "Why are EU gas prices not higher already?",
+        "doc_id": "www.investing.com-2026-10-12T00-31-23+00-00-3",
+        "title": "What the sell off in bonds means for monetary policy",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/why-are-eu-gas-prices-not-higher-already-4942043",
-        "confidence": "medium",
+        "url": "https://www.investing.com/news/economy-news/what-the-sell-off-in-bonds-means-for-monetary-policy-4942802",
+        "confidence": "high",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.735539972782135,
+        "sentiment_confidence": 0.8607476949691772,
         "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "inflation",
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-11T00-14-33+00-00-9",
-        "title": "China creates 10.52 million jobs, plans new AI and services employment measures",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/china-creates-1052-million-jobs-plans-new-ai-and-services-employment-measures-4942031",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.5457169413566589,
-        "summary_label": "positive-financial-sentiment",
         "macro_score": 4,
         "macro_buckets": [
-          "labor"
+          "rates"
         ],
         "themes": [
           "uncategorized"
@@ -281,86 +483,22 @@
     ],
     "bucket_views": [
       {
-        "name": "inflation",
+        "name": "rates",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-11T00-14-33+00-00-8",
-            "title": "Why are EU gas prices not higher already?",
+            "doc_id": "www.investing.com-2026-10-12T00-31-23+00-00-3",
+            "title": "What the sell off in bonds means for monetary policy",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/why-are-eu-gas-prices-not-higher-already-4942043",
-            "confidence": "medium",
+            "url": "https://www.investing.com/news/economy-news/what-the-sell-off-in-bonds-means-for-monetary-policy-4942802",
+            "confidence": "high",
             "sentiment_label": "neutral",
-            "sentiment_confidence": 0.735539972782135,
+            "sentiment_confidence": 0.8607476949691772,
             "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "energy",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-10-11T00-14-33+00-00-8",
-            "title": "Why are EU gas prices not higher already?",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/why-are-eu-gas-prices-not-higher-already-4942043",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.735539972782135,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "labor",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-10-11T00-14-33+00-00-9",
-            "title": "China creates 10.52 million jobs, plans new AI and services employment measures",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/china-creates-1052-million-jobs-plans-new-ai-and-services-employment-measures-4942031",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.5457169413566589,
-            "summary_label": "positive-financial-sentiment",
             "macro_score": 4,
             "macro_buckets": [
-              "labor"
+              "rates"
             ],
             "themes": [
               "uncategorized"

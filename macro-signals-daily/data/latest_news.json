@@ -1,20 +1,33 @@
 [
   {
-    "id": "www.investing.com-2026-10-11T00-14-33+00-00-8",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-11T00:14:33+00:00",
-    "title": "Why are EU gas prices not higher already?",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/why-are-eu-gas-prices-not-higher-already-4942043",
-    "macro_score": 6,
+    "id": "www.marketwatch.com-2026-10-11T12-00-00+00-00-8",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-10-11T12:00:00+00:00",
+    "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
+    "body": "The big banks kick off earnings season on Tuesday, to provide a first read on the health of the economy in a rising-yield environment.",
+    "url": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
+    "macro_score": 5,
     "macro_buckets": [
-      "inflation",
-      "energy"
+      "rates",
+      "growth"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-10-10T19-44-00+00-00-1",
+    "id": "www.marketwatch.com-2026-10-11T13-00-00+00-00-7",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-10-11T13:00:00+00:00",
+    "title": "The bull market is turning 4 years old \u2014 but yields could crash the party",
+    "body": "For four years, tech has been the answer to almost every question about this bull market.",
+    "url": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
+    "macro_score": 4,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-10-10T19-44-00+00-00-9",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
     "published_at": "2026-10-10T19:44:00+00:00",
@@ -27,16 +40,16 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-10-11T00-14-33+00-00-9",
+    "id": "www.investing.com-2026-10-12T00-31-23+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-11T00:14:33+00:00",
-    "title": "China creates 10.52 million jobs, plans new AI and services employment measures",
+    "published_at": "2026-10-12T00:31:23+00:00",
+    "title": "What the sell off in bonds means for monetary policy",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/china-creates-1052-million-jobs-plans-new-ai-and-services-employment-measures-4942031",
+    "url": "https://www.investing.com/news/economy-news/what-the-sell-off-in-bonds-means-for-monetary-policy-4942802",
     "macro_score": 4,
     "macro_buckets": [
-      "labor"
+      "rates"
     ]
   }
 ]
