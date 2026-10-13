@@ -1,55 +1,115 @@
 [
   {
-    "id": "www.marketwatch.com-2026-10-11T12-00-00+00-00-8",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-11T12:00:00+00:00",
-    "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
-    "body": "The big banks kick off earnings season on Tuesday, to provide a first read on the health of the economy in a rising-yield environment.",
-    "url": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
-    "macro_score": 5,
+    "id": "www.investing.com-2026-10-13T02-34-38+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-13T02:34:38+00:00",
+    "title": "Fed\u2019s Hammack: Hope to cool demand, and inflation, without job market pain",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-hammack-hope-to-cool-demand-and-inflation-without-job-market-pain-4945244",
+    "macro_score": 12,
     "macro_buckets": [
-      "rates",
+      "policy",
+      "inflation",
+      "labor",
       "growth"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-10-11T13-00-00+00-00-7",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-11T13:00:00+00:00",
-    "title": "The bull market is turning 4 years old \u2014 but yields could crash the party",
-    "body": "For four years, tech has been the answer to almost every question about this bull market.",
-    "url": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
-    "macro_score": 4,
-    "macro_buckets": [
-      "rates"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-10-10T19-44-00+00-00-9",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-10T19:44:00+00:00",
-    "title": "Should I put my nest egg in a 30-year Treasury bond?",
-    "body": "Risk comes in many forms, even with \u201csafe\u201d investments.",
-    "url": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
-    "macro_score": 4,
-    "macro_buckets": [
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-12T00-31-23+00-00-3",
+    "id": "www.investing.com-2026-10-13T02-34-38+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-12T00:31:23+00:00",
-    "title": "What the sell off in bonds means for monetary policy",
+    "published_at": "2026-10-13T02:34:38+00:00",
+    "title": "IMF sees higher energy prices and interest rates hitting UK growth",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/what-the-sell-off-in-bonds-means-for-monetary-policy-4942802",
+    "url": "https://www.investing.com/news/economy-news/imf-sees-higher-energy-prices-and-interest-rates-hitting-uk-growth-4945313",
+    "macro_score": 10,
+    "macro_buckets": [
+      "policy",
+      "inflation",
+      "growth",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-13T02-34-38+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-13T02:34:38+00:00",
+    "title": "Japan\u2019s wholesale inflation remains elevated, keeps alive BOJ rate-hike view",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/japans-wholesale-inflation-remains-elevated-keeps-alive-boj-ratehike-view-4945290",
+    "macro_score": 9,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-13T02-34-38+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-13T02:34:38+00:00",
+    "title": "IMF cuts Latin America, Caribbean growth forecasts on energy shock, little AI boost",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/imf-cuts-latin-america-caribbean-growth-forecasts-on-energy-shock-little-ai-boost-4945315",
+    "macro_score": 6,
+    "macro_buckets": [
+      "growth",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-13T02-34-38+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-13T02:34:38+00:00",
+    "title": "IMF expects gradual BOJ rate hike towards neutral setting",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/imf-expects-gradual-boj-rate-hike-towards-neutral-setting-4945314",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-10-13T02-00-00+00-00-1",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-10-13T02:00:00+00:00",
+    "title": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.",
+    "body": "IMF sees a split global economy, with countries less exposed to the oil shock and benefiting from AI demand pulling ahead",
+    "url": "https://www.marketwatch.com/story/the-global-economy-is-starting-to-look-k-shaped-here-are-the-winners-and-losers-and-where-the-u-s-fits-4ad93ea7?mod=mw_rss_topstories",
+    "macro_score": 4,
+    "macro_buckets": [
+      "growth"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-13T02-34-38+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-13T02:34:38+00:00",
+    "title": "Analysis-US yield surge triggers mortgage hedging, adds to bond market pressure",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/analysisus-yield-surge-triggers-mortgage-hedging-adds-to-bond-market-pressure-4944828",
     "macro_score": 4,
     "macro_buckets": [
       "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-13T02-34-38+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-13T02:34:38+00:00",
+    "title": "RBA minutes signal further rate hikes as inflation risks intensify",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/rba-minutes-signal-further-rate-hikes-as-inflation-risks-intensify-4945291",
+    "macro_score": 4,
+    "macro_buckets": [
+      "policy",
+      "inflation"
     ]
   }
 ]
