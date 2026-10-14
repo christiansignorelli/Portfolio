@@ -1,70 +1,84 @@
 [
   {
-    "id": "www.investing.com-2026-10-14T00-17-34+00-00-9",
+    "id": "www.investing.com-2026-10-14T23-55-07+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-14T00:17:34+00:00",
-    "title": "NY Fed\u2019s Williams sees one more rate hike this year, disinflation ahead",
+    "published_at": "2026-10-14T23:55:07+00:00",
+    "title": "Dollar gains, Wall Street stocks fall after hot inflation data",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/ny-feds-williams-sees-one-more-rate-hike-this-year-disinflation-ahead-4947377",
-    "macro_score": 11,
+    "url": "https://www.investing.com/news/economy-news/asia-shares-edge-up-as-chip-selloff-eases-us-cpi-awaited-4947869",
+    "macro_score": 8,
+    "macro_buckets": [
+      "inflation",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-14T23-55-07+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-14T23:55:07+00:00",
+    "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567",
+    "macro_score": 6,
     "macro_buckets": [
       "policy",
       "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-14T00-17-34+00-00-5",
+    "id": "www.investing.com-2026-10-14T23-55-07+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-14T00:17:34+00:00",
-    "title": "Fed\u2019s Collins sees another rate hike on the table before end of 2026",
+    "published_at": "2026-10-14T23:55:07+00:00",
+    "title": "Fed\u2019s Daly sees rate hikes ahead but signals no urgency for October - Reuters",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-collins-sees-another-rate-hike-on-the-table-before-end-of-2026-4947448",
+    "url": "https://www.investing.com/news/economy-news/feds-daly-sees-rate-hikes-ahead-but-signals-no-urgency-for-october--reuters-4950170",
     "macro_score": 6,
     "macro_buckets": [
       "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-14T00-17-34+00-00-6",
+    "id": "www.investing.com-2026-10-14T23-55-07+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-14T00:17:34+00:00",
-    "title": "Fed\u2019s Williams sees no need for rate hike in 2027, Bloomberg News reports",
+    "published_at": "2026-10-14T23:55:07+00:00",
+    "title": "Fed\u2019s Goolsbee says September CPI data was discouraging - Yahoo Finance",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-williams-currently-sees-no-need-for-rate-hike-in-2027-bloomberg-news-reports-4947379",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-14T00-17-34+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-14T00:17:34+00:00",
-    "title": "AI limiting European workers\u2019 bargaining power, ECB\u2019s Lane says",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/ai-limiting-european-workers-bargaining-power-ecbs-lane-says-4947381",
+    "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-september-cpi-data-was-discouraging--yahoo-finance-4949896",
     "macro_score": 6,
     "macro_buckets": [
       "policy",
-      "fx"
+      "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-14T00-17-34+00-00-8",
+    "id": "www.investing.com-2026-10-14T23-55-07+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-14T00:17:34+00:00",
-    "title": "Major US banks post solid third quarter loan growth, but see more competition for deposits",
+    "published_at": "2026-10-14T23:55:07+00:00",
+    "title": "Bond trading weakens for US banks as interest rate volatility affects investors",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/major-us-banks-post-solid-third-quarter-loan-growth-but-see-more-competition-for-deposits-4947378",
+    "url": "https://www.investing.com/news/economy-news/bond-trading-weakens-for-us-banks-as-interest-rate-volatility-affects-investors-4949884",
     "macro_score": 6,
     "macro_buckets": [
-      "growth",
+      "rates",
       "liquidity"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-10-14T22-03-00+00-00-8",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-10-14T22:03:00+00:00",
+    "title": "CoreWeave\u2019s AI bonds tumble, raising red flags for the wider market",
+    "body": "CoreWeave\u2019s bonds issued a few months ago fell to 81 cents on the dollar earlier Wednesday, yielding more than 15%.",
+    "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+    "macro_score": 5,
+    "macro_buckets": [
+      "rates"
     ]
   }
 ]
