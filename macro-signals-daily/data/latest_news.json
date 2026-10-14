@@ -1,115 +1,70 @@
 [
   {
-    "id": "www.investing.com-2026-10-13T02-34-38+00-00-10",
+    "id": "www.investing.com-2026-10-14T00-17-34+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-13T02:34:38+00:00",
-    "title": "Fed\u2019s Hammack: Hope to cool demand, and inflation, without job market pain",
+    "published_at": "2026-10-14T00:17:34+00:00",
+    "title": "NY Fed\u2019s Williams sees one more rate hike this year, disinflation ahead",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-hammack-hope-to-cool-demand-and-inflation-without-job-market-pain-4945244",
-    "macro_score": 12,
-    "macro_buckets": [
-      "policy",
-      "inflation",
-      "labor",
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-13T02-34-38+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-13T02:34:38+00:00",
-    "title": "IMF sees higher energy prices and interest rates hitting UK growth",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/imf-sees-higher-energy-prices-and-interest-rates-hitting-uk-growth-4945313",
-    "macro_score": 10,
-    "macro_buckets": [
-      "policy",
-      "inflation",
-      "growth",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-13T02-34-38+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-13T02:34:38+00:00",
-    "title": "Japan\u2019s wholesale inflation remains elevated, keeps alive BOJ rate-hike view",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/japans-wholesale-inflation-remains-elevated-keeps-alive-boj-ratehike-view-4945290",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/ny-feds-williams-sees-one-more-rate-hike-this-year-disinflation-ahead-4947377",
+    "macro_score": 11,
     "macro_buckets": [
       "policy",
       "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-13T02-34-38+00-00-1",
+    "id": "www.investing.com-2026-10-14T00-17-34+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-13T02:34:38+00:00",
-    "title": "IMF cuts Latin America, Caribbean growth forecasts on energy shock, little AI boost",
+    "published_at": "2026-10-14T00:17:34+00:00",
+    "title": "Fed\u2019s Collins sees another rate hike on the table before end of 2026",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/imf-cuts-latin-america-caribbean-growth-forecasts-on-energy-shock-little-ai-boost-4945315",
-    "macro_score": 6,
-    "macro_buckets": [
-      "growth",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-13T02-34-38+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-13T02:34:38+00:00",
-    "title": "IMF expects gradual BOJ rate hike towards neutral setting",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/imf-expects-gradual-boj-rate-hike-towards-neutral-setting-4945314",
+    "url": "https://www.investing.com/news/economy-news/feds-collins-sees-another-rate-hike-on-the-table-before-end-of-2026-4947448",
     "macro_score": 6,
     "macro_buckets": [
       "policy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-10-13T02-00-00+00-00-1",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-13T02:00:00+00:00",
-    "title": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.",
-    "body": "IMF sees a split global economy, with countries less exposed to the oil shock and benefiting from AI demand pulling ahead",
-    "url": "https://www.marketwatch.com/story/the-global-economy-is-starting-to-look-k-shaped-here-are-the-winners-and-losers-and-where-the-u-s-fits-4ad93ea7?mod=mw_rss_topstories",
-    "macro_score": 4,
+    "id": "www.investing.com-2026-10-14T00-17-34+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-14T00:17:34+00:00",
+    "title": "Fed\u2019s Williams sees no need for rate hike in 2027, Bloomberg News reports",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-williams-currently-sees-no-need-for-rate-hike-in-2027-bloomberg-news-reports-4947379",
+    "macro_score": 6,
     "macro_buckets": [
-      "growth"
+      "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-13T02-34-38+00-00-7",
+    "id": "www.investing.com-2026-10-14T00-17-34+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-13T02:34:38+00:00",
-    "title": "Analysis-US yield surge triggers mortgage hedging, adds to bond market pressure",
+    "published_at": "2026-10-14T00:17:34+00:00",
+    "title": "AI limiting European workers\u2019 bargaining power, ECB\u2019s Lane says",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/analysisus-yield-surge-triggers-mortgage-hedging-adds-to-bond-market-pressure-4944828",
-    "macro_score": 4,
-    "macro_buckets": [
-      "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-13T02-34-38+00-00-8",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-13T02:34:38+00:00",
-    "title": "RBA minutes signal further rate hikes as inflation risks intensify",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/rba-minutes-signal-further-rate-hikes-as-inflation-risks-intensify-4945291",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/ai-limiting-european-workers-bargaining-power-ecbs-lane-says-4947381",
+    "macro_score": 6,
     "macro_buckets": [
       "policy",
-      "inflation"
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-14T00-17-34+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-14T00:17:34+00:00",
+    "title": "Major US banks post solid third quarter loan growth, but see more competition for deposits",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/major-us-banks-post-solid-third-quarter-loan-growth-but-see-more-competition-for-deposits-4947378",
+    "macro_score": 6,
+    "macro_buckets": [
+      "growth",
+      "liquidity"
     ]
   }
 ]

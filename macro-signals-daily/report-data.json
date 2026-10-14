@@ -1,13 +1,12 @@
 [
   {
-    "date": "2026-10-13",
-    "daily_brief": "2026-10-13: 8 unique articles were analyzed. News sentiment was positive. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Growth, Policy coverage showed a predominantly positive tone.",
+    "date": "2026-10-14",
+    "daily_brief": "2026-10-14: 5 unique articles were analyzed. News sentiment was positive. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Inflation, Growth coverage showed a predominantly positive tone.",
     "market_confirmation": "News sentiment had a directional bias, but the broader market response was mixed.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
@@ -55,13 +54,13 @@
     ],
     "news_sentiment": {
       "label": "positive",
-      "score": 0.25,
-      "display_score": 0.25,
-      "unique_documents": 8,
-      "positive_pct": 50.0,
-      "neutral_pct": 25.0,
-      "negative_pct": 25.0,
-      "average_confidence": 0.775
+      "score": 0.4,
+      "display_score": 0.4,
+      "unique_documents": 5,
+      "positive_pct": 60.0,
+      "neutral_pct": 20.0,
+      "negative_pct": 20.0,
+      "average_confidence": 0.688
     },
     "market_regime": {
       "label": "mixed",
@@ -86,82 +85,75 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-10",
-        "title": "Fed\u2019s Hammack: Hope to cool demand, and inflation, without job market pain",
+        "doc_id": "www.investing.com-2026-10-14T00-17-34+00-00-9",
+        "title": "NY Fed\u2019s Williams sees one more rate hike this year, disinflation ahead",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-hammack-hope-to-cool-demand-and-inflation-without-job-market-pain-4945244",
-        "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.6771536469459534,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 12,
-        "macro_buckets": [
-          "policy",
-          "inflation",
-          "labor",
-          "growth"
-        ],
-        "themes": [
-          "inflation",
-          "growth",
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-4",
-        "title": "IMF sees higher energy prices and interest rates hitting UK growth",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/imf-sees-higher-energy-prices-and-interest-rates-hitting-uk-growth-4945313",
+        "url": "https://www.investing.com/news/economy-news/ny-feds-williams-sees-one-more-rate-hike-this-year-disinflation-ahead-4947377",
         "confidence": "low",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.6376000046730042,
+        "sentiment_confidence": 0.5818884968757629,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 10,
+        "macro_score": 11,
         "macro_buckets": [
           "policy",
-          "inflation",
-          "growth",
-          "energy"
+          "inflation"
         ],
         "themes": [
           "inflation",
-          "growth",
           "policy"
         ],
         "scores": {
           "inflation": 1,
-          "growth": 1,
+          "growth": 0,
           "policy": 1,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-9",
-        "title": "Japan\u2019s wholesale inflation remains elevated, keeps alive BOJ rate-hike view",
+        "doc_id": "www.investing.com-2026-10-14T00-17-34+00-00-8",
+        "title": "Major US banks post solid third quarter loan growth, but see more competition for deposits",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/japans-wholesale-inflation-remains-elevated-keeps-alive-boj-ratehike-view-4945290",
+        "url": "https://www.investing.com/news/economy-news/major-us-banks-post-solid-third-quarter-loan-growth-but-see-more-competition-for-deposits-4947378",
         "confidence": "high",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.8924567699432373,
+        "sentiment_confidence": 0.9210867881774902,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
+        "macro_score": 6,
         "macro_buckets": [
-          "policy",
-          "inflation"
+          "growth",
+          "liquidity"
         ],
         "themes": [
-          "inflation"
+          "growth",
+          "liquidity"
         ],
         "scores": {
-          "inflation": 2,
+          "inflation": 0,
+          "growth": 2,
+          "policy": 0,
+          "liquidity": 2,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-10-14T00-17-34+00-00-6",
+        "title": "Fed\u2019s Williams sees no need for rate hike in 2027, Bloomberg News reports",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/feds-williams-currently-sees-no-need-for-rate-hike-in-2027-bloomberg-news-reports-4947379",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.7504958510398865,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -169,277 +161,117 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-1",
-        "title": "IMF cuts Latin America, Caribbean growth forecasts on energy shock, little AI boost",
+        "doc_id": "www.investing.com-2026-10-14T00-17-34+00-00-7",
+        "title": "AI limiting European workers\u2019 bargaining power, ECB\u2019s Lane says",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/imf-cuts-latin-america-caribbean-growth-forecasts-on-energy-shock-little-ai-boost-4945315",
+        "url": "https://www.investing.com/news/economy-news/ai-limiting-european-workers-bargaining-power-ecbs-lane-says-4947381",
         "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.7683186531066895,
+        "sentiment_confidence": 0.6652293801307678,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "growth",
-          "energy"
+          "policy",
+          "fx"
         ],
         "themes": [
-          "growth"
+          "policy"
         ],
         "scores": {
           "inflation": 0,
-          "growth": -1,
-          "policy": 0,
+          "growth": 0,
+          "policy": -1,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-3",
-        "title": "IMF expects gradual BOJ rate hike towards neutral setting",
+        "doc_id": "www.investing.com-2026-10-14T00-17-34+00-00-5",
+        "title": "Fed\u2019s Collins sees another rate hike on the table before end of 2026",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/imf-expects-gradual-boj-rate-hike-towards-neutral-setting-4945314",
-        "confidence": "medium",
+        "url": "https://www.investing.com/news/economy-news/feds-collins-sees-another-rate-hike-on-the-table-before-end-of-2026-4947448",
+        "confidence": "low",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.7598972320556641,
+        "sentiment_confidence": 0.5204423666000366,
         "summary_label": "positive-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
           "policy"
         ],
         "themes": [
-          "uncategorized"
+          "policy"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": 0,
+          "policy": 1,
           "liquidity": 0,
           "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-7",
-        "title": "Analysis-US yield surge triggers mortgage hedging, adds to bond market pressure",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/analysisus-yield-surge-triggers-mortgage-hedging-adds-to-bond-market-pressure-4944828",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9420282244682312,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "rates"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-10-13T02-00-00+00-00-1",
-        "title": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/the-global-economy-is-starting-to-look-k-shaped-here-are-the-winners-and-losers-and-where-the-u-s-fits-4ad93ea7?mod=mw_rss_topstories",
-        "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.764695942401886,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "growth"
-        ],
-        "themes": [
-          "inflation",
-          "growth"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-8",
-        "title": "RBA minutes signal further rate hikes as inflation risks intensify",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/rba-minutes-signal-further-rate-hikes-as-inflation-risks-intensify-4945291",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.7569541931152344,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "policy",
-          "inflation"
-        ],
-        "themes": [
-          "inflation",
-          "risk"
-        ],
-        "scores": {
-          "inflation": 1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 1
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "inflation",
+        "name": "growth",
         "label": "positive news sentiment",
-        "score": 4,
+        "score": 2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-10",
-            "title": "Fed\u2019s Hammack: Hope to cool demand, and inflation, without job market pain",
+            "doc_id": "www.investing.com-2026-10-14T00-17-34+00-00-8",
+            "title": "Major US banks post solid third quarter loan growth, but see more competition for deposits",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-hammack-hope-to-cool-demand-and-inflation-without-job-market-pain-4945244",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.6771536469459534,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 12,
+            "url": "https://www.investing.com/news/economy-news/major-us-banks-post-solid-third-quarter-loan-growth-but-see-more-competition-for-deposits-4947378",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9210867881774902,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
-              "policy",
-              "inflation",
-              "labor",
-              "growth"
+              "growth",
+              "liquidity"
             ],
             "themes": [
-              "inflation",
               "growth",
-              "policy"
+              "liquidity"
             ],
             "scores": {
               "inflation": 0,
-              "growth": 0,
+              "growth": 2,
               "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-4",
-            "title": "IMF sees higher energy prices and interest rates hitting UK growth",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/imf-sees-higher-energy-prices-and-interest-rates-hitting-uk-growth-4945313",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.6376000046730042,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "growth",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 1,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-9",
-            "title": "Japan\u2019s wholesale inflation remains elevated, keeps alive BOJ rate-hike view",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/japans-wholesale-inflation-remains-elevated-keeps-alive-boj-ratehike-view-4945290",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8924567699432373,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
+              "liquidity": 2,
               "risk": 0
             }
           }
         ]
       },
       {
-        "name": "energy",
+        "name": "liquidity",
         "label": "positive news sentiment",
-        "score": 4,
+        "score": 2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-4",
-            "title": "IMF sees higher energy prices and interest rates hitting UK growth",
+            "doc_id": "www.investing.com-2026-10-14T00-17-34+00-00-8",
+            "title": "Major US banks post solid third quarter loan growth, but see more competition for deposits",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/imf-sees-higher-energy-prices-and-interest-rates-hitting-uk-growth-4945313",
-            "confidence": "low",
+            "url": "https://www.investing.com/news/economy-news/major-us-banks-post-solid-third-quarter-loan-growth-but-see-more-competition-for-deposits-4947378",
+            "confidence": "high",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.6376000046730042,
+            "sentiment_confidence": 0.9210867881774902,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 10,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "growth",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 1,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-1",
-            "title": "IMF cuts Latin America, Caribbean growth forecasts on energy shock, little AI boost",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/imf-cuts-latin-america-caribbean-growth-forecasts-on-energy-shock-little-ai-boost-4945315",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7683186531066895,
-            "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
               "growth",
-              "energy"
+              "liquidity"
             ],
             "themes": [
-              "growth"
+              "growth",
+              "liquidity"
             ],
             "scores": {
               "inflation": 0,
-              "growth": -1,
+              "growth": 2,
               "policy": 0,
-              "liquidity": 0,
+              "liquidity": 2,
               "risk": 0
             }
           }
@@ -451,24 +283,45 @@
         "score": 1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-10",
-            "title": "Fed\u2019s Hammack: Hope to cool demand, and inflation, without job market pain",
+            "doc_id": "www.investing.com-2026-10-14T00-17-34+00-00-9",
+            "title": "NY Fed\u2019s Williams sees one more rate hike this year, disinflation ahead",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-hammack-hope-to-cool-demand-and-inflation-without-job-market-pain-4945244",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.6771536469459534,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 12,
+            "url": "https://www.investing.com/news/economy-news/ny-feds-williams-sees-one-more-rate-hike-this-year-disinflation-ahead-4947377",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.5818884968757629,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 11,
             "macro_buckets": [
               "policy",
-              "inflation",
-              "labor",
-              "growth"
+              "inflation"
             ],
             "themes": [
               "inflation",
-              "growth",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-10-14T00-17-34+00-00-6",
+            "title": "Fed\u2019s Williams sees no need for rate hike in 2027, Bloomberg News reports",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/feds-williams-currently-sees-no-need-for-rate-hike-in-2027-bloomberg-news-reports-4947379",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7504958510398865,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
               "policy"
             ],
             "scores": {
@@ -480,55 +333,25 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-4",
-            "title": "IMF sees higher energy prices and interest rates hitting UK growth",
+            "doc_id": "www.investing.com-2026-10-14T00-17-34+00-00-5",
+            "title": "Fed\u2019s Collins sees another rate hike on the table before end of 2026",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/imf-sees-higher-energy-prices-and-interest-rates-hitting-uk-growth-4945313",
+            "url": "https://www.investing.com/news/economy-news/feds-collins-sees-another-rate-hike-on-the-table-before-end-of-2026-4947448",
             "confidence": "low",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.6376000046730042,
+            "sentiment_confidence": 0.5204423666000366,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 10,
+            "macro_score": 6,
             "macro_buckets": [
-              "policy",
-              "inflation",
-              "growth",
-              "energy"
+              "policy"
             ],
             "themes": [
-              "inflation",
-              "growth",
               "policy"
             ],
             "scores": {
-              "inflation": 1,
-              "growth": 1,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-9",
-            "title": "Japan\u2019s wholesale inflation remains elevated, keeps alive BOJ rate-hike view",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/japans-wholesale-inflation-remains-elevated-keeps-alive-boj-ratehike-view-4945290",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8924567699432373,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 2,
+              "inflation": 0,
               "growth": 0,
-              "policy": 0,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
@@ -536,89 +359,32 @@
         ]
       },
       {
-        "name": "growth",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "name": "inflation",
+        "label": "positive news sentiment",
+        "score": 1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-10",
-            "title": "Fed\u2019s Hammack: Hope to cool demand, and inflation, without job market pain",
+            "doc_id": "www.investing.com-2026-10-14T00-17-34+00-00-9",
+            "title": "NY Fed\u2019s Williams sees one more rate hike this year, disinflation ahead",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-hammack-hope-to-cool-demand-and-inflation-without-job-market-pain-4945244",
-            "confidence": "medium",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.6771536469459534,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 12,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "labor",
-              "growth"
-            ],
-            "themes": [
-              "inflation",
-              "growth",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-4",
-            "title": "IMF sees higher energy prices and interest rates hitting UK growth",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/imf-sees-higher-energy-prices-and-interest-rates-hitting-uk-growth-4945313",
+            "url": "https://www.investing.com/news/economy-news/ny-feds-williams-sees-one-more-rate-hike-this-year-disinflation-ahead-4947377",
             "confidence": "low",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.6376000046730042,
+            "sentiment_confidence": 0.5818884968757629,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 10,
+            "macro_score": 11,
             "macro_buckets": [
               "policy",
-              "inflation",
-              "growth",
-              "energy"
+              "inflation"
             ],
             "themes": [
               "inflation",
-              "growth",
               "policy"
             ],
             "scores": {
               "inflation": 1,
-              "growth": 1,
+              "growth": 0,
               "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-13T02-34-38+00-00-1",
-            "title": "IMF cuts Latin America, Caribbean growth forecasts on energy shock, little AI boost",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/imf-cuts-latin-america-caribbean-growth-forecasts-on-energy-shock-little-ai-boost-4945315",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7683186531066895,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "growth",
-              "energy"
-            ],
-            "themes": [
-              "growth"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": -1,
-              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
