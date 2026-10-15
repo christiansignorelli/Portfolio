@@ -1,109 +1,109 @@
 [
   {
-    "date": "2026-10-14",
-    "daily_brief": "2026-10-14: 6 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy, Liquidity coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+    "date": "2026-10-15",
+    "daily_brief": "2026-10-15: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -1.08,
-        "return_5d": -0.98,
-        "close": 769.5999755859375
+        "return_1d": 0.28,
+        "return_5d": -0.28,
+        "close": 771.7899780273438
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.66,
-        "return_5d": 2.26,
-        "close": 78.88999938964844
+        "return_1d": 1.37,
+        "return_5d": 2.7,
+        "close": 79.97000122070312
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.34,
-        "return_5d": 0.28,
-        "close": 29.1200008392334
+        "return_1d": -0.41,
+        "return_5d": 0.07,
+        "close": 29.0
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 0.31,
-        "return_5d": 6.71,
-        "close": 153.55999755859375
+        "return_1d": 2.44,
+        "return_5d": 6.59,
+        "close": 157.30999755859375
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.36,
-        "return_5d": -0.48,
-        "close": 76.80999755859375
+        "return_1d": 0.42,
+        "return_5d": -0.01,
+        "close": 77.12999725341797
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -1.49,
-        "return_5d": 0.03,
-        "close": 375.989990234375
+        "return_1d": 1.79,
+        "return_5d": 1.08,
+        "close": 382.7099914550781
       }
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -0.8333333333333334,
-      "display_score": -0.83,
-      "unique_documents": 6,
-      "positive_pct": 0.0,
-      "neutral_pct": 16.7,
-      "negative_pct": 83.3,
-      "average_confidence": 0.861
+      "score": -0.5,
+      "display_score": -0.5,
+      "unique_documents": 4,
+      "positive_pct": 25.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 75.0,
+      "average_confidence": 0.851
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.8,
+      "label": "risk_on",
+      "score": 0.5,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
-        "HYG": -0.35,
+        "SPY": 0.4,
+        "HYG": 0.35,
         "TLT": -0.15,
-        "GLD": 0.1
+        "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "confirmed",
-      "label": "Confirmed",
-      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+      "status": "divergent",
+      "label": "Divergent",
+      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
       "news_label": "negative",
-      "market_label": "risk_off"
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-10-14T23-55-07+00-00-3",
-        "title": "Dollar gains, Wall Street stocks fall after hot inflation data",
+        "doc_id": "www.investing.com-2026-10-15T23-40-42+00-00-6",
+        "title": "Dollar recedes from 18-month high as bond rally tempers impact of hot inflation data",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/asia-shares-edge-up-as-chip-selloff-eases-us-cpi-awaited-4947869",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9484662413597107,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 8,
+        "url": "https://www.investing.com/news/economy-news/dollar-retreats-from-18month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-4950378",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.6201175451278687,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 11,
         "macro_buckets": [
           "inflation",
+          "rates",
           "fx"
         ],
         "themes": [
           "inflation"
         ],
         "scores": {
-          "inflation": -2,
+          "inflation": 1,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -111,63 +111,37 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-10-14T23-55-07+00-00-10",
-        "title": "Bond trading weakens for US banks as interest rate volatility affects investors",
+        "doc_id": "www.investing.com-2026-10-15T23-40-42+00-00-7",
+        "title": "Canadian government bond yields slide as yield curve flattens",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/bond-trading-weakens-for-us-banks-as-interest-rate-volatility-affects-investors-4949884",
+        "url": "https://www.investing.com/news/economy-news/canadian-government-bond-yields-slide-as-yield-curve-flattens-4952615",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9625386595726013,
+        "sentiment_confidence": 0.9628957509994507,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "rates",
-          "liquidity"
+          "rates"
         ],
         "themes": [
-          "liquidity"
+          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
           "policy": 0,
-          "liquidity": -2,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-14T23-55-07+00-00-1",
-        "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9621061086654663,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy",
-          "inflation"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-10-14T23-55-07+00-00-6",
-        "title": "Fed\u2019s Goolsbee says September CPI data was discouraging - Yahoo Finance",
+        "doc_id": "www.investing.com-2026-10-15T23-40-42+00-00-2",
+        "title": "Fed\u2019s Hammack warns inflation expectations deterioration could require Fed response",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-september-cpi-data-was-discouraging--yahoo-finance-4949896",
-        "confidence": "medium",
+        "url": "https://www.investing.com/news/economy-news/feds-hammack-warns-inflation-expectations-deterioration-could-require-fed-response-4952736",
+        "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.7691008448600769,
+        "sentiment_confidence": 0.931373655796051,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
@@ -179,47 +153,23 @@
           "policy"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": -2,
           "growth": 0,
-          "policy": -1,
+          "policy": -2,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-10-14T23-55-07+00-00-4",
-        "title": "Fed\u2019s Daly sees rate hikes ahead but signals no urgency for October - Reuters",
+        "doc_id": "www.investing.com-2026-10-15T23-40-42+00-00-3",
+        "title": "U.S. 10-year Treasury yield sees worst day in over a year as bonds rally",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-daly-sees-rate-hikes-ahead-but-signals-no-urgency-for-october--reuters-4950170",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.5482431054115295,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-10-14T22-03-00+00-00-8",
-        "title": "CoreWeave\u2019s AI bonds tumble, raising red flags for the wider market",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+        "url": "https://www.investing.com/news/economy-news/us-treasury-yields-slide-after-cpidriven-spike-4950530",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.973591685295105,
+        "sentiment_confidence": 0.8889132142066956,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 5,
+        "macro_score": 6,
         "macro_buckets": [
           "rates"
         ],
@@ -237,29 +187,63 @@
     ],
     "bucket_views": [
       {
-        "name": "inflation",
+        "name": "policy",
         "label": "negative news sentiment",
-        "score": -5,
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-14T23-55-07+00-00-3",
-            "title": "Dollar gains, Wall Street stocks fall after hot inflation data",
+            "doc_id": "www.investing.com-2026-10-15T23-40-42+00-00-2",
+            "title": "Fed\u2019s Hammack warns inflation expectations deterioration could require Fed response",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asia-shares-edge-up-as-chip-selloff-eases-us-cpi-awaited-4947869",
+            "url": "https://www.investing.com/news/economy-news/feds-hammack-warns-inflation-expectations-deterioration-could-require-fed-response-4952736",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9484662413597107,
+            "sentiment_confidence": 0.931373655796051,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "negative news sentiment",
+        "score": -1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-10-15T23-40-42+00-00-6",
+            "title": "Dollar recedes from 18-month high as bond rally tempers impact of hot inflation data",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-retreats-from-18month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-4950378",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.6201175451278687,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 11,
             "macro_buckets": [
               "inflation",
+              "rates",
               "fx"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": -2,
+              "inflation": 1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -267,38 +251,13 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-10-14T23-55-07+00-00-1",
-            "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+            "doc_id": "www.investing.com-2026-10-15T23-40-42+00-00-2",
+            "title": "Fed\u2019s Hammack warns inflation expectations deterioration could require Fed response",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567",
+            "url": "https://www.investing.com/news/economy-news/feds-hammack-warns-inflation-expectations-deterioration-could-require-fed-response-4952736",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9621061086654663,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-14T23-55-07+00-00-6",
-            "title": "Fed\u2019s Goolsbee says September CPI data was discouraging - Yahoo Finance",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-september-cpi-data-was-discouraging--yahoo-finance-4949896",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7691008448600769,
+            "sentiment_confidence": 0.931373655796051,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
@@ -310,123 +269,9 @@
               "policy"
             ],
             "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "liquidity",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-10-14T23-55-07+00-00-10",
-            "title": "Bond trading weakens for US banks as interest rate volatility affects investors",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bond-trading-weakens-for-us-banks-as-interest-rate-volatility-affects-investors-4949884",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9625386595726013,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "rates",
-              "liquidity"
-            ],
-            "themes": [
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": -2,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "policy",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-10-14T23-55-07+00-00-1",
-            "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9621061086654663,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
               "inflation": -2,
               "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-14T23-55-07+00-00-6",
-            "title": "Fed\u2019s Goolsbee says September CPI data was discouraging - Yahoo Finance",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-september-cpi-data-was-discouraging--yahoo-finance-4949896",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7691008448600769,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-14T23-55-07+00-00-4",
-            "title": "Fed\u2019s Daly sees rate hikes ahead but signals no urgency for October - Reuters",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-daly-sees-rate-hikes-ahead-but-signals-no-urgency-for-october--reuters-4950170",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.5482431054115295,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
+              "policy": -2,
               "liquidity": 0,
               "risk": 0
             }
@@ -439,40 +284,41 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-14T23-55-07+00-00-10",
-            "title": "Bond trading weakens for US banks as interest rate volatility affects investors",
+            "doc_id": "www.investing.com-2026-10-15T23-40-42+00-00-6",
+            "title": "Dollar recedes from 18-month high as bond rally tempers impact of hot inflation data",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bond-trading-weakens-for-us-banks-as-interest-rate-volatility-affects-investors-4949884",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9625386595726013,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "url": "https://www.investing.com/news/economy-news/dollar-retreats-from-18month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-4950378",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.6201175451278687,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 11,
             "macro_buckets": [
+              "inflation",
               "rates",
-              "liquidity"
+              "fx"
             ],
             "themes": [
-              "liquidity"
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": 1,
               "growth": 0,
               "policy": 0,
-              "liquidity": -2,
+              "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.marketwatch.com-2026-10-14T22-03-00+00-00-8",
-            "title": "CoreWeave\u2019s AI bonds tumble, raising red flags for the wider market",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+            "doc_id": "www.investing.com-2026-10-15T23-40-42+00-00-3",
+            "title": "U.S. 10-year Treasury yield sees worst day in over a year as bonds rally",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/us-treasury-yields-slide-after-cpidriven-spike-4950530",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.973591685295105,
+            "sentiment_confidence": 0.8889132142066956,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 5,
+            "macro_score": 6,
             "macro_buckets": [
               "rates"
             ],
@@ -481,6 +327,63 @@
             ],
             "scores": {
               "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-10-15T23-40-42+00-00-7",
+            "title": "Canadian government bond yields slide as yield curve flattens",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/canadian-government-bond-yields-slide-as-yield-curve-flattens-4952615",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9628957509994507,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "rates"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-10-15T23-40-42+00-00-6",
+            "title": "Dollar recedes from 18-month high as bond rally tempers impact of hot inflation data",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-retreats-from-18month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-4950378",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.6201175451278687,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 11,
+            "macro_buckets": [
+              "inflation",
+              "rates",
+              "fx"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
