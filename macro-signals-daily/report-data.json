@@ -1,13 +1,12 @@
 [
   {
-    "date": "2026-10-17",
-    "daily_brief": "2026-10-17: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy, Liquidity coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+    "date": "2026-10-18",
+    "daily_brief": "2026-10-18: 1 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
@@ -54,14 +53,14 @@
       }
     ],
     "news_sentiment": {
-      "label": "negative",
-      "score": -0.25,
-      "display_score": -0.25,
-      "unique_documents": 4,
-      "positive_pct": 25.0,
-      "neutral_pct": 25.0,
-      "negative_pct": 50.0,
-      "average_confidence": 0.857
+      "label": "insufficient_data",
+      "score": 0.0,
+      "display_score": 0.0,
+      "unique_documents": 1,
+      "positive_pct": 0.0,
+      "neutral_pct": 100.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.398
     },
     "market_regime": {
       "label": "risk_off",
@@ -78,106 +77,29 @@
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "confirmed",
-      "label": "Confirmed",
-      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
-      "news_label": "negative",
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
       "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-10-17T23-06-39+00-00-8",
-        "title": "ECB\u2019s Lagarde says bond selloff will slow inflation",
+        "doc_id": "www.investing.com-2026-10-18T23-07-54+00-00-1",
+        "title": "BOJ may need to tighten faster if inflation beats forecast, IMF says",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-bond-selloff-will-slow-inflation-4955322",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9279761910438538,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "policy",
-          "inflation",
-          "rates"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": -2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-10-17T12-30-00+00-00-8",
-        "title": "Silver\u2019s recent 50% drop from a record high hints that an economic slowdown looms",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.968356728553772,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "growth"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-17T23-06-39+00-00-3",
-        "title": "Bank of Canada sees sharply higher inflation outlook as oil surges, Macklem says",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/bank-of-canada-sees-sharply-higher-inflation-outlook-as-oil-surges-macklem-says-4955437",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.6570291519165039,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "inflation",
-          "energy"
-        ],
-        "themes": [
-          "inflation",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 1,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-17T23-06-39+00-00-1",
-        "title": "Citi says interest rates may matter more for economy than stock valuations",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/citi-says-interest-rates-may-matter-more-for-economy-than-stock-valuations-4955545",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/boj-may-need-to-tighten-faster-if-inflation-beats-forecast-imf-says-4956113",
+        "confidence": "low",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8742550015449524,
+        "sentiment_confidence": 0.39796194434165955,
         "summary_label": "neutral-financial-sentiment",
-        "macro_score": 4,
+        "macro_score": 6,
         "macro_buckets": [
           "policy",
-          "growth"
+          "inflation"
         ],
         "themes": [
-          "policy"
+          "inflation"
         ],
         "scores": {
           "inflation": 0,
@@ -191,52 +113,25 @@
     "bucket_views": [
       {
         "name": "policy",
-        "label": "negative news sentiment",
-        "score": -2,
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-17T23-06-39+00-00-8",
-            "title": "ECB\u2019s Lagarde says bond selloff will slow inflation",
+            "doc_id": "www.investing.com-2026-10-18T23-07-54+00-00-1",
+            "title": "BOJ may need to tighten faster if inflation beats forecast, IMF says",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-bond-selloff-will-slow-inflation-4955322",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9279761910438538,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "rates"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-17T23-06-39+00-00-1",
-            "title": "Citi says interest rates may matter more for economy than stock valuations",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/citi-says-interest-rates-may-matter-more-for-economy-than-stock-valuations-4955545",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/boj-may-need-to-tighten-faster-if-inflation-beats-forecast-imf-says-4956113",
+            "confidence": "low",
             "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8742550015449524,
+            "sentiment_confidence": 0.39796194434165955,
             "summary_label": "neutral-financial-sentiment",
-            "macro_score": 4,
+            "macro_score": 6,
             "macro_buckets": [
               "policy",
-              "growth"
+              "inflation"
             ],
             "themes": [
-              "policy"
+              "inflation"
             ],
             "scores": {
               "inflation": 0,
@@ -250,142 +145,25 @@
       },
       {
         "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-10-17T23-06-39+00-00-8",
-            "title": "ECB\u2019s Lagarde says bond selloff will slow inflation",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-bond-selloff-will-slow-inflation-4955322",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9279761910438538,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "rates"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-17T23-06-39+00-00-3",
-            "title": "Bank of Canada sees sharply higher inflation outlook as oil surges, Macklem says",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bank-of-canada-sees-sharply-higher-inflation-outlook-as-oil-surges-macklem-says-4955437",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.6570291519165039,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 1,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "energy",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-10-17T23-06-39+00-00-3",
-            "title": "Bank of Canada sees sharply higher inflation outlook as oil surges, Macklem says",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bank-of-canada-sees-sharply-higher-inflation-outlook-as-oil-surges-macklem-says-4955437",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.6570291519165039,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 1,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "growth",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-10-17T12-30-00+00-00-8",
-            "title": "Silver\u2019s recent 50% drop from a record high hints that an economic slowdown looms",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.968356728553772,
-            "summary_label": "negative-financial-sentiment",
+            "doc_id": "www.investing.com-2026-10-18T23-07-54+00-00-1",
+            "title": "BOJ may need to tighten faster if inflation beats forecast, IMF says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/boj-may-need-to-tighten-faster-if-inflation-beats-forecast-imf-says-4956113",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.39796194434165955,
+            "summary_label": "neutral-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "growth"
-            ],
-            "themes": [
-              "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-17T23-06-39+00-00-1",
-            "title": "Citi says interest rates may matter more for economy than stock valuations",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/citi-says-interest-rates-may-matter-more-for-economy-than-stock-valuations-4955545",
-            "confidence": "high",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8742550015449524,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
               "policy",
-              "growth"
+              "inflation"
             ],
             "themes": [
-              "policy"
+              "inflation"
             ],
             "scores": {
               "inflation": 0,

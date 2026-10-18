@@ -1,58 +1,16 @@
 [
   {
-    "id": "www.investing.com-2026-10-17T23-06-39+00-00-8",
+    "id": "www.investing.com-2026-10-18T23-07-54+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-17T23:06:39+00:00",
-    "title": "ECB\u2019s Lagarde says bond selloff will slow inflation",
+    "published_at": "2026-10-18T23:07:54+00:00",
+    "title": "BOJ may need to tighten faster if inflation beats forecast, IMF says",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-bond-selloff-will-slow-inflation-4955322",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
-      "inflation",
-      "rates"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-10-17T12-30-00+00-00-8",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-17T12:30:00+00:00",
-    "title": "Silver\u2019s recent 50% drop from a record high hints that an economic slowdown looms",
-    "body": "There\u2019s a relatively off-the-radar commodity that can provide hints on where the economy is headed \u2014 and it\u2019s seen its value drop more than 50% from a record high earlier this year.",
-    "url": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
+    "url": "https://www.investing.com/news/economy-news/boj-may-need-to-tighten-faster-if-inflation-beats-forecast-imf-says-4956113",
     "macro_score": 6,
     "macro_buckets": [
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-17T23-06-39+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-17T23:06:39+00:00",
-    "title": "Bank of Canada sees sharply higher inflation outlook as oil surges, Macklem says",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/bank-of-canada-sees-sharply-higher-inflation-outlook-as-oil-surges-macklem-says-4955437",
-    "macro_score": 6,
-    "macro_buckets": [
-      "inflation",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-17T23-06-39+00-00-1",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-17T23:06:39+00:00",
-    "title": "Citi says interest rates may matter more for economy than stock valuations",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/citi-says-interest-rates-may-matter-more-for-economy-than-stock-valuations-4955545",
-    "macro_score": 4,
-    "macro_buckets": [
       "policy",
-      "growth"
+      "inflation"
     ]
   }
 ]
