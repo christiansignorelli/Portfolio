@@ -1,7 +1,189 @@
 [
   {
-    "date": "2026-10-18",
-    "daily_brief": "2026-10-18: 1 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "date": "2026-10-19",
+    "daily_brief": "2026-10-19: 1 unique articles were analyzed. Top theme: liquidity. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.marketwatch.com/rss/topstories"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": -1.11,
+        "return_5d": -1.97,
+        "close": 763.25
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.1,
+        "return_5d": 2.65,
+        "close": 80.05000305175781
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": -0.28,
+        "return_5d": -0.34,
+        "close": 28.920000076293945
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 2.83,
+        "return_5d": 9.15,
+        "close": 161.75999450683594
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": -0.35,
+        "return_5d": -0.48,
+        "close": 76.86000061035156
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": -0.18,
+        "return_5d": -0.67,
+        "close": 382.010009765625
+      }
+    ],
+    "news_sentiment": {
+      "label": "insufficient_data",
+      "score": -1.0,
+      "display_score": -1.0,
+      "unique_documents": 1,
+      "positive_pct": 0.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 100.0,
+      "average_confidence": 0.912
+    },
+    "market_regime": {
+      "label": "risk_off",
+      "score": -0.75,
+      "signals_used": 4,
+      "signals_available": 4,
+      "contributions": {
+        "SPY": -0.4,
+        "HYG": -0.35,
+        "TLT": 0.0,
+        "GLD": 0.0
+      },
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "data_quality_status": "complete"
+    },
+    "confirmation": {
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "risk_off"
+    },
+    "analyzed_coverage": [
+      {
+        "doc_id": "www.marketwatch.com-2026-10-19T21-36-00+00-00-3",
+        "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9118471145629883,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 10,
+        "macro_buckets": [
+          "rates",
+          "liquidity"
+        ],
+        "themes": [
+          "liquidity",
+          "risk"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": -2,
+          "risk": -2
+        }
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "liquidity",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-10-19T21-36-00+00-00-3",
+            "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9118471145629883,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 10,
+            "macro_buckets": [
+              "rates",
+              "liquidity"
+            ],
+            "themes": [
+              "liquidity",
+              "risk"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": -2,
+              "risk": -2
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-10-19T21-36-00+00-00-3",
+            "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9118471145629883,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 10,
+            "macro_buckets": [
+              "rates",
+              "liquidity"
+            ],
+            "themes": [
+              "liquidity",
+              "risk"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": -2,
+              "risk": -2
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-10-20",
+    "daily_brief": "2026-10-20: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
     "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
     "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
@@ -54,13 +236,13 @@
     ],
     "news_sentiment": {
       "label": "insufficient_data",
-      "score": 0.0,
-      "display_score": 0.0,
-      "unique_documents": 1,
+      "score": -1.0,
+      "display_score": -1.0,
+      "unique_documents": 2,
       "positive_pct": 0.0,
-      "neutral_pct": 100.0,
-      "negative_pct": 0.0,
-      "average_confidence": 0.398
+      "neutral_pct": 0.0,
+      "negative_pct": 100.0,
+      "average_confidence": 0.811
     },
     "market_regime": {
       "label": "risk_off",
@@ -85,26 +267,52 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-10-18T23-07-54+00-00-1",
-        "title": "BOJ may need to tighten faster if inflation beats forecast, IMF says",
+        "doc_id": "www.investing.com-2026-10-20T00-18-50+00-00-7",
+        "title": "TSX slips as hotter inflation revives rate concerns, oil prices retreat",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/boj-may-need-to-tighten-faster-if-inflation-beats-forecast-imf-says-4956113",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.39796194434165955,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
+        "url": "https://www.investing.com/news/economy-news/tsx-slips-as-hotter-inflation-revives-rate-concerns-oil-prices-retreat-4958049",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8096228837966919,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 9,
         "macro_buckets": [
-          "policy",
-          "inflation"
+          "inflation",
+          "energy"
         ],
         "themes": [
           "inflation"
         ],
         "scores": {
-          "inflation": 0,
+          "inflation": -1,
           "growth": 0,
           "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-10-20T00-18-50+00-00-4",
+        "title": "Fed sees AI boom adding to inflation headache, but others may pay for the medicine",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/fed-sees-ai-boom-adding-to-inflation-headache-but-others-may-pay-for-the-medicine-4956834",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8127077221870422,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": -1,
+          "growth": 0,
+          "policy": -1,
           "liquidity": 0,
           "risk": 0
         }
@@ -112,29 +320,87 @@
     ],
     "bucket_views": [
       {
-        "name": "policy",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "name": "inflation",
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-18T23-07-54+00-00-1",
-            "title": "BOJ may need to tighten faster if inflation beats forecast, IMF says",
+            "doc_id": "www.investing.com-2026-10-20T00-18-50+00-00-7",
+            "title": "TSX slips as hotter inflation revives rate concerns, oil prices retreat",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/boj-may-need-to-tighten-faster-if-inflation-beats-forecast-imf-says-4956113",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.39796194434165955,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
+            "url": "https://www.investing.com/news/economy-news/tsx-slips-as-hotter-inflation-revives-rate-concerns-oil-prices-retreat-4958049",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8096228837966919,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "inflation",
+              "energy"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -1,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-10-20T00-18-50+00-00-4",
+            "title": "Fed sees AI boom adding to inflation headache, but others may pay for the medicine",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/fed-sees-ai-boom-adding-to-inflation-headache-but-others-may-pay-for-the-medicine-4956834",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8127077221870422,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": -1,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-10-20T00-18-50+00-00-7",
+            "title": "TSX slips as hotter inflation revives rate concerns, oil prices retreat",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/tsx-slips-as-hotter-inflation-revives-rate-concerns-oil-prices-retreat-4958049",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8096228837966919,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -144,31 +410,32 @@
         ]
       },
       {
-        "name": "inflation",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "name": "policy",
+        "label": "negative news sentiment",
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-18T23-07-54+00-00-1",
-            "title": "BOJ may need to tighten faster if inflation beats forecast, IMF says",
+            "doc_id": "www.investing.com-2026-10-20T00-18-50+00-00-4",
+            "title": "Fed sees AI boom adding to inflation headache, but others may pay for the medicine",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/boj-may-need-to-tighten-faster-if-inflation-beats-forecast-imf-says-4956113",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.39796194434165955,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
+            "url": "https://www.investing.com/news/economy-news/fed-sees-ai-boom-adding-to-inflation-headache-but-others-may-pay-for-the-medicine-4956834",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8127077221870422,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 4,
             "macro_buckets": [
               "policy",
               "inflation"
             ],
             "themes": [
-              "inflation"
+              "inflation",
+              "policy"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -1,
               "growth": 0,
-              "policy": 0,
+              "policy": -1,
               "liquidity": 0,
               "risk": 0
             }
