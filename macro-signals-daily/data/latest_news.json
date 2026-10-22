@@ -1,43 +1,58 @@
 [
   {
-    "id": "www.marketwatch.com-2026-10-21T21-14-00+00-00-5",
+    "id": "www.marketwatch.com-2026-10-22T20-46-00+00-00-8",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-21T21:14:00+00:00",
-    "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
-    "body": "Oil flows out of the Persian Gulf in October nearly returned to levels seen before the start of the Iran war, but traders remain wary about a fragile recovery.",
-    "url": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
-    "macro_score": 9,
+    "published_at": "2026-10-22T20:46:00+00:00",
+    "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+    "body": "Wall Street may be starting to price in the scenario everyone fears: a full-scale regional conflict that could further choke off global energy supplies and unleash a fresh wave of turmoil across financial markets.",
+    "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
+    "macro_score": 12,
     "macro_buckets": [
+      "policy",
       "inflation",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-22T00-00-34+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-22T00:00:34+00:00",
-    "title": "Dollar dips as traders wait on Fed; Aussie gains",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-on-back-foot-as-us-yields-crude-prices-dip-aussie-buoyed-by-hawkish-rba-4961462",
-    "macro_score": 6,
+    "id": "www.marketwatch.com-2026-10-22T22-07-00+00-00-5",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-10-22T22:07:00+00:00",
+    "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here\u2019s what\u2019s going on.",
+    "body": "\u2018It\u2019s a take-back trade,\u2019 says PGIM\u2019s Tipp. \u2018Not an all-out fear of recession type of situation.\u2019",
+    "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
+    "macro_score": 7,
     "macro_buckets": [
-      "policy",
-      "fx"
+      "rates",
+      "liquidity"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-22T00-00-34+00-00-2",
+    "id": "www.investing.com-2026-10-22T23-59-32+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-22T00:00:34+00:00",
-    "title": "Stocks rise on AI-led earnings, France\u2019s 10-year bond yield hits 5%",
+    "published_at": "2026-10-22T23:59:32+00:00",
+    "title": "Turkey\u2019s central bank cuts key rate to 36% from 37%",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/asian-stocks-climb-as-strong-earnings-buoy-wall-street-4961492",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/turkeys-central-bank-cuts-key-rate-to-36-from-37-93CH-4967221",
+    "macro_score": 6,
     "macro_buckets": [
-      "rates"
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-22T23-59-32+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-22T23:59:32+00:00",
+    "title": "Yen jumps as oil, AI and France worries rattle markets",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/dip-in-the-dollar-takes-a-breather-with-fed-in-focus-4964546",
+    "macro_score": 6,
+    "macro_buckets": [
+      "energy",
+      "fx"
     ]
   }
 ]
