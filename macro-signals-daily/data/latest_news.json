@@ -1,43 +1,43 @@
 [
   {
-    "id": "www.investing.com-2026-10-20T23-51-33+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-20T23:51:33+00:00",
-    "title": "Stocks mostly rise as oil, US yields ease; French stocks fall",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/asian-shares-tumble-oil-rises-as-markets-await-ai-sector-results-4958677",
-    "macro_score": 7,
+    "id": "www.marketwatch.com-2026-10-21T21-14-00+00-00-5",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-10-21T21:14:00+00:00",
+    "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
+    "body": "Oil flows out of the Persian Gulf in October nearly returned to levels seen before the start of the Iran war, but traders remain wary about a fragile recovery.",
+    "url": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
+    "macro_score": 9,
     "macro_buckets": [
-      "rates",
+      "inflation",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-20T23-51-33+00-00-2",
+    "id": "www.investing.com-2026-10-22T00-00-34+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-20T23:51:33+00:00",
-    "title": "BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll",
+    "published_at": "2026-10-22T00:00:34+00:00",
+    "title": "Dollar dips as traders wait on Fed; Aussie gains",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/boj-to-raise-rates-to-150-in-december-sticking-to-quarterly-pace-reuters-poll-4961275",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-20T23-51-33+00-00-3",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-20T23:51:33+00:00",
-    "title": "Australia central banker says policy working, inflation outlook worse",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/australia-central-banker-says-policy-working-inflation-outlook-worse-4961287",
+    "url": "https://www.investing.com/news/economy-news/dollar-on-back-foot-as-us-yields-crude-prices-dip-aussie-buoyed-by-hawkish-rba-4961462",
     "macro_score": 6,
     "macro_buckets": [
       "policy",
-      "inflation"
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-22T00-00-34+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-22T00:00:34+00:00",
+    "title": "Stocks rise on AI-led earnings, France\u2019s 10-year bond yield hits 5%",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/asian-stocks-climb-as-strong-earnings-buoy-wall-street-4961492",
+    "macro_score": 4,
+    "macro_buckets": [
+      "rates"
     ]
   }
 ]
