@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-10-22",
-    "daily_brief": "2026-10-22: 4 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy, Liquidity coverage showed a predominantly negative tone.",
-    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+    "date": "2026-10-23",
+    "daily_brief": "2026-10-23: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss",
@@ -13,150 +13,96 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -1.18,
-        "return_5d": -1.01,
-        "close": 763.9600219726562
+        "return_1d": -0.52,
+        "return_5d": -0.43,
+        "close": 759.969970703125
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 1.87,
-        "return_5d": 2.21,
-        "close": 81.73999786376953
+        "return_1d": -0.49,
+        "return_5d": 1.61,
+        "close": 81.33999633789062
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.07,
-        "return_5d": -0.34,
-        "close": 28.899999618530273
+        "return_1d": 0.21,
+        "return_5d": 0.14,
+        "close": 28.959999084472656
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 1.7,
-        "return_5d": 3.31,
-        "close": 162.50999450683594
+        "return_1d": 4.32,
+        "return_5d": 4.8,
+        "close": 169.52999877929688
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.16,
-        "return_5d": -0.04,
-        "close": 77.0999984741211
+        "return_1d": -0.06,
+        "return_5d": 0.25,
+        "close": 77.05000305175781
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -2.63,
-        "return_5d": -3.58,
-        "close": 369.0
+        "return_1d": -0.65,
+        "return_5d": -4.03,
+        "close": 366.6099853515625
       }
     ],
     "news_sentiment": {
-      "label": "negative",
-      "score": -1.0,
-      "display_score": -1.0,
-      "unique_documents": 4,
-      "positive_pct": 0.0,
+      "label": "insufficient_data",
+      "score": 0.0,
+      "display_score": 0.0,
+      "unique_documents": 2,
+      "positive_pct": 50.0,
       "neutral_pct": 0.0,
-      "negative_pct": 100.0,
-      "average_confidence": 0.807
+      "negative_pct": 50.0,
+      "average_confidence": 0.582
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.45,
+      "label": "mixed",
+      "score": -0.15,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
         "SPY": -0.4,
         "HYG": 0.0,
-        "TLT": -0.15,
+        "TLT": 0.15,
         "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "The major market proxies gave a mixed risk signal.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "confirmed",
-      "label": "Confirmed",
-      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
-      "news_label": "negative",
-      "market_label": "risk_off"
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "mixed"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-10-22T20-46-00+00-00-8",
-        "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+        "doc_id": "www.marketwatch.com-2026-10-23T20-19-00+00-00-9",
+        "title": "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted",
         "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9260522127151489,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 12,
-        "macro_buckets": [
-          "policy",
-          "inflation",
-          "energy"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": -2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.marketwatch.com-2026-10-22T22-07-00+00-00-5",
-        "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here\u2019s what\u2019s going on.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9646605253219604,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
-        "macro_buckets": [
-          "rates",
-          "liquidity"
-        ],
-        "themes": [
-          "growth",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": -2,
-          "policy": 0,
-          "liquidity": -2,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-22T23-59-32+00-00-10",
-        "title": "Yen jumps as oil, AI and France worries rattle markets",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dip-in-the-dollar-takes-a-breather-with-fed-in-focus-4964546",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8351103067398071,
-        "summary_label": "negative-financial-sentiment",
+        "url": "https://www.marketwatch.com/story/oil-markets-are-on-edge-ahead-of-the-weekend-as-midterm-elections-near-and-fresh-u-s-strikes-on-iran-are-predicted-8c27e634?mod=mw_rss_topstories",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.518502414226532,
+        "summary_label": "positive-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "energy",
-          "fx"
+          "energy"
         ],
         "themes": [
           "inflation"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": 1,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -164,142 +110,54 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-10-22T23-59-32+00-00-9",
-        "title": "Turkey\u2019s central bank cuts key rate to 36% from 37%",
+        "doc_id": "www.investing.com-2026-10-23T23-51-42+00-00-5",
+        "title": "Euro sinks on French debt worries, yen gains for week on AI rout",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/turkeys-central-bank-cuts-key-rate-to-36-from-37-93CH-4967221",
+        "url": "https://www.investing.com/news/economy-news/yen-shines-as-ai-jitters-spur-safehaven-rush-4967941",
         "confidence": "low",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.5033720135688782,
+        "sentiment_confidence": 0.6451418399810791,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
+        "macro_score": 4,
         "macro_buckets": [
-          "policy"
+          "fx"
         ],
         "themes": [
-          "policy",
-          "liquidity"
+          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": -1,
-          "liquidity": -1,
+          "policy": 0,
+          "liquidity": 0,
           "risk": 0
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "policy",
-        "label": "negative news sentiment",
-        "score": -3,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-10-22T20-46-00+00-00-8",
-            "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9260522127151489,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 12,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-22T23-59-32+00-00-9",
-            "title": "Turkey\u2019s central bank cuts key rate to 36% from 37%",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/turkeys-central-bank-cuts-key-rate-to-36-from-37-93CH-4967221",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5033720135688782,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy"
-            ],
-            "themes": [
-              "policy",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": -1,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
         "name": "energy",
-        "label": "negative news sentiment",
-        "score": -3,
+        "label": "positive news sentiment",
+        "score": 1,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-10-22T20-46-00+00-00-8",
-            "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+            "doc_id": "www.marketwatch.com-2026-10-23T20-19-00+00-00-9",
+            "title": "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9260522127151489,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 12,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-10-22T23-59-32+00-00-10",
-            "title": "Yen jumps as oil, AI and France worries rattle markets",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dip-in-the-dollar-takes-a-breather-with-fed-in-focus-4964546",
-            "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8351103067398071,
-            "summary_label": "negative-financial-sentiment",
+            "url": "https://www.marketwatch.com/story/oil-markets-are-on-edge-ahead-of-the-weekend-as-midterm-elections-near-and-fresh-u-s-strikes-on-iran-are-predicted-8c27e634?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.518502414226532,
+            "summary_label": "positive-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "energy",
-              "fx"
+              "energy"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -309,67 +167,31 @@
         ]
       },
       {
-        "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -3,
+        "name": "fx",
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-10-22T20-46-00+00-00-8",
-            "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
-            "confidence": "high",
+            "doc_id": "www.investing.com-2026-10-23T23-51-42+00-00-5",
+            "title": "Euro sinks on French debt worries, yen gains for week on AI rout",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/yen-shines-as-ai-jitters-spur-safehaven-rush-4967941",
+            "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9260522127151489,
+            "sentiment_confidence": 0.6451418399810791,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 12,
+            "macro_score": 4,
             "macro_buckets": [
-              "policy",
-              "inflation",
-              "energy"
+              "fx"
             ],
             "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": -2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "liquidity",
-        "label": "negative news sentiment",
-        "score": -3,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-10-22T22-07-00+00-00-5",
-            "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here\u2019s what\u2019s going on.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9646605253219604,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
-            "macro_buckets": [
-              "rates",
-              "liquidity"
-            ],
-            "themes": [
-              "growth",
-              "liquidity"
+              "uncategorized"
             ],
             "scores": {
               "inflation": 0,
-              "growth": -2,
+              "growth": 0,
               "policy": 0,
-              "liquidity": -2,
+              "liquidity": 0,
               "risk": 0
             }
           }

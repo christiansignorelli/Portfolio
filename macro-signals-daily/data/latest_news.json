@@ -1,57 +1,27 @@
 [
   {
-    "id": "www.marketwatch.com-2026-10-22T20-46-00+00-00-8",
+    "id": "www.marketwatch.com-2026-10-23T20-19-00+00-00-9",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-22T20:46:00+00:00",
-    "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
-    "body": "Wall Street may be starting to price in the scenario everyone fears: a full-scale regional conflict that could further choke off global energy supplies and unleash a fresh wave of turmoil across financial markets.",
-    "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
-    "macro_score": 12,
+    "published_at": "2026-10-23T20:19:00+00:00",
+    "title": "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted",
+    "body": "Oil has climbed back to an Iran-war high and may soon go higher, if the U.S. and Israel strike Iran after their respective voters go to the polls in the coming days.",
+    "url": "https://www.marketwatch.com/story/oil-markets-are-on-edge-ahead-of-the-weekend-as-midterm-elections-near-and-fresh-u-s-strikes-on-iran-are-predicted-8c27e634?mod=mw_rss_topstories",
+    "macro_score": 6,
     "macro_buckets": [
-      "policy",
-      "inflation",
       "energy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-10-22T22-07-00+00-00-5",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-22T22:07:00+00:00",
-    "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here\u2019s what\u2019s going on.",
-    "body": "\u2018It\u2019s a take-back trade,\u2019 says PGIM\u2019s Tipp. \u2018Not an all-out fear of recession type of situation.\u2019",
-    "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
-    "macro_score": 7,
-    "macro_buckets": [
-      "rates",
-      "liquidity"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-22T23-59-32+00-00-9",
+    "id": "www.investing.com-2026-10-23T23-51-42+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-22T23:59:32+00:00",
-    "title": "Turkey\u2019s central bank cuts key rate to 36% from 37%",
+    "published_at": "2026-10-23T23:51:42+00:00",
+    "title": "Euro sinks on French debt worries, yen gains for week on AI rout",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/turkeys-central-bank-cuts-key-rate-to-36-from-37-93CH-4967221",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/yen-shines-as-ai-jitters-spur-safehaven-rush-4967941",
+    "macro_score": 4,
     "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-22T23-59-32+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-22T23:59:32+00:00",
-    "title": "Yen jumps as oil, AI and France worries rattle markets",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/dip-in-the-dollar-takes-a-breather-with-fed-in-focus-4964546",
-    "macro_score": 6,
-    "macro_buckets": [
-      "energy",
       "fx"
     ]
   }
