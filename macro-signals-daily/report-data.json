@@ -1,13 +1,12 @@
 [
   {
-    "date": "2026-10-23",
-    "daily_brief": "2026-10-23: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "date": "2026-10-24",
+    "daily_brief": "2026-10-24: 1 unique articles were analyzed. Top theme: risk. There was not enough coverage for a reliable daily sentiment read.",
     "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
     "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss",
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
@@ -55,13 +54,13 @@
     ],
     "news_sentiment": {
       "label": "insufficient_data",
-      "score": 0.0,
-      "display_score": 0.0,
-      "unique_documents": 2,
-      "positive_pct": 50.0,
+      "score": -1.0,
+      "display_score": -1.0,
+      "unique_documents": 1,
+      "positive_pct": 0.0,
       "neutral_pct": 0.0,
-      "negative_pct": 50.0,
-      "average_confidence": 0.582
+      "negative_pct": 100.0,
+      "average_confidence": 0.829
     },
     "market_regime": {
       "label": "mixed",
@@ -86,113 +85,92 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-10-23T20-19-00+00-00-9",
-        "title": "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/oil-markets-are-on-edge-ahead-of-the-weekend-as-midterm-elections-near-and-fresh-u-s-strikes-on-iran-are-predicted-8c27e634?mod=mw_rss_topstories",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.518502414226532,
-        "summary_label": "positive-financial-sentiment",
+        "doc_id": "www.investing.com-2026-10-24T23-09-44+00-00-7",
+        "title": "UK budget to prioritise bond markets as Labour tensions mount, Bloomberg reports",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/uk-budget-to-prioritise-bond-markets-as-labour-tensions-mount-bloomberg-reports-4970669",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.8288655281066895,
+        "summary_label": "negative-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "energy"
+          "labor",
+          "rates"
         ],
         "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": 1,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-23T23-51-42+00-00-5",
-        "title": "Euro sinks on French debt worries, yen gains for week on AI rout",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/yen-shines-as-ai-jitters-spur-safehaven-rush-4967941",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.6451418399810791,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "fx"
-        ],
-        "themes": [
-          "uncategorized"
+          "risk"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
-          "risk": 0
+          "risk": -1
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "energy",
-        "label": "positive news sentiment",
-        "score": 1,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-10-23T20-19-00+00-00-9",
-            "title": "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/oil-markets-are-on-edge-ahead-of-the-weekend-as-midterm-elections-near-and-fresh-u-s-strikes-on-iran-are-predicted-8c27e634?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.518502414226532,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "fx",
+        "name": "labor",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-23T23-51-42+00-00-5",
-            "title": "Euro sinks on French debt worries, yen gains for week on AI rout",
+            "doc_id": "www.investing.com-2026-10-24T23-09-44+00-00-7",
+            "title": "UK budget to prioritise bond markets as Labour tensions mount, Bloomberg reports",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/yen-shines-as-ai-jitters-spur-safehaven-rush-4967941",
-            "confidence": "low",
+            "url": "https://www.investing.com/news/economy-news/uk-budget-to-prioritise-bond-markets-as-labour-tensions-mount-bloomberg-reports-4970669",
+            "confidence": "medium",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.6451418399810791,
+            "sentiment_confidence": 0.8288655281066895,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
+            "macro_score": 6,
             "macro_buckets": [
-              "fx"
+              "labor",
+              "rates"
             ],
             "themes": [
-              "uncategorized"
+              "risk"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
-              "risk": 0
+              "risk": -1
+            }
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-10-24T23-09-44+00-00-7",
+            "title": "UK budget to prioritise bond markets as Labour tensions mount, Bloomberg reports",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/uk-budget-to-prioritise-bond-markets-as-labour-tensions-mount-bloomberg-reports-4970669",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8288655281066895,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "labor",
+              "rates"
+            ],
+            "themes": [
+              "risk"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": -1
             }
           }
         ]
