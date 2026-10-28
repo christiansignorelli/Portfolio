@@ -1,1 +1,458 @@
-[]
+[
+  {
+    "date": "2026-10-27",
+    "daily_brief": "2026-10-27: 1 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.marketwatch.com/rss/topstories"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": 0.71,
+        "return_5d": -0.14,
+        "close": 765.3699951171875
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.42,
+        "return_5d": 2.79,
+        "close": 81.68000030517578
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.17,
+        "return_5d": 0.03,
+        "close": 29.010000228881836
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": -1.95,
+        "return_5d": 3.37,
+        "close": 166.22999572753906
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": 0.19,
+        "return_5d": 0.48,
+        "close": 77.19999694824219
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": 0.33,
+        "return_5d": -3.13,
+        "close": 367.82000732421875
+      }
+    ],
+    "news_sentiment": {
+      "label": "insufficient_data",
+      "score": 0.0,
+      "display_score": 0.0,
+      "unique_documents": 1,
+      "positive_pct": 0.0,
+      "neutral_pct": 100.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.722
+    },
+    "market_regime": {
+      "label": "mixed",
+      "score": 0.15,
+      "signals_used": 4,
+      "signals_available": 4,
+      "contributions": {
+        "SPY": 0.4,
+        "HYG": 0.0,
+        "TLT": -0.15,
+        "GLD": -0.1
+      },
+      "explanation": "The major market proxies gave a mixed risk signal.",
+      "data_quality_status": "complete"
+    },
+    "confirmation": {
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "mixed"
+    },
+    "analyzed_coverage": [
+      {
+        "doc_id": "www.marketwatch.com-2026-10-27T21-29-00+00-00-4",
+        "title": "As Trump touts energy companies\u2019 fortunes, U.S. consumers face the most expensive year for gas prices ever",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/as-trump-touts-energy-companies-fortunes-u-s-consumers-face-the-most-expensive-year-for-gas-prices-ever-c467268c?mod=mw_rss_topstories",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.7219595909118652,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 9,
+        "macro_buckets": [
+          "inflation",
+          "energy"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "inflation",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-10-27T21-29-00+00-00-4",
+            "title": "As Trump touts energy companies\u2019 fortunes, U.S. consumers face the most expensive year for gas prices ever",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/as-trump-touts-energy-companies-fortunes-u-s-consumers-face-the-most-expensive-year-for-gas-prices-ever-c467268c?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7219595909118652,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-10-27T21-29-00+00-00-4",
+            "title": "As Trump touts energy companies\u2019 fortunes, U.S. consumers face the most expensive year for gas prices ever",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/as-trump-touts-energy-companies-fortunes-u-s-consumers-face-the-most-expensive-year-for-gas-prices-ever-c467268c?mod=mw_rss_topstories",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.7219595909118652,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "inflation",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-10-28",
+    "daily_brief": "2026-10-28: 2 unique articles were analyzed. Top theme: liquidity. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.investing.com/rss/news_14.rss"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": 0.71,
+        "return_5d": -0.14,
+        "close": 765.3699951171875
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.42,
+        "return_5d": 2.79,
+        "close": 81.68000030517578
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": 0.17,
+        "return_5d": 0.03,
+        "close": 29.010000228881836
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": -1.95,
+        "return_5d": 3.37,
+        "close": 166.22999572753906
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": 0.19,
+        "return_5d": 0.48,
+        "close": 77.19999694824219
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": 0.33,
+        "return_5d": -3.13,
+        "close": 367.82000732421875
+      }
+    ],
+    "news_sentiment": {
+      "label": "insufficient_data",
+      "score": 1.0,
+      "display_score": 1.0,
+      "unique_documents": 2,
+      "positive_pct": 100.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.611
+    },
+    "market_regime": {
+      "label": "mixed",
+      "score": 0.15,
+      "signals_used": 4,
+      "signals_available": 4,
+      "contributions": {
+        "SPY": 0.4,
+        "HYG": 0.0,
+        "TLT": -0.15,
+        "GLD": -0.1
+      },
+      "explanation": "The major market proxies gave a mixed risk signal.",
+      "data_quality_status": "complete"
+    },
+    "confirmation": {
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "mixed"
+    },
+    "analyzed_coverage": [
+      {
+        "doc_id": "www.investing.com-2026-10-28T00-29-54+00-00-9",
+        "title": "AI financing driving private credit growth as refinancing risks rise, Moody\u2019s says",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/ai-financing-driving-private-credit-growth-as-refinancing-risks-rise-moodys-says-4976254",
+        "confidence": "high",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.8501427173614502,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 8,
+        "macro_buckets": [
+          "growth",
+          "liquidity"
+        ],
+        "themes": [
+          "growth",
+          "liquidity",
+          "risk"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 2,
+          "policy": 0,
+          "liquidity": 2,
+          "risk": 2
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-10-28T00-29-54+00-00-7",
+        "title": "Dollar rises as markets eye central bank meetings",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/yen-eases-on-riskon-mood-ahead-of-central-bank-bonanza-4974178",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.3717426657676697,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "fx"
+        ],
+        "themes": [
+          "policy",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 1,
+          "liquidity": 1,
+          "risk": 0
+        }
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "liquidity",
+        "label": "positive news sentiment",
+        "score": 3,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-10-28T00-29-54+00-00-9",
+            "title": "AI financing driving private credit growth as refinancing risks rise, Moody\u2019s says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ai-financing-driving-private-credit-growth-as-refinancing-risks-rise-moodys-says-4976254",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8501427173614502,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 8,
+            "macro_buckets": [
+              "growth",
+              "liquidity"
+            ],
+            "themes": [
+              "growth",
+              "liquidity",
+              "risk"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 2,
+              "policy": 0,
+              "liquidity": 2,
+              "risk": 2
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "positive news sentiment",
+        "score": 2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-10-28T00-29-54+00-00-9",
+            "title": "AI financing driving private credit growth as refinancing risks rise, Moody\u2019s says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ai-financing-driving-private-credit-growth-as-refinancing-risks-rise-moodys-says-4976254",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8501427173614502,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 8,
+            "macro_buckets": [
+              "growth",
+              "liquidity"
+            ],
+            "themes": [
+              "growth",
+              "liquidity",
+              "risk"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 2,
+              "policy": 0,
+              "liquidity": 2,
+              "risk": 2
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "positive news sentiment",
+        "score": 2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-10-28T00-29-54+00-00-7",
+            "title": "Dollar rises as markets eye central bank meetings",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/yen-eases-on-riskon-mood-ahead-of-central-bank-bonanza-4974178",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.3717426657676697,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "fx"
+            ],
+            "themes": [
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 1,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
+        "label": "positive news sentiment",
+        "score": 1,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-10-28T00-29-54+00-00-7",
+            "title": "Dollar rises as markets eye central bank meetings",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/yen-eases-on-riskon-mood-ahead-of-central-bank-bonanza-4974178",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.3717426657676697,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "fx"
+            ],
+            "themes": [
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 1,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  }
+]

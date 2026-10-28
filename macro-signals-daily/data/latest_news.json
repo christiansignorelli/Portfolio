@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "www.marketwatch.com-2026-10-27T21-29-00+00-00-4",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-10-27T21:29:00+00:00",
+    "title": "As Trump touts energy companies\u2019 fortunes, U.S. consumers face the most expensive year for gas prices ever",
+    "body": "President Donald Trump can\u2019t stop touting the fortunes U.S. energy companies have made during the Iran war, while canvassing the country to support Republican candidates ahead of next week\u2019s midterm elections.",
+    "url": "https://www.marketwatch.com/story/as-trump-touts-energy-companies-fortunes-u-s-consumers-face-the-most-expensive-year-for-gas-prices-ever-c467268c?mod=mw_rss_topstories",
+    "macro_score": 9,
+    "macro_buckets": [
+      "inflation",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-28T00-29-54+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-28T00:29:54+00:00",
+    "title": "AI financing driving private credit growth as refinancing risks rise, Moody\u2019s says",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/ai-financing-driving-private-credit-growth-as-refinancing-risks-rise-moodys-says-4976254",
+    "macro_score": 8,
+    "macro_buckets": [
+      "growth",
+      "liquidity"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-28T00-29-54+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-28T00:29:54+00:00",
+    "title": "Dollar rises as markets eye central bank meetings",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/yen-eases-on-riskon-mood-ahead-of-central-bank-bonanza-4974178",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "fx"
+    ]
+  }
+]
