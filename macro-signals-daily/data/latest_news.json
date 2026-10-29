@@ -1,44 +1,98 @@
 [
   {
-    "id": "www.marketwatch.com-2026-10-27T21-29-00+00-00-4",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-27T21:29:00+00:00",
-    "title": "As Trump touts energy companies\u2019 fortunes, U.S. consumers face the most expensive year for gas prices ever",
-    "body": "President Donald Trump can\u2019t stop touting the fortunes U.S. energy companies have made during the Iran war, while canvassing the country to support Republican candidates ahead of next week\u2019s midterm elections.",
-    "url": "https://www.marketwatch.com/story/as-trump-touts-energy-companies-fortunes-u-s-consumers-face-the-most-expensive-year-for-gas-prices-ever-c467268c?mod=mw_rss_topstories",
+    "id": "www.investing.com-2026-10-29T00-53-06+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-29T00:53:06+00:00",
+    "title": "ECB to hold rates as investors focus on French bonds,\u00a0Lagarde\u2019s future",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/ecb-to-hold-rates-as-investors-focus-on-french-bondslagardes-future-4981183",
+    "macro_score": 10,
+    "macro_buckets": [
+      "policy",
+      "rates"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-29T00-53-06+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-29T00:53:06+00:00",
+    "title": "Global stocks hold gains after Fed decision, oil prices rise",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/stocks-get-ai-lift-dollar-holds-steady-ahead-of-fed-decision-4977355",
     "macro_score": 9,
     "macro_buckets": [
+      "policy",
       "inflation",
       "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-28T00-29-54+00-00-9",
+    "id": "www.investing.com-2026-10-29T00-53-06+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-28T00:29:54+00:00",
-    "title": "AI financing driving private credit growth as refinancing risks rise, Moody\u2019s says",
+    "published_at": "2026-10-29T00:53:06+00:00",
+    "title": "Warsh to attend Fed jobs and productivity task force hearing to refine views",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/ai-financing-driving-private-credit-growth-as-refinancing-risks-rise-moodys-says-4976254",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/warsh-to-attend-fed-jobs-and-productivity-task-force-hearing-to-refine-views-4980494",
+    "macro_score": 7,
     "macro_buckets": [
-      "growth",
-      "liquidity"
+      "policy",
+      "labor"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-28T00-29-54+00-00-7",
+    "id": "www.investing.com-2026-10-29T00-53-06+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-28T00:29:54+00:00",
-    "title": "Dollar rises as markets eye central bank meetings",
+    "published_at": "2026-10-29T00:53:06+00:00",
+    "title": "Fed leaves rates unchanged as it awaits \u2019accumulation of more information\u2019",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/yen-eases-on-riskon-mood-ahead-of-central-bank-bonanza-4974178",
+    "url": "https://www.investing.com/news/economy-news/fed-holds-rates-steady-as-it-awaits-accumulation-of-more-information-4980411",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-29T00-53-06+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-29T00:53:06+00:00",
+    "title": "Fed\u2019s Warsh says US economy not running too hot",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-warsh-says-us-economy-not-running-too-hot-4980529",
     "macro_score": 6,
     "macro_buckets": [
       "policy",
-      "fx"
+      "growth"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-29T00-53-06+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-29T00:53:06+00:00",
+    "title": "New Zealand central bank governor says chances of December hike are \u2019high\u2019",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/new-zealand-central-bank-governor-says-chances-of-december-hike-are-high-4981263",
+    "macro_score": 5,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-29T00-53-06+00-00-4",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-29T00:53:06+00:00",
+    "title": "Warsh says politics played no role in Fed\u2019s rate decision by group he is \u2019honored\u2019 to lead",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/warsh-says-politics-played-no-role-in-feds-rate-decision-by-group-he-is-honored-to-lead-4981000",
+    "macro_score": 5,
+    "macro_buckets": [
+      "policy"
     ]
   }
 ]
