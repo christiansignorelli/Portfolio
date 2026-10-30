@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-10-29",
-    "daily_brief": "2026-10-29: 7 unique articles were analyzed. News sentiment was neutral. Top theme: policy.",
-    "macro_read": "Macro read: coverage across policy, inflation, liquidity was broadly neutral or mixed.",
-    "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
+    "date": "2026-10-30",
+    "daily_brief": "2026-10-30: 3 unique articles were analyzed. News sentiment was positive. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Growth coverage showed a predominantly positive tone.",
+    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
@@ -12,97 +12,97 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.56,
-        "return_5d": 0.08,
-        "close": 769.6599731445312
+        "return_1d": 0.34,
+        "return_5d": -0.1,
+        "close": 772.3099975585938
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.06,
-        "return_5d": 1.87,
-        "close": 81.62999725341797
+        "return_1d": -0.78,
+        "return_5d": 0.93,
+        "close": 80.98999786376953
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.38,
-        "return_5d": 0.76,
-        "close": 29.1200008392334
+        "return_1d": -0.21,
+        "return_5d": 0.48,
+        "close": 29.059999465942383
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -1.41,
-        "return_5d": 2.04,
-        "close": 163.8800048828125
+        "return_1d": 1.64,
+        "return_5d": 4.24,
+        "close": 166.57000732421875
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.52,
-        "return_5d": 1.0,
-        "close": 77.5999984741211
+        "return_1d": -0.01,
+        "return_5d": 0.79,
+        "close": 77.58999633789062
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.21,
-        "return_5d": -1.42,
-        "close": 372.2799987792969
+        "return_1d": 0.33,
+        "return_5d": -1.44,
+        "close": 373.510009765625
       }
     ],
     "news_sentiment": {
-      "label": "neutral",
-      "score": 0.14285714285714285,
-      "display_score": 0.14,
-      "unique_documents": 7,
-      "positive_pct": 28.6,
-      "neutral_pct": 57.1,
-      "negative_pct": 14.3,
-      "average_confidence": 0.763
+      "label": "positive",
+      "score": 0.3333333333333333,
+      "display_score": 0.33,
+      "unique_documents": 3,
+      "positive_pct": 66.7,
+      "neutral_pct": 0.0,
+      "negative_pct": 33.3,
+      "average_confidence": 0.896
     },
     "market_regime": {
       "label": "risk_on",
-      "score": 0.65,
+      "score": 0.45,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
         "SPY": 0.4,
-        "HYG": 0.35,
-        "TLT": 0.0,
+        "HYG": 0.0,
+        "TLT": 0.15,
         "GLD": -0.1
       },
       "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "market_led",
-      "label": "Market-led",
-      "explanation": "News sentiment was neutral, while markets showed a clearer directional response.",
-      "news_label": "neutral",
+      "status": "confirmed",
+      "label": "Confirmed",
+      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+      "news_label": "positive",
       "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-10-29T00-53-06+00-00-9",
-        "title": "ECB to hold rates as investors focus on French bonds,\u00a0Lagarde\u2019s future",
+        "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-2",
+        "title": "Tokyo core inflation exceeds BOJ target in October",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/ecb-to-hold-rates-as-investors-focus-on-french-bondslagardes-future-4981183",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.6371592283248901,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 10,
+        "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-exceeds-boj-target-in-october-4985610",
+        "confidence": "medium",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.8204336166381836,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 8,
         "macro_buckets": [
           "policy",
-          "rates"
+          "inflation"
         ],
         "themes": [
-          "policy"
+          "inflation"
         ],
         "scores": {
-          "inflation": 0,
+          "inflation": 1,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -110,121 +110,21 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-10-29T00-53-06+00-00-2",
-        "title": "Global stocks hold gains after Fed decision, oil prices rise",
+        "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-3",
+        "title": "Equities and bond yields dip with AI jitters and economic data in focus",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/stocks-get-ai-lift-dollar-holds-steady-ahead-of-fed-decision-4977355",
+        "url": "https://www.investing.com/news/economy-news/asian-shares-fall-as-alphabet-earnings-miss-drags-wall-st-futures-lower-4981378",
         "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.880813479423523,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "policy",
-          "inflation",
-          "energy"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": 2,
-          "growth": 0,
-          "policy": 2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-29T00-53-06+00-00-7",
-        "title": "Warsh to attend Fed jobs and productivity task force hearing to refine views",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/warsh-to-attend-fed-jobs-and-productivity-task-force-hearing-to-refine-views-4980494",
-        "confidence": "high",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8882623910903931,
-        "summary_label": "neutral-financial-sentiment",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9331623911857605,
+        "summary_label": "negative-financial-sentiment",
         "macro_score": 7,
         "macro_buckets": [
-          "policy",
-          "labor"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-29T00-53-06+00-00-3",
-        "title": "Fed leaves rates unchanged as it awaits \u2019accumulation of more information\u2019",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/fed-holds-rates-steady-as-it-awaits-accumulation-of-more-information-4980411",
-        "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.7351928949356079,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-29T00-53-06+00-00-6",
-        "title": "Fed\u2019s Warsh says US economy not running too hot",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-warsh-says-us-economy-not-running-too-hot-4980529",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.6627271175384521,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy",
+          "rates",
           "growth"
         ],
         "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-29T00-53-06+00-00-4",
-        "title": "Warsh says politics played no role in Fed\u2019s rate decision by group he is \u2019honored\u2019 to lead",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/warsh-says-politics-played-no-role-in-feds-rate-decision-by-group-he-is-honored-to-lead-4981000",
-        "confidence": "high",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.9079568386077881,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
+          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
@@ -235,53 +135,52 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-10-29T00-53-06+00-00-1",
-        "title": "New Zealand central bank governor says chances of December hike are \u2019high\u2019",
+        "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-8",
+        "title": "Robust consumer spending, AI-related investment power US economy in third quarter",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/new-zealand-central-bank-governor-says-chances-of-december-hike-are-high-4981263",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.6266122460365295,
-        "summary_label": "negative-financial-sentiment",
+        "url": "https://www.investing.com/news/economy-news/us-economic-growth-accelerates-in-third-quarter-4983581",
+        "confidence": "high",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.9348155856132507,
+        "summary_label": "positive-financial-sentiment",
         "macro_score": 5,
         "macro_buckets": [
-          "policy"
+          "growth"
         ],
         "themes": [
-          "policy",
-          "liquidity"
+          "growth"
         ],
         "scores": {
           "inflation": 0,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": -1,
+          "growth": 2,
+          "policy": 0,
+          "liquidity": 0,
           "risk": 0
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "policy",
+        "name": "growth",
         "label": "positive news sentiment",
         "score": 2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-29T00-53-06+00-00-9",
-            "title": "ECB to hold rates as investors focus on French bonds,\u00a0Lagarde\u2019s future",
+            "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-3",
+            "title": "Equities and bond yields dip with AI jitters and economic data in focus",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ecb-to-hold-rates-as-investors-focus-on-french-bondslagardes-future-4981183",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.6371592283248901,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 10,
+            "url": "https://www.investing.com/news/economy-news/asian-shares-fall-as-alphabet-earnings-miss-drags-wall-st-futures-lower-4981378",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9331623911857605,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
-              "policy",
-              "rates"
+              "rates",
+              "growth"
             ],
             "themes": [
-              "policy"
+              "uncategorized"
             ],
             "scores": {
               "inflation": 0,
@@ -292,48 +191,52 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-10-29T00-53-06+00-00-2",
-            "title": "Global stocks hold gains after Fed decision, oil prices rise",
+            "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-8",
+            "title": "Robust consumer spending, AI-related investment power US economy in third quarter",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/stocks-get-ai-lift-dollar-holds-steady-ahead-of-fed-decision-4977355",
+            "url": "https://www.investing.com/news/economy-news/us-economic-growth-accelerates-in-third-quarter-4983581",
             "confidence": "high",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.880813479423523,
+            "sentiment_confidence": 0.9348155856132507,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 5,
             "macro_buckets": [
-              "policy",
-              "inflation",
-              "energy"
+              "growth"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "growth"
             ],
             "scores": {
-              "inflation": 2,
-              "growth": 0,
-              "policy": 2,
+              "inflation": 0,
+              "growth": 2,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
-          },
+          }
+        ]
+      },
+      {
+        "name": "rates",
+        "label": "positive news sentiment",
+        "score": 2,
+        "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-29T00-53-06+00-00-7",
-            "title": "Warsh to attend Fed jobs and productivity task force hearing to refine views",
+            "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-3",
+            "title": "Equities and bond yields dip with AI jitters and economic data in focus",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/warsh-to-attend-fed-jobs-and-productivity-task-force-hearing-to-refine-views-4980494",
+            "url": "https://www.investing.com/news/economy-news/asian-shares-fall-as-alphabet-earnings-miss-drags-wall-st-futures-lower-4981378",
             "confidence": "high",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8882623910903931,
-            "summary_label": "neutral-financial-sentiment",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9331623911857605,
+            "summary_label": "negative-financial-sentiment",
             "macro_score": 7,
             "macro_buckets": [
-              "policy",
-              "labor"
+              "rates",
+              "growth"
             ],
             "themes": [
-              "policy"
+              "uncategorized"
             ],
             "scores": {
               "inflation": 0,
@@ -348,31 +251,29 @@
       {
         "name": "inflation",
         "label": "positive news sentiment",
-        "score": 2,
+        "score": 1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-29T00-53-06+00-00-2",
-            "title": "Global stocks hold gains after Fed decision, oil prices rise",
+            "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-2",
+            "title": "Tokyo core inflation exceeds BOJ target in October",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/stocks-get-ai-lift-dollar-holds-steady-ahead-of-fed-decision-4977355",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-exceeds-boj-target-in-october-4985610",
+            "confidence": "medium",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.880813479423523,
+            "sentiment_confidence": 0.8204336166381836,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 8,
             "macro_buckets": [
               "policy",
-              "inflation",
-              "energy"
+              "inflation"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "inflation"
             ],
             "scores": {
-              "inflation": 2,
+              "inflation": 1,
               "growth": 0,
-              "policy": 2,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
@@ -380,63 +281,29 @@
         ]
       },
       {
-        "name": "energy",
-        "label": "positive news sentiment",
-        "score": 2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-10-29T00-53-06+00-00-2",
-            "title": "Global stocks hold gains after Fed decision, oil prices rise",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/stocks-get-ai-lift-dollar-holds-steady-ahead-of-fed-decision-4977355",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.880813479423523,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 2,
-              "growth": 0,
-              "policy": 2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
+        "name": "policy",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-29T00-53-06+00-00-9",
-            "title": "ECB to hold rates as investors focus on French bonds,\u00a0Lagarde\u2019s future",
+            "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-2",
+            "title": "Tokyo core inflation exceeds BOJ target in October",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ecb-to-hold-rates-as-investors-focus-on-french-bondslagardes-future-4981183",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.6371592283248901,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 10,
+            "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-exceeds-boj-target-in-october-4985610",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8204336166381836,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 8,
             "macro_buckets": [
               "policy",
-              "rates"
+              "inflation"
             ],
             "themes": [
-              "policy"
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": 1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
