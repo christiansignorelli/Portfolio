@@ -1,9 +1,156 @@
 [
   {
     "date": "2026-10-30",
-    "daily_brief": "2026-10-30: 3 unique articles were analyzed. News sentiment was positive. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Growth coverage showed a predominantly positive tone.",
-    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+    "daily_brief": "2026-10-30: 1 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "market_checks": [],
+    "feed_sources": [
+      "https://www.marketwatch.com/rss/topstories"
+    ],
+    "market_snapshot": [
+      {
+        "symbol": "SPY",
+        "label": "US equities",
+        "return_1d": -0.38,
+        "return_5d": 0.71,
+        "close": 769.3599853515625
+      },
+      {
+        "symbol": "TLT",
+        "label": "Long-duration Treasuries",
+        "return_1d": 0.62,
+        "return_5d": -0.31,
+        "close": 81.48999786376953
+      },
+      {
+        "symbol": "UUP",
+        "label": "US dollar proxy",
+        "return_1d": -0.07,
+        "return_5d": 0.48,
+        "close": 29.040000915527344
+      },
+      {
+        "symbol": "USO",
+        "label": "Oil proxy",
+        "return_1d": 0.97,
+        "return_5d": 3.5,
+        "close": 168.19000244140625
+      },
+      {
+        "symbol": "HYG",
+        "label": "High yield credit",
+        "return_1d": -0.01,
+        "return_5d": 0.62,
+        "close": 77.58000183105469
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "return_1d": -1.32,
+        "return_5d": -0.12,
+        "close": 368.57000732421875
+      }
+    ],
+    "news_sentiment": {
+      "label": "insufficient_data",
+      "score": 0.0,
+      "display_score": 0.0,
+      "unique_documents": 1,
+      "positive_pct": 0.0,
+      "neutral_pct": 100.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.509
+    },
+    "market_regime": {
+      "label": "risk_off",
+      "score": -0.45,
+      "signals_used": 4,
+      "signals_available": 4,
+      "contributions": {
+        "SPY": -0.4,
+        "HYG": 0.0,
+        "TLT": -0.15,
+        "GLD": 0.1
+      },
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "data_quality_status": "complete"
+    },
+    "confirmation": {
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "risk_off"
+    },
+    "analyzed_coverage": [
+      {
+        "doc_id": "www.marketwatch.com-2026-10-30T21-23-00+00-00-4",
+        "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
+        "source": "www.marketwatch.com",
+        "url": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
+        "confidence": "low",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.508915901184082,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 5,
+        "macro_buckets": [
+          "policy"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      }
+    ],
+    "bucket_views": [
+      {
+        "name": "policy",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-10-30T21-23-00+00-00-4",
+            "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.508915901184082,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 5,
+            "macro_buckets": [
+              "policy"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      }
+    ],
+    "debug_documents": []
+  },
+  {
+    "date": "2026-10-31",
+    "daily_brief": "2026-10-31: 3 unique articles were analyzed. News sentiment was positive. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Inflation coverage showed a predominantly positive tone.",
+    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
@@ -12,44 +159,44 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 0.34,
-        "return_5d": -0.1,
-        "close": 772.3099975585938
+        "return_1d": -0.38,
+        "return_5d": 0.71,
+        "close": 769.3599853515625
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.78,
-        "return_5d": 0.93,
-        "close": 80.98999786376953
+        "return_1d": 0.62,
+        "return_5d": -0.31,
+        "close": 81.48999786376953
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.21,
+        "return_1d": -0.07,
         "return_5d": 0.48,
-        "close": 29.059999465942383
+        "close": 29.040000915527344
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 1.64,
-        "return_5d": 4.24,
-        "close": 166.57000732421875
+        "return_1d": 0.97,
+        "return_5d": 3.5,
+        "close": 168.19000244140625
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
         "return_1d": -0.01,
-        "return_5d": 0.79,
-        "close": 77.58999633789062
+        "return_5d": 0.62,
+        "close": 77.58000183105469
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.33,
-        "return_5d": -1.44,
-        "close": 373.510009765625
+        "return_1d": -1.32,
+        "return_5d": -0.12,
+        "close": 368.57000732421875
       }
     ],
     "news_sentiment": {
@@ -60,99 +207,101 @@
       "positive_pct": 66.7,
       "neutral_pct": 0.0,
       "negative_pct": 33.3,
-      "average_confidence": 0.896
+      "average_confidence": 0.704
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.45,
+      "label": "risk_off",
+      "score": -0.45,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
+        "SPY": -0.4,
         "HYG": 0.0,
-        "TLT": 0.15,
-        "GLD": -0.1
+        "TLT": -0.15,
+        "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "confirmed",
-      "label": "Confirmed",
-      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+      "status": "divergent",
+      "label": "Divergent",
+      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
       "news_label": "positive",
-      "market_label": "risk_on"
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-2",
-        "title": "Tokyo core inflation exceeds BOJ target in October",
+        "doc_id": "www.investing.com-2026-10-31T00-44-06+00-00-9",
+        "title": "Yen set for third straight daily gain against dollar after\u00a0BOJ holds rates",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-exceeds-boj-target-in-october-4985610",
+        "url": "https://www.investing.com/news/economy-news/yen-steady-before-boj-ai-jitters-drive-treasury-rally-weigh-on-dollar-4985701",
         "confidence": "medium",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.8204336166381836,
+        "sentiment_confidence": 0.7387312054634094,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 8,
+        "macro_score": 10,
+        "macro_buckets": [
+          "policy",
+          "fx"
+        ],
+        "themes": [
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-10-31T00-44-06+00-00-10",
+        "title": "Fed officials make case for rate hikes amid ongoing inflation concerns",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/feds-musalem-says-a-rate-hike-is-needed-soon-4988364",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.5577847957611084,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 9,
         "macro_buckets": [
           "policy",
           "inflation"
         ],
         "themes": [
-          "inflation"
+          "inflation",
+          "policy"
         ],
         "scores": {
           "inflation": 1,
           "growth": 0,
-          "policy": 0,
+          "policy": 1,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-3",
-        "title": "Equities and bond yields dip with AI jitters and economic data in focus",
+        "doc_id": "www.investing.com-2026-10-31T00-44-06+00-00-7",
+        "title": "Stocks fall on AI cash burn worries while bonds rally with oil",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/asian-shares-fall-as-alphabet-earnings-miss-drags-wall-st-futures-lower-4981378",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/stocks-slump-bonds-leap-as-ai-giants-spending-spooks-investors-4985741",
+        "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9331623911857605,
+        "sentiment_confidence": 0.8156946897506714,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 7,
         "macro_buckets": [
           "rates",
-          "growth"
+          "energy"
         ],
         "themes": [
-          "uncategorized"
+          "inflation"
         ],
         "scores": {
-          "inflation": 0,
+          "inflation": -1,
           "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-8",
-        "title": "Robust consumer spending, AI-related investment power US economy in third quarter",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-economic-growth-accelerates-in-third-quarter-4983581",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.9348155856132507,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 5,
-        "macro_buckets": [
-          "growth"
-        ],
-        "themes": [
-          "growth"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 2,
           "policy": 0,
           "liquidity": 0,
           "risk": 0
@@ -161,55 +310,57 @@
     ],
     "bucket_views": [
       {
-        "name": "growth",
+        "name": "policy",
         "label": "positive news sentiment",
         "score": 2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-3",
-            "title": "Equities and bond yields dip with AI jitters and economic data in focus",
+            "doc_id": "www.investing.com-2026-10-31T00-44-06+00-00-9",
+            "title": "Yen set for third straight daily gain against dollar after\u00a0BOJ holds rates",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asian-shares-fall-as-alphabet-earnings-miss-drags-wall-st-futures-lower-4981378",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9331623911857605,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "url": "https://www.investing.com/news/economy-news/yen-steady-before-boj-ai-jitters-drive-treasury-rally-weigh-on-dollar-4985701",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.7387312054634094,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 10,
             "macro_buckets": [
-              "rates",
-              "growth"
+              "policy",
+              "fx"
             ],
             "themes": [
-              "uncategorized"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 0,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-8",
-            "title": "Robust consumer spending, AI-related investment power US economy in third quarter",
+            "doc_id": "www.investing.com-2026-10-31T00-44-06+00-00-10",
+            "title": "Fed officials make case for rate hikes amid ongoing inflation concerns",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-economic-growth-accelerates-in-third-quarter-4983581",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/feds-musalem-says-a-rate-hike-is-needed-soon-4988364",
+            "confidence": "low",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.9348155856132507,
+            "sentiment_confidence": 0.5577847957611084,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 5,
+            "macro_score": 9,
             "macro_buckets": [
-              "growth"
+              "policy",
+              "inflation"
             ],
             "themes": [
-              "growth"
+              "inflation",
+              "policy"
             ],
             "scores": {
-              "inflation": 0,
-              "growth": 2,
-              "policy": 0,
+              "inflation": 1,
+              "growth": 0,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
@@ -217,31 +368,31 @@
         ]
       },
       {
-        "name": "rates",
-        "label": "positive news sentiment",
-        "score": 2,
+        "name": "fx",
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-3",
-            "title": "Equities and bond yields dip with AI jitters and economic data in focus",
+            "doc_id": "www.investing.com-2026-10-31T00-44-06+00-00-9",
+            "title": "Yen set for third straight daily gain against dollar after\u00a0BOJ holds rates",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asian-shares-fall-as-alphabet-earnings-miss-drags-wall-st-futures-lower-4981378",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9331623911857605,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "url": "https://www.investing.com/news/economy-news/yen-steady-before-boj-ai-jitters-drive-treasury-rally-weigh-on-dollar-4985701",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.7387312054634094,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 10,
             "macro_buckets": [
-              "rates",
-              "growth"
+              "policy",
+              "fx"
             ],
             "themes": [
-              "uncategorized"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 0,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
@@ -250,30 +401,31 @@
       },
       {
         "name": "inflation",
-        "label": "positive news sentiment",
-        "score": 1,
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-2",
-            "title": "Tokyo core inflation exceeds BOJ target in October",
+            "doc_id": "www.investing.com-2026-10-31T00-44-06+00-00-10",
+            "title": "Fed officials make case for rate hikes amid ongoing inflation concerns",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-exceeds-boj-target-in-october-4985610",
-            "confidence": "medium",
+            "url": "https://www.investing.com/news/economy-news/feds-musalem-says-a-rate-hike-is-needed-soon-4988364",
+            "confidence": "low",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.8204336166381836,
+            "sentiment_confidence": 0.5577847957611084,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 8,
+            "macro_score": 9,
             "macro_buckets": [
               "policy",
               "inflation"
             ],
             "themes": [
-              "inflation"
+              "inflation",
+              "policy"
             ],
             "scores": {
               "inflation": 1,
               "growth": 0,
-              "policy": 0,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
@@ -281,29 +433,29 @@
         ]
       },
       {
-        "name": "policy",
+        "name": "rates",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-10-30T00-55-40+00-00-2",
-            "title": "Tokyo core inflation exceeds BOJ target in October",
+            "doc_id": "www.investing.com-2026-10-31T00-44-06+00-00-7",
+            "title": "Stocks fall on AI cash burn worries while bonds rally with oil",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-exceeds-boj-target-in-october-4985610",
+            "url": "https://www.investing.com/news/economy-news/stocks-slump-bonds-leap-as-ai-giants-spending-spooks-investors-4985741",
             "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8204336166381836,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 8,
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.8156946897506714,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
-              "policy",
-              "inflation"
+              "rates",
+              "energy"
             ],
             "themes": [
               "inflation"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": -1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,

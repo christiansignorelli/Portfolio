@@ -1,43 +1,57 @@
 [
   {
-    "id": "www.investing.com-2026-10-30T00-55-40+00-00-2",
+    "id": "www.investing.com-2026-10-31T00-44-06+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-30T00:55:40+00:00",
-    "title": "Tokyo core inflation exceeds BOJ target in October",
+    "published_at": "2026-10-31T00:44:06+00:00",
+    "title": "Yen set for third straight daily gain against dollar after\u00a0BOJ holds rates",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-exceeds-boj-target-in-october-4985610",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/yen-steady-before-boj-ai-jitters-drive-treasury-rally-weigh-on-dollar-4985701",
+    "macro_score": 10,
+    "macro_buckets": [
+      "policy",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-10-31T00-44-06+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-10-31T00:44:06+00:00",
+    "title": "Fed officials make case for rate hikes amid ongoing inflation concerns",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-musalem-says-a-rate-hike-is-needed-soon-4988364",
+    "macro_score": 9,
     "macro_buckets": [
       "policy",
       "inflation"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-30T00-55-40+00-00-3",
+    "id": "www.investing.com-2026-10-31T00-44-06+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-30T00:55:40+00:00",
-    "title": "Equities and bond yields dip with AI jitters and economic data in focus",
+    "published_at": "2026-10-31T00:44:06+00:00",
+    "title": "Stocks fall on AI cash burn worries while bonds rally with oil",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/asian-shares-fall-as-alphabet-earnings-miss-drags-wall-st-futures-lower-4981378",
+    "url": "https://www.investing.com/news/economy-news/stocks-slump-bonds-leap-as-ai-giants-spending-spooks-investors-4985741",
     "macro_score": 7,
     "macro_buckets": [
       "rates",
-      "growth"
+      "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-30T00-55-40+00-00-8",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-30T00:55:40+00:00",
-    "title": "Robust consumer spending, AI-related investment power US economy in third quarter",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-economic-growth-accelerates-in-third-quarter-4983581",
+    "id": "www.marketwatch.com-2026-10-30T21-23-00+00-00-4",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-10-30T21:23:00+00:00",
+    "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
+    "body": "More interest-rate hikes are needed to fight inflation, Fed officials say.",
+    "url": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
     "macro_score": 5,
     "macro_buckets": [
-      "growth"
+      "policy"
     ]
   }
 ]
