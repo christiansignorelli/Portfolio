@@ -1,57 +1,42 @@
 [
   {
-    "id": "www.investing.com-2026-10-31T00-44-06+00-00-9",
+    "id": "www.investing.com-2026-11-01T00-05-26+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-31T00:44:06+00:00",
-    "title": "Yen set for third straight daily gain against dollar after\u00a0BOJ holds rates",
+    "published_at": "2026-11-01T00:05:26+00:00",
+    "title": "BOJ speeds up ETF sales, potentially boosting funding for Takaichi\u2019s plans",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/yen-steady-before-boj-ai-jitters-drive-treasury-rally-weigh-on-dollar-4985701",
-    "macro_score": 10,
+    "url": "https://www.investing.com/news/economy-news/boj-speeds-up-etf-sales-potentially-boosting-funding-for-takaichis-plans-4989085",
+    "macro_score": 6,
     "macro_buckets": [
       "policy",
-      "fx"
+      "liquidity"
     ]
   },
   {
-    "id": "www.investing.com-2026-10-31T00-44-06+00-00-10",
+    "id": "www.investing.com-2026-11-01T00-05-26+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-31T00:44:06+00:00",
-    "title": "Fed officials make case for rate hikes amid ongoing inflation concerns",
+    "published_at": "2026-11-01T00:05:26+00:00",
+    "title": "Oil hits six-month highs as Hormuz attacks threaten Iran peace efforts",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-musalem-says-a-rate-hike-is-needed-soon-4988364",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/oil-hits-sixmonth-highs-as-hormuz-attacks-threaten-iran-peace-efforts-4989133",
+    "macro_score": 5,
     "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-10-31T00-44-06+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-10-31T00:44:06+00:00",
-    "title": "Stocks fall on AI cash burn worries while bonds rally with oil",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/stocks-slump-bonds-leap-as-ai-giants-spending-spooks-investors-4985741",
-    "macro_score": 7,
-    "macro_buckets": [
-      "rates",
       "energy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-10-30T21-23-00+00-00-4",
+    "id": "www.marketwatch.com-2026-10-31T16-02-00+00-00-10",
     "source": "www.marketwatch.com",
     "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-30T21:23:00+00:00",
-    "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
-    "body": "More interest-rate hikes are needed to fight inflation, Fed officials say.",
-    "url": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
-    "macro_score": 5,
+    "published_at": "2026-10-31T16:02:00+00:00",
+    "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
+    "body": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn\u2019t change your strategy.",
+    "url": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
+    "macro_score": 4,
     "macro_buckets": [
-      "policy"
+      "rates"
     ]
   }
 ]
