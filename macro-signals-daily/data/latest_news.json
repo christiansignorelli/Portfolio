@@ -1,42 +1,30 @@
 [
   {
-    "id": "www.investing.com-2026-11-01T00-05-26+00-00-10",
+    "id": "www.investing.com-2026-11-02T00-39-23+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-01T00:05:26+00:00",
-    "title": "BOJ speeds up ETF sales, potentially boosting funding for Takaichi\u2019s plans",
+    "published_at": "2026-11-02T00:39:23+00:00",
+    "title": "Saudi Arabia\u2019s economy contracts 3.8% as war disrupts oil production",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/boj-speeds-up-etf-sales-potentially-boosting-funding-for-takaichis-plans-4989085",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/saudi-arabias-economy-contracts-38-as-war-disrupts-oil-production-4989425",
+    "macro_score": 8,
     "macro_buckets": [
-      "policy",
-      "liquidity"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-01T00-05-26+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-01T00:05:26+00:00",
-    "title": "Oil hits six-month highs as Hormuz attacks threaten Iran peace efforts",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/oil-hits-sixmonth-highs-as-hormuz-attacks-threaten-iran-peace-efforts-4989133",
-    "macro_score": 5,
-    "macro_buckets": [
+      "growth",
       "energy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-10-31T16-02-00+00-00-10",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-10-31T16:02:00+00:00",
-    "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
-    "body": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn\u2019t change your strategy.",
-    "url": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
+    "id": "www.investing.com-2026-11-02T00-39-23+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-02T00:39:23+00:00",
+    "title": "Australian home prices fall for seventh month, looming rate hike adds to pain",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/australian-home-prices-fall-for-seventh-month-looming-rate-hike-adds-to-pain-4989781",
     "macro_score": 4,
     "macro_buckets": [
-      "rates"
+      "policy",
+      "inflation"
     ]
   }
 ]
