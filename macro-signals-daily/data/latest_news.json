@@ -1,26 +1,27 @@
 [
   {
-    "id": "www.investing.com-2026-11-02T00-39-23+00-00-7",
+    "id": "www.investing.com-2026-11-03T02-54-39+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-02T00:39:23+00:00",
-    "title": "Saudi Arabia\u2019s economy contracts 3.8% as war disrupts oil production",
+    "published_at": "2026-11-03T02:54:39+00:00",
+    "title": "Dollar under pressure as oil prices slump, Australia rate decision awaited",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/saudi-arabias-economy-contracts-38-as-war-disrupts-oil-production-4989425",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/dollar-under-pressure-as-oil-prices-slump-australia-rate-decision-awaited-4993321",
+    "macro_score": 9,
     "macro_buckets": [
-      "growth",
-      "energy"
+      "inflation",
+      "energy",
+      "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-11-02T00-39-23+00-00-3",
+    "id": "www.investing.com-2026-11-03T02-54-39+00-00-8",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-02T00:39:23+00:00",
-    "title": "Australian home prices fall for seventh month, looming rate hike adds to pain",
+    "published_at": "2026-11-03T02:54:39+00:00",
+    "title": "South Korea October headline inflation moderates ahead of expected rate hike",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/australian-home-prices-fall-for-seventh-month-looming-rate-hike-adds-to-pain-4989781",
+    "url": "https://www.investing.com/news/economy-news/south-korea-october-headline-inflation-moderates-ahead-of-expected-rate-hike-4993213",
     "macro_score": 4,
     "macro_buckets": [
       "policy",
