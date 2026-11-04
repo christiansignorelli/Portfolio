@@ -1,7 +1,7 @@
 [
   {
-    "date": "2026-11-03",
-    "daily_brief": "2026-11-03: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "date": "2026-11-04",
+    "daily_brief": "2026-11-04: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
     "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
     "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
@@ -60,7 +60,7 @@
       "positive_pct": 50.0,
       "neutral_pct": 0.0,
       "negative_pct": 50.0,
-      "average_confidence": 0.777
+      "average_confidence": 0.64
     },
     "market_regime": {
       "label": "risk_off",
@@ -85,19 +85,18 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-11-03T02-54-39+00-00-6",
-        "title": "Dollar under pressure as oil prices slump, Australia rate decision awaited",
+        "doc_id": "www.investing.com-2026-11-04T01-18-56+00-00-3",
+        "title": "Gold firms on softer oil prices, US midterm results awaited",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-under-pressure-as-oil-prices-slump-australia-rate-decision-awaited-4993321",
-        "confidence": "medium",
+        "url": "https://www.investing.com/news/economy-news/gold-firms-on-softer-oil-prices-us-midterm-results-awaited-4997053",
+        "confidence": "low",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.8254481554031372,
+        "sentiment_confidence": 0.6150076389312744,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
+        "macro_score": 6,
         "macro_buckets": [
           "inflation",
-          "energy",
-          "fx"
+          "energy"
         ],
         "themes": [
           "inflation"
@@ -111,27 +110,25 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-11-03T02-54-39+00-00-8",
-        "title": "South Korea October headline inflation moderates ahead of expected rate hike",
+        "doc_id": "www.investing.com-2026-11-04T01-18-56+00-00-2",
+        "title": "New Zealand jobless rate hits 11-year high in run-up to polls",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/south-korea-october-headline-inflation-moderates-ahead-of-expected-rate-hike-4993213",
+        "url": "https://www.investing.com/news/economy-news/new-zealand-unemployment-climbs-to-57-in-q3-4996644",
         "confidence": "medium",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.7285775542259216,
+        "sentiment_confidence": 0.6652522087097168,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 4,
+        "macro_score": 5,
         "macro_buckets": [
-          "policy",
-          "inflation"
+          "labor"
         ],
         "themes": [
-          "inflation",
-          "policy"
+          "uncategorized"
         ],
         "scores": {
-          "inflation": 1,
+          "inflation": 0,
           "growth": 0,
-          "policy": 1,
+          "policy": 0,
           "liquidity": 0,
           "risk": 0
         }
@@ -139,57 +136,23 @@
     ],
     "bucket_views": [
       {
-        "name": "policy",
-        "label": "positive news sentiment",
-        "score": 1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-11-03T02-54-39+00-00-8",
-            "title": "South Korea October headline inflation moderates ahead of expected rate hike",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/south-korea-october-headline-inflation-moderates-ahead-of-expected-rate-hike-4993213",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.7285775542259216,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
         "name": "inflation",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "label": "negative news sentiment",
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-03T02-54-39+00-00-6",
-            "title": "Dollar under pressure as oil prices slump, Australia rate decision awaited",
+            "doc_id": "www.investing.com-2026-11-04T01-18-56+00-00-3",
+            "title": "Gold firms on softer oil prices, US midterm results awaited",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-under-pressure-as-oil-prices-slump-australia-rate-decision-awaited-4993321",
-            "confidence": "medium",
+            "url": "https://www.investing.com/news/economy-news/gold-firms-on-softer-oil-prices-us-midterm-results-awaited-4997053",
+            "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8254481554031372,
+            "sentiment_confidence": 0.6150076389312744,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 6,
             "macro_buckets": [
               "inflation",
-              "energy",
-              "fx"
+              "energy"
             ],
             "themes": [
               "inflation"
@@ -198,32 +161,6 @@
               "inflation": -1,
               "growth": 0,
               "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-03T02-54-39+00-00-8",
-            "title": "South Korea October headline inflation moderates ahead of expected rate hike",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/south-korea-october-headline-inflation-moderates-ahead-of-expected-rate-hike-4993213",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.7285775542259216,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
@@ -232,23 +169,22 @@
       },
       {
         "name": "energy",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "label": "negative news sentiment",
+        "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-03T02-54-39+00-00-6",
-            "title": "Dollar under pressure as oil prices slump, Australia rate decision awaited",
+            "doc_id": "www.investing.com-2026-11-04T01-18-56+00-00-3",
+            "title": "Gold firms on softer oil prices, US midterm results awaited",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-under-pressure-as-oil-prices-slump-australia-rate-decision-awaited-4993321",
-            "confidence": "medium",
+            "url": "https://www.investing.com/news/economy-news/gold-firms-on-softer-oil-prices-us-midterm-results-awaited-4997053",
+            "confidence": "low",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.8254481554031372,
+            "sentiment_confidence": 0.6150076389312744,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 6,
             "macro_buckets": [
               "inflation",
-              "energy",
-              "fx"
+              "energy"
             ],
             "themes": [
               "inflation"
@@ -264,30 +200,28 @@
         ]
       },
       {
-        "name": "fx",
+        "name": "labor",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-03T02-54-39+00-00-6",
-            "title": "Dollar under pressure as oil prices slump, Australia rate decision awaited",
+            "doc_id": "www.investing.com-2026-11-04T01-18-56+00-00-2",
+            "title": "New Zealand jobless rate hits 11-year high in run-up to polls",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-under-pressure-as-oil-prices-slump-australia-rate-decision-awaited-4993321",
+            "url": "https://www.investing.com/news/economy-news/new-zealand-unemployment-climbs-to-57-in-q3-4996644",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8254481554031372,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.6652522087097168,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 5,
             "macro_buckets": [
-              "inflation",
-              "energy",
-              "fx"
+              "labor"
             ],
             "themes": [
-              "inflation"
+              "uncategorized"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,

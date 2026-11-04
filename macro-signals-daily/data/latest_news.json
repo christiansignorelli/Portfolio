@@ -1,31 +1,29 @@
 [
   {
-    "id": "www.investing.com-2026-11-03T02-54-39+00-00-6",
+    "id": "www.investing.com-2026-11-04T01-18-56+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-03T02:54:39+00:00",
-    "title": "Dollar under pressure as oil prices slump, Australia rate decision awaited",
+    "published_at": "2026-11-04T01:18:56+00:00",
+    "title": "Gold firms on softer oil prices, US midterm results awaited",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-under-pressure-as-oil-prices-slump-australia-rate-decision-awaited-4993321",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/gold-firms-on-softer-oil-prices-us-midterm-results-awaited-4997053",
+    "macro_score": 6,
     "macro_buckets": [
       "inflation",
-      "energy",
-      "fx"
+      "energy"
     ]
   },
   {
-    "id": "www.investing.com-2026-11-03T02-54-39+00-00-8",
+    "id": "www.investing.com-2026-11-04T01-18-56+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-03T02:54:39+00:00",
-    "title": "South Korea October headline inflation moderates ahead of expected rate hike",
+    "published_at": "2026-11-04T01:18:56+00:00",
+    "title": "New Zealand jobless rate hits 11-year high in run-up to polls",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/south-korea-october-headline-inflation-moderates-ahead-of-expected-rate-hike-4993213",
-    "macro_score": 4,
+    "url": "https://www.investing.com/news/economy-news/new-zealand-unemployment-climbs-to-57-in-q3-4996644",
+    "macro_score": 5,
     "macro_buckets": [
-      "policy",
-      "inflation"
+      "labor"
     ]
   }
 ]
