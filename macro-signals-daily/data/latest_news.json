@@ -1,29 +1,28 @@
 [
   {
-    "id": "www.investing.com-2026-11-04T01-18-56+00-00-3",
+    "id": "www.investing.com-2026-11-05T01-28-15+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-04T01:18:56+00:00",
-    "title": "Gold firms on softer oil prices, US midterm results awaited",
+    "published_at": "2026-11-05T01:28:15+00:00",
+    "title": "BOJ debated need for more rate hikes, scope for faster move, September minutes show",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/gold-firms-on-softer-oil-prices-us-midterm-results-awaited-4997053",
+    "url": "https://www.investing.com/news/economy-news/boj-board-saw-the-need-to-keep-raising-rates-september-meeting-minutes-show-5001844",
     "macro_score": 6,
     "macro_buckets": [
-      "inflation",
-      "energy"
+      "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-11-04T01-18-56+00-00-2",
+    "id": "www.investing.com-2026-11-05T01-28-15+00-00-4",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-04T01:18:56+00:00",
-    "title": "New Zealand jobless rate hits 11-year high in run-up to polls",
+    "published_at": "2026-11-05T01:28:15+00:00",
+    "title": "Brazil\u2019s central bank ends run of rate cuts after Lula election win",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/new-zealand-unemployment-climbs-to-57-in-q3-4996644",
-    "macro_score": 5,
+    "url": "https://www.investing.com/news/economy-news/brazils-central-bank-ends-run-of-rate-cuts-after-lula-election-win-5001496",
+    "macro_score": 6,
     "macro_buckets": [
-      "labor"
+      "policy"
     ]
   }
 ]

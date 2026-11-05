@@ -1,7 +1,7 @@
 [
   {
-    "date": "2026-11-04",
-    "daily_brief": "2026-11-04: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "date": "2026-11-05",
+    "daily_brief": "2026-11-05: 2 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
     "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
     "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
@@ -12,68 +12,68 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.48,
-        "return_5d": -1.73,
-        "close": 752.0999755859375
+        "return_1d": 0.3,
+        "return_5d": -1.99,
+        "close": 754.3499755859375
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": -0.13,
-        "return_5d": 0.06,
-        "close": 81.7300033569336
+        "return_1d": -0.76,
+        "return_5d": -0.64,
+        "close": 81.11000061035156
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.14,
-        "return_5d": -0.17,
-        "close": 28.959999084472656
+        "return_1d": 0.17,
+        "return_5d": -0.38,
+        "close": 29.010000228881836
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -7.08,
-        "return_5d": -5.63,
-        "close": 156.8699951171875
+        "return_1d": 0.83,
+        "return_5d": -3.48,
+        "close": 158.1699981689453
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.7,
-        "return_5d": -0.4,
-        "close": 76.88999938964844
+        "return_1d": 0.12,
+        "return_5d": -0.8,
+        "close": 76.9800033569336
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.65,
-        "return_5d": -1.68,
-        "close": 361.6499938964844
+        "return_1d": -0.66,
+        "return_5d": -3.5,
+        "close": 359.260009765625
       }
     ],
     "news_sentiment": {
       "label": "insufficient_data",
-      "score": 0.0,
-      "display_score": 0.0,
+      "score": -0.5,
+      "display_score": -0.5,
       "unique_documents": 2,
-      "positive_pct": 50.0,
-      "neutral_pct": 0.0,
+      "positive_pct": 0.0,
+      "neutral_pct": 50.0,
       "negative_pct": 50.0,
-      "average_confidence": 0.64
+      "average_confidence": 0.688
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.85,
+      "label": "risk_on",
+      "score": 0.65,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
-        "HYG": -0.35,
-        "TLT": 0.0,
-        "GLD": -0.1
+        "SPY": 0.4,
+        "HYG": 0.0,
+        "TLT": 0.15,
+        "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
@@ -81,46 +81,46 @@
       "label": "Insufficient data",
       "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
       "news_label": "insufficient_data",
-      "market_label": "risk_off"
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-11-04T01-18-56+00-00-3",
-        "title": "Gold firms on softer oil prices, US midterm results awaited",
+        "doc_id": "www.investing.com-2026-11-05T01-28-15+00-00-4",
+        "title": "Brazil\u2019s central bank ends run of rate cuts after Lula election win",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/gold-firms-on-softer-oil-prices-us-midterm-results-awaited-4997053",
-        "confidence": "low",
+        "url": "https://www.investing.com/news/economy-news/brazils-central-bank-ends-run-of-rate-cuts-after-lula-election-win-5001496",
+        "confidence": "medium",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.6150076389312744,
+        "sentiment_confidence": 0.6943240761756897,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
-          "inflation",
-          "energy"
+          "policy"
         ],
         "themes": [
-          "inflation"
+          "policy",
+          "liquidity"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": 0,
           "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
+          "policy": -1,
+          "liquidity": -1,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-11-04T01-18-56+00-00-2",
-        "title": "New Zealand jobless rate hits 11-year high in run-up to polls",
+        "doc_id": "www.investing.com-2026-11-05T01-28-15+00-00-1",
+        "title": "BOJ debated need for more rate hikes, scope for faster move, September minutes show",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/new-zealand-unemployment-climbs-to-57-in-q3-4996644",
+        "url": "https://www.investing.com/news/economy-news/boj-board-saw-the-need-to-keep-raising-rates-september-meeting-minutes-show-5001844",
         "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.6652522087097168,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 5,
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.6809007525444031,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
         "macro_buckets": [
-          "labor"
+          "policy"
         ],
         "themes": [
           "uncategorized"
@@ -136,86 +136,47 @@
     ],
     "bucket_views": [
       {
-        "name": "inflation",
+        "name": "policy",
         "label": "negative news sentiment",
         "score": -1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-04T01-18-56+00-00-3",
-            "title": "Gold firms on softer oil prices, US midterm results awaited",
+            "doc_id": "www.investing.com-2026-11-05T01-28-15+00-00-4",
+            "title": "Brazil\u2019s central bank ends run of rate cuts after Lula election win",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/gold-firms-on-softer-oil-prices-us-midterm-results-awaited-4997053",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.6150076389312744,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "energy",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-11-04T01-18-56+00-00-3",
-            "title": "Gold firms on softer oil prices, US midterm results awaited",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/gold-firms-on-softer-oil-prices-us-midterm-results-awaited-4997053",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.6150076389312744,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -1,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "labor",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-11-04T01-18-56+00-00-2",
-            "title": "New Zealand jobless rate hits 11-year high in run-up to polls",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/new-zealand-unemployment-climbs-to-57-in-q3-4996644",
+            "url": "https://www.investing.com/news/economy-news/brazils-central-bank-ends-run-of-rate-cuts-after-lula-election-win-5001496",
             "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.6652522087097168,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 5,
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.6943240761756897,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
             "macro_buckets": [
-              "labor"
+              "policy"
+            ],
+            "themes": [
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": -1,
+              "liquidity": -1,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-11-05T01-28-15+00-00-1",
+            "title": "BOJ debated need for more rate hikes, scope for faster move, September minutes show",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/boj-board-saw-the-need-to-keep-raising-rates-september-meeting-minutes-show-5001844",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.6809007525444031,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy"
             ],
             "themes": [
               "uncategorized"
