@@ -1,28 +1,42 @@
 [
   {
-    "id": "www.investing.com-2026-11-05T01-28-15+00-00-1",
+    "id": "www.investing.com-2026-11-06T01-31-34+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-05T01:28:15+00:00",
-    "title": "BOJ debated need for more rate hikes, scope for faster move, September minutes show",
+    "published_at": "2026-11-06T01:31:34+00:00",
+    "title": "Japan\u2019s real wages rise for ninth month in September, backing BOJ rate hike",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/boj-board-saw-the-need-to-keep-raising-rates-september-meeting-minutes-show-5001844",
+    "url": "https://www.investing.com/news/economy-news/japans-real-wages-rise-for-ninth-month-in-september-backing-boj-rate-hike-5006105",
     "macro_score": 6,
     "macro_buckets": [
       "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-11-05T01-28-15+00-00-4",
+    "id": "www.marketwatch.com-2026-11-05T21-39-00+00-00-9",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-11-05T21:39:00+00:00",
+    "title": "After tech-stock rout, October jobs report could bring relief \u2014 or more pain",
+    "body": "After a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news \u2014 or add to their misery.",
+    "url": "https://www.marketwatch.com/story/after-tech-stock-rout-october-jobs-report-could-bring-relief-or-more-pain-db93357e?mod=mw_rss_topstories",
+    "macro_score": 5,
+    "macro_buckets": [
+      "labor"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-06T01-31-34+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-05T01:28:15+00:00",
-    "title": "Brazil\u2019s central bank ends run of rate cuts after Lula election win",
+    "published_at": "2026-11-06T01:31:34+00:00",
+    "title": "Analysis-Japanese savers have rediscovered interest rates and banks are feeling it",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/brazils-central-bank-ends-run-of-rate-cuts-after-lula-election-win-5001496",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/analysisjapanese-savers-have-rediscovered-interest-rates-and-banks-are-feeling-it-5005902",
+    "macro_score": 4,
     "macro_buckets": [
-      "policy"
+      "policy",
+      "liquidity"
     ]
   }
 ]
