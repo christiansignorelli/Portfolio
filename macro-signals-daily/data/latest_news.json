@@ -1,42 +1,85 @@
 [
   {
-    "id": "www.investing.com-2026-11-06T01-31-34+00-00-6",
+    "id": "www.investing.com-2026-11-07T00-54-13+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-06T01:31:34+00:00",
-    "title": "Japan\u2019s real wages rise for ninth month in September, backing BOJ rate hike",
+    "published_at": "2026-11-07T00:54:13+00:00",
+    "title": "IMF\u2019s Georgieva says any slowdown in AI-driven growth would be factor for central banks",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/japans-real-wages-rise-for-ninth-month-in-september-backing-boj-rate-hike-5006105",
+    "url": "https://www.investing.com/news/economy-news/imfs-georgieva-says-any-slowdown-in-aidriven-growth-would-be-factor-for-central-banks-5009427",
+    "macro_score": 11,
+    "macro_buckets": [
+      "policy",
+      "growth",
+      "liquidity"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-07T00-54-13+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-07T00:54:13+00:00",
+    "title": "BOJ chief Ueda sees \u2019some upside risks\u2019 to inflation",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/boj-chief-ueda-sees-some-upside-risks-to-inflation-5008920",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-07T00-54-13+00-00-7",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-07T00:54:13+00:00",
+    "title": "Dollar jumps after strong US payrolls report",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls-5006269",
+    "macro_score": 6,
+    "macro_buckets": [
+      "labor",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-07T00-54-13+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-07T00:54:13+00:00",
+    "title": "Daly says Fed rate hike likely, despite \u2019painful\u2019 tech-stock dive",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/daly-says-fed-rate-hike-likely-despite-painful-techstock-dive-5009005",
     "macro_score": 6,
     "macro_buckets": [
       "policy"
     ]
   },
   {
-    "id": "www.marketwatch.com-2026-11-05T21-39-00+00-00-9",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-11-05T21:39:00+00:00",
-    "title": "After tech-stock rout, October jobs report could bring relief \u2014 or more pain",
-    "body": "After a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news \u2014 or add to their misery.",
-    "url": "https://www.marketwatch.com/story/after-tech-stock-rout-october-jobs-report-could-bring-relief-or-more-pain-db93357e?mod=mw_rss_topstories",
-    "macro_score": 5,
+    "id": "www.investing.com-2026-11-07T00-54-13+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-07T00:54:13+00:00",
+    "title": "Brazilian banks cut growth forecasts, raising fiscal stakes for Lula",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/brazilian-banks-cut-growth-forecasts-raising-fiscal-stakes-for-lula-5009003",
+    "macro_score": 6,
     "macro_buckets": [
-      "labor"
+      "growth",
+      "liquidity"
     ]
   },
   {
-    "id": "www.investing.com-2026-11-06T01-31-34+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-06T01:31:34+00:00",
-    "title": "Analysis-Japanese savers have rediscovered interest rates and banks are feeling it",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/analysisjapanese-savers-have-rediscovered-interest-rates-and-banks-are-feeling-it-5005902",
+    "id": "www.marketwatch.com-2026-11-06T21-37-00+00-00-3",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-11-06T21:37:00+00:00",
+    "title": "Data centers run on debt. That was a problem for bonds this year \u2014 and it\u2019s only going to get worse.",
+    "body": "AI debt issuance this year overwhelmed investor portfolios, and has disappointed from a performance perspective. The funding need won\u2019t get any better with Democrats in control of Congress.",
+    "url": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
     "macro_score": 4,
     "macro_buckets": [
-      "policy",
-      "liquidity"
+      "rates"
     ]
   }
 ]
