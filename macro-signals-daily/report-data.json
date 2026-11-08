@@ -1,153 +1,8 @@
 [
   {
-    "date": "2026-11-06",
-    "daily_brief": "2026-11-06: 1 unique articles were analyzed. Top theme: liquidity. There was not enough coverage for a reliable daily sentiment read.",
-    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
-    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
-    "market_checks": [],
-    "feed_sources": [
-      "https://www.marketwatch.com/rss/topstories"
-    ],
-    "market_snapshot": [
-      {
-        "symbol": "SPY",
-        "label": "US equities",
-        "return_1d": 0.31,
-        "return_5d": -2.7,
-        "close": 735.2899780273438
-      },
-      {
-        "symbol": "TLT",
-        "label": "Long-duration Treasuries",
-        "return_1d": -0.01,
-        "return_5d": 0.1,
-        "close": 81.91999816894531
-      },
-      {
-        "symbol": "UUP",
-        "label": "US dollar proxy",
-        "return_1d": 0.73,
-        "return_5d": 0.45,
-        "close": 29.1299991607666
-      },
-      {
-        "symbol": "USO",
-        "label": "Oil proxy",
-        "return_1d": 0.13,
-        "return_5d": -12.1,
-        "close": 148.41000366210938
-      },
-      {
-        "symbol": "HYG",
-        "label": "High yield credit",
-        "return_1d": -0.06,
-        "return_5d": -0.26,
-        "close": 77.2300033569336
-      },
-      {
-        "symbol": "GLD",
-        "label": "Gold",
-        "return_1d": -0.79,
-        "return_5d": 4.71,
-        "close": 372.5199890136719
-      }
-    ],
-    "news_sentiment": {
-      "label": "insufficient_data",
-      "score": -1.0,
-      "display_score": -1.0,
-      "unique_documents": 1,
-      "positive_pct": 0.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 100.0,
-      "average_confidence": 0.955
-    },
-    "market_regime": {
-      "label": "risk_on",
-      "score": 0.5,
-      "signals_used": 4,
-      "signals_available": 4,
-      "contributions": {
-        "SPY": 0.4,
-        "HYG": 0.0,
-        "TLT": 0.0,
-        "GLD": 0.1
-      },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
-      "data_quality_status": "complete"
-    },
-    "confirmation": {
-      "status": "insufficient_data",
-      "label": "Insufficient data",
-      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
-      "news_label": "insufficient_data",
-      "market_label": "risk_on"
-    },
-    "analyzed_coverage": [
-      {
-        "doc_id": "www.marketwatch.com-2026-11-06T21-37-00+00-00-3",
-        "title": "Data centers run on debt. That was a problem for bonds this year \u2014 and it\u2019s only going to get worse.",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9551045894622803,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "rates"
-        ],
-        "themes": [
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": -2,
-          "risk": 0
-        }
-      }
-    ],
-    "bucket_views": [
-      {
-        "name": "rates",
-        "label": "neutral news sentiment",
-        "score": 0,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-11-06T21-37-00+00-00-3",
-            "title": "Data centers run on debt. That was a problem for bonds this year \u2014 and it\u2019s only going to get worse.",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9551045894622803,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 4,
-            "macro_buckets": [
-              "rates"
-            ],
-            "themes": [
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": -2,
-              "risk": 0
-            }
-          }
-        ]
-      }
-    ],
-    "debug_documents": []
-  },
-  {
-    "date": "2026-11-07",
-    "daily_brief": "2026-11-07: 5 unique articles were analyzed. News sentiment was negative. Top theme: growth.",
-    "macro_read": "Macro read: Growth, Policy, Liquidity coverage showed a predominantly negative tone.",
+    "date": "2026-11-08",
+    "daily_brief": "2026-11-08: 4 unique articles were analyzed. News sentiment was negative. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Inflation, Risk coverage showed a predominantly negative tone.",
     "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
@@ -199,13 +54,13 @@
     ],
     "news_sentiment": {
       "label": "negative",
-      "score": -0.2,
-      "display_score": -0.2,
-      "unique_documents": 5,
-      "positive_pct": 40.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 60.0,
-      "average_confidence": 0.681
+      "score": -0.75,
+      "display_score": -0.75,
+      "unique_documents": 4,
+      "positive_pct": 0.0,
+      "neutral_pct": 25.0,
+      "negative_pct": 75.0,
+      "average_confidence": 0.852
     },
     "market_regime": {
       "label": "risk_on",
@@ -230,193 +85,323 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-11-07T00-54-13+00-00-2",
-        "title": "IMF\u2019s Georgieva says any slowdown in AI-driven growth would be factor for central banks",
+        "doc_id": "www.investing.com-2026-11-08T00-31-55+00-00-8",
+        "title": "ECB contender de Cos warns of inflation risks as Iran war keeps energy prices high",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/imfs-georgieva-says-any-slowdown-in-aidriven-growth-would-be-factor-for-central-banks-5009427",
+        "url": "https://www.investing.com/news/economy-news/ecb-contender-de-cos-warns-of-inflation-risks-as-iran-war-keeps-energy-prices-high-5009821",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9272418022155762,
+        "sentiment_confidence": 0.9258496761322021,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 12,
+        "macro_buckets": [
+          "policy",
+          "inflation",
+          "energy"
+        ],
+        "themes": [
+          "inflation",
+          "policy",
+          "risk"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": -2,
+          "liquidity": 0,
+          "risk": -2
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-11-08T00-31-55+00-00-1",
+        "title": "Emerging market central banks turn hawkish as inflation pressures mount, Citi says",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/emerging-market-central-banks-turn-hawkish-as-inflation-pressures-mount-citi-says-5010059",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9013046026229858,
         "summary_label": "negative-financial-sentiment",
         "macro_score": 11,
         "macro_buckets": [
           "policy",
-          "growth",
+          "inflation",
           "liquidity"
         ],
         "themes": [
-          "growth",
+          "inflation",
           "policy",
           "liquidity"
         ],
         "scores": {
-          "inflation": 0,
-          "growth": -2,
+          "inflation": -2,
+          "growth": 0,
           "policy": -2,
           "liquidity": -2,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-11-07T00-54-13+00-00-10",
-        "title": "Brazilian banks cut growth forecasts, raising fiscal stakes for Lula",
+        "doc_id": "www.investing.com-2026-11-08T00-31-55+00-00-5",
+        "title": "ECB\u2019s Lagarde says inflation to stay high, sees little reason to alter rate course",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/brazilian-banks-cut-growth-forecasts-raising-fiscal-stakes-for-lula-5009003",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9699352383613586,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "growth",
-          "liquidity"
-        ],
-        "themes": [
-          "growth",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": -2,
-          "policy": 0,
-          "liquidity": -2,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-11-07T00-54-13+00-00-9",
-        "title": "Daly says Fed rate hike likely, despite \u2019painful\u2019 tech-stock dive",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/daly-says-fed-rate-hike-likely-despite-painful-techstock-dive-5009005",
+        "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-inflation-to-stay-high-sees-little-reason-to-alter-rate-course-5009950",
         "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.5800036191940308,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-11-07T00-54-13+00-00-7",
-        "title": "Dollar jumps after strong US payrolls report",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls-5006269",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.5008140802383423,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "labor",
-          "fx"
-        ],
-        "themes": [
-          "uncategorized"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-11-07T00-54-13+00-00-5",
-        "title": "BOJ chief Ueda sees \u2019some upside risks\u2019 to inflation",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/boj-chief-ueda-sees-some-upside-risks-to-inflation-5008920",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.42741236090660095,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.6127267479896545,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 8,
         "macro_buckets": [
           "policy",
           "inflation"
         ],
         "themes": [
           "inflation",
-          "risk"
+          "policy"
         ],
         "scores": {
-          "inflation": -1,
+          "inflation": 0,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
-          "risk": -1
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-11-08T00-31-55+00-00-9",
+        "title": "China flags weak domestic demand as policymakers prepare 2027 growth measures",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/china-flags-weak-domestic-demand-as-policymakers-prepare-2027-growth-measures-5009793",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9670668840408325,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "growth"
+        ],
+        "themes": [
+          "growth",
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": -2,
+          "policy": -2,
+          "liquidity": 0,
+          "risk": 0
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "growth",
+        "name": "policy",
         "label": "negative news sentiment",
-        "score": -4,
+        "score": -6,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-07T00-54-13+00-00-2",
-            "title": "IMF\u2019s Georgieva says any slowdown in AI-driven growth would be factor for central banks",
+            "doc_id": "www.investing.com-2026-11-08T00-31-55+00-00-8",
+            "title": "ECB contender de Cos warns of inflation risks as Iran war keeps energy prices high",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/imfs-georgieva-says-any-slowdown-in-aidriven-growth-would-be-factor-for-central-banks-5009427",
+            "url": "https://www.investing.com/news/economy-news/ecb-contender-de-cos-warns-of-inflation-risks-as-iran-war-keeps-energy-prices-high-5009821",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9272418022155762,
+            "sentiment_confidence": 0.9258496761322021,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "energy"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "risk"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": -2
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-11-08T00-31-55+00-00-1",
+            "title": "Emerging market central banks turn hawkish as inflation pressures mount, Citi says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/emerging-market-central-banks-turn-hawkish-as-inflation-pressures-mount-citi-says-5010059",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9013046026229858,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 11,
             "macro_buckets": [
               "policy",
-              "growth",
+              "inflation",
               "liquidity"
             ],
             "themes": [
-              "growth",
+              "inflation",
               "policy",
               "liquidity"
             ],
             "scores": {
-              "inflation": 0,
-              "growth": -2,
+              "inflation": -2,
+              "growth": 0,
               "policy": -2,
               "liquidity": -2,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-11-07T00-54-13+00-00-10",
-            "title": "Brazilian banks cut growth forecasts, raising fiscal stakes for Lula",
+            "doc_id": "www.investing.com-2026-11-08T00-31-55+00-00-5",
+            "title": "ECB\u2019s Lagarde says inflation to stay high, sees little reason to alter rate course",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/brazilian-banks-cut-growth-forecasts-raising-fiscal-stakes-for-lula-5009003",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9699352383613586,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-inflation-to-stay-high-sees-little-reason-to-alter-rate-course-5009950",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.6127267479896545,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 8,
             "macro_buckets": [
-              "growth",
-              "liquidity"
+              "policy",
+              "inflation"
             ],
             "themes": [
-              "growth",
-              "liquidity"
+              "inflation",
+              "policy"
             ],
             "scores": {
               "inflation": 0,
-              "growth": -2,
+              "growth": 0,
               "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "inflation",
+        "label": "negative news sentiment",
+        "score": -4,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-11-08T00-31-55+00-00-8",
+            "title": "ECB contender de Cos warns of inflation risks as Iran war keeps energy prices high",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ecb-contender-de-cos-warns-of-inflation-risks-as-iran-war-keeps-energy-prices-high-5009821",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9258496761322021,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "energy"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "risk"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": -2
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-11-08T00-31-55+00-00-1",
+            "title": "Emerging market central banks turn hawkish as inflation pressures mount, Citi says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/emerging-market-central-banks-turn-hawkish-as-inflation-pressures-mount-citi-says-5010059",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9013046026229858,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 11,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "liquidity"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
               "liquidity": -2,
               "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-11-08T00-31-55+00-00-5",
+            "title": "ECB\u2019s Lagarde says inflation to stay high, sees little reason to alter rate course",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-inflation-to-stay-high-sees-little-reason-to-alter-rate-course-5009950",
+            "confidence": "low",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.6127267479896545,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 8,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "negative news sentiment",
+        "score": -4,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-11-08T00-31-55+00-00-8",
+            "title": "ECB contender de Cos warns of inflation risks as Iran war keeps energy prices high",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/ecb-contender-de-cos-warns-of-inflation-risks-as-iran-war-keeps-energy-prices-high-5009821",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9258496761322021,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "energy"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "risk"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": -2,
+              "liquidity": 0,
+              "risk": -2
             }
           }
         ]
@@ -424,177 +409,34 @@
       {
         "name": "liquidity",
         "label": "negative news sentiment",
-        "score": -4,
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-07T00-54-13+00-00-2",
-            "title": "IMF\u2019s Georgieva says any slowdown in AI-driven growth would be factor for central banks",
+            "doc_id": "www.investing.com-2026-11-08T00-31-55+00-00-1",
+            "title": "Emerging market central banks turn hawkish as inflation pressures mount, Citi says",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/imfs-georgieva-says-any-slowdown-in-aidriven-growth-would-be-factor-for-central-banks-5009427",
+            "url": "https://www.investing.com/news/economy-news/emerging-market-central-banks-turn-hawkish-as-inflation-pressures-mount-citi-says-5010059",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9272418022155762,
+            "sentiment_confidence": 0.9013046026229858,
             "summary_label": "negative-financial-sentiment",
             "macro_score": 11,
             "macro_buckets": [
               "policy",
-              "growth",
+              "inflation",
               "liquidity"
-            ],
-            "themes": [
-              "growth",
-              "policy",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": -2,
-              "policy": -2,
-              "liquidity": -2,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-07T00-54-13+00-00-10",
-            "title": "Brazilian banks cut growth forecasts, raising fiscal stakes for Lula",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/brazilian-banks-cut-growth-forecasts-raising-fiscal-stakes-for-lula-5009003",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9699352383613586,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "growth",
-              "liquidity"
-            ],
-            "themes": [
-              "growth",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": -2,
-              "policy": 0,
-              "liquidity": -2,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "labor",
-        "label": "negative news sentiment",
-        "score": -4,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-11-07T00-54-13+00-00-7",
-            "title": "Dollar jumps after strong US payrolls report",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls-5006269",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.5008140802383423,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "labor",
-              "fx"
-            ],
-            "themes": [
-              "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "policy",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-11-07T00-54-13+00-00-2",
-            "title": "IMF\u2019s Georgieva says any slowdown in AI-driven growth would be factor for central banks",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/imfs-georgieva-says-any-slowdown-in-aidriven-growth-would-be-factor-for-central-banks-5009427",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9272418022155762,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 11,
-            "macro_buckets": [
-              "policy",
-              "growth",
-              "liquidity"
-            ],
-            "themes": [
-              "growth",
-              "policy",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": -2,
-              "policy": -2,
-              "liquidity": -2,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-07T00-54-13+00-00-9",
-            "title": "Daly says Fed rate hike likely, despite \u2019painful\u2019 tech-stock dive",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/daly-says-fed-rate-hike-likely-despite-painful-techstock-dive-5009005",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.5800036191940308,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-07T00-54-13+00-00-5",
-            "title": "BOJ chief Ueda sees \u2019some upside risks\u2019 to inflation",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/boj-chief-ueda-sees-some-upside-risks-to-inflation-5008920",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.42741236090660095,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy",
-              "inflation"
             ],
             "themes": [
               "inflation",
-              "risk"
+              "policy",
+              "liquidity"
             ],
             "scores": {
-              "inflation": -1,
+              "inflation": -2,
               "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": -1
+              "policy": -2,
+              "liquidity": -2,
+              "risk": 0
             }
           }
         ]
