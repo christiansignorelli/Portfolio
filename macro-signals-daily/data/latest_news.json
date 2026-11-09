@@ -1,59 +1,16 @@
 [
   {
-    "id": "www.investing.com-2026-11-08T00-31-55+00-00-8",
+    "id": "www.investing.com-2026-11-09T00-49-43+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-08T00:31:55+00:00",
-    "title": "ECB contender de Cos warns of inflation risks as Iran war keeps energy prices high",
+    "published_at": "2026-11-09T00:49:43+00:00",
+    "title": "BOJ chief Ueda sees \u2019some upside risks\u2019 to inflation",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecb-contender-de-cos-warns-of-inflation-risks-as-iran-war-keeps-energy-prices-high-5009821",
-    "macro_score": 12,
-    "macro_buckets": [
-      "policy",
-      "inflation",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-08T00-31-55+00-00-1",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-08T00:31:55+00:00",
-    "title": "Emerging market central banks turn hawkish as inflation pressures mount, Citi says",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/emerging-market-central-banks-turn-hawkish-as-inflation-pressures-mount-citi-says-5010059",
-    "macro_score": 11,
-    "macro_buckets": [
-      "policy",
-      "inflation",
-      "liquidity"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-08T00-31-55+00-00-5",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-08T00:31:55+00:00",
-    "title": "ECB\u2019s Lagarde says inflation to stay high, sees little reason to alter rate course",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-says-inflation-to-stay-high-sees-little-reason-to-alter-rate-course-5009950",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/boj-chief-ueda-sees-some-upside-risks-to-inflation-5010354",
+    "macro_score": 6,
     "macro_buckets": [
       "policy",
       "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-08T00-31-55+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-08T00:31:55+00:00",
-    "title": "China flags weak domestic demand as policymakers prepare 2027 growth measures",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/china-flags-weak-domestic-demand-as-policymakers-prepare-2027-growth-measures-5009793",
-    "macro_score": 4,
-    "macro_buckets": [
-      "growth"
     ]
   }
 ]
