@@ -1,13 +1,41 @@
 [
   {
-    "id": "www.investing.com-2026-11-09T00-49-43+00-00-2",
+    "id": "www.investing.com-2026-11-10T03-31-15+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-09T00:49:43+00:00",
-    "title": "BOJ chief Ueda sees \u2019some upside risks\u2019 to inflation",
+    "published_at": "2026-11-10T03:31:15+00:00",
+    "title": "Asian stocks climb as sliding oil prices buoy sentiment",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/boj-chief-ueda-sees-some-upside-risks-to-inflation-5010354",
+    "url": "https://www.investing.com/news/economy-news/asian-stocks-climb-as-sliding-oil-prices-buoy-sentiment-5013939",
     "macro_score": 6,
+    "macro_buckets": [
+      "inflation",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-10T03-31-15+00-00-8",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-10T03:31:15+00:00",
+    "title": "Dollar sellers hit pause for US inflation data",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/dollar-sellers-hit-pause-for-us-inflation-data-5013809",
+    "macro_score": 6,
+    "macro_buckets": [
+      "inflation",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-11-09T21-24-00+00-00-9",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-11-09T21:24:00+00:00",
+    "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+    "body": "Tuesday\u2019s CPI inflation report and a heavy lineup of Federal Reserve speakers could test the rotation trade\u2019s resilience",
+    "url": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
+    "macro_score": 5,
     "macro_buckets": [
       "policy",
       "inflation"
