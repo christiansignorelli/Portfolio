@@ -1,7 +1,7 @@
 [
   {
-    "date": "2026-11-09",
-    "daily_brief": "2026-11-09: 1 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "date": "2026-11-10",
+    "daily_brief": "2026-11-10: 1 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
     "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
     "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
@@ -54,13 +54,13 @@
     ],
     "news_sentiment": {
       "label": "insufficient_data",
-      "score": 1.0,
-      "display_score": 1.0,
+      "score": -1.0,
+      "display_score": -1.0,
       "unique_documents": 1,
-      "positive_pct": 100.0,
+      "positive_pct": 0.0,
       "neutral_pct": 0.0,
-      "negative_pct": 0.0,
-      "average_confidence": 0.457
+      "negative_pct": 100.0,
+      "average_confidence": 0.955
     },
     "market_regime": {
       "label": "risk_on",
@@ -85,27 +85,26 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-11-09T21-24-00+00-00-9",
-        "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+        "doc_id": "www.marketwatch.com-2026-11-10T21-42-00+00-00-9",
+        "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
         "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.4572172164916992,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 5,
+        "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9553903341293335,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 7,
         "macro_buckets": [
           "policy",
-          "inflation"
+          "rates"
         ],
         "themes": [
-          "inflation",
           "policy"
         ],
         "scores": {
-          "inflation": 1,
+          "inflation": 0,
           "growth": 0,
-          "policy": 1,
+          "policy": -2,
           "liquidity": 0,
           "risk": 0
         }
@@ -114,31 +113,30 @@
     "bucket_views": [
       {
         "name": "policy",
-        "label": "positive news sentiment",
-        "score": 1,
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-11-09T21-24-00+00-00-9",
-            "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+            "doc_id": "www.marketwatch.com-2026-11-10T21-42-00+00-00-9",
+            "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.4572172164916992,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 5,
+            "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9553903341293335,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
               "policy",
-              "inflation"
+              "rates"
             ],
             "themes": [
-              "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": 0,
               "growth": 0,
-              "policy": 1,
+              "policy": -2,
               "liquidity": 0,
               "risk": 0
             }
@@ -146,32 +144,31 @@
         ]
       },
       {
-        "name": "inflation",
-        "label": "positive news sentiment",
-        "score": 1,
+        "name": "rates",
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-11-09T21-24-00+00-00-9",
-            "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+            "doc_id": "www.marketwatch.com-2026-11-10T21-42-00+00-00-9",
+            "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.4572172164916992,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 5,
+            "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9553903341293335,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
               "policy",
-              "inflation"
+              "rates"
             ],
             "themes": [
-              "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": 0,
               "growth": 0,
-              "policy": 1,
+              "policy": -2,
               "liquidity": 0,
               "risk": 0
             }
@@ -182,10 +179,10 @@
     "debug_documents": []
   },
   {
-    "date": "2026-11-10",
-    "daily_brief": "2026-11-10: 2 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
-    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
-    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "date": "2026-11-11",
+    "daily_brief": "2026-11-11: 3 unique articles were analyzed. News sentiment was positive. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy, Risk coverage showed a predominantly positive tone.",
+    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
@@ -235,14 +232,14 @@
       }
     ],
     "news_sentiment": {
-      "label": "insufficient_data",
-      "score": -0.5,
-      "display_score": -0.5,
-      "unique_documents": 2,
-      "positive_pct": 0.0,
-      "neutral_pct": 50.0,
-      "negative_pct": 50.0,
-      "average_confidence": 0.483
+      "label": "positive",
+      "score": 1.0,
+      "display_score": 1.0,
+      "unique_documents": 3,
+      "positive_pct": 100.0,
+      "neutral_pct": 0.0,
+      "negative_pct": 0.0,
+      "average_confidence": 0.726
     },
     "market_regime": {
       "label": "risk_on",
@@ -259,182 +256,300 @@
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "insufficient_data",
-      "label": "Insufficient data",
-      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
-      "news_label": "insufficient_data",
+      "status": "confirmed",
+      "label": "Confirmed",
+      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+      "news_label": "positive",
       "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-11-10T03-31-15+00-00-3",
-        "title": "Asian stocks climb as sliding oil prices buoy sentiment",
+        "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-4",
+        "title": "Fed\u2019s Paulson calls for gradual rate hikes amid ongoing high inflation",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/asian-stocks-climb-as-sliding-oil-prices-buoy-sentiment-5013939",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.5740340948104858,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
+        "url": "https://www.investing.com/news/economy-news/feds-paulson-calls-for-gradual-rate-hikes-amid-ongoing-high-inflation-5017333",
+        "confidence": "medium",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.8499229550361633,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 9,
         "macro_buckets": [
-          "inflation",
-          "energy"
-        ],
-        "themes": [
+          "policy",
           "inflation"
         ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
         "scores": {
-          "inflation": -1,
+          "inflation": 1,
           "growth": 0,
-          "policy": 0,
+          "policy": 1,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-11-10T03-31-15+00-00-8",
-        "title": "Dollar sellers hit pause for US inflation data",
+        "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-6",
+        "title": "Fed officials open door to a quicker round of rate hikes as inflation worsens",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-sellers-hit-pause-for-us-inflation-data-5013809",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.39255690574645996,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
+        "url": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055",
+        "confidence": "medium",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.8319465517997742,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 9,
         "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": 1,
+          "growth": 0,
+          "policy": 1,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-1",
+        "title": "Dollar gains traction as Fed speakers warn of risks from inflation",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation-5017438",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.4962293207645416,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 9,
+        "macro_buckets": [
+          "policy",
           "inflation",
           "fx"
         ],
         "themes": [
-          "inflation"
+          "inflation",
+          "policy",
+          "risk"
         ],
         "scores": {
-          "inflation": 0,
+          "inflation": 1,
           "growth": 0,
-          "policy": 0,
+          "policy": 1,
           "liquidity": 0,
-          "risk": 0
+          "risk": 1
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -1,
+        "name": "policy",
+        "label": "positive news sentiment",
+        "score": 3,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-10T03-31-15+00-00-8",
-            "title": "Dollar sellers hit pause for US inflation data",
+            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-4",
+            "title": "Fed\u2019s Paulson calls for gradual rate hikes amid ongoing high inflation",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-sellers-hit-pause-for-us-inflation-data-5013809",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.39255690574645996,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
+            "url": "https://www.investing.com/news/economy-news/feds-paulson-calls-for-gradual-rate-hikes-amid-ongoing-high-inflation-5017333",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8499229550361633,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
-              "inflation",
-              "fx"
-            ],
-            "themes": [
+              "policy",
               "inflation"
             ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
             "scores": {
-              "inflation": 0,
+              "inflation": 1,
               "growth": 0,
-              "policy": 0,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-11-10T03-31-15+00-00-3",
-            "title": "Asian stocks climb as sliding oil prices buoy sentiment",
+            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-6",
+            "title": "Fed officials open door to a quicker round of rate hikes as inflation worsens",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asian-stocks-climb-as-sliding-oil-prices-buoy-sentiment-5013939",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5740340948104858,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "url": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8319465517997742,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
+              "policy",
               "inflation"
             ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
             "scores": {
-              "inflation": -1,
+              "inflation": 1,
               "growth": 0,
-              "policy": 0,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-1",
+            "title": "Dollar gains traction as Fed speakers warn of risks from inflation",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation-5017438",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.4962293207645416,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "fx"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "risk"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 1
             }
           }
         ]
       },
       {
-        "name": "energy",
-        "label": "negative news sentiment",
-        "score": -1,
+        "name": "inflation",
+        "label": "positive news sentiment",
+        "score": 3,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-10T03-31-15+00-00-3",
-            "title": "Asian stocks climb as sliding oil prices buoy sentiment",
+            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-4",
+            "title": "Fed\u2019s Paulson calls for gradual rate hikes amid ongoing high inflation",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asian-stocks-climb-as-sliding-oil-prices-buoy-sentiment-5013939",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5740340948104858,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
+            "url": "https://www.investing.com/news/economy-news/feds-paulson-calls-for-gradual-rate-hikes-amid-ongoing-high-inflation-5017333",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8499229550361633,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
+              "policy",
               "inflation"
             ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
             "scores": {
-              "inflation": -1,
+              "inflation": 1,
               "growth": 0,
-              "policy": 0,
+              "policy": 1,
               "liquidity": 0,
               "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-6",
+            "title": "Fed officials open door to a quicker round of rate hikes as inflation worsens",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.8319465517997742,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-1",
+            "title": "Dollar gains traction as Fed speakers warn of risks from inflation",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation-5017438",
+            "confidence": "low",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.4962293207645416,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
+            "macro_buckets": [
+              "policy",
+              "inflation",
+              "fx"
+            ],
+            "themes": [
+              "inflation",
+              "policy",
+              "risk"
+            ],
+            "scores": {
+              "inflation": 1,
+              "growth": 0,
+              "policy": 1,
+              "liquidity": 0,
+              "risk": 1
             }
           }
         ]
       },
       {
         "name": "fx",
-        "label": "neutral news sentiment",
-        "score": 0,
+        "label": "positive news sentiment",
+        "score": 1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-10T03-31-15+00-00-8",
-            "title": "Dollar sellers hit pause for US inflation data",
+            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-1",
+            "title": "Dollar gains traction as Fed speakers warn of risks from inflation",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-sellers-hit-pause-for-us-inflation-data-5013809",
+            "url": "https://www.investing.com/news/economy-news/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation-5017438",
             "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.39255690574645996,
-            "summary_label": "neutral-financial-sentiment",
-            "macro_score": 6,
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.4962293207645416,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 9,
             "macro_buckets": [
+              "policy",
               "inflation",
               "fx"
             ],
             "themes": [
-              "inflation"
+              "inflation",
+              "policy",
+              "risk"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": 1,
               "growth": 0,
-              "policy": 0,
+              "policy": 1,
               "liquidity": 0,
-              "risk": 0
+              "risk": 1
             }
           }
         ]
