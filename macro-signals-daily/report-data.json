@@ -1,7 +1,7 @@
 [
   {
-    "date": "2026-11-10",
-    "daily_brief": "2026-11-10: 1 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
+    "date": "2026-11-11",
+    "daily_brief": "2026-11-11: 1 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
     "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
     "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
@@ -12,44 +12,44 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 2.37,
-        "return_5d": 0.08,
-        "close": 752.6900024414062
+        "return_1d": -0.37,
+        "return_5d": -0.59,
+        "close": 749.9199829101562
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.05,
-        "return_5d": 0.28,
-        "close": 81.95999908447266
+        "return_1d": -1.32,
+        "return_5d": -0.28,
+        "close": 80.87999725341797
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.55,
-        "return_5d": 0.03,
-        "close": 28.969999313354492
+        "return_1d": 0.62,
+        "return_5d": 0.48,
+        "close": 29.149999618530273
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -3.87,
-        "return_5d": -9.06,
-        "close": 142.66000366210938
+        "return_1d": -0.85,
+        "return_5d": -10.57,
+        "close": 141.4499969482422
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.36,
-        "return_5d": 0.81,
-        "close": 77.51000213623047
+        "return_1d": -0.43,
+        "return_5d": 0.26,
+        "close": 77.18000030517578
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.88,
-        "return_5d": 4.94,
-        "close": 379.5299987792969
+        "return_1d": -2.68,
+        "return_5d": 2.81,
+        "close": 369.3599853515625
       }
     ],
     "news_sentiment": {
@@ -60,20 +60,20 @@
       "positive_pct": 0.0,
       "neutral_pct": 0.0,
       "negative_pct": 100.0,
-      "average_confidence": 0.955
+      "average_confidence": 0.906
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.65,
+      "label": "risk_off",
+      "score": -0.5,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
-        "HYG": 0.35,
-        "TLT": 0.0,
-        "GLD": -0.1
+        "SPY": -0.4,
+        "HYG": -0.35,
+        "TLT": 0.15,
+        "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
@@ -81,30 +81,31 @@
       "label": "Insufficient data",
       "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
       "news_label": "insufficient_data",
-      "market_label": "risk_on"
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-11-10T21-42-00+00-00-9",
-        "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
+        "doc_id": "www.marketwatch.com-2026-11-11T21-42-00+00-00-7",
+        "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world\u2019s most important bond market",
         "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+        "url": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
         "confidence": "high",
         "sentiment_label": "negative",
-        "sentiment_confidence": 0.9553903341293335,
+        "sentiment_confidence": 0.9063244462013245,
         "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
+        "macro_score": 12,
         "macro_buckets": [
-          "policy",
-          "rates"
+          "inflation",
+          "rates",
+          "energy"
         ],
         "themes": [
-          "policy"
+          "inflation"
         ],
         "scores": {
-          "inflation": 0,
+          "inflation": -2,
           "growth": 0,
-          "policy": -2,
+          "policy": 0,
           "liquidity": 0,
           "risk": 0
         }
@@ -112,31 +113,65 @@
     ],
     "bucket_views": [
       {
-        "name": "policy",
+        "name": "inflation",
         "label": "negative news sentiment",
         "score": -2,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-11-10T21-42-00+00-00-9",
-            "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
+            "doc_id": "www.marketwatch.com-2026-11-11T21-42-00+00-00-7",
+            "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world\u2019s most important bond market",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+            "url": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9553903341293335,
+            "sentiment_confidence": 0.9063244462013245,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "macro_score": 12,
             "macro_buckets": [
-              "policy",
-              "rates"
+              "inflation",
+              "rates",
+              "energy"
             ],
             "themes": [
-              "policy"
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -2,
               "growth": 0,
-              "policy": -2,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.marketwatch.com-2026-11-11T21-42-00+00-00-7",
+            "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world\u2019s most important bond market",
+            "source": "www.marketwatch.com",
+            "url": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9063244462013245,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 12,
+            "macro_buckets": [
+              "inflation",
+              "rates",
+              "energy"
+            ],
+            "themes": [
+              "inflation"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
@@ -149,26 +184,27 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.marketwatch.com-2026-11-10T21-42-00+00-00-9",
-            "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
+            "doc_id": "www.marketwatch.com-2026-11-11T21-42-00+00-00-7",
+            "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world\u2019s most important bond market",
             "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+            "url": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
             "confidence": "high",
             "sentiment_label": "negative",
-            "sentiment_confidence": 0.9553903341293335,
+            "sentiment_confidence": 0.9063244462013245,
             "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "macro_score": 12,
             "macro_buckets": [
-              "policy",
-              "rates"
+              "inflation",
+              "rates",
+              "energy"
             ],
             "themes": [
-              "policy"
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": -2,
               "growth": 0,
-              "policy": -2,
+              "policy": 0,
               "liquidity": 0,
               "risk": 0
             }
@@ -179,10 +215,10 @@
     "debug_documents": []
   },
   {
-    "date": "2026-11-11",
-    "daily_brief": "2026-11-11: 3 unique articles were analyzed. News sentiment was positive. Top theme: inflation.",
-    "macro_read": "Macro read: Inflation, Policy, Risk coverage showed a predominantly positive tone.",
-    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+    "date": "2026-11-12",
+    "daily_brief": "2026-11-12: 3 unique articles were analyzed. News sentiment was positive. Top theme: uncategorized.",
+    "macro_read": "Macro read: Inflation, Policy coverage showed a predominantly positive tone.",
+    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
@@ -191,86 +227,86 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": 2.37,
-        "return_5d": 0.08,
-        "close": 752.6900024414062
+        "return_1d": -0.37,
+        "return_5d": -0.59,
+        "close": 749.9199829101562
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.05,
-        "return_5d": 0.28,
-        "close": 81.95999908447266
+        "return_1d": -1.32,
+        "return_5d": -0.28,
+        "close": 80.87999725341797
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.55,
-        "return_5d": 0.03,
-        "close": 28.969999313354492
+        "return_1d": 0.62,
+        "return_5d": 0.48,
+        "close": 29.149999618530273
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": -3.87,
-        "return_5d": -9.06,
-        "close": 142.66000366210938
+        "return_1d": -0.85,
+        "return_5d": -10.57,
+        "close": 141.4499969482422
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": 0.36,
-        "return_5d": 0.81,
-        "close": 77.51000213623047
+        "return_1d": -0.43,
+        "return_5d": 0.26,
+        "close": 77.18000030517578
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 1.88,
-        "return_5d": 4.94,
-        "close": 379.5299987792969
+        "return_1d": -2.68,
+        "return_5d": 2.81,
+        "close": 369.3599853515625
       }
     ],
     "news_sentiment": {
       "label": "positive",
-      "score": 1.0,
-      "display_score": 1.0,
+      "score": 0.3333333333333333,
+      "display_score": 0.33,
       "unique_documents": 3,
-      "positive_pct": 100.0,
+      "positive_pct": 66.7,
       "neutral_pct": 0.0,
-      "negative_pct": 0.0,
-      "average_confidence": 0.726
+      "negative_pct": 33.3,
+      "average_confidence": 0.622
     },
     "market_regime": {
-      "label": "risk_on",
-      "score": 0.65,
+      "label": "risk_off",
+      "score": -0.5,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": 0.4,
-        "HYG": 0.35,
-        "TLT": 0.0,
-        "GLD": -0.1
+        "SPY": -0.4,
+        "HYG": -0.35,
+        "TLT": 0.15,
+        "GLD": 0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-on response.",
+      "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "confirmed",
-      "label": "Confirmed",
-      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+      "status": "divergent",
+      "label": "Divergent",
+      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
       "news_label": "positive",
-      "market_label": "risk_on"
+      "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-4",
-        "title": "Fed\u2019s Paulson calls for gradual rate hikes amid ongoing high inflation",
+        "doc_id": "www.investing.com-2026-11-12T02-15-19+00-00-5",
+        "title": "Japan wholesale inflation accelerates, keeps alive BOJ rate-hike view",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-paulson-calls-for-gradual-rate-hikes-amid-ongoing-high-inflation-5017333",
-        "confidence": "medium",
+        "url": "https://www.investing.com/news/economy-news/japan-wholesale-inflation-accelerates-keeps-alive-boj-ratehike-view-5020108",
+        "confidence": "high",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.8499229550361633,
+        "sentiment_confidence": 0.9070624709129333,
         "summary_label": "positive-financial-sentiment",
         "macro_score": 9,
         "macro_buckets": [
@@ -282,65 +318,59 @@
           "policy"
         ],
         "scores": {
-          "inflation": 1,
+          "inflation": 2,
           "growth": 0,
-          "policy": 1,
+          "policy": 2,
           "liquidity": 0,
           "risk": 0
         }
       },
       {
-        "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-6",
-        "title": "Fed officials open door to a quicker round of rate hikes as inflation worsens",
+        "doc_id": "www.investing.com-2026-11-12T02-15-19+00-00-9",
+        "title": "Dollar near one-month high as yen edges toward 160",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.8319465517997742,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "policy",
-          "inflation"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": 1,
-          "growth": 0,
-          "policy": 1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-1",
-        "title": "Dollar gains traction as Fed speakers warn of risks from inflation",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation-5017438",
+        "url": "https://www.investing.com/news/economy-news/dollar-near-onemonth-high-as-yen-edges-toward-160-5020092",
         "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.4962293207645416,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.47943082451820374,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 4,
         "macro_buckets": [
-          "policy",
-          "inflation",
           "fx"
         ],
         "themes": [
-          "inflation",
-          "policy",
-          "risk"
+          "uncategorized"
         ],
         "scores": {
-          "inflation": 1,
+          "inflation": 0,
           "growth": 0,
-          "policy": 1,
+          "policy": 0,
           "liquidity": 0,
-          "risk": 1
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-11-12T02-15-19+00-00-2",
+        "title": "Japan\u2019s top currency diplomat renews volatility warning as yen nears key 160 level",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/japans-top-currency-diplomat-renews-volatility-warning-as-yen-nears-key-160-level-5020140",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.4793584644794464,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "fx"
+        ],
+        "themes": [
+          "uncategorized"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
         }
       }
     ],
@@ -348,16 +378,16 @@
       {
         "name": "policy",
         "label": "positive news sentiment",
-        "score": 3,
+        "score": 2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-4",
-            "title": "Fed\u2019s Paulson calls for gradual rate hikes amid ongoing high inflation",
+            "doc_id": "www.investing.com-2026-11-12T02-15-19+00-00-5",
+            "title": "Japan wholesale inflation accelerates, keeps alive BOJ rate-hike view",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-paulson-calls-for-gradual-rate-hikes-amid-ongoing-high-inflation-5017333",
-            "confidence": "medium",
+            "url": "https://www.investing.com/news/economy-news/japan-wholesale-inflation-accelerates-keeps-alive-boj-ratehike-view-5020108",
+            "confidence": "high",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.8499229550361633,
+            "sentiment_confidence": 0.9070624709129333,
             "summary_label": "positive-financial-sentiment",
             "macro_score": 9,
             "macro_buckets": [
@@ -369,65 +399,11 @@
               "policy"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": 2,
               "growth": 0,
-              "policy": 1,
+              "policy": 2,
               "liquidity": 0,
               "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-6",
-            "title": "Fed officials open door to a quicker round of rate hikes as inflation worsens",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8319465517997742,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-1",
-            "title": "Dollar gains traction as Fed speakers warn of risks from inflation",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation-5017438",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.4962293207645416,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "fx"
-            ],
-            "themes": [
-              "inflation",
-              "policy",
-              "risk"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 1
             }
           }
         ]
@@ -435,16 +411,16 @@
       {
         "name": "inflation",
         "label": "positive news sentiment",
-        "score": 3,
+        "score": 2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-4",
-            "title": "Fed\u2019s Paulson calls for gradual rate hikes amid ongoing high inflation",
+            "doc_id": "www.investing.com-2026-11-12T02-15-19+00-00-5",
+            "title": "Japan wholesale inflation accelerates, keeps alive BOJ rate-hike view",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-paulson-calls-for-gradual-rate-hikes-amid-ongoing-high-inflation-5017333",
-            "confidence": "medium",
+            "url": "https://www.investing.com/news/economy-news/japan-wholesale-inflation-accelerates-keeps-alive-boj-ratehike-view-5020108",
+            "confidence": "high",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.8499229550361633,
+            "sentiment_confidence": 0.9070624709129333,
             "summary_label": "positive-financial-sentiment",
             "macro_score": 9,
             "macro_buckets": [
@@ -456,100 +432,66 @@
               "policy"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": 2,
               "growth": 0,
-              "policy": 1,
+              "policy": 2,
               "liquidity": 0,
               "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-6",
-            "title": "Fed officials open door to a quicker round of rate hikes as inflation worsens",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8319465517997742,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-1",
-            "title": "Dollar gains traction as Fed speakers warn of risks from inflation",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation-5017438",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.4962293207645416,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation",
-              "fx"
-            ],
-            "themes": [
-              "inflation",
-              "policy",
-              "risk"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 1
             }
           }
         ]
       },
       {
         "name": "fx",
-        "label": "positive news sentiment",
-        "score": 1,
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-11T01-14-19+00-00-1",
-            "title": "Dollar gains traction as Fed speakers warn of risks from inflation",
+            "doc_id": "www.investing.com-2026-11-12T02-15-19+00-00-2",
+            "title": "Japan\u2019s top currency diplomat renews volatility warning as yen nears key 160 level",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation-5017438",
+            "url": "https://www.investing.com/news/economy-news/japans-top-currency-diplomat-renews-volatility-warning-as-yen-nears-key-160-level-5020140",
             "confidence": "low",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.4962293207645416,
+            "sentiment_confidence": 0.4793584644794464,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 4,
             "macro_buckets": [
-              "policy",
-              "inflation",
               "fx"
             ],
             "themes": [
-              "inflation",
-              "policy",
-              "risk"
+              "uncategorized"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": 0,
               "growth": 0,
-              "policy": 1,
+              "policy": 0,
               "liquidity": 0,
-              "risk": 1
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-11-12T02-15-19+00-00-9",
+            "title": "Dollar near one-month high as yen edges toward 160",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/dollar-near-onemonth-high-as-yen-edges-toward-160-5020092",
+            "confidence": "low",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.47943082451820374,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 4,
+            "macro_buckets": [
+              "fx"
+            ],
+            "themes": [
+              "uncategorized"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
             }
           }
         ]

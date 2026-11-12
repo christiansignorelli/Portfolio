@@ -1,59 +1,57 @@
 [
   {
-    "id": "www.investing.com-2026-11-11T01-14-19+00-00-1",
+    "id": "www.marketwatch.com-2026-11-11T21-42-00+00-00-7",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-11-11T21:42:00+00:00",
+    "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world\u2019s most important bond market",
+    "body": "The tight trading relationship between oil prices and Treasury yields has broken down. It\u2019s a sign that inflation concerns are extending beyond the energy shock.",
+    "url": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
+    "macro_score": 12,
+    "macro_buckets": [
+      "inflation",
+      "rates",
+      "energy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-12T02-15-19+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-11T01:14:19+00:00",
-    "title": "Dollar gains traction as Fed speakers warn of risks from inflation",
+    "published_at": "2026-11-12T02:15:19+00:00",
+    "title": "Japan wholesale inflation accelerates, keeps alive BOJ rate-hike view",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation-5017438",
+    "url": "https://www.investing.com/news/economy-news/japan-wholesale-inflation-accelerates-keeps-alive-boj-ratehike-view-5020108",
     "macro_score": 9,
     "macro_buckets": [
       "policy",
-      "inflation",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-12T02-15-19+00-00-2",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-12T02:15:19+00:00",
+    "title": "Japan\u2019s top currency diplomat renews volatility warning as yen nears key 160 level",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/japans-top-currency-diplomat-renews-volatility-warning-as-yen-nears-key-160-level-5020140",
+    "macro_score": 4,
+    "macro_buckets": [
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-11-11T01-14-19+00-00-4",
+    "id": "www.investing.com-2026-11-12T02-15-19+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-11T01:14:19+00:00",
-    "title": "Fed\u2019s Paulson calls for gradual rate hikes amid ongoing high inflation",
+    "published_at": "2026-11-12T02:15:19+00:00",
+    "title": "Dollar near one-month high as yen edges toward 160",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-paulson-calls-for-gradual-rate-hikes-amid-ongoing-high-inflation-5017333",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/dollar-near-onemonth-high-as-yen-edges-toward-160-5020092",
+    "macro_score": 4,
     "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-11T01-14-19+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-11T01:14:19+00:00",
-    "title": "Fed officials open door to a quicker round of rate hikes as inflation worsens",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-11-10T21-42-00+00-00-9",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-11-10T21:42:00+00:00",
-    "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
-    "body": "\u201cI don\u2019t think they should be raising another 25 basis points,\u201d one portfolio manager said about the Federal Reserve\u2019s benchmark interest rate.",
-    "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
-    "macro_score": 7,
-    "macro_buckets": [
-      "policy",
-      "rates"
+      "fx"
     ]
   }
 ]
