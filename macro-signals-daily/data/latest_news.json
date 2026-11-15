@@ -1,56 +1,16 @@
 [
   {
-    "id": "www.investing.com-2026-11-14T01-27-17+00-00-9",
+    "id": "www.investing.com-2026-11-15T01-01-11+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-14T01:27:17+00:00",
-    "title": "Fed likely to need to raise rates amid worsening inflation: Daly",
+    "published_at": "2026-11-15T01:01:11+00:00",
+    "title": "Fed\u2019s Collins says gradual rate hikes best to manage economic risks",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/fed-likely-to-need-to-raise-rates-amid-worsening-inflation-daly-5026338",
+    "url": "https://www.investing.com/news/economy-news/feds-collins-says-gradual-rate-hikes-best-to-manage-economic-risks-5027385",
     "macro_score": 9,
     "macro_buckets": [
       "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-11-13T22-04-00+00-00-5",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-11-13T22:04:00+00:00",
-    "title": "Global oil supplies are suddenly flowing. Why a crude glut won\u2019t mean cheaper diesel.",
-    "body": "It\u2019s official: the world is expected to soon have more oil than it needs for the first time since the Iran war began in February. But more oil doesn\u2019t automatically lead to lower diesel prices.",
-    "url": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
-    "macro_score": 6,
-    "macro_buckets": [
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-14T01-27-17+00-00-1",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-14T01:27:17+00:00",
-    "title": "Fed\u2019s Jefferson says he is taking his policy cues from inflation",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-jefferson-says-he-is-taking-his-policy-cues-from-inflation-5026805",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-14T01-27-17+00-00-5",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-14T01:27:17+00:00",
-    "title": "Dollar set for best week in two months, yen weakens toward 160",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-near-19month-high-on-fed-hike-bets-yen-tests-160-5023930",
-    "macro_score": 4,
-    "macro_buckets": [
-      "fx"
+      "growth"
     ]
   }
 ]
