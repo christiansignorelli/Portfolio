@@ -1,16 +1,44 @@
 [
   {
-    "id": "www.investing.com-2026-11-15T01-01-11+00-00-2",
+    "id": "www.investing.com-2026-11-16T01-00-10+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-15T01:01:11+00:00",
-    "title": "Fed\u2019s Collins says gradual rate hikes best to manage economic risks",
+    "published_at": "2026-11-16T01:00:10+00:00",
+    "title": "Kansas City Fed\u2019s Schmid says central bank has work to do on inflation",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-collins-says-gradual-rate-hikes-best-to-manage-economic-risks-5027385",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/kansas-city-feds-schmid-says-central-bank-has-work-to-do-on-inflation-5028049",
+    "macro_score": 7,
     "macro_buckets": [
       "policy",
-      "growth"
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-16T01-00-10+00-00-6",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-16T01:00:10+00:00",
+    "title": "Fed \u2019has some work to do on inflation,\u2019 KC Fed chief says",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/fed-has-some-work-to-do-on-inflation-kc-fed-chief-says-5028048",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-16T01-00-10+00-00-9",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-16T01:00:10+00:00",
+    "title": "Labour lawmakers challenge Burnham on Rosebank oil drilling - report",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/labour-lawmakers-challenge-burnham-on-rosebank-oil-drilling--report-5027878",
+    "macro_score": 6,
+    "macro_buckets": [
+      "labor",
+      "energy"
     ]
   }
 ]

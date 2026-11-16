@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-11-15",
-    "daily_brief": "2026-11-15: 1 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
-    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
-    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
+    "date": "2026-11-16",
+    "daily_brief": "2026-11-16: 3 unique articles were analyzed. News sentiment was negative. Top theme: inflation.",
+    "macro_read": "Macro read: Inflation, Policy, Liquidity coverage showed a predominantly negative tone.",
+    "market_confirmation": "News sentiment and the market\u2019s risk response moved in the same direction.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
@@ -53,14 +53,14 @@
       }
     ],
     "news_sentiment": {
-      "label": "insufficient_data",
-      "score": 1.0,
-      "display_score": 1.0,
-      "unique_documents": 1,
-      "positive_pct": 100.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 0.0,
-      "average_confidence": 0.688
+      "label": "negative",
+      "score": -0.3333333333333333,
+      "display_score": -0.33,
+      "unique_documents": 3,
+      "positive_pct": 0.0,
+      "neutral_pct": 66.7,
+      "negative_pct": 33.3,
+      "average_confidence": 0.852
     },
     "market_regime": {
       "label": "risk_off",
@@ -77,103 +77,276 @@
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "insufficient_data",
-      "label": "Insufficient data",
-      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
-      "news_label": "insufficient_data",
+      "status": "confirmed",
+      "label": "Confirmed",
+      "explanation": "News sentiment and the market\u2019s risk response moved in the same direction.",
+      "news_label": "negative",
       "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-11-15T01-01-11+00-00-2",
-        "title": "Fed\u2019s Collins says gradual rate hikes best to manage economic risks",
+        "doc_id": "www.investing.com-2026-11-16T01-00-10+00-00-5",
+        "title": "Kansas City Fed\u2019s Schmid says central bank has work to do on inflation",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-collins-says-gradual-rate-hikes-best-to-manage-economic-risks-5027385",
+        "url": "https://www.investing.com/news/economy-news/kansas-city-feds-schmid-says-central-bank-has-work-to-do-on-inflation-5028049",
         "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.6876381635665894,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.84426349401474,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 7,
         "macro_buckets": [
           "policy",
-          "growth"
+          "inflation"
         ],
         "themes": [
+          "inflation",
           "policy",
-          "risk"
+          "liquidity"
         ],
         "scores": {
           "inflation": 0,
           "growth": 0,
-          "policy": 1,
+          "policy": 0,
           "liquidity": 0,
-          "risk": 1
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-11-16T01-00-10+00-00-9",
+        "title": "Labour lawmakers challenge Burnham on Rosebank oil drilling - report",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/labour-lawmakers-challenge-burnham-on-rosebank-oil-drilling--report-5027878",
+        "confidence": "high",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.9055284261703491,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "labor",
+          "energy"
+        ],
+        "themes": [
+          "inflation",
+          "liquidity"
+        ],
+        "scores": {
+          "inflation": -2,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": -2,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-11-16T01-00-10+00-00-6",
+        "title": "Fed \u2019has some work to do on inflation,\u2019 KC Fed chief says",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/fed-has-some-work-to-do-on-inflation-kc-fed-chief-says-5028048",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.8071134686470032,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation",
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
         }
       }
     ],
     "bucket_views": [
       {
-        "name": "policy",
-        "label": "positive news sentiment",
-        "score": 1,
+        "name": "inflation",
+        "label": "negative news sentiment",
+        "score": -2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-15T01-01-11+00-00-2",
-            "title": "Fed\u2019s Collins says gradual rate hikes best to manage economic risks",
+            "doc_id": "www.investing.com-2026-11-16T01-00-10+00-00-5",
+            "title": "Kansas City Fed\u2019s Schmid says central bank has work to do on inflation",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-collins-says-gradual-rate-hikes-best-to-manage-economic-risks-5027385",
+            "url": "https://www.investing.com/news/economy-news/kansas-city-feds-schmid-says-central-bank-has-work-to-do-on-inflation-5028049",
             "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.6876381635665894,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.84426349401474,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
               "policy",
-              "growth"
+              "inflation"
             ],
             "themes": [
+              "inflation",
               "policy",
-              "risk"
+              "liquidity"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 1,
+              "policy": 0,
               "liquidity": 0,
-              "risk": 1
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-11-16T01-00-10+00-00-6",
+            "title": "Fed \u2019has some work to do on inflation,\u2019 KC Fed chief says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/fed-has-some-work-to-do-on-inflation-kc-fed-chief-says-5028048",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.8071134686470032,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
             }
           }
         ]
       },
       {
-        "name": "growth",
+        "name": "energy",
+        "label": "negative news sentiment",
+        "score": -2,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-11-16T01-00-10+00-00-9",
+            "title": "Labour lawmakers challenge Burnham on Rosebank oil drilling - report",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/labour-lawmakers-challenge-burnham-on-rosebank-oil-drilling--report-5027878",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9055284261703491,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "labor",
+              "energy"
+            ],
+            "themes": [
+              "inflation",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": -2,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "policy",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-15T01-01-11+00-00-2",
-            "title": "Fed\u2019s Collins says gradual rate hikes best to manage economic risks",
+            "doc_id": "www.investing.com-2026-11-16T01-00-10+00-00-5",
+            "title": "Kansas City Fed\u2019s Schmid says central bank has work to do on inflation",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-collins-says-gradual-rate-hikes-best-to-manage-economic-risks-5027385",
+            "url": "https://www.investing.com/news/economy-news/kansas-city-feds-schmid-says-central-bank-has-work-to-do-on-inflation-5028049",
             "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.6876381635665894,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.84426349401474,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
               "policy",
-              "growth"
+              "inflation"
             ],
             "themes": [
+              "inflation",
               "policy",
-              "risk"
+              "liquidity"
             ],
             "scores": {
               "inflation": 0,
               "growth": 0,
-              "policy": 1,
+              "policy": 0,
               "liquidity": 0,
-              "risk": 1
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-11-16T01-00-10+00-00-6",
+            "title": "Fed \u2019has some work to do on inflation,\u2019 KC Fed chief says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/fed-has-some-work-to-do-on-inflation-kc-fed-chief-says-5028048",
+            "confidence": "medium",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.8071134686470032,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "inflation"
+            ],
+            "themes": [
+              "inflation",
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "labor",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-11-16T01-00-10+00-00-9",
+            "title": "Labour lawmakers challenge Burnham on Rosebank oil drilling - report",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/labour-lawmakers-challenge-burnham-on-rosebank-oil-drilling--report-5027878",
+            "confidence": "high",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.9055284261703491,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "labor",
+              "energy"
+            ],
+            "themes": [
+              "inflation",
+              "liquidity"
+            ],
+            "scores": {
+              "inflation": -2,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": -2,
+              "risk": 0
             }
           }
         ]
