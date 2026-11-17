@@ -1,44 +1,16 @@
 [
   {
-    "id": "www.investing.com-2026-11-16T01-00-10+00-00-5",
+    "id": "www.investing.com-2026-11-17T03-47-38+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-16T01:00:10+00:00",
-    "title": "Kansas City Fed\u2019s Schmid says central bank has work to do on inflation",
+    "published_at": "2026-11-17T03:47:38+00:00",
+    "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/kansas-city-feds-schmid-says-central-bank-has-work-to-do-on-inflation-5028049",
-    "macro_score": 7,
+    "url": "https://www.investing.com/news/economy-news/us-dollar-hits-19month-peak-on-fed-hike-bets-aussie-dips-5031443",
+    "macro_score": 8,
     "macro_buckets": [
       "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-16T01-00-10+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-16T01:00:10+00:00",
-    "title": "Fed \u2019has some work to do on inflation,\u2019 KC Fed chief says",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/fed-has-some-work-to-do-on-inflation-kc-fed-chief-says-5028048",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-16T01-00-10+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-16T01:00:10+00:00",
-    "title": "Labour lawmakers challenge Burnham on Rosebank oil drilling - report",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/labour-lawmakers-challenge-burnham-on-rosebank-oil-drilling--report-5027878",
-    "macro_score": 6,
-    "macro_buckets": [
-      "labor",
-      "energy"
+      "fx"
     ]
   }
 ]
