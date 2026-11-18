@@ -1,16 +1,56 @@
 [
   {
-    "id": "www.investing.com-2026-11-17T03-47-38+00-00-1",
+    "id": "www.investing.com-2026-11-18T02-53-21+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-17T03:47:38+00:00",
-    "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+    "published_at": "2026-11-18T02:53:21+00:00",
+    "title": "Fed\u2019s Williams says more rate hikes likely needed amid inflation",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-dollar-hits-19month-peak-on-fed-hike-bets-aussie-dips-5031443",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/feds-williams-says-more-rate-hikes-likely-needed-amid-inflation-5033876",
+    "macro_score": 9,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-18T02-53-21+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-18T02:53:21+00:00",
+    "title": "Bank of Japan governor says central bank should keep raising rates",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/ueda-says-boj-will-weigh-if-underlying-inflation-becomes-anchored-5034497",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-18T02-53-21+00-00-3",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-18T02:53:21+00:00",
+    "title": "Dollar holds near 19-month high as data supports case for US rate hikes",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/dollar-holds-near-19month-high-as-data-supports-case-for-us-rate-hikes-5034498",
+    "macro_score": 4,
     "macro_buckets": [
       "policy",
       "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-18T02-53-21+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-18T02:53:21+00:00",
+    "title": "Fed\u2019s Waller says central bank will work with private sector on digital finance",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/feds-waller-says-central-bank-will-work-with-private-sector-on-digital-finance-5033237",
+    "macro_score": 4,
+    "macro_buckets": [
+      "policy"
     ]
   }
 ]
