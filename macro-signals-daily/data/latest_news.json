@@ -1,56 +1,57 @@
 [
   {
-    "id": "www.investing.com-2026-11-18T02-53-21+00-00-6",
+    "id": "www.investing.com-2026-11-19T02-32-11+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-18T02:53:21+00:00",
-    "title": "Fed\u2019s Williams says more rate hikes likely needed amid inflation",
+    "published_at": "2026-11-19T02:32:11+00:00",
+    "title": "Fed\u2019s Barr says rate rises likely lie ahead for economy",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-williams-says-more-rate-hikes-likely-needed-amid-inflation-5033876",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/feds-barr-says-rate-rises-likely-lie-ahead-for-economy-5036832",
+    "macro_score": 8,
     "macro_buckets": [
       "policy",
-      "inflation"
+      "growth"
     ]
   },
   {
-    "id": "www.investing.com-2026-11-18T02-53-21+00-00-1",
+    "id": "www.investing.com-2026-11-19T02-32-11+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-18T02:53:21+00:00",
-    "title": "Bank of Japan governor says central bank should keep raising rates",
+    "published_at": "2026-11-19T02:32:11+00:00",
+    "title": "US dollar hovers near 19-month high, Aussie falls after soft jobs data",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/ueda-says-boj-will-weigh-if-underlying-inflation-becomes-anchored-5034497",
+    "url": "https://www.investing.com/news/economy-news/us-dollar-hovers-near-19month-high-aussie-falls-after-soft-jobs-data-5037555",
+    "macro_score": 7,
+    "macro_buckets": [
+      "labor",
+      "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-19T02-32-11+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-19T02:32:11+00:00",
+    "title": "BOJ Governor Ueda says financial conditions loose despite rate hikes",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/boj-governor-ueda-says-financial-conditions-loose-despite-rate-hikes-5037517",
     "macro_score": 6,
     "macro_buckets": [
       "policy"
     ]
   },
   {
-    "id": "www.investing.com-2026-11-18T02-53-21+00-00-3",
+    "id": "www.investing.com-2026-11-19T02-32-11+00-00-9",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-18T02:53:21+00:00",
-    "title": "Dollar holds near 19-month high as data supports case for US rate hikes",
+    "published_at": "2026-11-19T02:32:11+00:00",
+    "title": "UK inflation rises to one-year high but markets trim rate hike bets",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-holds-near-19month-high-as-data-supports-case-for-us-rate-hikes-5034498",
+    "url": "https://www.investing.com/news/economy-news/uk-inflation-rose-to-36-in-october-5034916",
     "macro_score": 4,
     "macro_buckets": [
       "policy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-18T02-53-21+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-18T02:53:21+00:00",
-    "title": "Fed\u2019s Waller says central bank will work with private sector on digital finance",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-waller-says-central-bank-will-work-with-private-sector-on-digital-finance-5033237",
-    "macro_score": 4,
-    "macro_buckets": [
-      "policy"
+      "inflation"
     ]
   }
 ]

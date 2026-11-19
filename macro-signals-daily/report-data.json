@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-11-18",
-    "daily_brief": "2026-11-18: 4 unique articles were analyzed. News sentiment was positive. Top theme: policy.",
-    "macro_read": "Macro read: Policy, Liquidity, Inflation coverage showed a predominantly positive tone.",
-    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+    "date": "2026-11-19",
+    "daily_brief": "2026-11-19: 4 unique articles were analyzed. News sentiment was neutral. Top theme: uncategorized.",
+    "macro_read": "Macro read: coverage across policy, inflation was broadly neutral or mixed.",
+    "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
@@ -12,98 +12,97 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -1.01,
-        "return_5d": -2.33,
-        "close": 732.4400024414062
+        "return_1d": -0.31,
+        "return_5d": -3.9,
+        "close": 730.2000122070312
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.21,
-        "return_5d": -1.64,
-        "close": 79.55000305175781
+        "return_1d": 0.84,
+        "return_5d": -0.87,
+        "close": 80.22000122070312
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.07,
-        "return_5d": 1.34,
-        "close": 29.540000915527344
+        "return_1d": 0.27,
+        "return_5d": 0.92,
+        "close": 29.6200008392334
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 0.15,
-        "return_5d": -0.86,
-        "close": 140.24000549316406
+        "return_1d": -2.94,
+        "return_5d": -3.79,
+        "close": 136.11000061035156
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.13,
-        "return_5d": -0.71,
-        "close": 76.62999725341797
+        "return_1d": 0.03,
+        "return_5d": -0.9,
+        "close": 76.6500015258789
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -0.13,
-        "return_5d": -4.57,
-        "close": 352.4800109863281
+        "return_1d": -3.2,
+        "return_5d": -6.57,
+        "close": 341.19000244140625
       }
     ],
     "news_sentiment": {
-      "label": "positive",
-      "score": 0.5,
-      "display_score": 0.5,
+      "label": "neutral",
+      "score": 0.0,
+      "display_score": 0.0,
       "unique_documents": 4,
       "positive_pct": 50.0,
-      "neutral_pct": 50.0,
-      "negative_pct": 0.0,
-      "average_confidence": 0.585
+      "neutral_pct": 0.0,
+      "negative_pct": 50.0,
+      "average_confidence": 0.727
     },
     "market_regime": {
       "label": "risk_off",
-      "score": -0.55,
+      "score": -0.45,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
         "SPY": -0.4,
         "HYG": 0.0,
         "TLT": -0.15,
-        "GLD": 0.0
+        "GLD": 0.1
       },
       "explanation": "Primary market proxies showed a broadly risk-off response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "divergent",
-      "label": "Divergent",
-      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
-      "news_label": "positive",
+      "status": "market_led",
+      "label": "Market-led",
+      "explanation": "News sentiment was neutral, while markets showed a clearer directional response.",
+      "news_label": "neutral",
       "market_label": "risk_off"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-11-18T02-53-21+00-00-6",
-        "title": "Fed\u2019s Williams says more rate hikes likely needed amid inflation",
+        "doc_id": "www.investing.com-2026-11-19T02-32-11+00-00-6",
+        "title": "Fed\u2019s Barr says rate rises likely lie ahead for economy",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-williams-says-more-rate-hikes-likely-needed-amid-inflation-5033876",
-        "confidence": "low",
+        "url": "https://www.investing.com/news/economy-news/feds-barr-says-rate-rises-likely-lie-ahead-for-economy-5036832",
+        "confidence": "medium",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.6040575504302979,
+        "sentiment_confidence": 0.684574544429779,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
+        "macro_score": 8,
         "macro_buckets": [
           "policy",
-          "inflation"
+          "growth"
         ],
         "themes": [
-          "inflation",
           "policy"
         ],
         "scores": {
-          "inflation": 1,
+          "inflation": 0,
           "growth": 0,
           "policy": 1,
           "liquidity": 0,
@@ -111,42 +110,17 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-11-18T02-53-21+00-00-1",
-        "title": "Bank of Japan governor says central bank should keep raising rates",
+        "doc_id": "www.investing.com-2026-11-19T02-32-11+00-00-2",
+        "title": "US dollar hovers near 19-month high, Aussie falls after soft jobs data",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/ueda-says-boj-will-weigh-if-underlying-inflation-becomes-anchored-5034497",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.48468124866485596,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-11-18T02-53-21+00-00-3",
-        "title": "Dollar holds near 19-month high as data supports case for US rate hikes",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-holds-near-19month-high-as-data-supports-case-for-us-rate-hikes-5034498",
+        "url": "https://www.investing.com/news/economy-news/us-dollar-hovers-near-19month-high-aussie-falls-after-soft-jobs-data-5037555",
         "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.7403416633605957,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 4,
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.847621500492096,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 7,
         "macro_buckets": [
-          "policy",
+          "labor",
           "fx"
         ],
         "themes": [
@@ -161,24 +135,48 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-11-18T02-53-21+00-00-10",
-        "title": "Fed\u2019s Waller says central bank will work with private sector on digital finance",
+        "doc_id": "www.investing.com-2026-11-19T02-32-11+00-00-5",
+        "title": "BOJ Governor Ueda says financial conditions loose despite rate hikes",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-waller-says-central-bank-will-work-with-private-sector-on-digital-finance-5033237",
-        "confidence": "low",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.5126096606254578,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 4,
+        "url": "https://www.investing.com/news/economy-news/boj-governor-ueda-says-financial-conditions-loose-despite-rate-hikes-5037517",
+        "confidence": "medium",
+        "sentiment_label": "negative",
+        "sentiment_confidence": 0.788692831993103,
+        "summary_label": "negative-financial-sentiment",
+        "macro_score": 6,
         "macro_buckets": [
           "policy"
         ],
         "themes": [
-          "policy",
-          "liquidity"
+          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
+          "growth": 0,
+          "policy": 0,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-11-19T02-32-11+00-00-9",
+        "title": "UK inflation rises to one-year high but markets trim rate hike bets",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/uk-inflation-rose-to-36-in-october-5034916",
+        "confidence": "low",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.5875194072723389,
+        "summary_label": "positive-financial-sentiment",
+        "macro_score": 4,
+        "macro_buckets": [
+          "policy",
+          "inflation"
+        ],
+        "themes": [
+          "inflation"
+        ],
+        "scores": {
+          "inflation": 1,
           "growth": 0,
           "policy": 0,
           "liquidity": 0,
@@ -193,25 +191,24 @@
         "score": 1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-18T02-53-21+00-00-6",
-            "title": "Fed\u2019s Williams says more rate hikes likely needed amid inflation",
+            "doc_id": "www.investing.com-2026-11-19T02-32-11+00-00-6",
+            "title": "Fed\u2019s Barr says rate rises likely lie ahead for economy",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-williams-says-more-rate-hikes-likely-needed-amid-inflation-5033876",
-            "confidence": "low",
+            "url": "https://www.investing.com/news/economy-news/feds-barr-says-rate-rises-likely-lie-ahead-for-economy-5036832",
+            "confidence": "medium",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.6040575504302979,
+            "sentiment_confidence": 0.684574544429779,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 8,
             "macro_buckets": [
               "policy",
-              "inflation"
+              "growth"
             ],
             "themes": [
-              "inflation",
               "policy"
             ],
             "scores": {
-              "inflation": 1,
+              "inflation": 0,
               "growth": 0,
               "policy": 1,
               "liquidity": 0,
@@ -219,21 +216,20 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-11-18T02-53-21+00-00-1",
-            "title": "Bank of Japan governor says central bank should keep raising rates",
+            "doc_id": "www.investing.com-2026-11-19T02-32-11+00-00-5",
+            "title": "BOJ Governor Ueda says financial conditions loose despite rate hikes",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/ueda-says-boj-will-weigh-if-underlying-inflation-becomes-anchored-5034497",
-            "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.48468124866485596,
-            "summary_label": "neutral-financial-sentiment",
+            "url": "https://www.investing.com/news/economy-news/boj-governor-ueda-says-financial-conditions-loose-despite-rate-hikes-5037517",
+            "confidence": "medium",
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.788692831993103,
+            "summary_label": "negative-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
               "policy"
             ],
             "themes": [
-              "policy",
-              "liquidity"
+              "uncategorized"
             ],
             "scores": {
               "inflation": 0,
@@ -244,24 +240,24 @@
             }
           },
           {
-            "doc_id": "www.investing.com-2026-11-18T02-53-21+00-00-10",
-            "title": "Fed\u2019s Waller says central bank will work with private sector on digital finance",
+            "doc_id": "www.investing.com-2026-11-19T02-32-11+00-00-9",
+            "title": "UK inflation rises to one-year high but markets trim rate hike bets",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-waller-says-central-bank-will-work-with-private-sector-on-digital-finance-5033237",
+            "url": "https://www.investing.com/news/economy-news/uk-inflation-rose-to-36-in-october-5034916",
             "confidence": "low",
-            "sentiment_label": "neutral",
-            "sentiment_confidence": 0.5126096606254578,
-            "summary_label": "neutral-financial-sentiment",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.5875194072723389,
+            "summary_label": "positive-financial-sentiment",
             "macro_score": 4,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "inflation"
             ],
             "themes": [
-              "policy",
-              "liquidity"
+              "inflation"
             ],
             "scores": {
-              "inflation": 0,
+              "inflation": 1,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
@@ -276,25 +272,56 @@
         "score": 1,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-18T02-53-21+00-00-6",
-            "title": "Fed\u2019s Williams says more rate hikes likely needed amid inflation",
+            "doc_id": "www.investing.com-2026-11-19T02-32-11+00-00-9",
+            "title": "UK inflation rises to one-year high but markets trim rate hike bets",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-williams-says-more-rate-hikes-likely-needed-amid-inflation-5033876",
+            "url": "https://www.investing.com/news/economy-news/uk-inflation-rose-to-36-in-october-5034916",
             "confidence": "low",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.6040575504302979,
+            "sentiment_confidence": 0.5875194072723389,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 4,
             "macro_buckets": [
               "policy",
               "inflation"
             ],
             "themes": [
-              "inflation",
-              "policy"
+              "inflation"
             ],
             "scores": {
               "inflation": 1,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "growth",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-11-19T02-32-11+00-00-6",
+            "title": "Fed\u2019s Barr says rate rises likely lie ahead for economy",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/feds-barr-says-rate-rises-likely-lie-ahead-for-economy-5036832",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.684574544429779,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 8,
+            "macro_buckets": [
+              "policy",
+              "growth"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
               "growth": 0,
               "policy": 1,
               "liquidity": 0,
@@ -304,22 +331,22 @@
         ]
       },
       {
-        "name": "fx",
+        "name": "labor",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-18T02-53-21+00-00-3",
-            "title": "Dollar holds near 19-month high as data supports case for US rate hikes",
+            "doc_id": "www.investing.com-2026-11-19T02-32-11+00-00-2",
+            "title": "US dollar hovers near 19-month high, Aussie falls after soft jobs data",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-holds-near-19month-high-as-data-supports-case-for-us-rate-hikes-5034498",
+            "url": "https://www.investing.com/news/economy-news/us-dollar-hovers-near-19month-high-aussie-falls-after-soft-jobs-data-5037555",
             "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.7403416633605957,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 4,
+            "sentiment_label": "negative",
+            "sentiment_confidence": 0.847621500492096,
+            "summary_label": "negative-financial-sentiment",
+            "macro_score": 7,
             "macro_buckets": [
-              "policy",
+              "labor",
               "fx"
             ],
             "themes": [
