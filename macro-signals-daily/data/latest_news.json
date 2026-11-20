@@ -1,57 +1,56 @@
 [
   {
-    "id": "www.investing.com-2026-11-19T02-32-11+00-00-6",
+    "id": "www.investing.com-2026-11-20T02-17-20+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-19T02:32:11+00:00",
-    "title": "Fed\u2019s Barr says rate rises likely lie ahead for economy",
+    "published_at": "2026-11-20T02:17:20+00:00",
+    "title": "Analysis-BOJ\u2019s ambiguity on rate hike path could tempt yen bears",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-barr-says-rate-rises-likely-lie-ahead-for-economy-5036832",
-    "macro_score": 8,
+    "url": "https://www.investing.com/news/economy-news/analysisbojs-ambiguity-on-rate-hike-path-could-tempt-yen-bears-5040426",
+    "macro_score": 9,
     "macro_buckets": [
       "policy",
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-19T02-32-11+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-19T02:32:11+00:00",
-    "title": "US dollar hovers near 19-month high, Aussie falls after soft jobs data",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-dollar-hovers-near-19month-high-aussie-falls-after-soft-jobs-data-5037555",
-    "macro_score": 7,
-    "macro_buckets": [
-      "labor",
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-11-19T02-32-11+00-00-5",
+    "id": "www.investing.com-2026-11-20T02-17-20+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-19T02:32:11+00:00",
-    "title": "BOJ Governor Ueda says financial conditions loose despite rate hikes",
+    "published_at": "2026-11-20T02:17:20+00:00",
+    "title": "Japan\u2019s core inflation accelerates in October, cementing rate hike expectations",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/boj-governor-ueda-says-financial-conditions-loose-despite-rate-hikes-5037517",
+    "url": "https://www.investing.com/news/economy-news/japans-core-inflation-accelerates-in-october-cementing-rate-hike-expectations-5040357",
     "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-19T02-32-11+00-00-9",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-19T02:32:11+00:00",
-    "title": "UK inflation rises to one-year high but markets trim rate hike bets",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/uk-inflation-rose-to-36-in-october-5034916",
-    "macro_score": 4,
     "macro_buckets": [
       "policy",
       "inflation"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-11-19T22-41-00+00-00-6",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-11-19T22:41:00+00:00",
+    "title": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds",
+    "body": "While executives typically buy shares to signal confidence, CoreWeave co-founder Brian Venturo is turning to the bond market to calm AI jitters.",
+    "url": "https://www.marketwatch.com/story/a-coreweave-co-founder-just-made-an-unconventional-30-million-wager-on-its-battered-bonds-5586b0e9?mod=mw_rss_topstories",
+    "macro_score": 4,
+    "macro_buckets": [
+      "rates"
+    ]
+  },
+  {
+    "id": "www.marketwatch.com-2026-11-19T21-57-00+00-00-8",
+    "source": "www.marketwatch.com",
+    "feed_url": "https://www.marketwatch.com/rss/topstories",
+    "published_at": "2026-11-19T21:57:00+00:00",
+    "title": "Markets are sending troubling signals about the state of the economy",
+    "body": "A number of recession trades have started to emerge, even as economic data has largely held up.",
+    "url": "https://www.marketwatch.com/story/markets-are-sending-troubling-signals-about-the-state-of-the-economy-8043f20e?mod=mw_rss_topstories",
+    "macro_score": 4,
+    "macro_buckets": [
+      "growth"
     ]
   }
 ]
