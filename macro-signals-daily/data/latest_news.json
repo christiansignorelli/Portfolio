@@ -1,97 +1,15 @@
 [
   {
-    "id": "www.investing.com-2026-11-21T02-11-10+00-00-9",
+    "id": "www.investing.com-2026-11-22T01-14-13+00-00-10",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-21T02:11:10+00:00",
-    "title": "Fed\u2019s Cook says September rate hike likely insufficient to curb price pressures",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-cook-says-september-rate-hike-likely-insufficient-to-curb-price-pressures-5042348",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-21T02-11-10+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-21T02:11:10+00:00",
-    "title": "Fed\u2019s Cook says rate hikes needed to lower high inflation",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-cook-says-rate-hikes-needed-to-lower-high-inflation-5042321",
-    "macro_score": 9,
-    "macro_buckets": [
-      "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-21T02-11-10+00-00-4",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-21T02:11:10+00:00",
-    "title": "US Treasury sanctions Iranian \u2019trustees\u2019 collecting oil revenues",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-treasury-sanctions-iranian-trustees-collecting-oil-revenues-5042737",
-    "macro_score": 8,
-    "macro_buckets": [
-      "rates",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.marketwatch.com-2026-11-20T21-34-00+00-00-8",
-    "source": "www.marketwatch.com",
-    "feed_url": "https://www.marketwatch.com/rss/topstories",
-    "published_at": "2026-11-20T21:34:00+00:00",
-    "title": "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year\u2019s peak",
-    "body": "Travelers preparing for Thanksgiving trips will find cheaper gasoline prices at the pump after months of elevated fuel prices.",
-    "url": "https://www.marketwatch.com/story/one-thing-thanksgiving-travelers-can-be-thankful-for-gas-prices-are-down-75-cents-from-this-years-peak-efac1809?mod=mw_rss_topstories",
-    "macro_score": 6,
-    "macro_buckets": [
-      "inflation",
-      "energy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-21T02-11-10+00-00-7",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-21T02:11:10+00:00",
-    "title": "Fed\u2019s Paulson open to back-to-back rate hikes at steady pace",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-paulson-open-to-backtoback-rate-hikes-at-steady-pace-5042425",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-21T02-11-10+00-00-2",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-21T02:11:10+00:00",
+    "published_at": "2026-11-22T01:14:13+00:00",
     "title": "Tech leads global stocks rout, Treasury yields fall",
     "body": "",
     "url": "https://www.investing.com/news/economy-news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-5040496",
     "macro_score": 4,
     "macro_buckets": [
       "rates"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-21T02-11-10+00-00-8",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-21T02:11:10+00:00",
-    "title": "Fed\u2019s Cook says central bank watching AI industry financing",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/feds-cook-says-central-bank-watching-ai-industry-financing-5042385",
-    "macro_score": 4,
-    "macro_buckets": [
-      "policy"
     ]
   }
 ]

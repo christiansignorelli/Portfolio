@@ -1,55 +1,55 @@
 [
   {
-    "date": "2026-11-20",
-    "daily_brief": "2026-11-20: 1 unique articles were analyzed. Top theme: inflation. There was not enough coverage for a reliable daily sentiment read.",
+    "date": "2026-11-22",
+    "daily_brief": "2026-11-22: 1 unique articles were analyzed. Top theme: uncategorized. There was not enough coverage for a reliable daily sentiment read.",
     "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
     "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
-      "https://www.marketwatch.com/rss/topstories"
+      "https://www.investing.com/rss/news_14.rss"
     ],
     "market_snapshot": [
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -1.96,
-        "return_5d": -5.45,
-        "close": 715.8699951171875
+        "return_1d": -3.64,
+        "return_5d": -8.56,
+        "close": 689.8099975585938
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.16,
-        "return_5d": 0.79,
-        "close": 80.3499984741211
+        "return_1d": 1.37,
+        "return_5d": 2.61,
+        "close": 81.44999694824219
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": 0.03,
-        "return_5d": 0.71,
-        "close": 29.6299991607666
+        "return_1d": -0.03,
+        "return_5d": 0.41,
+        "close": 29.6200008392334
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 1.45,
-        "return_5d": -5.46,
-        "close": 138.08999633789062
+        "return_1d": 1.12,
+        "return_5d": -4.09,
+        "close": 139.6300048828125
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
-        "return_1d": -0.16,
-        "return_5d": -0.58,
-        "close": 76.52999877929688
+        "return_1d": -0.26,
+        "return_5d": -0.79,
+        "close": 76.33000183105469
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": -1.76,
-        "return_5d": -5.55,
-        "close": 335.17999267578125
+        "return_1d": -3.67,
+        "return_5d": -9.17,
+        "close": 322.8699951171875
       }
     ],
     "news_sentiment": {
@@ -60,17 +60,17 @@
       "positive_pct": 0.0,
       "neutral_pct": 0.0,
       "negative_pct": 100.0,
-      "average_confidence": 0.967
+      "average_confidence": 0.912
     },
     "market_regime": {
       "label": "risk_off",
-      "score": -0.3,
+      "score": -0.8,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
         "SPY": -0.4,
-        "HYG": 0.0,
-        "TLT": 0.0,
+        "HYG": -0.35,
+        "TLT": -0.15,
         "GLD": 0.1
       },
       "explanation": "Primary market proxies showed a broadly risk-off response.",
@@ -85,286 +85,7 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.marketwatch.com-2026-11-20T21-34-00+00-00-8",
-        "title": "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year\u2019s peak",
-        "source": "www.marketwatch.com",
-        "url": "https://www.marketwatch.com/story/one-thing-thanksgiving-travelers-can-be-thankful-for-gas-prices-are-down-75-cents-from-this-years-peak-efac1809?mod=mw_rss_topstories",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9672679305076599,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "inflation",
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      }
-    ],
-    "bucket_views": [
-      {
-        "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-11-20T21-34-00+00-00-8",
-            "title": "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year\u2019s peak",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/one-thing-thanksgiving-travelers-can-be-thankful-for-gas-prices-are-down-75-cents-from-this-years-peak-efac1809?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9672679305076599,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "energy",
-        "label": "negative news sentiment",
-        "score": -2,
-        "documents": [
-          {
-            "doc_id": "www.marketwatch.com-2026-11-20T21-34-00+00-00-8",
-            "title": "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year\u2019s peak",
-            "source": "www.marketwatch.com",
-            "url": "https://www.marketwatch.com/story/one-thing-thanksgiving-travelers-can-be-thankful-for-gas-prices-are-down-75-cents-from-this-years-peak-efac1809?mod=mw_rss_topstories",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9672679305076599,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      }
-    ],
-    "debug_documents": []
-  },
-  {
-    "date": "2026-11-21",
-    "daily_brief": "2026-11-21: 6 unique articles were analyzed. News sentiment was neutral. Top theme: policy.",
-    "macro_read": "Macro read: coverage across policy, inflation, liquidity was broadly neutral or mixed.",
-    "market_confirmation": "News sentiment was neutral, while markets showed a clearer directional response.",
-    "market_checks": [],
-    "feed_sources": [
-      "https://www.investing.com/rss/news_14.rss"
-    ],
-    "market_snapshot": [
-      {
-        "symbol": "SPY",
-        "label": "US equities",
-        "return_1d": -1.96,
-        "return_5d": -5.45,
-        "close": 715.8699951171875
-      },
-      {
-        "symbol": "TLT",
-        "label": "Long-duration Treasuries",
-        "return_1d": 0.16,
-        "return_5d": 0.79,
-        "close": 80.3499984741211
-      },
-      {
-        "symbol": "UUP",
-        "label": "US dollar proxy",
-        "return_1d": 0.03,
-        "return_5d": 0.71,
-        "close": 29.6299991607666
-      },
-      {
-        "symbol": "USO",
-        "label": "Oil proxy",
-        "return_1d": 1.45,
-        "return_5d": -5.46,
-        "close": 138.08999633789062
-      },
-      {
-        "symbol": "HYG",
-        "label": "High yield credit",
-        "return_1d": -0.16,
-        "return_5d": -0.58,
-        "close": 76.52999877929688
-      },
-      {
-        "symbol": "GLD",
-        "label": "Gold",
-        "return_1d": -1.76,
-        "return_5d": -5.55,
-        "close": 335.17999267578125
-      }
-    ],
-    "news_sentiment": {
-      "label": "neutral",
-      "score": -0.16666666666666666,
-      "display_score": -0.17,
-      "unique_documents": 6,
-      "positive_pct": 33.3,
-      "neutral_pct": 16.7,
-      "negative_pct": 50.0,
-      "average_confidence": 0.729
-    },
-    "market_regime": {
-      "label": "risk_off",
-      "score": -0.3,
-      "signals_used": 4,
-      "signals_available": 4,
-      "contributions": {
-        "SPY": -0.4,
-        "HYG": 0.0,
-        "TLT": 0.0,
-        "GLD": 0.1
-      },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
-      "data_quality_status": "complete"
-    },
-    "confirmation": {
-      "status": "market_led",
-      "label": "Market-led",
-      "explanation": "News sentiment was neutral, while markets showed a clearer directional response.",
-      "news_label": "neutral",
-      "market_label": "risk_off"
-    },
-    "analyzed_coverage": [
-      {
-        "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-10",
-        "title": "Fed\u2019s Cook says rate hikes needed to lower high inflation",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-cook-says-rate-hikes-needed-to-lower-high-inflation-5042321",
-        "confidence": "medium",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.8222614526748657,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "policy",
-          "inflation"
-        ],
-        "themes": [
-          "inflation",
-          "policy"
-        ],
-        "scores": {
-          "inflation": 1,
-          "growth": 0,
-          "policy": 1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-9",
-        "title": "Fed\u2019s Cook says September rate hike likely insufficient to curb price pressures",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-cook-says-september-rate-hike-likely-insufficient-to-curb-price-pressures-5042348",
-        "confidence": "low",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.5491201281547546,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 9,
-        "macro_buckets": [
-          "policy",
-          "inflation"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": -1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-4",
-        "title": "US Treasury sanctions Iranian \u2019trustees\u2019 collecting oil revenues",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-treasury-sanctions-iranian-trustees-collecting-oil-revenues-5042737",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.8532437682151794,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 8,
-        "macro_buckets": [
-          "rates",
-          "energy"
-        ],
-        "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": -2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-7",
-        "title": "Fed\u2019s Paulson open to back-to-back rate hikes at steady pace",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-paulson-open-to-backtoback-rate-hikes-at-steady-pace-5042425",
-        "confidence": "low",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.5838086605072021,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 1,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-2",
+        "doc_id": "www.investing.com-2026-11-22T01-14-13+00-00-10",
         "title": "Tech leads global stocks rout, Treasury yields fall",
         "source": "www.investing.com",
         "url": "https://www.investing.com/news/economy-news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-5040496",
@@ -386,238 +107,16 @@
           "liquidity": 0,
           "risk": 0
         }
-      },
-      {
-        "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-8",
-        "title": "Fed\u2019s Cook says central bank watching AI industry financing",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/feds-cook-says-central-bank-watching-ai-industry-financing-5042385",
-        "confidence": "medium",
-        "sentiment_label": "neutral",
-        "sentiment_confidence": 0.6555117964744568,
-        "summary_label": "neutral-financial-sentiment",
-        "macro_score": 4,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "policy",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
       }
     ],
     "bucket_views": [
-      {
-        "name": "policy",
-        "label": "positive news sentiment",
-        "score": 1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-10",
-            "title": "Fed\u2019s Cook says rate hikes needed to lower high inflation",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-cook-says-rate-hikes-needed-to-lower-high-inflation-5042321",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8222614526748657,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-9",
-            "title": "Fed\u2019s Cook says September rate hike likely insufficient to curb price pressures",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-cook-says-september-rate-hike-likely-insufficient-to-curb-price-pressures-5042348",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5491201281547546,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-7",
-            "title": "Fed\u2019s Paulson open to back-to-back rate hikes at steady pace",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-paulson-open-to-backtoback-rate-hikes-at-steady-pace-5042425",
-            "confidence": "low",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.5838086605072021,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "policy"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "inflation",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-10",
-            "title": "Fed\u2019s Cook says rate hikes needed to lower high inflation",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-cook-says-rate-hikes-needed-to-lower-high-inflation-5042321",
-            "confidence": "medium",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8222614526748657,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "inflation",
-              "policy"
-            ],
-            "scores": {
-              "inflation": 1,
-              "growth": 0,
-              "policy": 1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-9",
-            "title": "Fed\u2019s Cook says September rate hike likely insufficient to curb price pressures",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/feds-cook-says-september-rate-hike-likely-insufficient-to-curb-price-pressures-5042348",
-            "confidence": "low",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.5491201281547546,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "inflation"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": -1,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "energy",
-        "label": "negative news sentiment",
-        "score": -1,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-4",
-            "title": "US Treasury sanctions Iranian \u2019trustees\u2019 collecting oil revenues",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-treasury-sanctions-iranian-trustees-collecting-oil-revenues-5042737",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8532437682151794,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "rates",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
       {
         "name": "rates",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-4",
-            "title": "US Treasury sanctions Iranian \u2019trustees\u2019 collecting oil revenues",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-treasury-sanctions-iranian-trustees-collecting-oil-revenues-5042737",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.8532437682151794,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "rates",
-              "energy"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": -2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-21T02-11-10+00-00-2",
+            "doc_id": "www.investing.com-2026-11-22T01-14-13+00-00-10",
             "title": "Tech leads global stocks rout, Treasury yields fall",
             "source": "www.investing.com",
             "url": "https://www.investing.com/news/economy-news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-5040496",
