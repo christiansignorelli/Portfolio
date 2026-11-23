@@ -1,15 +1,15 @@
 [
   {
-    "id": "www.investing.com-2026-11-22T01-14-13+00-00-10",
+    "id": "www.investing.com-2026-11-23T01-38-45+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-22T01:14:13+00:00",
-    "title": "Tech leads global stocks rout, Treasury yields fall",
+    "published_at": "2026-11-23T01:38:45+00:00",
+    "title": "Dollar edges off 19-month high after market rout; yen softens",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-5040496",
+    "url": "https://www.investing.com/news/economy-news/dollar-edges-off-19month-high-after-market-rout-yen-softens-5044182",
     "macro_score": 4,
     "macro_buckets": [
-      "rates"
+      "fx"
     ]
   }
 ]

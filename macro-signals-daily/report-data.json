@@ -1,7 +1,7 @@
 [
   {
-    "date": "2026-11-22",
-    "daily_brief": "2026-11-22: 1 unique articles were analyzed. Top theme: uncategorized. There was not enough coverage for a reliable daily sentiment read.",
+    "date": "2026-11-23",
+    "daily_brief": "2026-11-23: 1 unique articles were analyzed. Top theme: uncategorized. There was not enough coverage for a reliable daily sentiment read.",
     "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
     "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
@@ -54,13 +54,13 @@
     ],
     "news_sentiment": {
       "label": "insufficient_data",
-      "score": -1.0,
-      "display_score": -1.0,
+      "score": 1.0,
+      "display_score": 1.0,
       "unique_documents": 1,
-      "positive_pct": 0.0,
+      "positive_pct": 100.0,
       "neutral_pct": 0.0,
-      "negative_pct": 100.0,
-      "average_confidence": 0.912
+      "negative_pct": 0.0,
+      "average_confidence": 0.798
     },
     "market_regime": {
       "label": "risk_off",
@@ -85,17 +85,17 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-11-22T01-14-13+00-00-10",
-        "title": "Tech leads global stocks rout, Treasury yields fall",
+        "doc_id": "www.investing.com-2026-11-23T01-38-45+00-00-1",
+        "title": "Dollar edges off 19-month high after market rout; yen softens",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-5040496",
-        "confidence": "high",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.9120573997497559,
-        "summary_label": "negative-financial-sentiment",
+        "url": "https://www.investing.com/news/economy-news/dollar-edges-off-19month-high-after-market-rout-yen-softens-5044182",
+        "confidence": "medium",
+        "sentiment_label": "positive",
+        "sentiment_confidence": 0.7975223660469055,
+        "summary_label": "positive-financial-sentiment",
         "macro_score": 4,
         "macro_buckets": [
-          "rates"
+          "fx"
         ],
         "themes": [
           "uncategorized"
@@ -111,22 +111,22 @@
     ],
     "bucket_views": [
       {
-        "name": "rates",
+        "name": "fx",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-22T01-14-13+00-00-10",
-            "title": "Tech leads global stocks rout, Treasury yields fall",
+            "doc_id": "www.investing.com-2026-11-23T01-38-45+00-00-1",
+            "title": "Dollar edges off 19-month high after market rout; yen softens",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-5040496",
-            "confidence": "high",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.9120573997497559,
-            "summary_label": "negative-financial-sentiment",
+            "url": "https://www.investing.com/news/economy-news/dollar-edges-off-19month-high-after-market-rout-yen-softens-5044182",
+            "confidence": "medium",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.7975223660469055,
+            "summary_label": "positive-financial-sentiment",
             "macro_score": 4,
             "macro_buckets": [
-              "rates"
+              "fx"
             ],
             "themes": [
               "uncategorized"
