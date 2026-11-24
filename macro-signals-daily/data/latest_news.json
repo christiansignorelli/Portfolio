@@ -1,15 +1,57 @@
 [
   {
-    "id": "www.investing.com-2026-11-23T01-38-45+00-00-1",
+    "id": "www.investing.com-2026-11-24T05-18-50+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-23T01:38:45+00:00",
-    "title": "Dollar edges off 19-month high after market rout; yen softens",
+    "published_at": "2026-11-24T05:18:50+00:00",
+    "title": "Fed\u2019s Williams says inflation still too high, signals more rate hikes possible",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/fed-has-work-to-do-to-lower-inflation-williams-says-5046374",
+    "macro_score": 9,
+    "macro_buckets": [
+      "policy",
+      "inflation"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-24T05-18-50+00-00-10",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-24T05:18:50+00:00",
+    "title": "Dollar jumps on hawkish Fed bets, AI rally",
     "body": "",
     "url": "https://www.investing.com/news/economy-news/dollar-edges-off-19month-high-after-market-rout-yen-softens-5044182",
-    "macro_score": 4,
+    "macro_score": 8,
     "macro_buckets": [
+      "policy",
       "fx"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-24T05-18-50+00-00-1",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-24T05:18:50+00:00",
+    "title": "Indian economy in 2027: BofA forecasts strength despite inflation, rupee risks",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/indian-economy-in-2027-bofa-forecasts-strength-despite-inflation-rupee-risks-5047009",
+    "macro_score": 6,
+    "macro_buckets": [
+      "inflation",
+      "growth"
+    ]
+  },
+  {
+    "id": "www.investing.com-2026-11-24T05-18-50+00-00-5",
+    "source": "www.investing.com",
+    "feed_url": "https://www.investing.com/rss/news_14.rss",
+    "published_at": "2026-11-24T05:18:50+00:00",
+    "title": "South Korea\u2019s central bank seen raising rates on Thursday, once more next quarter - Reuters poll",
+    "body": "",
+    "url": "https://www.investing.com/news/economy-news/south-koreas-central-bank-seen-raising-rates-on-thursday-once-more-next-quarter--reuters-poll-5046788",
+    "macro_score": 6,
+    "macro_buckets": [
+      "policy"
     ]
   }
 ]
