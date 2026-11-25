@@ -1,57 +1,31 @@
 [
   {
-    "id": "www.investing.com-2026-11-24T05-18-50+00-00-7",
+    "id": "www.investing.com-2026-11-25T04-09-40+00-00-7",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-24T05:18:50+00:00",
-    "title": "Fed\u2019s Williams says inflation still too high, signals more rate hikes possible",
+    "published_at": "2026-11-25T04:09:40+00:00",
+    "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/fed-has-work-to-do-to-lower-inflation-williams-says-5046374",
+    "url": "https://www.investing.com/news/economy-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi-5049486",
     "macro_score": 9,
     "macro_buckets": [
       "policy",
-      "inflation"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-24T05-18-50+00-00-10",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-24T05:18:50+00:00",
-    "title": "Dollar jumps on hawkish Fed bets, AI rally",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-edges-off-19month-high-after-market-rout-yen-softens-5044182",
-    "macro_score": 8,
-    "macro_buckets": [
-      "policy",
+      "inflation",
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-11-24T05-18-50+00-00-1",
+    "id": "www.investing.com-2026-11-25T04-09-40+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-24T05:18:50+00:00",
-    "title": "Indian economy in 2027: BofA forecasts strength despite inflation, rupee risks",
+    "published_at": "2026-11-25T04:09:40+00:00",
+    "title": "RBA\u2019s Jacobs says Aussie financial conditions restrictive as inflation accelerates",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/indian-economy-in-2027-bofa-forecasts-strength-despite-inflation-rupee-risks-5047009",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/rbas-jacobs-says-aussie-financial-conditions-restrictive-as-inflation-accelerates-5049510",
+    "macro_score": 4,
     "macro_buckets": [
-      "inflation",
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-24T05-18-50+00-00-5",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-24T05:18:50+00:00",
-    "title": "South Korea\u2019s central bank seen raising rates on Thursday, once more next quarter - Reuters poll",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/south-koreas-central-bank-seen-raising-rates-on-thursday-once-more-next-quarter--reuters-poll-5046788",
-    "macro_score": 6,
-    "macro_buckets": [
-      "policy"
+      "policy",
+      "inflation"
     ]
   }
 ]
