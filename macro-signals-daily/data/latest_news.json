@@ -1,56 +1,42 @@
 [
   {
-    "id": "www.investing.com-2026-11-26T03-31-46+00-00-4",
+    "id": "www.investing.com-2026-11-27T03-38-00+00-00-5",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-26T03:31:46+00:00",
-    "title": "South Korea\u2019s central bank raises rates, upgrades 2027 growth outlook",
+    "published_at": "2026-11-27T03:38:00+00:00",
+    "title": "European stocks end higher on easing tariff fears, ECB leadership continuity",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/south-koreas-central-bank-raises-rates-upgrades-2027-growth-outlook-5051906",
-    "macro_score": 9,
+    "url": "https://www.investing.com/news/economy-news/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease-5052228",
+    "macro_score": 8,
     "macro_buckets": [
       "policy",
-      "growth"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-26T03-31-46+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-26T03:31:46+00:00",
-    "title": "Dollar steady as sliding yields temper safe-haven bid",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/dollar-steady-as-sliding-yields-temper-safehaven-bid-5051883",
-    "macro_score": 7,
-    "macro_buckets": [
-      "rates",
       "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-11-26T03-31-46+00-00-1",
+    "id": "www.investing.com-2026-11-27T03-38-00+00-00-6",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-26T03:31:46+00:00",
-    "title": "BOJ policymaker signals chance of faster-pace interest rate hikes",
+    "published_at": "2026-11-27T03:38:00+00:00",
+    "title": "Euro countries pick Spain\u2019s De Cos as ECB chief, Costa says",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/bojs-tamura-signals-chance-of-fasterpace-interest-rate-hikes-5051855",
+    "url": "https://www.investing.com/news/economy-news/euro-countries-pick-spains-de-cos-as-ecb-chief-costa-says-5052656",
     "macro_score": 6,
     "macro_buckets": [
-      "policy"
+      "policy",
+      "fx"
     ]
   },
   {
-    "id": "www.investing.com-2026-11-26T03-31-46+00-00-10",
+    "id": "www.investing.com-2026-11-27T03-38-00+00-00-2",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-26T03:31:46+00:00",
-    "title": "US economy roars ahead in third quarter, inflation remains high in October",
+    "published_at": "2026-11-27T03:38:00+00:00",
+    "title": "Trump demands probe of GDP data released before midterms",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/us-inflation-rises-further-in-october-5050840",
-    "macro_score": 6,
+    "url": "https://www.investing.com/news/economy-news/trump-demands-probe-of-gdp-data-released-before-midterms-5052586",
+    "macro_score": 4,
     "macro_buckets": [
-      "inflation",
       "growth"
     ]
   }

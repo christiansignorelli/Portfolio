@@ -1,8 +1,8 @@
 [
   {
-    "date": "2026-11-26",
-    "daily_brief": "2026-11-26: 4 unique articles were analyzed. News sentiment was positive. Top theme: uncategorized.",
-    "macro_read": "Macro read: Growth, Policy, Liquidity coverage showed a predominantly positive tone.",
+    "date": "2026-11-27",
+    "daily_brief": "2026-11-27: 3 unique articles were analyzed. News sentiment was positive. Top theme: policy.",
+    "macro_read": "Macro read: Policy, Growth coverage showed a predominantly positive tone.",
     "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
     "market_checks": [],
     "feed_sources": [
@@ -54,13 +54,13 @@
     ],
     "news_sentiment": {
       "label": "positive",
-      "score": 0.5,
-      "display_score": 0.5,
-      "unique_documents": 4,
-      "positive_pct": 75.0,
-      "neutral_pct": 0.0,
-      "negative_pct": 25.0,
-      "average_confidence": 0.861
+      "score": 0.3333333333333333,
+      "display_score": 0.33,
+      "unique_documents": 3,
+      "positive_pct": 33.3,
+      "neutral_pct": 66.7,
+      "negative_pct": 0.0,
+      "average_confidence": 0.818
     },
     "market_regime": {
       "label": "risk_off",
@@ -85,48 +85,46 @@
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-11-26T03-31-46+00-00-4",
-        "title": "South Korea\u2019s central bank raises rates, upgrades 2027 growth outlook",
+        "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-5",
+        "title": "European stocks end higher on easing tariff fears, ECB leadership continuity",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/south-koreas-central-bank-raises-rates-upgrades-2027-growth-outlook-5051906",
+        "url": "https://www.investing.com/news/economy-news/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease-5052228",
         "confidence": "high",
         "sentiment_label": "positive",
-        "sentiment_confidence": 0.8918725252151489,
+        "sentiment_confidence": 0.9001411199569702,
         "summary_label": "positive-financial-sentiment",
-        "macro_score": 9,
+        "macro_score": 8,
         "macro_buckets": [
           "policy",
-          "growth"
-        ],
-        "themes": [
-          "growth",
-          "policy",
-          "liquidity"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 2,
-          "policy": 2,
-          "liquidity": 2,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-11-26T03-31-46+00-00-6",
-        "title": "Dollar steady as sliding yields temper safe-haven bid",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/dollar-steady-as-sliding-yields-temper-safehaven-bid-5051883",
-        "confidence": "medium",
-        "sentiment_label": "negative",
-        "sentiment_confidence": 0.7572492361068726,
-        "summary_label": "negative-financial-sentiment",
-        "macro_score": 7,
-        "macro_buckets": [
-          "rates",
           "fx"
         ],
         "themes": [
-          "uncategorized"
+          "policy"
+        ],
+        "scores": {
+          "inflation": 0,
+          "growth": 0,
+          "policy": 2,
+          "liquidity": 0,
+          "risk": 0
+        }
+      },
+      {
+        "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-6",
+        "title": "Euro countries pick Spain\u2019s De Cos as ECB chief, Costa says",
+        "source": "www.investing.com",
+        "url": "https://www.investing.com/news/economy-news/euro-countries-pick-spains-de-cos-as-ecb-chief-costa-says-5052656",
+        "confidence": "high",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.8973503708839417,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 6,
+        "macro_buckets": [
+          "policy",
+          "fx"
+        ],
+        "themes": [
+          "policy"
         ],
         "scores": {
           "inflation": 0,
@@ -137,45 +135,20 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-11-26T03-31-46+00-00-10",
-        "title": "US economy roars ahead in third quarter, inflation remains high in October",
+        "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-2",
+        "title": "Trump demands probe of GDP data released before midterms",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/us-inflation-rises-further-in-october-5050840",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.9154173135757446,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
+        "url": "https://www.investing.com/news/economy-news/trump-demands-probe-of-gdp-data-released-before-midterms-5052586",
+        "confidence": "medium",
+        "sentiment_label": "neutral",
+        "sentiment_confidence": 0.6563693881034851,
+        "summary_label": "neutral-financial-sentiment",
+        "macro_score": 4,
         "macro_buckets": [
-          "inflation",
           "growth"
         ],
         "themes": [
-          "inflation"
-        ],
-        "scores": {
-          "inflation": 2,
-          "growth": 0,
-          "policy": 0,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-11-26T03-31-46+00-00-1",
-        "title": "BOJ policymaker signals chance of faster-pace interest rate hikes",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/bojs-tamura-signals-chance-of-fasterpace-interest-rate-hikes-5051855",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.8785094022750854,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 6,
-        "macro_buckets": [
-          "policy"
-        ],
-        "themes": [
-          "uncategorized"
+          "growth"
         ],
         "scores": {
           "inflation": 0,
@@ -193,47 +166,103 @@
         "score": 2,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-26T03-31-46+00-00-4",
-            "title": "South Korea\u2019s central bank raises rates, upgrades 2027 growth outlook",
+            "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-5",
+            "title": "European stocks end higher on easing tariff fears, ECB leadership continuity",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/south-koreas-central-bank-raises-rates-upgrades-2027-growth-outlook-5051906",
+            "url": "https://www.investing.com/news/economy-news/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease-5052228",
             "confidence": "high",
             "sentiment_label": "positive",
-            "sentiment_confidence": 0.8918725252151489,
+            "sentiment_confidence": 0.9001411199569702,
             "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
+            "macro_score": 8,
             "macro_buckets": [
               "policy",
-              "growth"
+              "fx"
             ],
             "themes": [
-              "growth",
-              "policy",
-              "liquidity"
+              "policy"
             ],
             "scores": {
               "inflation": 0,
-              "growth": 2,
+              "growth": 0,
               "policy": 2,
-              "liquidity": 2,
+              "liquidity": 0,
               "risk": 0
             }
           },
           {
-            "doc_id": "www.investing.com-2026-11-26T03-31-46+00-00-1",
-            "title": "BOJ policymaker signals chance of faster-pace interest rate hikes",
+            "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-6",
+            "title": "Euro countries pick Spain\u2019s De Cos as ECB chief, Costa says",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/bojs-tamura-signals-chance-of-fasterpace-interest-rate-hikes-5051855",
+            "url": "https://www.investing.com/news/economy-news/euro-countries-pick-spains-de-cos-as-ecb-chief-costa-says-5052656",
             "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8785094022750854,
-            "summary_label": "positive-financial-sentiment",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.8973503708839417,
+            "summary_label": "neutral-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
-              "policy"
+              "policy",
+              "fx"
             ],
             "themes": [
-              "uncategorized"
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 0,
+              "liquidity": 0,
+              "risk": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "fx",
+        "label": "neutral news sentiment",
+        "score": 0,
+        "documents": [
+          {
+            "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-5",
+            "title": "European stocks end higher on easing tariff fears, ECB leadership continuity",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease-5052228",
+            "confidence": "high",
+            "sentiment_label": "positive",
+            "sentiment_confidence": 0.9001411199569702,
+            "summary_label": "positive-financial-sentiment",
+            "macro_score": 8,
+            "macro_buckets": [
+              "policy",
+              "fx"
+            ],
+            "themes": [
+              "policy"
+            ],
+            "scores": {
+              "inflation": 0,
+              "growth": 0,
+              "policy": 2,
+              "liquidity": 0,
+              "risk": 0
+            }
+          },
+          {
+            "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-6",
+            "title": "Euro countries pick Spain\u2019s De Cos as ECB chief, Costa says",
+            "source": "www.investing.com",
+            "url": "https://www.investing.com/news/economy-news/euro-countries-pick-spains-de-cos-as-ecb-chief-costa-says-5052656",
+            "confidence": "high",
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.8973503708839417,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 6,
+            "macro_buckets": [
+              "policy",
+              "fx"
+            ],
+            "themes": [
+              "policy"
             ],
             "scores": {
               "inflation": 0,
@@ -247,119 +276,27 @@
       },
       {
         "name": "growth",
-        "label": "positive news sentiment",
-        "score": 2,
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-26T03-31-46+00-00-4",
-            "title": "South Korea\u2019s central bank raises rates, upgrades 2027 growth outlook",
+            "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-2",
+            "title": "Trump demands probe of GDP data released before midterms",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/south-koreas-central-bank-raises-rates-upgrades-2027-growth-outlook-5051906",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.8918725252151489,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 9,
-            "macro_buckets": [
-              "policy",
-              "growth"
-            ],
-            "themes": [
-              "growth",
-              "policy",
-              "liquidity"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 2,
-              "policy": 2,
-              "liquidity": 2,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-26T03-31-46+00-00-10",
-            "title": "US economy roars ahead in third quarter, inflation remains high in October",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-inflation-rises-further-in-october-5050840",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9154173135757446,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
-              "growth"
-            ],
-            "themes": [
-              "inflation"
-            ],
-            "scores": {
-              "inflation": 2,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "rates",
-        "label": "positive news sentiment",
-        "score": 2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-11-26T03-31-46+00-00-6",
-            "title": "Dollar steady as sliding yields temper safe-haven bid",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/dollar-steady-as-sliding-yields-temper-safehaven-bid-5051883",
+            "url": "https://www.investing.com/news/economy-news/trump-demands-probe-of-gdp-data-released-before-midterms-5052586",
             "confidence": "medium",
-            "sentiment_label": "negative",
-            "sentiment_confidence": 0.7572492361068726,
-            "summary_label": "negative-financial-sentiment",
-            "macro_score": 7,
+            "sentiment_label": "neutral",
+            "sentiment_confidence": 0.6563693881034851,
+            "summary_label": "neutral-financial-sentiment",
+            "macro_score": 4,
             "macro_buckets": [
-              "rates",
-              "fx"
-            ],
-            "themes": [
-              "uncategorized"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 0,
-              "liquidity": 0,
-              "risk": 0
-            }
-          }
-        ]
-      },
-      {
-        "name": "inflation",
-        "label": "positive news sentiment",
-        "score": 2,
-        "documents": [
-          {
-            "doc_id": "www.investing.com-2026-11-26T03-31-46+00-00-10",
-            "title": "US economy roars ahead in third quarter, inflation remains high in October",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/us-inflation-rises-further-in-october-5050840",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9154173135757446,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 6,
-            "macro_buckets": [
-              "inflation",
               "growth"
             ],
             "themes": [
-              "inflation"
+              "growth"
             ],
             "scores": {
-              "inflation": 2,
+              "inflation": 0,
               "growth": 0,
               "policy": 0,
               "liquidity": 0,
