@@ -1,9 +1,9 @@
 [
   {
-    "date": "2026-11-27",
-    "daily_brief": "2026-11-27: 3 unique articles were analyzed. News sentiment was positive. Top theme: policy.",
-    "macro_read": "Macro read: Policy, Growth coverage showed a predominantly positive tone.",
-    "market_confirmation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
+    "date": "2026-11-28",
+    "daily_brief": "2026-11-28: 2 unique articles were analyzed. Top theme: policy. There was not enough coverage for a reliable daily sentiment read.",
+    "macro_read": "Macro read: there was not enough unique coverage to form a reliable daily news sentiment signal.",
+    "market_confirmation": "There was not enough reliable news or market data to evaluate confirmation.",
     "market_checks": [],
     "feed_sources": [
       "https://www.investing.com/rss/news_14.rss"
@@ -12,111 +12,86 @@
       {
         "symbol": "SPY",
         "label": "US equities",
-        "return_1d": -0.29,
-        "return_5d": -1.85,
-        "close": 716.7000122070312
+        "return_1d": 1.62,
+        "return_5d": 1.74,
+        "close": 728.3200073242188
       },
       {
         "symbol": "TLT",
         "label": "Long-duration Treasuries",
-        "return_1d": 0.92,
-        "return_5d": 2.52,
-        "close": 82.23999786376953
+        "return_1d": -1.18,
+        "return_5d": 1.14,
+        "close": 81.2699966430664
       },
       {
         "symbol": "UUP",
         "label": "US dollar proxy",
-        "return_1d": -0.1,
-        "return_5d": -0.07,
-        "close": 29.600000381469727
+        "return_1d": 0.41,
+        "return_5d": 0.3,
+        "close": 29.719999313354492
       },
       {
         "symbol": "USO",
         "label": "Oil proxy",
-        "return_1d": 3.29,
-        "return_5d": 2.78,
-        "close": 139.88999938964844
+        "return_1d": -1.52,
+        "return_5d": -0.23,
+        "close": 137.77000427246094
       },
       {
         "symbol": "HYG",
         "label": "High yield credit",
         "return_1d": 0.12,
-        "return_5d": -0.17,
-        "close": 76.5199966430664
+        "return_5d": 0.1,
+        "close": 76.61000061035156
       },
       {
         "symbol": "GLD",
         "label": "Gold",
-        "return_1d": 0.61,
-        "return_5d": -4.03,
-        "close": 327.45001220703125
+        "return_1d": 2.12,
+        "return_5d": -0.23,
+        "close": 334.3999938964844
       }
     ],
     "news_sentiment": {
-      "label": "positive",
-      "score": 0.3333333333333333,
-      "display_score": 0.33,
-      "unique_documents": 3,
-      "positive_pct": 33.3,
-      "neutral_pct": 66.7,
+      "label": "insufficient_data",
+      "score": 0.0,
+      "display_score": 0.0,
+      "unique_documents": 2,
+      "positive_pct": 0.0,
+      "neutral_pct": 100.0,
       "negative_pct": 0.0,
-      "average_confidence": 0.818
+      "average_confidence": 0.849
     },
     "market_regime": {
-      "label": "risk_off",
-      "score": -0.65,
+      "label": "risk_on",
+      "score": 0.45,
       "signals_used": 4,
       "signals_available": 4,
       "contributions": {
-        "SPY": -0.4,
+        "SPY": 0.4,
         "HYG": 0.0,
-        "TLT": -0.15,
+        "TLT": 0.15,
         "GLD": -0.1
       },
-      "explanation": "Primary market proxies showed a broadly risk-off response.",
+      "explanation": "Primary market proxies showed a broadly risk-on response.",
       "data_quality_status": "complete"
     },
     "confirmation": {
-      "status": "divergent",
-      "label": "Divergent",
-      "explanation": "News sentiment and the market reaction diverged. The market may have been responding to other catalysts or information already priced in.",
-      "news_label": "positive",
-      "market_label": "risk_off"
+      "status": "insufficient_data",
+      "label": "Insufficient data",
+      "explanation": "There was not enough reliable news or market data to evaluate confirmation.",
+      "news_label": "insufficient_data",
+      "market_label": "risk_on"
     },
     "analyzed_coverage": [
       {
-        "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-5",
-        "title": "European stocks end higher on easing tariff fears, ECB leadership continuity",
+        "doc_id": "www.investing.com-2026-11-28T03-17-01+00-00-3",
+        "title": "Brazil central bank to offer $2 billion in dollar auctions Monday",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease-5052228",
-        "confidence": "high",
-        "sentiment_label": "positive",
-        "sentiment_confidence": 0.9001411199569702,
-        "summary_label": "positive-financial-sentiment",
-        "macro_score": 8,
-        "macro_buckets": [
-          "policy",
-          "fx"
-        ],
-        "themes": [
-          "policy"
-        ],
-        "scores": {
-          "inflation": 0,
-          "growth": 0,
-          "policy": 2,
-          "liquidity": 0,
-          "risk": 0
-        }
-      },
-      {
-        "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-6",
-        "title": "Euro countries pick Spain\u2019s De Cos as ECB chief, Costa says",
-        "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/euro-countries-pick-spains-de-cos-as-ecb-chief-costa-says-5052656",
-        "confidence": "high",
+        "url": "https://www.investing.com/news/economy-news/brazil-central-bank-to-offer-2-billion-in-dollar-auctions-monday-93CH-5053913",
+        "confidence": "medium",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.8973503708839417,
+        "sentiment_confidence": 0.8179991841316223,
         "summary_label": "neutral-financial-sentiment",
         "macro_score": 6,
         "macro_buckets": [
@@ -124,7 +99,8 @@
           "fx"
         ],
         "themes": [
-          "policy"
+          "policy",
+          "liquidity"
         ],
         "scores": {
           "inflation": 0,
@@ -135,20 +111,20 @@
         }
       },
       {
-        "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-2",
-        "title": "Trump demands probe of GDP data released before midterms",
+        "doc_id": "www.investing.com-2026-11-28T03-17-01+00-00-1",
+        "title": "Volatile stock market confronts jobs data, rate view as next tests",
         "source": "www.investing.com",
-        "url": "https://www.investing.com/news/economy-news/trump-demands-probe-of-gdp-data-released-before-midterms-5052586",
-        "confidence": "medium",
+        "url": "https://www.investing.com/news/economy-news/sliding-stock-market-confronts-jobs-data-rate-view-as-next-tests-5053316",
+        "confidence": "high",
         "sentiment_label": "neutral",
-        "sentiment_confidence": 0.6563693881034851,
+        "sentiment_confidence": 0.8796663880348206,
         "summary_label": "neutral-financial-sentiment",
         "macro_score": 4,
         "macro_buckets": [
-          "growth"
+          "labor"
         ],
         "themes": [
-          "growth"
+          "uncategorized"
         ],
         "scores": {
           "inflation": 0,
@@ -162,42 +138,17 @@
     "bucket_views": [
       {
         "name": "policy",
-        "label": "positive news sentiment",
-        "score": 2,
+        "label": "neutral news sentiment",
+        "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-5",
-            "title": "European stocks end higher on easing tariff fears, ECB leadership continuity",
+            "doc_id": "www.investing.com-2026-11-28T03-17-01+00-00-3",
+            "title": "Brazil central bank to offer $2 billion in dollar auctions Monday",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease-5052228",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9001411199569702,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "policy",
-              "fx"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-6",
-            "title": "Euro countries pick Spain\u2019s De Cos as ECB chief, Costa says",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/euro-countries-pick-spains-de-cos-as-ecb-chief-costa-says-5052656",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/brazil-central-bank-to-offer-2-billion-in-dollar-auctions-monday-93CH-5053913",
+            "confidence": "medium",
             "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8973503708839417,
+            "sentiment_confidence": 0.8179991841316223,
             "summary_label": "neutral-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
@@ -205,7 +156,8 @@
               "fx"
             ],
             "themes": [
-              "policy"
+              "policy",
+              "liquidity"
             ],
             "scores": {
               "inflation": 0,
@@ -223,38 +175,13 @@
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-5",
-            "title": "European stocks end higher on easing tariff fears, ECB leadership continuity",
+            "doc_id": "www.investing.com-2026-11-28T03-17-01+00-00-3",
+            "title": "Brazil central bank to offer $2 billion in dollar auctions Monday",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease-5052228",
-            "confidence": "high",
-            "sentiment_label": "positive",
-            "sentiment_confidence": 0.9001411199569702,
-            "summary_label": "positive-financial-sentiment",
-            "macro_score": 8,
-            "macro_buckets": [
-              "policy",
-              "fx"
-            ],
-            "themes": [
-              "policy"
-            ],
-            "scores": {
-              "inflation": 0,
-              "growth": 0,
-              "policy": 2,
-              "liquidity": 0,
-              "risk": 0
-            }
-          },
-          {
-            "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-6",
-            "title": "Euro countries pick Spain\u2019s De Cos as ECB chief, Costa says",
-            "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/euro-countries-pick-spains-de-cos-as-ecb-chief-costa-says-5052656",
-            "confidence": "high",
+            "url": "https://www.investing.com/news/economy-news/brazil-central-bank-to-offer-2-billion-in-dollar-auctions-monday-93CH-5053913",
+            "confidence": "medium",
             "sentiment_label": "neutral",
-            "sentiment_confidence": 0.8973503708839417,
+            "sentiment_confidence": 0.8179991841316223,
             "summary_label": "neutral-financial-sentiment",
             "macro_score": 6,
             "macro_buckets": [
@@ -262,7 +189,8 @@
               "fx"
             ],
             "themes": [
-              "policy"
+              "policy",
+              "liquidity"
             ],
             "scores": {
               "inflation": 0,
@@ -275,25 +203,25 @@
         ]
       },
       {
-        "name": "growth",
+        "name": "labor",
         "label": "neutral news sentiment",
         "score": 0,
         "documents": [
           {
-            "doc_id": "www.investing.com-2026-11-27T03-38-00+00-00-2",
-            "title": "Trump demands probe of GDP data released before midterms",
+            "doc_id": "www.investing.com-2026-11-28T03-17-01+00-00-1",
+            "title": "Volatile stock market confronts jobs data, rate view as next tests",
             "source": "www.investing.com",
-            "url": "https://www.investing.com/news/economy-news/trump-demands-probe-of-gdp-data-released-before-midterms-5052586",
-            "confidence": "medium",
+            "url": "https://www.investing.com/news/economy-news/sliding-stock-market-confronts-jobs-data-rate-view-as-next-tests-5053316",
+            "confidence": "high",
             "sentiment_label": "neutral",
-            "sentiment_confidence": 0.6563693881034851,
+            "sentiment_confidence": 0.8796663880348206,
             "summary_label": "neutral-financial-sentiment",
             "macro_score": 4,
             "macro_buckets": [
-              "growth"
+              "labor"
             ],
             "themes": [
-              "growth"
+              "uncategorized"
             ],
             "scores": {
               "inflation": 0,

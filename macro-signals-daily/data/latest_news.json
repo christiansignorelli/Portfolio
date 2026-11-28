@@ -1,26 +1,12 @@
 [
   {
-    "id": "www.investing.com-2026-11-27T03-38-00+00-00-5",
+    "id": "www.investing.com-2026-11-28T03-17-01+00-00-3",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-27T03:38:00+00:00",
-    "title": "European stocks end higher on easing tariff fears, ECB leadership continuity",
+    "published_at": "2026-11-28T03:17:01+00:00",
+    "title": "Brazil central bank to offer $2 billion in dollar auctions Monday",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease-5052228",
-    "macro_score": 8,
-    "macro_buckets": [
-      "policy",
-      "fx"
-    ]
-  },
-  {
-    "id": "www.investing.com-2026-11-27T03-38-00+00-00-6",
-    "source": "www.investing.com",
-    "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-27T03:38:00+00:00",
-    "title": "Euro countries pick Spain\u2019s De Cos as ECB chief, Costa says",
-    "body": "",
-    "url": "https://www.investing.com/news/economy-news/euro-countries-pick-spains-de-cos-as-ecb-chief-costa-says-5052656",
+    "url": "https://www.investing.com/news/economy-news/brazil-central-bank-to-offer-2-billion-in-dollar-auctions-monday-93CH-5053913",
     "macro_score": 6,
     "macro_buckets": [
       "policy",
@@ -28,16 +14,16 @@
     ]
   },
   {
-    "id": "www.investing.com-2026-11-27T03-38-00+00-00-2",
+    "id": "www.investing.com-2026-11-28T03-17-01+00-00-1",
     "source": "www.investing.com",
     "feed_url": "https://www.investing.com/rss/news_14.rss",
-    "published_at": "2026-11-27T03:38:00+00:00",
-    "title": "Trump demands probe of GDP data released before midterms",
+    "published_at": "2026-11-28T03:17:01+00:00",
+    "title": "Volatile stock market confronts jobs data, rate view as next tests",
     "body": "",
-    "url": "https://www.investing.com/news/economy-news/trump-demands-probe-of-gdp-data-released-before-midterms-5052586",
+    "url": "https://www.investing.com/news/economy-news/sliding-stock-market-confronts-jobs-data-rate-view-as-next-tests-5053316",
     "macro_score": 4,
     "macro_buckets": [
-      "growth"
+      "labor"
     ]
   }
 ]
